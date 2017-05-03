@@ -274,8 +274,8 @@ Full-Width Styles
 #forkme_banner {
   display: block;
   position: absolute;
-  top:0;
-  right: 10px;
+  top: 1em;
+  right: 1em;
   z-index: 10;
   padding: 10px 50px 10px 10px;
   color: #fff;
@@ -296,7 +296,7 @@ Full-Width Styles
 }
 
 #header_wrap .inner {
-  padding: 50px 10px 30px 10px;
+  padding: 1em;
 }
 
 #project_title {
