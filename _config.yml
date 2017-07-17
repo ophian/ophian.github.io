@@ -1,0 +1,19 @@
+permalink:           pretty
+relative_permalinks: true
+
+# Setup
+title:               Ian (Ophian)
+tagline:             ''
+description:         ''
+url:                 https://ophian.github.io
+paginate:            5
+highlighter:         pygments
+
+# About/contact
+author:
+  name:              Ian
+  url:               
+  email:             just no - get me over github please
+
+gems:
+  - jekyll-sitemap
