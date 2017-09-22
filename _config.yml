@@ -6,7 +6,7 @@ tagline:             'Styx is what Serendipity should be'
 description:         ''
 url:                 https://ophian.github.io
 paginate:            5
-highlighter:         pygments
+highlighter:         rouge
 
 # About/contact
 author:
