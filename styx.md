@@ -35,6 +35,8 @@ The origin Serendipity help documentation is found on the Serendipity website at
 ### Help requests:
 
 Please use the GitHub Styx [issue](https://github.com/ophian/styx/issues) tasks, if you have questions or found a bug. Thanks.
-Regards Ian, Enjoy!
+
+Regards Ian,  
+Enjoy!
 
 This blog was created using [jekyll](http://jekyllrb.com/) and [Poole](http://getpoole.com/).
