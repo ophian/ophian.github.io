@@ -311,6 +311,10 @@ a.sidebar-nav-item:focus {
 .page,
 .post {
   margin-bottom: 4em;
+  border: 1px solid #AAA;
+  padding: .5em;
+  background-color: #ececec;
+  box-shadow: 2px 2px 5px;
 }
 
 /* Blog post or page title */
@@ -322,6 +326,10 @@ a.sidebar-nav-item:focus {
 .page-title,
 .post-title {
   margin-top: 0;
+  background-color: #ddd;
+}
+.post ul {
+    background-color: #FDFDFD;
 }
 
 /* Meta data line below post title */
