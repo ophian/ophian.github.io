@@ -15,7 +15,7 @@ This blog is about the Serendipity Styx Edition.
 
 Its project name originally originates from _"River Styx"_ in the Greek classical mythology.
 
-If this is too dark for you, you may read this as **S**erendipi**ty** Ne**x**t. :) or just **Sty x**.
+If this is too dark for you, you may read this as **S**erendipi**ty** Ne**x**t. :) or just **Sty x**.  
 _Serendipity 2.1-Alpha ++_ more and more became a broken playground, simplifying things without need and commits without knowledge and appreciation about its deepest nuances. Which I regret deeply.
 
 **Styx** is what **Serendipity** should be!
