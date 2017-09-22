@@ -1,9 +1,8 @@
 permalink:           pretty
-relative_permalinks: true
 
 # Setup
-title:               Ian (Ophian)
-tagline:             ''
+title:               Serendipity Styx Edition
+tagline:             'Styx is what Serendipity should be'
 description:         ''
 url:                 https://ophian.github.io
 paginate:            5
@@ -12,7 +11,7 @@ highlighter:         pygments
 # About/contact
 author:
   name:              Ian
-  url:               
+  url:               https://github.com/ophian/styx
   email:             just no - get me over github please
 
 gems:
