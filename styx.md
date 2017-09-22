@@ -36,6 +36,10 @@ The origin Serendipity help documentation is found on the Serendipity website at
 
 Please use the GitHub Styx [issue](https://github.com/ophian/styx/issues) tasks, if you have questions or found a bug. Thanks.
 
+### Releases:
+
+Please visit my [blog](https://ophian.github.io/) on this site or point yourself to the reposoties release [downloads](https://github.com/ophian/styx/releases).
+
 Regards Ian,  
 Enjoy!
 
