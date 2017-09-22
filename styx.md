@@ -1,21 +1,17 @@
 ---
 layout: page
-title: Serendipity Styx Edition
+title: Home of the Serendipity Styx Edition
 ---
-
-#Home of the Serendipity Styx Edition.
-
-Welcome to the blog of ** John Styx **.
 
 This blog is about the Serendipity Styx Edition.
 
 [Styx](https://github.com/ophian/styx) is what Serendipity should be!
 
-###Serendipity Styx - A reliable, secure &amp; extensible PHP blog engine
+### Serendipity Styx - A reliable, secure &amp; extensible PHP blog engine
 
 [Serendipity](https://s9y.org) is a PHP-powered weblog engine which gives the user an easy way to maintain a blog. While the default package is designed for the casual blogger, Serendipity offers an expandable framework with the power for professional applications.
 
-###Why Styx?
+### Why Styx?
 
 Its project name originally originates from _"River Styx"_ in the Greek classical mythology.
 
@@ -26,7 +22,7 @@ _Serendipity 2.1-Alpha ++_ more and more became a broken playground, simplifying
 
 Over many many years I very actively helped to develop Serendipity, in special the 1.7, 2.0 and 2.1 Series, the plugins section, and daily guided community requests in the forum. Realising some day that my expertise and insight wasn't seen that helpful any more, I decided to go.
 
-###The Serendipity Styx Edition
+### The Serendipity Styx Edition
 
 It was built in my origin intent primarily for myself to keep track on my vision of what Serendipity used to be, wide and open, and with multi levels of extended properties. I wanted it - to **not** cut off this extendibility without real need. Styx is a contributed document of my deep affinity with Serendipity.
 
@@ -36,17 +32,7 @@ Since **plugins** are an essential part of Serendipity, this repository holds a 
 
 The origin Serendipity help documentation is found on the Serendipity website at s9y.org, and you are requested to read all about it there, as long as it suites Styx too in the main parts. Some important changes between the two editions will have to be added to the Styx Wiki or this page sooner or later, I assume.
 
-###Styx releases:
-
-You can find current **Styx** releases [here](https://github.com/ophian/styx/releases).
-Development versions are (currently) found in the master branch.
-
-  - _Ermgh.. Whistles.. :D Upcoming Styx 2.3 Edition is not so very far away..._
-  - **June 2017, 24th** - [Styx 2.2.0](https://github.com/ophian/styx/releases/tag/2.2.0) was released. Setting this LIVE, took too long and - as ever - has become more of a follow-up version, that - as said before - will follow soon to catch up. :)
-  Styx 2.2.0 did not only finalise the 2.1.0 Snapshot, it also brought in some exiting new additions. Check the ChangeLog!
-  - **January 2017, 26th** - [Styx 2.1.0](https://github.com/ophian/styx/releases/tag/2.1.0) was released. A very intense cared release shot and more of a 2.2 version, which will follow soon, to demonstrate what Styx is in real life.
-
-##Help requests:
+### Help requests:
 
 Please use the GitHub Styx [issue](https://github.com/ophian/styx/issues) tasks, if you have questions or found a bug. Thanks.
 Regards Ian, Enjoy!
