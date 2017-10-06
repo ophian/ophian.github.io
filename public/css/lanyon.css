@@ -334,13 +334,8 @@ a.sidebar-nav-item:focus {
   background-position: right;
   background-size: contain;
   background-color: #ccdde7;
-  background: #3e5f81;
   box-shadow: 0 1px 4px rgba(0,0,0,.5);
   text-shadow: 1px 1px 1px rgba(0,0,0,.8);
-}
-.post_date {
-  color: #00a8a8;
-  text-align: right;
 }
 .post ul {
     background-color: #FDFDFD;
@@ -355,8 +350,10 @@ a.sidebar-nav-item:focus {
   display: block;
   margin-top: -.5rem;
   margin-bottom: 1rem;
-  color: #9a9a9a;
+  color: #00a8a8;
+  text-align: right;
 }
+
 
 /* Related posts */
 .related {
