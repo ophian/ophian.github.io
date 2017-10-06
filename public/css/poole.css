@@ -343,12 +343,6 @@ tbody tr:nth-child(odd) th {
 .post-title {
   margin-top: 0;
 }
-.post-title {
-  background-image: url("../styx.png");
-  background-repeat: no-repeat;
-  background-position: right;
-  background-size: contain;
-}
 
 /* Meta data line below post title */
 .post-date {
