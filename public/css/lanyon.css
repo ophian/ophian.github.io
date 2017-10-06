@@ -328,15 +328,6 @@ a.sidebar-nav-item:focus {
   margin-top: 0;
   background-color: #ddd;
 }
-.post-title {
-  background-image: url("../styx.png");
-  background-repeat: no-repeat;
-  background-position: right;
-  background-size: contain;
-  background-color: #ccdde7;
-  box-shadow: 0 1px 4px rgba(0,0,0,.5);
-  text-shadow: 1px 1px 1px rgba(0,0,0,.8);
-}
 .post ul {
     background-color: #FDFDFD;
     font-size: 18px;
@@ -432,6 +423,17 @@ a.pagination-item:hover {
   }
 }
 
+@media screen and (min-width: 640px) {
+  .post-title {
+    background-image: url("../styx.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    background-color: #ccdde7;
+    box-shadow: 0 1px 4px rgba(0,0,0,.5);
+    text-shadow: 1px 1px 1px rgba(0,0,0,.8);
+  }
+}
 
 /*
  * Reverse layout
