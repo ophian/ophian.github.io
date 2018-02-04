@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html class="" lang="de_DE">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>Serendipity Styx Edition - Styx Book | Styx is what Serendipity should be | ophian.github.io</title>
+    <meta name="description" content="Serendipity Styx Edition, Styx Book, Styx Buch, The Book, Das Buch, Serendipity Book, Serendipity Buch, Individuelle Weblogs für Einsteiger und Profis, Styx is what Serendipity should be">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta property="og:title" content="Serendipity Styx Edition - Styx Book | Styx is what Serendipity should be | ophian.github.io">
+    <meta property="og:site_name" content="Serendipity Styx Blog System">
+    <meta property="og:description" content="Serendipity Styx Edition, Styx Book, Styx Buch, The Book, Das Buch, Serendipity Book, Serendipity Buch, Individuelle Weblogs für Einsteiger und Profis, Styx is what Serendipity should be">
+    <meta property="og:image" content="https://ophian.github.io/i/styx-opengraph.jpg">
+    <meta property="og:url" content="https://ophian.github.io/">
+
+    <!-- Enable responsiveness on mobile devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+    <link rel="apple-touch-icon" href="../i/apple-touch-icon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <link rel="stylesheet" href="./css/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400">
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/libs.min.css">
+    <link rel="stylesheet" href="../css/styx.min.css">
+    <link rel="stylesheet" href="./css/book.min.css">
+    <script>
+        // PLEASE better use Firefox or Chromium browsers !!
+        if (/MSIE \d|Trident.*rv:/.test(navigator.userAgent)) {
+            document.write('<script src="./js/promise.min.js"><\/script>');
+            document.write('<script src="./js/fetch.polyfill.js"><\/script>');
+        }
+    </script>
+    <script>
+        if (/MSIE \d|Trident.*rv:/.test(navigator.userAgent)) {
+            //import Promise from 'promise-polyfill'
+            if (!window.Promise) {
+              window.Promise = Promise;
+            }
+        }
+    </script>
+</head>
+<body>
+<div id="loading"><img id="loading-image" src="../i/loader.gif" alt="Loading...">Loading...</div>
+<ul class="skip-link__list">
+    <li class="skip-link skip-link--main-nav"><a href="#main-navigation" tabindex="1">Main navigation</a></li>
+    <li class="skip-link skip-link--main-repo"><a href="#main-repository" tabindex="1">Styx Repository</a></li>
+    <li class="skip-link skip-link--main-content"><a href="#main-content" tabindex="1">Styx Main content</a></li>
+    <li class="skip-link skip-link--main-book"><a href="index.html" tabindex="1"><span class="invisible">Serendipity Styx: Das Buch</span></a></li>
+</ul>
+<div class="menu menu--no-hero menu--tiny ">
+    <div class="menu__page-title">
+        <h1><a href="/book">Serendipity Styx Edition - Das Buch</a></h1>
+    </div>
+    <div class="progress-bar" aria-hidden="true"><span class="progress-bar__fill"></span></div>
+</div>
+<div class="site-nav site-nav--no-hero menu--tiny">
+    <button class="site-nav__toggler" id="site-nav__toggler" aria-label="Show website navigation" aria-expanded="false" tabindex="1">
+        <span class="bar" aria-hidden="true"></span>
+        <span class="bar" aria-hidden="true"></span>
+        <span class="bar" aria-hidden="true"></span>
+    </button>
+</div>
+<div class="sidebar site-nav__panel" aria-hidden="true" aria-controls="site-nav__toggler">
+    <nav id="main-navigation" role="navigation" aria-label="main navigation">
+        <ul class="site-nav__menu">
+            <li class="site-nav__menu-item site-nav__menu-item--current"><a href="/book" tabindex="-1" title="Documentation Serendipity Styx Book [de] page">Styx Book</a></li>
+        </ul>
+        <!-- book sb items start -->
+        <div id="sidebar" class="sidebar-nav"></div>
+        <!-- book sb items end -->
+
+        <hr>
+
+        <div class="sidebar-item">
+         <ul class="social-links" aria-label="links to styx repositories">Repository
+          <li><i class="fa fa-github"></i>&nbsp;<a href="https://github.com/ophian/">Styx</a></li><!--GitHub Ophian-->
+          <li><i class="fa fa-github"></i>&nbsp;<a href="https://github.com/ophian/styx" tabindex="-1" title="GitHub Serendipity Styx Repository Code">Styx Repository</a></li>
+          <li><i class="fa fa-github"></i>&nbsp;<a href="https://github.com/ophian/styx/releases" tabindex="-1" title="GitHub Serendipity Styx Core Releases">Styx Downloads</a></li>
+          <li><i class="fa fa-github"></i>&nbsp;<a href="https://github.com/ophian/additional_plugins" tabindex="-1" title="GitHub Serendipity Styx Plugins Repository">Styx Plugins</a></li>
+          <li><i class="fa fa-github"></i>&nbsp;<a href="https://github.com/ophian/styx/issues" tabindex="-1" title="GitHub Serendipity Styx Issues">Styx Issues</a></li>
+         </ul>
+         <ul class="social-links" aria-label="links to styx site pages">Website
+          <li><i class="fa fa-star"></i>&nbsp;<a href="/">Styx Home Site</a></li>
+          <li><i class="fa fa-star"></i>&nbsp;<a href="/blog" tabindex="-1" title="Serendipity Styx Blog">Styx Blog</a></li>
+          <li><i class="fa fa-star"></i>&nbsp;<a href="/blog/archives" tabindex="-1" title="Serendipity Styx Blog Archives">Styx Blog Archives</a></li>
+          <li><i class="fa fa-star"></i>&nbsp;<a href="/atom.xml" tabindex="-1" title="Serendipity Styx Blog Feed">Styx Blog Feed</a></li>
+          <li><i class="fa fa-star"></i>&nbsp;<a href="/about" tabindex="-1" title="About Serendipity Styx">About Styx</a></li>
+         </ul>
+         <ul class="social-links" aria-label="links to styx help pages">Help
+          <li><i class="fa fa-star"></i>&nbsp;<a href="/hc" tabindex="-1" title="Serendipity Styx Help Center">Help center</a></li>
+          <li><i class="fa fa-star"></i>&nbsp;<a href="/hc/en/faq" tabindex="-1" title="Serendipity Styx FAQ">Styx FAQ</a></li>
+          <li><i class="fa fa-star"></i>&nbsp;<a href="/contact" tabindex="-1" title="Serendipity Styx Contact">Contact Styx</a></li>
+         </ul>
+        </div>
+
+        <p>&nbsp;</p>
+    </nav>
+</div>
+<div class="site-cover"></div>
+<main class="site-content site-content--blog-post site-content--no-hero" id="main-content" role="main">
+    <section class="section blog-post" data-reading-progress="true">
+        <div class="blog-post__content">
+
+            <div id="workspace" class="clearfix">
+
+                <div id="content" class="clearfix">
+
+                    <div id="book_header" class="clearfix">
+                        <div class="title-block">
+                            <h1>Serendipity - <strong>Styx Edition</strong></h1>
+                            <h2>Individuelle Weblogs für Einsteiger und Profis</h2>
+                            <h3><em>Styx is what Serendipity should be</em></h3>
+                            <h4>Copyright<br>&nbsp;&nbsp;&nbsp;Garvin Hicking (s9y.org),<br>
+                            &nbsp;&nbsp;&nbsp;Ian Styx (https://github.com/ophian/)</h4>
+                        </div>
+
+                        <p>&nbsp;</p>
+
+                        <p>&nbsp;</p>
+
+                    </div><!-- #book_header end -->
+
+                    <div id="index" class="clearfix">
+
+<h2 class="ref noanli" id="serendipity-styx-2-4-january-2018"><span class="revision">Serendipity Styx 2.4, January 2018</span></h2>
+
+<section id="C0" class="chapter"></section><!-- chapter 0 Vorwort end -->
+
+<section id="C1" class="chapter"></section><!-- chapter 1 Einführung end -->
+
+<section id="C2" class="chapter"></section><!-- chapter 2 Einrichtung end -->
+
+<section id="C3" class="chapter"></section><!-- chapter 3 Frontend end -->
+
+<section id="C4" class="chapter"></section><!-- chapter 4 Backend end -->
+
+<section id="C5" class="chapter"></section><!-- chapter 5 Sidebar Plugins end -->
+
+<section id="C6" class="chapter"></section><!-- chapter 6 Event Plugins end -->
+
+<section id="C7" class="chapter"></section><!-- chapter 7 Gekoppelte Plugins end -->
+
+<section id="C8" class="chapter"></section><!-- chapter 8 Wartung end -->
+
+<section id="C9" class="chapter"></section><!-- chapter 9 Anpassungen end -->
+
+<section id="C10" class="chapter"></section><!-- chapter 10 Kern end -->
+
+<section id="C11" class="chapter"></section><!-- chapter 11 Community end -->
+
+<script>
+function status(response) {
+    if (response.status >= 200 && response.status < 300) {
+        return Promise.resolve(response)
+    } else {
+        return Promise.reject(new Error(response.statusText))
+    }
+}
+
+function booking(url, el) {
+    fetch(url, {
+        method: "GET",
+        headers:{'Content-Type':'text/html'},
+        credentials: "same-origin"
+    })
+    .then(status)
+    .then(function(response) { return response.text(); })
+    .then(function(data) { el.innerHTML = el.innerHTML + data; });
+}
+
+if (document.readyState == "loading") {
+    booking('./toc-nav.tpl', document.querySelector( '#sidebar' ));
+    booking('./chapt00.tpl', document.querySelector( '#C0' ));
+    booking('./chapt01.tpl', document.querySelector( '#C1' ));
+    booking('./chapt02.tpl', document.querySelector( '#C2' ));
+    booking('./chapt03.tpl', document.querySelector( '#C3' ));
+    booking('./chapt04.tpl', document.querySelector( '#C4' ));
+    booking('./chapt05.tpl', document.querySelector( '#C5' ));
+    booking('./chapt06.tpl', document.querySelector( '#C6' ));
+    booking('./chapt07.tpl', document.querySelector( '#C7' ));
+    booking('./chapt08.tpl', document.querySelector( '#C8' ));
+    booking('./chapt09.tpl', document.querySelector( '#C9' ));
+    booking('./chapt10.tpl', document.querySelector( '#C10' ));
+    booking('./chapt11.tpl', document.querySelector( '#C11' ));
+}
+
+// include snippets changed to txt .ext for better loading caches
+if (document.readyState == "DOMContentLoaded") {
+    booking('snippets/forward-htaccess.txt', document.querySelector( '#forward-htaccess' ));
+    booking('snippets/forward-local.txt', document.querySelector( '#forward-local' ));
+    booking('snippets/forward-html.txt', document.querySelector( '#forward-html' ));
+    booking('snippets/forward-php.txt', document.querySelector( '#forward-php' ));
+    booking('snippets/utf8conv.txt', document.querySelector( '#utf8conv' ));
+    booking('snippets/httpauth.txt', document.querySelector( '#httpauth' ));
+    booking('snippets/htaccess.txt', document.querySelector( '#snippet-htaccess' ));
+    booking('snippets/htaccess-rewrite.txt', document.querySelector( '#htaccess-rewrite' ));
+    booking('snippets/config-local.txt', document.querySelector( '#config-local' ));
+    booking('snippets/snippet-fixperm.txt', document.querySelector( '#snippet-fixperm' ));
+    booking('snippets/spamblock.txt', document.querySelector( '#snippet-spamblock' ));
+    booking('snippets/emoticons.txt', document.querySelector( '#emoticons' ));
+    booking('snippets/aggregator.txt', document.querySelector( '#snippet-aggregator' ));
+    booking('snippets/podcast.txt', document.querySelector( '#snippet-podcast' ));
+    booking('snippets/backend.txt', document.querySelector( '#backend' ));
+    booking('snippets/staticpage-entries.txt', document.querySelector( '#staticpage-entries' ));
+    booking('snippets/helloworld.txt', document.querySelector( '#helloworld' ));
+    booking('snippets/helloworld2.txt', document.querySelector( '#helloworld2' ));
+    booking('snippets/helloworld3.txt', document.querySelector( '#helloworld3' ));
+}
+</script>
+
+<section id="C12" class="chapter revision">
+<span class="label invisible" id="register">index</span>
+
+<h2 id="chapter-XII">Index/Register<a class="anchorjs-link " href="#chapter-XII" aria-label="Anchor link for: Chapter XII" data-anchorjs-icon="" style="opacity: 1; font-family: anchorjs-icons; font-style: normal; font-variant: normal; font-weight: normal; line-height: 1; padding-left: 0.375em;"></a></h2>
+
+<p>ToDo: Index/Register aus hidden tags - (per Javascript?)</p>
+
+<p>ToDo: Suche - (per Javascript?)</p>
+
+</section><!-- chapter 12 Index end -->
+
+                    </div><!-- #index -->
+
+                </div><!-- #content -->
+
+            </div><!-- #workspace -->
+
+        </div><!-- .blog-post__content -->
+        <div class="blog-post__footer">
+            <div class="blog-post__footer-author">
+                <div class="blog-post__author-description">
+                    <h3>Ian Styx (ophian)<span>Maintainer</span></h3>
+                    <p class="follow"><a href="https://github.com/ophian/styx/issues" title="Serendipity Styx issues" target="_blank">@ophian</a></p>
+                    <p>Ian Styx has more than 17 years of experience in the IT market as a developer and from 2003 as a Serendipity lover.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+<div class="addthis_float_share_toolbox"></div>
+
+<footer class="footer footer--book" role="contentinfo">
+    <div class="section-container footer-site-map">
+        <div class="row footer-menu__row">
+            <div class="col-xs-12 col-sm-4 footer-menu__container">
+                <div class="footer-menu__wrapper" role="navigation" aria-labelledby="menu-category-1-0">
+                    <h2 id="menu-category-1-0">Repository</h2>
+                    <ul class="footer-menu">
+                        <li><a class="icon icon--small" href="https://github.com/ophian/styx/releases" target="_blank" rel="noopener"><svg class="icon__body"><use xlink:href="#github"></use></svg> Serendipity Styx Downloads</a></li>
+                        <li><a class="icon icon--small" href="https://github.com/ophian/styx" target="_blank" rel="noopener"><svg class="icon__body"><use xlink:href="#github"></use></svg> Serendipity Styx Code</a></li>
+                        <li><a class="icon icon--small" href="https://github.com/ophian/additional_plugins" target="_blank" rel="noopener"><svg class="icon__body"><use xlink:href="#github"></use></svg> Serendipity Styx Plugins</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-4 footer-menu__container">
+                <div class="footer-menu__wrapper" role="navigation" aria-labelledby="menu-category-1-1">
+                    <h2 id="menu-category-1-1">Site &amp; Documentation</h2>
+                    <ul class="footer-menu">
+                        <li><a href="/">Serendipity Styx Home</a></li>
+                        <li><a href="/blog">Serendipity Styx Blog</a></li>
+                        <li><a href="/plugins">Serendipity Styx Plugins</a></li>
+                        <li><a href="/themes">Serendipity Styx Themes</a></li>
+                        <li><a href="/hc/en/faq">Serendipity Styx FAQ</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-4 footer-menu__container">
+                <div class="footer-menu__wrapper" role="navigation" aria-labelledby="menu-category-1-2">
+                    <h2 id="menu-category-1-2">Connect with Styx</h2>
+                    <ul class="footer-menu">
+                        <li><a href="/contact">Contact us</a></li>
+                        <li><a href="/hc">Help center</a></li>
+                        <li><a href="/about">About Styx</a></li>
+                        <li><a href="https://github.com/ophian/styx/issues">GitHub Styx Issues</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-mobile" role="navigation" aria-hidden="true" data-mobile="true">
+        <div class="section-container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 footer-mobile__column">
+                    <h2>Repository</h2>
+                    <ul class="footer-mobile__menu">
+                        <li><a class="icon icon--small" href="https://github.com/ophian/styx/releases" target="_blank" rel="noopener"><svg class="icon__body"><use xlink:href="#github"></use></svg> Serendipity Styx Downloads</a></li>
+                        <li><a class="icon icon--small" href="https://github.com/ophian/styx" target="_blank" rel="noopener"><svg class="icon__body"><use xlink:href="#github"></use></svg> Serendipity Styx Code</a></li>
+                        <li><a class="icon icon--small" href="https://github.com/ophian/additional_plugins" target="_blank" rel="noopener"><svg class="icon__body"><use xlink:href="#github"></use></svg> Serendipity Styx Plugins</a></li>
+                    </ul>
+                </div>
+                <div class="col-xs-12 col-sm-6 footer-mobile__column">
+                    <h2>Connect with Styx</h2>
+                    <ul class="footer-mobile__menu">
+                        <li><a href="/contact">Contact us</a></li>
+                        <li><a href="/hc">Help center</a></li>
+                        <li><a href="/about">About Styx</a></li>
+                        <li><a href="/">Serendipity Styx Home</a></li>
+                        <li><a href="/blog">Serendipity Styx Blog</a></li>
+                        <li><a href="/book">Serendipity Styx Book [de]</a></li>
+                        <li><a href="/plugins">Serendipity Styx Plugins</a></li>
+                        <li><a href="/themes">Serendipity Styx Themes</a></li>
+                        <li><a href="https://github.com/ophian/styx/issues">GitHub Styx Issues</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section-container footer-policy">
+        <div class="row">
+            <div class="col-xs-12 col-md-6">
+                <p class="footer-policy__rights">© 2016 - 2018 Serendipity Styx Edition.</p>
+            </div>
+            <div class="col-xs-12 col-md-6">
+                <ul class="footer-policy__menu">
+                    <li class="footer-policy__menu-item"><a href="/legal">Legal</a></li>
+                    <li class="footer-policy__menu-item"><a href="/legal/privacy">Privacy policy</a></li>
+                    <li class="footer-policy__menu-item"><a href="https://opensource.org/docs/definition.php" target="_blank">Open Source</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+	<svg id="github" viewBox="0 0 24 24">
+		<title id="simpleicons-github-icon">GitHub</title><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"></path>
+	</svg>
+
+	<symbol id="arrow-down" viewBox="0 0 78 37">
+		<title>Arrow down</title><g stroke-width="3" fill="none" fill-rule="evenodd" stroke-linecap="square"><path d="M2.081 2.135L39.37 34.347M39.533 34.347L76.82 2.135 39.533 34.347z"></path></g>
+	</symbol>
+
+	<symbol id="menu" viewBox="0 0 25 17">
+		<title>Menu</title><path d="M0 17h25v-3H0v3zm0-7h25V7H0v3zM0 0v3h25V0H0z"></path>
+	</symbol>
+
+	<symbol id="close" viewBox="0 0 18 18">
+		<title>Close icon</title><path d="M18 1.813L16.187 0 9 7.187 1.813 0 0 1.813 7.187 9 0 16.187 1.813 18 9 10.813 16.187 18 18 16.187 10.813 9z"></path>
+	</symbol>
+
+	<symbol id="check" viewBox="0 0 20 14">
+		<title>Check</title><path d="M7 11.17L2.83 7 1.41 8.41 7 14 19 2 17.59.59z" stroke="#19B159"></path>
+	</symbol>
+</svg>
+
+<script src="./js/anchor.min.js" type="text/javascript"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script>window.jQuery || document.write('<script src="../js/jquery-3.2.1.min.js"><\/script>')</script>
+<script src="../js/jquery.ui.totop.min.js" type="text/javascript"></script>
+<script src="./js/main.min.js" type="text/javascript"></script>
+<script>
+    $(document).ready(function() {
+        $().UItoTop();
+    
+        // Add anchors
+        anchors.options = {
+            placement: 'right',
+            visible: 'always'
+        };
+        anchors.add('section h2, section h3, header h4');
+    });
+</script>
+    
+<a href="#" id="toTop" style="display: inline;"><span id="toTopHover"></span>To Top</a>
+
+<script src="/js/styx.min.js"></script>
+</body></html>
