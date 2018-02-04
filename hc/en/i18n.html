@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Serendipity Styx Edition - Styx Home | Styx is what Serendipity should be | ophian.github.io</title>
+    <title>Serendipity Styx Edition - Help Center [en] | ophian.github.io</title>
     <meta charset="UTF-8">
     <meta name="description" content="Serendipity Styx is a PHP-powered weblog engine giving users an easy way to maintain a blog and developers a framework with the power for professional applications.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,9 +10,9 @@
     <meta property="og:description" content="Serendipity Styx is a PHP-powered weblog engine giving users an easy way to maintain a blog and developers a framework with the power for professional applications.">
     <meta property="og:image" content="https://ophian.github.io/i/styx-opengraph.jpg">
     <meta property="og:url" content="https://ophian.github.io/">
-    <link rel="apple-touch-icon" href="./i/apple-touch-icon.png">
-    <link rel="stylesheet" href="./css/libs.min.css">
-    <link rel="stylesheet" href="./css/styx.min.css">
+    <link rel="apple-touch-icon" href="../../i/apple-touch-icon.png">
+    <link rel="stylesheet" href="../../css/libs.min.css">
+    <link rel="stylesheet" href="../../css/styx.min.css">
 </head>
 <body>
 <ul class="skip-link__list">
@@ -24,7 +24,7 @@
 </ul>
 <div class="menu menu--no-hero menu--tiny ">
     <div class="menu__page-title">
-        <h1><a href="/">Serendipity Styx Edition - Styx Home</a></h1>
+        <h1><a href="/hc/en">Serendipity Styx Edition - Documentation [en]</a></h1>
     </div>
     <div class="progress-bar" aria-hidden="true"><span class="progress-bar__fill"></span></div>
 </div>
@@ -38,10 +38,11 @@
 <div class="site-nav__panel" aria-hidden="true" aria-controls="site-nav__toggler">
     <nav id="main-navigation" role="navigation" aria-label="main navigation">
         <ul class="site-nav__menu">
-            <li class="site-nav__menu-item site-nav__menu-item--current"><a href="/" tabindex="-1" title="Serendipity Styx Home">Styx Home</a></li>
+            <li class="site-nav__menu-item site-nav__menu-item--current"><a href="/hc/en" tabindex="-1" title="Serendipity Styx Help Center [en]">Documentation [en]</a></li>
         </ul>
         <p class="site-nav__menu-category">Main</p>
         <ul class="site-nav__menu" aria-label="links to styx site main pages">
+            <li class="site-nav__menu-item"><a href="/" tabindex="-1" title="Serendipity Styx Home">Styx Home</a></li>
             <li class="site-nav__menu-item"><a href="/blog" tabindex="-1" title="Serendipity Styx Blog">Styx Blog</a></li>
             <li class="site-nav__menu-item"><a href="/blog/archives" tabindex="-1" title="Serendipity Styx Blog Archives">Styx Blog Archives</a></li>
             <li class="site-nav__menu-item"><a href="/atom.xml" tabindex="-1" title="Serendipity Styx Blog Feed">Styx Blog Feed</a></li>
@@ -66,134 +67,110 @@
         <p class="site-nav__menu-category">Connect & Help</p>
         <ul class="site-nav__menu" aria-label="links connect and help pages">
             <li class="site-nav__menu-item"><a href="/hc" tabindex="-1" title="Serendipity Styx Help Center">Help center</a></li>
+            <li class="site-nav__menu-item"><a href="/hc/de" tabindex="-1" title="Serendipity Styx Hilfeseiten">Hilfeseiten</a></li>
             <li class="site-nav__menu-item"><a href="/hc/en/faq" tabindex="-1" title="Serendipity Styx FAQ">Styx FAQ</a></li>
             <li class="site-nav__menu-item"><a href="/contact" tabindex="-1" title="Serendipity Styx Contact">Contact Styx</a></li>
         </ul>
     </nav>
 </div>
 <div class="site-cover"></div>
-<main class="site-content site-content--blog-post site-content--no-hero" id="main-content" role="main">
-    <section class="section blog-post" data-reading-progress="true">
-        <div class="blog-post__content">
-            <div class="blog-post__content-header">
-                <div class="blog-post__go-back">
-                    <div class="blog-categories__list blog-categories__list--inline blog-categories__list--small">
-                        <li class="blog-categories__list-item"><a href="/blog">Blog</a></li>
-                        <li class="blog-categories__list-item"><a href="/blog/archives">Archives</a></li>
-                        <li class="blog-categories__list-item"><a href="/about">About Styx</a></li>
-                        <li class="blog-categories__list-item"><a href="/hc/en/faq">Styx FAQ</a></li>
-                        <li class="blog-categories__list-item"><a href="/book">Styx Book</a></li>
-                        <li class="blog-categories__list-item"><a href="/atom.xml">Feed</a></li>
-                    </div>
+<main class="site-content site-content--col site-content--no-hero site-content--simple" id="main-content" role="main">
+    <section class="section site-col" data-reading-progress="true">
+        <div class="col">
+            <div class="col-menu__wrapper">
+                <nav class="col-menu" role="navigation" aria-label="Help Center [en] documents navigation">
+                    <ul>
+                        <li><a href="/hc">Styx Help Center</a></li>
+                        <li><a href="/hc/en">Documentation [en]</a></li>
+                        <li><a href="/hc/de">Dokumentation [de]</a></li>
+                        <li><a href="/hc/en/faq">Styx Help Center FAQ</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="col-document__wrapper col-document__wrapper-documents">
+                <div class="col-document">
+                    <h1>Styx Help Center [en] - Languages</h1>
+                    <p><a href="index.html"><span class="icon arrow-left">←</span> back to main page</a></p>
+                    <h2 id="docs-languagesi18n">Languages/i18n</h2>
+
+<p>s9y is fully compatible to be used in a native language and supports native and UTF-charsets, timezones and entity-encoding. Apart from the bundled languages (english, german, danish, czech, french, spanish and many others) you can easily translate the strings into your language. Given that you can read at least one of the mentioned languages. :-)</p>
+
+<p>Language files are stored inside the ‘lang’ subdirectory of s9y. Each language file has its filename token: ‘de’ for ‘German’, ‘en’ for english and so forth:</p>
+
+<ul>
+  <li><strong>lang/serendipity_lang_en.inc.php</strong>: This file holds a list of constants for each string/message that is used in Serendipity. The file also defines some common variables like the national timezone, locales, a dateformat and the used codepage/charset (ISO-88591-1, windows-1252 etc).</li>
+</ul>
+
+<p>If you want to add a new language, just copy this mentioned file and adjust your language prefix. Say you want to add a dutch version of s9y you just need the file <strong>lang/serendipity_lang_nl.inc.php</strong>.</p>
+
+<p>Now you also need to supply a UTF-8 version of your language file, which you then put into the <strong>UTF-8</strong> directory. For new language we suggest that you only create a UTF-8 version of your language, with all the Constants set to UTF-8 and the file saved in UTF-8 encoding. Then you just put the same file into both the <strong>lang</strong> and <strong>lang/UTF-8</strong> directories. If all this UTF-8 mumbo-jombo is too complex for you, just announce your translated language file on the Serendipity Forums, and somebody will come to your help to create the UTF-8 variant!</p>
+
+<p>Now to make Serendipity recognize the new language, you need to edit the file <strong>serendipity_config.inc.php</strong> in the main serendipity directory. Open that file with an editor and look for the definition of the $serendipity[‘languages’] array. It will look something like this:</p>
+
+<pre><code>$serendipity['languages'] = array(
+        'en' =&gt; 'English',
+        'de' =&gt; 'German',
+        'da' =&gt; 'Danish',
+        'es' =&gt; 'Spanish',
+        'fr' =&gt; 'French',
+        'fi' =&gt; 'Finnish',
+        'cs' =&gt; 'Czech (Win-1250)',
+        'cz' =&gt; 'Czech (ISO-8859-2)',
+        'nl' =&gt; 'Dutch',
+        'is' =&gt; 'Icelandic',
+        'tr' =&gt; 'Turkish',
+        'se' =&gt; 'Swedish',
+        'pt' =&gt; 'Portuguese Brazilian',
+        'pt_PT' =&gt; 'Portuguese European',
+        'bg' =&gt; 'Bulgarian',
+        'hu' =&gt; 'Hungarian',
+        'no' =&gt; 'Norwegian',
+        'pl' =&gt; 'Polish',
+        'ro' =&gt; 'Romanian',
+        'it' =&gt; 'Italian',
+        'ru' =&gt; 'Russian',
+        'fa' =&gt; 'Persian',
+        'tw' =&gt; 'Traditional Chinese (Big5)',
+        'tn' =&gt; 'Traditional Chinese (UTF-8)',
+        'zh' =&gt; 'Simplified Chinese (GB2312)',
+        'cn' =&gt; 'Simplified Chinese (UTF-8)',
+        'ja' =&gt; 'Japanese',
+        'ko' =&gt; 'Korean',
+        'sa' =&gt; 'Arabic',
+        'ta' =&gt; 'Tamil'
+);</code></pre>
+
+<p>Now just add your new language with the prefix and the language name to that array, and you can choose it in your Serendipity Interface.</p>
+
+<p>Please also think about <a href="https://github.com/ophian/styx/issues">contributing</a> your translated language files so that all users can benefit from your efforts!</p>
+
+<h3 id="docs-date-formats">Date formats</h3>
+
+<p>The date format of the Serendipity backend and frontend is specific to the selected language you have chosen.</p>
+
+<p>Each language file defines a PHP constant like this:</p>
+
+<pre><code>@define('DATE_FORMAT_ENTRY', '%A, %B %e. %Y');
+@define('DATE_FORMAT_SHORT', '%Y-%m-%d %H:%M');</code></pre>
+
+<p>This defines the default date format that appears “native” to each language. This is usually preferred, because every language has it’s own preference on how dates should look like to a native reader.</p>
+
+<p>Those constants are evaluated within the entries.tpl template file of a template, so in fact you can override the language-based date format with a template-based date formatting. Date formatting inside a template looks like this:</p>
+
+<pre><code>{$entry.timestamp|formatTime:$CONST.DATE_FORMAT_ENTRY}</code></pre>
+
+<p>which usually means to format a timestamp of an entry variable with the content of that constant. If you want to use an ISO 8601 timestamp instead, you could use:</p>
+
+<pre><code>{$entry.timestamp|formatTime:'%Y-%m-%d %H:%i'}</code></pre>
+
+<p>which would always format the time like “2008-10-28 15:00” in every language. The parameters are documented on the <a href="http://php.net/strftime">php.net/strftime documentation</a>.</p>
+
+<p>Plus, some templates (like bulletproof) offer you a template option field where you can choose your favorite (language independent) date format. This allows you to change the dateformat without the need to edit any file.</p>
                 </div>
-                <h1>Home <strong>of Serendipity Styx Edition</strong></h1>
-                <div class="blog-post__meta">
-                    <span class="date">Posted on&nbsp;<time>2018-01-16</time></span>
-                    <span class="author">&nbsp;by&nbsp;<span class="author-name">Ian Styx</span></span>
-                </div>
-               <figure id="slides" class="welcome">
-                    <span class="slide showing"><img src="i/c/frontend-2k11.400.jpg" alt=""></span>
-                    <span class="slide"><img src="i/c/login.400.jpg" alt=""></span>
-                    <span class="slide"><img src="i/c/backend-dash.400.jpg" alt=""></span>
-                    <span class="slide"><img src="i/c/backend.400.jpg" alt=""></span>
-                    <span class="slide"><img src="i/c/welcome-styx.400.jpg" alt=""></span>
-                    <span class="slide"><img src="i/c/maintain.400.jpg" alt=""></span>
-                    <span class="slide"><img src="i/c/frontend-next.400.jpg" alt=""></span>
-                </figure>
             </div>
         </div>
-        <div class="blog-post__content">
-            <p>This site and blog is about the <strong>Serendipity Styx Edition</strong>. A fully regarded <strong>successor</strong> of Serendipity, the S9y-Origin.</p>
-
-            <p>Two years ago, in Spring 2016, after 5 years of heavy core and plugin development for Serendipity as a core developer,
-            I decided to face the challenge of making my own system out of the Serendipity Blog System. That idea kicked
-            off the development of <a href="https://github.com/ophian/styx">Styx</a> and my own and strongly maintained
-            <a href="https://github.com/ophian/additional_plugins">additional_plugins</a> repository.</p>
-
-            <p><a href="https://github.com/ophian/styx">Styx</a> is what <strong>Serendipity</strong> should be!</p>
-
-            <p>You can read all <a href="/about">about Styx</a> and Serendipity here.</p>
-
-            <hr>
-
-            <h3 id="serendipity-styx---a-reliable-secure--extensible-php-blog-engine">Serendipity Styx - A reliable, secure &amp; extensible PHP blog engine</h3>
-
-            <p><a href="https://s9y.org">Serendipity</a> is a PHP-powered weblog engine which gives the user an easy way to maintain a blog.
-            While the default package is designed for the casual blogger, Serendipity offers an expandable framework with the power for
-            professional applications. It stands for:</p>
-
-            <ul id="features">
-                <li>
-                    <h4 id="docs-reliability"><img src="./i/cogs.png" alt=""> Reliability</h4>
-                    <p>Serendipity wants to provide a blog engine that users can trust, for which they can get indivdual support, while being able to influence the project (both as users and developers).</p>
-                </li>
-                <li>
-                    <h4 id="docs-security"><img src="./i/stethoscope.png" alt=""> Security</h4>
-                    <p>The developers are always open for non-public reports on potential security issues. The track record shows that Serendipity has only dealt with few issues over the past years, swiftly fixed.</p>
-                </li>
-                <li>
-                    <h4 id="docs-extensibility"><img src="./i/code-fork.png" alt=""> Extensibility</h4>
-                    <p>Plugins and themes provide easy ways to add functionality or change the looks of a blog. With the online plugin repository Spartacus they are well organized and easy to install.</p>
-                </li>
-                <li>
-                    <h4 id="docs-ease-of-use"><img src="./i/magic.png" alt=""> Ease of use</h4>
-                    <p>Serendipity aims to build simple, but powerful as well as understandable interfaces. The same approach is used for the build code, which is supposed to have a low entry barrier.</p>
-                </li>
-            </ul>
-
-            <hr>
-
-            <p>For the Quicks and as a starter, you may just read the Serendipity Styx <em>Frequently Asked Questions</em> <strong>FAQ</strong> page
-            <a href="/hc/en/faq">here</a> and then return reading about the Serendipity history.</p>
-            
-            <hr>
-
-            <h3 id="serendipity-styx---serendipity-history">A brief history about Serendipity</h3>
-
-            <p>In early 2002, a core team of well-known PHP developers <em>Jannis Hermanns, Sterling Hughes,
-            George Schlossnagle, Wez Furlong, Joyce Park and Joseph Tatem, as well as Sebastian Bergmann
-            from the phpUnit project</em> launched, what was shortly after called <em>“Serendipity”</em>.</p>
-
-            <p>On March 29th in 2003, Jannis Hermanns officially renamed his
-            <a href="http://jann.is/daily/archives/153-Bye-Bye,-jBlog.html" target="_new">jBlog</a> to <strong>Serendipity</strong>.</p>
-
-            <p>Over the years, changing programmers have steadily and consistently developed the system further on.
-            Garvin Hicking at s9y.org has been the lead developer since 2003 and published a book about the Serendipity Blog System in 2008.</p>
-
-            <p>This book, written in german language, and its rights were given back to the community by the publisher
-            in early 2012. Since then it is <strong>opensource</strong> and was available
-            <a href="https://github.com/s9y/Book/blob/master/serendipity.pdf?raw=true" target="_new">as a PDF</a> build
-            from LaTeX sources and opensourced via <a href="https://github.com/s9y/Book/raw/master/LICENSE" target="_new">GitHub</a>
-            under a <em>CC-BY-NC-SA</em> license.</p>
-
-            <p>The author of this site has spend an awesome amount of time and effort into updating this german
-            documentation for recent Serendipity versions. The here published latest <strong>Serendipity</strong>
-            <a href="/book/">Styx Book</a> <em>“revision”</em> from 2018 is strongly
-            brought to your attention.</p>
-
-            <hr>
-
-            <h3 id="help-requests">Help requests:</h3>
-
-            <p>Since being highly overloaded to set up a Styx forum here, to get direct help from myself and/or other users,
-            please just use the GitHub Styx <a class="icon icon--small" href="https://github.com/ophian/styx/issues" target="_blank" rel="noopener"><svg class="icon__body"><use xlink:href="#github"></use></svg> issue</a> tasks, if you have questions
-            or found a bug, or find your way to the origin Serendipity forum board. Thanks.</p>
-
-            <hr>
-
-            <h3 id="releases">Releases:</h3>
-
-            <p>Please visit my <a href="https://ophian.github.io/blog">blog</a> on this site, or point yourself to the repository
-            release <a href="https://github.com/ophian/styx/releases">downloads</a>.</p>
-
-            <hr>
-
-            <p>Regards Ian,<br>Enjoy Styx <strong>!</strong></p>
-
-            <p>This site was created using <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.</p>
-        </div>
         <div class="blog-post__footer">
-            <div class="blog-post__footer-author">
+            <div class="blog-post__footer-author site-col__footer-author-container">
                 <div class="blog-post__author-avatar-container">
                     <div class="blog-post__author-avatar blog-post__author-avatar--ophian"></div>
                 </div>
@@ -201,13 +178,6 @@
                     <h3>Ian Styx (ophian)<span>Maintainer</span></h3>
                     <p class="follow"><a href="https://github.com/ophian/styx/issues" title="Styx issues" target="_blank">@ophian</a></p>
                     <p>John Ian Styx has more than 17 years of experience in the IT market as a developer and from 2003 as a Serendipity lover.</p>
-                </div>
-            </div>
-        </div>
-        <div class="blog-post__navigation">
-            <div class="blog-post__navigation-inner">
-                <div class="blog-post__navigation-item blog-post__navigation-item--right">
-                    <a class="blog-post__navigation-link blog-post__navigation-link--next" href="/about">What next?</a>
                 </div>
             </div>
         </div>
@@ -231,6 +201,7 @@
                 <div class="footer-menu__wrapper" role="navigation" aria-labelledby="menu-category-1-1">
                     <h2 id="menu-category-1-1">Site & Documentation</h2>
                     <ul class="footer-menu">
+                        <li><a href="/">Serendipity Styx Home</a></li>
                         <li><a href="/blog">Serendipity Styx Blog</a></li>
                         <li><a href="/book">Serendipity Styx Book [de]</a></li>
                         <li><a href="/plugins">Serendipity Styx Plugins</a></li>
@@ -267,8 +238,9 @@
                     <h2>Connect with Styx</h2>
                     <ul class="footer-mobile__menu">
                         <li><a href="/contact">Contact us</a></li>
-                        <li><a href="/hc">Help center</a></li>
                         <li><a href="/about">About Styx</a></li>
+                        <li><a href="/hc">Help center</a></li>
+                        <li><a href="/">Serendipity Styx Home</a></li>
                         <li><a href="/blog">Serendipity Styx Blog</a></li>
                         <li><a href="/book">Serendipity Styx Book [de]</a></li>
                         <li><a href="/plugins">Serendipity Styx Plugins</a></li>
@@ -288,7 +260,7 @@
                 <ul class="footer-policy__menu">
                     <li class="footer-policy__menu-item"><a href="/legal">Legal</a></li>
                     <li class="footer-policy__menu-item"><a href="/legal/privacy">Privacy policy</a></li>
-                    <li class="footer-policy__menu-item"><a href="https://opensource.org/docs/definition.php">Proud to be Open Source</a></li>
+                    <li class="footer-policy__menu-item"><a href="https://opensource.org/docs/definition.php" target="_blank">Open Source</a></li>
                 </ul>
             </div>
         </div>
@@ -300,16 +272,5 @@
 	</svg>
 </svg>
 
-<script>
-var slides = document.querySelectorAll('#slides .slide');
-var currentSlide = 0;
-var slideInterval = setInterval(nextSlide,3000);
-
-function nextSlide() {
-    slides[currentSlide].className = 'slide';
-    currentSlide = (currentSlide+1)%slides.length;
-    slides[currentSlide].className = 'slide showing';
-}
-</script>
 <script src="/js/styx.min.js"></script>
 </body></html>

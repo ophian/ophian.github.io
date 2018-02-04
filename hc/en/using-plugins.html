@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Serendipity Styx Edition - Help Center [en] | ophian.github.io</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Serendipity Styx is a PHP-powered weblog engine giving users an easy way to maintain a blog and developers a framework with the power for professional applications.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:title" content="Serendipity Styx Edition - Styx FAQ | Styx is what Serendipity should be | ophian.github.io">
+    <meta property="og:site_name" content="Serendipity Styx Blog System">
+    <meta property="og:description" content="Serendipity Styx is a PHP-powered weblog engine giving users an easy way to maintain a blog and developers a framework with the power for professional applications.">
+    <meta property="og:image" content="https://ophian.github.io/i/styx-opengraph.jpg">
+    <meta property="og:url" content="https://ophian.github.io/">
+    <link rel="apple-touch-icon" href="../../i/apple-touch-icon.png">
+    <link rel="stylesheet" href="../../css/libs.min.css">
+    <link rel="stylesheet" href="../../css/styx.min.css">
+</head>
+<body>
+<ul class="skip-link__list">
+    <li class="skip-link skip-link--main-nav">
+        <a href="#main-navigation" tabindex="1">Main navigation</a>
+    </li>
+    <li class="skip-link skip-link--main-repo"><a href="#main-repository" tabindex="1">Styx Repository</a></li>
+    <li class="skip-link skip-link--main-content"><a href="#main-content" tabindex="1">Styx Main content</a></li>
+</ul>
+<div class="menu menu--no-hero menu--tiny ">
+    <div class="menu__page-title">
+        <h1><a href="/hc/en">Serendipity Styx Edition - Documentation [en]</a></h1>
+    </div>
+    <div class="progress-bar" aria-hidden="true"><span class="progress-bar__fill"></span></div>
+</div>
+<div class="site-nav site-nav--no-hero menu--tiny">
+    <button class="site-nav__toggler" id="site-nav__toggler" aria-label="Show website navigation" aria-expanded="false" tabindex="1">
+        <span class="bar" aria-hidden="true"></span>
+        <span class="bar" aria-hidden="true"></span>
+        <span class="bar" aria-hidden="true"></span>
+    </button>
+</div>
+<div class="site-nav__panel" aria-hidden="true" aria-controls="site-nav__toggler">
+    <nav id="main-navigation" role="navigation" aria-label="main navigation">
+        <ul class="site-nav__menu">
+            <li class="site-nav__menu-item site-nav__menu-item--current"><a href="/hc/en" tabindex="-1" title="Serendipity Styx Help Center [en]">Documentation [en]</a></li>
+        </ul>
+        <p class="site-nav__menu-category">Main</p>
+        <ul class="site-nav__menu" aria-label="links to styx site main pages">
+            <li class="site-nav__menu-item"><a href="/" tabindex="-1" title="Serendipity Styx Home">Styx Home</a></li>
+            <li class="site-nav__menu-item"><a href="/blog" tabindex="-1" title="Serendipity Styx Blog">Styx Blog</a></li>
+            <li class="site-nav__menu-item"><a href="/blog/archives" tabindex="-1" title="Serendipity Styx Blog Archives">Styx Blog Archives</a></li>
+            <li class="site-nav__menu-item"><a href="/atom.xml" tabindex="-1" title="Serendipity Styx Blog Feed">Styx Blog Feed</a></li>
+            <li class="site-nav__menu-item"><a href="/about" tabindex="-1" title="About Serendipity Styx">About Styx</a></li>
+        </ul>
+        <p class="site-nav__menu-category">Spartacus</p>
+        <ul class="site-nav__menu" aria-label="links to styx spartacus pages">
+            <li class="site-nav__menu-item"><a href="/plugins" tabindex="-1" title="Serendipity Styx Spartacus Plugins">Styx Spartacus Plugins</a></li>
+            <li class="site-nav__menu-item"><a href="/themes" tabindex="-1" title="Serendipity Styx Spartacus Themes">Styx Spartacus Themes</a></li>
+        </ul>
+        <p class="site-nav__menu-category">Repository</p>
+        <ul class="site-nav__menu" aria-label="links to styx repository pages">
+            <li class="site-nav__menu-item"><a href="https://github.com/ophian/styx" tabindex="-1" title="GitHub Serendipity Styx Code">Styx Code</a></li>
+            <li class="site-nav__menu-item"><a href="https://github.com/ophian/styx/releases" tabindex="-1" title="GitHub Serendipity Styx Releases">Styx Downloads</a></li>
+            <li class="site-nav__menu-item"><a href="https://github.com/ophian/additional_plugins" tabindex="-1" title="GitHub Serendipity Styx Plugins">Styx Plugins</a></li>
+            <li class="site-nav__menu-item"><a href="https://github.com/ophian/styx/issues" tabindex="-1" title="GitHub Serendipity Styx Issues">Styx Issues</a></li>
+        </ul>
+        <p class="site-nav__menu-category">Book</p>
+        <ul class="site-nav__menu" aria-label="link book page">
+            <li class="site-nav__menu-item"><a href="/book" tabindex="-1" title="Documentation Serendipity Styx Book [de] page">Styx Book [de]</a></li>
+        </ul>
+        <p class="site-nav__menu-category">Connect & Help</p>
+        <ul class="site-nav__menu" aria-label="links connect and help pages">
+            <li class="site-nav__menu-item"><a href="/hc" tabindex="-1" title="Serendipity Styx Help Center">Help center</a></li>
+            <li class="site-nav__menu-item"><a href="/hc/de" tabindex="-1" title="Serendipity Styx Hilfeseiten">Hilfeseiten</a></li>
+            <li class="site-nav__menu-item"><a href="/hc/en/faq" tabindex="-1" title="Serendipity Styx FAQ">Styx FAQ</a></li>
+            <li class="site-nav__menu-item"><a href="/contact" tabindex="-1" title="Serendipity Styx Contact">Contact Styx</a></li>
+        </ul>
+    </nav>
+</div>
+<div class="site-cover"></div>
+<main class="site-content site-content--col site-content--no-hero site-content--simple" id="main-content" role="main">
+    <section class="section site-col" data-reading-progress="true">
+        <div class="col">
+            <div class="col-menu__wrapper">
+                <nav class="col-menu" role="navigation" aria-label="Help Center [en] documents navigation">
+                    <ul>
+                        <li><a href="/hc">Styx Help Center</a></li>
+                        <li><a href="/hc/en">Documentation [en]</a></li>
+                        <li><a href="/hc/de">Dokumentation [de]</a></li>
+                        <li><a href="/hc/en/faq">Styx Help Center FAQ</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="col-document__wrapper col-document__wrapper-documents">
+                <div class="col-document">
+                    <h1>Styx Help Center [en] - Plugins</h1>
+                    <p><a href="index.html"><span class="icon arrow-left">←</span> back to main page</a></p>
+                    <h2>Using Plugins</h2>
+
+                    <ul id="markdown-toc">
+                      <li><a href="#docs-general-usage" id="toc-docs-general-usage">General Usage</a>
+                        <ul>
+                          <li><a href="#docs-what-are-plugins-useful-for" id="toc-docs-what-are-plugins-useful-for">What are plugins useful for?</a>
+                            <ul>
+                              <li><a href="#docs-sidebar-plugins" id="toc-docs-sidebar-plugins">Sidebar plugins</a></li>
+                              <li><a href="#docs-event-plugins" id="toc-docs-event-plugins">Event plugins</a></li>
+                            </ul>
+                          </li>
+                          <li><a href="#docs-installing-and-configuring-plugins" id="toc-docs-installing-and-configuring-plugins">Installing and configuring plugins</a></li>
+                          <li><a href="#docs-installing-external-plugins" id="toc-docs-installing-external-plugins">Installing external Plugins</a>
+                            <ul>
+                              <li><a href="#docs-using-spartacus" id="toc-docs-using-spartacus">Using SPARTACUS</a></li>
+                              <li><a href="#docs-installing-a-plugin-via-cvs-checkouts" id="toc-docs-installing-a-plugin-via-cvs-checkouts">Installing a plugin via CVS checkouts</a></li>
+                              <li><a href="#docs-downloading-a-plugin" id="toc-docs-downloading-a-plugin">Downloading a plugin</a></li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                      <li><a href="#docs-available-internal-sidebar-plugins-bundled-with-s9y" id="toc-docs-available-internal-sidebar-plugins-bundled-with-s9y">Available internal sidebar plugins bundled with Serendipity</a>    <ul>
+                          <li><a href="#docs-calendar" id="toc-docs-calendar">Calendar</a>
+                            <ul>
+                              <li><a href="#docs-configuration" id="toc-docs-configuration">Configuration</a></li>
+                            </ul>
+                          </li>
+                          <li><a href="#docs-quicksearch" id="toc-docs-quicksearch">Quicksearch</a>
+                            <ul>
+                              <li><a href="#docs-mysql-stopwords" id="toc-docs-mysql-stopwords">MySQL Stopwords</a></li>
+                            </ul>
+                          </li>
+                          <li><a href="#docs-archives" id="toc-docs-archives">Archives</a></li>
+                          <li><a href="#docs-top-referrers" id="toc-docs-top-referrers">Top Referrers</a>
+                            <ul>
+                              <li><a href="#docs-configuration-1" id="toc-docs-configuration-1">Configuration</a></li>
+                            </ul>
+                          </li>
+                          <li><a href="#docs-top-exits" id="toc-docs-top-exits">Top Exits</a>
+                            <ul>
+                              <li><a href="#docs-configuration-2" id="toc-docs-configuration-2">Configuration</a></li>
+                            </ul>
+                          </li>
+                          <li><a href="#docs-syndication" id="toc-docs-syndication">Syndication</a>
+                            <ul>
+                              <li><a href="#docs-configuration-3" id="toc-docs-configuration-3">Configuration</a></li>
+                            </ul>
+                          </li>
+                          <li><a href="#docs-blog-administration" id="toc-docs-blog-administration">Blog Administration</a></li>
+                          <li><a href="#docs-powered-by" id="toc-docs-powered-by">Powered by</a></li>
+                          <li><a href="#docs-html-nugget" id="toc-docs-html-nugget">HTML Nugget</a>
+                            <ul>
+                              <li><a href="#docs-configuration-4" id="toc-docs-configuration-4">Configuration</a></li>
+                            </ul>
+                          </li>
+                          <li><a href="#docs-categories" id="toc-docs-categories">Categories</a>
+                            <ul>
+                              <li><a href="#docs-configuration-5" id="toc-docs-configuration-5">Configuration</a></li>
+                            </ul>
+                          </li>
+                          <li><a href="#docs-remote-rss-feed" id="toc-docs-remote-rss-feed">Remote RSS Feed</a>
+                            <ul>
+                              <li><a href="#docs-configuration-6" id="toc-docs-configuration-6">Configuration</a></li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                      <li><a href="#docs-available-external-sidebar-plugins-bundled-with-s9y" id="toc-docs-available-external-sidebar-plugins-bundled-with-s9y">Available external sidebar plugins bundled with Serendipity</a>    <ul>
+                          <li><a href="#docs-comments" id="toc-docs-comments">Comments</a>
+                          <ul>
+                              <li><a href="#docs-configuration-7" id="toc-docs-configuration-7">Configuration</a></li>
+                            </ul>
+                          </li>
+                          <li><a href="#docs-creative-commons" id="toc-docs-creative-commons">Creative Commons</a></li>
+                          <li><a href="#docs-event-wrapper" id="toc-docs-event-wrapper">Event Wrapper</a>
+                          <ul>
+                              <li><a href="#docs-configuration-8" id="toc-docs-configuration-8">Configuration</a></li>
+                            </ul>
+                          </li>
+                          <li><a href="#docs-recent-entries" id="toc-docs-recent-entries">Recent Entries</a>
+                          <ul>
+                              <li><a href="#docs-configuration-9" id="toc-docs-configuration-9">Configuration</a></li>
+                            </ul>
+                          </li>
+                          <li><a href="#docs-shoutbox" id="toc-docs-shoutbox">Shoutbox</a>
+                          <ul>
+                              <li><a href="#docs-configuration-10" id="toc-docs-configuration-10">Configuration</a></li>
+                            </ul>
+                          </li>
+                          <li><a href="#docs-template-dropdown" id="toc-docs-template-dropdown">Template Dropdown</a>
+                          <ul>
+                              <li><a href="#docs-configuration-11" id="toc-docs-configuration-11">Configuration</a></li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                      <li><a href="#docs-available-event-plugins-bundled-with-s9y" id="toc-docs-available-event-plugins-bundled-with-s9y">Available event plugins bundled with Serendipity</a>
+                      <ul>
+                          <li><a href="#docs-content-rewrite" id="toc-docs-content-rewrite">Content Rewrite</a>
+                            <ul>
+                              <li><a href="#docs-configuration-12" id="toc-docs-configuration-12">Configuration</a></li>
+                            </ul>
+                          </li>
+                          <li><a href="#docs-markup-plugins-emoticate-bbcode-nl2br-s9ymarkup-textile-textwiki" id="toc-docs-markup-plugins-emoticate-bbcode-nl2br-s9ymarkup-textile-textwiki">Markup plugins: Emoticate, BBCode, NL2BR, s9ymarkup, textile, textwiki</a>
+                            <ul>
+                              <li><a href="#docs-configuration-13" id="toc-docs-configuration-13">Configuration</a></li>
+                            </ul>
+                          </li>
+                          <li><a href="#docs-track-exits" id="toc-docs-track-exits">Track Exits</a>
+                          <ul>
+                              <li><a href="#docs-configuration-14" id="toc-docs-configuration-14">Configuration</a></li>
+                            </ul>
+                          </li>
+                          <li><a href="#docs-mailer" id="toc-docs-mailer">Mailer</a>
+                          <ul>
+                              <li><a href="#docs-configuration-15" id="toc-docs-configuration-15">Configuration</a></li>
+                            </ul>
+                          </li>
+                          <li><a href="#docs-statistics" id="toc-docs-statistics">Statistics</a>
+                          <ul>
+                              <li><a href="#docs-configuration-16" id="toc-docs-configuration-16">Configuration</a></li>
+                            </ul>
+                          </li>
+                          <li><a href="#docs-template-chooser" id="toc-docs-template-chooser">Template Chooser</a></li>
+                          <li><a href="#docs-weblogping" id="toc-docs-weblogping">Weblogping</a>
+                          <ul>
+                              <li><a href="#docs-configuration-17" id="toc-docs-configuration-17">Configuration</a></li>
+                            </ul>
+                          </li>
+                          <li><a href="#docs-htmlvalidator" id="toc-docs-htmlvalidator">HTMLValidator</a></li>
+                        </ul>
+                      </li>
+                      <li><a href="#docs-extending-plugins" id="toc-docs-extending-plugins">Extending Plugins</a></li>
+                    </ul>
+
+                    <h2 id="docs-general-usage" class="hspace">General Usage</h2>
+
+                    <h3 id="docs-what-are-plugins-useful-for">What are plugins useful for?</h3>
+
+                    <p>The Serendipity blogging platform is designed to make it easy for blog owners to create and manage blog entries. Plugins allow blog owners to extend this functionality and present even more information to their site visitors. Two types of plugin exist for Serendipity, <strong>sidebar</strong> and <strong>event plugins</strong>.</p>
+
+                    <h4 id="docs-sidebar-plugins">Sidebar plugins</h4>
+
+                    <p>Sidebar plugin are visible in either the left or right sidebar on your blog. Sidebar plugins are particularly useful for displaying small chunks of information such the calendar, a list of recent comments to your blog entries or a fully customized HTML block (<strong>nugget</strong>). Sidebar plugins are usually very simple, often only containing links, but they can be more complex like for example the shoutbox plugin.</p>
+
+                    <h4 id="docs-event-plugins">Event plugins</h4>
+
+                    <p>Event plugins make changing the way Serendipity manipulates your data easy and are a powerful way of tweaking s9y’s internal power. For every action performed by Serendipity (like displaying an entry, storing an entry, editing an entry) our code is written to include special <strong>hooks</strong> that execute event plugins. For example, event plugins can be used to adjust your favorite textmarkup. You can choose from a list of several (partially concurring) markups: Wiki, BBCode, HTML, s9ymarkup.</p>
+
+                    <p>Those hooks execute your plugin, which performs its assigned duty, then returns the data to Serendipity for completion of the task (like saving the entry).</p>
+
+                    <p>For a list of hooks, see our <a href="./plugin-api.html">Plugin API</a>. With just a single line of code we can add event hooks on any place you want. Just be creative. :-)</p>
+
+                    <h3 id="docs-installing-and-configuring-plugins">Installing and configuring plugins</h3>
+
+                    <p>Plugins can only be installed and configured from within the admin suite. Click the “Configure Plugins” link to display the list of all installed sidebar and event plugins. Serendipity is preconfigured with several plugins already installed, with many more available in your plugins folder.</p>
+
+                    <p>You’ll notice a number of options for each installed plugin, a check box to uninstall the plugin, an icon to configure the plugin, a permissions drop down. You can adjust the order of your plugins by moving them up or down, or even changing which sidebar the plugin’s output will appear in. If you enabled enhanced JS (javascript), you can drag and drop each plugin exactyly where you want it. If you do not have JS enabled in your profile, you will see a drop down allowing you to specify <strong>left</strong>, <strong>right</strong>, or <strong>hidden</strong> attributes for your plugin. You may have additional sidebar choices if enabled by your template.</p>
+
+                    <p>Event plugins aren’t displayed in your sidebar so their position relative to each other adjust the order in which Serendipity executes them. Some event plugins need to be executed before others to ensure they work correctly.</p>
+
+                    <p>Installing new plugins of either type is as simple as clicking the “Click here to install a new sidebar plugin” or “Click here to install a new event plugin” links at the top of each section. Now you are presented with a complete list of all plugins available to you, and clicking the icon to the right of the plugin details is all that is required to install your new plugin.</p>
+
+                    <p>Once Serendipity has successfully installed your new plugin you will be taken to the plugin configuration screen where you can change the way the plugin operates. The level of complexity of the plugin will determine how much configuration is required, in some cases none is required. Saving your changes takes you back to the list of installed plugins.</p>
+
+                    <p>If you wish to configure a plugin you have previously installed, simply click the name of the plugin to be taken to that plugin’s configuration page. Some very simple plugins have no configuration screen.</p>
+
+                    <h3 id="docs-installing-external-plugins">Installing external Plugins</h3>
+
+                    <p>We have a large load of external plugins available for your download. See the List of our Plugins at <a href="http://spartacus.s9y.org.">http://spartacus.s9y.org/.</a></p>
+
+                    <p>There are multiple ways to install an external plugin:</p>
+
+                    <h4 id="docs-using-spartacus">Using SPARTACUS</h4>
+
+                    <p>Since Serendipity 0.8 we offer a Event Plugin called “SPARTACUS”. This is a repository manager plugin which you can install. It will then hook itself into the plugin manager and adds a new Link “Click here to fetch a plugin from the Remote Plugin Repository”.</p>
+
+                    <p>If you click on that link, Serendipity will connect itself to our Plugin Repository, fetch a list of available plugins and offer those to you. Then you can click on the plugin to install just like you do with bundled plugins, and the files will automatically be downloaded.</p>
+
+                    <p>There are 3 important issues to note with this somewhat experimental plugin:</p>
+
+                    <ol>
+                      <li>
+                        <p>Spartacus requires an outgoing connection to the sourceforge.net servers. That means your webserver shall not block HTTP requests.</p>
+                      </li>
+                      <li>
+                        <p>The sourceforge.net ViewCVS server is sometimes a bit laggy or unresponsive. It can happen that you get error messages like “File not found” or the list of plugins could not be downloaded. In this case, please have patience and try again after some time.</p>
+                      </li>
+                      <li>
+                        <p>Spartacus needs write privileges to your /plugins directory so that it can install new files. Thus you will need to change the directory privileges of /plugins to something like 777, depending on your installation. If you do not do this you will get error message like “Could not create file…”.</p>
+                      </li>
+                    </ol>
+
+                    <h4 id="docs-installing-a-plugin-via-cvs-checkouts">Installing a plugin via CVS checkouts</h4>
+
+                    <p>You can checkout our “additional_plugins” repository using CVS into a seperate directory. Then you could create a symbolic link of that additional_plugins directory into your serendipity/plugins/ directory. Serendipity will then detect the nested new plugin lists and offer you the plugins in the Installation facility.</p>
+
+                    <p>This requires some basic Linux/Windows-Shell knowledge and knowledge how to use CVS.</p>
+
+                    <h4 id="docs-downloading-a-plugin">Downloading a plugin</h4>
+
+                    <p>You can download the plugin you want either via the Spartacus plugin (recommended) or by downloading a full plugin snapshot at <a href="https://github.com/ophian/additional_plugins/archive/master.zip">GitHub.com</a>.</p>
+
+                    <p>A plugin always consists of a single directory like “serendipity_event_trackback” with at least one file in it. If you use the ViewCVS facility you can click on each single file and then on the following page click on the first “Download” link which fetches the latest version of that file. Save that file on your Serendipity installation and place them all into a subdirectory of your /plugins directory. First create a directory with the same name as the plugin (“serendipity_event_trackback”). Then save the file “serendipity_event_trackback.php” inside that directory.</p>
+
+                    <p>After you have downloaded all files you can go to your Serendipity Plugin manager and on the list of available plugins you will see your latest acquired plugin. :-)</p>
+
+                    <p>The same applies when having downloaded our Netmirror Snapshot file. Just extract the tarball somewher and copy the files and directory you want to your /plugins subdirectory of the Serendipity installation.</p>
+
+                    <h2 id="docs-available-internal-sidebar-plugins-bundled-with-s9y">Available internal sidebar plugins bundled with Serendipity</h2>
+
+                    <p>Here’s a list of internal Serendipity plugins. Those cannot be removed from your installation:</p>
+
+                    <h3 id="docs-calendar">Calendar</h3>
+
+                    <p>Displays a browseable calendar in your sidebar. Days on which you made entries are highlighted and link to a page where those entries are shown.</p>
+
+                    <h4 id="docs-configuration">Configuration</h4>
+
+                    <ul>
+                      <li><strong>beginningOfWeek</strong>: You can adjust on which day your week starts (depending on your nationality)</li>
+                    </ul>
+
+                    <h3 id="docs-quicksearch">Quicksearch</h3>
+
+                    <p>Shows a small form field where a user can insert search words and then gets a list of matching entries you made.</p>
+
+                    <h4 id="docs-mysql-stopwords">MySQL Stopwords</h4>
+
+                    <p>The Serendipity search function uses the SQL fulltext search capability. In MySQL, this capability includes “stopwords”. Basically, searching for any of the stopwords would return (almost) all the entries, so MySQL ignores those words for efficiency.</p>
+
+                    <p>If you’re searching for a word that appears in every entry of your blog, you really don’t need to search for it, do you? Even if you do, you can’t. MySQL won’t return any results for a word on the stopword list, and there is no known workaround.</p>
+
+                    <h3 id="docs-archives">Archives</h3>
+
+                    <p>Shows a linked list of the last 3 months where you made entries.</p>
+
+                    <h3 id="docs-top-referrers">Top Referrers</h3>
+
+                    <p>Shows a list of which pages refer to your blog.</p>
+
+                    <h4 id="docs-configuration-1">Configuration</h4>
+
+                    <ul>
+                      <li><strong>limit</strong>: You can limit how many pages should be shown. Defaults to 10 items.</li>
+                    </ul>
+
+                    <h3 id="docs-top-exits">Top Exits</h3>
+
+                    <p>Together with the “Track Exits” event plugin you can encode all external URLs you refer to in your articles. When a user then clicks on those links, Serendipity counts the amount of clicks. This plugin then displays a list of the last top clicks on external targets.</p>
+
+                    <h4 id="docs-configuration-2">Configuration</h4>
+
+                    <ul>
+                      <li><strong>limit</strong>: You can limit how many pages should be shown. Defaults to 10 items.</li>
+                    </ul>
+
+                    <h3 id="docs-syndication">Syndication</h3>
+
+                    <p>Displays a list of available syndication formats. This is a list of links to RSS feeds.</p>
+
+                    <h4 id="docs-configuration-3">Configuration</h4>
+
+                    <ul>
+                      <li><strong>RSS versions</strong>: You can check which syndication formats you want to make available to your audience: RSS 0.91, 1.0, 2.0 or Atom 0.3.</li>
+                      <li><strong>Prevent caching</strong>: Usually your RSS feed is cached via <a href="./conditional-get.html">Conditional Get</a>. With this setting you can turn of caching</li>
+                      <li><strong>RSS fields</strong>: There are a bunch of special fields which can be embedded into your blog, like your E-Mail adress for error reports, a small image depicting your site and others</li>
+                    </ul>
+
+                    <h3 id="docs-blog-administration">Blog Administration</h3>
+
+                    <p>Shows a link to the administration/backend area of your weblog.</p>
+
+                    <h3 id="docs-powered-by">Powered by</h3>
+
+                    <p>This shows our small “powered by” logo inside your blog. So that everyone can see you’re an elite-blogger. ;-)</p>
+
+                    <h3 id="docs-html-nugget">HTML Nugget</h3>
+
+                    <p>This is maybe one of the most powerful plugins you may want to use to customize your blog. Remember that you can add as many nugget plugins to your site as you want, you are not limited to one.</p>
+
+                    <p>The content of the HTML nugget can be any HTML/JavaScript code you like.</p>
+
+                    <h4 id="docs-configuration-4">Configuration</h4>
+
+                    <ul>
+                      <li><strong>Content</strong>: Here you can edit the content with a large textarea. You can copy&amp;paste existing code here, like blogchalk code or a “I am currently reading” box.</li>
+                    </ul>
+
+                    <h3 id="docs-categories">Categories</h3>
+
+                    <p>Shows a list of the categories you created. Then a user can click on the link and only get items of that category.</p>
+
+                    <h4 id="docs-configuration-5">Configuration</h4>
+
+                    <ul>
+                      <li><strong>authorid</strong>: You can select from which user’s categories should be shown here. This can be used to insert multiple category plugins into your sidebars, each showing the categories of a special user (in multi-user blogs).</li>
+                    </ul>
+
+                    <h3 id="docs-remote-rss-feed">Remote RSS Feed</h3>
+
+                    <p>Enables you to display a foreign RSS feed embedded into your blog. You can insert multiple plugins of this type to display multiple feeds. The feeds are cached and only updated as soon as the “time to live” of the cache gets hit.</p>
+
+                    <h4 id="docs-configuration-6">Configuration</h4>
+
+                    <ul>
+                      <li><strong>number</strong> - Number of feed items to display (defaults to all items)</li>
+                      <li><strong>dateformat</strong> - Customize the dateformat for the items</li>
+                      <li><strong>title</strong> - Title in the sidebar</li>
+                      <li><strong>rssuri</strong> - The URI of the foreign RSS feed</li>
+                      <li><strong>target</strong> - A HTML anchor target</li>
+                      <li><strong>cachetime</strong> - Time to Live of the cache. Defaults to 3 hours.</li>
+                    </ul>
+
+                    <h2 id="docs-available-external-sidebar-plugins-bundled-with-s9y">Available external sidebar plugins bundled with Serendipity</h2>
+
+                    <p>Serendipity also stores external plugins inside the <em>plugins</em> subdirectory structure. There you can add and remove subdirectories to adjust which and how many plugins you want to be able to add.</p>
+
+                    <h3 id="docs-comments">Comments</h3>
+
+                    <p>Displays a list of recently submitted comments to your blog</p>
+
+                    <h4 id="docs-configuration-7">Configuration</h4>
+
+                    <ul>
+                      <li><strong>limit</strong>: How many comments should be shown.</li>
+                      <li><strong>chars/words</strong>: You can restrict the amount of chars/words for each comment to only show an excerpt as a preview</li>
+                    </ul>
+
+                    <h3 id="docs-creative-commons">Creative Commons</h3>
+
+                    <p>This plugin is paired with the <em>Event plugin</em> called the same. Depending on the config you made to the event plugin, this shows your chosen Creative Commons License data on your sidebar.</p>
+
+                    <h3 id="docs-event-wrapper">Event Wrapper</h3>
+
+                    <p>Usually event plugins do not have sidebar output associated with them. But there’s always the future possibility, they could have. Like the <em>Content Rewrite Event Plugin</em>. That plugin generates a list of words (some kind of glossary). You must use the <em>Event Wrapper sidebar plugin</em> if you want to show the output of the event plugin inside your sidebar.</p>
+
+                    <h4 id="docs-configuration-8">Configuration</h4>
+
+                    <ul>
+                      <li><strong>Event plugin</strong>: You need to choose the event plugin from which you want the data to be displayed</li>
+                    </ul>
+
+                    <h3 id="docs-recent-entries">Recent Entries</h3>
+
+                    <p>Shows a quick list of your recently made entries.</p>
+
+                    <h4 id="docs-configuration-9">Configuration</h4>
+
+                    <ul>
+                      <li><strong>limit</strong>: How many entries should be shown.</li>
+                    </ul>
+
+                    <h3 id="docs-shoutbox">Shoutbox</h3>
+
+                    <p>Shows a simple form area where users can enter any comment they want. Those comments get immediately displayed on the sidebar instead of being associated to an entry as a comment.</p>
+
+                    <h4 id="docs-configuration-10">Configuration</h4>
+
+                    <ul>
+                      <li><strong>limit</strong>: How many “shouts” should be shown.</li>
+                      <li><strong>chars/words</strong>: You can restrict the amount of chars/words for each shout to only show an excerpt as a preview</li>
+                    </ul>
+
+                    <h3 id="docs-template-dropdown">Template Dropdown</h3>
+
+                    <p>This plugin is paired with the <em>Template Chooser Event plugin</em>. It shows in your sidebar a list of available themes, and every visitor can then choose which layout he wants to see your blog in.</p>
+
+                    <h4 id="docs-configuration-11">Configuration</h4>
+
+                    <ul>
+                      <li><strong>submit button</strong>: You can control if you want to show a submit button to change the template, or if a template gets changed as soon as you change the dropdown.</li>
+                    </ul>
+
+                    <h2 id="docs-available-event-plugins-bundled-with-s9y" class="hspace">Available event plugins bundled with Serendipity</h2>
+
+                    <h3 id="docs-content-rewrite">Content Rewrite</h3>
+
+                    <p>This is a very powerful plugin to insert a list of words which may be rewritten by applying transformation rules. More precisely: Say you always want to have “PHP” rewritten as <code>&lt;code&gt;&lt;a href="http://www.php.net/" title="PHP Hypertext Preprocessor"&gt;PHP&lt;/a&gt;&lt;/code&gt;</code> and not type that every time, you can use this plugin.</p>
+
+                    <p>If you want to display some kind of glossary of all your entered words, you can use the <em>Event Wrapper Sidebar plugin</em>.</p>
+
+                    <h4 id="docs-configuration-12">Configuration</h4>
+
+                    <p>This is the place where you actually edit and insert all words you want to rewrite. You can edit the “from” and “to” substitution rules here as well.</p>
+
+                    <p>Here’s an example. Say everytime you have the word “test” and always want it changed to “testing, one two” you would enter this in the configuration panel:</p>
+
+                    <pre><code>Rewrite String: "{to}"<br>Rewrite Char: ""<br>New Title ({from}): "test"<br>New Description ({to}): "testing, one two"</code></pre>
+
+                    <p>So you can see, the “Rewrite String” can make use of {to} and {from} variables. The “New Title” value allows you to enter what is the source of your rewrite ({from}, “test”). The “New Description” value is the {to} variable and says what your wording shall be rewritten to (“testing, one two”).</p>
+
+                    <p>So you use the Rewrite String usually to add any special HTML markup using {from} and {to}, and make those variables fit inside any HTML markup you like (&lt;a href=”{to}” title=”{from}”&gt;{to}&lt;/a&gt;)</p>
+
+                    <p>Now, everytime Serendipity finds your word “test” it will save the word ‘test’ in the temporary variable {from}. It will then look up in which word it shall be transfered to and saves that in the variable {to}. Then it will look up your Rewrite String and replace “test” with the parsed contents of the Rewrint String. As this is set to “{to}” only, the {from} variable will completely vanish.</p>
+
+                    <h3 id="docs-markup-plugins-emoticate-bbcode-nl2br-s9ymarkup-textile-textwiki">Markup plugins: Emoticate, BBCode, NL2BR, s9ymarkup, textile, textwiki</h3>
+
+                    <p>You can create your blog entries in any kind of text formatting you like. Without any plugins, you need to insert pure HTML code. If you’re a novice user you will probably enable the WYSIWYG module, but possibly you are already used to other common markup formats like BBCode, Textile or Wiki.</p>
+
+                    <p>Then you can insert either of the plugins. But take care that using Textwiki and BBCode together is not a good idea, as they interfere with each other. But using s9ymarkup and BBCode together is no problem.</p>
+
+                    <p>The <em>emoticate</em> plugin converts smilies to images, and uses the images provided inside your template directory.</p>
+
+                    <p>The <em>nl2br</em> plugin converts any newlines you used during entry creation into HTML breaks.</p>
+
+                    <h4 id="docs-configuration-13">Configuration</h4>
+
+                    <p>Each of the markup plugins share common directives to control whether that markup method is only used for the teaser text of your articles, the extended body or even the comments for an article. So you can enable the BBCode plugin for comments, but disable them for your own usage. You can also choose to apply a markup plugin to HTML nuggets.</p>
+
+                    <h3 id="docs-track-exits">Track Exits</h3>
+
+                    <p>Encodes any URLs you use in your articles with a special method so that a click on the links from your visitors is stored in your database. You can display this data using the <em>Top Exits Sidebar plugin</em></p>
+
+                    <h4 id="docs-configuration-14">Configuration</h4>
+
+                    <ul>
+                      <li><strong>commentredirection</strong> - Can be set to “s9y”, “google” or an empty value. Specifies if URL specified by commenting authors should be redirected through either Serendipity internal measures or through a google deflector. This destroys the use of spammers who boost their google pagerank by being linked to their site, but it can also disable the increased pagerank of a “friendly” page.</li>
+                    </ul>
+
+                    <h3 id="docs-mailer">Mailer</h3>
+
+                    <p>Using this event plugin you can mail any articles you create to a single e-mail adress (which may be a mailing-list, of course).</p>
+
+                    <h4 id="docs-configuration-15">Configuration</h4>
+
+                    <ul>
+                      <li><strong>email-address</strong>: The email address to where you want the entries sent to.</li>
+                    </ul>
+
+                    <h3 id="docs-statistics">Statistics</h3>
+
+                    <p>Even backend functionality can be fully customized with an event plugin. Using this plugin you’ll find a new link in your Authoring Suite where you can see various statistics about your blog.</p>
+
+                    <h4 id="docs-configuration-16">Configuration</h4>
+
+                    <ul>
+                      <li><strong>limit</strong>: Choose how many top items should be shown for statistical output</li>
+                    </ul>
+
+                    <h3 id="docs-template-chooser">Template Chooser</h3>
+
+                    <p>This allows users to change the appearance of your blog on a per-user basis. To show a nice dropdown-box for this, see the <em>Template Dropdown Sidebar plugin</em>, which automatically bundles with this plugin.</p>
+
+                    <h3 id="docs-weblogping">Weblogping</h3>
+
+                    <p>This plugin hooks into the interface for article creation/editing. It shows a list of well-known XML-RPC weblogping services. You can check the services where you want to announce your article to. Bear in mind that this can take up to a minute depending on the hosts you post your ping to.</p>
+
+                    <h4 id="docs-configuration-17">Configuration</h4>
+
+                    <ul>
+                      <li><strong>services</strong>: You can check default services you usually want to announce your entries to</li>
+                    </ul>
+
+                    <h3 id="docs-htmlvalidator">HTMLValidator</h3>
+
+                    <p>This plugin hooks into the interface for article creation/editing. You can then check the validate checkbox to submit your article HTML-code to the validator and see if you made anything wrong. This service is dependent on the W3C-Service and may spontaneously timeout. :-(</p>
+
+                    <h2 id="docs-extending-plugins">Extending Plugins</h2>
+
+                    <p>See our <a href="./plugin-api.html">Plugin API</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="blog-post__footer">
+            <div class="blog-post__footer-author site-col__footer-author-container">
+                <div class="blog-post__author-avatar-container">
+                    <div class="blog-post__author-avatar blog-post__author-avatar--ophian"></div>
+                </div>
+                <div class="blog-post__author-description">
+                    <h3>Ian Styx (ophian)<span>Maintainer</span></h3>
+                    <p class="follow"><a href="https://github.com/ophian/styx/issues" title="Styx issues" target="_blank">@ophian</a></p>
+                    <p>John Ian Styx has more than 17 years of experience in the IT market as a developer and from 2003 as a Serendipity lover.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+<div class="addthis_float_share_toolbox"></div>
+<footer class="footer footer--blog" role="contentinfo">
+    <div class="section-container footer-site-map">
+        <div class="row footer-menu__row">
+            <div class="col-xs-12 col-sm-4 footer-menu__container">
+                <div class="footer-menu__wrapper" role="navigation" aria-labelledby="menu-category-1-0">
+                    <h2 id="menu-category-1-0">Repository</h2>
+                    <ul class="footer-menu">
+                        <li><a class="icon icon--small" href="https://github.com/ophian/styx/releases" target="_blank" rel="noopener"><svg class="icon__body"><use xlink:href="#github"></use></svg> Serendipity Styx Downloads</a></li>
+                        <li><a class="icon icon--small" href="https://github.com/ophian/styx" target="_blank" rel="noopener"><svg class="icon__body"><use xlink:href="#github"></use></svg> Serendipity Styx Code</a></li>
+                        <li><a class="icon icon--small" href="https://github.com/ophian/additional_plugins" target="_blank" rel="noopener"><svg class="icon__body"><use xlink:href="#github"></use></svg> Serendipity Styx Plugins</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-4 footer-menu__container">
+                <div class="footer-menu__wrapper" role="navigation" aria-labelledby="menu-category-1-1">
+                    <h2 id="menu-category-1-1">Site & Documentation</h2>
+                    <ul class="footer-menu">
+                        <li><a href="/">Serendipity Styx Home</a></li>
+                        <li><a href="/blog">Serendipity Styx Blog</a></li>
+                        <li><a href="/book">Serendipity Styx Book [de]</a></li>
+                        <li><a href="/plugins">Serendipity Styx Plugins</a></li>
+                        <li><a href="/themes">Serendipity Styx Themes</a></li>
+                        <li><a href="/hc/en/faq">Serendipity Styx FAQ</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-4 footer-menu__container">
+                <div class="footer-menu__wrapper" role="navigation" aria-labelledby="menu-category-1-2">
+                    <h2 id="menu-category-1-2">Connect with Styx</h2>
+                    <ul class="footer-menu">
+                        <li><a href="/contact">Contact us</a></li>
+                        <li><a href="/hc">Help center</a></li>
+                        <li><a href="/about">About Styx</a></li>
+                        <li><a href="https://github.com/ophian/styx/issues">GitHub Styx Issues</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-mobile" role="navigation" aria-hidden="true" data-mobile="true">
+        <div class="section-container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 footer-mobile__column">
+                    <h2>Repository</h2>
+                    <ul class="footer-mobile__menu">
+                        <li><a class="icon icon--small" href="https://github.com/ophian/styx/releases" target="_blank" rel="noopener"><svg class="icon__body"><use xlink:href="#github"></use></svg> Serendipity Styx Downloads</a></li>
+                        <li><a class="icon icon--small" href="https://github.com/ophian/styx" target="_blank" rel="noopener"><svg class="icon__body"><use xlink:href="#github"></use></svg> Serendipity Styx Code</a></li>
+                        <li><a class="icon icon--small" href="https://github.com/ophian/additional_plugins" target="_blank" rel="noopener"><svg class="icon__body"><use xlink:href="#github"></use></svg> Serendipity Styx Plugins</a></li>
+                    </ul>
+                </div>
+                <div class="col-xs-12 col-sm-6 footer-mobile__column">
+                    <h2>Connect with Styx</h2>
+                    <ul class="footer-mobile__menu">
+                        <li><a href="/contact">Contact us</a></li>
+                        <li><a href="/about">About Styx</a></li>
+                        <li><a href="/hc">Help center</a></li>
+                        <li><a href="/">Serendipity Styx Home</a></li>
+                        <li><a href="/blog">Serendipity Styx Blog</a></li>
+                        <li><a href="/book">Serendipity Styx Book [de]</a></li>
+                        <li><a href="/plugins">Serendipity Styx Plugins</a></li>
+                        <li><a href="/themes">Serendipity Styx Themes</a></li>
+                        <li><a href="https://github.com/ophian/styx/issues">GitHub Styx Issues</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section-container footer-policy">
+        <div class="row">
+            <div class="col-xs-12 col-md-6">
+                <p class="footer-policy__rights">© 2016 - 2018 Serendipity Styx Edition.</p>
+            </div>
+            <div class="col-xs-12 col-md-6">
+                <ul class="footer-policy__menu">
+                    <li class="footer-policy__menu-item"><a href="/legal">Legal</a></li>
+                    <li class="footer-policy__menu-item"><a href="/legal/privacy">Privacy policy</a></li>
+                    <li class="footer-policy__menu-item"><a href="https://opensource.org/docs/definition.php" target="_blank">Open Source</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+	<svg id="github" viewBox="0 0 24 24">
+		<title id="simpleicons-github-icon">GitHub</title><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"></path>
+	</svg>
+</svg>
+
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script>window.jQuery || document.write('<script src="/js/jquery-3.2.1.min.js"><\/script>')</script>
+<script src="/js/jquery.ui.totop.js" type="text/javascript"></script>
+<script> 
+    $(function(){
+        $(document).ready(function() {
+            $().UItoTop();
+        });
+    });
+</script>
+<a href="#" id="toTop" style="display: inline;"><span id="toTopHover"></span>To Top</a>
+<script src="/js/styx.min.js"></script>
+</body></html>

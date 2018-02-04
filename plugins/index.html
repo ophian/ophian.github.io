@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Serendipity Styx Edition - Styx Home | Styx is what Serendipity should be | ophian.github.io</title>
+    <title>Serendipity Styx Edition - Spartacus Plugins | ophian.github.io</title>
     <meta charset="UTF-8">
     <meta name="description" content="Serendipity Styx is a PHP-powered weblog engine giving users an easy way to maintain a blog and developers a framework with the power for professional applications.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,9 +10,9 @@
     <meta property="og:description" content="Serendipity Styx is a PHP-powered weblog engine giving users an easy way to maintain a blog and developers a framework with the power for professional applications.">
     <meta property="og:image" content="https://ophian.github.io/i/styx-opengraph.jpg">
     <meta property="og:url" content="https://ophian.github.io/">
-    <link rel="apple-touch-icon" href="./i/apple-touch-icon.png">
-    <link rel="stylesheet" href="./css/libs.min.css">
-    <link rel="stylesheet" href="./css/styx.min.css">
+    <link rel="apple-touch-icon" href="../i/apple-touch-icon.png">
+    <link rel="stylesheet" href="../css/libs.min.css">
+    <link rel="stylesheet" href="../css/styx.min.css">
 </head>
 <body>
 <ul class="skip-link__list">
@@ -24,7 +24,7 @@
 </ul>
 <div class="menu menu--no-hero menu--tiny ">
     <div class="menu__page-title">
-        <h1><a href="/">Serendipity Styx Edition - Styx Home</a></h1>
+        <h1><a href="/plugins">Serendipity Styx Edition - Spartacus Plugins</a></h1>
     </div>
     <div class="progress-bar" aria-hidden="true"><span class="progress-bar__fill"></span></div>
 </div>
@@ -38,10 +38,11 @@
 <div class="site-nav__panel" aria-hidden="true" aria-controls="site-nav__toggler">
     <nav id="main-navigation" role="navigation" aria-label="main navigation">
         <ul class="site-nav__menu">
-            <li class="site-nav__menu-item site-nav__menu-item--current"><a href="/" tabindex="-1" title="Serendipity Styx Home">Styx Home</a></li>
+            <li class="site-nav__menu-item site-nav__menu-item--current"><a href="/plugins" tabindex="-1" title="Serendipity Styx Spartacus Plugins">Styx Spartacus Plugins</a></li>
         </ul>
         <p class="site-nav__menu-category">Main</p>
         <ul class="site-nav__menu" aria-label="links to styx site main pages">
+            <li class="site-nav__menu-item"><a href="/" tabindex="-1" title="Serendipity Styx Home">Styx Home</a></li>
             <li class="site-nav__menu-item"><a href="/blog" tabindex="-1" title="Serendipity Styx Blog">Styx Blog</a></li>
             <li class="site-nav__menu-item"><a href="/blog/archives" tabindex="-1" title="Serendipity Styx Blog Archives">Styx Blog Archives</a></li>
             <li class="site-nav__menu-item"><a href="/atom.xml" tabindex="-1" title="Serendipity Styx Blog Feed">Styx Blog Feed</a></li>
@@ -49,7 +50,6 @@
         </ul>
         <p class="site-nav__menu-category">Spartacus</p>
         <ul class="site-nav__menu" aria-label="links to styx spartacus pages">
-            <li class="site-nav__menu-item"><a href="/plugins" tabindex="-1" title="Serendipity Styx Spartacus Plugins">Styx Spartacus Plugins</a></li>
             <li class="site-nav__menu-item"><a href="/themes" tabindex="-1" title="Serendipity Styx Spartacus Themes">Styx Spartacus Themes</a></li>
         </ul>
         <p class="site-nav__menu-category">Repository</p>
@@ -72,128 +72,66 @@
     </nav>
 </div>
 <div class="site-cover"></div>
-<main class="site-content site-content--blog-post site-content--no-hero" id="main-content" role="main">
-    <section class="section blog-post" data-reading-progress="true">
-        <div class="blog-post__content">
-            <div class="blog-post__content-header">
-                <div class="blog-post__go-back">
-                    <div class="blog-categories__list blog-categories__list--inline blog-categories__list--small">
-                        <li class="blog-categories__list-item"><a href="/blog">Blog</a></li>
-                        <li class="blog-categories__list-item"><a href="/blog/archives">Archives</a></li>
-                        <li class="blog-categories__list-item"><a href="/about">About Styx</a></li>
-                        <li class="blog-categories__list-item"><a href="/hc/en/faq">Styx FAQ</a></li>
-                        <li class="blog-categories__list-item"><a href="/book">Styx Book</a></li>
-                        <li class="blog-categories__list-item"><a href="/atom.xml">Feed</a></li>
-                    </div>
+<main class="site-content site-content--col site-content--no-hero" id="main-content" role="main">
+    <section class="section site-col" data-reading-progress="true">
+        <div class="col">
+            <div class="col-menu__wrapper">
+                <nav class="col-menu col-menu-spartacus" role="navigation" aria-label="Spartacus Plugins sidebar list">
+                    <h3>Plugins</h3>
+
+                    <h4>Event</h4>
+
+                    <ul class="spartacus-list">
+                        <li><a href="#group_ALLGROUPS">All Groups</a></li>
+                        <li><a href="#group_ANTISPAM">Antispam</a></li>
+                        <li><a href="#group_BACKEND_ADMIN">Administration</a></li>
+                        <li><a href="#group_BACKEND_DASHBOARD">Backend: Dashboard</a></li>
+                        <li><a href="#group_BACKEND_EDITOR">Backend: Editor</a></li>
+                        <li><a href="#group_BACKEND_FEATURES">Backend: Features</a></li>
+                        <li><a href="#group_BACKEND_MAINTAIN">Backend: Maintenance</a></li>
+                        <li><a href="#group_BACKEND_METAINFORMATION">Backend: Meta information</a></li>
+                        <li><a href="#group_BACKEND_TEMPLATES">Backend: Themes</a></li>
+                        <li><a href="#group_BACKEND_USERMANAGEMENT">Backend: Usermanagement</a></li>
+                        <li><a href="#group_FRONTEND_ENTRY_RELATED">Frontend: Entry Related</a></li>
+                        <li><a href="#group_FRONTEND_EXTERNAL_SERVICES">Frontend: External Services</a></li>
+                        <li><a href="#group_FRONTEND_FEATURES">Frontend: Features</a></li>
+                        <li><a href="#group_FRONTEND_FULL_MODS">Frontend: Full Mods</a></li>
+                        <li><a href="#group_FRONTEND_VIEWS">Frontend: Views</a></li>
+                        <li><a href="#group_IMAGES">Images</a></li>
+                        <li><a href="#group_MAINTENANCE">Maintenance</a></li>
+                        <li><a href="#group_MARKUP">Markup</a></li>
+                        <li><a href="#group_STATISTICS">Statistics</a></li>
+                    </ul>
+
+                    <h4>Sidebar</h4>
+
+                    <ul class="spartacus-list">
+                        <li><a href="#sbgroup_ALLGROUPS">All Groups</a></li>
+                        <li><a href="#sbgroup_BACKEND_USERMANAGEMENT">Backend: Usermanagement</a></li>
+                        <li><a href="#sbgroup_FRONTEND_ENTRY_RELATED">Frontend: Entry Related</a></li>
+                        <li><a href="#sbgroup_FRONTEND_EXTERNAL_SERVICES">Frontend: External Services</a></li>
+                        <li><a href="#sbgroup_FRONTEND_FEATURES">Frontend: Features</a></li>
+                        <li><a href="#sbgroup_FRONTEND_VIEWS">Frontend: Views</a></li>
+                        <li><a href="#sbgroup_IMAGES">Images</a></li>
+                        <li><a href="#sbgroup_STATISTICS">Statistics</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="col-document__wrapper col-document__wrapper--spartacus">
+                <div class="col-document">
+                  <h1>Styx Spartacus: Additional Plugins</h1>
+                  <p><strong>SPARTACUS</strong> stands for <em>Serendipity Plugin Access Repository Tool And Customization/Unification System</em></p>
+                  <p><span>[<strong>S</strong>]erendipity [<strong>P</strong>]lugin [<strong>A</strong>]ccess [<strong>R</strong>]epository [<strong>T</strong>]ool [<strong>A</strong>]nd [<strong>C</strong>]ustomization/[<strong>U</strong>]nification [<strong>S</strong>]ystem</span></p>
+                  <p><strong>Styx Spartacus</strong> does <strong>only</strong> support the GIT repository, which currently isn’t able to <strong>tar/zip</strong> a subfolder (plugin) on demand for you. Therefore the download link is set inactive here. Please use the built-in <a href="../hc/en/faq/#docs-what-is-spartacus-how-do-i-install-spartacus">Spartacus plugin</a> to install plugin sources, or clone/download the <a href="https://github.com/ophian/additional_plugins" title="GitHub Serendipity Plugins">additional_plugins</a> repository and copy the subdir you want to install in your blog as a plugin. Please follow the provided links.</p>
+                  <div id="includedContent">
+                    <div id="group_ALLGROUPS" data-include="event"></div>
+                    <div id="sbgroup_ALLGROUPS" data-include="sidebar"></div>
+                  </div>
                 </div>
-                <h1>Home <strong>of Serendipity Styx Edition</strong></h1>
-                <div class="blog-post__meta">
-                    <span class="date">Posted on&nbsp;<time>2018-01-16</time></span>
-                    <span class="author">&nbsp;by&nbsp;<span class="author-name">Ian Styx</span></span>
-                </div>
-               <figure id="slides" class="welcome">
-                    <span class="slide showing"><img src="i/c/frontend-2k11.400.jpg" alt=""></span>
-                    <span class="slide"><img src="i/c/login.400.jpg" alt=""></span>
-                    <span class="slide"><img src="i/c/backend-dash.400.jpg" alt=""></span>
-                    <span class="slide"><img src="i/c/backend.400.jpg" alt=""></span>
-                    <span class="slide"><img src="i/c/welcome-styx.400.jpg" alt=""></span>
-                    <span class="slide"><img src="i/c/maintain.400.jpg" alt=""></span>
-                    <span class="slide"><img src="i/c/frontend-next.400.jpg" alt=""></span>
-                </figure>
             </div>
         </div>
-        <div class="blog-post__content">
-            <p>This site and blog is about the <strong>Serendipity Styx Edition</strong>. A fully regarded <strong>successor</strong> of Serendipity, the S9y-Origin.</p>
-
-            <p>Two years ago, in Spring 2016, after 5 years of heavy core and plugin development for Serendipity as a core developer,
-            I decided to face the challenge of making my own system out of the Serendipity Blog System. That idea kicked
-            off the development of <a href="https://github.com/ophian/styx">Styx</a> and my own and strongly maintained
-            <a href="https://github.com/ophian/additional_plugins">additional_plugins</a> repository.</p>
-
-            <p><a href="https://github.com/ophian/styx">Styx</a> is what <strong>Serendipity</strong> should be!</p>
-
-            <p>You can read all <a href="/about">about Styx</a> and Serendipity here.</p>
-
-            <hr>
-
-            <h3 id="serendipity-styx---a-reliable-secure--extensible-php-blog-engine">Serendipity Styx - A reliable, secure &amp; extensible PHP blog engine</h3>
-
-            <p><a href="https://s9y.org">Serendipity</a> is a PHP-powered weblog engine which gives the user an easy way to maintain a blog.
-            While the default package is designed for the casual blogger, Serendipity offers an expandable framework with the power for
-            professional applications. It stands for:</p>
-
-            <ul id="features">
-                <li>
-                    <h4 id="docs-reliability"><img src="./i/cogs.png" alt=""> Reliability</h4>
-                    <p>Serendipity wants to provide a blog engine that users can trust, for which they can get indivdual support, while being able to influence the project (both as users and developers).</p>
-                </li>
-                <li>
-                    <h4 id="docs-security"><img src="./i/stethoscope.png" alt=""> Security</h4>
-                    <p>The developers are always open for non-public reports on potential security issues. The track record shows that Serendipity has only dealt with few issues over the past years, swiftly fixed.</p>
-                </li>
-                <li>
-                    <h4 id="docs-extensibility"><img src="./i/code-fork.png" alt=""> Extensibility</h4>
-                    <p>Plugins and themes provide easy ways to add functionality or change the looks of a blog. With the online plugin repository Spartacus they are well organized and easy to install.</p>
-                </li>
-                <li>
-                    <h4 id="docs-ease-of-use"><img src="./i/magic.png" alt=""> Ease of use</h4>
-                    <p>Serendipity aims to build simple, but powerful as well as understandable interfaces. The same approach is used for the build code, which is supposed to have a low entry barrier.</p>
-                </li>
-            </ul>
-
-            <hr>
-
-            <p>For the Quicks and as a starter, you may just read the Serendipity Styx <em>Frequently Asked Questions</em> <strong>FAQ</strong> page
-            <a href="/hc/en/faq">here</a> and then return reading about the Serendipity history.</p>
-            
-            <hr>
-
-            <h3 id="serendipity-styx---serendipity-history">A brief history about Serendipity</h3>
-
-            <p>In early 2002, a core team of well-known PHP developers <em>Jannis Hermanns, Sterling Hughes,
-            George Schlossnagle, Wez Furlong, Joyce Park and Joseph Tatem, as well as Sebastian Bergmann
-            from the phpUnit project</em> launched, what was shortly after called <em>“Serendipity”</em>.</p>
-
-            <p>On March 29th in 2003, Jannis Hermanns officially renamed his
-            <a href="http://jann.is/daily/archives/153-Bye-Bye,-jBlog.html" target="_new">jBlog</a> to <strong>Serendipity</strong>.</p>
-
-            <p>Over the years, changing programmers have steadily and consistently developed the system further on.
-            Garvin Hicking at s9y.org has been the lead developer since 2003 and published a book about the Serendipity Blog System in 2008.</p>
-
-            <p>This book, written in german language, and its rights were given back to the community by the publisher
-            in early 2012. Since then it is <strong>opensource</strong> and was available
-            <a href="https://github.com/s9y/Book/blob/master/serendipity.pdf?raw=true" target="_new">as a PDF</a> build
-            from LaTeX sources and opensourced via <a href="https://github.com/s9y/Book/raw/master/LICENSE" target="_new">GitHub</a>
-            under a <em>CC-BY-NC-SA</em> license.</p>
-
-            <p>The author of this site has spend an awesome amount of time and effort into updating this german
-            documentation for recent Serendipity versions. The here published latest <strong>Serendipity</strong>
-            <a href="/book/">Styx Book</a> <em>“revision”</em> from 2018 is strongly
-            brought to your attention.</p>
-
-            <hr>
-
-            <h3 id="help-requests">Help requests:</h3>
-
-            <p>Since being highly overloaded to set up a Styx forum here, to get direct help from myself and/or other users,
-            please just use the GitHub Styx <a class="icon icon--small" href="https://github.com/ophian/styx/issues" target="_blank" rel="noopener"><svg class="icon__body"><use xlink:href="#github"></use></svg> issue</a> tasks, if you have questions
-            or found a bug, or find your way to the origin Serendipity forum board. Thanks.</p>
-
-            <hr>
-
-            <h3 id="releases">Releases:</h3>
-
-            <p>Please visit my <a href="https://ophian.github.io/blog">blog</a> on this site, or point yourself to the repository
-            release <a href="https://github.com/ophian/styx/releases">downloads</a>.</p>
-
-            <hr>
-
-            <p>Regards Ian,<br>Enjoy Styx <strong>!</strong></p>
-
-            <p>This site was created using <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.</p>
-        </div>
         <div class="blog-post__footer">
-            <div class="blog-post__footer-author">
+            <div class="blog-post__footer-author site-col__footer-author-container">
                 <div class="blog-post__author-avatar-container">
                     <div class="blog-post__author-avatar blog-post__author-avatar--ophian"></div>
                 </div>
@@ -201,13 +139,6 @@
                     <h3>Ian Styx (ophian)<span>Maintainer</span></h3>
                     <p class="follow"><a href="https://github.com/ophian/styx/issues" title="Styx issues" target="_blank">@ophian</a></p>
                     <p>John Ian Styx has more than 17 years of experience in the IT market as a developer and from 2003 as a Serendipity lover.</p>
-                </div>
-            </div>
-        </div>
-        <div class="blog-post__navigation">
-            <div class="blog-post__navigation-inner">
-                <div class="blog-post__navigation-item blog-post__navigation-item--right">
-                    <a class="blog-post__navigation-link blog-post__navigation-link--next" href="/about">What next?</a>
                 </div>
             </div>
         </div>
@@ -231,9 +162,9 @@
                 <div class="footer-menu__wrapper" role="navigation" aria-labelledby="menu-category-1-1">
                     <h2 id="menu-category-1-1">Site & Documentation</h2>
                     <ul class="footer-menu">
+                        <li><a href="/">Serendipity Styx Home</a></li>
                         <li><a href="/blog">Serendipity Styx Blog</a></li>
                         <li><a href="/book">Serendipity Styx Book [de]</a></li>
-                        <li><a href="/plugins">Serendipity Styx Plugins</a></li>
                         <li><a href="/themes">Serendipity Styx Themes</a></li>
                         <li><a href="/hc/en/faq">Serendipity Styx FAQ</a></li>
                     </ul>
@@ -269,9 +200,9 @@
                         <li><a href="/contact">Contact us</a></li>
                         <li><a href="/hc">Help center</a></li>
                         <li><a href="/about">About Styx</a></li>
+                        <li><a href="/">Serendipity Styx Home</a></li>
                         <li><a href="/blog">Serendipity Styx Blog</a></li>
                         <li><a href="/book">Serendipity Styx Book [de]</a></li>
-                        <li><a href="/plugins">Serendipity Styx Plugins</a></li>
                         <li><a href="/themes">Serendipity Styx Themes</a></li>
                         <li><a href="https://github.com/ophian/styx/issues">GitHub Styx Issues</a></li>
                     </ul>
@@ -288,7 +219,7 @@
                 <ul class="footer-policy__menu">
                     <li class="footer-policy__menu-item"><a href="/legal">Legal</a></li>
                     <li class="footer-policy__menu-item"><a href="/legal/privacy">Privacy policy</a></li>
-                    <li class="footer-policy__menu-item"><a href="https://opensource.org/docs/definition.php">Proud to be Open Source</a></li>
+                    <li class="footer-policy__menu-item"><a href="https://opensource.org/docs/definition.php" target="_blank">Open Source</a></li>
                 </ul>
             </div>
         </div>
@@ -300,16 +231,22 @@
 	</svg>
 </svg>
 
-<script>
-var slides = document.querySelectorAll('#slides .slide');
-var currentSlide = 0;
-var slideInterval = setInterval(nextSlide,3000);
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script>window.jQuery || document.write('<script src="/js/jquery-3.2.1.min.js"><\/script>')</script>
+<script src="/js/jquery.ui.totop.js" type="text/javascript"></script>
+<script> 
+    $(function(){
+        $(document).ready(function() {
+            $().UItoTop();
+        });
 
-function nextSlide() {
-    slides[currentSlide].className = 'slide';
-    currentSlide = (currentSlide+1)%slides.length;
-    slides[currentSlide].className = 'slide showing';
-}
+        var includes = $('[data-include]');
+        jQuery.each(includes, function(){
+          var file = './inc/bygroups_' + $(this).data('include') + '_en.htm';
+          $(this).load(file);
+        });
+    });
 </script>
+<a href="#" id="toTop" style="display: inline;"><span id="toTopHover"></span>To Top</a>
 <script src="/js/styx.min.js"></script>
 </body></html>
