@@ -10482,10 +10482,9 @@ in Zeile 41 eingebunden. Dieser wird über die folgende Template-Datei
 <code>content.tpl</code> bestimmt.</p>
 
 <p>Am Ende von <code>index.tpl</code> in Zeile 50 wird der Fußbereich durch
-Plugin-Ausgaben mit <code>serendipity_hookPlugin
-hook="frontend_footer"</code> ausgegeben, gefolgt von den schließenden
-<code>&lt;/body&gt;</code>- und <code>&lt;/html&gt;</code>-Tags (nur bei deaktivierter eingebetteter
-Nutzung).</p>
+Plugin-Ausgaben mit <code>serendipity_hookPlugin hook="frontend_footer"</code>
+ausgegeben, gefolgt von den schließenden <code>&lt;/body&gt;</code>- und
+<code>&lt;/html&gt;</code>-Tags (nur bei deaktivierter eingebetteter Nutzung).</p>
 
 </section><!-- section.sub end -->
 
