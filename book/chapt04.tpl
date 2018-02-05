@@ -55,8 +55,7 @@ ist diese Option vor allem in Internetcafes tabu.</p>
     <span class="inline-tag">HTTPS</span>
 </span>
 Sofern Ihr Server die <em>HTTPS</em>-Verschlüsselung unterstützt, sollten
-Sie die Administrationsoberfläche immer über
-<code>https://...</code>
+Sie die Administrationsoberfläche immer über <code>https://...</code>
 aufrufen. Erst diese Verschlüsselung schützt sie vor dem Ablauschen Ihrer
 Logindaten während der Übermittlung.</p>
 

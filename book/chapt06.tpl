@@ -3766,18 +3766,29 @@ einer eigenen Datenbanktabelle <code>serendipity_categorytemplates</code>:
 </p>
 
 <p>Wie bereits mehrfach angesprochen ist der CKEditor [*]
-<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://ckeditor.com/about/features" target="_blank">http://ckeditor.com/about/features</a></span><!-- footnote -->
+<span class="footnote"><i class="fa fa-info-circle"></i>
+<a href="http://ckeditor.com/about/features" target="_blank">http://ckeditor.com/about/features</a></span><!-- footnote -->
 seit einigen Jahren der neue Serendipity-Standard-WYSIWYG-Editor.
-Das <code>CKEditor</code>-Plus-Plugin konnte schon mit der Serendipity 1.7 Serie benutzt werden und wurde seitdem
-ständig weiterentwickelt. Es verfügt im Gegensatz zu dem im Serendipity-Kern implementierten CKEditor über ein
-etwas erweitertes Spektrum und wird regelmäßig mit neuen Versionen aktualisiert.</p>
+Das <code>CKEditor</code>-Plus-Plugin konnte schon mit der Serendipity
+1.7 Serie benutzt werden und wurde seitdem ständig weiterentwickelt.
+Es verfügt im Gegensatz zu dem im Serendipity-Kern implementierten
+CKEditor über ein etwas erweitertes Spektrum und wird regelmäßig mit
+neuen Versionen aktualisiert.</p>
 
-<p>Bereits eingebaut sind ein einfaches <code>mediaembed</code> CKEditor-Plugin für embedded YouTube code,
-folgende offizielle CKEditor Plugins: <code>autogrow</code>, <code>clipboard</code>, <code>codesnippet</code>, <code>embedbase</code>, <code>embed</code>, <code>embedsemantic</code>, <code>fakeobjects</code>, <code>lineutils</code>, <code>notification</code>, <code>notificationaggregator</code>, <code>widget</code> und <code>widgetselection</code> Plugins,
-sowie das Serendipity-CKE-<code>procurator</code> [*]
-<span class="footnote"><i class="fa fa-info-circle"></i> Dies ist eine Art "<em>Platzhalter</em>"-Plugin für spezielle Serendipity HTML Markup Erfordernisse,
-insbesondere bei JavaScript Snippets, oder bestimmten installierten Serendipity Plugins, wie <code>imageselectorplus</code>, oder <code>smartymarkup</code>.</span><!-- footnote -->
-und zusätzlich das Serendipity-CKE-<code>cheatsheet</code> Plugin als leicht erreichbare Toolbar-Button Popup-Dokumentation für die CKEditor Tastatursteuerung.</p>
+<p>Bereits eingebaut sind ein einfaches <code>mediaembed</code>
+CKEditor-Plugin für embedded YouTube code, folgende offizielle CKEditor Plugins:
+<code>autogrow</code>, <code>clipboard</code>, <code>codesnippet</code>,
+<code>embedbase</code>, <code>embed</code>, <code>embedsemantic</code>,
+<code>fakeobjects</code>, <code>lineutils</code>, <code>notification</code>,
+<code>notificationaggregator</code>, <code>widget</code> und <code>widgetselection</code>
+Plugins, sowie das Serendipity-CKE-<code>procurator</code> [*]
+<span class="footnote"><i class="fa fa-info-circle"></i>
+Dies ist eine Art "<em>Platzhalter</em>"-Plugin für spezielle Serendipity
+HTML Markup Erfordernisse, insbesondere bei JavaScript Snippets, oder
+bestimmten installierten Serendipity Plugins, wie <code>imageselectorplus</code>,
+oder <code>smartymarkup</code>.</span><!-- footnote -->
+und zusätzlich das Serendipity-CKE-<code>cheatsheet</code> Plugin als leicht
+erreichbare Toolbar-Button Popup-Dokumentation für die CKEditor Tastatursteuerung.</p>
 
 <p>Das CKEditor-Plugin bietet diese Konfigurationsoptionen an:</p>
 
@@ -4399,10 +4410,10 @@ eintragen, würde im obigen Beispiel nur <code>PHP*</code> und
 das Wort unangetastet lassen.</p>
 
 <p>Das <em>Wort-Ersetzer</em>-Plugin können Sie vom <em>Ausgabe-Wrapper</em>-Plugin
-(siehe Seite <span class="pageref"><a href="#ausgabewrapper">ausgabewrapper</a></span>) in der Seitenleiste ausgeben lassen. Es
-zeigt Ihnen dann das Wörterbuch der eingetragenen <em>Quellen</em> und
-<em>Ziele</em>. Dieses Wörterbuch wird auch in der Konfigurationsmaske des Plugins
-am Ende der Seite eingebunden.</p>
+(siehe Seite <span class="pageref"><a href="#ausgabewrapper">ausgabewrapper</a></span>)
+in der Seitenleiste ausgeben lassen. Es zeigt Ihnen dann das Wörterbuch der eingetragenen
+<em>Quellen</em> und <em>Ziele</em>. Dieses Wörterbuch wird auch in der Konfigurationsmaske
+des Plugins am Ende der Seite eingebunden.</p>
 
 <p>
 <span class="tag-box invisible">
@@ -4450,8 +4461,9 @@ Zeit-Intervallen automatisch ein Programm oder eine Aktion ausgeführt werden.</
 
 <p>Solche regelmäßigen Cronjobs sind auch im Blog-Umfeld von Interesse.
 Beispielsweise bietet Serendipity Plugins an, die regelmäßig RSS-Feeds
-importieren (Aggregator, siehe Seite <span class="pageref"><a href="#aggregator">aggregator</a></span>) oder regelmäßig E-Mails als
-Blog-Artikel abrufen (Popfetcher, siehe Seite
+importieren (Aggregator, siehe Seite
+<span class="pageref"><a href="#aggregator">aggregator</a></span>)
+oder regelmäßig E-Mails als Blog-Artikel abrufen (Popfetcher, siehe Seite
 <span class="pageref"><a href="#serendipity-event-popfetcher">serendipity-event-popfetcher</a></span>).</p>
 
 <p>Eine solch regelmäßige Aktion kann Ihr PHP-Webserver üblicherweise nicht selbst
@@ -4565,10 +4577,11 @@ dargestellt (zB. <code>/serendipity/permalink/Mein-Blogartikel.html</code>).
 Wenn Sie den Pfad anpassen, dürfen Sie nur die Teile anpassen, die hinter
 der Stamm-URL von Serendipity (in unserem Beispiel <code>/serendipity/</code>)
 aufgeführt sind. Sie können beliebige gültige URL-Zeichen [*]
-<span class="footnote"><i class="fa fa-info-circle"></i> Sonderzeichen und Leerzeichen müssen entsprechend
-der RFC 1738 (<a href="http://www.faqs.org/rfcs/rfc1738.html" target="_blank">http://www.faqs.org/rfcs/rfc1738.html</a>) konvertiert werden.
-Das URL-Sonderzeichen <code>;</code> würde
-daher als <code>%3B</code> umgeschrieben werden. Da dies eher unschön aussieht,
+<span class="footnote"><i class="fa fa-info-circle"></i> Sonderzeichen und
+Leerzeichen müssen entsprechend der RFC 1738
+(<a href="http://www.faqs.org/rfcs/rfc1738.html" target="_blank">http://www.faqs.org/rfcs/rfc1738.html</a>)
+konvertiert werden. Das URL-Sonderzeichen <code>;</code> würde daher als
+<code>%3B</code> umgeschrieben werden. Da dies eher unschön aussieht,
 sollten Sie auf derartige Sonderzeichen in Permalinks besser verzichten.</span><!-- footnote --><br> 
 als Permalink einsetzen. Die einzige Regel dabei ist, dass der Permalink
 auf <code>.htm</code> oder <code>.html</code> endet, damit Serendipity ihn korrekt
@@ -4612,11 +4625,13 @@ Auf beliebige Unterrubriken verteilt können Sie hier Ihre Dateien
 sortieren und dem Besucher anbieten.</p>
 
 <p>Sobald das Plugin installiert wurde, können Sie über den Menüpunkt
-<span class="mbold">Aktivität <span class="icon arrow-right">→</span> Downloadmanager</span> Kategorien einrichten. Um eine neue
-Kategorie einzurichten, tragen Sie den Namen im Feld
-<span class="mbold">Kategorie-Name</span> ein. Über das Ausklappfeld <span class="mbold">Unter-Kategorie
-von</span> können Sie festlegen, ob die neu zu erstellende Kategorie unterhalb
-einer bestehenden angelegt werden soll.</p>
+<span class="mbold">Aktivität <span class="icon arrow-right">→</span>
+Downloadmanager</span> Kategorien einrichten. Um eine neue Kategorie
+einzurichten, tragen Sie den Namen im Feld
+<span class="mbold">Kategorie-Name</span> ein. Über das Ausklappfeld
+<span class="mbold">Unter-Kategorie von</span> können Sie festlegen,
+ob die neu zu erstellende Kategorie unterhalb einer bestehenden
+angelegt werden soll.</p>
 
 <p>Alle vorhandenen Kategorien werden am Ende der Verwaltungsoberfläche in
 einer Baumstruktur angezeigt. Dort können Sie bestehende Kategorien
@@ -4830,7 +4845,7 @@ eingeblendet.</span>
 jeweiligen Felder in der Downloadmanager-Übersicht für Besucher
 benannt werden.</span>
 </p>
-<!-- ??? (Ordnen) ??? -->
+
 <p>Die Ausgabe des Plugins erfolgt in der Besucheransicht teilweise mittels
 dreier Smarty-Template-Dateien. Die Datei
 <span class="tag-box invisible">
@@ -4936,7 +4951,8 @@ ihr liebgewonnenes XYZ-Script einsetzen.</p>
 andere Systeme erleichtern, als auch andere Systeme einbinden können
 soll. Viele Möglichkeiten der Einbindung eröffnen sich durch die
 geschickte Anwendung von Smarty-Templating (siehe Seite
-<span class="pageref"><a href="#Smarty-Templates">Smarty-Templates</a></span>) oder von eigenen Ereignis-Plugins (siehe Seite
+<span class="pageref"><a href="#Smarty-Templates">Smarty-Templates</a></span>)
+oder von eigenen Ereignis-Plugins (siehe Seite
 <span class="pageref"><a href="#pluginapi">pluginapi</a></span>).</p>
 
 <p>Wem dies zu komplex ist, der kann mit dem kleinen Plugin
@@ -5060,12 +5076,11 @@ in Blogs angesagt? Dieser Fragestellung nahmen sich mehrere Webservices
 an, die Blogs durchsuchen und mittels Automatismen analysieren. Aber auch
 durch Webservice-Communities wie <code>http://del.icio.us</code> wurde es
 schnell populär, beliebte Links zentral zu verwalten. Ein Leser kann
-nun einen interessanten Blog-Artikel als
-öffentliches Lesezeichen speichern, auf das die Mitglieder der Community
-Zugriff haben. Wenn diese Mitglieder einen Link auch informativ
-finden, übernehmen sie ihn ebenfalls als eigenes Lesezeichen,
-markieren oder bewerten ihn. So entsteht schnell eine qualitative und
-quantitative Bewertung aktueller Blog-Artikel. Übersichtsseiten der
+nun einen interessanten Blog-Artikel als öffentliches Lesezeichen speichern,
+auf das die Mitglieder der Community Zugriff haben. Wenn diese Mitglieder
+einen Link auch informativ finden, übernehmen sie ihn ebenfalls als eigenes
+Lesezeichen, markieren oder bewerten ihn. So entsteht schnell eine qualitative
+und quantitative Bewertung aktueller Blog-Artikel. Übersichtsseiten der
 Social-Web-Communities stellen die populärsten Blog-Artikel übersichtlich
 dar und erhöhen so den Andrang auf beliebte Blogs noch weiter.</p>
 
@@ -5601,7 +5616,7 @@ deaktivieren</span> auf <em>Ja</em> stellen.</span>
 alle Administratoren des Blogs eine E-Mail, sobald neue Forenbeiträge von
 Teilnehmern erstellt wurden.</span>
 </p>
-<!-- ??? (Ordnen) ??? -->
+
 <p>Das Foren-Plugin benutzt zur Darstellung der Inhalte weitestgehend
 Smarty-Template-Dateien. Diese befinden sich im Unterverzeichnis
 <code>plugins/serendipity_event_forum/templates</code>. Die Datei
@@ -7453,19 +7468,21 @@ zu sehen.</p>
 ausblenden.</p>
 
 <p>Sobald das Plugin installiert wurde, bietet es einen neuen Menüpunkt im
-Backend-Bereich <span class="mbold">Aktivität <span class="icon arrow-right">→</span> Seitenleisten verwalten</span> an. Zugleich ändert
-es etwas in der Darstellungsart der Seitenleisten in Ihrem Frontend --
-dort ist für jedes Seitenleisten-Plugin ein kleiner Link <span class="mbold">-</span> bzw.
-<span class="mbold">+</span> hinzugekommen. Dank eines JavaScripts kann ein Besucher
-nun auf diesen Link klicken, und das entsprechende Plugin wird ein- bzw.
-ausgeblendet, um weniger Platz zu belegen. Beachten Sie, dass diese
-Icons/Links nur dann verfügbar sind, wenn Ihr gewähltes Template die
-CSS-Klassen des Standard-Templates benutzt. Ohne diese übereinstimmende
-Benennung kann das JavaScript nicht aktiv werden (Details siehe Seite
+Backend-Bereich <span class="mbold">Aktivität
+<span class="icon arrow-right">→</span> Seitenleisten verwalten</span> an.
+Zugleich ändert es etwas in der Darstellungsart der Seitenleisten in Ihrem
+Frontend -- dort ist für jedes Seitenleisten-Plugin ein kleiner Link
+<span class="mbold">-</span> bzw. <span class="mbold">+</span> hinzugekommen.
+Dank eines JavaScripts kann ein Besucher nun auf diesen Link klicken, und das
+entsprechende Plugin wird ein- bzw. ausgeblendet, um weniger Platz zu belegen.
+Beachten Sie, dass diese Icons/Links nur dann verfügbar sind, wenn Ihr
+gewähltes Template die CSS-Klassen des Standard-Templates benutzt. Ohne diese
+übereinstimmende Benennung kann das JavaScript nicht aktiv werden (Details siehe Seite
 <span class="pageref"><a href="#sidebar-css">sidebar-css</a></span>).</p>
 
-<p>Über das neue Menü <span class="mbold">Aktivität <span class="icon arrow-right">→</span> Seitenleisten verwalten</span> im Backend
-können Sie nun detailliert einstellen, wie die Seitenleisten-Plugins
+<p>Über das neue Menü <span class="mbold">Aktivität
+<span class="icon arrow-right">→</span> Seitenleisten verwalten</span>
+im Backend können Sie nun detailliert einstellen, wie die Seitenleisten-Plugins
 versteckt werden sollen. Wenn Sie diesen Bereich betreten, sehen Sie eine
 Oberfläche, die an die <span class="mbold">Pluginverwaltung</span> angelehnt ist. Für jede
 Seitenleiste des Templates werden die dort eingerichteten
@@ -7506,12 +7523,13 @@ somit ein Plugins niemals sehen.</p>
 <p>Abgesehen vom Verstecken eines Plugins in Abhängigkeit vom Status eines
 Besuchers können Sie ein Seitenleisten-Plugin auch dann verstecken, wenn
 ein Besucher eine spezielle Kategorie des Blogs ansieht. Auch hier gilt
-wieder, dass Sie bei der Benutzung der <span class="mbold">Nur Kategorien</span>-Option alle
-Kategorien auswählen müssen, bei denen ein Seitenleistenelement angezeigt
-werden soll. Die Sonderoption <span class="mbold">Alle Kategorien</span> ist standardmäßig
-vorausgewählt, so dass ein Seitenleisten-Plugin immer angezeigt wird. <span class="mbold">&lt;Front Page&gt;</span> bezieht sich auf die Standard-Artikelübersicht
-von Serendipity, in der ein Besucher noch keine besondere Einschränkung
-zu einer gewählten Kategorie getroffen hat.</p>
+wieder, dass Sie bei der Benutzung der <span class="mbold">Nur Kategorien</span>-Option
+alle Kategorien auswählen müssen, bei denen ein Seitenleistenelement angezeigt
+werden soll. Die Sonderoption <span class="mbold">Alle Kategorien</span> ist
+standardmäßig vorausgewählt, so dass ein Seitenleisten-Plugin immer angezeigt
+wird. <span class="mbold">&lt;Front Page&gt;</span> bezieht sich auf die
+Standard-Artikelübersicht von Serendipity, in der ein Besucher noch keine
+besondere Einschränkung zu einer gewählten Kategorie getroffen hat.</p>
 
 <p>Sobald ein Plugin über die Optionen <span class="mbold">Nur Mitglieder/Nur
 ich/Gruppe/Nur Kategorien</span> ausgeblendet wird, kann ein Besucher im
@@ -7571,16 +7589,18 @@ erweitern.</p>
 weist es einen speziellen CSS-Stil zu, den Sie über die
 Konfigurationsoptionen des Plugins manuell beeinflussen können.</p>
 
-<p>Anstelle der HTML-Links <span class="mbold">+</span> und <span class="mbold">-</span> können Sie auch beliebigen
+<p>Anstelle der HTML-Links <span class="mbold">+</span> und
+<span class="mbold">-</span> können Sie auch beliebigen
 anderen HTML-Code einbinden, zum Beispiel eine Grafik oder einen
 ausführlichen Text wie <code>Verstecken</code> und <code>Anzeigen</code>.</p>
 
 <p>Sollten Ihnen die Optionen dieses Plugins nicht ausreichen, um ein
-Seitenleisten-Plugin abhängig vom umgebenden Inhalt zu verstecken, müssen Sie dies
-manuell mittels Smarty-Syntax in der <code>sidebar.tpl</code> lösen. Dort können Sie
-auch beispielsweise Abfragen einfügen, so dass bestimmte Seitenleistenelemente für
-statische Seiten nicht angezeigt werden. Generelle Informationen zu diesen
-Anpassungsmöglichkeiten finden Sie ab Seite <span class="pageref"><a href="#Smarty-Templates">Smarty-Templates</a></span>.</p>
+Seitenleisten-Plugin abhängig vom umgebenden Inhalt zu verstecken, müssen
+Sie dies manuell mittels Smarty-Syntax in der <code>sidebar.tpl</code> lösen.
+Dort können Sie auch beispielsweise Abfragen einfügen, so dass bestimmte
+Seitenleistenelemente für statische Seiten nicht angezeigt werden.
+Generelle Informationen zu diesen Anpassungsmöglichkeiten finden Sie ab Seite
+<span class="pageref"><a href="#Smarty-Templates">Smarty-Templates</a></span>.</p>
 
 </section><!-- section.sub end -->
 
@@ -7716,9 +7736,11 @@ die für valide Kommentare gebräuchlich sind.</p>
 <span class="item mbold">Spambehandlung</span><!-- menuitem -->
 <span class="desc-info">
     <span class="box">
-        Der Bayes Spamfilter ist ein statistischer Filter zur Klassifizierung unerwünschter E-Mail-Nachrichten (Spam) durch den naiven Bayes-Klassifikator.
-        Er filtert Kommentare mittels eines lernenden Algorithmus und ist daher zu den ressourcenintensiven Plugins zu rechnen.
-        Wählt, was mit den zu untersuchenden Kommentaren geschehen soll.
+        Der Bayes Spamfilter ist ein statistischer Filter zur Klassifizierung
+        unerwünschter E-Mail-Nachrichten (Spam) durch den naiven Bayes-Klassifikator.
+        Er filtert Kommentare mittels eines lernenden Algorithmus und ist daher
+        zu den ressourcenintensiven Plugins zu rechnen. Das Feld Spambehandlung
+        wählt, was mit den zu untersuchenden Kommentaren geschehen soll.
     </span>
 
     <span class="box">
@@ -7892,12 +7914,15 @@ die für valide Kommentare gebräuchlich sind.</p>
 </span>
 </p>
 
-<p>Dieses interessante Plugin hat sich als äußerst erfolgreiches Spaminstrument an <span class="mbold">vorderster Linie</span> bewährt.
-Es nutzt Javascript, um dumme Spambots schon vor dem ersten POST ins Leere laufen zu lassen und stellt
-weitere gute Optionen (Honeypot, Verstecktes Captcha) zur Spamabwehr bereit.
-Es sollte deshalb immer an <span class="mbold">erster</span> Stelle in Ihrer Plugin Liste stehen, weil es dort am effektivsten arbeiten kann.
-Mit diesem intelligent einfachen Instrument kann man erheblich dazu beitragen,
-die Belastung des Servers durch das Webrauschen der Spambots und die eigene Pflicht
+<p>Dieses interessante Plugin hat sich als äußerst erfolgreiches
+Spaminstrument an <span class="mbold">vorderster Linie</span> bewährt.
+Es nutzt Javascript, um dumme Spambots schon vor dem ersten POST ins
+Leere laufen zu lassen und stellt weitere gute Optionen (Honeypot,
+Verstecktes Captcha) zur Spamabwehr bereit. Es sollte deshalb immer an
+<span class="mbold">erster</span> Stelle in Ihrer Plugin Liste stehen,
+weil es dort am effektivsten arbeiten kann. Mit diesem intelligent
+einfachen Instrument kann man erheblich dazu beitragen, die Belastung
+des Servers durch das Webrauschen der Spambots und die eigene Pflicht
 zur ständigen Kommentarbeobachtung und -pflege deutlich zu reduzieren.</p>
 
 <p>Das SPAM-Biene-Plugin bietet folgende Konfigurationsoptionen an:</p>
@@ -8123,8 +8148,9 @@ Kategorie vorgibt.</span>
 <span class="item mbold">Mehrere Ursprungskategorien</span><!-- menuitem -->
 <span class="desc-info">Anstatt nur eine einzelne Kategorie als Startkategorie festzulegen,
 können Sie auch mehrere Kategorie-IDs mit einem <code>;</code> getrennt
-voneinander eintragen. Die Kategorie-IDs können Sie der
-Kategorieverwaltung (siehe Seite <span class="pageref"><a href="#Kategorie-ID ermitteln">Kategorie-ID ermitteln</a></span>) entnehmen.</span>
+voneinander eintragen. Die Kategorie-IDs können Sie der Kategorieverwaltung
+(siehe Seite <span class="pageref"><a href="#Kategorie-ID ermitteln">Kategorie-ID ermitteln</a></span>)
+entnehmen.</span>
 </p>
 
 <p class="desc">
@@ -8289,24 +8315,31 @@ Umwandlungsvarianten flexibel ein- oder ausschalten.</p>
 
 <p class="text">Serendipity wird seit <em>Serendipity 2.0+</em>
 standardmäßig mit dem WYSIWYG-Editor <em>CKEditor</em> [*]
-<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://ckeditor.com/" target="_blank">http://ckeditor.com/</a></span><!-- footnote -->,
-dem überaus erfolgreichen Nachfolger des <em>FCKeditor</em> ausgeliefert. Dieser Editor läuft problemlos mit allen aktuellen
-Browsern (Chrome, Firefox, Internet Explorer, Firefox, Safari, etc) und wird profesionell und aktiv weiterentwickelt.
-Er hat sich mittlerweile zum quasi-Standard der HTML Editoren am Markt entwickelt. In Serendipity ist er
-als Core Editor aus Kompatibilitätsgründen ebenfalls im <code class="dir">/htmlarea</code> Ordner angesiedelt.
-Außerdem existiert noch das <code>CKEditor Plus</code>-Plugin, das immer die neueste Version mit leichter Zeitverzögerung
-mitbringt und so zB auch über ein eingebautes Codesnippet Tool verfügt, mit dem sehr leicht und einfach Code Beispiele
-in den Eintrags Text gegossen und schon gleich farblich herausgehoben dargestellt werden können.
-Im Grunde ist es damit unnötig geworden irgendein anderes <em>WYSIWYG</em>-Editor-Plugin einzusetzen,
-wenn nicht absolut wichtige persönliche Präferenzen dafür sprechen. (Siehe <span class="pageref"><a href="#WYSIWYG">WYSIWYG</a></span>)</p>
+<span class="footnote"><i class="fa fa-info-circle"></i>
+<a href="http://ckeditor.com/" target="_blank">http://ckeditor.com/</a></span><!-- footnote -->,
+dem überaus erfolgreichen Nachfolger des <em>FCKeditor</em> ausgeliefert.
+Dieser Editor läuft problemlos mit allen aktuellen Browsern (Chrome,
+Firefox, Internet Explorer, Firefox, Safari, etc) und wird professionell
+und aktiv weiterentwickelt. Er hat sich mittlerweile zum quasi-Standard
+der HTML Editoren am Markt entwickelt. In Serendipity ist er als Core-Editor
+aus Kompatibilitätsgründen ebenfalls im <code class="dir">/htmlarea</code>
+Ordner angesiedelt. Außerdem existiert noch das <code>CKEditor Plus</code>-Plugin,
+das immer die neueste Version mit leichter Zeitverzögerung mitbringt und so zB.
+auch über ein eingebautes Codesnippet Tool verfügt, mit dem sehr leicht und
+einfach Code Beispiele in den Eintrags Text gegossen und schon gleich farblich
+herausgehoben dargestellt werden können. Im Grunde ist es damit unnötig geworden
+irgendein anderes <em>WYSIWYG</em>-Editor-Plugin einzusetzen, wenn nicht absolut
+wichtige persönliche Präferenzen dafür sprechen.
+(Siehe <span class="pageref"><a href="#WYSIWYG">WYSIWYG</a></span>)</p>
 
 <p>An der Qualität verschiedener WYSIWYG-Editoren scheiden sich
 die Geister - grundsätzlich ist es ein beinahe unmögliches Ziel,
 vollständige WYSIWYG-Fähigkeiten browserübergreifend zu verwirklichen.
-Gerade zwischen Internet Explorer und Firefox
-unterscheiden sich die technischen Implementationen fast grundlegend, so
-dass ein überall gleich arbeitender WYSIWYG-Editor wohl noch lange ein
-Zukunftstraum bleiben wird.</p>
+Gerade zwischen Internet Explorer und Firefox unterscheiden sich die
+technischen Implementationen fast grundlegend, so dass ein überall
+gleich arbeitender WYSIWYG-Editor wohl noch lange ein Zukunftstraum
+bleiben wird. Dies gilt nicht mehr für den heute benutzten Editor. Ja,
+die Dinge sich und manche werden besser!</p>
 
 <p>Dennoch arbeiten viele Entwickler unbeirrt an diesem hehren Ziel und
 bringen häufige Updates ihrer Editoren heraus, die stetig stabiler
@@ -8424,9 +8457,9 @@ benutzen</span> aktivieren.</span>
     <span class="box">
         Bei der Benutzung der Mediendatenbank von Serendipity sind solche
         relativen URLs jedoch eher problematisch. Daher ist es eher zu empfehlen,
-        die Option <span class="mbold">Relative URLs erzeugen</span> zu deaktivieren, um potenziellen
-        Problemen bei der Einbindung von Podcasts, RSS-Feeds und Ähnlichem zu
-        entgehen.
+        die Option <span class="mbold">Relative URLs erzeugen</span> zu deaktivieren,
+        um potenziellen Problemen bei der Einbindung von Podcasts, RSS-Feeds und
+        Ähnlichem zu entgehen.
     </span>
 </span>
 </p>
@@ -8540,22 +8573,23 @@ kontrollieren</em>, denn dieses Plugin ermöglicht es Ihnen, manuelle
 Trackback-URLs zu einem Eintrag hinzuzufügen.</p>
 
 <p>Zusätzlich bietet das Plugin Ihnen die Möglichkeit, ausgehende Trackbacks
-global in Ihrem Blog zu deaktivieren. Dann sendet Serendipity beim
-Speichern Ihrer Artikel keinerlei Trackbacks, dies empfiehlt sich also
-besonders bei versteckten Blogs oder Intranet-Blogs, die mit der
-Außenwelt nicht in Kontakt treten sollen. Abgesehen von diesem Plugin
-regelt auch die Variable <code>$serendipity['noautodiscovery']</code> der Datei
+global in Ihrem Blog zu deaktivieren. Dann sendet Serendipity beim Speichern
+Ihrer Artikel keinerlei Trackbacks, dies empfiehlt sich also besonders bei
+versteckten Blogs oder Intranet-Blogs, die mit der Außenwelt nicht in Kontakt
+treten sollen. Abgesehen von diesem Plugin regelt auch die Variable
+<code>$serendipity['noautodiscovery']</code> der Datei
 <code>serendipity_config_local.inc.php</code> die globale Deaktivierung von
-Trackbacks, wie auf Seite <span class="pageref"><a href="#noautodiscovery">noautodiscovery</a></span> beschrieben.</p>
+Trackbacks, wie auf Seite <span class="pageref"><a href="#noautodiscovery">noautodiscovery</a></span>
+beschrieben.</p>
 
 <p>Ein weiteres praktisches Feature des Plugins ist, dass Sie in der Konfiguration
 einen Web-Proxy eintragen können. Ein Proxy ist ein Server, der als Bindeglied
 zwischen Webserver und dem Internet steht. Oft ist es einem Webserver aus
 Sicherheitsgründen nicht erlaubt, direkt auf andere Server zuzugreifen. Dies ist
 auch der häufigste Grund dafür, dass das Spartacus-Plugin (siehe Seite
-<span class="pageref"><a href="#Spartacus">Spartacus</a></span>) nicht funktioniert. Wenn der Webserver jedoch auf
-einen Proxy-Server zugreifen darf, können die Zugriffe auf fremde Server über
-den Proxy geleitet werden.</p>
+<span class="pageref"><a href="#Spartacus">Spartacus</a></span>) nicht funktioniert.
+Wenn der Webserver jedoch auf einen Proxy-Server zugreifen darf, können die
+Zugriffe auf fremde Server über den Proxy geleitet werden.</p>
 
 <p>Auch wenn Serendipity Trackbacks verschickt, muss es direkt auf einen
 Server zugreifen können. Damit Sie einen Proxy dazwischensetzen können,
@@ -8629,7 +8663,8 @@ Trackback-URL korrekt enthalten, würde Serendipity das Trackback direkt
 abschicken. In unserem Beispiel gehen wir aber davon aus, dass die
 automatische Erkennung fehlschlägt, da Hanni und Nanni leider ein
 Blog-Template benutzen, das die Trackback-URL nicht korrekt über
-RDF-Metadaten einbindet (siehe Trackback-Kapitel ab Seite <span class="pageref"><a href="#trackback">trackback</a></span>).</p>
+RDF-Metadaten einbindet (siehe Trackback-Kapitel ab Seite
+<span class="pageref"><a href="#trackback">trackback</a></span>).</p>
 
 <p>Daher müssen wir uns nun auf die Jagd nach der Trackback-URL machen. Dazu
 rufen wir das Blog selber im Browser auf, und meist stößt man auf eine Angabe
@@ -9039,15 +9074,15 @@ wiederum möchten möglicherweise gerne auch etwas mehr Informationen über
 sich preisgeben.</p>
 
 <p>Viele Blogs regeln dies durch Einführungsartikel, in denen sich ein
-Redakteur vorstellt. Solche Artikel sind aber später
-möglicherweise nicht immer im Blickfeld eines Besuchers.</p>
+Redakteur vorstellt. Solche Artikel sind aber später möglicherweise
+nicht immer im Blickfeld eines Besuchers.</p>
 
-<p>Deshalb bietet das Plugin <em>Benutzerprofile</em> eine Möglichkeit, mit der
-jeder Redakteur Details zu seiner Person in vorausgefüllte Felder (wie
-Wohnort, Land, Hobbies, Homepage etc.) eintragen kann. Diese Felder
+<p>Deshalb bietet das Plugin <em>Benutzerprofile</em> eine Möglichkeit,
+mit der jeder Redakteur Details zu seiner Person in vorausgefüllte Felder
+(wie Wohnort, Land, Hobbies, Homepage etc.) eintragen kann. Diese Felder
 können Besucher des Blogs dann einsehen, wenn sie im Frontend auf den
-Namen eines Redakteurs klicken. Oberhalb der Übersicht der von dem jeweiligen Redakteur
-geschriebenen Artikel sehen sie dann eine Box mit den
+Namen eines Redakteurs klicken. Oberhalb der Übersicht der von dem jeweiligen
+Redakteur geschriebenen Artikel sehen sie dann eine Box mit den
 eingetragenen Profildaten.</p>
 
 <p class="tagging invisible">
@@ -9059,23 +9094,26 @@ eingetragenen Profildaten.</p>
 </p>
 
 <p>Die Benutzerprofile verwaltet das Plugin, indem es sich in den
-Admin-Bereich <span class="mbold">Eigene Einstellungen</span> einklinkt. Unterhalb der
-bekannten Einstellungen sehen Sie einen neuen Bereich, in dem die
-verfügbaren Redakteure aufgelistet sind, wobei Ihr Name standardmäßig
-hervorgehoben ist. Direkt darunter befinden sich die jeweiligen
-Profilfelder wie <em>Voller Name</em>, <em>Homepage</em>, <em>Hobbies</em> und
-so weiter. Dort kann der jeweilige Redakteur sämtliche Felder seiner Datei
-ausfüllen und auf <span class="mbold">Speichern</span> klicken. Bitte beachten Sie, dass
-aus technischen Gründen Geburtstage vor dem 01.01.1970 [*]
-<span class="footnote"><i class="fa fa-info-circle"></i> Dieses Datum markiert Sekunde 1 der Unix-Zeitrechnung. Alle
+Admin-Bereich <span class="mbold">Eigene Einstellungen</span> einklinkt.
+Unterhalb der bekannten Einstellungen sehen Sie einen neuen Bereich,
+in dem die verfügbaren Redakteure aufgelistet sind, wobei Ihr Name
+standardmäßig hervorgehoben ist. Direkt darunter befinden sich die
+jeweiligen Profilfelder wie <em>Voller Name</em>, <em>Homepage</em>,
+<em>Hobbies</em> und so weiter. Dort kann der jeweilige Redakteur
+sämtliche Felder seiner Datei ausfüllen und auf
+<span class="mbold">Speichern</span> klicken. Bitte beachten Sie,
+dass aus technischen Gründen Geburtstage vor dem 01.01.1970 [*]
+<span class="footnote"><i class="fa fa-info-circle"></i>
+Dieses Datum markiert Sekunde 1 der Unix-Zeitrechnung. Alle
 Unix-Server arbeiten intern mit sogenannten Timestamps, daher werden auch
 in vielen Datenbanken Timestamps zur Formatierung von Zeitpunkten
 verwendet, da damit leichter zu rechnen ist und sie sich einfacher in
-beliebige Zeitzonen umrechnen lassen.</span><!-- footnote --> von dem Plugin leider nicht
-korrekt ausgewertet werden können.</p>
+beliebige Zeitzonen umrechnen lassen.</span><!-- footnote --> von dem
+Plugin leider nicht korrekt ausgewertet werden können.</p>
 
 <p>Zusätzlich bindet das Plugin dieselbe Oberfläche auch unter dem
-eigenständigen Menüpunkt <span class="mbold">Administration <span class="icon arrow-right">→</span> Benutzerprofile</span> ein.</p>
+eigenständigen Menüpunkt <span class="mbold">Administration
+<span class="icon arrow-right">→</span> Benutzerprofile</span> ein.</p>
 
 <p>In dem Ausklappfeld der Benutzerprofile können Sie auch die Daten anderer
 Redakteure bequem einsehen. Als höherrangiger Chefredakteur oder

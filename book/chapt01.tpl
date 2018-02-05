@@ -1854,16 +1854,22 @@ Bilder zu verschieben oder Tabellen einzufügen.</p>
 
 <p class="text">Serendipity wird seit <em>Serendipity 2.0+</em>
 standardmäßig mit dem WYSIWYG-Editor <em>CKEditor</em> [*]
-<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://ckeditor.com/" target="_blank">http://ckeditor.com/</a></span><!-- footnote -->,
-dem überaus erfolgreichen Nachfolger des <em>FCKeditor</em> ausgeliefert. Dieser Editor läuft problemlos mit allen aktuellen
-Browsern (Chrome, Firefox, Internet Explorer, Firefox, Safari, etc) und wird profesionell und aktiv weiterentwickelt.
-Er hat sich mittlerweile zum quasi-Standard der HTML Editoren am Markt entwickelt. In Serendipity ist er
-als Core Editor aus Kompatibilitätsgründen ebenfalls im <code class="dir">/htmlarea</code> Ordner angesiedelt.
-Außerdem existiert noch das <code>CKEditor Plus</code>-Plugin, das immer die neueste Version mit leichter Zeitverzögerung
-mitbringt und zB auch über ein eingebautes Codesnippet Tool verfügt, mit dem sehr leicht und einfach Code-Beispiele
-in den Eintrags-Text gegossen und schon gleich farblich herausgehoben dargestellt werden können.
-Im Grunde ist es damit unnötig geworden irgendein anderes <em>WYSIWYG</em>-Editor-Plugin einzusetzen,
-wenn nicht absolut wichtige persönliche Präferenzen dafür sprechen.</p>
+<span class="footnote"><i class="fa fa-info-circle"></i>
+<a href="http://ckeditor.com/" target="_blank">http://ckeditor.com/</a></span><!-- footnote -->,
+dem überaus erfolgreichen Nachfolger des <em>FCKeditor</em> ausgeliefert.
+Dieser Editor läuft problemlos mit allen aktuellen Browsern (Chrome,
+Firefox, Internet Explorer, Firefox, Safari, etc) und wird professionell
+und aktiv weiterentwickelt. Er hat sich mittlerweile zum quasi-Standard
+der HTML Editoren am Markt entwickelt. In Serendipity ist er als Core-Editor
+aus Kompatibilitätsgründen ebenfalls im <code class="dir">/htmlarea</code>
+Ordner angesiedelt. Außerdem existiert noch das <code>CKEditor Plus</code>-Plugin,
+das immer die neueste Version mit leichter Zeitverzögerung mitbringt und so zB.
+auch über ein eingebautes Codesnippet Tool verfügt, mit dem sehr leicht und
+einfach Code Beispiele in den Eintrags Text gegossen und schon gleich farblich
+herausgehoben dargestellt werden können. Im Grunde ist es damit unnötig geworden
+irgendein anderes <em>WYSIWYG</em>-Editor-Plugin einzusetzen, wenn nicht absolut
+wichtige persönliche Präferenzen dafür sprechen.
+(Siehe <span class="pageref"><a href="#WYSIWYG">WYSIWYG</a></span>)</p>
 
 </section><!-- section.sub end -->
 

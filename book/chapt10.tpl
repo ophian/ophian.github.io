@@ -124,9 +124,9 @@ Daraufhin werden sie über die Funktion <code>serendipity_printEntries</code>
 bearbeitet und letztlich an die erforderliche Template-Datei zugewiesen.</p>
 
 <p>Nachdem die Datei <code>genpage.inc.php</code> den eigentlichen Seiteninhalt
-aufbereitet hat (Smarty-Variable <code class="smarty">{$CONTENT}</code>), kann die <code>index.php</code>-Datei als letzte
-Maßnahme für die Ausgabe des Inhalts sorgen, indem sie den Darstellungsprozess
-von <em>Smarty</em> aufruft.</p>
+aufbereitet hat (Smarty-Variable <code class="smarty">{$CONTENT}</code>), kann
+die <code>index.php</code>-Datei als letzte Maßnahme für die Ausgabe des Inhalts
+sorgen, indem sie den Darstellungsprozess von <em>Smarty</em> aufruft.</p>
 
 <p>&nbsp;</p>
 
@@ -183,7 +183,8 @@ bindet das Serendipity-Framework zwar ein, dient aber ansonsten aus Gründen der
 Übersichtlichkeit ausschließlich der Abarbeitung von Trackbacks. Da diese einen
 ressourcenintensiven Prozess darstellen, werden sie nicht über die zentrale
 Datei bearbeitet. Dies erleichtert Logging und evtl. auch den Ausschluss des
-Trackback-Mechanismus' bei Ressourcenproblemen (siehe Seite <span class="pageref"><a href="#commentphp">commentphp</a></span>).</p>
+Trackback-Mechanismus' bei Ressourcenproblemen (siehe Seite
+<span class="pageref"><a href="#commentphp">commentphp</a></span>).</p>
 
 <p>Falls Ihr Serendipity-Blog so konfiguriert ist, dass Kommentare in einem Popup
 angezeigt werden, dient die <code>comment.php</code> auch zur Darstellung
@@ -209,7 +210,8 @@ Kommentarfeld aufrufen zu müssen. Serendipity nimmt derartige Kommentare über 
 
 <h3 class="subsection" id="exit-nachverfolgung">Exit-Nachverfolgung</h3>
 
-<p>Serendipitys Plugin zum <code>Externe Links zählen</code> (siehe Seite <span class="pageref"><a href="#trackexits">trackexits</a></span>)
+<p>Serendipitys Plugin zum <code>Externe Links zählen</code> (siehe Seite
+<span class="pageref"><a href="#trackexits">trackexits</a></span>)
 dient zur statistischen Erfassung, auf welche Links Ihre Besucher klicken. Dabei
 leitet Serendipity den Besucher auf die eigentlich gewünschte URL weiter. Damit
 dies Ressourcen sparend geschehen kann, ist diese Funktionalität in der Datei
@@ -2475,7 +2477,8 @@ die Sie bei der Entwicklung von Plugins und Ähnlichem häufig einsetzen werden.
 
 <p>Funktionen zur Verwaltung von Smarty. Die meisten von den in
 <code>include/functions_smarty.inc.php</code> festgelegten Funktionen dienen als
-Smarty-Modifier oder Smarty-Functions. Diese sind ab Seite <span class="pageref"><a href="#smartyfunctions">smartyfunctions</a></span>
+Smarty-Modifier oder Smarty-Functions. Diese sind ab Seite
+<span class="pageref"><a href="#smartyfunctions">smartyfunctions</a></span>
 und Seite <span class="pageref"><a href="#smartymodifier">smartymodifier</a></span> dokumentiert.</p>
 
 <p class="desc">
@@ -3469,11 +3472,11 @@ Protokolleintrag stets mit einem Blog-Artikel und einem Kommentar verbunden.</p>
 OpenSource-Projekten ist es üblich, den Quellcode für Interessierte vollständig
 offen und transparent zu verwalten.</p>
 
-<p>Dazu hat sich seit geraumer Zeit der Service von
-GitHub [*]
-<span class="footnote"><i class="fa fa-info-circle"></i> <a href="https://github.com/" target="_blank">https://github.com/</a></span><!-- footnote -->
-als Standard in der Open Source Welt fest etabliert,
-der OpenSource-Projekten und praktisch Jedermann kostenlos Verwaltungsdienste und Speicherplatz anbietet.
+<p>Dazu hat sich seit geraumer Zeit der Service von GitHub [*]
+<span class="footnote"><i class="fa fa-info-circle"></i>
+<a href="https://github.com/" target="_blank">https://github.com/</a></span><!-- footnote -->
+als Standard in der Open Source Welt fest etabliert, der OpenSource-Projekten
+und praktisch Jedermann kostenlos Verwaltungsdienste und Speicherplatz anbietet.
 Finanziert wird dieses Erfolgsmodell vom Verkauf der Enterprise und Privat Repository Lösungen.
 Inzwischen sind viele der ganz großen Fische und mehr oder weniger "alle" bekannten Projekte hier vertreten.
 Beispiele sind, der Linux Kernel, Google, Microsoft, JQuery, PHP, Ruby on Rails und so weiter.
@@ -3485,8 +3488,8 @@ Linus Torvalds vor 11 Jahren im April 2005 <em>mal eben so</em> in zwei Wochen n
 <p>Die Projektseite des originalen Serendipity befindet sich unter
 <code>https://github.com/s9y</code>. Dort gibt es die Projekte von S9y,
 wie die Serendipity Blog Software, die Dokumentation, Serendipity Plugins und Themes, das Buch und weiteres.
-Und natürlich vor allem den Download der offiziellen
-Serendipity-Releases unter <code>https://github.com/s9y/Serendipity/releases</code>.</p>
+Und natürlich vor allem den Download der offiziellen Serendipity-Releases unter
+<code>https://github.com/s9y/Serendipity/releases</code>.</p>
 
 <p>Die <strong>Serendipity Styx</strong> Projektseite ist auf <code>https://ophian.github.io/</code> zu finden.
 Das Styx Repository wird auf <code>https://github.com/ophian/</code> gehostet und dort können
@@ -3499,80 +3502,107 @@ oder eine Nachricht in der Projekt-Issue-Datenbank hinterlassen.</p>
 <p>Wenn Sie zu Serendipity beitragen möchten, finden Sie hier was Sie dazu benötigen:</p>
 
 <ul class="realList star">
-  <li>Kreieren Sie einen GitHub Zugang, klonen Sie unser Repository, entwickeln sie Code und tragen Sie
-      mit einem <em>pull request</em> zur Entwicklung bei. Wenn sie regelmäßig beitragen wollen, wären wir erfreut
-      Ihnen bei Interesse eventuell ein <em>Membership</em> Zugang zu geben.</li>
-  <li>Lesen Sie unseren kurzen englischsprachigen <a href="../hc/en/code-primer.html">Code Dokumentations Leitfaden</a>,
-      um eine Idee davon zu bekommen, was in der Serendipity Welt und API WAS ist. Natürlich ist dies hier in diesem Buch
-      an verschiedenen Stellen sehr ausführlich dokumentiert.</li>
+  <li>Kreieren Sie einen GitHub Zugang, klonen Sie unser Repository, entwickeln sie Code und
+      tragen Sie mit einem <em>pull request</em> zur Entwicklung bei. Wenn sie regelmäßig
+      beitragen wollen, wären wir erfreut Ihnen bei Interesse eventuell ein <em>Membership</em>
+      Zugang zu geben.</li>
+  <li>Lesen Sie unseren kurzen englischsprachigen <a href="/hc/en/code-primer.html">Code
+      Dokumentations Leitfaden</a>, um eine Idee davon zu bekommen, was in der Serendipity
+      Welt und API WAS ist. Natürlich ist dies hier in diesem Buch an verschiedenen Stellen
+      sehr ausführlich dokumentiert.</li>
   <li>Sie wollen zu <strong>einem Theme oder Plugin beitragen</strong>?
-      Dazu benutzen Sie entweder GitHub <em>pull requests</em>, oder auch immer noch den alten Weg,
-      in dem Sie ihren Vorschlag im Forum niederschreiben.
+      Dazu benutzen Sie entweder GitHub <em>pull requests</em>, oder auch immer noch den
+      alten Weg, in dem Sie ihren Vorschlag im Forum niederschreiben.
       Unsere Developer werden Ihnen hilfreich zur Hand gehen, soweit es die Zeit zulässt.</li>
 </ul>
 
 <p><span class="item mbold">Schnellzugriff:</span></p>
 
 <ul class="realList star">
-  <li>Plugins für <span class="item mbold">Serendipity Styx</span> und den eigentlichen <span class="item mbold">Styx Kern</span> finden Sie auf meiner <a href="https://github.com/ophian/">GitHub Seite</a>.
-      Die Plugins und Themes des S9y Serendipity-S9y-Kerns finden Sie <a href="https://github.com/s9y/">hier</a> .</li>
-  <li>Die Original-S9y-Dokumentation <a href="http://docs.s9y.org">docs.s9y.org</a> wird über GitHub <a href="https://github.com/s9y/s9y.github.io">s9y.github.io</a> erstellt und verwaltet.
-      Besser, aktueller und exakter liest sie sich aber hier im Styx <a href="../hc/en">Help Center</a>.</li>
+  <li>Plugins für <span class="item mbold">Serendipity Styx</span> und den eigentlichen
+      <span class="item mbold">Styx Kern</span> finden Sie auf meiner <a href="https://github.com/ophian/">GitHub Seite</a>.
+      Die Plugins und Themes des S9y Serendipity-S9y-Kerns finden Sie <a href="https://github.com/s9y/">hier</a>.</li>
+  <li>Die Original-S9y-Dokumentation <a href="http://docs.s9y.org">docs.s9y.org</a> wird über GitHub
+      <a href="https://github.com/s9y/s9y.github.io">s9y.github.io</a> erstellt und verwaltet.
+      Besser, aktueller und exakter liest sie sich aber hier im Styx <a href="/hc/en">Help Center</a>.</li>
   <li>Benutzer Hilfe und Diskussionen finden Sie im <a href="http://board.s9y.org">S9y Forum</a>.</li>
-  <li>Das Serendipity <a href="../blog">Styx Blog</a> beinhaltet Neuigkeiten, Release Ankündungen und insbesondere Security Announcements.</li>
-  <li>Die zusätzlichen <em>Plugins</em> und <em>Themes</em> sind unter <a href="../themes">Styx Spartacus Themes</a> bzw <a href="../plugins">Styx Spartacus Plugins</a> erreichbar;
-      Sie können von dort auch direkt heruntergeladen werden. Das gilt für Styx aber nur für Themes. (Siehe dortige Erklärung.)</li>
-  <li>Die alte <a href="http://sf.net/projects/php-blog">SourceForge Projekt Seite</a> wird nur noch als erweiterter Download-Service
-      für S9y Serendipity Releases geführt und verwaltet eine zentrale <em>read-only Mailingliste</em>, über die die <em>commits</em> und <em>comments</em>
+  <li>Das Serendipity <a href="/blog">Styx Blog</a> beinhaltet Neuigkeiten, Release Ankündungen
+      und insbesondere Security Announcements.</li>
+  <li>Die zusätzlichen <em>Plugins</em> und <em>Themes</em> sind unter <a href="/themes">Styx
+      Spartacus Themes</a> bzw <a href="/plugins">Styx Spartacus Plugins</a> erreichbar;
+      Sie können von dort auch direkt heruntergeladen werden. Das gilt für Styx aber nur für
+      Themes. (Siehe dortige Erklärung.)</li>
+  <li>Die alte <a href="http://sf.net/projects/php-blog">SourceForge Projekt Seite</a> wird nur
+      noch als erweiterter Download-Service für S9y Serendipity Releases geführt und verwaltet
+      eine zentrale <em>read-only Mailingliste</em>, über die die <em>commits</em> und <em>comments</em>
       des GitHub Repositories laufen.</li>
-  <li>Das (ältere) Serendipity-Handbuch steht als <a href="https://github.com/s9y/Book/blob/master/serendipity.pdf?raw=true">PDF zur Verfügung</a>
+  <li>Das (ältere) Serendipity-Handbuch steht als
+      <a href="https://github.com/s9y/Book/blob/master/serendipity.pdf?raw=true">PDF zur Verfügung</a>
       und kann auch über <a href="https://github.com/s9y/Book">GitHub/s9y/Book</a> von Helfern bearbeitet werden.</li>
-  <li>Das <span class="item mbold">ganz neue</span> Buch für <span class="item mbold">Serendipity Styx 2.4</span> aus <span class="item mbold">2018</span> lesen Sie hier ja bereits selbst.
+  <li>Das <span class="item mbold">ganz neue</span> Buch für <span class="item mbold">Serendipity
+      Styx 2.4</span> aus <span class="item mbold">2018</span> lesen Sie hier ja bereits selbst.
       Die <span class="item mbold">alte Revision</span> des neueren HTML-Buches in der Revision 2.1
       ist als branch <code>gh-pages</code> ebenfalls unter <code>https://github.com/s9y/Book/</code> verfügbar.</li>
 </ul>
 
 <p><span class="item mbold">Diskussion / Feature Requests</span></p>
 
-<p><span class="mbold">Wollen</span> Sie über Serendipity diskutieren? <span class="mbold">Endlich</span> einmal Ihr (persönliches) Lieblingsärgernis zu Gehör bringen?
-Einen <span class="mbold">Vorschlag</span> für ein bestimmtes <em>feature</em> machen wollen, selbst ohne die Vorkenntnisse wie es eventuell zu gestalten wäre?
-<span class="mbold">Dann</span> ist unser <a href="http://board.s9y.org">Forum</a> genau der richtige Platz für Sie!
-Unsere Entwickler sind dort zu finden und können Ihnen wertvolle Innenansichten geben, insbesondere dann,
-wenn Sie sich die Zeit genommen haben detailliert zu beschreiben, was Sie wollen oder mit Serendipity für Probleme haben.
-Natürlich sollten Sie <span class="mbold">immer zuerst</span> die <a href="../hc/en/faq/index.html">FAQ (Frequently Asked Questions)</a> durchgelesen
-und vielleicht schon selbst das Forum durchstöbert haben, bevor Sie andere danach suchen lassen.</p>
+<p><span class="mbold">Wollen</span> Sie über Serendipity diskutieren?
+<span class="mbold">Endlich</span> einmal Ihr (persönliches) Lieblingsärgernis zu Gehör bringen?
+Einen <span class="mbold">Vorschlag</span> für ein bestimmtes <em>feature</em> machen wollen,
+selbst ohne die Vorkenntnisse wie es eventuell zu gestalten wäre?
+<span class="mbold">Dann</span> ist unser <a href="http://board.s9y.org">Forum</a> genau der
+richtige Platz für Sie! Unsere Entwickler sind dort zu finden und können Ihnen wertvolle
+Innenansichten geben, insbesondere dann, wenn Sie sich die Zeit genommen haben detailliert
+zu beschreiben, was Sie wollen oder mit Serendipity für Probleme haben. Natürlich sollten Sie
+<span class="mbold">immer zuerst</span> die <a href="/hc/en/faq/index.html">FAQ
+(Frequently Asked Questions)</a> durchgelesen und vielleicht schon selbst das Forum
+durchstöbert haben, bevor Sie andere danach suchen lassen.</p>
 
-<p><em>Feature requests</em> sollten möglichst nicht in den <em>issue tracker</em> auf Github gestellt werden;
-Wir diskutieren solches meist zuerst im Forum, und erst wenn wir übereinstimmen und die Spezifika klargestellt haben,
-wird daraus ein Issue im GitHub <em>tracker</em>. Dies kann für <span class="mbold">Styx</span> so natürlich nicht gelten!</p>
+<p><em>Feature requests</em> sollten möglichst nicht in den <em>issue tracker</em>
+auf Github gestellt werden; Wir diskutieren solches meist zuerst im Forum, und erst
+wenn wir übereinstimmen und die Spezifika klargestellt haben, wird daraus ein Issue
+im GitHub <em>tracker</em>. Dies kann für <span class="mbold">Styx</span> so natürlich nicht gelten!</p>
 
-<p>Es gibt einen eigenständigen deutschen Bereich im Forum, wo man auch ohne englische Sprachbarriere gut mit uns kommunizieren kann.
-Viele unserer Entwickler sprechen Deutsch. Der englische Bereich ist jedoch für alle, die Englisch sprechen,
-immer der bessere Platz zur Diskussion, damit keine internationalen Benutzer ausgegrenzt werden.</p>
+<p>Es gibt einen eigenständigen deutschen Bereich im Forum, wo man auch ohne englische
+Sprachbarriere gut mit uns kommunizieren kann. Viele unserer Entwickler sprechen Deutsch.
+Der englische Bereich ist jedoch für alle, die Englisch sprechen, immer der bessere
+Platz zur Diskussion, damit keine internationalen Benutzer ausgegrenzt werden.</p>
 
 <p>Haben Sie ein <span class="mbold">Bug</span> gefunden? Das kann passieren!
-Wenn Sie uns beschreiben was passiert, eventuell ein wiederholbares Beispiel zeigen können, springen Sie gleich auf unseren
-<a href="https://github.com/s9y/Serendipity/Issues">GitHub issue tracker</a> and füllen Sie einen <em>bug report</em> aus.
-Wenn unsere Developer diesen Bug gefixt haben, welches meist sehr schnell passiert, werden Sie sofort darüber informiert.
-Wenn der GitHub <em>issue tracker</em> für Sie zu kompliziert daherkommt, schreiben Sie ihren <em>Request</em> in das Forum.
-Wir danken für Ihre Mithilfe!</p>
+Wenn Sie uns beschreiben was passiert, eventuell ein wiederholbares Beispiel
+zeigen können, springen Sie gleich auf unseren
+<a href="https://github.com/s9y/Serendipity/Issues">GitHub issue tracker</a>
+und füllen Sie einen <em>bug report</em> aus. Wenn unsere Developer diesen Bug
+gefixt haben, welches meist sehr schnell passiert, werden Sie sofort darüber informiert.
+Wenn der GitHub <em>issue tracker</em> für Sie zu kompliziert daherkommt, schreiben
+Sie ihren <em>Request</em> in das Forum. Wir danken für Ihre Mithilfe!</p>
 
-<p>Für <span class="mbold">Styx</span> muss auf den <a href="https://github.com/ophian/styx/issues">GitHub Styx Issue</a> tracker verwiesen werden.</p>
+<p>Für <span class="mbold">Styx</span> muss auf den
+<a href="https://github.com/ophian/styx/issues">GitHub Styx Issue</a> tracker verwiesen werden.</p>
 
-<p>Bei mehreren Bug sollten Sie versuchen ein Issue per Bug aufzumachen. GitHub Issues sollten in der englischen Sprache abgehalten und gestaltet werden.</p>
+<p>Bei mehreren Bug sollten Sie versuchen ein Issue per Bug aufzumachen.
+GitHub Issues sollten in der englischen Sprache abgehalten und gestaltet werden.</p>
 
-<p>Nicht-englisch sprechende Benutzer können Bugs gerne im Forum melden, unsere Entwickler werden dies dann selbständig als Bug-Issues im System eintragen.</p>
+<p>Nicht-englisch sprechende Benutzer können Bugs gerne im Forum melden,
+unsere Entwickler werden dies dann selbständig als Bug-Issues im System eintragen.</p>
 
 <p><span class="item mbold">Security Reports, Exploits</span></p>
 
-<p>Ein <span class="mbold">Security Issue</span> ist in unserem Code? Das ist schlimm, aber passiert nur alle Jahre einmal.
-Wir bitten Sie darum, Ihre <span class="mbold">security reports</span> via E-mail an unseren Maintainer <a href="blog@garv.in">Garvin Hicking</a> zu schicken,
-damit dieser das Issue zuweisen und die Koordination eines verantwortlichen <em>Disclosures</em> zusammen mit Ihnen abstimmen kann.
-Das Team gibt immer den Dank an die Person zurück, die uns solch einen Bug oder ein solches Sicherheitsloch meldet.
-Wir reagieren meist innerhalb von 24 Stunden nachdem Sie mit uns in Kontakt getreten sind und sprechen mit Ihnen detailliert den weiteren Vorgang ab.</p>
+<p>Ein <span class="mbold">Security Issue</span> ist in unserem Code?
+Das ist schlimm, aber passiert nur alle Jahre einmal.
+Wir bitten Sie darum, Ihre <span class="mbold">security reports</span> via
+E-mail an unseren Maintainer <a href="blog@garv.in">Garvin Hicking</a> zu schicken,
+damit dieser das Issue zuweisen und die Koordination eines verantwortlichen
+<em>Disclosures</em> zusammen mit Ihnen abstimmen kann. Das Team gibt immer den
+Dank an die Person zurück, die uns solch einen Bug oder ein solches Sicherheitsloch
+meldet. Wir reagieren meist innerhalb von 24 Stunden nachdem Sie mit uns in Kontakt
+getreten sind und sprechen mit Ihnen detailliert den weiteren Vorgang ab.</p>
 
-<p>Wenn Sie es vorziehen, können Sie ein GitHub Security Issue aufmachen, in dem sie uns Informationen hinterlassen, wie wir Sie erreichen können, um Näheres zu erfahren.
-Bitte halten Sie eventuelle Informationen über das gefundene "<em>Loch</em>" nur sehr allgemein, da dies ein öffentlich zugänglicher Bereich ist.</p>
+<p>Wenn Sie es vorziehen, können Sie ein GitHub Security Issue aufmachen,
+in dem sie uns Informationen hinterlassen, wie wir Sie erreichen können,
+um Näheres zu erfahren. Bitte halten Sie eventuelle Informationen über das gefundene
+"<em>Loch</em>" nur sehr allgemein, da dies ein öffentlich zugänglicher Bereich ist.</p>
 
 <section id="U1071" class="sub">
 <span class="u-toc">10.7.1 - Freier Zugriff</span>
@@ -3587,7 +3617,8 @@ ausführlich dokumentiert.</p>
 
 <p>Schreibzugriff können Sie erlangen, indem Sie im Serendipity-Entwicklerforum
 danach fragen und einige Beispiele dafür geben, was Sie beisteuern wollen. Wie
-dieser Prozess vonstatten geht, ist auf Seite <span class="pageref"><a href="#community">community</a></span> näher erläutert.
+dieser Prozess vonstatten geht, ist auf Seite
+<span class="pageref"><a href="#community">community</a></span> näher erläutert.
 Stichworte sind zB. <code>clone</code>, <code>pull-requests</code> und <code>membership</code>.</p>
 
 <p>Den Quellcode von Serendipity finden Sie unter
@@ -3661,7 +3692,8 @@ unserem hauptsächlichen Kollaborations- und Versionsverteilungssystem sieht das
     user@server:~# git clone https://github.com/s9y/Serendipity.git
 </code></pre>
 
-<p>Erstellen einer einfachen Beispiel Datei mit Inhalt in einem ebenso beispielhaften <em>username.github.io</em> Web-Verzeichnisses:</p>
+<p>Erstellen einer einfachen Beispiel Datei mit Inhalt in einem ebenso
+beispielhaften <em>username.github.io</em> Web-Verzeichnisses:</p>
 
 <pre><code class="bash">
     user@server:~# cd username.github.io<br>
@@ -3676,13 +3708,17 @@ unserem hauptsächlichen Kollaborations- und Versionsverteilungssystem sieht das
     user@server:~# git push -u origin master
 </code></pre>
 
-<p>Nun hat man einen <span class="mbold"><em>master</em></span> Branch. Der wäre normalerweise zuständig für die laufende Weiterentwicklung.
-In Serendipity ist dies zur Zeit der 2.1 Developer Zweig (hier kurz <span class="mbold">branch</span> genannt).
-Weitere Zweige sind abgetrennt und dienen als Archive und Repositories für ältere Versionen, und sind besonders dann notwendig,
-wenn einem Zweig später ein gesondertes Bugfix Release eingearbeitet werden muss.
-Dies sind zur Zeit, der 1.6 Series branch, der 1.7 Series branch und der 2.0 Series branch.
-Branches dienen aber auch der Entwicklung einer bestimmten, vielleicht aufwendigeren Umgestaltung.
-Diese werden dann später, sollten sich die Änderungen als gut herausstellen, zB. wieder in den Master-Zweig eingepflegt.</p>
+<p>Nun hat man einen <span class="mbold"><em>master</em></span> Branch.
+Der wäre normalerweise zuständig für die laufende Weiterentwicklung.
+In Serendipity ist dies zur Zeit der 2.1 Developer Zweig (hier kurz
+<span class="mbold">branch</span> genannt). Weitere Zweige sind abgetrennt
+und dienen als Archive und Repositories für ältere Versionen, und sind
+besonders dann notwendig, wenn einem Zweig später ein gesondertes Bugfix
+Release eingearbeitet werden muss. Dies sind zur Zeit, der 1.6 Series
+branch, der 1.7 Series branch und der 2.0 Series branch. Branches dienen
+aber auch der Entwicklung einer bestimmten, vielleicht aufwendigeren
+Umgestaltung. Diese werden dann später, sollten sich die Änderungen als
+gut herausstellen, zB. wieder in den Master-Zweig eingepflegt.</p>
 
 <p>Der Wechsel eines Branch-Zweiges gestaltet sich einfach durch ein:</p>
 
@@ -3690,18 +3726,22 @@ Diese werden dann später, sollten sich die Änderungen als gut herausstellen, z
     user@server:~# git checkout &lt;Name des Branch&gt;
 </code></pre>
 
-<p>Später wäre dann die einfachste und immerwährende Commit Abfolge: "<em>holen</em>", "<em>setzen</em>", "<em>senden</em>" (<em>pull, commit, push</em>): </p>
+<p>Später wäre dann die einfachste und immerwährende Commit Abfolge:
+"<em>holen</em>", "<em>setzen</em>", "<em>senden</em>" (<em>pull, commit, push</em>): </p>
 
 <pre><code class="bash">
     user@server:~# git pull origin master
 </code></pre>
 
-<p>Arbeiten mehrere Benutzer fleißig an einem Repository, so findet man schnell heraus,
-dass dies mitunter fast gleichzeitig geschieht und sich <em>commits</em> und Dateiversionen unweigerlich in die Quere kommen können.
-GIT hat für diese Fälle vorgesorgt und weist einen mit Fehlermeldungen auf eventuelle <em>merge conflicts</em>, oder
-inzwischen veränderte Dateien hin, die man zB. selber gerade bearbeitet hat und nun heraufladen will.
-Generell gilt es einfach <em>schnell</em> zu sein und unmittelbar vor dem <em>commit</em> und dem <em>push</em>
-<span class="mbold">immer</span> erst ein <em>pull</em> zu ziehen.</p>
+<p>Arbeiten mehrere Benutzer fleißig an einem Repository, so findet man
+schnell heraus, dass dies mitunter fast gleichzeitig geschieht und sich
+<em>commits</em> und Dateiversionen unweigerlich in die Quere kommen können.
+GIT hat für diese Fälle vorgesorgt und weist einen mit Fehlermeldungen auf
+eventuelle <em>merge conflicts</em>, oder inzwischen veränderte Dateien hin,
+die man zB. selber gerade bearbeitet hat und nun heraufladen will.
+Generell gilt es einfach <em>schnell</em> zu sein und unmittelbar vor dem
+<em>commit</em> und dem <em>push</em> <span class="mbold">immer</span>
+erst ein <em>pull</em> zu ziehen.</p>
 
 <p>Mittels einer GUI oder der Konsole können nun die mit einem geeignetem Editor[*] gemachten Änderungen
 <span class="footnote"><i class="fa fa-info-circle"></i> <a href="https://www.nano-editor.org/" target="_blank">https://www.nano-editor.org/</a></span><!-- footnote -->
@@ -3791,9 +3831,10 @@ erzeugt, die auf <code>http://spartacus.s9y.org</code> dargestellt werden. Jedes
 wird zudem als ZIP-Archiv komprimiert und ebenfalls auf dem Webserver zur
 Verfügung gestellt.</p>
 
-<p><strong>Serendipity Styx</strong> nutzt eine etwas andere Technik, so dass das Spartacus-Web auf
-<code>http://spartacus.s9y.org</code> nur den Abgleich des originalen S9y Plugin-Repositories
-ermöglicht. Das <a href="../plugins">Serendipity Styx Plugins</a>-Repository ist seinem originalen Vorhänger weit voraus.
+<p><strong>Serendipity Styx</strong> nutzt eine etwas andere Technik, so dass das
+Spartacus-Web auf <code>http://spartacus.s9y.org</code> nur den Abgleich des
+originalen S9y Plugin-Repositories ermöglicht. Das <a href="/plugins">Serendipity
+Styx Plugins</a>-Repository ist seinem originalen Vorhänger weit voraus.
 Erweiterte Themes werden aber weiterhin von dort geholt und können somit auch direkt aus
 diesem Web-Repository per Hand gezogen werden.</p>
 
@@ -3821,9 +3862,9 @@ lediglich darauf zugreifen. Beim Aufruf der Plugin-Verwaltungsoberfläche Ihres
 Blogs lädt das Plugin automatisch vom konfigurierten Server die XML-Datei
 herunter. Die Liste von Ereignis-Plugins befindet sich in der Datei
 <code>package_event_de.xml</code>, die Seitenleisten-Plugins in der Datei
-<code>package_sidebar_de.xml</code> und Templates in
-<code>package_template.xml</code>. Plugin-Beschreibungen sind sprachabhängig, das Kürzel am Ende des
-Dateinamens legt dabei die Sprache fest.</p>
+<code>package_sidebar_de.xml</code> und Templates in <code>package_template.xml</code>.
+Plugin-Beschreibungen sind sprachabhängig, das Kürzel am Ende des Dateinamens legt
+dabei die Sprache fest.</p>
 
 <p>Diese XML-Dateien werden vom Plugin in Ihr Verzeichnis <code>templates_c</code>
 heruntergeladen und von dort aus gecached. Erst wenn Ihre temporären Dateien
@@ -5882,8 +5923,7 @@ auch selbstgeschriebene Plugins zugreifen können:</p>
         an dieses Ereignis weiter, so dass jedes Plugin überprüfen kann, ob es die
         Ausgabe des Frontends übernehmen soll.
         <span class="subdesc">
-            <code>eventData</code> enthält den Teil der URL,
-            der nach <code>.../plugin/</code> folgt.
+            <code>eventData</code> enthält den Teil der URL, der nach <code>.../plugin/</code> folgt.
         </span>
     </span>
 </span>
@@ -5987,8 +6027,7 @@ auch selbstgeschriebene Plugins zugreifen können:</p>
 <code class="item event">xmlrpc_updertEntry</code>
 <span class="desc-info">
     <span class="box">
-        wird aufgerufen, wenn mittels XML-RPC API ein
-        Artikel aktualisiert oder gespeichert wird.
+        wird aufgerufen, wenn mittels XML-RPC API ein Artikel aktualisiert oder gespeichert wird.
     </span>
 </span>
 </p>
@@ -6011,11 +6050,9 @@ auch selbstgeschriebene Plugins zugreifen können:</p>
 <code class="item event">backend_comments_top</code>
 <span class="desc-info">
     <span class="box group-box">
-        wird in der Kopfzeile der Tabellenansicht von
-        im Backend vorhandenen Kommentaren aufgerufen.
+        wird in der Kopfzeile der Tabellenansicht von im Backend vorhandenen Kommentaren aufgerufen.
         <span class="subdesc">
-            <code>eventData</code>: Array mit den auf
-            dieser Seite dargestellten Kommentaren.
+            <code>eventData</code>: Array mit den auf dieser Seite dargestellten Kommentaren.
         </span>
     </span>
 </span>
@@ -7154,7 +7191,9 @@ auch selbstgeschriebene Plugins zugreifen können:</p>
 <span class="desc-info">
     <span class="box group-box">
         wird ausgeführt, nachdem ein existierendes Plugin upgedated wurde.
-        Plugins can check for updates to their own files by hooking into this, but also for other plugins that may have been updated.
+        Plugins können nach Updates für ihre eigenen Dateien suchen, indem sie
+        sich in diese einklinken, aber auch nach anderen Plugins, die
+        möglicherweise aktualisiert wurden.
         <span class="subdesc">
             <code>$eventData</code>: Name des Plugins.
         </span>
@@ -7485,9 +7524,9 @@ laden, verwalten sich aber mittels eigener Datenbanktabellen vollständig selbst
 Verwaltungsoberfläche jeweils nur ein einzelnes Blog konfigurieren kann. Zwar
 lässt sich über den Umweg von individualisierten Unter-Kategorien des Blogs
 (bei Verwendung des Plugins <em>Erweiterte Eigenschaften von Kategorien</em>, siehe
-Seite <span class="pageref"><a href="#entryproperties">entryproperties</a></span>) etwas Ähnliches erreichen, doch bei dieser
-Methode existiert stets nur eine physikalische Installation Serendipitys, die nur
-auf eine einzelne Datenbank zugreift.</p>
+Seite <span class="pageref"><a href="#entryproperties">entryproperties</a></span>)
+etwas Ähnliches erreichen, doch bei dieser Methode existiert stets nur eine
+physikalische Installation Serendipitys, die nur auf eine einzelne Datenbank zugreift.</p>
 
 <p>Eine Serendipity-Installation benötigt für die Einrichtung nur folgende
 individuelle Dateien und Verzeichnisse:</p>
@@ -7757,9 +7796,10 @@ bestehenden Blogs die Verzeichnisse wie <code>include</code>, <code>deployment</
 in Zukunft aus dem <em>Core-Verzeichnis</em> bezogen. Die Verzeichnisse
 <code>templates</code> und <code>plugins</code> sollten Sie beibehalten, ebenso wie die
 Konfigurationsdateien <code>serendipity_config_local.inc.php</code> und <code>.htaccess</code>.[*]
-<span class="footnote"><i class="fa fa-info-circle"></i> Eine ausführlichere Beschreibung dieses Vorgangs anhand einer tatsächlich
-ausgeführten Umstellung bietet Falk Döring in seinem Blog unter
-<a href="http://www.fadoe.de/archives/136-Einzel-Blogs-auf-Shared-Blogs-umstellen-Projektbeschreibung.html" target="_blank">http://www.fadoe.de/archives/136-Einzel-Blogs-auf-Shared-Blogs-umstellen-Projektbeschreibung.html</a> an.</span><!-- footnote -->
+<span class="footnote"><i class="fa fa-info-circle"></i> Eine ausführlichere Beschreibung
+dieses Vorgangs anhand einer tatsächlich ausgeführten Umstellung bietet Falk Döring in seinem Blog unter
+<a href="http://www.fadoe.de/archives/136-Einzel-Blogs-auf-Shared-Blogs-umstellen-Projektbeschreibung.html"
+target="_blank">http://www.fadoe.de/archives/136-Einzel-Blogs-auf-Shared-Blogs-umstellen-Projektbeschreibung.html</a> an.</span><!-- footnote -->
 </p>
 
 </article>
@@ -7790,7 +7830,8 @@ machen könnte.</p>
 
 <p>Im CVS von Serendipity steht dennoch eine kleine Script-Sammlung zur Verfügung.[*]
 <span class="footnote"><i class="fa fa-info-circle"></i> 
-<a href="http://php-blog.cvs.sourceforge.net/php-blog/additional_plugins/setup/s9y_conf/" target="_blank">http://php-blog.cvs.sourceforge.net/php-blog/additional_plugins/setup/s9y_conf/</a> 
+<a href="http://php-blog.cvs.sourceforge.net/php-blog/additional_plugins/setup/s9y_conf/"
+target="_blank">http://php-blog.cvs.sourceforge.net/php-blog/additional_plugins/setup/s9y_conf/</a> 
 und <code>http://www.s9y.org/41.html</code>.</span><!-- footnote -->
 Diese Sammlung kann Server-Administratoren dazu dienen, ihre eigenen Scripts zur
 Erstellung von Shared Installations zu entwickeln.</p>
@@ -7848,9 +7889,10 @@ Einsatz von Frames durcheinander geraten.</p>
 
 <p>Bevor Serendipity mit Smarty-Templates umgehen konnte, wurde der <em>Embed
 Mode</em> aus der Taufe gehoben. Diesen Modus können Sie über die Konfiguration
-Serendipitys aktivieren (Abschnitt <span class="mbold">Konfiguration <span class="icon arrow-right">→</span> Design und
-Optionen <span class="icon arrow-right">→</span> Eingebettete Nutzung von Serendipity aktivieren</span>).
-Er sorgt dafür, dass die Seiten von
+Serendipitys aktivieren (Abschnitt <span class="mbold">Konfiguration
+<span class="icon arrow-right">→</span> Design und Optionen
+<span class="icon arrow-right">→</span> Eingebettete Nutzung von
+Serendipity aktivieren</span>). Er sorgt dafür, dass die Seiten von
 Serendipity selbst keine HTML-Kopf- und Fußzeilen ausgeben und somit einfacher in
 eine fremde Seite eingebunden werden können. Der Serendipity-Inhalt dient in so einem Fall also
 lediglich einem HTML-Konstrukt, das auf einer vollständigen Seite eingebunden
@@ -7860,9 +7902,10 @@ direkt aufruft, sieht man eine unformatierte HTML-Seite.</p>
 <p>Serendipity sollte im <em>Embed Mode</em> daher nicht mehr direkt aufgerufen
 werden, sondern über den Umweg eines <em>Wrappers</em>. Ein Wrapper ist eine
 Art Container, der Serendipity und Ihre Webseite verkoppelt. Dafür bietet
-Serendipity die Option <span class="mbold">Konfiguration <span class="icon arrow-right">→</span> Pfade <span class="icon arrow-right">→</span> Index-Datei</span> an, mit
-der Sie festlegen, welche Datei von Serendipity zur Darstellung des Blogs
-angesprochen wird.</p>
+Serendipity die Option <span class="mbold">Konfiguration
+<span class="icon arrow-right">→</span> Pfade <span class="icon arrow-right">→</span>
+Index-Datei</span> an, mit der Sie festlegen, welche Datei von Serendipity zur
+Darstellung des Blogs angesprochen wird.</p>
 
 <p>Wenn Sie einen Wrapper einsetzen wollen, müssen Sie an dieser Stelle einen
 alternativen Dateinamen vergeben. Hierfür empfiehlt sich zB. ein Dateiname wie
@@ -8105,7 +8148,8 @@ der Serendipity-S9y-Projektseite unter <code>https://docs.s9y.org/docs/users/hos
 <p>Dem Problem der Fremdauthentifikation tritt nicht nur bei Serendipity auf,
 sondern bei sehr vielen Web-2.0-Anwendungen. Daher hat sich ein Konsortium
 gegründet, das sich mit der <em>OpenID</em>-Initiative [*]
-<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://www.openid.net" target="_blank">http://www.openid.net</a></span><!-- footnote -->
+<span class="footnote"><i class="fa fa-info-circle"></i>
+<a href="http://www.openid.net" target="_blank">http://www.openid.net</a></span><!-- footnote -->
 das Ziel gesetzt hat, eine einheitliche und
 dezentrale Benutzerauthentifizierung zur Verfügung zu stellen.</p>
 
@@ -8243,9 +8287,9 @@ durch.</p>
 <p>Die <code>SELECT</code>-Abfrage in unserem Beispiel ist bewusst sehr einfach gehalten.
 Tatsächlich werden Sie später jedoch sicher komplexere SQL-Statements wie
 <em>String Functions</em> oder <em>Control Flow Functions</em> [*]
-<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://dev.mysql.com/doc/refman/5.1/en/functions.html" target="_blank">http://dev.mysql.com/doc/refman/5.1/en/functions.html</a></span><!-- footnote -->
-einsetzen. Damit
-können Sie beispielsweise <em>IF-Weichen</em> in einer Abfrage einführen, um
+<span class="footnote"><i class="fa fa-info-circle"></i>
+<a href="http://dev.mysql.com/doc/refman/5.1/en/functions.html" target="_blank">http://dev.mysql.com/doc/refman/5.1/en/functions.html</a></span><!-- footnote -->
+einsetzen. Damit können Sie beispielsweise <em>IF-Weichen</em> in einer Abfrage einführen, um
 verschiedene Datentypen und Tabellenspalten miteinander zu verketten.</p>
 
 <p>Zusätzlich wird der Einsatz von <em>Stored Procedures</em> und <em>Triggers</em> für
@@ -8299,9 +8343,10 @@ bereits gemacht worden, da hier die ID eines Bildes in einem HTML-Kommentar mit
 ausgeliefert wird. Es existieren jedoch noch keine weiteren Plugins, die diesen
 Kommentar aufbereiten.</p>
 
-<p><span class="label invisible" id="mdb-by-id">mdb-by-id</span> Dennoch bietet die Serendipity-Mediendatenbank intern bereits die Möglichkeit,
-ein Bild anhand einer ID auszuliefern. Konkret können Sie beispielsweise das
-Bild mit der ID <code>42</code> wie folgt darstellen:</p>
+<p><span class="label invisible" id="mdb-by-id">mdb-by-id</span>Dennoch bietet die
+Serendipity-Mediendatenbank intern bereits die Möglichkeit, ein Bild anhand einer
+ID auszuliefern. Konkret können Sie beispielsweise das Bild mit der ID
+<code>42</code> wie folgt darstellen:</p>
 
 <pre><code class="html">
     http://www.example.com/serendipity/serendipity_admin_image_selector.php?serendipity[step]=showItem&amp;serendipity[image]=42
@@ -8468,10 +8513,12 @@ den Benutzer über Einschränkungen oder Besonderheiten des Importers.</span>
                 <code>list</code> (Ausklappfeld),
                 <code>bool</code> (Ja/Nein).
             </span>
-            Die Typen stimmen mit denen überein, die auch für die Konfigurationsoptionen des Blogs in der
-            <code>include/tpl/config_local.inc.php</code> verfügbar sind (siehe Seite <span class="pageref"><a href="#configlocal">configlocal</a></span>).
+            Die Typen stimmen mit denen überein, die auch für die Konfigurationsoptionen
+            des Blogs in der <code>include/tpl/config_local.inc.php</code> verfügbar sind
+            (siehe Seite <span class="pageref"><a href="#configlocal">configlocal</a></span>).
         </span>
-        <code class="item">name</code> bestimmt den Feldnamen der Konfigurationsoption, um später innerhalb des <code>$this-&gt;data</code>-Arrays darauf zugreifen zu können.
+        <code class="item">name</code> bestimmt den Feldnamen der Konfigurationsoption,
+        um später innerhalb des <code>$this-&gt;data</code>-Arrays darauf zugreifen zu können.
         <code class="item">default</code> enthält den Standardwert der Option.
     </span>
 </span>
@@ -8614,7 +8661,9 @@ folgende Methoden implementiert:</p>
 
 <p class="desc">
 <code class="item smarty_method">assignByRef()</code>
-<span class="desc-info">Weist eine Template-Variable als Referenz zu. Die alte API vor Serendipity 1.7 mit Smarty 3+ nutzte <code>assign_by_ref()</code>. Etwaige Beispiele wurden dementsprechend angepasst.</span>
+<span class="desc-info">Weist eine Template-Variable als Referenz zu. Die alte API
+vor Serendipity 1.7 mit Smarty 3+ nutzte <code>assign_by_ref()</code>. Etwaige Beispiele
+wurden dementsprechend angepasst.</span>
 </p>
 
 <p class="desc">

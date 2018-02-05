@@ -998,13 +998,14 @@ wiederum Seitenleisten-Plugins nicht erlaubt ist.</p>
     <span class="inline-tag">Plugins!gekoppelt</span>
     <span class="inline-tag">Gekoppelte Plugins</span>
 </span><!-- tagbox -->
-Seltene Fälle von Ereignis-Plugins bieten jedoch auch
-die Möglichkeit an, eine spezielle Ausgabe in der Seitenleiste vorzunehmen. Diese Möglichkeit
+Seltene Fälle von Ereignis-Plugins bieten jedoch auch die Möglichkeit an,
+eine spezielle Ausgabe in der Seitenleiste vorzunehmen. Diese Möglichkeit
 wurde eher in frühen Versionen Serendipitys benutzt (zB. vom Plugin
-"Link List" oder "Worte ersetzen"). Inzwischen nutzen fast alle
-Plugins die einfachere Möglichkeit, ein zugehöriges Seitenleisten-Plugin
-(siehe <span class="reference">Gekoppelte Plugins</span> ab Seite <span class="pageref"><a href="#Gekoppelte Plugins">Gekoppelte Plugins</a></span>) zu
-bestimmen und dieses konzeptionelle Problem für Sie als Benutzer
+"Link List" oder "Worte ersetzen"). Inzwischen nutzen fast alle Plugins
+die einfachere Möglichkeit, ein zugehöriges Seitenleisten-Plugin
+(siehe <span class="reference">Gekoppelte Plugins</span> ab Seite
+<span class="pageref"><a href="#Gekoppelte Plugins">Gekoppelte Plugins</a></span>)
+zu bestimmen und dieses konzeptionelle Problem für Sie als Benutzer
 einfacher zu lösen.</p>
 
 <p>Wenn dieses Ausgabe-Wrapper-Plugin von einem anderen benötigt wird, finden Sie
@@ -1397,8 +1398,9 @@ RSS-Reader: Ihr Blog wird in einem definierten Zeitraum die RSS-Feeds
 selbständig abholen, einbinden und für einen gewissen Zeitraum
 zwischenspeichern, um Bandbreite zu sparen. Damit das Plugin
 funktionieren kann, gelten dieselben Rahmenbedingungen wie für Spartacus
-(siehe Seite <span class="pageref"><a href="#Spartacus">Spartacus</a></span>): Ihr Server darf nicht von einer Firewall
-für ausgehende Verbindungen blockiert werden.</p>
+(siehe Seite <span class="pageref"><a href="#Spartacus">Spartacus</a></span>):
+Ihr Server darf nicht von einer Firewall für ausgehende Verbindungen
+blockiert werden.</p>
 
 <p>Pro installiertem RSS-Feed-Plugin kann eine Vielzahl an Optionen
 eingestellt werden:</p>
@@ -1630,11 +1632,12 @@ jedem Artikel angezeigt.</span>
 
 <p class="desc">
 <span class="item mbold">Textformatierung(en) durchführen</span><!-- menuitem -->
-<span class="desc-info">Wenn die Option <span class="mbold">Textformatierung(en) durchführen</span> aktiviert ist,
-wird die Ausgabe des RSS-Feeds an alle bei Ihnen installierten
+<span class="desc-info">Wenn die Option <span class="mbold">Textformatierung(en) durchführen</span>
+aktiviert ist, wird die Ausgabe des RSS-Feeds an alle bei Ihnen installierten
 Textformatierungs-Plugins weitergereicht (siehe Seite
-<span class="pageref"><a href="#Textformatierungs-Plugins">Textformatierungs-Plugins</a></span>). Diese können beliebige Umwandlungen
-vornehmen, die dann auch die Darstellung des RSS-Feeds beeinflussen.</span>
+<span class="pageref"><a href="#Textformatierungs-Plugins">Textformatierungs-Plugins</a></span>).
+Diese können beliebige Umwandlungen vornehmen, die dann auch die Darstellung des
+RSS-Feeds beeinflussen.</span>
 </p>
 
 </section><!-- section.sub end -->
@@ -1856,9 +1859,10 @@ sei das <em>FLICKR Sidebar</em>-Plugin ans Herz gelegt.</p>
 
 <p>Zuletzt bietet Flickr aber auch noch einen RSS-Feed oder einen
 JavaScript-Schnipsel an, die Sie auch mittels des Plugins <em>Fremder
-RSS/OPML-Blogroll Feed</em> (Seite <span class="pageref"><a href="#remoterss">remoterss</a></span>) oder des HTML-Klotzes
-(Seite <span class="pageref"><a href="#htmlnugget">htmlnugget</a></span>) anzeigen können. Weitere Hinweise zu den
-Einbindungsmöglichkeiten finden Sie auf der Flickr-Seite unter
+RSS/OPML-Blogroll Feed</em> (Seite <span class="pageref"><a href="#remoterss">remoterss</a></span>)
+oder des HTML-Klotzes (Seite <span class="pageref"><a href="#htmlnugget">htmlnugget</a></span>)
+anzeigen können. Weitere Hinweise zu den Einbindungsmöglichkeiten
+finden Sie auf der Flickr-Seite unter
 <code>http://www.flickr.com/services/feeds/</code>.</p>
 
 </section><!-- section.sub end -->
@@ -1913,9 +1917,9 @@ informieren Sie sich am besten vorher ausführlich über Google AdSense.</p>
 <p>Um das JavaScript von Google AdSense einzubinden, bietet Google selbst
 bereits ein Tool zur Erzeugung des Codes an. Diesen Code könnten Sie dann
 per Kopieren &amp; Einfügen in einen HTML-Klotz (siehe Seite
-<span class="pageref"><a href="#htmlnugget">htmlnugget</a></span>) übernehmen. Der Vorteil des Google-Tools ist, dass
-Sie dort die Farbe und andere Optionen zum Aussehen der Werbung
-einstellen können.</p>
+<span class="pageref"><a href="#htmlnugget">htmlnugget</a></span>) übernehmen.
+Der Vorteil des Google-Tools ist, dass Sie dort die Farbe und andere Optionen
+zum Aussehen der Werbung einstellen können.</p>
 
 <p>Das <em>Google AdSense</em>-Seitenleisten-Plugin vereinfacht die Einbindung
 etwas, indem Sie keinen Code selbst einfügen müssen. Stattdessen tragen

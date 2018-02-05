@@ -191,11 +191,10 @@ Projekt-Webseite <code>http://www.s9y.org/</code> im Bereich
     <span class="inline-tag">Lite Release</span>
     <span class="inline-tag">Tarball</span>
 </span>
-Auf beiden Seiten finden Sie sowohl die aktuellste Ausgabe
-als auch Beta- und ältere
-Versionen und die täglichen <em>Snapshots</em>. Obwohl es sich bei Letzteren
-um die tagesaktuellen Entwicklerversionen handelt, sind diese bei Serendipity
-gewöhnlich sehr stabil.</p>
+Auf beiden Seiten finden Sie sowohl die aktuellste Ausgabe als auch Beta- und
+ältere Versionen und die täglichen <em>Snapshots</em>. Obwohl es sich bei
+Letzteren um die tagesaktuellen Entwicklerversionen handelt, sind diese bei
+Serendipity gewöhnlich sehr stabil.</p>
 
 <p>Außerdem können Sie die Pakete in mehreren Archivformaten
 herunterladen: als <code>zip</code>-Datei sowie als <code>bzip2</code>
@@ -314,16 +313,16 @@ Benutzergruppen sein.</p>
     <span class="inline-tag">Zugriffsrechte</span>
     <span class="inline-tag">Benutzergruppen!Rechte</span>
 </span>
-<span class="label invisible" id="Zugriffsrechte">Zugriffsrechte</span> Jede Datei (und jedes Verzeichnis) auf einem Server ist einem Eigentümer
+<span class="label invisible" id="Zugriffsrechte">Zugriffsrechte</span>
+Jede Datei (und jedes Verzeichnis) auf einem Server ist einem Eigentümer
 und einer Gruppe zugewiesen. Für beide wird der Zugriff auf eine Datei
-über ein Zugriffs- (oder Ausführbarkeits-), Lese- und Schreibrecht geregelt. Meist hat ein
-Eigentümer die vollen Rechte an einer Datei: Er kann sie ansehen, ändern
-und löschen. Die anderen Mitglieder derselben Benutzergruppe können
-jedoch abweichende Rechte haben, so dass sie die Datei nur
-ansehen, aber nicht verändern dürfen. Zudem muss noch
-geregelt werden, welche Zugriffsrechte Benutzer haben, die weder
-Eigentümer noch Gruppenmitglieder sind. Auch für diese
-"anderen Benutzer", also den "Rest der Welt", werden
+über ein Zugriffs- (oder Ausführbarkeits-), Lese- und Schreibrecht geregelt.
+Meist hat ein Eigentümer die vollen Rechte an einer Datei: Er kann sie
+ansehen, ändern und löschen. Die anderen Mitglieder derselben Benutzergruppe
+können jedoch abweichende Rechte haben, so dass sie die Datei nur ansehen,
+aber nicht verändern dürfen. Zudem muss noch geregelt werden, welche
+Zugriffsrechte Benutzer haben, die weder Eigentümer noch Gruppenmitglieder
+sind. Auch für diese "anderen Benutzer", also den "Rest der Welt", werden
 Zugriffs-, Lese und Schreibrecht aufgeteilt.</p>
 
 <p>Wenn Sie eine Datei mittels FTP auf einen Webserver laden, tun Sie dies
@@ -390,9 +389,10 @@ globalen Schreibzugriff auf das Stammverzeichnis können Sie also wieder
 entfernen.</p>
 
 <p>Wenn Sie darüber hinaus das Spartacus-Plugin zum Download von Templates
-und Plugins nutzen wollen (siehe Kapitel <span class="reference">Spartacus</span> ab
-Seite <span class="pageref"><a href="#Spartacus">Spartacus</a></span>), müssen auch die Verzeichnisse <code>plugins</code>
-und <code>templates</code> beschreibbar sein (und bleiben).</p>
+und Plugins nutzen wollen (siehe Kapitel <span class="reference">Spartacus</span>
+ab Seite <span class="pageref"><a href="#Spartacus">Spartacus</a></span>),
+müssen auch die Verzeichnisse <code>plugins</code> und <code>templates</code>
+beschreibbar sein (und bleiben).</p>
 
 </section><!-- section.sub end -->
 
@@ -686,14 +686,13 @@ Einträgen benutzen möchte.</p>
 allesamt wieder verändern), schließen Sie den Installationsvorgang durch
 einen Klick auf <span class="mbold">Vollständige Installation</span> ab.</p>
 
-<p>Die letzte Seite der Installationsroutine (Abbildung
-2.4) informiert Sie über die von
-Serendipity durchgeführten Aktionen. Dazu gehört das Anlegen der notwendigen
-Tabellen und des Standardbenutzers und die Einrichtung der
+<p>Die letzte Seite der Installationsroutine (Abbildung 2.4) informiert Sie
+über die von Serendipity durchgeführten Aktionen. Dazu gehört das Anlegen
+der notwendigen Tabellen und des Standardbenutzers und die Einrichtung der
 Standard-Plugins. Sollten Sie an dieser Stelle noch nicht über eine
 passende Datenbank verfügen oder andere Fehler auftreten, informiert Sie
-Serendipity auch darüber. Dann
-heißt es zurück zu Abschnitt <span class="reference">DBeinrichten</span> ab Seite
+Serendipity auch darüber. Dann heißt es zurück zu Abschnitt
+<span class="reference">DBeinrichten</span> ab Seite
 <span class="pageref"><a href="#DBeinrichten">DBeinrichten</a></span>.</p>
 
 <figure id="fig-install3">

@@ -1076,16 +1076,18 @@ alternativ mit Ihrem Provider über mögliche Fehlerursachen sprechen.</span>
 Weiterhin kann es auch zu PHP-Fehlermeldungen wie diesen kommen: [*]
 <span class="footnote"><i class="fa fa-info-circle"></i> Weitere
 Hinweise zur korrekten Einrichtung können Sie im Kapitel
-<span class="reference">installationsfehler</span> ab Seite <span class="pageref"><a href="#installationsfehler">installationsfehler</a></span>
+<span class="reference">installationsfehler</span> ab Seite
+<span class="pageref"><a href="#installationsfehler">installationsfehler</a></span>
 nachschlagen.</span><!-- footnote --></p>
 
 <p class="indent">
 <span class="msg-hint">Keine Schreibrechte für Verzeichnis <code>templates_c</code>, <code>INCLUDE_ERROR</code></span>
-<span class="desc-info">Serendipity benötigt stets volle Schreibrechte zu dem temporären Verzeichnis
-<code>templates_c</code>. Wenn PHP bzw. der Webserver dort keine Dateien mehr
-speichern kann, schlägt Serendipity Alarm und kann das Blog nicht mehr
-aufrufen. Sobald Sie die Schreibrechte korrigieren (<code>chmod 777
-templates_c</code> via SSH oder FTP), sollte das Blog wieder erscheinen.</span>
+<span class="desc-info">Serendipity benötigt stets volle Schreibrechte
+zu dem temporären Verzeichnis <code>templates_c</code>. Wenn PHP bzw.
+der Webserver dort keine Dateien mehr speichern kann, schlägt
+Serendipity Alarm und kann das Blog nicht mehr aufrufen. Sobald Sie
+die Schreibrechte korrigieren (<code>chmod 777 templates_c</code>
+via SSH oder FTP), sollte das Blog wieder erscheinen.</span>
 </p>
 
 <p class="indent">
@@ -1209,11 +1211,12 @@ Dateien des Pakets vorhanden sind.</span>
 <span class="desc-info">
     <span class="box">
         Serendipity liefert zwei besondere Templates aus: <code>default-php</code> und
-        <code>default-xml</code> (siehe Seite <span class="pageref"><a href="#templateapi">templateapi</a></span>). Diese sind nur für
-        Entwickler gedacht. Wenn Sie als Unkundiger diese Templates in Ihrem Blog
-        aktivieren, kann dies zu der genannten Fehlermeldung führen.
-        Sie sollten daher ein anderes Template (wie
-        das Serendipity 2k11 Standard-Template) auswählen.
+        <code>default-xml</code> (siehe Seite
+        <span class="pageref"><a href="#templateapi">templateapi</a></span>).
+        Diese sind nur für Entwickler gedacht. Wenn Sie als Unkundiger diese
+        Templates in Ihrem Blog aktivieren, kann dies zu der genannten
+        Fehlermeldung führen. Sie sollten daher ein anderes Template
+        (wie das Serendipity 2k11 Standard-Template) auswählen.
     </span>
 
     <span class="box">
@@ -2135,9 +2138,10 @@ Seite <span class="pageref"><a href="#backups">backups</a></span>).</span>
 
     <span class="box">
         Ansonsten laden Sie die neue Serendipity-Version von der Webseite herunter, [*]
-        <span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://www.s9y.org" target="_blank">http://www.s9y.org</a></span><!-- footnote -->
-        ähnlich wie Sie das für die Installation
-        bereits getan haben. Entpacken Sie das Archiv nun und laden Sie <em>alle</em>
+        <span class="footnote"><i class="fa fa-info-circle"></i>
+        <a href="http://www.s9y.org" target="_blank">http://www.s9y.org</a></span><!-- footnote -->
+        ähnlich wie Sie das für die Installation bereits getan haben.
+        Entpacken Sie das Archiv nun und laden Sie <em>alle</em>
         Dateien wie üblich auf Ihren Webserver hoch (via FTP oder SSH).
     </span>
 
@@ -2244,16 +2248,16 @@ Seite <span class="pageref"><a href="#backups">backups</a></span>).</span>
         Dazu müssen Sie lediglich die Serendipity-Datei
         <code>serendipity_config_local.inc.php</code> bearbeiten. Wenn Sie keine
         Schreibrechte zu dieser Datei besitzen, können Sie sich diese über das kleine
-        Script <code>fixperm.php</code> (siehe Seite <span class="pageref"><a href="#fixperm">fixperm</a></span>) einrichten lassen. Wenn Sie
-        die Konfigurationsdatei <code>serendipity_config_local.inc.php</code> in einem Editor
-        öffnen, werden Sie mehrere Variablen sehen.
-        Beim Update ist vor allem der Inhalt der Variable
-        <code>$serendipity['versionInstalled']</code> von Interesse. Hierin speichert
-        Serendipity die aktuell konfigurierte Version und kann diese mit der auf dem
-        Server installierten Versionsnummer vergleichen. Weichen die beiden Nummern
-        voneinander ab, wird beim Aufruf des Blogs automatisch die
-        Aktualisierungsoberfläche angezeigt, die Sie zur Durchführung eines Updates
-        auffordert.
+        Script <code>fixperm.php</code> (siehe Seite
+        <span class="pageref"><a href="#fixperm">fixperm</a></span>) einrichten lassen.
+        Wenn Sie die Konfigurationsdatei <code>serendipity_config_local.inc.php</code>
+        in einem Editor öffnen, werden Sie mehrere Variablen sehen. Beim Update ist
+        vor allem der Inhalt der Variable <code>$serendipity['versionInstalled']</code>
+        von Interesse. Hierin speichert Serendipity die aktuell konfigurierte Version
+        und kann diese mit der auf dem Server installierten Versionsnummer vergleichen.
+        Weichen die beiden Nummern voneinander ab, wird beim Aufruf des Blogs
+        automatisch die Aktualisierungsoberfläche angezeigt, die Sie zur Durchführung
+        eines Updates auffordert.
     </span>
 
     <span class="box">
@@ -2530,10 +2534,12 @@ Ausführungsgeschwindigkeit zu beschleunigen:</p>
 
     <span class="box">
         Ähnlich wie bei den Leserechten von Artikeln können Sie die
-        Ausführungsgeschwindigkeit von Plugins stark beschleunigen, wenn Sie die benutzerbasierte
-        Plugin-Ausführung deaktivieren. Dies erreichen Sie durch die Option
-        <span class="mbold">Sollen persönliche Plugin-Rechte für Benutzergruppen aktiviert werden?</span> in der
-        Serendipity-Konfiguration (siehe Seite <span class="pageref"><a href="#persoenliche pluginrechte">persoenliche pluginrechte</a></span>).
+        Ausführungsgeschwindigkeit von Plugins stark beschleunigen,
+        wenn Sie die benutzerbasierte Plugin-Ausführung deaktivieren.
+        Dies erreichen Sie durch die Option <span class="mbold">Sollen
+        persönliche Plugin-Rechte für Benutzergruppen aktiviert werden?</span>
+        in der Serendipity-Konfiguration (siehe Seite
+        <span class="pageref"><a href="#persoenliche pluginrechte">persoenliche pluginrechte</a></span>).
     </span>
 
     <span class="box">
@@ -2671,8 +2677,8 @@ höhere Einordnung Ihrer Seite bei den eingesetzten Schlagwörtern.</p>
 
 <p>Auch die Benutzung von Linkservices wie Digg und Technorati (siehe
 Plugin <em>Show links to services like Digg, Technorati etc.</em> auf Seite
-<span class="pageref"><a href="#findmore">findmore</a></span>) hilft, Ihren Artikeln eine einfache Verbreitung zu
-ermöglichen.</p>
+<span class="pageref"><a href="#findmore">findmore</a></span>) hilft,
+Ihren Artikeln eine einfache Verbreitung zu ermöglichen.</p>
 
 <p>Abseits davon gibt es viele Marketing-Möglichkeiten, um Ihr Blog bekannter zu
 machen. Veranstalten Sie Aktionen (Quizzes, Umfragen, Anleitungen), nehmen Sie an

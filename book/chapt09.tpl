@@ -2,11 +2,10 @@
 <h2 id="chapter-IX">Kapitel 9: Anpassungen / Wartung</h2>
 <span class="label invisible" id="Anpassungen">Anpassungen</span>
 
-<p>Früher oder später wird jeder Benutzer von Serendipity zu dem Punkt kommen, an
-dem individuelle Anpassungen des Blogs gewünscht sind.
-Übliche Anpassungen reichen dabei von der Wahl der Grundfarbe und des
-Grundlayouts, eigenen Kopfgrafiken bis hin zu eigenständigen Unterseiten und
-Funktionalitäten.</p>
+<p>Früher oder später wird jeder Benutzer von Serendipity zu dem Punkt kommen,
+an dem individuelle Anpassungen des Blogs gewünscht sind. Übliche Anpassungen
+reichen dabei von der Wahl der Grundfarbe und des Grundlayouts, eigenen
+Kopfgrafiken bis hin zu eigenständigen Unterseiten und Funktionalitäten.</p>
 
 <p>Glücklicherweise bietet Serendipity für solche Anpassungen oft mehrere
 Möglichkeiten an, und Sie können über unterschiedliche technische Wege Einfluss
@@ -37,15 +36,15 @@ ab Seite <span class="pageref"><a href="#Themes verwalten">Themes verwalten</a><
     <span class="inline-tag">Bulletproof</span>
     <span class="inline-tag">Template-S@Templates!Bulletproof</span>
 </span>
-<span class="label invisible" id="bpdesc">bpdesc</span> Ab Serendipity 1.2 wurde standardmäßig ein neues Template
-namens <em>Bulletproof</em> mitgeliefert. Dieses Template unterscheidet sich in
-seiner Zielsetzung wesentlich von früheren Serendipity-Templates. Üblicherweise
-ist ein Template auf ein spezielles Design ausgelegt. Dabei legt der Designer des
-Templates für Sie fest, wie Artikel dargestellt werden, welche Farben das
-Template benutzt und vor allem, wie das Grundlayout ausgelegt ist. Wenn Sie
-etwas an den Farben ändern möchten, müssen Sie meist selbst Hand an der
-Template-Programmierung anlegen, was ohne Detailkenntnisse vielen Benutzern
-schwerfällt.</p>
+<span class="label invisible" id="bpdesc">bpdesc</span> Ab Serendipity 1.2
+wurde standardmäßig ein neues Template namens <em>Bulletproof</em> mitgeliefert.
+Dieses Template unterscheidet sich in seiner Zielsetzung wesentlich von früheren
+Serendipity-Templates. Üblicherweise ist ein Template auf ein spezielles Design
+ausgelegt. Dabei legt der Designer des Templates für Sie fest, wie Artikel
+dargestellt werden, welche Farben das Template benutzt und vor allem, wie das
+Grundlayout ausgelegt ist. Wenn Sie etwas an den Farben ändern möchten, müssen
+Sie meist selbst Hand an der Template-Programmierung anlegen, was ohne
+Detailkenntnisse vielen Benutzern schwerfällt.</p>
 
 <p>An genau diese Benutzer richtete sich <em>Bulletproof</em>. Es stellte ein
 Template-Grundgerüst zur Verfügung, das sich zu jener Zeit an bestmöglicher
@@ -212,9 +211,8 @@ Formatierungsanweisungen wird der Block durch eine weitere geschweifte Klammer
     <span class="inline-tag">Cascading</span>
 </span>
 Der Begriff <code>Cascading</code> bezeichnet eine wichtige Fähigkeit der Stylesheets:
-Die jeweiligen Formatierungsausdrücke
-können <em>vererbt</em> werden. Dazu muss man wissen, dass die
-Struktur einer HTML-Seite einer Baumstruktur ähnelt: Die Verschachtelung
+Die jeweiligen Formatierungsausdrücke können <em>vererbt</em> werden. Dazu muss man wissen,
+dass die Struktur einer HTML-Seite einer Baumstruktur ähnelt: Die Verschachtelung
 einzelner Elemente könnte man grafisch ähnlich darstellen, wie ein Dateimanager
 die Verzeichnisstruktur anzeigt.</p>
 
@@ -445,17 +443,18 @@ grün einfärben wollen, könnten Sie dies mit der folgenden CSS-Regel erreichen
     }
 </code></pre>
 
-<p>Eine Auflistung aller CSS-Klassen ist an dieser Stelle leider nicht möglich, da
-diese Klassen abhängig vom eingesetzten Template und dessen HTML-Ausgabe sind.
+<p>Eine Auflistung aller CSS-Klassen ist an dieser Stelle leider nicht möglich,
+da diese Klassen abhängig vom eingesetzten Template und dessen HTML-Ausgabe sind.
 Wenn Sie also eine Anpassung vornehmen wollen, müssen Sie die entsprechenden
 eingesetzten HTML-Klassen im Quelltext des jeweiligen Templates nachschlagen.</p>
 
 <p>Auch wenn hier nicht alle CSS-Klassen aufgeführt werden können, haben sich mit
 der neuen Referenz des <em>2k11</em>-Standard-Themes doch auch einige Elemente geändert.
-(zB. wurde mit Serendipity 2.0 das ehemalige Schema "<em>serendipity_klassenname</em>" für solche Klassen
-nicht immer konsequent durchgehalten, zB mit den neuen <code>msg_*</code>-Klassen.
-Leider muss dies auch für die überaus wichtigen Schemas <code>content</code>, <code>serendipityRightSideBar</code>,
-<code>serendipityLeftSideBar</code> gesagt werden, die zB. in sidebarhider teils direkte Bezugnahmen in Plugins haben. )
+(zB. wurde mit Serendipity 2.0 das ehemalige Schema "<em>serendipity_klassenname</em>"
+für solche Klassen nicht immer konsequent durchgehalten, zB mit den neuen
+<code>msg_*</code>-Klassen. Leider muss dies auch für die überaus wichtigen Schemas
+<code>content</code>, <code>serendipityRightSideBar</code>, <code>serendipityLeftSideBar</code>
+gesagt werden, die zB. in sidebarhider teils direkte Bezugnahmen in Plugins haben. )
 </p>
 
 <p>
@@ -758,14 +757,12 @@ erweitern, die die Vorgaben des Plugins überschreibt.</p>
 </code></pre>
 
 <p>ausgibt, müssen Sie diesen CSS-Code einfach in die eigene <code>style.css</code>-Datei
-überführen und dort beliebig anpassen. Das Plugin findet daraufhin den Code in
-Ihrer eigenen Datei und weiß, dass es selbst keine CSS-Anweisungen mehr
-ausgeben soll.</p>
+überführen und dort beliebig anpassen. Das Plugin findet daraufhin den Code in Ihrer
+eigenen Datei und weiß, dass es selbst keine CSS-Anweisungen mehr ausgeben soll.</p>
 
-<p>Sollte dies einmal nicht verlässlich klappen (wenn zB. die
-HTML-Elementnamen nicht übereinstimmen), können Sie in Ihrer
-<code>style.css</code>-Datei die CSS-Regeln eines Plugins immer noch überschreiben,
-indem Sie eine Regel wie:</p>
+<p>Sollte dies einmal nicht verlässlich klappen (wenn zB. die HTML-Elementnamen
+nicht übereinstimmen), können Sie in Ihrer <code>style.css</code>-Datei die
+CSS-Regeln eines Plugins immer noch überschreiben, indem Sie eine Regel wie:</p>
 
 <pre><code class="css">
     .serendipity_freeTag {<br>
@@ -797,14 +794,15 @@ bzw. Klassennamen mit einer entsprechenden Formatierungsanweisung in Ihre
 Stylesheet-Datei einfügen.</p>
 
 <p>Dieser Prozess kann ziemlich müßig werden. Daher haben findige Köpfe für den
-Firefox-Browser ein Modul namens
-<code>Firebug</code> [*]
-<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://www.getfirebug.com/" target="_blank">http://www.getfirebug.com/</a>, ähnliche Tools für
-andere Browser bzw. JavaScript-basierte Tools sind ebenfalls verfügbar.</span><!-- footnote --> erfunden.
-Dieses Programm ermöglicht es, mit einem einfachen Mausklick das benötigte
-Element ausfindig zu machen und direkt zu sehen, welche CSS-Anweisungen für
-dieses Element bereits belegt sind.
-Siehe Anmerkungen zu den Developer-Tools der heutigen Browser unter <span class="pageref"><a href="#Developer-Tools">Developer-Tools</a></span>.</p>
+Firefox-Browser ein Modul namens <code>Firebug</code> [*]
+<span class="footnote"><i class="fa fa-info-circle"></i>
+<a href="http://www.getfirebug.com/" target="_blank">http://www.getfirebug.com/</a>,
+ähnliche Tools für andere Browser bzw. JavaScript-basierte Tools sind ebenfalls
+verfügbar.</span><!-- footnote --> erfunden. Dieses Programm ermöglicht es,
+mit einem einfachen Mausklick das benötigte Element ausfindig zu machen und
+direkt zu sehen, welche CSS-Anweisungen für dieses Element bereits belegt sind.
+Siehe Anmerkungen zu den Developer-Tools der heutigen Browser unter
+<span class="pageref"><a href="#Developer-Tools">Developer-Tools</a></span>.</p>
 
 </section><!-- section.sub end -->
 
@@ -855,7 +853,8 @@ Template unterschiedliche Dinge tun, dies nennt man <em>Darstellungslogik</em>.<
 PHP-Programmieranweisungen könnte man eine derartige Darstellungslogik
 ausdrücken, jedoch ist dies für viele Anwender viel zu kompliziert. Daher
 vertraut Serendipity auf eine Software-Bibliothek namens Smarty [*]
-<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://www.smarty.net/" target="_blank">http://www.smarty.net/</a></span><!-- footnote -->.</p>
+<span class="footnote"><i class="fa fa-info-circle"></i>
+<a href="http://www.smarty.net/" target="_blank">http://www.smarty.net/</a></span><!-- footnote -->.</p>
 
 <p>Smarty ist das Bindeglied zwischen Serendipity und Ihnen als Template-Bauer.
 Eine Smarty-Datei ist eine einfache Ansammlung von HTML-Elementen, Variablen und
@@ -880,7 +879,8 @@ entweder ausgeben oder abfragen.</p>
 <p>Das ist bis auf einige Sonderfälle bereits die ganze Magie: Smarty versteckt die
 Komplexität von PHP hinter einer eigenen Syntax, die von HTML-kundigen Benutzern
 leichter eingesetzt werden kann. PHP-Fans können für Serendipity dennoch
-PHP-Templates basteln, was ab Seite <span class="pageref"><a href="#templateapi">templateapi</a></span> eingehender beschrieben
+PHP-Templates basteln, was ab Seite
+<span class="pageref"><a href="#templateapi">templateapi</a></span> eingehender beschrieben
 wird. Im Hintergrund arbeitet Smarty eine Template-Datei ab und wandelt sie in
 maschinenlesbaren PHP-Code um. Diesen Vorgang nennt man <code>kompilieren</code>,
 das Ergebnis des Kompilierens landet als temporäre Datei im Verzeichnis <code>templates_c</code>.
@@ -1459,11 +1459,15 @@ Atom-Feed innerhalb eines normalen Browsers anzeigt.</span>
 </span>
 <code class="item file">user.css</code> und
 <code class="item file">admin/user.css</code> <em>(beide Optional)</em>
-<span class="desc-info">Eine eigene und selbsterstellte <code>user.css</code> Datei, macht individuelle Änderungen
-/ Überschreibungen der Frontend / Backend Styles im eigenen Theme möglich, ohne die eigentliche Datei <code>style.css</code> zu bearbeiten.
-Ist eine solche Datei nun vorhanden, wird sie automatisch in die generierte <code>serendipity.css</code> bzw. <code>serendipity_admin.css</code>
-Datei eingebunden. Zu finden sind die eigenen Regeln am <span class="mbold">Ende</span> dieser virtuellen Datei. Die <code>user.css</code> Datei macht es also möglich,
-vorhandenes Design zu überschreiben, zu ergänzen und ist unabhängig gegenüber jedem Serendipity Upgrade.</span>
+<span class="desc-info">Eine eigene und selbsterstellte <code>user.css</code>
+Datei, macht individuelle Änderungen / Überschreibungen der Frontend / Backend
+Styles im eigenen Theme möglich, ohne die eigentliche Datei <code>style.css</code>
+bearbeiten zu müssen. Ist eine solche Datei nun vorhanden, wird sie automatisch
+in die generierte <code>serendipity.css</code> bzw. <code>serendipity_admin.css</code>
+Datei eingebunden. Zu finden sind die eigenen Regeln am <span class="mbold">Ende</span>
+dieser virtuellen Datei. Die <code>user.css</code> Datei macht es also möglich,
+vorhandenes Design zu überschreiben, zu ergänzen und ist unabhängig gegenüber
+jedem Serendipity Upgrade.</span>
 </p>
 
 <p class="desc citem-desc">
@@ -1494,7 +1498,8 @@ in das Template/Theme kopiert werden (siehe Regeln für ein eigenes Ckeditor-Wys
 enthalten die jeweiligen Anweisungen, um die von Serendipity gelieferten
 Variablen korrekt in eine HTML-Ausgabe einzubinden.</p>
 
-<p>Innerhalb jeder Datei sind spezielle Smarty-Variablen verfügbar (siehe Seite <span class="pageref"><a href="#smartyvariablen">smartyvariablen</a></span>).
+<p>Innerhalb jeder Datei sind spezielle Smarty-Variablen verfügbar (siehe Seite
+<span class="pageref"><a href="#smartyvariablen">smartyvariablen</a></span>).
 Für einen vollständigen Seitenaufruf können mehrere einzelne Template-Dateien
 involviert sein, die am Ende von Serendipity vor der Ausgabe automatisch
 miteinander verbunden werden.</p>
@@ -2248,8 +2253,9 @@ innerhalb Ihres Templates beliebige Grafikdateien ansprechen, aber zusätzlich
 greift Serendipity zur Darstellung einiger Objekte auf feste Dateinamen zurück.</p>
 
 <p>Wenn Ihr Template eine Datei gleichen Namens besitzt, wird diese von Serendipity
-anstelle der Standarddatei ausgegeben. Zur Gestaltung dieser Dateien können
-Sie sich nach Vorlagen im Verzeichnis <code>templates/default/</code> bzw. des aktuellen Standard-Themes (2k11) richten.</p>
+anstelle der Standarddatei ausgegeben. Zur Gestaltung dieser Dateien können Sie sich
+nach Vorlagen im Verzeichnis <code>templates/default/</code> bzw. des aktuellen
+Standard-Themes (2k11) richten.</p>
 
 <p class="desc citem-desc">
 <span class="tag-box invisible">
@@ -2287,8 +2293,9 @@ gewählt werden, mindestens 800 x 600 Pixel werden empfohlen.</span>
     <span class="inline-tag">Template-Dateien!img/emoticons</span>
 </span>
 <code class="item file">img/emoticons/</code>
-<span class="desc-info">Die Smilies des gleichnamigen Textformatierungs-Plugins (siehe Seite
-<span class="pageref"><a href="#emoticate">emoticate</a></span>) werden im Verzeichnis <code>img/emoticons/</code> gespeichert und
+<span class="desc-info">Die Smilies des gleichnamigen Textformatierungs-Plugins
+(siehe Seite <span class="pageref"><a href="#emoticate">emoticate</a></span>)
+werden im Verzeichnis <code>img/emoticons/</code> gespeichert und
 können in Ihrem eigenen Template-Verzeichnis beliebig ersetzt werden. Sie können
 beispielsweise die Smilie-Grafiken Ihres Lieblingsforums in dieses Verzeichnis
 einstellen, die Dateinamen der jeweiligen Smilies sind selbsterklärend.</span>
@@ -2409,7 +2416,8 @@ geladen werden muss.</span>
     <span class="inline-tag">Template-Dateien!admin/img/mime_***.png</span>
 </span>
 <code class="item file">admin/img/mime_***.png</code>
-<span class="desc-info">Stellen verschiedene Ersetzungs-Icons für unterschiedliche Mime Typen in der Mediendatenbank dar, zB. für PDFs oder Videos.</span>
+<span class="desc-info">Stellen verschiedene Ersetzungs-Icons für unterschiedliche
+Mime Typen in der Mediendatenbank dar, zB. für PDFs oder Videos.</span>
 </p>
 
 <p class="desc citem-desc">
@@ -2439,7 +2447,8 @@ geladen werden muss.</span>
 <code class="item file">admin/font/fontello.svg</code>,
 <code class="item file">admin/font/fontello.ttf</code>, 
 <code class="item file">admin/font/fontello.woff</code>
-<span class="desc-info">Symbol-Icons für die Backend Ansicht(en) von Serendipity 2.0+ über CSS. Zu finden sind diese Dateien im Serendipity Standard (backend) Theme 2k11.</span>
+<span class="desc-info">Symbol-Icons für die Backend Ansicht(en) von Serendipity 2.0+
+über CSS. Zu finden sind diese Dateien im Serendipity Standard (backend) Theme 2k11.</span>
 </p>
 
 <p class="desc citem-desc revision">
@@ -2464,7 +2473,7 @@ Laufe der Zeit fast auf 0 reduziert.</p>
 </span>
 <code class="item file">jquery.js</code>
 <span class="desc-info">JQuery-JavaScript Library für Theme-Funktionalitäten in Serendipity.
- Dies ist die systemweite <code class="item file">/templates/jquery.js</code> Datei zur automagischen Einbindung in Themes.</span>
+Dies ist die systemweite <code class="item file">/templates/jquery.js</code> Datei zur automagischen Einbindung in Themes.</span>
 </p>
 
 <p class="desc citem-desc">
@@ -2490,7 +2499,8 @@ das default-php Theme.</span>
     <span class="inline-tag">Template-Dateien!admin/serendipity_editor.js.tpl</span>
 </span>
 <code class="item file">admin/serendipity_editor.js.tpl</code>
-<span class="desc-info">Das default JavaScript Smarty-Template zur Generierung der virtuellen <code class="item file">serendipity_editor.js</code> Datei.</span>
+<span class="desc-info">Das default JavaScript Smarty-Template zur Generierung der virtuellen
+<code class="item file">serendipity_editor.js</code> Datei.</span>
 </p>
 
 <p class="desc citem-desc">
@@ -2498,7 +2508,8 @@ das default-php Theme.</span>
 virtuelle <code class="item file">serendipity_editor.js</code> und die ebenfalls virtualisierte
 <code class="item file">serendipity_admin.js</code> relevant. Während die erste der beiden Dateien
 eine Zusammenfassung aller Javascript Funktionen für das Serendipity Backend darstellt,
-sorgt Letztere dafür, dass Plugins sich in diesen Ausgabe Hook <code>'js_backend'</code>, siehe <a href="#ereignis-hooks">Ereignis-Hooks</a>, einklinken können.</span>
+sorgt Letztere dafür, dass Plugins sich in diesen Ausgabe Hook <code>'js_backend'</code>,
+siehe <a href="#ereignis-hooks">Ereignis-Hooks</a>, einklinken können.</span>
 </p>
 
 
@@ -2522,29 +2533,36 @@ sorgt Letztere dafür, dass Plugins sich in diesen Ausgabe Hook <code>'js_backen
 </p>
 
 <p>Seit Serendipity 1.2 war ein Template namens <em>Bulletproof</em> Bestandteil des
-Serendipity-Pakets. Dieses ist auf Seite <span class="pageref"><a href="#bpdesc">bpdesc</a></span> detaillierter
-beschrieben und zielte darauf ab, nach Art eines Baukasten-Prinzips dem
+Serendipity-Pakets. Dieses ist auf Seite <span class="pageref"><a href="#bpdesc">bpdesc</a></span>
+detaillierter beschrieben und zielte darauf ab, nach Art eines Baukasten-Prinzips dem
 Blog-Administrator die Anpassung seines Layouts zu ermöglichen.</p>
 
 <p>Seit Serendipity 1.7 ist ein Template namens <em>2k11</em> Bestandteil des
-Serendipity-Pakets und als <span class="mbold">Standard Template</span> festgelegt! Dieses neuere Template
-übernimmt daher die gleichen Aufgaben wie das vorherige Standard-Template <em>Bulletproof</em> bezüglich des Templates-Fallback-Scopes,
-ist aber etwas weniger detailliert wie das hier beschriebene <em>Bulletproof</em>-Template. Es besitzt dafür aber alle Egenschaften
-die heutzutage an moderne Templates bezüglich <em>HTML5</em> und <em>"responsive Design"</em> gestellt werden.</p>
+Serendipity-Pakets und als <span class="mbold">Standard Template</span>
+festgelegt! Dieses neuere Template übernimmt daher die gleichen Aufgaben wie
+das vorherige Standard-Template <em>Bulletproof</em> bezüglich des Templates-Fallback-Scopes,
+ist aber etwas weniger detailliert wie das hier beschriebene <em>Bulletproof</em>-Template.
+Es besitzt dafür aber alle Egenschaften die heutzutage an moderne Templates
+bezüglich <em>HTML5</em> und <em>"responsive Design"</em> gestellt werden.</p>
 
 <p>Mit Serendipity 2.0+ wurde es möglich ein eigenes Backend Template zu wählen,
-dessen Default <span class="mbold">Backend Standard Template</span> sich weiterhin an <em>2k11</em> orientiert und mit diesem ausgeliefert wird.</p>
+dessen Default <span class="mbold">Backend Standard Template</span> sich weiterhin
+an <em>2k11</em> orientiert und mit diesem ausgeliefert wird.</p>
 
-<p>Das oben genannte Fallback-Prinzip von Serendipity baute immer darauf, auf das <span class="mbold">Default Theme</span> zurückzufallen.
-Diese Idee ging leider etwas verloren als 2k11 und das neue Backend entwickelt wurden und wurde mit dem <span class="mbold">Standard Template</span> vermischt,
+<p>Das oben genannte Fallback-Prinzip von Serendipity baute immer darauf,
+auf das <span class="mbold">Default Theme</span> zurückzufallen.
+Diese Idee ging leider etwas verloren als 2k11 und das neue Backend
+entwickelt wurden und wurde mit dem <span class="mbold">Standard Template</span> vermischt,
 so dass es folgend zu unnötigen workarounds in der Entwicklung kam.
-<span class="mbold">Serendipity Styx</span> ist diesem <span class="mbold">Prinzip</span> wieder treu!</p>
+<span class="mbold">Serendipity Styx</span> ist diesem
+<span class="mbold">Prinzip</span> wieder treu!</p>
 
-<p>Dieses Baukasten-Prinzip wird mittels Template-Optionen umgesetzt. Sobald das
-<em>Bulletproof</em>-Template aktiviert ist, können Sie im Backend im Menüpunkt
-<span class="mbold">Einstellungen <span class="icon arrow-right">→</span> Themes</span> die einzelnen Optionen einstellen. Diese
-werden ähnlich wie Konfigurationsoptionen eines Plugins dargestellt, pro Zeile
-stellen Sie eine Option ein.</p>
+<p>Dieses Baukasten-Prinzip wird mittels Template-Optionen umgesetzt.
+Sobald das <em>Bulletproof</em>-Template aktiviert ist, können Sie im
+Backend im Menüpunkt <span class="mbold">Einstellungen
+<span class="icon arrow-right">→</span> Themes</span> die einzelnen
+Optionen einstellen. Diese werden ähnlich wie Konfigurationsoptionen
+eines Plugins dargestellt, pro Zeile stellen Sie eine Option ein.</p>
 
 <figure id="fig-bulletproof2">
     <img src="img/bulletproof2.png">
@@ -6682,7 +6700,8 @@ wird auf Seite <span class="pageref"><a href="#mediatemplates">mediatemplates</a
             </span>
             <span class="sub-box">
                 Enthält die maximale Bildbreite und -höhe einer hochzuladenden Datei. Diese kann
-                in der Serendipity-Konfiguration festgelegt werden (siehe Seite <span class="pageref"><a href="#uploadlimit2">uploadlimit2</a></span>).
+                in der Serendipity-Konfiguration festgelegt werden (siehe Seite
+                <span class="pageref"><a href="#uploadlimit2">uploadlimit2</a></span>).
             </span>
         </span>
 
@@ -10504,21 +10523,18 @@ von Zeile 3 bis 17 abgefragt.</p>
 </p>
 
 <p>Die <code>entries.tpl</code>-Template-Datei ist die wohl komplexeste und umfangreichste
-Template-Datei. Im Gegensatz zu anderen Blog-Systemen verfolgt Serendipity den
-Ansatz der kleinstmöglichen Redundanz: Eine Template-Datei wird für alle Fälle
-der Artikeldarstellung verwendet, sowohl Einzelbeiträge als auch
-Eintragsübersichten werden (mittels IF-Abfragen) über diese Template-Datei
-gesteuert.</p>
+Template-Datei. Im Gegensatz zu anderen Blog-Systemen verfolgt Serendipity den Ansatz der
+kleinstmöglichen Redundanz: Eine Template-Datei wird für alle Fälle der Artikeldarstellung
+verwendet, sowohl Einzelbeiträge als auch Eintragsübersichten werden (mittels IF-Abfragen)
+über diese Template-Datei gesteuert.</p>
 
 <p>Das Template arbeitet dazu hauptsächlich mit einem großen Array namens
 <code class="smarty">{$entries}</code>. Dieses mehrdimensionale Array wird mittels Schleifen
 durchlaufen und ausgegeben, daher macht es für das Template keinen Unterschied,
 ob in dem Array ein Eintrag oder 200 Einträge enthalten sind.</p>
 
-<p>In Zeile 2 wird als mit
-<code>serendipity_hookPlugin hook="entries_header" addData="$entry_id"</code> dafür
-gesorgt, dass etwaige Ereignis-Plugins ihre Ausgaben vor der
-Artikeldarstellung ausliefern können.</p>
+<p>In Zeile 2 wird als mit <code>serendipity_hookPlugin hook="entries_header" addData="$entry_id"</code>
+dafür gesorgt, dass etwaige Ereignis-Plugins ihre Ausgaben vor der Artikeldarstellung ausliefern können.</p>
 
 <p>Von Zeile 4 bis Zeile 181 wird die erste Schleife über das mehrdimensionale
 <code class="smarty">{$entries}</code>-Array ausgegeben. Die erste Dimension enthält die Einträge
@@ -10637,7 +10653,8 @@ mit denen man andere Artikel referenzieren oder beliebige Blöcke
 (beispielsweise mit Werbung) anhängen kann.</p>
 
 <p>Eine generische und flexible Lösung für eigene Erweiterungen bietet das
-Ereignis-Plugin <em>Erweiterte Eigenschaften von Artikeln</em> (siehe Seite <span class="pageref"><a href="#entryproperties">entryproperties</a></span>).</p>
+Ereignis-Plugin <em>Erweiterte Eigenschaften von Artikeln</em> (siehe Seite
+<span class="pageref"><a href="#entryproperties">entryproperties</a></span>).</p>
 
 <p>Mithilfe dieses Plugins können Sie beliebig viele zusätzliche Eingabefelder zu
 einem Artikel hinzufügen und später darstellen. Die Anwendungsmöglichkeiten sind
@@ -10669,10 +10686,12 @@ aktuelle Stimmung dokumentieren.</p>
 
 <h3 class="subsection" id="plugin-installieren">Plugin installieren</h3>
 
-<p>Die folgenden Schritte setzen voraus, dass Sie das Ereignis-Plugin <em>Erweiterte
-Eigenschaften von Artikeln</em> (siehe Seite <span class="pageref"><a href="#entryproperties">entryproperties</a></span>)
+<p>Die folgenden Schritte setzen voraus, dass Sie das Ereignis-Plugin
+<em>Erweiterte Eigenschaften von Artikeln</em> (siehe Seite
+<span class="pageref"><a href="#entryproperties">entryproperties</a></span>)
 installiert haben. Wenn dies nicht der Fall ist, richten Sie es im Backend
-über <span class="mbold">Einstellungen <span class="icon arrow-right">→</span> Plugins verwalten <span class="icon arrow-right">→</span> Ereignis-Plugin
+über <span class="mbold">Einstellungen <span class="icon arrow-right">→</span>
+Plugins verwalten <span class="icon arrow-right">→</span> Ereignis-Plugin
 installieren</span> ein.</p>
 
 </section><!-- section.sub end -->
@@ -10683,16 +10702,18 @@ installieren</span> ein.</p>
 <h3 class="subsection" id="freie-eigenschaften-anlegen">Freie Eigenschaften anlegen</h3>
 
 <p>Als Erstes müssen Sie die beiden zusätzlichen Eigenschaftsfelder anlegen.
-Gehen Sie dazu auf den Menüpunkt <span class="mbold">Einstellungen <span class="icon arrow-right">→</span> Plugins verwalten</span> und
+Gehen Sie dazu auf den Menüpunkt <span class="mbold">Einstellungen
+<span class="icon arrow-right">→</span> Plugins verwalten</span> und
 suchen Sie in der Auflistung der Ereignis-Plugins das Plugin <em>Erweiterte
 Eigenschaften von Artikeln</em>; klicken Sie auf das Blacklist-Symbol, um zur
 Konfiguration zu gelangen.</p>
 
-<p>Dort finden Sie die Option <span class="mbold">Freie Felder</span>. Hier kann man eine Liste von
-Feldnamen eintragen, die zusätzlich angezeigt werden sollen. Dazu benötigt das
-Plugin einen eindeutigen Namen pro Feld, diesen können Sie frei vergeben.
-Er darf nur aus einem einzelnen Wort bestehen und keine Sonderzeichen oder Umlaute
-enthalten. Für unser Beispiel tragen wir dort für zwei Felder <span class="mbold">Youtube,Stimmung</span> ein.</p>
+<p>Dort finden Sie die Option <span class="mbold">Freie Felder</span>.
+Hier kann man eine Liste von Feldnamen eintragen, die zusätzlich angezeigt
+werden sollen. Dazu benötigt das Plugin einen eindeutigen Namen pro Feld,
+diesen können Sie frei vergeben. Er darf nur aus einem einzelnen Wort bestehen
+und keine Sonderzeichen oder Umlaute enthalten. Für unser Beispiel tragen wir
+dort für zwei Felder <span class="mbold">Youtube,Stimmung</span> ein.</p>
 
 </section><!-- section.sub end -->
 
@@ -10702,12 +10723,14 @@ enthalten. Für unser Beispiel tragen wir dort für zwei Felder <span class="mbo
 <h3 class="subsection" id="artikel-erstellen">Artikel erstellen</h3>
 
 <p>Um die Einbindung der freien Felder zu testen, müssen Sie einen neuen Artikel
-erstellen. Klicken Sie im Backend dazu auf <span class="mbold">Inhalt <span class="icon arrow-right">→</span> Neuer Eintrag</span>.
+erstellen. Klicken Sie im Backend dazu auf <span class="mbold">Inhalt
+<span class="icon arrow-right">→</span> Neuer Eintrag</span>.
 Dort finden Sie nach dem Eingabefeld für den <em>Erweiterten Eintrag</em> einen
 Bereich mit dem Titel <em>Erweiterte Optionen</em>. In diesem Bereich finden Sie
 nun einen Abschnitt <em>Erweiterte Eigenschaften von Artikeln</em>. Dort bindet
 das Plugin neben einigen weiteren Optionen nun zwei große Eingabefelder ein:
-eines mit dem Titel <span class="mbold">Youtube</span> und eines mit dem Titel <span class="mbold">Stimmung</span>.</p>
+eines mit dem Titel <span class="mbold">Youtube</span> und eines mit dem Titel
+<span class="mbold">Stimmung</span>.</p>
 
 <p>Dort können Sie nun für jeden Artikel einen beliebigen Code eintragen. Was Sie
 in die Felder eintragen, ist Ihnen überlassen, jedoch sollten Sie darauf achten,
@@ -10747,7 +10770,8 @@ sind, sollen diese natürlich auch in Ihrem Blog dargestellt werden.</p>
 Editor öffnen. Diese Datei enthält alle Anweisungen, die zur Darstellung eines
 Eintrags verwendet werden.</p>
 
-<p>Innerhalb dieser Datei (genaue Beschreibung siehe Seite <span class="pageref"><a href="#entries.tpl">entries.tpl</a></span>)
+<p>Innerhalb dieser Datei (genaue Beschreibung siehe Seite
+<span class="pageref"><a href="#entries.tpl">entries.tpl</a></span>)
 können Sie auf die freien Felder flexibel mittels Smarty-Syntax zugreifen. Um
 Ihre aktuelle Stimmung direkt unterhalb des Artikeltexts darzustellen, suchen
 Sie in der Datei nach einer Stelle, die ungefähr so aussieht:</p>
@@ -10935,15 +10959,16 @@ In diesem Beispiel ist dies jedoch ohne Belang, da auf das Objekt gar nicht zuge
 <p>Eine Smarty-Funktion muss demnach mittels <code>register_function</code> einer
 existierenden PHP-Funktion zugewiesen werden.[*]
 <span class="footnote"><i class="fa fa-info-circle"></i> Siehe auch
-<a href="http://www.smarty.net/docs/en/api.register.plugin.tpl" target="_blank">http://www.smarty.net/docs/en/api.register.plugin.tpl</a></span><!-- footnote --> Diese PHP-Funktion muss immer
-zwei Funktionsparameter haben: <code>$params</code> und <code>$smarty</code>. (Siehe obige Anmerkung zu Smarty 3.1.28+!) Das Array
+<a href="http://www.smarty.net/docs/en/api.register.plugin.tpl" target="_blank">http://www.smarty.net/docs/en/api.register.plugin.tpl</a></span><!-- footnote -->
+Diese PHP-Funktion muss immer zwei Funktionsparameter haben: <code>$params</code>
+und <code>$smarty</code>. (Siehe obige Anmerkung zu Smarty 3.1.28+!) Das Array
 <code>$params</code> enthält alle Funktionsparameter, wie sie in der Template-Datei via
 <code>zeigeFooter parameter=... lang=true  ... </code> aufgerufen wurden. Dabei
 entspricht der Array-Schlüssel von <code>$params</code> immer dem Parameternamen beim
-Smarty-Aufruf. Das <code>$smarty</code>-Objekt (später <code>$template</code>-Objekt) kann innerhalb der PHP-Funktion
-selbstverständlich auch für erweiterte Zugriffe auf das Smarty-Framework
-verwendet werden. Der Rückgabewert der Funktion enthält das, was später im
-Smarty-Template zurückgeliefert wird (üblicherweise HTML-Code).</p>
+Smarty-Aufruf. Das <code>$smarty</code>-Objekt (später <code>$template</code>-Objekt)
+kann innerhalb der PHP-Funktion selbstverständlich auch für erweiterte Zugriffe auf
+das Smarty-Framework verwendet werden. Der Rückgabewert der Funktion enthält das,
+was später im Smarty-Template zurückgeliefert wird (üblicherweise HTML-Code).</p>
 
 <p>Die beispielhaft definierte Funktion <code>zeigeFooter</code> kann so verwendet werden,
 um einen fest definierten Footer in Ihrer Template-Datei einzubinden.
@@ -10967,8 +10992,9 @@ andere HTML-Dateien einbinden.</p>
 
 <p>Die alten <code>register_modifier()</code> und <code>registerfunction()</code> API Methoden
 wurde mit Erscheinen von Serendipity 1.7 und Smarty 3 auf die universellere <code>registerPlugin('modifier', </code>,
-<code>registerPlugin('function', </code> Methode geändert. Sie können aus Kompatibiltätsgründen,
-aber sollten nicht länger unnötigerweise verwendet werden. Die hier verwendeten Beispiele wurden auf die neuere Schreibweise angepasst.</p>
+<code>registerPlugin('function', </code> Methode geändert. Sie können aus Kompatibilitätsgründen,
+aber sollten nicht länger unnötigerweise verwendet werden. Die hier verwendeten Beispiele wurden
+auf die neuere Schreibweise angepasst.</p>
 
 <p>Ein Modifier wie oben würde im Smarty-Template einen Aufruf wie</p>
 
@@ -11011,9 +11037,10 @@ verwenden:</p>
 <p>Achten Sie jedoch darauf, dass innerhalb der <code>config.inc.php</code> niemals
 HTML-Ausgaben erfolgen dürfen. Sollte dies vorkommen, müssen Sie mittels PHP
 Output Buffering [*]
-<span class="footnote"><i class="fa fa-info-circle"></i> Siehe <a href="http://www.php.net/ob_start" target="_blank">http://www.php.net/ob_start</a></span><!-- footnote --> die HTML-Ausgaben in
-einer Variable abfangen, an die Smarty-Template-Dateien weiterreichen und von
-dort aus einbinden.</p>
+<span class="footnote"><i class="fa fa-info-circle"></i> Siehe
+<a href="http://www.php.net/ob_start" target="_blank">http://www.php.net/ob_start</a></span><!-- footnote -->
+die HTML-Ausgaben in einer Variable abfangen, an die Smarty-Template-Dateien
+weiterreichen und von dort aus einbinden.</p>
 
 <p><code>config.inc.php</code>:</p>
 
@@ -11051,7 +11078,8 @@ dort aus einbinden.</p>
 </span>
 </p>
 
-<p>Die Konfigurationsoptionen von Serendipity (<span class="mbold">Administration <span class="icon arrow-right">→</span> Konfiguration</span>
+<p>Die Konfigurationsoptionen von Serendipity (<span class="mbold">Administration
+<span class="icon arrow-right">→</span> Konfiguration</span>
 und <span class="mbold">Eigene Einstellungen</span>) werden über einfache PHP-Dateien gesteuert.
 Darüber können Sie leicht eigene neue Konfigurationsoptionen hinzufügen,
 die automatisch dargestellt und in der Datenbank gespeichert werden können.</p>
@@ -11076,10 +11104,10 @@ für die <span class="mbold">Konfiguration</span>.</p>
 
 <p>Der Schlüsselname des Arrays der ersten Dimension gibt den Abschnittsnamen an.
 Bei den <span class="mbold">Eigenen Einstellungen</span> gibt es zwei solche Abschnitte:
-<span class="mbold">Persönliche Einstellungen</span> und <span class="mbold">Voreinstellungen für neue Einträge</span>.
-Jeder Abschnitt kann für sich ein- und ausgeklappt werden. Weitere individuelle
-Abschnitte können Sie daher über einen beliebigen Array-Schlüsselnamen
-einbinden.</p>
+<span class="mbold">Persönliche Einstellungen</span> und
+<span class="mbold">Voreinstellungen für neue Einträge</span>. Jeder Abschnitt
+kann für sich ein- und ausgeklappt werden. Weitere individuelle Abschnitte
+können Sie daher über einen beliebigen Array-Schlüsselnamen einbinden.</p>
 
 <p>Der Titel und die Beschreibung jedes Abschnitts wird in den
 Array-Schlüsseln <code>title</code> und <code>description</code> der zweiten Dimension

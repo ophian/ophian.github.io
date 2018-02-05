@@ -65,12 +65,11 @@ bei deren Verwirklichung helfen möchte, ist herzlich eingeladen:</p>
     <h4 class="subarticle" id="unit-tests">Unit Tests</h4>
 </header>
 
-<p>Mittels PHPUnit [*]
-<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://www.phpunit.de/" target="_blank">http://www.phpunit.de/</a></span><!-- footnote -->
-können die einzelnen
-Methoden der Serendipity-Plugin-API und auch einzelne Funktionen des
-Serendipity-Frameworks durch sogenannte Test-Cases auf Funktionstüchtigkeit
-geprüft werden.</p>
+<p>Mittels PHPUnit [*] <span class="footnote"><i class="fa fa-info-circle"></i>
+<a href="http://www.phpunit.de/" target="_blank">http://www.phpunit.de/</a></span><!-- footnote -->
+können die einzelnen Methoden der Serendipity-Plugin-API und auch einzelne
+Funktionen des Serendipity-Frameworks durch sogenannte Test-Cases auf
+Funktionstüchtigkeit geprüft werden.</p>
 
 <p>Test-Cases sollten dabei sämtliche gültigen und ungültigen Wertebereiche jeder
 einzelnen Funktion beinhalten. Die Tests dienen in erster Linie dazu, dass
@@ -244,10 +243,12 @@ Dinge beachten:</p>
 
 <p>Serendipity wird über öffentlich zugängliche Server gewartet. 
 Der gesamte Code liegt seit Herbst 2011 auf Github [*]
-<span class="footnote"><i class="fa fa-info-circle"></i> <a href="https://github.com/s9y" target="_blank">https://github.com/s9y</a></span><!-- footnote -->
+<span class="footnote"><i class="fa fa-info-circle"></i>
+<a href="https://github.com/s9y" target="_blank">https://github.com/s9y</a></span><!-- footnote -->
 und wird zentral dort verwaltet. Sourceforce dient nur noch aus Kompatibilitätsgründen
 als SVN/CSV Verteiler und die Mirrors sind auch nur noch für eventuelle Ausfälle von GitHub relevant.
-(Siehe <span class="reference">sourcecodeverwaltung</span> auf Seite <span class="pageref"><a href="#sourcecodeverwaltung">sourcecodeverwaltung</a></span>).</p>
+(Siehe <span class="reference">sourcecodeverwaltung</span> auf Seite
+<span class="pageref"><a href="#sourcecodeverwaltung">sourcecodeverwaltung</a></span>).</p>
 
 <p>Wenn Sie Code-Änderungen veröffentlichen wollen, sollten Sie Ihre Änderungen
 immer anhand der aktuellsten Sourcecode-Version aus der jeweiligen Quelle
@@ -304,8 +305,8 @@ Tabulatoren) vorgenommen werden.</p>
 
 <p>Optionale Einrückungen für IF-Abfragen und Schleifen sollten immer genutzt
 werden. Grundsätzlich sollten Sie sich bei der Programmierung an die
-PEAR-Coding-Standards [*]
-<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://pear.php.net/manual/en/standards.php" target="_blank">http://pear.php.net/manual/en/standards.php</a></span><!-- footnote -->
+PEAR-Coding-Standards [*] <span class="footnote"><i class="fa fa-info-circle"></i>
+<a href="http://pear.php.net/manual/en/standards.php" target="_blank">http://pear.php.net/manual/en/standards.php</a></span><!-- footnote -->
 halten.</p>
 
 <p>Versuchen Sie Ihren Code schlank zu halten. Redundante Codeteile sollten Sie
@@ -409,7 +410,8 @@ benötigt, sollte diese vom Plugin automatisch mithilfe der Funktion
 oder XSS-Injections zulassen oder gar beliebigen PHP-Code von fremden Servern
 ausführen. Achten Sie darauf, Werte aus GET/POST-Variablen vor dem
 Einfügen in die Datenbank mit <code>serendipity_db_escape_string()</code> zu
-behandeln und bei der Ausgabe mit <code>htmlspecialchars()</code> bzw. besser <code>serendipity_specialchars()</code> zu umgeben.</p>
+behandeln und bei der Ausgabe mit <code>htmlspecialchars()</code> bzw. besser
+<code>serendipity_specialchars()</code> zu umgeben.</p>
 
 <p>Wenn ein Plugin administrative Aktionen im Backend ausführt, sollten die
 HTML-Formulare zum Ausführen der Funktion mittels <code>serendipityFormToken()</code>
