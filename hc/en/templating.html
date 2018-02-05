@@ -315,8 +315,8 @@ function serendipity_smarty_myfunction($params, $template) {
     // Simply returns a HTML statement with passed parameters
 }
 
-$serendipity['smarty']-&gt;registerPlugin('modifier', 'mymodifier', 'serendipity_smarty_mymodifier'
-$serendipity['smarty']-&gt;registerPlugin('function', 'myfunction', 'serendipity_smarty_myfunction'</code></pre>
+$serendipity['smarty']-&gt;registerPlugin('modifier', 'mymodifier', 'serendipity_smarty_mymodifier');
+$serendipity['smarty']-&gt;registerPlugin('function', 'myfunction', 'serendipity_smarty_myfunction');</code></pre>
 
 <p>Note that you first need to actually define your functions in the PHP scope, and then you need to use the <code>$serendipity['smarty']-&gt;registerPlugin()</code> call to make it available to Smarty templates.</p>
 
@@ -809,14 +809,14 @@ It is not advised to create your own  style_fallback.css file.</p>
 
 <p>Smarty functions are meant to be executed on their own and will return their content at the place of where you put the function call. In distinction to smarty modifieres, function calls are executed with exact parameters and cannot be “stacked” upon each other like a <code>{$variable|modifier1|modifier2|...}</code> call.</p>
 
-<p>The name in brackets is the PHP function that is called and defined in include/functions_smarty.inc.php, the bold name is how you actually call the function in Smarty with <code>{serendipity_printSidebar param1="value" param2="value" ...}</code> for example. The list of parametes is indented below.</p>
+<p>The name in brackets is the PHP function that is called and defined in include/functions_smarty.inc.php, the bold name is how you actually call the function in Smarty with <code>{serendipity_printSidebar param1="value" param2="value" ...}</code> for example. The list of parameters is indented below.</p>
 
 <ul>
   <li><strong>serendipity_printSidebar</strong> (serendipity_smarty_printSidebar): Prints the list of sidebar plugins.
     <ul>
-      <li>side: The name of the sidebar, i.e. “left”, “right”, “hidden”</li>
+      <li>side: The name of the sidebar, i.e. “left”, “right”, “hide”</li>
       <li>template: The name of the Smarty template file to render a plugin with (default: “sidebar.tpl”)</li>
-      <li><strong>EXAMPLE</strong>: <code>{serendipity_printSidebar side="left|right|hidden|*" template="yourtemplate.tpl"}</code></li>
+      <li><strong>EXAMPLE</strong>: <code>{serendipity_printSidebar side="left|right|hide|*" template="yourtemplate.tpl"}</code></li>
     </ul>
   </li>
   <li><strong>serendipity_hookPlugin</strong> (serendipity_smarty_hookPlugin): Executes a hook of the Plugin API and return content.
@@ -838,7 +838,7 @@ It is not advised to create your own  style_fallback.css file.</p>
       <li>negate: If set, reverts the previous filters, can be used to “Show all plugins EXECEPT …”.</li>
       <li>empty: Can be set to a string that is shown, when the plugin output was empty.</li>
       <li>template: Can be set to a sidebar template file other than the default “sidebar.tpl”</li>
-      <li><strong>EXAMPLE</strong>: <code>{serendipity_showPlugin class="serendipity_your_nugget" id="serendipity_your_plugin:21323223efsd22aa" side="left|right|hidden|*" negate="null|true"}</code></li>
+      <li><strong>EXAMPLE</strong>: <code>{serendipity_showPlugin class="serendipity_your_nugget" id="serendipity_your_plugin:21323223efsd22aa" side="left|right|hide|*" negate="null|true"}</code></li>
     </ul>
   </li>
   <li><strong>serendipity_getFile</strong> (serendipity_smarty_getFile): Get the full path to a template file. The file is searched in the usual template fallback mechanism, so it can also be fetched from the default location.
