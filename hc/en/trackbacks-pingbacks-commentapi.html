@@ -140,17 +140,17 @@
 
                     <p>So basically you don’t have to do anything manually at all!</p>
 
-                    <p>When a blog does not support the “magic” RDF metadata so that Serendipity can send and automatic trackback, you can specify the “manual” Trackback URI when using the <a href="http://php-blog.cvs.sourceforge.net/php-blog/additional_plugins/serendipity_event_trackback/">serendipity_event_trackback</a> plugin.</p>
+                    <p>When a blog does not support the “magic” RDF metadata so that Serendipity can send and automatic trackback, you can specify the “manual” Trackback URI when using the <a href="https://github.com/ophian/additional_plugins/tree/master/serendipity_event_trackback/">serendipity_event_trackback</a> plugin.</p>
 
                     <p>If a page does not contain the magic RDF metadata, or wrong metadata (the RDF:specifier does not equal the URL you entered - sometimes it matters if you use http://www.example.com or http://example.com!) you will get this message when saving an entry:</p>
 
-                    <p>“The autodiscovered trackback URI does not match our target URI”</p>
+                    <pre>“The autodiscovered trackback URI does not match our target URI”</pre>
 
                     <p>In this case you’ll have to check your HTML link if it contains the right metadata and/or a different link, or you have to use the plugin mentioned above.</p>
 
                     <p>If enter a link in your entry, that directly leads to a trackback, Serendipity will complain with this error message:</p>
 
-                    <p>“Trackback failed: No trackback-URI found”.</p>
+                    <pre>“Trackback failed: No trackback-URI found”.</pre>
 
                     <p>Serendipity can only send automatic trackbacks to a URL, that contains the required RDF metadata of the trackback API. Some wordpress blogs are known to not provide this required metadata, and thus Serendipity cannot send an automatic trackback. To solve this, please complain to the blog author of the blog you are trying to trackback. You can also use the trackback plugin mentioned earlier, which allows you to send manual trackbacks to URLs, which do not require this RDF-metadata.</p>
 
