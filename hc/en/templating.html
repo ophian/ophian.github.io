@@ -818,7 +818,7 @@ It is not advised to create your own  style_fallback.css file.</p>
     <ul>
       <li><span class="var">side:</span> The name of the sidebar, i.e. “left”, “right”, “hide”</li>
       <li><span class="var">template:</span> The name of the Smarty template file to render a plugin with (default: “sidebar.tpl”)</li>
-      <li><strong>EXAMPLE</strong>: <code>{serendipity_printSidebar side="left|right|hide|*" template="yourtemplate.tpl"}</code></li>
+      <li><strong>EXAMPLE</strong>: <pre><code>{serendipity_printSidebar side="left|right|hide|*" template="yourtemplate.tpl"}</code></pre></li>
     </ul>
   </li>
   <li><strong>serendipity_hookPlugin</strong> (serendipity_smarty_hookPlugin): Executes a hook of the Plugin API and return content.
@@ -829,7 +829,7 @@ It is not advised to create your own  style_fallback.css file.</p>
       <li><span class="var">addData:</span> Passes optional additional $addData for the event</li>
       <li>External variable <code>$serendipity['skip_smarty_hooks']</code> is evaluated, if set to “true” no plugins will be executed. This is for specific recursive calls of event hooks and used internally.</li>
       <li>External variable <code>$serendipity['skip_smarty_hook']</code> can contain an array of plugin hooks to not execute.  This is for specific recursive calls of event hooks and used internally.</li>
-      <li><strong>EXAMPLE</strong>: <code>{serendipity_hookPlugin hook="hookname" hookAll="true|false" data=$eventData addData=$addData}</code></li>
+      <li><strong>EXAMPLE</strong>: <pre><code>{serendipity_hookPlugin hook="hookname" hookAll="true|false" data=$eventData addData=$addData}</code></pre></li>
     </ul>
   </li>
   <li><strong>serendipity_showPlugin</strong> (serendipity_smarty_showPlugin): Shows the output of a specific sidebar plugin.
@@ -840,13 +840,13 @@ It is not advised to create your own  style_fallback.css file.</p>
       <li><span class="var">negate:</span> If set, reverts the previous filters, can be used to “Show all plugins EXCEPT …”.</li>
       <li><span class="var">empty:</span> Can be set to a string that is shown, when the plugin output was empty.</li>
       <li><span class="var">template:</span> Can be set to a sidebar template file other than the default “sidebar.tpl”</li>
-      <li><strong>EXAMPLE</strong>: <code>{serendipity_showPlugin class="serendipity_your_nugget" id="serendipity_your_plugin:21323223efsd22aa" side="left|right|hide|*" negate="null|true"}</code></li>
+      <li><strong>EXAMPLE</strong>: <pre><code>{serendipity_showPlugin class="serendipity_your_nugget" id="serendipity_your_plugin:21323223efsd22aa" side="left|right|hide|*" negate="null|true"}</code></pre></li>
     </ul>
   </li>
   <li><strong>serendipity_getFile</strong> (serendipity_smarty_getFile): Get the full path to a template file. The file is searched in the usual template fallback mechanism, so it can also be fetched from the default location.
     <ul>
       <li><span class="var">file:</span> The name of the template file (i.e. “img/preview.png”).</li>
-      <li><strong>EXAMPLE</strong>: <code>{serendipity_getFile file="img/preview.png"}</code></li>
+      <li><strong>EXAMPLE</strong>: <pre><code>{serendipity_getFile file="img/preview.png"}</code></li>
     </ul>
   </li>
   <li><strong>serendipity_printComments</strong> (serendipity_smarty_printComments): Shows the comments to an entry with a specified Smarty template
@@ -859,7 +859,7 @@ It is not advised to create your own  style_fallback.css file.</p>
       <li><span class="var">order:</span> Defines the sorting order of comments (ASC or DESC)</li>
       <li><span class="var">mode:</span> Defines a viewing mode ($CONST.VIEWMODE_THREADED or $CONST.VIEWMODE_LINEAR)</li>
       <li><span class="var">limit:</span> How many comments to fetch (0 means all)</li>
-      <li><strong>EXAMPLE</strong>: <code>{serendipity_printComments entry="123" mode=$CONST.VIEWMODE_LINEAR}</code></li>
+      <li><strong>EXAMPLE</strong>: <pre><code>{serendipity_printComments entry="123" mode=$CONST.VIEWMODE_LINEAR}</code></pre></li>
     </ul>
   </li>
   <li><strong>serendipity_printTrackback</strong> (serendipity_smarty_printTrackbacks): Shows the trackbacks to an entry with a specified Smarty template
@@ -868,7 +868,7 @@ It is not advised to create your own  style_fallback.css file.</p>
       <li><span class="var">block:</span> Indicates the name of a temporary placeholder for the trackbacks output (defaults to <code>{$TRACKBACKS}</code>.</li>
       <li><span class="var">trace:</span> Trackbacks are enumberated, you can specify a prefix here.</li>
       <li><span class="var">entry:</span> Holds the entry ID to which trackbacks shall be printed</li>
-      <li><strong>EXAMPLE</strong>: <code>{serendipity_printTrackbacks entry="123"}</code></li>
+      <li><strong>EXAMPLE</strong>: <pre><code>{serendipity_printTrackbacks entry="123"}</code></pre></li>
     </ul>
   </li>
   <li><strong>serendipity_rss_getguid</strong> (serendipity_smarty_rss_getguid): Returns a canonical permalink to an entry.
