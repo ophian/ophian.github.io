@@ -11183,7 +11183,7 @@ gibt denselben Inhalt aus.</p>
 im Verzeichnis <code>templates_c</code> zwischen und gibt sie später aus. Erst
 nach Ablauf einer Stunde oder beim Veröffentlichen eines neuen Artikels
 wird der Zwischenspeicher erneut erzeugt.
-Das Plugin bietet zwei Konfigurationsoptionen: <span class="mbold">Use seperate
+Das Plugin bietet zwei Konfigurationsoptionen: <span class="mbold">Use separate
 IE/Mozilla caches?</span> und <span class="mbold">Force clients to maintain fresh copy</span>.</p>
 
 <p>Die erste Option bewirkt, dass das Plugin für Internet Explorer

@@ -275,7 +275,7 @@ class serendipity_event_myfirstplugin extends serendipity_plugin {
 
 <p>You can simply expand the array in the property bag for multiple event hooks; each array key can represent an event hook name. Then in the event_hook() method, you need to enhance the central switch() statement to check for additional hooks.</p>
 
-<p>If you want you can of course create seperate methods for each hook you want to call, if you find that easier to read:</p>
+<p>If you want you can of course create separate methods for each hook you want to call, if you find that easier to read:</p>
 
 <pre><code>function event_hook($event, &amp;$bag, &amp;$eventData, $addData = null) {
     global $serendipity;
