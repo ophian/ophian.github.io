@@ -360,7 +360,7 @@ echo $bag-&gt;get('version');</code></pre>
     $propbag-&gt;add('version', '1.0');
     $propbag-&gt;add('website', 'http://garv.in/');
     $propbag-&gt;add('stackable', true);
-    $propbad-&gt;add('requirements', array('php' =&gt; '5.3.0', 'smarty' =&gt; '3.0', 'serendipity' =&gt; '2.0'));
+    $propbad-&gt;add('requirements', array('php' =&gt; '5.4.0', 'smarty' =&gt; '3.1.0', 'serendipity' =&gt; '2.4.0'));
     $propbad-&gt;add('groups', array('MARKUP', 'FRONTEND_FEATURES'));
     $propbad-&gt;add('configuration', array('title', 'subtitle', 'mood'));
     $this-&gt;dependencies = array('serendipity_event_myfirstplugin' =&gt; 'keep');
@@ -391,7 +391,7 @@ echo $bag-&gt;get('version');</code></pre>
 	        $propbag-&gt;add('type',        'boolean');
 	        $propbag-&gt;add('name',        'Should a subtitle (mood) be used?');
 	        $propbag-&gt;add('description', 'If this is disabled, the mood is not shown in the output.');
-	        $propbag-&gt;add('default',     false);
+	        $propbag-&gt;add('default',     'false');
 	        break;
 
        case 'mood':
