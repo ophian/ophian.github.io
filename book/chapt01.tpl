@@ -202,13 +202,12 @@ für <em>Cross-Site Request Forgery</em> und beschreibt eine
 </span>
 stellte Serendipity frühzeitig Schutzmechanismen bereit.</p>
 
-<p>Serendipity-Templates werden unter Verwendung des
-Templating-Frameworks
+<p>Serendipity-Templates werden unter Verwendung des Templating-Frameworks
 <span class="tag-box invisible">
     <span class="inline-tag">Smarty</span>
 </span>
-<em>Smarty</em>, [*]
-<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://www.smarty.net/" target="_blank">http://www.smarty.net/</a></span><!-- footnote -->
+<em>Smarty</em>, [*] <span class="footnote"><i class="fa fa-info-circle"></i>
+<a href="http://www.smarty.net/" target="_blank">http://www.smarty.net/</a></span><!-- footnote -->
 einem De-facto-Standard unter PHP, entwickelt. Zahlreiche Entwickler
 schwören auf dessen einfache Syntax, die es selbst Anfängern
 ermöglicht, die HTML-Ausgabe anzupassen, ohne PHP lernen zu müssen.</p>
@@ -219,14 +218,15 @@ ermöglicht, die HTML-Ausgabe anzupassen, ohne PHP lernen zu müssen.</p>
     <span class="inline-tag">Plugin-Archiv|see{Spartacus}</span>
     <span class="inline-tag">Template-Archiv|see{Spartacus}</span>
 </span>
-<em>Spartacus</em> [*]
-<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://spartacus.s9y.org/" target="_blank">http://spartacus.s9y.org/</a></span><!-- footnote -->
+<em>Spartacus</em> [*] <span class="footnote"><i class="fa fa-info-circle"></i>
+<a href="http://spartacus.s9y.org/" target="_blank">http://spartacus.s9y.org/</a><br>
+<i class="fa fa-info-circle"></i>
+<a href="https://ophian.github.io/plugins/" target="_blank">Spartacus auf Styx</a></span><!-- footnote -->
 bietet derzeit mehr als 160 Plugins und knapp 100 Templates an. Diese können
-Sie direkt aus der Verwaltungsoberfläche Ihrer eigenen
-Blog-Installation heraus installieren oder aktualisieren. Die dort
-aufgeführten Plugins werden großteils offiziell gewartet und
-entsprechen den vom Serendipity-Projekt vorgegebenen Anforderungen an
-Programmierstil und Sicherheit. Plugins mit identischer
+Sie direkt aus der Verwaltungsoberfläche Ihrer eigenen Blog-Installation heraus
+installieren oder aktualisieren. Die dort aufgeführten Plugins werden großteils
+offiziell gewartet und entsprechen den vom Serendipity-Projekt vorgegebenen
+Anforderungen an Programmierstil und Sicherheit. Plugins mit identischer
 Funktionalität, die den Benutzer vor die Qual der Wahl stellen, findet
 man hier nicht, und auch auf Kompatibilität zu allen verfügbaren
 Serendipity-Versionen wird geachtet.</p>
