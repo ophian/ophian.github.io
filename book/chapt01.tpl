@@ -221,7 +221,7 @@ ermöglicht, die HTML-Ausgabe anzupassen, ohne PHP lernen zu müssen.</p>
 <em>Spartacus</em> [*] <span class="footnote"><i class="fa fa-info-circle"></i>
 <a href="http://spartacus.s9y.org/" target="_blank">http://spartacus.s9y.org/</a><br>
 <i class="fa fa-info-circle"></i>
-<a href="https://ophian.github.io/plugins/" target="_blank">Spartacus auf Styx</a></span><!-- footnote -->
+<a href="https://ophian.github.io/plugins/">Spartacus auf Styx</a></span><!-- footnote -->
 bietet derzeit mehr als 160 Plugins und knapp 100 Templates an. Diese können
 Sie direkt aus der Verwaltungsoberfläche Ihrer eigenen Blog-Installation heraus
 installieren oder aktualisieren. Die dort aufgeführten Plugins werden großteils
