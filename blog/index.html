@@ -1,3 +1,6 @@
+---
+layout: null
+---
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -94,144 +97,39 @@
             </div>
         </div>
         <div class="blog-post__content">
-
-            <div class="post">
+            <div class="posts">
+              {% for post in paginator.posts %}
+              <div class="post">
                 <h1 class="post-title">
-                  <a href="/2017/11/17/Styx-2.4.0-released/">
-                    Styx 2.4.0 was released
-                  </a>
-                </h1>
-                <span class="post-date">17 Nov 2017</span>
-                <p>The Styx November 2.4.0 RELEASE brings exiting news for MySQLi users, “finally” fixes the MediaLibrary and adds some new widgets. And certainly much more. Check the <a href="https://github.com/ophian/styx/blob/2.4.0/docs/NEWS">ChangeLog</a> for details! Styx is <strong>PHP 7.1.x</strong> ready!</p>
-                <h2 id="styx-240-runs-some-highlights">Styx 2.4.0 runs (…some highlights)</h2>
-                <ul>
-                  <li>Set minimum required PHP version to 5.4+.</li>
-                  <li>Adding the migration task for full UTF8MB4 unicode support on MySQL server databases &gt;= v.5.5.3</li>
-                  <li>Installing new MySQL systems already UTF8MB4 ready, if supported</li>
-                  <li>Adding a new spamblocklog CLEANUP widget for SPAM-blown-up log database tables</li>
-                  <li>Adding and moving certain core plugins to the “additional_plugins” Spartacus repository. One of it is the new responsiveimages event plugin, which creates an easy way for authors to upload differently sized images and to scale images to the visitors viewport width.</li>
-                  <li>Fixing some more old and odd bugs in the MediaLibrary and its tasks (see changelog for details)</li>
-                  <li>Preparations for translated theme info strings in the theme info layer, already done for [de]</li>
-                  <li>Lots of optimising for the lang constants and others made translatable</li>
-                  <li>Important upgrade task fix for plugins out of sync. This is important to not have untouched and famished plugins lying around.</li>
-                  <li>Other optimized (backend) handlers and bugfixes</li>
-                  <li>Latest Smarty lib</li>
-                  <li>SQLite optimizations</li>
-                  <li>And more…</li>
-                </ul>
-                <p>See <a href="https://github.com/ophian/styx/releases/tag/2.4.0">download</a></p>
-            </div>
-              
-            <div class="post">
-                <h1 class="post-title">
-                  <a href="/2017/10/09/Styx-2.4-beta1-released/">
-                    Styx 2.4-beta1 was released
+                  <a href="{{ site.baseurl }}{{ post.url }}">
+                    {{ post.title }}
                   </a>
                 </h1>
 
-                <span class="post-date">09 Oct 2017</span>
+                <span class="post-date">{{ post.date | date_to_string }}</span>
 
-                <p>The Styx October 2.4-beta1 release brings exiting news for MySQLi users, “finally” fixes the MediaLibrary and adds some new widgets. And much more. Check the <a href="https://github.com/ophian/styx/blob/2.4-beta1/docs/NEWS">ChangeLog</a> for details! And remember, Styx is <strong>PHP 7.1.x</strong> ready!</p>
-
-                <h2 id="styx-24-beta1-runs-some-highlights">Styx 2.4-beta1 runs (…some highlights)</h2>
-
-                <ul>
-                  <li>Set minimum required PHP version to 5.4+</li>
-                  <li>Adding the migration task for full UTF8MB4 unicode support on MySQL server databases &gt;= v.5.5.3</li>
-                  <li>Installing new mysql systems already UTF8MB4 ready, if supported</li>
-                  <li>Adding a new spamblocklog CLEANUP widget for SPAM-blown-up log database tables</li>
-                  <li>Adding responsiveimages event plugin, which creates an easy way for authors to upload differently sized images and to scale images to the visitors viewport width</li>
-                  <li>Fixing some more old and odd bugs in the MediaLibrary and its tasks (see changelog for details)</li>
-                  <li>Preparations for translated theme info strings in the theme info layer, already done for [de]</li>
-                  <li>Lots of optimising for the lang constants</li>
-                  <li>Other optimized (backend) handlers and bugfixes</li>
-                  <li>And some more…</li>
-                </ul>
-
-                <p>See <a href="https://github.com/ophian/styx/releases/tag/2.4-beta1">download</a></p>
-
+                {{ post.content }}
+              </div>
+              {% endfor %}
             </div>
-              
-            <div class="post">
-                <h1 class="post-title">
-                  <a href="/2017/09/07/Styx-2.3.0-released/">
-                    Styx 2.3.0 was released
-                  </a>
-                </h1>
 
-                <span class="post-date">07 Sep 2017</span>
-
-                <p>The Styx September 2.3.0 release brings another bunch of fixes for the MediaLibrary and adds the new gallery widget. And much more. Check the <a href="https://github.com/ophian/styx/blob/2.3.0/docs/NEWS">ChangeLog</a> for details!<br /> Styx is <strong>PHP 7.1.x</strong> ready!</p>
-
-                <h2 id="styx-230-runs-some-highlights">Styx 2.3.0 runs (…some highlights)</h2>
-
-                <ul>
-                  <li>Adding the new Gallery Widget for simple and easy gallery entries</li>
-                  <li>Fixing old bugs in the MediaLibrary and refactored image processing</li>
-                  <li>Lots of optimising for the comments, ping- and trackbacks</li>
-                  <li>Latest Smarty</li>
-                  <li>Strengthens Maintenance Mode handling</li>
-                  <li>Enhance and optimise $serendipity[‘logger’] log/* files usage</li>
-                  <li>Theme changes and security</li>
-                  <li>Preparations for the future</li>
-                  <li>And certainly a lot more…</li>
-                </ul>
-
-                <p>See <a href="https://github.com/ophian/styx/releases/tag/2.3.0">download</a></p>
-
-            </div>
-              
-            <div class="post">
-                <h1 class="post-title">
-                  <a href="/2017/06/24/Styx-2.2.0-released/">
-                    Styx 2.2.0 was released
-                  </a>
-                </h1>
-
-                <span class="post-date">24 Jun 2017</span>
-
-                <p>Styx 2.2.0 June release did not only finalise the 2.1.0 Snapshot, it also brought in some exiting new additions. Check the <a href="https://github.com/ophian/styx/blob/styx2.2/docs/NEWS">ChangeLog</a>!</p>
-
-                <h2 id="styx-220-runs-some-highlights">Styx 2.2.0 runs (…some highlights)</h2>
-
-                <ul>
-                  <li>Works on Readiness for PHP 7.1</li>
-                  <li>Optimise backend comments list for a better distinction of Comments/Trackbacks/Pingbacks</li>
-                  <li>Secure and Optimise the Modemaintain Plugin</li>
-                  <li>Improve the Dashboard</li>
-                  <li>Add and use random_bytes() to generate cryptographically secure pseudo-random bytes</li>
-                  <li>Enhances Themes</li>
-                  <li>Added secure installer with a token</li>
-                  <li>Lots of backend optimizations</li>
-                  <li>Replace the old and deprecated mcrypt library with oppenssl for login attempts</li>
-                  <li>And lots more..!</li>
-                </ul>
-
-                <p>See <a href="https://github.com/ophian/styx/releases/tag/2.2.0">download</a></p>
-
-            </div>
-              
-            <div class="post">
-                <h1 class="post-title">
-                  <a href="/2017/01/26/Styx-2.1.0-released/">
-                    Styx 2.1.0 was released
-                  </a>
-                </h1>
-
-                <span class="post-date">26 Jan 2017</span>
-
-                <p>#January 2017, 26th - Styx 2.1.0 was released.</p>
-
-                <p>A very intense cared release shot and more of a 2.2 version, which will follow soon, to demonstrate what Styx is in real life.
-                See <a href="https://github.com/ophian/styx/releases/tag/2.1.0">download</a></p>
-
-            </div>
-              
         </div>
 
         <div class="blog-post__content pagination">
-            <span class="pagination-item older">Older</span>
-            <span class="pagination-item newer">Newer</span>
+              {% if paginator.next_page %}
+                <a class="pagination-item older" href="{{ site.baseurl }}/page{{paginator.next_page}}">Older</a>
+              {% else %}
+                <span class="pagination-item older">Older</span>
+              {% endif %}
+              {% if paginator.previous_page %}
+                {% if paginator.page == 2 %}
+                  <a class="pagination-item newer" href="{{ site.baseurl }}/">Newer</a>
+                {% else %}
+                  <a class="pagination-item newer" href="{{ site.baseurl }}/page{{paginator.previous_page}}">Newer</a>
+                {% endif %}
+              {% else %}
+                <span class="pagination-item newer">Newer</span>
+              {% endif %}
         </div>
 
         <div class="blog-post__footer">
