@@ -7,7 +7,7 @@ This January I started my new years 2018 Styx revision of the Serendipity Book, 
 
 For this I created this shiny **new**
 
-<div markdown>
+<div markdown="1">
 
   * **Serendipity Styx Edition** [Home](https://ophian.github.io/) website, to document what needed to be documented for Serendipity and Serendipity Styx.
   * There is no need to hop-over to S9y origin any more. Everything is in place and hopefully well organized.
