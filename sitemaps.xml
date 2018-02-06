@@ -24,7 +24,6 @@ permalink: /sitemaps.xml
   {% endfor %}
   {% for page in site.pages %}
     {% if page.id contains "404" %}{% else %}
-    {% if page.sitemap != null and page.sitemap != empty %}
       <url>
         <loc>{{ site.url }}{{ page.url }}</loc>
         {% assign versions=site.pages | where:"ref", page.ref %}
@@ -35,7 +34,6 @@ permalink: /sitemaps.xml
         <changefreq>{{ page.sitemap.changefreq }}</changefreq>
         <priority>{{ page.sitemap.priority }}</priority>
       </url>
-    {% endif %}
     {% endif %}
   {% endfor %}
 </urlset>
