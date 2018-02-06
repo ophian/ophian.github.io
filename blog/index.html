@@ -98,6 +98,7 @@ paginate_path: "/blog/page:num/"
             </div>
         </div>
         <div class="blog-post__content">
+            {% assign paginator.posts = site.posts %}
             <div class="posts">
               {% for post in paginator.posts %}
               <div class="post">
