@@ -121,14 +121,12 @@ layout: null
           {% else %}
             <span class="pagination-item older">Previous</span>
           {% endif %}
-            <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
           {% if paginator.next_page %}
-            {% if paginator.page == 2 %}
             <span class="pagination-item newer"><a href="{{ paginator.next_page_path }}" class="next">Newer</a></span>
-            {% else %}
+          {% else %}
             <span class="pagination-item newer">Next</span>
-            {% endif %}
           {% endif %}
+            <span class="page_number">— <strong>{{ paginator.page }}</strong> page of <strong>{{ paginator.total_pages }}</strong> —</span>
         </div>
 
         <div class="blog-post__footer">
