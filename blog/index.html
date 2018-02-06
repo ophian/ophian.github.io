@@ -1,6 +1,5 @@
 ---
 layout: null
-paginate_path: "/blog/page:num/"
 ---
 <!DOCTYPE html>
 <html lang="en">
@@ -98,7 +97,6 @@ paginate_path: "/blog/page:num/"
             </div>
         </div>
         <div class="blog-post__content">
-            {% assign paginator.posts = site.related_posts %}
             <div class="posts">
               {% for post in paginator.posts %}
               <div class="post">
@@ -118,20 +116,18 @@ paginate_path: "/blog/page:num/"
         </div>
 
         <div class="blog-post__content pagination">
-              {% if paginator.next_page %}
-                <a class="pagination-item older" href="{{ site.baseurl }}/page{{paginator.next_page}}">Older</a>
-              {% else %}
-                <span class="pagination-item older">Older</span>
-              {% endif %}
-              {% if paginator.previous_page %}
-                {% if paginator.page == 2 %}
-                  <a class="pagination-item newer" href="{{ site.baseurl }}/">Newer</a>
-                {% else %}
-                  <a class="pagination-item newer" href="{{ site.baseurl }}/page{{paginator.previous_page}}">Newer</a>
-                {% endif %}
-              {% else %}
-                <span class="pagination-item newer">Newer</span>
-              {% endif %}
+          {% if paginator.previous_page %}
+            <span class="pagination-item older"><a class="pagination-item older" href="{{ paginator.previous_page_path }}">Older</a></span>
+          {% else %}
+            <span class="pagination-item older">Previous</span>
+          {% endif %}
+            <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+          {% if paginator.next_page %}
+            {% if paginator.page == 2 %}
+            <span class="pagination-item newer"><a href="{{ paginator.next_page_path }}" class="next">Newer</a></span>
+            {% else %}
+            <span class="pagination-item newer">Next</span>
+            {% endif %}
         </div>
 
         <div class="blog-post__footer">
