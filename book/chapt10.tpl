@@ -3592,7 +3592,7 @@ unsere Entwickler werden dies dann selbständig als Bug-Issues im System eintrag
 <p>Ein <span class="mbold">Security Issue</span> ist in unserem Code?
 Das ist schlimm, aber passiert nur alle Jahre einmal.
 Wir bitten Sie darum, Ihre <span class="mbold">security reports</span> via
-E-mail an unseren Maintainer <a href="blog@garv.in">Garvin Hicking</a> zu schicken,
+E-mail an den Maintainer Garvin Hicking (blog AT garv PUNKT in) zu schicken,
 damit dieser das Issue zuweisen und die Koordination eines verantwortlichen
 <em>Disclosures</em> zusammen mit Ihnen abstimmen kann. Das Team gibt immer den
 Dank an die Person zurück, die uns solch einen Bug oder ein solches Sicherheitsloch
