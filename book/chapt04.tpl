@@ -5842,24 +5842,35 @@ für die Mediendatenbank und die Vorschaubild-Erzeugung fest.</p>
 <span class="item mbold">ImageMagick zur Skalierung verwenden</span><!-- menuitem -->
 <span class="desc-info">
     <span class="box">
-        Wenn Sie auf Ihrem Webserver die Software ImageMagick [*]
-        <span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://www.imagemagick.org" target="_blank">http://www.imagemagick.org</a></span><!-- footnote --> installiert
-        haben, können Sie diese Software zur Erstellung und Konvertierung von
+        Wenn auf Ihrem Webserver die Software ImageMagick [*]
+        <span class="footnote"><i class="fa fa-info-circle"></i>
+        <a href="http://www.imagemagick.org" target="_blank">http://www.imagemagick.org</a></span><!-- footnote -->
+        installiert ist, können Sie diese Software zur Erstellung und Konvertierung von
         Vorschaubildern benutzen.
     </span>
 
     <span class="box">
-        Ist ImageMagick nicht aktiviert, kann Serendipity auch die
-        PHP-Bibliothek <code>gdlib</code> einsetzen.
+        Ist ImageMagick nicht aktiviert, kann Serendipity auch die PHP-Bibliothek
+        <code>gdlib</code> (für JPG, PNG, GIF, WBMP, WebP, XBM und XPM Dateien) einsetzen.
         Jede dieser Bildverarbeitungsbibliotheken hat ihre Vor- und Nachteile.
+        Sowohl GD als auch ImageMagick bieten einige grundlegende Funktionen wie:
+        - Größenanpassung und Zuschneiden von Bildern, - Erstellen von Bildern,
+        die aus benutzerdefinierten Formen, Text und anderen Bilddateien bestehen,
+        - Anwendung von Bildfiltern (Änderung von Helligkeit, Kontrast, Einfärbung usw.).
+    </span>
+
+    <span class="box">
         Die GD-Bibliothek ist durch die direkte Einbingung in PHP weit verbreitet,
         so dass sie wahrscheinlich überall -out-of-the-box- funktionieren wird.
-        ImageMagick bietet allerdings den Vorteil, dass auch Vorschaubilder von
-        PDF-Dateien erzeugt werden können. Bis auf diesen Vorteil sind GD-Lib
-        und ImageMagick in den Grundfunktionen ungefähr gleichwertig;
-        anderseits aber unterstützt ImageMagick mehr Dateitypen und kann Bilder
-        auf viel mehr Arten transformieren als die GD-Bibliothek.
-        Es erlaubt Ihnen, Code von größerer Klarheit und Qualität zu schreiben.
+    </span>
+
+    <span class="box">
+        ImageMagick bietet den Vorteil, dass zB. auch Vorschaubilder von PDF-Dateien
+        erzeugt werden können, oder TIFF Bilddateien bearbeitet werden können.
+        Bis auf diesen Vorteil sind GD-Lib und ImageMagick in den Grundfunktionen
+        ungefähr gleichwertig; anderseits aber unterstützt ImageMagick mehr
+        Dateitypen und kann Bilder auf viel mehr Arten transformieren als die GD-Bibliothek.
+        Es erlaubt Ihnen, Code von größerer Klarheit und Qualität zu schreiben. Und
         ImageMagick kann exaktere Zuschnitte von Bildern forcieren, was eventuelle
         bei der Serendipity Mediendatenbank von Bedeutung sein kann.
     </span>
