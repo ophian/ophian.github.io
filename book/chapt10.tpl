@@ -7216,15 +7216,16 @@ auch selbstgeschriebene Plugins zugreifen können:</p>
         Datentypen (wie zB. <code>string</code>, <code>radio</code> ...) entspricht. Das Plugin
         kann so eigenständige Konfigurationstypen intern verwalten.
         <span class="subdesc">
-            <code>eventData</code>
-            enthält ein Array mit den Schlüsseln
-            <span class="sub-box">
-                <code>config_item</code> (Name der Konfigurationsoption),
-                <code>cbag</code> (<em>Property-Bag</em>-Objekt der <code>introspect_config_item()</code>-Methode des Plugins),
-                <code>plugin</code> (enthält das Plugin-Objekt, dem die Konfigurationsoption entspringt),
-                <code>value</code> (enthält den aktuellen Wert der Konfigurationsoption),
-                <code>bag</code> (<em>Property-Bag</em>-Objekt des Plugins) und
-                <code>postKey</code> (Zeichenkette für die Benennung der URL-Formularvariablen).
+            <span class="box">
+                <code>eventData</code> enthält ein Array mit den Schlüsseln
+                <span class="sub-box">
+                    <code>config_item</code> (Name der Konfigurationsoption),<br>
+                    <code>cbag</code> (<em>Property-Bag</em>-Objekt der <code>introspect_config_item()</code>-Methode des Plugins),<br>
+                    <code>plugin</code> (enthält das Plugin-Objekt, dem die Konfigurationsoption entspringt),<br>
+                    <code>value</code> (enthält den aktuellen Wert der Konfigurationsoption),<br>
+                    <code>bag</code> (<em>Property-Bag</em>-Objekt des Plugins) und<br>
+                    <code>postKey</code> (Zeichenkette für die Benennung der URL-Formularvariablen).
+                </span>
             </span>
         </span>
     </span>
