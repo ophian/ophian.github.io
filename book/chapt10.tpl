@@ -2922,12 +2922,13 @@ unterschiedliche <code>artifact_mode</code>-Werte hinterlegt werden.</p>
     <code class="item sql-field">artifact_id</code> (Fremdschlüssel, int(10)) enthält die ID des Fremdobjekts, für das ein Recht vergeben wird.
     <code class="item sql-field">artifact_type</code> (varchar(64)) legt fest, für welchen Objekttyp ein Recht vergeben wird. Mögliche Werte sind:
         <span class="subdesc">
-            <code>category</code> (für Kategorien),
+            <code>category</code> (für Kategorien),<br>
             <code>directory</code> (für Verzeichnisse der Mediendatenbank).
         </span>
     <code class="item sql-field">artifact_mode</code> (varchar(64)) legt fest, welche Eigenschaft ein Recht hat. Mögliche Werte sind:
         <span class="subdesc">
-            <code>read</code> (Leserecht), <code>write</code> (Schreibrecht).
+            <code>read</code> (Leserecht),<br>
+            <code>write</code> (Schreibrecht).
         </span>
     <code class="item sql-field">artifact_index</code> (varchar(64)) legt ein zusätzliches Attribut für ein Recht fest, 
         <span class="subdesc">
@@ -3004,8 +3005,8 @@ festgelegt wurden, zu unterscheiden.
     <code class="item sql-field">property</code> (int(11)) enthält den Bezeichner einer Medieneigenschaft.
     <code class="item sql-field">property_group</code> (int(11)) enthält die Zuordnung in eine Metadaten-Gruppe. Mögliche Werte:
         <span class="subdesc">
-            <code>base_keyword</code> (freie Schlüsselwörter),
-            <code>base_property</code> (freie Metafelder),
+            <code>base_keyword</code> (freie Schlüsselwörter),<br>
+            <code>base_property</code> (freie Metafelder),<br>
             <code>base_metadata</code> (Metadaten der Datei).
         </span>
     <code class="item sql-field">property_subgroup</code> (int(11)) kann eine Untergruppierung der Metadaten enthalten,
@@ -3332,12 +3333,12 @@ Enthält eine Liste der installierten und aktivierten Plugins im Blog.
     <code class="item sql-field">name</code> (Primärschlüssel, varchar(128)) enthält den Namen des Plugins inklusive der zufällig zugeteilten ID.
     <code class="item sql-field">placement</code> (varchar(6)) legt fest, wo das Plugin platziert ist. Mögliche Werte:
         <span class="subdesc">
-            <code>event</code> (Ereignis-Plugin),
-            <code>eventh</code> (deaktiviertes Ereignis-Plugin),
-            <code>left</code> (Plugin in linker Seitenleiste),
-            <code>right</code> (Plugin in rechter Seitenleiste),
-            <code>hidden</code> (verstecktes Seitenleisten-Plugin)
-            sowie die Namen aller selbständig festgelegten Seitenleisten.
+            <code>event</code> (Ereignis-Plugin),<br>
+            <code>eventh</code> (deaktiviertes Ereignis-Plugin),<br>
+            <code>left</code> (Plugin in linker Seitenleiste),<br>
+            <code>right</code> (Plugin in rechter Seitenleiste),<br>
+            <code>hidden</code> (verstecktes Seitenleisten-Plugin)<br>
+            <code>[xxx]</code> sowie die Namen aller selbständig festgelegten Seitenleisten.
         </span>
     <code class="item sql-field">sort_order</code> (int(4)) gibt einen numerischen Wert zur Sortierungsreihenfolge der Plugins untereinander an.
     <code class="item sql-field">authorid</code> (int(11)) enthält die ID des Redakteurs, der das Plugin installiert hat.
@@ -8508,21 +8509,23 @@ den Benutzer über Einschränkungen oder Besonderheiten des Importers.</span>
         Konfigurationsfelder und greift dabei auf folgende Array-Schlüssel zurück:
     </span>
     <span class="box group-box">
-        <code class="item">text</code> enthält die Beschreibung der Konfigurationsoption.
+        <code class="item">text</code> enthält die Beschreibung der Konfigurationsoption.<br>
         <code class="item">type</code> bestimmt, wie die Konfigurationsoption dargestellt wird. 
         <span class="subdesc">
-            Mögliche Werte:
-            <span class="sub-box">
-                <code>input</code> (Eingabefeld),
-                <code>list</code> (Ausklappfeld),
-                <code>bool</code> (Ja/Nein).
+            <span class="box">
+                Mögliche Werte:<br>
+                <span class="sub-box">
+                    <code>input</code> (Eingabefeld),<br>
+                    <code>list</code> (Ausklappfeld),<br>
+                    <code>bool</code> (Ja/Nein).<br>
+                </span>
+                Die Typen stimmen mit denen überein, die auch für die Konfigurationsoptionen
+                des Blogs in der <code>include/tpl/config_local.inc.php</code> verfügbar sind
+                (siehe Seite <span class="pageref"><a href="#configlocal">configlocal</a></span>).
             </span>
-            Die Typen stimmen mit denen überein, die auch für die Konfigurationsoptionen
-            des Blogs in der <code>include/tpl/config_local.inc.php</code> verfügbar sind
-            (siehe Seite <span class="pageref"><a href="#configlocal">configlocal</a></span>).
         </span>
         <code class="item">name</code> bestimmt den Feldnamen der Konfigurationsoption,
-        um später innerhalb des <code>$this-&gt;data</code>-Arrays darauf zugreifen zu können.
+        um später innerhalb des <code>$this-&gt;data</code>-Arrays darauf zugreifen zu können.<br>
         <code class="item">default</code> enthält den Standardwert der Option.
     </span>
 </span>
