@@ -5289,8 +5289,6 @@ nicht direkt freigeschaltet wird.
 			</span>
         </span>
 
-        <span class="box">&nbsp;</span>
-
     </span>
 
     <span class="box">
@@ -7530,8 +7528,6 @@ wird auf Seite <span class="pageref"><a href="#mediatemplates">mediatemplates</a
             </span><!-- inner sub-box mda-box $media.file array end -->
 
         </span>
-
-        <span class="box">&nbsp;</span>
 
         <span class="tag-box invisible">
             <span class="inline-tag">Template-Variablen!\$media.perm_denied</span>

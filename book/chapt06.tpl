@@ -1951,8 +1951,6 @@ Generellen-Einstellungen widmen zu können.</p>
         </code></span>
     </span>
 
-    <span class="box">&nbsp;</span>
-
     <span class="box">
         Dieser Ausdruck würde einen Kommentar dann sperren, wenn jemand eine
         E-Mail-Adresse angibt, die zu einer japanischen Domain führt. Ein Kommentar wie
@@ -2090,8 +2088,6 @@ Generellen-Einstellungen widmen zu können.</p>
     <span class="box"><span class="recommended">Empfohlene Einstellung</span>: <em>abweisen</em></span>
 </span>
 </p>
-
-<p>&nbsp;</p><!-- separator -->
 
 <p>Unterhalb der Konfigurationsoptionen bindet das Plugin noch eine kleine
 Vorschaugrafik der Captchas ein. Dort können Sie sehen, wie ein Captcha
