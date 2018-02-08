@@ -5851,9 +5851,17 @@ für die Mediendatenbank und die Vorschaubild-Erzeugung fest.</p>
     <span class="box">
         Ist ImageMagick nicht aktiviert, kann Serendipity auch die
         PHP-Bibliothek <code>gdlib</code> einsetzen.
-        ImageMagick bietet den Vorteil, dass auch Vorschaubilder von
-        PDF-Dateien erzeugt werden können. Bis auf diesen Vorteil sind gdlib
-        und ImageMagick gleichwertig.
+        Jede dieser Bildverarbeitungsbibliotheken hat ihre Vor- und Nachteile.
+        Die GD-Bibliothek ist durch die direkte Einbingung in PHP weit verbreitet,
+        so dass sie wahrscheinlich überall -out-of-the-box- funktionieren wird.
+        ImageMagick bietet allerdings den Vorteil, dass auch Vorschaubilder von
+        PDF-Dateien erzeugt werden können. Bis auf diesen Vorteil sind GD-Lib
+        und ImageMagick in den Grundfunktionen ungefähr gleichwertig;
+        anderseits aber unterstützt ImageMagick mehr Dateitypen und kann Bilder
+        auf viel mehr Arten transformieren als die GD-Bibliothek.
+        Es erlaubt Ihnen, Code von größerer Klarheit und Qualität zu schreiben.
+        ImageMagick kann exaktere Zuschnitte von Bildern forcieren, was eventuelle
+        bei der Serendipity Mediendatenbank von Bedeutung sein kann.
     </span>
 </span>
 </p>
