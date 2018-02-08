@@ -4,8 +4,7 @@ layout: null
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    {% capture blognumpage %}{% if site.permalink contains 'blog/page' %}{% if site.permalink contains '.html' %}{{ page.url }}{% else %}{{ page.url | remove:'index.html' | strip_slash }}{% endif %}{% endif %}{% endcapture %}
-    <title>Serendipity Styx Edition - Blog{% if blognumpage %} &#8211; {{ blognumpage }}{% endif %} | ophian.github.io</title>
+    <title>Serendipity Styx Edition - Blog{% if paginator.page > 1 %} &#8211; page {{ paginator.page }}{% endif %} | ophian.github.io</title>
     <meta charset="UTF-8">
     <meta name="description" content="Serendipity Styx is a PHP-powered weblog engine giving users an easy way to maintain a blog and developers a framework with the power for professional applications.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
