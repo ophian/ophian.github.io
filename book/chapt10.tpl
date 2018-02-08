@@ -5148,16 +5148,16 @@ eingesetzt werden:</p>
     </span>
 
     <span class="box mda-box">
-        <code class="sub-item">name</code> enthält den Namen des Plugins.
-        <code class="sub-item">description</code> enthält die Beschreibung eines Plugins.
-        <code class="sub-item">configuration</code> enthält ein eindimensionales Array mit einer Liste von Konfigurationsoptionen, die das Plugin anbietet.
-        <code class="sub-item">stackable</code> legt fest, ob ein Plugin mehrfach installiert werden darf (<code>true/false</code>).
-        <code class="sub-item">author</code> enthält den Namen des Autors eines Plugins.
-        <code class="sub-item">version</code> enthält die Versionsnummer des Plugins.
-        <code class="sub-item">copyright</code> enthält den Lizenztypen des Plugins (BSD, GPL ...).
-        <code class="sub-item">groups</code> enthält ein eindimensionales Array mit einer Liste von Plugin-Gruppen, denen dieses Plugin zugewiesen wird. Diese Gruppen werden in der Plugin-Oberfläche ausgewertet, um Plugins sinnvoll zu gliedern.
-        <code class="sub-item">requirements</code> kann ein verschachteltes PHP-Array enthalten (Unterschlüssel <code>serendipity</code>, <code>smarty</code> und <code>php</code>), das die jeweiligen Versionsabhängigkeiten des Plugins festlegen kann.
-        <code class="sub-item">event_hooks</code> enthält ein eindimensionales Array mit einer Zuordnung der Ereignisse, für die sich ein Ereignis-Plugin registriert hat. Diese Eigenschaft gilt nicht für Seitenleisten-Plugins.
+        <code class="sub-item">name</code> enthält den Namen des Plugins.<br>
+        <code class="sub-item">description</code> enthält die Beschreibung eines Plugins.<br>
+        <code class="sub-item">configuration</code> enthält ein eindimensionales Array mit einer Liste von Konfigurationsoptionen, die das Plugin anbietet.<br>
+        <code class="sub-item">stackable</code> legt fest, ob ein Plugin mehrfach installiert werden darf (<code>true/false</code>).<br>
+        <code class="sub-item">author</code> enthält den Namen des Autors eines Plugins.<br>
+        <code class="sub-item">version</code> enthält die Versionsnummer des Plugins.<br>
+        <code class="sub-item">copyright</code> enthält den Lizenztypen des Plugins (BSD, GPL ...).<br>
+        <code class="sub-item">groups</code> enthält ein eindimensionales Array mit einer Liste von Plugin-Gruppen, denen dieses Plugin zugewiesen wird. Diese Gruppen werden in der Plugin-Oberfläche ausgewertet, um Plugins sinnvoll zu gliedern.<br>
+        <code class="sub-item">requirements</code> kann ein verschachteltes PHP-Array enthalten (Unterschlüssel <code>serendipity</code>, <code>smarty</code> und <code>php</code>), das die jeweiligen Versionsabhängigkeiten des Plugins festlegen kann.<br>
+        <code class="sub-item">event_hooks</code> enthält ein eindimensionales Array mit einer Zuordnung der Ereignisse, für die sich ein Ereignis-Plugin registriert hat. Diese Eigenschaft gilt nicht für Seitenleisten-Plugins.<br>
         <code class="sub-item">cachable_events</code> enthält ein Array analog zu <code>event_hooks</code>, jedoch in diesem Fall mit einer Liste von Ereignissen, die durch das vorliegende Plugin gecached werden können (siehe Seite <span class="pageref"><a href="#cachable-events">cachable-events</a></span>).
     </span>
 </span>
@@ -5227,20 +5227,23 @@ eingesetzt werden:</p>
     <span class="box mda-box"> 
         <code class="sub-item">type</code> legt den Typ einer Konfigurationsoption fest (<code>string</code>,
             <code>boolean</code>, <code>text</code> ...). Die verfügbaren Typen entsprechen denen bei der Festlegung von Template-Optionsfeldern
-            und sind auf Seite <span class="pageref"><a href="#apiconfigfield2">apiconfigfield2</a></span> aufgeführt.
-        <code class="sub-item">name</code> legt den dargestellten Namen des Konfigurationsfelds fest.
-        <code class="sub-item">description</code> legt die Beschreibung des Konfigurationsfelds fest.
-        <code class="sub-item">default</code> legt den Standardwert eines Konfigurationsfelds fest.
+            und sind auf Seite <span class="pageref"><a href="#apiconfigfield2">apiconfigfield2</a></span> aufgeführt.<br>
+        <code class="sub-item">name</code> legt den dargestellten Namen des Konfigurationsfelds fest.<br>
+        <code class="sub-item">description</code> legt die Beschreibung des Konfigurationsfelds fest.<br>
+        <code class="sub-item">default</code> legt den Standardwert eines Konfigurationsfelds fest.<br>
         <code class="sub-item">validate</code> legt fest, wie ein Konfigurationsfeld geprüft werden kann.
-        <span class="sub-box">Mögliche Werte sind:
-            <span class="subdesc">
-                <code>string</code> (nur Buchstaben und Ziffern),
-                <code>words</code> (nur Zeichenketten ohne Sonderzeichen),
-                <code>number</code> (nur Zahlen), <code>url</code> (nur URLs),
-                <code>mail</code> (nur E-Mail-Adressen) oder
-                <code>path</code> (nur gültige Verzeichnisnamen).
+        <span class="sub-box">
+            <span class="box">
+                Mögliche Werte sind:
+                <span class="subdesc">
+                    <code>string</code> (nur Buchstaben und Ziffern),
+                    <code>words</code> (nur Zeichenketten ohne Sonderzeichen),
+                    <code>number</code> (nur Zahlen), <code>url</code> (nur URLs),
+                    <code>mail</code> (nur E-Mail-Adressen) oder
+                    <code>path</code> (nur gültige Verzeichnisnamen).
+                </span>
                 Wenn keiner dieser festgelegten Typen verwendet wird,
-                können Sie einen beliebigen regulären Ausdruck eintragen, zB. <code>/[A-Z]/</code>.
+                können Sie einen beliebigen regulären Ausdruck eintragen, zB. <code class="nobreak">/[A-Z]/</code>.
                 Die <em>Property Bag</em>-Eigenschaft <code class="item property">validate_error</code> enthält eine ev. Fehlermeldung,
                 die bei ungültigen Eingaben angezeigt werden kann.
             </span>
