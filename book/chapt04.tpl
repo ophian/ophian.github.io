@@ -6545,7 +6545,7 @@ auf <code>false</code> setzen.
         herbeiführen:
     </span>
 
-    <span class="subdesc">
+    <span class="box">
         <span id="pre-style"><code id="httpauth" class="conf">AuthType&nbsp;Basic<br>
         AuthName&nbsp;"Authorisation:&nbsp;User&nbsp;erforderlich"<br>
         AuthUserFile&nbsp;/etc/passwd<br>
