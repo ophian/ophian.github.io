@@ -132,7 +132,7 @@
 <p><strong>Preamble:</strong> (<em>If not using Styx already, and having done that before...</em>)</p>
 
 <ul>
-    <li><em>If you are still with Serendipity <strong>1.6</strong> or <strong>1.7</strong> Series, please follow the update guide points “a” to “c”.</em></li>
+    <li><em>If you are still with Serendipity <strong>1.6</strong> or <strong>1.7</strong> Series, please follow this guides points “a” to “c”.</em></li>
     <li><em>Then manually append this line to your backend startpage URL:
     <pre><code>?serendipity[adminModule]=event_display&amp;serendipity[adminAction]=update&amp;serendipity[newVersion]=2.4.0</code></pre>
     (as a 1-liner) and hit ENTER - This will start the autoupdate upgrade routine. You are now at the 2cd half of upgrade guide point “f”. The new version string, ie. ‘2.4.0’, has to match the zip files version string, ie. ‘serendipity-2.4.0.zip’, which also has to match the searched docs/RELEASE file version string!</em></li>
@@ -146,7 +146,7 @@
     <li> Manually update the Serendipity Spartacus plugin file with the temporary styx-spartacus-up file (4) to solve some bugs and set the custom plugin load location option to this URL (5).</li>
     <li> Update the Autoupdater by Spartacus from the new location, currently this is version 1.5.3 or up.</li>
     <li> Click somewhere else and then return to the plugin list page. Select events and search for the installed/updated autoupdater plugin. It now is configurable! The two new options are pre-filled with the origin Serendipity GitHub path. Change both to the new URLs (6) and (7). Version 1.4.0 has this already preset. This is important!</li>
-    <li> Next, go to your BACKEND global “Configuration” <span class="icon arrow-right">→</span> “General Settings” and enable the “autoupdate” option to search for “beta” releases. This as well gives you RC and full release versions.</li>
+    <li> Next, go to your BACKEND global “Configuration” <span class="icon">→</span> “General Settings” and enable the “autoupdate” option to search for “beta” releases. This as well gives you RC and full release versions.</li>
     <li> Now click the HOME top navigation button or the blog name to open your BACKEND dashboard.</li>
     <li> It will now (or later *) show you that an upgrade is available. (*) If that has run before, it might show you an old update version for another ~6 hours. Upgrade to Serendipity Styx Edition. Follow the routine. Don't forget, if it gets stuck, just try to reload the upgrade page. Very easy!</li>
     <li> Open up the Spartacus plugin configuration and set this URL [5] to the custom mirror field. This enables to fetch the Styx additional plugin repository, highly recommended. When all is done, upgrade all other plugin updates via Spartacus, since some of them rely on Styx changes. Styx 2.1.0 and up have this already preset.</li>
@@ -166,8 +166,8 @@
 
 <ol class="boxed" type="I">
     <li> Fresh Styx installs will have to set the URLs too; In this mentioned order! (<em>Except step a. for [4].</em>).</li>
-    <li> [ <strong>Update:</strong> ] With Styx 2.1++ releases, the Spartacus custom mirror g.[5] and the general setting h.[8] are already preset for <strong>new</strong> installations.</li>
-    <li> [ <strong>Update:</strong> ] Newer versions of the Serendipity Autoupdater from this repository already also have [6] and [7] preset for <strong>new</strong> installations.</li>
+    <li> [ <strong>Update</strong> ]:<br>With Styx 2.1++ releases, the Spartacus custom mirror g.[5] and the general setting h.[8] are already preset for <strong>new</strong> installations.</li>
+    <li> [ <strong>Update</strong> ]:<br>Newer versions of the Serendipity Autoupdater from this repository already also have [6] and [7] preset for <strong>new</strong> installations.</li>
 </ol>
 
 <hr>
@@ -175,7 +175,7 @@
 <h3 id="user-content-the-hitchhikers-guide-to-styx-backend-tuning">The hitchhikers guide to Upgraders Styx Backend tuning:</h3>
 
 <ol>
-    <li>Open up your <code>Personal Preferences</code>. See the force popup options is pre-filled with <code>links</code>. This means, the info button on the dashboard now opens some links embedded to the dashboard and another quick info hello box. If you like it, keep it. My preferred method here is: <code>links,categories,tags</code>. You'll notice the difference in the entry form.</li>
+    <li>Open up your “<code>Personal Settings</code>”. See the force popup options is pre-filled with <code>links</code>. This means, the info button on the dashboard now opens some links embedded to the dashboard and another quick info hello box. If you like it, keep it. My preferred method here is: <code>links,categories,tags</code>. You'll notice the difference in the entry form.</li>
     <li>Option <code>WYSIWYG Editor enabled?</code> Why not! It definitely is a good one! And it is even better with the additional CKEditor Plus plugin installed.</li>
     <li>Option <code>Default Dashboard Widgets?</code> My recommendation is: Set it to <strong>NO</strong>. It spares some enormous place on the dashboard and the comment administrations is even better done via sidebar comment link. And it gives you some additional support, with from Styx 2.1+.</li>
     <li>If you want to get informed about plugin updates in the Dashbord in future, install the event “plugup” plugin and check the depending option in the “spartacus” event plugin.</li>
@@ -201,7 +201,7 @@
 
 <p>You will notice the last three may be activated or not by your needs only. <em>Why this at all?</em> Since this is one of the best pair-order options for the entry form, making it appear nice and smooth, without taking too much of the available place. You will notice, when opening up the entry form.  If you don't have it installed, go and install it via Spartacus.</p>
 
-<p>Styx new <strong>modemaintain</strong> and <strong>changelog</strong> event plugins are available, plugged as <strong>Maintenance Widgets</strong>. <strong>Upgraders</strong> have to install them via Spartacus themselves. And at last, you should read the Styx ChangeLog. This can (then) be done easily via the Backends Maintenance page. :) Definitely!</p>
+<p>Styx new <strong>modemaintain</strong> and <strong>changelog</strong> event plugins are available, plugged as <strong>maintenance widgets</strong>. <strong>Upgraders</strong> have to install them via Spartacus themselves. And at last, you should read the Styx ChangeLog. This can (then) be done easily via the Backends Maintenance page. :) Definitely!</p>
 
 <p>Fresh installs already supplied and activated the entryproperties, changelog and modemaintain plugins for you ... among others!</p>
 
@@ -225,13 +225,13 @@
 
 <h4 id="docs-requirements">Requirements</h4>
 
-<p>Serendipity is tailored for the Apache Webserver. However, people are successfully running Serendipity with Microsoft IIS and Lighttpd. When using Serendipity on Windows servers, pay attention to always enter path references using forward slashes (‘/’) instead of the notation using backslaches (“C:\…\”).</p>
+<p>Serendipity is tailored for the Apache Webserver. However, people are successfully running Serendipity with Microsoft IIS and Lighttpd. When using Serendipity on Windows servers, pay attention to always enter path references using forward slashes (‘/’) instead of the notation using backslashes (“C:\…\”).</p>
 
 <p>For full operation, Serendipity relies on .htaccess files that your Virtual Host must allow. For Apache, this requires the <code>Allow Override File Info Indexes Limit</code> (or <code>Allow Override All</code>) option set to the directory of your Serendipity installation.</p>
 
-<p>Serendipity requires PHP 5.4++ and fully enabled and working Cookie Session support. It requires the PCRE extension, and optionally makes use of the GD, iconv, zlib and mbstring extensions. Serendipity is fully PHP 5/7 compatible and encourages the use of PHP bytecode compilers like APC, Zend Cache or ionCube.</p>
+<p>Serendipity requires at least PHP 5.4 and fully enabled and working Cookie Session support. It requires the PCRE extension, and optionally makes use of the GD, iconv, zlib and mbstring extensions. Serendipity is fully PHP 5/7 compatible and encourages the use of PHP bytecode compilers like APC, Zend Cache or ionCube.</p>
 
-<p>When operating Serendipity in PHP’s Safe Mode, you will not be able to use File Upload and SPARTACUS Plugin fetching facilities. Enabling error_reporting and display_errors (or directing this to a logfile) is suggested to keep track of possible errors. The file_uploads directory should be turned ON if you want to have media file upload features. For graphic processing, you either require GDLib or Image Magick.</p>
+<p>When operating Serendipity in PHP’s Safe Mode, you will not be able to use File Upload and SPARTACUS Plugin fetching facilities. Enabling error_reporting and display_errors (or directing this to a log file) is suggested to keep track of possible errors. The file_uploads directory should be turned ON if you want to have media file upload features. For graphic processing, you either require GDLib or ImageMagick.</p>
 
 <p>It is very much suggested to DISABLE the register_globals, session.use_trans_sid and magic_quotes_* directives of PHP, which is already the default since at least PHP 5.</p>
 
@@ -261,7 +261,7 @@
 
 <p>On top of those three directories, Serendipity will also need to write the two files <strong>.htaccess</strong> and <strong>serendipity_config_local.inc.php</strong> into the root of the Serendipity installation. That means that also the directory where you upload the full Serendipity installation into needs to have permissions that allow the PHP server to create those two files - so remember to also set your top directory (like “serendipity” or “blog”) to 777 or 775. You can reset those permissions on the core directory after the installation to something like 744 again, because once the mentioned files are written, Serendipity only needs to alter those files.</p>
 
-<p>If you plan to use the SPARTACUS plugin to download plugins and templates over the web, PHP also needs to be able to write to the directories <strong>plugins</strong> and <strong>templates</strong>.</p>
+<p>If you plan to use the SPARTACUS plugin to download plugins and themes over the web, PHP also needs to be able to write to the directories <strong>plugins</strong> and <strong>templates</strong>.</p>
 
 <p>Further permission-related questions are answered in our <a href="./faq/index.html">FAQ</a>.</p>
 
@@ -280,7 +280,7 @@
 
 <p>On the bottom of the diagnosis screen, you can choose if you want to perform a “<strong>Simple installation</strong>” or the “<strong>Expert installation</strong>”. Both methods actually perform the same steps; however the “Simple installation” only shows you very few initial configuration options so that you can install Serendipity quickkly. The “Expert installation” will ask you to enter every configuration directive.</p>
 
-<p>Since the goal of this Document is to show how fast you can install Serendipity, we will only discuss the “Simple installation” right now, so please click on this link and you will see a screen like this:</p>
+<p>Since the goal of this document is to show how fast you can install Serendipity, we will only discuss the “Simple installation” right now, so please click on this link and you will see a screen like this:</p>
 
 <figure id="install-2">
     <img src="/i/h/fresh_install_02.png" alt="Simple installation options" class="content-image">
@@ -303,7 +303,7 @@
 
 <p>The blog name and description will later be shown on the frontpage of your blog. Of course, all those settings can later be changed!</p>
 
-<p>As the last option of this section, you need to choose the language of your blog. Note that this will be the default language for both your frontend of the blog and the personal language of your editor. All other users you are later able to create can define their own language for viewing your blog!</p>
+<p>As the last option of this section, you need to choose the language of your blog. Note that this will be the default language for both your frontend of the blog and the personal language of your editor. All other users are later able to define their own language for viewing your blog! (See: “Personal Settings”.)</p>
 
 <h4 id="docs-complete-installation">Complete installation</h4>
 
@@ -418,7 +418,7 @@ The most important distinct option is whether to use the “WYSIWYG” editor. T
 
 <h5 id="docs-maintain">Maintenance</h5>
 
-<p>This section is for “maintaining” specific system tasks, as there are the release file verifier, the “MediaLibrary Synchronizer”, Smarty compile cleanup task, Changelog & Debuglog file viewer, the “503 Maintenance Service Mode”, tools to import/export blogs and the “UTF8MB4” migration task.</p>
+<p>This section is for “maintaining” specific system tasks, as there are: the “Integrity” verifier, the “MediaLibrary Synchronizer”, a Smarty “compile” cleanup task, the “Change/Debug”-log file viewer, the “503 Maintenance Service Mode”, tools to “import/export” Blogs, the “Spamblock”-log cleaner and the “UTF8MB4” migration task.</p>
 
 <figure id="configuration-section">
     <img src="/i/h/fresh_install_13.png" alt="Maintenance section" class="content-image">
@@ -427,9 +427,9 @@ The most important distinct option is whether to use the “WYSIWYG” editor. T
 
 <h4 id="docs-and-what-now">And what next?</h4>
 
-<p>Now that you have successfully installed Serendipity, go ahead and explore. Create some entries, categories, install a few plugins you can also find here in <a href="/plugins">Styx Spartacus plugins</a>. The interface is in most cases self-explanatory and open for experiments.</p>
+<p>Now that you have successfully installed Serendipity, go ahead and explore. Create some entries, categories, or install a few plugins, that you can also find here in <a href="/plugins">Styx Spartacus plugins</a>. A recommended one would be the “Serendipity Autoupdate” event plugin! The interface is in most cases self-explanatory and open for experiments.</p>
 
-<p>If you have any questions, feel free to come to <a href="https://board.s9y.org/">the forums</a> or to browse the <a href="./index.html">docs section</a> for further documentation.</p>
+<p>If you have any questions, feel free to come to <a href="https://board.s9y.org/" target="_blank">the forums</a> or to browse the <a href="./index.html">docs section</a> for further documentation.</p>
 
                 </div>
             </div>
