@@ -147,7 +147,7 @@
     <li> Update the Autoupdater by Spartacus from the new location, currently this is version 1.5.3 or up.</li>
     <li> Click somewhere else and then return to the plugin list page. Select events and search for the installed/updated autoupdater plugin. It now is configurable! The two new options are pre-filled with the origin Serendipity GitHub path. Change both to the new URLs (6) and (7). Version 1.4.0 has this already preset. This is important!</li>
     <li> Next, go to your BACKEND global “Configuration” <span class="icon">→</span> “General Settings” and enable the “autoupdate” option to search for “beta” releases. This as well gives you RC and full release versions.</li>
-    <li> Now click the HOME top navigation button or the blog name to open your BACKEND dashboard.</li>
+    <li> Now click the HOME top navigation button or the Blog name to open your BACKEND dashboard.</li>
     <li> It will now (or later *) show you that an upgrade is available. (*) If that has run before, it might show you an old update version for another ~6 hours. Upgrade to Serendipity Styx Edition. Follow the routine. Don't forget, if it gets stuck, just try to reload the upgrade page. Very easy!</li>
     <li> Open up the Spartacus plugin configuration and set this URL [5] to the custom mirror field. This enables to fetch the Styx additional plugin repository, highly recommended. When all is done, upgrade all other plugin updates via Spartacus, since some of them rely on Styx changes. Styx 2.1.0 and up have this already preset.</li>
     <li> Now, open up the global configuration again and see a new config option field inside “General Settings” to read the RELEASE file. Change it to the correct Styx path (8). Styx 2.1.0 and up have this already preset.</li>
@@ -214,7 +214,7 @@
 
 <p>After you have uploaded the files to your web space, you need to “open” the Serendipity application. You do that by opening an URL like <code>http://example.com/serendipity/index.php</code>.</p>
 
-<p><strong>SECURITY RECOMMENDATION:</strong> When you upload the Serendipity files to your webspace, this means temporarily everyone who knows the URL to your blog would be able to use the Serendipity installer. To prevent unauthorized access, you should immediately secure your installation during this process. The best way to do this is by securing the blog with a password by using a .htaccess file that you upload first, as outlined in the section <a href="./faq/#docs-locking-the-blog-during-the-upgrade">Locking the Blog</a>.</p>
+<p><strong>SECURITY RECOMMENDATION:</strong> When you upload the Serendipity files to your webspace, this means temporarily everyone who knows the URL to your Blog would be able to use the Serendipity installer. To prevent unauthorized access, you should immediately secure your installation during this process. The best way to do this is by securing the Blog with a password by using a .htaccess file that you upload first, as outlined in the section <a href="./faq/#docs-locking-the-blog-during-the-upgrade">Locking the Blog</a>.</p>
 
 <p>Serendipity <strong>Styx</strong> already comes with a <strong>secured</strong> installation, which uses a “two-factor authentication” (2FA) like token to exclusively bind the installation progress to the one being able to upload the files. <strong>You!</strong></p>
 
@@ -297,13 +297,13 @@
 
 <h4 id="docs-general-settings">General Settings</h4>
 
-<p>This section contains the most basic Blog setup options. First you enter the username and password for your Admin user. It is recommended to not use special characters like Umlauts for the username. Your username will not be displayed in the blog to enhance login security - to display your username, the “real name” option will be used.</p>
+<p>This section contains the most basic Blog setup options. First you enter the username and password for your Admin user. It is recommended to not use special characters like Umlauts for the username. Your username will not be displayed in the Blog to enhance login security - to display your username, the “real name” option will be used.</p>
 
 <p>The E-Mail address of your admin user is very important, since you will receive trackback and comment notification emails to that address.</p>
 
-<p>The blog name and description will later be shown on the frontpage of your blog. Of course, all those settings can later be changed!</p>
+<p>The Blog name and description will later be shown on the frontpage of your Blog. Of course, all those settings can later be changed!</p>
 
-<p>As the last option of this section, you need to choose the language of your blog. Note that this will be the default language for both your frontend of the blog and the personal language of your editor. All other users are later able to define their own language for viewing your blog! (See: “Personal Settings”.)</p>
+<p>As the last option of this section, you need to choose the language of your Blog. Note that this will be the default language for both your frontend of the Blog and the personal language of your editor. All other users are later able to define their own language for viewing your Blog! (See: “Personal Settings”.)</p>
 
 <h4 id="docs-complete-installation">Complete installation</h4>
 
@@ -313,7 +313,7 @@
 
 <p>If you ever have troubles because of wrong auto-detected directories or URLs, you might need to call the “Expert installation” wizard. This gives you several additional configuration options to indicate the used directories, database table prefixes etc. Note well that the Expert Installation will show you the path layout as it currently is configured; if you change the path/URL locations there, you need to enter values that reflect your ACTUAL layout, and not the layout you would want. If you want to install Serendipity into a different directory than displayed, you need to move the files via FTP/SSH there.</p>
 
-<p>Else, Serendipity will create the required database tables and sets up your blog as configured:</p>
+<p>Else, Serendipity will create the required database tables and sets up your Blog as configured:</p>
 
 <figure id="install-3">
     <img src="/i/h/fresh_install_03.png" alt="Results of the database tables creation" class="content-image">
@@ -326,11 +326,11 @@
 
 <h4 id="docs-accessing-your-blog-frontend">Accessing your Blog Frontend</h4>
 
-<p>After the installation, the screen above showed you a link to “Visit your new blog here”. You can click on this, and then you should see your empty blog like this:</p>
+<p>After the installation, the screen above showed you a link to “Visit your new blog here”. You can click on this, and then you should see your empty Blog like this:</p>
 
 <figure id="startpage-empty">
-    <img src="/i/h/fresh_install_04.png" alt="Index page of an empty blog" class="content-image">
-    <figcaption>Index page of an empty blog</figcaption>
+    <img src="/i/h/fresh_install_04.png" alt="Index page of an empty Blog" class="content-image">
+    <figcaption>Index page of an empty Blog</figcaption>
 </figure>
 
 <p>If you instead see a “HTTP 500” error screen, this means that your Web Server did not allow Serendipity to create custom “.htaccess” directives. In this case, you can just delete the file “.htaccess”. Serendipity can operate well without this file, BUT you will not be able to use “pretty URLs”. Those pretty URLs are configured via the “URL Rewriting” option inside Serendipity Configuration.</p>
@@ -355,7 +355,7 @@
     <figcaption>Dashboard</figcaption>
 </figure>
 
-<p>The left navigation takes you to specific sections of your blog:</p>
+<p>The left navigation takes you to specific sections of your Blog:</p>
 
 <h5 id="docs-frontpage">Frontpage</h5>
 
@@ -364,7 +364,7 @@
 <h5 id="docs-personal-settings">Personal Settings</h5>
 
 <p>The button with the three gears on the upper right of the page will lead you to personal settings section. The personal settings section will show all user-specific options to your currently logged-in user. There you can change your username, your password and also the language you want to see for the Admin interface.
-The most important distinct option is whether to use the “WYSIWYG” editor. This will show you a Word-like interface for creating blog entries. It makes life easy, and if you do not know any HTML at all, you will be very glad about that editor that will allow you to insert images, links and text formatting at ease. This option can also be changed later, if you happen to dislike the WYSIWYG editor, or if you’re missing it.</p>
+The most important distinct option is whether to use the “WYSIWYG” editor. This will show you a Word-like interface for creating Blog entries. It makes life easy, and if you do not know any HTML at all, you will be very glad about that editor that will allow you to insert images, links and text formatting at ease. This option can also be changed later, if you happen to dislike the WYSIWYG editor, or if you’re missing it.</p>
 
 <figure id="personal-settings">
     <img src="/i/h/fresh_install_07.png" alt="Personal settings" class="content-image">
@@ -395,9 +395,9 @@ The most important distinct option is whether to use the “WYSIWYG” editor. T
 
 <h5 id="docs-settings">Settings</h5>
 
-<p>This section covers the configuration of your blog, the users and groups that are allowed to login to your blog, and importing/exporting entries.</p>
+<p>This section covers the configuration of your Blog, the users and groups that are allowed to login to your Blog, and importing/exporting entries.</p>
 
-<p>Note that the “Configuration” item will show you all the options you would see in the Expert Installation. There you can configure all the detailed options of your blog, like URL Rewriting, Permalinks, Charsets etc.</p>
+<p>Note that the “Configuration” item will show you all the options you would see in the Expert Installation. There you can configure all the detailed options of your Blog, like URL Rewriting, Permalinks, Charsets etc.</p>
 
 <figure id="configuration-section">
     <img src="/i/h/fresh_install_12.png" alt="Configuration section" class="content-image">
