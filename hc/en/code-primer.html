@@ -139,7 +139,7 @@
 
 <p>Now here are the most basic concepts you need to know. Those assume you have some basic PHP knowledge, and you are comfortable with reading the PHP code of the files alongside. The best way is always learning-by-doing when working with an existing system, so our goal is not to teach you all the basics - but rather to get you to know the basic workflows, so that you can check them out easily on your own, and know where to find what.</p>
 
-<p>All our core PHP functions (serendipity_XXX) have phpDoc style comments which explain the parameters and functionality of each function, so be sure to read those. We currently have no automatted Code documentation, but you should be able to use any phpDoc compiler on our code yourself.</p>
+<p>All our core PHP functions (serendipity_XXX) have phpDoc style comments which explain the parameters and functionality of each function, so be sure to read those. We currently have no automated Code documentation, but you should be able to use any phpDoc compiler on our code yourself.</p>
 
 <h3 id="docs-the-core" class="hspace">The “core”</h3>
 
@@ -160,59 +160,59 @@ print_r($entries);
 <p>The defined variables in this file by default are:</p>
 
 <ul>
-  <li>$serendipity[‘versionInstalled’]: Current version number</li>
-  <li>$serendipity[‘dbName’]: Database name</li>
-  <li>$serendipity[‘dbPrefix’]: Database prefix (prepended before internal table names)</li>
-  <li>$serendipity[‘dbHost’]: Database host</li>
-  <li>$serendipity[‘dbUser’]: Database user</li>
-  <li>$serendipity[‘dbPass’]: Database password</li>
-  <li>$serendipity[‘dbType’]: Database type (=layer)</li>
-  <li>$serendipity[‘dbPersistent’]: Whether to use persistant connections</li>
+  <li><code>$serendipity['versionInstalled']</code>: Current version number</li>
+  <li><code>$serendipity['dbName']</code>: Database name</li>
+  <li><code>$serendipity['dbPrefix']</code>: Database prefix (prepended before internal table names)</li>
+  <li><code>$serendipity['dbHost']</code>: Database host</li>
+  <li><code>$serendipity['dbUser']</code>: Database user</li>
+  <li><code>$serendipity['dbPass']</code>: Database password</li>
+  <li><code>$serendipity['dbType']</code>: Database type (=layer)</li>
+  <li><code>$serendipity['dbPersistent']</code>: Whether to use persistant connections</li>
 </ul>
 
-<p>On top of that, certain variables that are not included in the Serendipity Configuration panel can be configured in this file; if they are not present, the Serendipity defaults will be used. Such variables are:</p>
+<p>On top of that, certain variables that are not included in the Serendipity Configuration panel can be configured in this file; If they are not present, the Serendipity defaults will be used. Such variables are:</p>
 
 <ul>
-  <li>$serendipity[‘production’]: If set to “false” you can evoke extra debugging output when errors occur. If set to “debug”, it will be extra-verbose. (default: based on version, RC and alpha/betas default to false)</li>
-  <li>$serendipity[‘allowDateManipulation’]: If set to true (default), users can change the date of entries</li>
-  <li>$serendipity[‘max_last_modified’]: Amount of seconds how fresh an article must be, so that a comment to an entry will modify its LastModified-timestamp (default: 7 days)</li>
-  <li>$serendipity[‘max_fetch_limit’]: In RSS-Feeds, how many entries can be fetched (default 50)</li>
-  <li>$serendipity[‘trackback_filelimit’]: How large may an URL be to check for incoming trackback links (default 150kb)</li>
-  <li>$serendipity[‘fetchLimit’]: How many entries to display (default 15)</li>
-  <li>$serendipity[‘RSSfetchLimit’]: How many entries to display within RSS feed (default 15)</li>
-  <li>$serendipity[‘use_PEAR’]: By default, Serendipity will use externally provided PEAR files (if existing). To force using the PEAR libraries bundled with Serendipity, set this variable to FALSE.</li>
-  <li>$serendipity[‘useHTTP-Auth’]: If enabled (on by default, requires mod_php), users can log in to the blog by specifying user/password in the URL like <code>http://user:password@example.com/serendipity_admin.php</code> (default true)</li>
-  <li>$serendipity[‘cacheControl’]: (default true)</li>
-  <li>$serendipity[‘expose_s9y’]: Whether to expose Serendipity version number (default true)</li>
-  <li>$serendipity[‘forceBase64’]: When enabled, mails are encoded with base64 instead of imap_8bit (default false)</li>
-  <li>$serendipity[‘use_iframe’]: When enabled, uses an iframe to save entries in the backend to prevent timeouts (default true)</li>
-  <li>$serendipity[‘autolang’]: Default language, when autodetection fails (default “en”)</li>
-  <li>$serendipity[‘defaultTemplate’]: Which template directory to use for fallback chaining (see below) (default “2k111”)</li>
-  <li>$serendipity[‘template_backend’]: Which backend template to use when none is configured (default “2k11”)</li>
-  <li>$serendipity[‘backendBlogtitleFirst’]: If true, the page titles of backend pages will have the form “blog title  | backend section name” instead of “backend section name | blog title” (default false). <strong>Serendipity Styx</strong> has this order “section | $admin | blog title” set as default.</li>
-  <li>$serendipity[‘dashboardCommentsLimit’]: How many comments to show in the dashboard overview (default 5)</li>
-  <li>$serendipity[‘dashboardEntriesLimit’]: How many future entries and drafts to show in the dashboard overview (default 5)</li>
-  <li>$serendipity[‘languages’]: Holds an array of available languages</li>
-  <li>$serendipity[‘calendars’]: Holds an array of available calendar types (gregorian and persian by default)</li>
-  <li>$serendipity[‘charsets’]: Holds an array of supported charsets (native and UTF-8 by default)</li>
-  <li>$serendipity[‘use_autosave’]: Whether to use local-browser autosaving feature (default true)</li>
-  <li>$serendipity[‘imagemagick_thumb_parameters’]: Otpional parameters passed to imagemagick when creating thumbnails (default empty)</li>
-  <li>$serendipity[‘logLevel’]: If set, enables using the Katzgrau KLogger (writes to templates_c/). If set to “debug”, be extra verbose (default: ‘Off’)</li>
+  <li><code>$serendipity['production']</code>: If set to “false” you can evoke extra debugging output when errors occur. If set to “debug”, it will be extra-verbose. (default: based on version, RC and alpha/betas default to false)</li>
+  <li><code>$serendipity['allowDateManipulation']</code>: If set to true (default), users can change the date of entries</li>
+  <li><code>$serendipity['max_last_modified']</code>: Amount of seconds how fresh an article must be, so that a comment to an entry will modify its LastModified-timestamp (default: 7 days)</li>
+  <li><code>$serendipity['max_fetch_limit']</code>: In RSS-Feeds, how many entries can be fetched (default 50)</li>
+  <li><code>$serendipity['trackback_filelimit']</code>: How large may an URL be to check for incoming trackback links (default 150kb)</li>
+  <li><code>$serendipity['fetchLimit']</code>: How many entries to display (default 15)</li>
+  <li><code>$serendipity['RSSfetchLimit']</code>: How many entries to display within RSS feed (default 15)</li>
+  <li><code>$serendipity['use_PEAR']</code>: By default, Serendipity will use externally provided PEAR files (if existing). To force using the PEAR libraries bundled with Serendipity, set this variable to FALSE.</li>
+  <li><code>$serendipity['useHTTP-Auth']</code>: If enabled (on by default, requires mod_php), users can log in to the Blog by specifying user/password in the URL like <strong>http://user:password@example.com/serendipity_admin.php</strong> (default true)</li>
+  <li><code>$serendipity['cacheControl']</code>: (default true)</li>
+  <li><code>$serendipity['expose_s9y']</code>: Whether to expose Serendipity version number (default true)</li>
+  <li><code>$serendipity['forceBase64']</code>: When enabled, mails are encoded with base64 instead of imap_8bit (default false)</li>
+  <li><code>$serendipity['use_iframe']</code>: When enabled, uses an IFRAME to save entries in the Backend to prevent timeouts (default true)</li>
+  <li><code>$serendipity['autolang']</code>: Default language, when autodetection fails (default “en”)</li>
+  <li><code>$serendipity['defaultTemplate']</code>: Which template directory to use for fallback chaining (see below) (default “2k111”)</li>
+  <li><code>$serendipity['template_backend']</code>: Which Backend template to use when none is configured (default “2k11”)</li>
+  <li><code>$serendipity['backendBlogtitleFirst']</code>: If true, the page titles of Backend pages will have the form “Blog title | Backend section name” instead of “Backend section name | Blog title” (default false). <strong>Serendipity Styx</strong> has this order “section | $admin | Blog title” set as default.</li>
+  <li><code>$serendipity['dashboardCommentsLimit']</code>: How many comments to show in the dashboard overview (default 5)</li>
+  <li><code>$serendipity['dashboardEntriesLimit']</code>: How many future entries and drafts to show in the dashboard overview (default 5)</li>
+  <li><code>$serendipity['languages']</code>: Holds an array of available languages</li>
+  <li><code>$serendipity['calendars']</code>: Holds an array of available calendar types (gregorian and persian by default)</li>
+  <li><code>$serendipity['charsets']</code>: Holds an array of supported charsets (native and UTF-8 by default)</li>
+  <li><code>$serendipity['use_autosave']</code>: Whether to use local-browser autosaving feature (default true)</li>
+  <li><code>$serendipity['imagemagick_thumb_parameters']</code>: Optional parameters passed to ImageMagick when creating thumbnails (default empty)</li>
+  <li><code>$serendipity['logLevel']</code>: If set, enables using the Katzgrau KLogger (writes to templates_c/). If set to “debug”, be extra verbose (default: ‘Off’)</li>
 </ul>
 
 <h4 id="docs-htaccess">.htaccess</h4>
 
-<p>This file holds simple, central mod_rewrite RewriteRules (when URL-Rewriting is enabled) to match all permalink patters back to index.php (see the “Routing”-Part below).</p>
+<p>This file holds simple, central mod_rewrite RewriteRules (when URL-Rewriting is enabled) to match all permalink patters back to index.php (see the “Routing”-part below).</p>
 
 <h4 id="docs-serendipitycssphp">serendipity.css.php</h4>
 
-<p>This file is usally called through the URL RewriteRules, and dynamically assembles the CSS statements for a selected theme as well as all plugins that have distinct CSS output.</p>
+<p>This file is usually called through the URL RewriteRules, and dynamically assembles the CSS statements for a selected theme as well as all plugins that have distinct CSS output.</p>
 
 <h4 id="docs-deployment-directory">deployment directory</h4>
 
-<p>Serendipity supports the concept of a “shared installation”. This keeps Serendipity as a kind of library in a central directory outside the DocumentRoot. Each blog will then only use stub-files which actually include that library file. The deployment-Directory contains exactly those stubs that point back to the library (through simply “include” calls). Note that the file names are exactly those that the core actually uses.</p>
+<p>Serendipity supports the concept of a “shared installation”. This keeps Serendipity as a kind of library in a central directory outside the DocumentRoot. Each Blog will then only use stub-files which actually include that library file. The deployment-Directory contains exactly those stubs that point back to the library (through simply “include” calls). Note that the file names are exactly those that the core actually uses.</p>
 
-<p>For more information, see <a href="./shared-installation.html">Setting up a shared installation</a>.</p>
+<p>For more information, see <a href="shared-installation.html">Setting up a shared installation</a>.</p>
 
 <h4 id="docs-composer--bundled-libs">Composer / Bundled-Libs</h4>
 
@@ -233,7 +233,7 @@ print_r($entries);
   <li><strong>Onyx</strong> for RSS parsing</li>
   <li><strong>simplepie</strong> for advanced Atom and RSS parsing</li>
   <li><strong>Smarty</strong> for our templating infrastructure</li>
-  <li><strong>composer</strong> for library maintenance</li>
+  <li><strong>composer</strong> for library maintenance (Since not maintained: removed. Take your own!)</li>
   <li><strong>katzgrau/klogger</strong>, <strong>psr</strong> as a central low-level logging facility</li>
   <li><strong>zendframework/zend-db/</strong> as an (optional) database layer intermediate</li>
   <li><strong>create_release.sh</strong> is the script we use to bundle releases</li>
@@ -242,30 +242,30 @@ print_r($entries);
 
 <h4 id="docs-internationalization">Internationalization</h4>
 
-<p>Serendipity’s translations are handled through easy .php include files inside the <strong>lang/</strong> subdirectory. Each language has its own file according to its countrycode.</p>
+<p>Serendipity’s translations are handled through easy .php include files inside the <strong>lang/</strong> subdirectory. Each language has its own file according to its country code.</p>
 
 <p>Translation files can have a “local charset” file and a UTF-8 variant in the UTF-8 subdirectory.</p>
 
-<p>The file “addlang.txt” is meant for developers to hold new strings; by running “addlang.sh” this list can be integrated into each language file.</p>
+<p>The file “addlang.txt” is meant for developers to hold new strings; By running “addlang.sh” this list can be integrated into each language file.</p>
 
 <p>Some special constants / variables inside the language files are these:</p>
 
 <ul>
-  <li>$i18n_filename_from: Holds an array of character replacements, which will replaced with ASCII characters when they occur within a URL. This can be used to translate umlauts etc. to “readable” variants of those, like a german “Ü” gets translated to “Ue”.</li>
-  <li>$i18n_filename_to: This holds the actual character replacement values.</li>
-  <li>LANG_CHARSET: Central constant that indicates the used charset of a language. Many plugins etc. use this to deduce which</li>
-  <li>SQL_CHARSET: Default charset for database connection</li>
-  <li>DATE_LOCALES: Used locales for a language</li>
-  <li>DATE_FORMAT_ENTRY: The dateformat used in the language</li>
-  <li>DATE_FORMAT_SHORT: A short dateformat used in the language</li>
-  <li>WYSIWYG_LANG: Which language file include is used by CKEditor</li>
-  <li>NUMBER_FORMAT_DECIMALS, NUMBER_FORMAT_DECPOINT, NUMBER_FORMAT_THOUSANDS: Some default number formatting rules</li>
-  <li>LANG_DIRECTION: Indicates if a language uses rtl or ltr spelling</li>
+  <li><code>$i18n_filename_from</code>: Holds an array of character replacements, which will replaced with ASCII characters when they occur within a URL. This can be used to translate umlauts etc. to “readable” variants of those, like a german “Ü” gets translated to “Ue”.</li>
+  <li><code>$i18n_filename_to</code>: This holds the actual character replacement values.</li>
+  <li><strong>LANG_CHARSET</strong>: Central constant that indicates the used charset of a language. Many plugins etc. use this to deduce which</li>
+  <li><strong>SQL_CHARSET</strong>: Default charset for database connection</li>
+  <li><strong>DATE_LOCALES</strong>: Used locales for a language</li>
+  <li><strong>DATE_FORMAT_ENTRY</strong>: The dateformat used in the language</li>
+  <li><strong>DATE_FORMAT_SHORT</strong>: A short dateformat used in the language</li>
+  <li><strong>WYSIWYG_LANG</strong>: Which language file include is used by CKEditor</li>
+  <li><strong>NUMBER_FORMAT_DECIMALS</strong>, <strong>NUMBER_FORMAT_DECPOINT</strong>, <strong>NUMBER_FORMAT_THOUSANDS</strong>: Some default number formatting rules</li>
+  <li><strong>LANG_DIRECTION</strong>: Indicates if a language uses rtl or ltr spelling</li>
 </ul>
 
-<p>Certain language constants can use placeholders like “%s” (standard PHP Sprintf()) for later variable inclusion.</p>
+<p>Certain language constants can use placeholders like “%s” (standard PHP sprintf()) for later variable inclusion.</p>
 
-<p>The proper language in the codeflow is loaded through “include/lang.inc.php”. This file is called twice; once for the central routine to only detect the proper language, and then a second time to actually load all language constants for the currently-logged in user.</p>
+<p>The proper language in the codeflow is loaded through “include/lang.inc.php”. This file is called twice; Once for the central routine to only detect the proper language, and then a second time to actually load all language constants for the currently-logged in user.</p>
 
 <h4 id="docs-other-files-and-directories">Other files and directories</h4>
 
@@ -276,13 +276,13 @@ print_r($entries);
   <li><strong>.htaccess</strong>: Webserver configuration (see above)</li>
   <li><strong>serendipity_admin.php</strong>: Backend (see below)</li>
   <li><strong>serendipity_config.inc.php</strong>: Framework initializing (see above)</li>
-  <li><strong>serendipity_config_local.inc.php</strong>: Basic configuration of the blog</li>
-  <li><strong>comment.php</strong>, <strong>wfwcomment.php</strong>: Used to accept and process a comment or trackback made to blog entries</li>
-  <li><strong>checksums.inc.php</strong>: A checksum file that holds information about the files that belong to the current Serendipity version; it is used to verify the integrity of an installation to find modified files.</li>
+  <li><strong>serendipity_config_local.inc.php</strong>: Basic configuration of the Blog</li>
+  <li><strong>comment.php</strong>, <strong>wfwcomment.php</strong>: Used to accept and process a comment or trackback made to Blog entries</li>
+  <li><strong>checksums.inc.php</strong>: A checksum file that holds information about the files that belong to the current Serendipity version; It is used to verify the integrity of an installation to find modified files.</li>
   <li><strong>exit.php</strong>: A tracking script used for external links</li>
   <li><strong>rss.php</strong>: The RSS feeds are routed through this</li>
-  <li><strong>serendipity_admin_image_selector.php</strong>: A mediadatabase popup screen that is called from within the backend</li>
-  <li><em>*serendipity_xmlrpc.php</em>: A basic stub for XML-RPC calls made to the blog, the actual XML-RPC client is provided through a plugin</li>
+  <li><strong>serendipity_admin_image_selector.php</strong>: A media database popup screen that is called from within the Backend</li>
+  <li><em>*serendipity_xmlrpc.php</em>: A basic stub for XML-RPC calls made to the Blog, the actual XML-RPC client is provided through a plugin</li>
 </ul>
 
 <p>The subdirectories contain:</p>
@@ -295,10 +295,10 @@ print_r($entries);
   <li><strong>docs/</strong>: ChangeLog and other documentation</li>
   <li><strong>htmlarea/</strong>: Bundled CKEditor WYSIWYG</li>
   <li><strong>include/</strong>: Internal code libraries</li>
-  <li><strong>include/admin/</strong>: Code workflow used for backend (see below)</li>
+  <li><strong>include/admin/</strong>: Code workflow used for Backend (see below)</li>
   <li><strong>include/admin/importers/</strong>: Data export/import modules (see below)</li>
   <li><strong>include/db/</strong>: Code libraries for database layers</li>
-  <li><strong>include/tpl/</strong>: Configuration templates for backend functionality</li>
+  <li><strong>include/tpl/</strong>: Configuration templates for Backend functionality</li>
   <li><strong>lang/</strong>: PHP language files (using simple constants)</li>
   <li><strong>plugins/</strong>: Plugin files</li>
   <li><strong>sql/</strong>: SQL database creation files</li>
@@ -309,229 +309,229 @@ print_r($entries);
 
 <h4 id="docs-database-layers">Database layers</h4>
 
-<p>The database layer offers a central framework trough <em>include/db/db.inc.php</em>. Serendipity uses plain SQL statements for its queries. We try to use database-agnostic standard SQL wherever possible, so that it runs on most servers.</p>
+<p>The database layer offers a central framework through “<em>include/db/db.inc.php</em>”. Serendipity uses plain SQL statements for its queries. We try to use database-agnostic standard SQL wherever possible, so that it runs on most servers.</p>
 
-<p>If that is not possible, certain code-forks are deployed to use specific queries for specific database layers; however, those places are very few. The advantage of using central SQL is that it also creates very readable, easy SQL.</p>
+<p>If that is not possible, certain code-forks are deployed to use specific queries for specific database layers; However, those places are very few. The advantage of using central SQL is that it also creates very readable, easy SQL.</p>
 
 <p>Core functions available globally across all database layers are:</p>
 
 <ul>
-  <li>serendipity_db_update: Perform a query to updat ethe data of a certain table row</li>
-  <li>serendipity_db_insert: Perform a query to insert an associative array into a specific SQL table</li>
-  <li>serendipity_db_bool: Check whether an input value corresponds to a TRUE/FALSE option in the SQL database.</li>
-  <li>serendipity_db_get_interval: Return a SQL statement for a time interval or timestamp, specific to certain SQL backends</li>
-  <li>serendipity_db_implode: Operates on an array to prepare it for SQL usage.</li>
+  <li><strong>serendipity_db_update</strong>: Perform a query to update the data of a certain table row</li>
+  <li><strong>serendipity_db_insert</strong>: Perform a query to insert an associative array into a specific SQL table</li>
+  <li><strong>serendipity_db_bool</strong>: Check whether an input value corresponds to a TRUE/FALSE option in the SQL database.</li>
+  <li><strong>serendipity_db_get_interval</strong>: Return a SQL statement for a time interval or timestamp, specific to certain SQL backends</li>
+  <li><strong>serendipity_db_implode</strong>: Operates on an array to prepare it for SQL usage.</li>
 </ul>
 
 <p>We offer those database layers, which all implement an identical interface accross all layers:</p>
 
 <ul>
-  <li>generic: zendframework-DB adapter</li>
-  <li>mysql: MySQL databases</li>
-  <li>mysqli: MySQL databases (PHP 5.5+ compatible backend, better performance)</li>
-  <li>pdo-postgres: PDO-Postgresql driver (requires PHP PDO extension)</li>
-  <li>pdo-sqlite: PDO-sqlite driver (requires PHP PDO extension)</li>
-  <li>postgres: native postgresql driver (requires PHP extension)</li>
-  <li>sqlite: native sqlite driver (requires PHP sqlite extension)</li>
-  <li>sqlite3: native sqlite3 driver (requires PHP sqlite3 extension)</li>
-  <li>sqlite3oo: native sqlite3 driver using Object-Oriented interface (requires PHP sqlite3 extension)</li>
-  <li>sqlrelay: DB adapter using sqlrcon PHP extension</li>
+  <li><strong>generic</strong>: zendframework-DB adapter</li>
+  <li><strong>mysql</strong>: MySQL databases</li>
+  <li><strong>mysqli</strong>: MySQL databases (PHP 5.5+ compatible Backend, better performance)</li>
+  <li><strong>pdo-postgres</strong>: PDO-Postgresql driver (requires PHP PDO extension)</li>
+  <li><strong>pdo-sqlite</strong>: PDO-sqlite driver (requires PHP PDO extension)</li>
+  <li><strong>postgres</strong>: native postgresql driver (requires PHP extension)</li>
+  <li><strong>sqlite</strong>: native sqlite driver (requires PHP sqlite extension)</li>
+  <li><strong>sqlite3</strong>: native sqlite3 driver (requires PHP sqlite3 extension)</li>
+  <li><strong>sqlite3oo</strong>: native sqlite3 driver using Object-Oriented interface (requires PHP sqlite3 extension)</li>
+  <li><strong>sqlrelay</strong>: DB adapter using “sqlrcon” PHP extension</li>
 </ul>
 
 <p>Those layers implement these central functions:</p>
 
 <ul>
-  <li>serendipity_db_query: Perform a DB Layer SQL query.</li>
-  <li>serendipity_db_escape_string: Returns a escaped string, so that it can be safely included in a SQL string encapsulated within quotes, without allowing SQL injection.</li>
-  <li>serendipity_db_limit: Returns the option to a LIMIT SQL statement, because it varies accross DB systems</li>
-  <li>serendipity_db_limit_sql: Return a LIMIT SQL option to the DB Layer as a full LIMIT statement</li>
-  <li>serendipity_db_schema_import: Prepares a Serendipty query input to fully valid SQL. Replaces certain “template” variables.</li>
-  <li>serendipity_db_connect: Connect to the configured Database</li>
-  <li>serendipity_db_probe: Try to connect to the configured Database (during installation)</li>
-  <li>serendipity_db_reconnect: Reconnect to the configured Database</li>
-  <li>serendipity_db_insert_id: Returns the latest INSERT_ID of an SQL INSERT INTO command, for auto-increment columns</li>
-  <li>serendipity_db_affected_rows: Returns the number of affected rows of a SQL query</li>
-  <li>serendipity_db_updated_rows: Returns the number of updated rows in a SQL query</li>
-  <li>serendipity_db_matched_rows: Returns the number of matched rows in a SQL query</li>
-  <li>serendipity_db_begin_transaction: Tells the DB Layer to start a DB transaction.</li>
-  <li>serendipity_db_end_transaction: Tells the DB Layer to end a DB transaction.</li>
-  <li>serendipity_db_in_sql: Assemble and return SQL condition for a “IN (…)” clause</li>
-  <li>serendipity_db_concat: Returns the SQL code used for concatenating strings</li>
+  <li><strong>serendipity_db_query</strong>: Perform a DB Layer SQL query.</li>
+  <li><strong>serendipity_db_escape_string</strong>: Returns a escaped string, so that it can be safely included in a SQL string encapsulated within quotes, without allowing SQL injection.</li>
+  <li><strong>serendipity_db_limit</strong>: Returns the option to a LIMIT SQL statement, because it varies across DB systems</li>
+  <li><strong>serendipity_db_limit_sql</strong>: Return a LIMIT SQL option to the DB Layer as a full LIMIT statement</li>
+  <li><strong>serendipity_db_schema_import</strong>: Prepares a Serendipity query input to fully valid SQL. Replaces certain “template” variables.</li>
+  <li><strong>serendipity_db_connect</strong>: Connect to the configured Database</li>
+  <li><strong>serendipity_db_probe</strong>: Try to connect to the configured Database (during installation)</li>
+  <li><strong>serendipity_db_reconnect</strong>: Reconnect to the configured Database</li>
+  <li><strong>serendipity_db_insert_id</strong>: Returns the latest INSERT_ID of an SQL INSERT INTO command, for auto-increment columns</li>
+  <li><strong>serendipity_db_affected_rows</strong>: Returns the number of affected rows of a SQL query</li>
+  <li><strong>serendipity_db_updated_rows</strong>: Returns the number of updated rows in a SQL query</li>
+  <li><strong>serendipity_db_matched_rows</strong>: Returns the number of matched rows in a SQL query</li>
+  <li><strong>serendipity_db_begin_transaction</strong>: Tells the DB Layer to start a DB transaction.</li>
+  <li><strong>serendipity_db_end_transaction</strong>: Tells the DB Layer to end a DB transaction.</li>
+  <li><strong>serendipity_db_in_sql</strong>: Assemble and return SQL condition for a “IN (…)” clause</li>
+  <li><strong>serendipity_db_concat</strong>: Returns the SQL code used for concatenating strings</li>
 </ul>
 
-<p>The database structure of Serendipity tries to be self-explanatory. For a list of all Serendipity database tables check out our <a href="./database.html">Database structure documentation</a>.</p>
+<p>The database structure of Serendipity tries to be self-explanatory. For a list of all Serendipity database tables check out our <a href="database.html">Database structure documentation</a>.</p>
 
 <h4 id="docs-important-variables-and-constants">Important variables and constants</h4>
 
 <p>Core variables are:</p>
 
 <ul>
-  <li>S9Y_DATA_PATH: If a shared installation is used, points to the directory where Serendipity keeps its per-user files</li>
-  <li>S9Y_INCLUDE_PATH: Path to the core installation of Serendipity</li>
-  <li>S9Y_PEAR_PATH: Path to the bundled PEAR libraries of Serendipity</li>
-  <li>IS_installed: Boolean variable to indicate if Serendipity is properly installed</li>
-  <li>IN_serendipity: Boolean variable to indicate if the Serendipity Framework is loaded</li>
-  <li>IS_up2date: Boolean variable to indicate if the current Serendipity version matches the local files</li>
-  <li>PATH_SMARTY_COMPILE: Path to the folder where temporary Smarty files are kept</li>
-  <li>USERLEVEL_ADMIN (255), USERLEVEL_CHIEF (1), USERLEVEL_EDITOR (0): Constants for user permission levels</li>
-  <li>$serendipity[‘rewrite’]: Indicates which URL rewriting method is used (none, apache errorhandling, mod_rewrite, …)</li>
-  <li>$serendipity[‘serendipityPath’]: Contains the path to the current Serendipity installation</li>
-  <li>$serendipity[‘serendipityHTTPPath’]: Contains the URL path to the current Serendipity installation</li>
-  <li>$serendipity[‘baseURL’]: Contains the absolute URL to the current Serendipity installation</li>
-  <li>$serendipity[‘serendipityAuthedUser’]: Boolean variable which indicates if a user is logged in</li>
-  <li>$serendipity[‘user’]: The ID of the currently logged-in user</li>
-  <li>$serendipity[‘email’]: The email address of the currently logged-in user</li>
-  <li>$serendipity[‘smarty’]: The central Smarty object</li>
-  <li>$serendipity[‘logger’]: The central logger object (only exists if logging is enabled)</li>
-  <li>$serendipity[‘uriArguments’]: Contains the currently parsed URI arguments to a page call</li>
-  <li>$serendipity[‘lang’]: Which language is currently loaded</li>
-  <li>$serendipity[‘charset’]: Which charset is currently loaded</li>
+  <li><strong>S9Y_DATA_PATH</strong>: If a shared installation is used, points to the directory where Serendipity keeps its per-user files</li>
+  <li><strong>S9Y_INCLUDE_PATH</strong>: Path to the core installation of Serendipity</li>
+  <li><strong>S9Y_PEAR_PATH</strong>: Path to the bundled PEAR libraries of Serendipity</li>
+  <li><strong>IS_installed</strong>: Boolean variable to indicate if Serendipity is properly installed</li>
+  <li><strong>IN_serendipity</strong>: Boolean variable to indicate if the Serendipity Framework is loaded</li>
+  <li><strong>IS_up2date</strong>: Boolean variable to indicate if the current Serendipity version matches the local files</li>
+  <li><strong>PATH_SMARTY_COMPILE</strong>: Path to the folder where temporary Smarty files are kept</li>
+  <li><strong>USERLEVEL_ADMIN</strong> (255), <strong>USERLEVEL_CHIEF</strong> (1), <strong>USERLEVEL_EDITOR</strong> (0): Constants for user permission levels</li>
+  <li><code>$serendipity['rewrite']</code>: Indicates which URL rewriting method is used (none, apache errorhandling, mod_rewrite, …)</li>
+  <li><code>$serendipity['serendipityPath']</code>: Contains the path to the current Serendipity installation</li>
+  <li><code>$serendipity['serendipityHTTPPath']</code>: Contains the URL path to the current Serendipity installation</li>
+  <li><code>$serendipity['baseURL']</code>: Contains the absolute URL to the current Serendipity installation</li>
+  <li><code>$serendipity['serendipityAuthedUser']</code>: Boolean variable which indicates if a user is logged in</li>
+  <li><code>$serendipity['user']</code>: The ID of the currently logged-in user</li>
+  <li><code>$serendipity['email']</code>: The email address of the currently logged-in user</li>
+  <li><code>$serendipity['smarty']</code>: The central Smarty object</li>
+  <li><code>$serendipity['logger']</code>: The central logger object (only exists if logging is enabled)</li>
+  <li><code>$serendipity['uriArguments']</code>: Contains the currently parsed URI arguments to a page call</li>
+  <li><code>$serendipity['lang']</code>: Which language is currently loaded</li>
+  <li><code>$serendipity['charset']</code>: Which charset is currently loaded</li>
 </ul>
 
 <p>Some important URL variables (note that if those specific variables are submitted via POST they get automatically merged into the GET array and acts like a $_REQUEST superglobal):</p>
 
 <ul>
-  <li>$serendipity[‘GET’][‘action’]: Indicates which action on the frontend shall be executed (i.e. “read”, “search”, “comments”, “archives”, …) and is evaluated by include/genpage.inc.php.</li>
-  <li>$serendipity[‘GET’][‘adminModule’]: Indicates which module of the backend shall be executed (i.e. “maintenance”, “comments”, “entries”, …) and is evaluated by serendipity_admin.php, which includes the specific module from include/admin/.</li>
-  <li>$serendipity[‘GET’][‘adminAction’]: Indicates which action of a requested module on the frontend shall be executed; the performed action is evaluated by the specific module that it is a part of.</li>
-  <li>$serendipity[‘GET’][‘id’]: If supplied, applies to a specific entry ID (both backend and frontend)</li>
-  <li>$serendipity[‘GET’][‘page’]: Indicates the page number (for listing entries) for the frontend</li>
-  <li>$serendipity[‘GET’][‘lang_selected’]: Allows to change the frontend/backend language (ie “en”, “de” language keys)</li>
-  <li>$serendipity[‘GET’][‘token’]: Some modules require token hashes to prevent XSS attacks</li>
-  <li>$serendipity[‘GET’][‘category’]: Affects displaying entries, showing entries only belonging to this category ID (multiple categories separated by “;”).</li>
-  <li>$serendipity[‘GET’][‘hide_category’]: Affects displaying entries, hide entries belonging to this category ID (multiple categories separated by “;”).</li>
-  <li>$serendipity[‘GET’][‘viewAuthor’]: Affects displaying entries, only showing entries by this specific author ID (multiple authors separated by “;”)..</li>
-  <li>$serendipity[‘GET’][‘range’]: Affects displaying entries, only showing entries by this date range</li>
-  <li>$serendipity[‘GET’][‘subpage’]: Can execute frontend plugins (if not using their own rewrite-URL or external_plugin URL)</li>
-  <li>$serendipity[‘GET’][‘searchTerm’]: If search is executed, holds the search term</li>
-  <li>$serendipity[‘GET’][‘fullFeed’]: Boolean to indicate whether the full RSS feed is displayed (for rss.php)</li>
-  <li>$serendipity[‘GET’][‘noBanner’]: Boolean to indicate if the backend should show the banner</li>
-  <li>$serendipity[‘GET’][‘noSidebar’]: Boolean to indicate if the backend should show the menu sidebar</li>
-  <li>$serendipity[‘GET’][‘noFooter’]: Boolean to indicate if the backend should show the footer</li>
+  <li><code>$serendipity['GET']['action']</code>: Indicates which action on the Frontend shall be executed (i.e. “read”, “search”, “comments”, “archives”, …) and is evaluated by “include/genpage.inc.php”.</li>
+  <li><code>$serendipity['GET']['adminModule']</code>: Indicates which module of the Backend shall be executed (i.e. “maintenance”, “comments”, “entries”, …) and is evaluated by “serendipity_admin.php”, which includes the specific module from “include/admin/”.</li>
+  <li><code>$serendipity['GET']['adminAction']</code>: Indicates which action of a requested module on the Frontend shall be executed; The performed action is evaluated by the specific module that it is a part of.</li>
+  <li><code>$serendipity['GET']['id']</code>: If supplied, applies to a specific entry ID (both Backend and Frontend)</li>
+  <li><code>$serendipity['GET']['page']</code>: Indicates the page number (for listing entries) for the Frontend</li>
+  <li><code>$serendipity['GET']['lang_selected']</code>: Allows to change the Frontend/Backend language (ie “en”, “de” language keys)</li>
+  <li><code>$serendipity['GET']['token']</code>: Some modules require token hashes to prevent XSS attacks</li>
+  <li><code>$serendipity['GET']['category']</code>: Affects displaying entries, showing entries only belonging to this category ID (multiple categories separated by “;”).</li>
+  <li><code>$serendipity['GET']['hide_category']</code>: Affects displaying entries, hide entries belonging to this category ID (multiple categories separated by “;”).</li>
+  <li><code>$serendipity['GET']['viewAuthor']</code>: Affects displaying entries, only showing entries by this specific author ID (multiple authors separated by “;”).</li>
+  <li><code>$serendipity['GET']['range']</code>: Affects displaying entries, only showing entries by this date range</li>
+  <li><code>$serendipity['GET']['subpage']</code>: Can execute Frontend plugins (if not using their own rewrite-URL or external_plugin URL)</li>
+  <li><code>$serendipity['GET']['searchTerm']</code>: If search is executed, holds the search term</li>
+  <li><code>$serendipity['GET']['fullFeed']</code>: Boolean to indicate whether the full RSS feed is displayed (for “rss.php”)</li>
+  <li><code>$serendipity['GET']['noBanner']</code>: Boolean to indicate if the Backend should show the banner</li>
+  <li><code>$serendipity['GET']['noSidebar']</code>: Boolean to indicate if the Backend should show the menu sidebar</li>
+  <li><code>$serendipity['GET']['noFooter']</code>: Boolean to indicate if the Backend should show the footer</li>
 </ul>
 
-<p>Note that a parameter like index.php?serendipity[subpage]=XXX gets converted to $serendipity[‘GET’][‘subpage’]=XXX. But index.php?subpage=YYY will not exist in $serendipity[‘GET’] due to it’s missing prefix.</p>
+<p>Note that a parameter like “index.php?serendipity[subpage]=XXX” gets converted to “$serendipity['GET']['subpage']=XXX”. But “index.php?subpage=YYY” will not exist in “$serendipity['GET']” due to it’s missing prefix.</p>
 
-<p>On top of that, some global and user-specific configuration is passed through options saved in the database table serendipity_config. Those variables are defined in include/tpl/config_local.inc.php and include/tpl/config_personal.inc.php:</p>
+<p>On top of that, some global and user-specific configuration is passed through options saved in the database table serendipity_config. Those variables are defined in “include/tpl/config_local.inc.php” and “include/tpl/config_personal.inc.php”:</p>
 
 <h5 id="docs-local-configuration">Local configuration</h5>
 
 <ul>
-  <li>$serendipity[‘dbNames’]: Boolean whether to use “SET NAMES” charset directive in database layer</li>
-  <li>$serendipity[‘uploadPath’]: Path to “uploads” directory</li>
-  <li>$serendipity[‘templatePath’]: Path to “templates” directory”</li>
-  <li>$serendipity[‘uploadHTTPPath’]: URL-path to “uploads” directory</li>
-  <li>$serendipity[‘autodetect_baseURL’]: Boolean whether to enable autodetection of HTPP host name</li>
-  <li>$serendipity[‘defaultBaseURL’]: When HTTP-Hostname autodetection is turned off, contains the default URL to Serendipity</li>
-  <li>$serendipity[‘indexFile’]: Name to index.php (used for <a href="./embedding.html">Embedded Installation</a>)</li>
-  <li>$serendipity[‘permalinkStructure’]: Permalink for archives/ patterns</li>
-  <li>$serendipity[‘permalinkAuthorStructure’]: Permalink for authors/ patterns</li>
-  <li>$serendipity[‘permalinkCategoryStructure’]: Permalink for categories/ patterns</li>
-  <li>$serendipity[‘permalinkFeedAuthorStructure’]: Permalink for feeds/authors/ patterns</li>
-  <li>$serendipity[‘permalinkFeedCategoryStructure’]: Permalink for feeds/categories/ patterns</li>
-  <li>$serendipity[‘permalinkArchivesPath’]: URL path for “archives view” detection</li>
-  <li>$serendipity[‘permalinkArchivePath’]: URL path for “single entry” detection</li>
-  <li>$serendipity[‘permalinkCategoriesPath’]: URL path for “category view” detection</li>
-  <li>$serendipity[‘permalinkFeedsPath’]: URL path for “RSS feed” detection</li>
-  <li>$serendipity[‘permalinkPluginPath’]: URL path for “external plugin” detection</li>
-  <li>$serendipity[‘permalinkSearchPath’]: URL path for “search” detection</li>
-  <li>$serendipity[‘permalinkAdminPath’]: URL path for “administration” detection</li>
-  <li>$serendipity[‘permalinkAuthorsPath’]: URL path for “author view” detection</li>
-  <li>$serendipity[‘permalinkCommentsPath’]: URL path for “comments” detection</li>
-  <li>$serendipity[‘permalinkUnsubscribePath’]: URL path for “unsubscribe comment” detection</li>
-  <li>$serendipity[‘permalinkDeletePath’]: URL path for “delete comment” detection</li>
-  <li>$serendipity[‘permalinkApprovePath’]: URL path for “approve comment” detection</li>
-  <li>$serendipity[‘blogTitle’]: Title of blog</li>
-  <li>$serendipity[‘blogDescription’]: Subtitle of blog</li>
-  <li>$serendipity[‘blogMail’]: E-Mail address of blog (sending/receiving)</li>
-  <li>$serendipity[‘allowSubscriptions’]: Boolean whether to allow users to subscribe to comments via email</li>
-  <li>$serendipity[‘allowSubscriptionsOptIn’]: Boolean whether comment subscription requires opt-in confirmation</li>
-  <li>$serendipity[‘useCommentTokens’]: Boolean whether to allow approving/deleting comments to the author of entries via email</li>
-  <li>$serendipity[‘calendar’]: Which calendar to use</li>
-  <li>$serendipity[‘lang_content_negotiation’]: Boolean whether user’s browser-language is used</li>
-  <li>$serendipity[‘enablePluginACL’]: Boolean whether configuration of plugins applies permission checks</li>
-  <li>$serendipity[‘updateCheck’]: Boolean whether performing update checks is allowed</li>
-  <li>$serendipity[‘archiveSortStable’]: Boolean whether pagination URLs start with the pages enumberated from first or last page</li>
-  <li>$serendipity[‘searchsort’]: Default sort order for sorting search results</li>
-  <li>$serendipity[‘enforce_RFC2616’]: Boolean whether for RSS feeds Conditional Get may be used (see <a href="./configuration.html#docs-appearance-and-options">Configuration</a>)</li>
-  <li>$serendipity[‘useGzip’]: Boolean whether gzip’ing pages is enabled</li>
-  <li>$serendipity[‘enablePopup’]: Boolean whether Popups are used in the frontend (depends on the theme)</li>
-  <li>$serendipity[‘embed’]: Boolean whether embedded mode is enabled (see <a href="./configuration.html#docs-appearance-and-options">Configuration</a>)</li>
-  <li>$serendipity[‘top_as_links’]: Boolean whether links outputted by exit/referrer tracking are clickable (anti-spam)</li>
-  <li>$serendipity[‘trackReferer’]: Boolean whether referrer tracking is enabled</li>
-  <li>$serendipity[‘blogReferer’]: List of referrer URL patters that shall be blocked</li>
-  <li>$serendipity[‘useServerOffset’]: Boolean whether the timezone of the server and the authors differs</li>
-  <li>$serendipity[‘serverOffsetHours’]: How many hours timezone difference are between server and authors</li>
-  <li>$serendipity[‘showFuturEentries’]: Whether to show entries from the future</li>
-  <li>$serendipity[‘enableACL’]: Boolean whether access-control checks are performed for entries, categorie and media database items</li>
-  <li>$serendipity[‘feedFull’]: Affects how entries are displayed in RSS feeds</li>
-  <li>$serendipity[‘feedBannerURL’]: SYNDICATION_PLUGIN_BANNERURL</li>
-  <li>$serendipity[‘feedBannerWidth’]: Width of banner image</li>
-  <li>$serendipity[‘feedBannerHeight’]: Height of banner image</li>
-  <li>$serendipity[‘feedShowMail’]: Whether to reveal authors email adress in feeds</li>
-  <li>$serendipity[‘feedManagingEditor’]: Specify the managing editor of the feeds</li>
-  <li>$serendipity[‘feedWebmaster’]: Specify the webmaster of the feeds</li>
-  <li>$serendipity[‘feedTtl’]: Specify the “time to live” on how often content gets updated</li>
-  <li>$serendipity[‘feedPubDate’]: Whether to embed the publication date of a feed</li>
-  <li>$serendipity[‘feedCustom’]: URL of a location to redirect feedreaders to</li>
-  <li>$serendipity[‘feedForceCustom’]: Whether to force visitors to the redirected feed location even if they call the internal rss.php file</li>
-  <li>$serendipity[‘magick’]: Boolean whether to use imagemagick for converting images</li>
-  <li>$serendipity[‘convert’]: Path to imagemagick binary</li>
-  <li>$serendipity[‘thumbSuffix’]: Suffix to append to converted image thumbnails</li>
-  <li>$serendipity[‘thumbSize’]: Maximum Thumbnail dimension</li>
-  <li>$serendipity[‘thumbConstraint’]: What to apply the maximum thumbnail dimension to</li>
-  <li>$serendipity[‘maxFileSize’]: Maximum file size of uploaded files</li>
-  <li>$serendipity[‘maxImgWidth’]: Maximum width for uploaded images</li>
-  <li>$serendipity[‘maxImgHeight’]: Maximum height for uploaded images</li>
-  <li>$serendipity[‘uploadResize’]: Boolean whether to resize images to maximum size before uploading</li>
-  <li>$serendipity[‘onTheFlySynch’]: Boolean whether every call to the media database checks for updated files</li>
-  <li>$serendipity[‘dynamicResize’]: Whether to allow frontend visitors to resize thumbnails on demand</li>
-  <li>$serendipity[‘mediaExif’]: Whether to parse EXIF information of uploaded files</li>
-  <li>$serendipity[‘mediaProperties’]: Which meta information shall be available in the media database</li>
-  <li>$serendipity[‘mediaKeywords’]: Specifies a list of available keywords to tag media files with</li>
+  <li><code>$serendipity['dbNames']</code>: Boolean whether to use “SET NAMES” charset directive in database layer</li>
+  <li><code>$serendipity['uploadPath']</code>: Path to “uploads” directory</li>
+  <li><code>$serendipity['templatePath']</code>: Path to “templates” directory”</li>
+  <li><code>$serendipity['uploadHTTPPath']</code>: URL-path to “uploads” directory</li>
+  <li><code>$serendipity['autodetect_baseURL']</code>: Boolean whether to enable autodetection of HTPP host name</li>
+  <li><code>$serendipity['defaultBaseURL']</code>: When HTTP-Hostname autodetection is turned off, contains the default URL to Serendipity</li>
+  <li><code>$serendipity['indexFile']</code>: Name to index.php (used for <a href="embedding.html">Embedded Installation</a>)</li>
+  <li><code>$serendipity['permalinkStructure']</code>: Permalink for archives/ patterns</li>
+  <li><code>$serendipity['permalinkAuthorStructure']</code>: Permalink for authors/ patterns</li>
+  <li><code>$serendipity['permalinkCategoryStructure']</code>: Permalink for categories/ patterns</li>
+  <li><code>$serendipity['permalinkFeedAuthorStructure']</code>: Permalink for feeds/authors/ patterns</li>
+  <li><code>$serendipity['permalinkFeedCategoryStructure']</code>: Permalink for feeds/categories/ patterns</li>
+  <li><code>$serendipity['permalinkArchivesPath']</code>: URL path for “archives view” detection</li>
+  <li><code>$serendipity['permalinkArchivePath']</code>: URL path for “single entry” detection</li>
+  <li><code>$serendipity['permalinkCategoriesPath']</code>: URL path for “category view” detection</li>
+  <li><code>$serendipity['permalinkFeedsPath']</code>: URL path for “RSS feed” detection</li>
+  <li><code>$serendipity['permalinkPluginPath']</code>: URL path for “external plugin” detection</li>
+  <li><code>$serendipity['permalinkSearchPath']</code>: URL path for “search” detection</li>
+  <li><code>$serendipity['permalinkAdminPath']</code>: URL path for “administration” detection</li>
+  <li><code>$serendipity['permalinkAuthorsPath']</code>: URL path for “author view” detection</li>
+  <li><code>$serendipity['permalinkCommentsPath']</code>: URL path for “comments” detection</li>
+  <li><code>$serendipity['permalinkUnsubscribePath']</code>: URL path for “unsubscribe comment” detection</li>
+  <li><code>$serendipity['permalinkDeletePath']</code>: URL path for “delete comment” detection</li>
+  <li><code>$serendipity['permalinkApprovePath']</code>: URL path for “approve comment” detection</li>
+  <li><code>$serendipity['blogTitle']</code>: Title of Blog</li>
+  <li><code>$serendipity['blogDescription']</code>: Subtitle of Blog</li>
+  <li><code>$serendipity['blogMail']</code>: E-Mail address of Blog (sending/receiving)</li>
+  <li><code>$serendipity['allowSubscriptions']</code>: Boolean whether to allow users to subscribe to comments via email</li>
+  <li><code>$serendipity['allowSubscriptionsOptIn']</code>: Boolean whether comment subscription requires opt-in confirmation</li>
+  <li><code>$serendipity['useCommentTokens']</code>: Boolean whether to allow approving/deleting comments to the author of entries via email</li>
+  <li><code>$serendipity['calendar']</code>: Which calendar to use</li>
+  <li><code>$serendipity['lang_content_negotiation']</code>: Boolean whether user’s browser-language is used</li>
+  <li><code>$serendipity['enablePluginACL']</code>: Boolean whether configuration of plugins applies permission checks</li>
+  <li><code>$serendipity['updateCheck']</code>: Boolean whether performing update checks is allowed</li>
+  <li><code>$serendipity['archiveSortStable']</code>: Boolean whether pagination URLs start with the pages enumerated from first or last page</li>
+  <li><code>$serendipity['searchsort']</code>: Default sort order for sorting search results</li>
+  <li><code>$serendipity['enforce_RFC2616']</code>: Boolean whether for RSS feeds Conditional Get may be used (see <a href="configuration.html#docs-appearance-and-options">Configuration</a>)</li>
+  <li><code>$serendipity['useGzip']</code>: Boolean whether gzip’ing pages is enabled</li>
+  <li><code>$serendipity['enablePopup']</code>: Boolean whether Popups are used in the Frontend (depends on the theme)</li>
+  <li><code>$serendipity['embed']</code>: Boolean whether embedded mode is enabled (see <a href="configuration.html#docs-appearance-and-options">Configuration</a>)</li>
+  <li><code>$serendipity['top_as_links']</code>: Boolean whether links outputted by exit/referrer tracking are clickable (anti-spam)</li>
+  <li><code>$serendipity['trackReferer']</code>: Boolean whether referrer tracking is enabled</li>
+  <li><code>$serendipity['blogReferer']</code>: List of referrer URL patters that shall be blocked</li>
+  <li><code>$serendipity['useServerOffset']</code>: Boolean whether the timezone of the server and the authors differs</li>
+  <li><code>$serendipity['serverOffsetHours']</code>: How many hours timezone difference are between server and authors</li>
+  <li><code>$serendipity['showFuturEentries']</code>: Whether to show entries from the future</li>
+  <li><code>$serendipity['enableACL']</code>: Boolean whether access-control checks are performed for entries, categories and media database items</li>
+  <li><code>$serendipity['feedFull']</code>: Affects how entries are displayed in RSS feeds</li>
+  <li><code>$serendipity['feedBannerURL']</code>: SYNDICATION_PLUGIN_BANNERURL</li>
+  <li><code>$serendipity['feedBannerWidth']</code>: Width of banner image</li>
+  <li><code>$serendipity['feedBannerHeight']</code>: Height of banner image</li>
+  <li><code>$serendipity['feedShowMail']</code>: Whether to reveal authors email address in feeds</li>
+  <li><code>$serendipity['feedManagingEditor']</code>: Specify the managing editor of the feeds</li>
+  <li><code>$serendipity['feedWebmaster']</code>: Specify the webmaster of the feeds</li>
+  <li><code>$serendipity['feedTtl']</code>: Specify the “time to live” on how often content gets updated</li>
+  <li><code>$serendipity['feedPubDate']</code>: Whether to embed the publication date of a feed</li>
+  <li><code>$serendipity['feedCustom']</code>: URL of a location to redirect feedreaders to</li>
+  <li><code>$serendipity['feedForceCustom']</code>: Whether to force visitors to the redirected feed location even if they call the internal rss.php file</li>
+  <li><code>$serendipity['magick']</code>: Boolean whether to use ImageMagick for converting images</li>
+  <li><code>$serendipity['convert']</code>: Path to ImageMagick binary</li>
+  <li><code>$serendipity['thumbSuffix']</code>: Suffix to append to converted image thumbnails</li>
+  <li><code>$serendipity['thumbSize']</code>: Maximum Thumbnail dimension</li>
+  <li><code>$serendipity['thumbConstraint']</code>: What to apply the maximum thumbnail dimension to</li>
+  <li><code>$serendipity['maxFileSize']</code>: Maximum file size of uploaded files</li>
+  <li><code>$serendipity['maxImgWidth']</code>: Maximum width for uploaded images</li>
+  <li><code>$serendipity['maxImgHeight']</code>: Maximum height for uploaded images</li>
+  <li><code>$serendipity['uploadResize']</code>: Boolean whether to resize images to maximum size before uploading</li>
+  <li><code>$serendipity['onTheFlySynch']</code>: Boolean whether every call to the media database checks for updated files</li>
+  <li><code>$serendipity['dynamicResize']</code>: Whether to allow Frontend visitors to resize thumbnails on demand</li>
+  <li><code>$serendipity['mediaExif']</code>: Whether to parse EXIF information of uploaded files</li>
+  <li><code>$serendipity['mediaProperties']</code>: Which meta information shall be available in the media database</li>
+  <li><code>$serendipity['mediaKeywords']</code>: Specifies a list of available keywords to tag media files with</li>
 </ul>
 
 <h5 id="docs-personal-configuration">Personal Configuration</h5>
 
 <ul>
-  <li>$serendipity[‘wysiwyg’]: Whether to use WYSIWYG editor</li>
-  <li>$serendipity[‘wysiwygToolbar’]: Defines the toolbar palette of the WYSIWYG editor</li>
-  <li>$serendipity[‘mail_comments’]: Boolean whether a user receives comments to his entries via mail</li>
-  <li>$serendipity[‘mail_trackbacks’]: Boolean whether a user receives trackbacks to his entries via mail</li>
-  <li>$serendipity[‘no_create’]: If set, the author has no write permissions to anything in the backend</li>
-  <li>$serendipity[‘right_publish’]: Boolean to indicate if an author may publish entries (or only drafts)</li>
-  <li>$serendipity[‘simpleFilters’]: Boolean whether simplified media and entry filter toolbars are shown</li>
-  <li>$serendipity[‘enableBackendPopup’]: Boolean whether popups in the backend are shown inline or as “real” popups</li>
-  <li>$serendipity[‘moderateCommentsDefault’]: Boolean to indicate if new entries are moderated by default</li>
-  <li>$serendipity[‘allowCommentsDefault’]: Boolean to indicate if new entries are able to be commented by default</li>
-  <li>$serendipity[‘publishDefault’]: Indicates if new entries are saved as drafts or publish</li>
-  <li>$serendipity[‘showMediaToolbar’]: Boolean whether to show toolbars for media library even in “picker” mode</li>
-  <li>$serendipity[‘use_autosave’]: Boolean to indicate if browser’s autosave feature is used for entries</li>
+  <li><code>$serendipity['wysiwyg']</code>: Whether to use the WYSIWYG editor</li>
+  <li><code>$serendipity['wysiwygToolbar']</code>: Defines the toolbar palette of the WYSIWYG editor</li>
+  <li><code>$serendipity['mail_comments']</code>: Boolean whether a user receives comments to his entries via mail</li>
+  <li><code>$serendipity['mail_trackbacks']</code>: Boolean whether a user receives trackbacks to his entries via mail</li>
+  <li><code>$serendipity['no_create']</code>: If set, the author has no write permissions to anything in the Backend</li>
+  <li><code>$serendipity['right_publish']</code>: Boolean to indicate if an author may publish entries (or only drafts)</li>
+  <li><code>$serendipity['simpleFilters']</code>: Boolean whether simplified media and entry filter toolbars are shown</li>
+  <li><code>$serendipity['enableBackendPopup']</code>: Boolean whether popups in the Backend are shown inline or as “real” popups</li>
+  <li><code>$serendipity['moderateCommentsDefault']</code>: Boolean to indicate if new entries are moderated by default</li>
+  <li><code>$serendipity['allowCommentsDefault']</code>: Boolean to indicate if new entries are able to be commented by default</li>
+  <li><code>$serendipity['publishDefault']</code>: Indicates if new entries are saved as drafts or publish</li>
+  <li><code>$serendipity['showMediaToolbar']</code>: Boolean whether to show toolbars for media library even in “picker” mode</li>
+  <li><code>$serendipity['use_autosave']</code>: Boolean to indicate if browser’s autosave feature is used for entries</li>
 </ul>
 
 <h4 id="docs-important-api-functions">Important API functions</h4>
 
 <p>We have created separate bundles for specific API functions. An overview of most relevant functions and where they are defined can be found here:</p>
 
-<p><a href="./functions.html">List of Important API functions</a></p>
+<p><a href="functions.html">List of Important API functions</a></p>
 
 <h4 id="docs-error-handling">Error-Handling</h4>
 
-<p>By default, Serendipity sets the PHP error_reporting() to E_ALL without E_NOTICE and E_STRICT to prevent unnecessary PHP error output. When $serendipity[‘production’] is set to “Debug”, E_STRICT errors will be shown.</p>
+<p>By default, Serendipity sets the PHP error_reporting() to E_ALL without E_NOTICE and E_STRICT to prevent unnecessary PHP error output. When $serendipity['production'] is set to “Debug”, E_STRICT errors will be shown.</p>
 
-<p>Serendipity uses a default errorhandler (configured as $serendipity[‘errorhandler’], by default set to “errorToExceptionHandler” (defined in include/compat.inc.php). This will take care of emitting all error messages, and also ignore specific warnings that can be dealt with.</p>
+<p>Serendipity uses a default errorhandler (configured as $serendipity['errorhandler'], by default set to “errorToExceptionHandler” (defined in “include/compat.inc.php”). This will take care of emitting all error messages, and also ignore specific warnings that can be dealt with.</p>
 
-<p>You can overwrite such an errorhandler in your serendipity_config_local.inc.php file by implementing your own function.</p>
+<p>You can overwrite such an errorhandler in your “serendipity_config_local.inc.php” file by implementing your own function.</p>
 
 <h3 id="docs-frontend-routing-indexphp">Frontend-Routing: index.php</h3>
 
-<p>All of our frontend routing is performed through the “index.php” file. Its code flow is like this:</p>
+<p>All of our Frontend routing is performed through the “index.php” file. Its code flow is like this:</p>
 
 <ol>
-  <li>Load serendipity_config.inc.php to initiate the frontend (load functions, languages, database layers, central configuration, user configuration)</li>
+  <li>Load “serendipity_config.inc.php” to initiate the Frontend (load functions, languages, database layers, central configuration, user configuration)</li>
   <li>Initialize Permalink patterns and lookup routines (serendipity_initPermalinks() and serendipity_permalinkPatterns()).</li>
   <li>Check what the current URL looks like and perform wanted action, parsing available parameters. Possibly execute plugins</li>
-  <li>Call include/genpage.inc.php to setup the output for the required Smarty templates</li>
+  <li>Call “include/genpage.inc.php” to setup the output for the required Smarty templates</li>
   <li>Initialize Smarty Framework, output template file</li>
 </ol>
 
@@ -539,35 +539,35 @@ print_r($entries);
 
 <h4 id="docs-archive-view">Archive view</h4>
 
-<p>The blog’s url http://www.example.com/archives/2019/10/28.html is called by the visitor.</p>
+<p>The Blog’s url “http://www.example.com/archives/2019/10/28.html” is called by the visitor.</p>
 
-<p>Through the .htaccess file, index.php get assigned to this page call. The index.php file instantiates the Serendipity framework by including the serendipity_config.inc.php file. It sets a view headers and sets up a few variables.</p>
+<p>Through the “.htaccess” file, “index.php” get assigned to this page call. The “index.php” file instantiates the Serendipity framework by including the “serendipity_config.inc.php” file. It sets a view headers and sets up a few variables.</p>
 
-<p>Now the central URL that was called is stored in $uri, and additional parameters (like the date: 2019-10-28) get evaluated and stored in $serendipity[‘uriArguments’].</p>
+<p>Now the central URL that was called is stored in <code>$uri</code>, and additional parameters (like the date: 2019-10-28) get evaluated and stored in <code>$serendipity['uriArguments']</code>.</p>
 
-<p>Now, multiple regular expressions check the $uri for each possible scenario that could happen. This means, the central PAT_ARCHIVES rule will evaluate true, and execute its workflow.</p>
+<p>Now, multiple regular expressions check the <code>$uri</code> for each possible scenario that could happen. This means, the central PAT_ARCHIVES rule will evaluate true, and execute its workflow.</p>
 
-<p>Inside this if-statement, the $serendipity[‘uriArguments’] are parsed and operated on, so that possible categories, authors, week formats, pagination numbers or others are recognized. Those variables are stored in parameters like <code>$serendipity['GET']['page']</code> (pagination) for example.</p>
+<p>Inside this if-statement, the <code>$serendipity['uriArguments']</code> are parsed and operated on, so that possible categories, authors, week formats, pagination numbers or others are recognized. Those variables are stored in parameters like <code>$serendipity['GET']['page']</code> (pagination) for example.</p>
 
-<p>In our case, the list only contains “2019”, “10” and “28”. Those are stored in the variables $year, $month and $day. According to the selected calendar (gregorian or persian) these variables are evaluated and passed along to $ts and $te. Those hold timestamps of the passed date minumum and maximum (here: 2019-10-28 00:00 to 2019-10-28 23:59).</p>
+<p>In our case, the list only contains “2019”, “10” and “28”. Those are stored in the variables <code>$year</code>, <code>$month</code> and <code>$day</code>. According to the selected calendar (gregorian or persian) these variables are evaluated and passed along to <code>$ts</code> and <code>$te</code>. Those hold timestamps of the passed date minumum and maximum (here: “2019-10-28 00:00 to “2019-10-28 23:59).</p>
 
-<p>Once all variables are setup, include/genpage.inc.php is called to create the usual frontend view. This file checks based on $serendipity[‘view’] which output and smarty template files it needs to call, executes possible event plugins that listen on events, and after that, assign all data to the requested smarty template.</p>
+<p>Once all variables are setup, “include/genpage.inc.php” is called to create the usual Frontend view. This file checks based on <code>$serendipity['view']</code> which output and Smarty template files it needs to call, executes possible event plugins that listen on events, and after that, assign all data to the requested Smarty template.</p>
 
-<p>This output is then emitted as $data from index.php to the browser.</p>
+<p>This output is then emitted as <code>$data</code> from “index.php” to the browser.</p>
 
 <h4 id="docs-external-plugin">External plugin</h4>
 
-<p>The routing for executing a plugin like http://www.example.com/pages/a-pagetitle.html to match a staticpage plugin’s output is very similar to the example above.</p>
+<p>The routing for executing a plugin like “http://www.example.com/pages/a-pagetitle.html” to match a staticpage plugin’s output is very similar to the example above.</p>
 
-<p>The difference is that in this case the usual routing in index.php finds no specific pattern, and then goes to the “404” routing view. Once include/genpage.inc.php operates on that page, the plugin API event hook “genpage” is executed. The staticpage plugin has registered this event hook, and performs routines on its database tables to see if there is an entry that matches the currentl url. If that is the case, it adjusts the serendipity output and passes over its content.</p>
+<p>The difference is that in this case the usual routing in “index.php” finds no specific pattern, and then goes to the “404” routing view. Once “include/genpage.inc.php” operates on that page, the plugin API event hook “genpage” is executed. The staticpage plugin has registered this event hook, and performs routines on its database tables to see if there is an entry that matches the current URL. If that is the case, it adjusts the serendipity output and passes over its content.</p>
 
-<h3 id="docs-backend-routing-serendipity_adminphp">Backend-Routing: serendipity_admin.php</h3>
+<h3 id="docs-backend-routing-serendipity_adminphp">Backend-Routing: “serendipity_admin.php”</h3>
 
-<p>For the Serendipity backend, all HTTP calls are routed through serendipity_admin.php. This file instantiates the Serendipity framework, sets up a couple of variables and then performs a central lookup on the URL GET (or POST) variable ?serendipity[adminModule]=XXX. Before each module is included from the file in include/admin/XXX.inc.php, Serendipity performs permission checks to see if the user is authorized to access the given module.</p>
+<p>For the Serendipity Backend, all HTTP calls are routed through “serendipity_admin.php”. This file instantiates the Serendipity framework, sets up a couple of variables and then performs a central lookup on the URL GET (or POST) variable “?serendipity[adminModule]=XXX”. Before each module is included from the file in “include/admin/XXX.inc.php”, Serendipity performs permission checks to see if the user is authorized to access the given module.</p>
 
-<p>Each of the modules (see below) performs their specific actions and evaluate the URL variable ?serendipity[adminAction] to see, which action is performed (like creating an entry, updating an entry, viewing entries, etc.).</p>
+<p>Each of the modules (see below) performs their specific actions and evaluate the URL variable “?serendipity[adminAction]” to see, which action is performed (like creating an entry, updating an entry, viewing entries, etc.).</p>
 
-<p>Each module passes its output and rendering data to a backend smarty template file, which gets saved in $main_content through output-buffering and finally assigns this output to Smarty and displays the admin/index.tpl template file.</p>
+<p>Each module passes its output and rendering data to a Backend Smarty template file, which gets saved in <code>$main_content</code> through output-buffering and finally assigns this output to Smarty and displays the “admin/index.tpl” template file.</p>
 
 <h4 id="docs-backend-modules">Backend Modules</h4>
 
@@ -582,7 +582,7 @@ print_r($entries);
   <li><strong>groups.inc.php</strong>: Group / Access mangement</li>
   <li><strong>images.inc.php</strong>: Media database</li>
   <li><strong>import.inc.php</strong>: Import/Export</li>
-  <li><strong>maintenance.inc.php</strong>: Maintenance of the blog</li>
+  <li><strong>maintenance.inc.php</strong>: Maintenance of the Blog</li>
   <li><strong>overview.inc.php</strong>: The central dashboard</li>
   <li><strong>personal.inc.php</strong>: Personal preferences</li>
   <li><strong>plugins.inc.php</strong>: Plugin management</li>
@@ -593,7 +593,7 @@ print_r($entries);
 
 <h4 id="docs-importers--exporters">Importers / Exporters</h4>
 
-<p>Serendipity supports importing from a lot of different systems. Each system is handled through a unified process put into their own files in the include/admin/importers/ directory.</p>
+<p>Serendipity supports importing from a lot of different systems. Each system is handled through a unified process put into their own files in the “include/admin/importers/” directory.</p>
 
 <p>Each of those files is named like the system they stem from:</p>
 
@@ -622,17 +622,17 @@ print_r($entries);
   <li><strong>generic.inc.php</strong>: Import through a generic RSS feed</li>
 </ul>
 
-<p>All files simple implement their own Class that extends from Serendipity_Import and uses those methods. A good example is the serendipity.inc.php file for a Serendipity importer.</p>
+<p>All files simple implement their own class that extends from Serendipity_Import and uses those methods. A good example is the “serendipity.inc.php” file for a Serendipity importer.</p>
 
 <ul>
-  <li>getImportNotes: Displays specific information about what the importer does</li>
-  <li>Serendipity_Import_Serendipity (Constructor): Defines input GET/POST data as $this-&gt;data and popuplates $this-&gt;inputFields with a list of configuration options that the importer offers</li>
-  <li>validateData: Checks if all fields are popuplated</li>
-  <li>getInputFields: Wrapper function to return $this-&gt;inputFields (or custom variables)</li>
-  <li>import: Central function that is called, can access input data through $this-&gt;data.</li>
+  <li><strong>getImportNotes</strong>: Displays specific information about what the importer does</li>
+  <li><strong>Serendipity_Import_Serendipity</strong> (Constructor): Defines input GET/POST data as <code>$this-&gt;data</code> and populates <code>$this-&gt;inputFields</code> with a list of configuration options that the importer offers</li>
+  <li><strong>validateData</strong>: Checks if all fields are populated</li>
+  <li><strong>getInputFields</strong>: Wrapper function to return <code>$this-&gt;inputFields</code> (or custom variables)</li>
+  <li><strong>import</strong>: Central function that is called, can access input data through <code>$this-&gt;data</code>.</li>
 </ul>
 
-<p>A class can now implement as many helper functions as it needs; the Serendipity importer uses one method for each kind of metadata it imports: import_cat, import_groups, import_authors and so on. All data is popuplated through another helper function import_table that performs the SQL queries for copying over data.</p>
+<p>A class can now implement as many helper functions as it needs; The Serendipity importer uses one method for each kind of metadata it imports: import_cat, import_groups, import_authors and so on. All data is populated through another helper function import_table that performs the SQL queries for copying over data.</p>
 
 <h3 id="docs-plugins">Plugins</h3>
 
@@ -640,31 +640,31 @@ print_r($entries);
 
 <p><strong>Event-Plugins</strong> are plugins that perform functionality based on events which are “fired” from the core on specific places, like when an entry is displayed, when an entry is saved and so on.</p>
 
-<p><strong>Sidebar-Plugins</strong> are simple output plugins that are displayed on the frontend of your blog within a sidebar or footer, or header.</p>
+<p><strong>Sidebar-Plugins</strong> are simple output plugins that are displayed on the Frontend of your Blog within a sidebar or footer, or header.</p>
 
-<p>Both kinds of plugins can be enabled through the Admin interface, and they can be put into a custom order. For sidebar plugins the order simply visually arranges the output of plugins. For event plugins, the order indicates which plugin gets executed first, which can in turn influence the “pipeline” of plugins coming after that. This is mostly important for Markup plugins that affect the rendering of blog entries: If one event plugin takes care of translating glossary terms to full links, and another plugin is used to mark internal and external links graphically, it would be important the the glossary plugin gets executed first, so that the link-marking plugin can also take care of glossary links. There is no “proper” order of plugins, it all depends on the specific combination of these.</p>
+<p>Both kinds of plugins can be enabled through the Admin interface, and they can be put into a custom order. For sidebar plugins the order simply visually arranges the output of plugins. For event plugins, the order indicates which plugin gets executed first, which can in turn influence the “pipeline” of plugins coming after that. This is mostly important for Markup plugins that affect the rendering of Blog entries: If one event plugin takes care of translating glossary terms to full links, and another plugin is used to mark internal and external links graphically, it would be important the the glossary plugin gets executed first, so that the link-marking plugin can also take care of glossary links. There is no “proper” order of plugins, it all depends on the specific combination of these.</p>
 
-<p>A plugin is defined by the files in the plugins/ subdirectory. Each plugin has its own distinct directory name which must conform to a prefix “serendipity_plugin_XXX” for sidebar plugins and “serendipity_event_XXX” for event plugins. The same name must then be repeated as the filename of the .php file within that directory.</p>
+<p>A plugin is defined by the files in the plugins/ subdirectory. Each plugin has its own distinct directory name which must conform to a prefix “serendipity_plugin_XXX” for sidebar plugins and “serendipity_event_XXX” for event plugins. The same name must then be repeated as the filename of the “.php” file within that directory.</p>
 
 <p>Plugin files within those directories are then only loaded, if you have activated/installed that plugin through the Admin interface.</p>
 
-<p>To see how the plugin files must be coded, please refer to our <a href="./plugin-api.html">Plugin API Documentation</a>.</p>
+<p>To see how the plugin files must be coded, please refer to our <a href="plugin-api.html">Plugin API Documentation</a>.</p>
 
 <h3 id="docs-themes">Themes</h3>
 
-<p>Historically, Serendipity used the term “Theme”, “Template” or “Style” to express the same term. We have tried to completely remove the term “Style”, and now use “Theme” to describe a collection of single smarty template files.</p>
+<p>Historically, Serendipity used the term “Theme”, “Template” or “Style” to express the same term. We have tried to completely remove the term “Style”, and now use “Theme” to describe a collection of single Smarty template files.</p>
 
 <p>So whenever we say “Theme”, we mean that what an end-user selects to affect output. And when we say “Template”, we refer to an actual, single file.</p>
 
-<p>Our themes are built upon single Smarty template files. Each file is responsible for a specific aspect of frontend or backend display. Serendipity implements both frontend and backend themes, so that you can basically build your own backend. The drawback to building a custom backend of course is, that anytime we add new functionality, we only add this to our internal default theme. We suggest to only make visual changes on the CSS side of things, unless you know what you are doing.</p>
+<p>Our themes are built upon single Smarty template files. Each file is responsible for a specific aspect of Frontend or Backend display. Serendipity implements both Frontend and Backend themes, so that you can basically build your own Backend. The drawback to building a custom Backend of course is, that anytime we add new functionality, we only add this to our internal default theme. We suggest to only make visual changes on the CSS side of things, unless you know what you are doing.</p>
 
-<p>A description for how themes are built, which variables they refer to please check the <a href="./themes.html">Theme Documentation</a>.</p>
+<p>A description for how themes are built, which variables they refer to please check the <a href="themes.html">Theme Documentation</a>.</p>
 
 <h3 id="docs-coding-guidelines">Coding Guidelines</h3>
 
-<p>Serendipity has been around since 2002, and code has been gradually built upon the same core. This has advantages (stability, adaptibility, compatibility), and also disadvantages (“old flair”, mixed code patterns).</p>
+<p>Serendipity has been around since 2002, and code has been gradually built upon the same core. This has advantages (stability, adaptability, compatibility), and also disadvantages (“old flair”, mixed code patterns).</p>
 
-<p>Most notably it shows that Serendipity does not use specific object-oriented patterns (asside from the Plugin API), and adheres to functional approaches. This has the advantage of being really easy to understand and read.</p>
+<p>Most notably it shows that Serendipity does not use specific object-oriented patterns (aside from the Plugin API), and adheres to functional approaches. This has the advantage of being really easy to understand and read.</p>
 
 <p><strong>Versioning</strong>:</p>
 <ul>
@@ -683,13 +683,13 @@ print_r($entries);
     <ul>
       <li>they are broken and no longer work, maybe because depending on external functionality that is no longer available</li>
       <li>there are critical issues with a plugin and no maintainer can be found</li>
-      <li>there are bettter plugins that provide the same functionality</li>
+      <li>there are better plugins that provide the same functionality</li>
     </ul>
     </li>
 
     <li>By removing them from Spartacus, users who have the plugin installed (and because of any reason want to keep using them) could do that, because Serendipity would not delete them.</li>
 
-    <li>When a plugin is removed from Spartacus, the development team will  write a blog announcement post to inform users who have the plugin installed so that they can remove them themselves (or maybe even better, volunteer to fix/improve it).</li>
+    <li>When a plugin is removed from Spartacus, the development team will  write a Blog announcement post to inform users who have the plugin installed so that they can remove them themselves (or maybe even better, volunteer to fix/improve it).</li>
 
     <li>If users find plugins that no longer work and should be marked as deprecated, please report this on our issue tracker or on the forums, so that we can take action.</li>
 </ul>
@@ -715,9 +715,9 @@ function serendipity_function($var1, $var2, $var3) {
   <li>Prefix framework function names with serendipity_ and after that, use camelCase naming</li>
   <li>Try to use camelCase naming for new variables (currently, there is a mixture of function/variable names with underscore characters and camelCasing)</li>
   <li>Always escape HTML output of unsafe user input with serendipity_specialchars()</li>
-  <li>If your code/plugin uses administrative tasks in the backend, make sure you use the serendipityFormToken() functions to protect against XSRF.</li>
-  <li>Always escape database input of unsafe user input with either implicit typecasting (int)$_REQUEST[‘var’] or serendipity_db_escape_string()</li>
-  <li>Write database-agnostic standard SQL wherever possible; if you require database-specific SQL, add codeforks with a switch($serendipity[‘dbType’]) statement.</li>
+  <li>If your code/plugin uses administrative tasks in the Backend, make sure you use the serendipityFormToken() functions to protect against XSRF.</li>
+  <li>Always escape database input of unsafe user input with either implicit typecasting (int)$_REQUEST['var'] or serendipity_db_escape_string()</li>
+  <li>Write database-agnostic standard SQL wherever possible; If you require database-specific SQL, add codeforks with a switch($serendipity['dbType']) statement.</li>
   <li>Try to cache results that come from foreign URLs. If your plugins displays an RSS feed, it shouldn’t be fetched each execution cycle of the plugin, but rather only every X minutes. Provide a configuration option to let the user configure his own caching period.</li>
   <li>Always abstract any output messages with language constants. Always include an english language file of your plugin.</li>
   <li>If you enhance functionality of a plugin, please add a file called “ChangeLog” documenting changes. If you fix core code or add new functionality in the core, document this in docs/NEWS.</li>
