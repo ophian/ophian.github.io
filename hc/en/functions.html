@@ -98,162 +98,162 @@
                     <p>We have created separate bundles for specific API functions. An overview of most relevant functions and where they are defined can be found here:</p>
 
                     <ul>
-                      <li><em>include/functions.inc.php</em>: Most basic functions, includes bundles below.
+                      <li><strong><em>include/functions.inc.php</em></strong> : Most basic functions, includes bundles below.
                         <ul>
-                          <li>serendipity_strftime: Date output function, uses local timezone offset (if configured)</li>
-                          <li>serendipity_fetchTemplateInfo: Get information about a specific theme</li>
-                          <li>serendipity_walkRecursive: Recursively walks an 1-dimensional array to map parent IDs and depths, depending on the nested array set.</li>
-                          <li>serendipity_fetchUsers: Fetch the list of Serendipity Authors</li>
-                          <li>serendipity_fetchAuthor: Fetch user data for a specific Serendipity author</li>
-                          <li>serendipity_sendMail: Sends a Mail with Serendipity formatting</li>
-                          <li>serendipity_utf8_encode: Encode a string to UTF-8, if not already in UTF-8 format.</li>
+                          <li><span class="var">serendipity_strftime</span>: Date output function, uses local timezone offset (if configured)</li>
+                          <li><span class="var">serendipity_fetchTemplateInfo</span>: Get information about a specific theme</li>
+                          <li><span class="var">serendipity_walkRecursive</span>: Recursively walks an 1-dimensional array to map parent IDs and depths, depending on the nested array set.</li>
+                          <li><span class="var">serendipity_fetchUsers</span>: Fetch the list of Serendipity Authors</li>
+                          <li><span class="var">serendipity_fetchAuthor</span>: Fetch user data for a specific Serendipity author</li>
+                          <li><span class="var">serendipity_sendMail</span>: Sends a Mail with Serendipity formatting</li>
+                          <li><span class="var">serendipity_utf8_encode</span>: Encode a string to UTF-8, if not already in UTF-8 format.</li>
                         </ul>
                       </li>
-                      <li><em>include/compat.inc.php</em>: Evaluates PHP runtime environment, operate on core variables (i.e. POST/GET short vars, magic quotes), define the error handler.
+                      <li><strong><em>include/compat.inc.php</em></strong> : Evaluates PHP runtime environment, operate on core variables (i.e. POST/GET short vars, magic quotes), define the error handler.
                         <ul>
-                          <li>serendipity_die: Outputs a fatal error</li>
-                          <li>errorToExceptionHandler: Handles PHP errors</li>
-                          <li>serendipity_specialchars: Drop-in replacement of htmlspecialchars() to deal with different charsets</li>
-                          <li>serendipity_entities: Drop-in replacement of htmlentities()</li>
-                          <li>serendipity_entity_decode: Drop-in replacement of html_entity_decode()</li>
+                          <li><span class="var">serendipity_die</span>: Outputs a fatal error</li>
+                          <li><span class="var">errorToExceptionHandler</span>: Handles PHP errors</li>
+                          <li><span class="var">serendipity_specialchars</span>: Drop-in replacement of htmlspecialchars() to deal with different charsets</li>
+                          <li><span class="var">serendipity_entities</span>: Drop-in replacement of htmlentities()</li>
+                          <li><span class="var">serendipity_entity_decode</span>: Drop-in replacement of html_entity_decode()</li>
                         </ul>
                       </li>
-                      <li><em>include/functions_calenders.inc.php</em>: Calendar / time calculation</li>
-                      <li><em>include/functions_comments</em>: Comment functionality
+                      <li><strong><em>include/functions_calenders.inc.php</em></strong> : Calendar / time calculation</li>
+                      <li><strong><em>include/functions_comments</em></strong> : Comment functionality
                         <ul>
-                          <li>serendipity_displayCommentForm: Display the Comment form for entries</li>
-                          <li>serendipity_fetchComments: Fetch an array of comments to a specific entry id</li>
-                          <li>serendipity_generateCommentList: Create a HTML SELECT dropdown field which represents all hierarchical comments</li>
-                          <li>serendipity_printComments: Print a list of comments to an entry</li>
-                          <li>serendipity_insertComment, serendipity_saveComment: Store the comment made by a visitor in the database</li>
-                          <li>serendipity_sendComment: Send a comment notice to the admin/author of an entry</li>
+                          <li><span class="var">serendipity_displayCommentForm</span>: Display the Comment form for entries</li>
+                          <li><span class="var">serendipity_fetchComments</span>: Fetch an array of comments to a specific entry id</li>
+                          <li><span class="var">serendipity_generateCommentList</span>: Create a HTML SELECT dropdown field which represents all hierarchical comments</li>
+                          <li><span class="var">serendipity_printComments</span>: Print a list of comments to an entry</li>
+                          <li><span class="var"><serendipity_insertComment/span>, <span class="var">serendipity_saveComment</span>: Store the comment made by a visitor in the database</li>
+                          <li><span class="var">serendipity_sendComment</span>: Send a comment notice to the admin/author of an entry</li>
                         </ul>
                       </li>
-                      <li><em>include/functions_config.inc.php</em>: Central functions for user-specific actions and internal routing / authentication
+                      <li><strong><em>include/functions_config.inc.php</em></strong> : Central functions for user-specific actions and internal routing / authentication
                         <ul>
-                          <li>serendipity_set_config_var: Sets a configuration value for the Serendipity Configuration</li>
-                          <li>serendipity_get_config_var: Retrieve a global configuration value for a specific item of the current Serendipity Configuration</li>
-                          <li>serendipity_get_user_config_var: Retrieve an author-specific configuration value for an item of the Serendipity Configuration stored in the DB</li>
-                          <li>serendipity_get_user_var: Retrieves an author-specific account value</li>
-                          <li>serendipity_set_user_var: Updates data from the author-specific account</li>
-                          <li>serendipity_getTemplateFile: Gets the full filename and path of a template file</li>
-                          <li>serendipity_load_configuration: Loads all configuration values and imports them to the $serendipity array</li>
-                          <li>serendipity_logout: Perform logout functions (destroys session data)</li>
-                          <li>serendipity_login: Perform login to Serendipity</li>
-                          <li>serendipity_authenticate_author: Perform user authentication routine</li>
-                          <li>serendipity_userLoggedIn: Check if a user is logged in</li>
-                          <li>serendipity_setCookie: Set a Cookie via HTTP calls, and update $_COOKIE plus $serendipity[‘COOKIE’] array.</li>
-                          <li>serendipity_getPermissions: Retrieves an array of applying permissions to an author</li>
-                          <li>serendipity_getPermissionNames: Returns the list of available internal Serendipity permission field names</li>
-                          <li>serendipity_checkPermission: Checks if a permission is granted to a specific author</li>
-                          <li>serendipity_getAllGroups: Returns all authorgroups that are available</li>
-                          <li>serendipity_fetchGroup: Fetch the permissions of a certain group</li>
-                          <li>serendipity_getGroups: Gets all groups a user is a member of</li>
-                          <li>serendipity_getGroupUsers: Gets all author IDs of a specific group</li>
-                          <li>serendipity_ACLGrant:  Allow access to a specific item (category or entry) for a specific usergroup</li>
-                          <li>serendipity_ACLGet: Checks if a specific item (category or entry) can be accessed by a specific usergroup</li>
-                          <li>serendipity_ACLCheck: Checks if a specific item (category or entry) can be accessed by a specific Author</li>
-                          <li>serendipity_checkFormToken: Prevent XSRF attacks by checking for a form token</li>
-                          <li>serendipity_setFormToken: Prevent XSRF attacks by setting a form token within HTTP Forms</li>
-                          <li>serendipity_loadThemeOptions: Load available/configured options for a specific theme (through config.inc.php of a template directory) into an array.</li>
-                          <li>serendipity_loadGlobalThemeOptions: Load global available/configured options for a specific theme into an array.</li>
-                          <li>serendipity_hash: Return the SHA1 (with pre-hash) of a value (for storing passwords)</li>
+                          <li><span class="var">serendipity_set_config_var</span>: Sets a configuration value for the Serendipity Configuration</li>
+                          <li><span class="var">serendipity_get_config_var</span>: Retrieve a global configuration value for a specific item of the current Serendipity Configuration</li>
+                          <li><span class="var">serendipity_get_user_config_var</span>: Retrieve an author-specific configuration value for an item of the Serendipity Configuration stored in the DB</li>
+                          <li><span class="var">serendipity_get_user_var</span>: Retrieves an author-specific account value</li>
+                          <li><span class="var">serendipity_set_user_var</span>: Updates data from the author-specific account</li>
+                          <li><span class="var">serendipity_getTemplateFile</span>: Gets the full filename and path of a template file</li>
+                          <li><span class="var">serendipity_load_configuration</span>: Loads all configuration values and imports them to the $serendipity array</li>
+                          <li><span class="var">serendipity_logout</span>: Perform logout functions (destroys session data)</li>
+                          <li><span class="var">serendipity_login</span>: Perform login to Serendipity</li>
+                          <li><span class="var">serendipity_authenticate_author</span>: Perform user authentication routine</li>
+                          <li><span class="var">serendipity_userLoggedIn</span>: Check if a user is logged in</li>
+                          <li><span class="var">serendipity_setCookie</span>: Set a Cookie via HTTP calls, and update $_COOKIE plus $serendipity[‘COOKIE’] array.</li>
+                          <li><span class="var">serendipity_getPermissions</span>: Retrieves an array of applying permissions to an author</li>
+                          <li><span class="var">serendipity_getPermissionNames</span>: Returns the list of available internal Serendipity permission field names</li>
+                          <li><span class="var">serendipity_checkPermission</span>: Checks if a permission is granted to a specific author</li>
+                          <li><span class="var">serendipity_getAllGroups</span>: Returns all authorgroups that are available</li>
+                          <li><span class="var">serendipity_fetchGroup</span>: Fetch the permissions of a certain group</li>
+                          <li><span class="var">serendipity_getGroups</span>: Gets all groups a user is a member of</li>
+                          <li><span class="var">serendipity_getGroupUsers</span>: Gets all author IDs of a specific group</li>
+                          <li><span class="var">serendipity_ACLGrant</span>:  Allow access to a specific item (category or entry) for a specific usergroup</li>
+                          <li><span class="var">serendipity_ACLGet</span>: Checks if a specific item (category or entry) can be accessed by a specific usergroup</li>
+                          <li><span class="var">serendipity_ACLCheck</span>: Checks if a specific item (category or entry) can be accessed by a specific Author</li>
+                          <li><span class="var">serendipity_checkFormToken</span>: Prevent XSRF attacks by checking for a form token</li>
+                          <li><span class="var">serendipity_setFormToken</span>: Prevent XSRF attacks by setting a form token within HTTP Forms</li>
+                          <li><span class="var">serendipity_loadThemeOptions</span>: Load available/configured options for a specific theme (through config.inc.php of a template directory) into an array.</li>
+                          <li><span class="var">serendipity_loadGlobalThemeOptions</span>: Load global available/configured options for a specific theme into an array.</li>
+                          <li><span class="var">serendipity_hash</span>: Return the SHA1 (with pre-hash) of a value (for storing passwords)</li>
                         </ul>
                       </li>
-                      <li><em>include/functions_entries.inc.php</em>: Central functions for entry-related actions
+                      <li><strong><em>include/functions_entries.inc.php</em></strong> : Central functions for entry-related actions
                         <ul>
-                          <li>serendipity_fetchCategoryInfo: Return the category properties of a specific category</li>
-                          <li>serendipity_fetchEntryCategories: Fetch a list of all category properties to a specific entry ID</li>
-                          <li>serendipity_fetchEntries: Fetch a list of entries</li>
-                          <li>serendipity_fetchEntry: Fetch a single entry by a specific condition</li>
-                          <li>serendipity_fetchEntryData: Fetch special entry data and attach it to a superarray of entries.</li>
-                          <li>serendipity_fetchEntryProperties: Fetches additional entry properties for a specific entry ID</li>
-                          <li>serendipity_fetchCategories: Fetch a list of available categories for an author</li>
-                          <li>serendipity_printEntries: Passes the list of fetched entries from serendipity_fetchEntries() on to the Smarty layer</li>
-                          <li>serendipity_updertEntry: Inserts a new entry into the database or updates an existing entry</li>
-                          <li>serendipity_deleteEntry:  Delete an entry and everything that belongs to it (comments)</li>
+                          <li><span class="var">serendipity_fetchCategoryInfo</span>: Return the category properties of a specific category</li>
+                          <li><span class="var">serendipity_fetchEntryCategories</span>: Fetch a list of all category properties to a specific entry ID</li>
+                          <li><span class="var">serendipity_fetchEntries</span>: Fetch a list of entries</li>
+                          <li><span class="var">serendipity_fetchEntry</span>: Fetch a single entry by a specific condition</li>
+                          <li><span class="var">serendipity_fetchEntryData</span>: Fetch special entry data and attach it to a superarray of entries.</li>
+                          <li><span class="var">serendipity_fetchEntryProperties</span>: Fetches additional entry properties for a specific entry ID</li>
+                          <li><span class="var">serendipity_fetchCategories</span>: Fetch a list of available categories for an author</li>
+                          <li><span class="var">serendipity_printEntries</span>: Passes the list of fetched entries from serendipity_fetchEntries() on to the Smarty layer</li>
+                          <li><span class="var">serendipity_updertEntry</span>: Inserts a new entry into the database or updates an existing entry</li>
+                          <li><span class="var">serendipity_deleteEntry</span>:  Delete an entry and everything that belongs to it (comments)</li>
                         </ul>
                       </li>
-                      <li><em>include/functions_entries_admin.inc.php</em>: Central functions for operating on entries in the backend
+                      <li><strong><em>include/functions_entries_admin.inc.php</em></strong> : Central functions for operating on entries in the Backend
                         <ul>
-                          <li>serendipity_printEntryForm: Prints the form for editing/creating new blog entries</li>
-                          <li>serendipity_emit_htmlarea_code: Emits the WYSIWYG code for plugins and entries in the backend</li>
+                          <li><span class="var">serendipity_printEntryForm</span>: Prints the form for editing/creating new Blog entries</li>
+                          <li><span class="var">>serendipity_emit_htmlarea_code</span: Emits the WYSIWYG code for plugins and entries in the Backend</li>
                         </ul>
                       </li>
-                      <li><em>include/functions_images.inc.php</em>: Central functions for media/image handling
+                      <li><strong><em>include/functions_images.inc.php</em></strong> : Central functions for media/image handling
                         <ul>
-                          <li>serendipity_fetchImagesFromDatabase: Gets a list of media items from our media database</li>
-                          <li>serendipity_fetchImageFromDatabase: Fetch a specific media item from the mediadatabase</li>
-                          <li>serendipity_updateImageInDatabase: Update a media item</li>
-                          <li>serendipity_deleteImage: Delete a media item</li>
-                          <li>serendipity_fetchImages: Open a directory and fetch all existing media items</li>
-                          <li>serendipity_insertImageInDatabase: Insert a media item in the database</li>
-                          <li>serendipity_makeThumbnail: Create a thumbnail for an image</li>
-                          <li>serendipity_generateThumbs: Creates thumbnails for all images in the upload dir</li>
-                          <li>serendipity_syncThumbs: Check all existing thumbnails if they are the right size, insert missing thumbnails</li>
-                          <li>serendipity_functions_gd: Wrapper for GDLib functions</li>
-                          <li>serendipity_calculate_aspect_size: Calculate new size for an image, considering aspect ratio and constraint</li>
-                          <li>serendipity_displayImageList: Display the list of images in our database</li>
-                          <li>serendipity_killPath: Recursively delete a directory tree</li>
-                          <li>serendipity_traversePath: Recursively walk a directory tree</li>
-                          <li>serendipity_getImageData: Given a relative path to an image, construct an array containing all relevant information about that image in the file structure.</li>
-                          <li>serendipity_showMedia: Prints a media item</li>
+                          <li><span class="var">serendipity_fetchImagesFromDatabase</span>: Gets a list of media items from our media database</li>
+                          <li><span class="var">serendipity_fetchImageFromDatabase</span>: Fetch a specific media item from the media database</li>
+                          <li><span class="var">serendipity_updateImageInDatabase</span>: Update a media item</li>
+                          <li><span class="var">serendipity_deleteImage</span>: Delete a media item</li>
+                          <li><span class="var">serendipity_fetchImages</span>: Open a directory and fetch all existing media items</li>
+                          <li><span class="var">serendipity_insertImageInDatabase</span>: Insert a media item in the database</li>
+                          <li><span class="var">serendipity_makeThumbnail</span>: Create a thumbnail for an image</li>
+                          <li><span class="var">serendipity_generateThumbs</span>: Creates thumbnails for all images in the upload dir</li>
+                          <li><span class="var">serendipity_syncThumbs</span>: Check all existing thumbnails if they are the right size, insert missing thumbnails</li>
+                          <li><span class="var">serendipity_functions_gd</span>: Wrapper for GDLib functions</li>
+                          <li><span class="var">serendipity_calculate_aspect_size</span>: Calculate new size for an image, considering aspect ratio and constraint</li>
+                          <li><span class="var">serendipity_displayImageList</span>: Display the list of images in our database</li>
+                          <li><span class="var">serendipity_killPath</span>: Recursively delete a directory tree</li>
+                          <li><span class="var">serendipity_traversePath</span>: Recursively walk a directory tree</li>
+                          <li><span class="var">serendipity_getImageData</span>: Given a relative path to an image, construct an array containing all relevant information about that image in the file structure.</li>
+                          <li><span class="var">serendipity_showMedia</span>: Prints a media item</li>
                         </ul>
                       </li>
-                      <li><em>include/functions_installer.inc.php</em>: Central functions for installer/configuration
+                      <li><strong><em>include/functions_installer.inc.php</em></strong> : Central functions for installer/configuration
                         <ul>
-                          <li>serendipity_updateLocalConfig, serendipity_installFiles: Writes .htaccess and serendipity_config_local.inc.php</li>
-                          <li>serendipity_query_default: Check a default value of a config item from the configuration template files</li>
-                          <li>serendipity_parseTemplate: Parse a configuration template file</li>
-                          <li>serendipity_printConfigTemplate: Parses the configuration array and displays the configuration screen</li>
+                          <li><span class="var">serendipity_updateLocalConfig</span>, <span class="var">serendipity_installFiles</span>: Writes .htaccess and serendipity_config_local.inc.php</li>
+                          <li><span class="var">serendipity_query_default</span>: Check a default value of a config item from the configuration template files</li>
+                          <li><span class="var">serendipity_parseTemplate</span>: Parse a configuration template file</li>
+                          <li><span class="var">serendipity_printConfigTemplate</span>: Parses the configuration array and displays the configuration screen</li>
                         </ul>
                       </li>
-                      <li><em>include/functions_permalinks.inc.php</em>: Central functions for handling URL patterns
+                      <li><strong><em>include/functions_permalinks.inc.php</em></strong> : Central functions for handling URL patterns
                         <ul>
-                          <li>serendipity_makeFilename: Converts a string into a filename that can be used safely in HTTP URLs</li>
-                          <li>serendipity_searchPermalink: Search the reference to a specific permalink</li>
-                          <li>serendipity_rewriteURL: Uses logic to figure out how the URI should look, based on current rewrite rule</li>
-                          <li>serendipity_makePermalink:  Format a permalink according to the configured format</li>
-                          <li>serendipity_archiveURL, serendipity_authorURL, serendipity_categoryURL, serendipity_feedCategoryUrl, serendipity_feedAuthorURL: Create a permalink for specific permalink type</li>
-                          <li>serendipity_currentURL: Returns the URL to the current page that is being viewed</li>
-                          <li>serendipity_getUriArguments: Get the URI Arguments for the current HTTP Request</li>
+                          <li><span class="var">serendipity_makeFilename</span>: Converts a string into a filename that can be used safely in HTTP URLs</li>
+                          <li><span class="var">serendipity_searchPermalink</span>: Search the reference to a specific permalink</li>
+                          <li><span class="var">serendipity_rewriteURL</span>: Uses logic to figure out how the URI should look, based on current rewrite rule</li>
+                          <li><span class="var">serendipity_makePermalink</span>:  Format a permalink according to the configured format</li>
+                          <li><span class="var">serendipity_archiveURL</span>, <span class="var">serendipity_authorURL</span>, <span class="var">serendipity_categoryURL</span>, <span class="var">serendipity_feedCategoryUrl</span>, <span class="var">serendipity_feedAuthorURL</span>: Create a permalink for specific permalink type</li>
+                          <li><span class="var">serendipity_currentURL</span>: Returns the URL to the current page that is being viewed</li>
+                          <li><span class="var">serendipity_getUriArguments</span>: Get the URI Arguments for the current HTTP Request</li>
                         </ul>
                       </li>
-                      <li><em>include/functions_plugins_admin.inc.php</em>: Central functions for handling the plugins management backend
+                      <li><strong><em>include/functions_plugins_admin.inc.php</em></strong> : Central functions for handling the plugins management Backend
                         <ul>
-                          <li>serendipity_plugin_config: Show the plugin configuration, parses all available configuration types</li>
+                          <li><span class="var">serendipity_plugin_config</span>: Show the plugin configuration, parses all available configuration types</li>
                         </ul>
                       </li>
-                      <li><em>include/functions_rss.inc.php</em>: Central function for feed handling
+                      <li><strong><em>include/functions_rss.inc.php</em></strong> : Central function for feed handling
                         <ul>
-                          <li>serendipity_printEntries_rss: Parses entries to display them for RSS/Atom feeds to be passed on to generic Smarty templates</li>
+                          <li><span class="var">serendipity_printEntries_rss</span>: Parses entries to display them for RSS/Atom feeds to be passed on to generic Smarty templates</li>
                         </ul>
                       </li>
-                      <li>include/serendipity_smarty_class.inc.php: Serendipity Smarty Framework, see below</li>
-                      <li><em>include/functions_smarty.inc.php</em>: Serendipity Smarty functions, see below
+                      <li><strong><em>include/serendipity_smarty_class.inc.php</em></strong> : Serendipity Smarty Framework, see below</li>
+                      <li><strong><em>include/functions_smarty.inc.php</em></strong> : Serendipity Smarty functions, see below
                         <ul>
-                          <li>serendipity_smarty_init: Central function to initialize Smarty framework and pass along parameters</li>
-                          <li>serendipity_smarty_fetchPrintEntries: Fetch and print a single or multiple entries</li>
-                          <li>serendipity_smarty_showPlugin: Be able to include the output of a sidebar plugin within a smarty template</li>
-                          <li>serendipity_smarty_hookPlugin: Be able to execute the hook of an event plugin and return its output</li>
-                          <li>serendipity_smarty_show: Render a smarty-template</li>
+                          <li><span class="var">serendipity_smarty_init</span>: Central function to initialize Smarty framework and pass along parameters</li>
+                          <li><span class="var">serendipity_smarty_fetchPrintEntries</span>: Fetch and print a single or multiple entries</li>
+                          <li><span class="var">serendipity_smarty_showPlugin</span>: Be able to include the output of a sidebar plugin within a Smarty template</li>
+                          <li><span class="var">serendipity_smarty_hookPlugin</span>: Be able to execute the hook of an event plugin and return its output</li>
+                          <li><span class="var">serendipity_smarty_show</span>: Render a Smarty template</li>
                         </ul>
                       </li>
-                      <li><em>include/functions_trackbacks.inc.php</em>: Central functions for trackback handling
+                      <li><strong><em>include/functions_trackbacks.inc.php</em></strong> : Central functions for trackback handling
                         <ul>
-                          <li>add_trackback: Receive a trackback</li>
-                          <li>serendipity_handle_references: Search through link body, and automagically send a trackback ping.</li>
+                          <li><span class="var">add_trackback</span>: Receive a trackback</li>
+                          <li><span class="var">serendipity_handle_references</span>: Search through link body, and automagically send a trackback ping.</li>
                         </ul>
                       </li>
-                      <li><em>include/functions_upgrader.inc.php</em>: Central functions for upgrader, holds list of deprecated files and functions and other conversion functions when migrating from older versions
+                      <li><strong><em>include/functions_upgrader.inc.php</em></strong> : Central functions for upgrader, holds list of deprecated files and functions and other conversion functions when migrating from older versions
                         <ul>
-                          <li>serendipity_removeDeadFiles_SPL: Empty a given directory recursively using the Standard PHP Library (SPL) iterator</li>
+                          <li><span class="var">serendipity_removeDeadFiles_SPL</span>: Empty a given directory recursively using the Standard PHP Library (SPL) iterator</li>
                         </ul>
                       </li>
-                      <li><em>include/plugin_api.inc.php</em>: Plugin API framework, see below
+                      <li><strong><em>include/plugin_api.inc.php</em></strong> : Plugin API framework, see below
                         <ul>
-                          <li>serendipity_plugin_api_core_event_hook: Central function with which the Serendipity core can act as a plugin on it’s own and “listen” on specific events.</li>
-                          <li><em>serendipity_plugin_api</em>: Central class for operating the plugin API
+                          <li><span class="var">serendipity_plugin_api_core_event_hook</span>: Central function with which the Serendipity core can act as a plugin on it’s own and “listen” on specific events.</li>
+                          <li><span class="var"><em>serendipity_plugin_api</em></span>: Central class for operating the plugin API
                             <ul>
                               <li>serendipity_plugin_api::create_plugin_instance: Create an instance of a plugin.</li>
                               <li>serendipity_plugin_api::enum_plugins: Searches for installed plugins based on specific conditions</li>
@@ -261,16 +261,16 @@
                               <li>serendipity_plugin_api::load_plugin: Instantiates a plugin class</li>
                               <li>serendipity_plugin_api::getPluginInfo: Gets cached properties/information about a specific plugin, auto-loads a cache of all plugins</li>
                               <li>serendipity_plugin_api::generate_plugins: Get a list of Sidebar plugins and pass them to Smarty</li>
-                              <li>serendipity_plugin_api::hook_event: Executes a specific Eventhook by checking all plugins that listen on the specified event</li>
+                              <li>serendipity_plugin_api::hook_event: Executes a specific event hook by checking all plugins that listen on the specified event</li>
                             </ul>
                           </li>
-                          <li><em>serendipity_property_bag</em>: Central class for making key/value stores available to plugins
+                          <li><span class="var"><em>serendipity_property_bag</em></span>: Central class for making key/value stores available to plugins
                             <ul>
                               <li>serendipity_property_bag::get: Getter</li>
                               <li>serendipity_property_bag::set: Setter</li>
                             </ul>
                           </li>
-                          <li><em>serendpity_plugin</em>: Central core class for plugins
+                          <li><span class="var"><em>serendpity_plugin</em></span>: Central core class for plugins
                             <ul>
                               <li>serendipity_plugin::performConfig: Perform configuration routines. Called by Serendipity when the plugin is being configured.</li>
                               <li>serendipity_plugin::install: Perform install routines</li>
@@ -283,25 +283,25 @@
                               <li>serendipity_plugin::get_config: Get a config value of the plugin</li>
                               <li>serendipity_plugin::set_config: Sets a configuration value for a plugin</li>
                               <li>serendipity_plugin::register_dependencies: Auto-Register dependencies of a plugin</li>
-                              <li>serendipity_plugin::parseTemplate: Parses a smarty template file</li>
+                              <li>serendipity_plugin::parseTemplate: Parses a Smarty template file</li>
                             </ul>
                           </li>
-                          <li><em>serendipity_event</em>: Class for event plugins
+                          <li><span class="var"><em>serendipity_event</em></span>: Class for event plugins
                             <ul>
                               <li>serendipity_event::event_hook: Main logic for making a plugin “listen” to an event</li>
                             </ul>
                           </li>
                         </ul>
                       </li>
-                      <li><em>include/plugin_api_extension.inc.php</em>: Extended Plugin API framework
+                      <li><strong><em>include/plugin_api_extension.inc.php</em></strong> : Extended Plugin API framework
                         <ul>
-                          <li>prepareReorder: Prepare a given one dimension array for reordering</li>
-                          <li>doReorder: Update table for re-ordering records</li>
-                          <li>isEmail: Check if a string is a valid email</li>
+                          <li><span class="var">prepareReorder</span>: Prepare a given one dimension array for reordering</li>
+                          <li><span class="var">doReorder</span>: Update table for re-ordering records</li>
+                          <li><span class="var">isEmail</span>: Check if a string is a valid email</li>
                         </ul>
                       </li>
-                      <li><em>include/template_api.inc.php</em>: Template API, see below</li>
-                      <li><em>include/genpage.inc.php</em>: Smarty workflow intermediate, see below</li>
+                      <li><strong><em>include/template_api.inc.php</em></strong> : Template API, see <a href="templating.html#docs-you-hate-smarty-youve-come-a-long-way">here</a></li>
+                      <li><strong><em>include/genpage.inc.php</em></strong> : Smarty workflow intermediate, see <a href="templating.html#docs-templating">here</a></li>
                     </ul>
 
                 </div>
