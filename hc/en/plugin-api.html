@@ -121,7 +121,7 @@
   <li><a href="#docs-structure-of-serendipity_event-in-detail" id="toc-docs-structure-of-serendipity_event-in-detail">Structure of serendipity_event in detail</a></li>
   <li><a href="#docs-more-examples" id="toc-docs-more-examples">More examples</a>
     <ul>
-      <li><a href="#docs-how-to-make-an-event-plugin-create-its-own-backend-menu-entries" id="toc-docs-how-to-make-an-event-plugin-create-its-own-backend-menu-entries">How to make an event plugin create its own backend menu entries</a></li>
+      <li><a href="#docs-how-to-make-an-event-plugin-create-its-own-backend-menu-entries" id="toc-docs-how-to-make-an-event-plugin-create-its-own-backend-menu-entries">How to make an event plugin create its own Backend menu entries</a></li>
       <li><a href="#docs-how-to-create-an-event-plugin-that-performs-an-action-when-an-entry-is-saved" id="toc-docs-how-to-create-an-event-plugin-that-performs-an-action-when-an-entry-is-saved">How to create an event plugin that performs an action when an entry is saved</a></li>
       <li><a href="#docs-how-to-create-an-event-plugin-that-transforms-entry-markup" id="toc-docs-how-to-create-an-event-plugin-that-transforms-entry-markup">How to create an event plugin that transforms entry markup</a></li>
       <li><a href="#docs-how-to-create-an-event-plugin-that-shows-remote-data-or-its-distinct-output" id="toc-docs-how-to-create-an-event-plugin-that-shows-remote-data-or-its-distinct-output">How to create an event plugin that shows remote data or its distinct output</a></li>
@@ -131,20 +131,20 @@
   </li>
   <li><a href="#docs-how-to-use-events-in-smarty" id="toc-docs-how-to-use-events-in-smarty">How to use events in Smarty</a></li>
   <li><a href="#docs-creating-new-event-hooks" id="toc-docs-creating-new-event-hooks">Creating new event hooks</a></li>
-  <li><a href="#docs-linking-spartacus" id="toc-docs-linking-spartacus">Linking spartacus</a></li>
+  <li><a href="#docs-linking-spartacus" id="toc-docs-linking-spartacus">Linking Spartacus</a></li>
 </ul>
 
-<p>The general meaning of Plugins for Serendipity is described in the section <a href="./using-plugins.html">Plugins</a> of our documentation.</p>
+<p>The general meaning of Plugins for Serendipity is described in the section <a href="using-plugins.html">Plugins</a> of our documentation.</p>
 
 <p>This page provides more in depth description of the inner workings.</p>
 
-<p>All plugins in Serendipity are objects that are inherited from the base class as defined in <code>include/plugin_api.inc.php</code>. This offers the layout of a simple <code>serendipity_event</code> or <code>serendipity_plugin</code> class. If you extend your plugin from this class, you can customize it with its own methods.</p>
+<p>All plugins in Serendipity are objects that are inherited from the base class as defined in “include/plugin_api.inc.php”. This offers the layout of a simple <code>serendipity_event</code> or <code>serendipity_plugin</code> class. If you extend your plugin from this class, you can customize it with its own methods.</p>
 
 <p>Internally, Serendipity uses the plugin API to get a list of all installed plugins, loads them into one large array, iterates on all plugin files to query their configuration. Through the use of the <code>serendipity_plugin_api::hook_event()</code> static method, the core can fire events at a specific part in the code flow.</p>
 
-<p>Once this method is called, it checks the list of all loaded plugins if any plugin is interested to “react” on a given event. If so, the method “hook_event()” of a plugin is executed, and gets passed the $eventData and $addData on which it can operate and return output or modified variables.</p>
+<p>Once this method is called, it checks the list of all loaded plugins if any plugin is interested to “react” on a given event. If so, the method “hook_event()” of a plugin is executed, and gets passed the <code>$eventData</code> and <code>$addData</code> on which it can operate and return output or modified variables.</p>
 
-<p>Sidebar plugins operate a bit simpler, because basically there only is one single generate_content() method call for when the output of a sidebar plugin is presented.</p>
+<p>Sidebar plugins operate a bit simpler, because basically there only is one single <code>generate_content()</code> method call for when the output of a sidebar plugin is presented.</p>
 
 <p>This might sound more complicated than it is, so let’s create the most simple form of a plugin there is:</p>
 
@@ -190,13 +190,13 @@ class serendipity_plugin_myfirstplugin extends serendipity_plugin {
 @define('MYFIRSTPLUGIN_TITLE', 'This is my first plugin');
 ?&gt;</code></pre>
 
-<p>And that’s it for the plugin! You can now log into your plugin configuration management page and install the sidebar plugin. On the frontend, it will simply show you a “Hello world” statement.</p>
+<p>And that’s it for the plugin! You can now log into your plugin configuration management page and install the sidebar plugin. On the Frontend, it will simply show you a “Hello world” statement.</p>
 
 <p>Now let’s disect the plugin code above:</p>
 
 <ol>
   <li>The first thing is a hack-protection code, you can simply copy and paste this in new plugins</li>
-  <li>The second thing is a language loaded. Depending on the language of the blog, it searches for files like “lang_de.inc.php” (also in UTF-8 subdirectory of the plugin) and loads the constants. Also, if falls back to the english language file, which is the only required file you need.</li>
+  <li>The second thing is a language loaded. Depending on the language of the blog, it searches for files like “lang_de.inc.php” (also in UTF-8 subdirectory of the plugin) and loads the constants. Also, it falls back to the english language file, which is the only required file you need.</li>
   <li>Now the extension of the class is done. Note that the name of the plugin class needs to match exactly the name of the file (minus the extension “.php”).</li>
   <li>There is one class member variable $title that holds the title of a plugin, and uses the language constant we defined.</li>
   <li>Then we have two methods: One is an introspect() method, which sets up several metadata values for your plugin. The other is the generate_content() method which is used for output.</li>
@@ -270,7 +270,7 @@ class serendipity_event_myfirstplugin extends serendipity_plugin {
 @define('MYFIRSTPLUGIN_TITLE', 'This is my first plugin');
 ?&gt;</code></pre>
 
-<p>And that’s it for the plugin! You can now log into your plugin configuration management page and install the event plugin. On the frontend, it will simply show you a “Hello world” comment statement inside the HTML head section.</p>
+<p>And that’s it for the plugin! You can now log into your plugin configuration management page and install the event plugin. On the Frontend, it will simply show you a “Hello world” comment statement inside the HTML head section.</p>
 
 <p>The thing that differentiates the eventplugin from the sidebar plugin is the central “event_hook” method and an additional property bag attribute “event_hooks” in the introspect() method. This sets up the events on which the plugin listens, and inside the event_hook() method it checks if the currently called hook matches with the one it wants to execute.</p>
 
@@ -299,9 +299,9 @@ function frontend_footer(&amp;$eventData, $addData) {
     // Do something
 }</code></pre>
 
-<p>Note that $eventData is a referenced array which you can write to and modify. The $addData is additional read-only data that certain hooks specify for context or metadata.</p>
+<p>Note that <code>$eventData</code> is a referenced array which you can write to and modify. The <code>$addData</code> is additional read-only data that certain hooks specify for context or metadata.</p>
 
-<p>Also note that if you want to access the $serendipity array, you will need to import that from the global scope.</p>
+<p>Also note that if you want to access the <code>$serendipity</code> array, you will need to import that from the global scope.</p>
 
 <h3 id="docs-creating-bundled-plugins">Creating bundled plugins</h3>
 
@@ -309,7 +309,7 @@ function frontend_footer(&amp;$eventData, $addData) {
 
 <p>You can however, bundle one event and sidebar plugin within the same directory, because Serendipity actually only needs the filename to match the classname and can ignore the directory name. We just advise for clarity to name the directories distinctively matching either the sidebar or event plugin name.</p>
 
-<p>With a setup like this you can bundle event and sidebar plugins, because often a plugin provides both event functionality and sidebar functionality. Those plugins can, if they reside in the same directory, access the same language constants and also other central shared classfiles that you can include. In spartacus, the serendipity_plugin_adduser and serendipity_event_adduser plugins are a good example of such a bundled plugin that provides common class names through a “common.inc.php” file.</p>
+<p>With a setup like this you can bundle event and sidebar plugins, because often a plugin provides both event functionality and sidebar functionality. Those plugins can, if they reside in the same directory, access the same language constants and also other central shared classfiles that you can include. In Spartacus, the serendipity_plugin_adduser and serendipity_event_adduser plugins are a good example of such a bundled plugin that provides common class names through a “common.inc.php” file.</p>
 
 <p>When creating bundled plugins you can even link them together with a dependencies-property (see below)</p>
 
@@ -333,20 +333,20 @@ $bag-&gt;add('an array', array(1,2,3));
 // Retrieve the data:
 echo $bag-&gt;get('version');</code></pre>
 
-<p>Internally serendipity offers those property bag attributes:</p>
+<p>Internally Serendipity offers those property bag attributes:</p>
 
 <ul>
-  <li>name: A string that indicates the displayed name of the plugin. Should also be set to the $title class member variable, and in the referenced $title variable that is passed to generate_content().</li>
-  <li>description: A string that describes the plugin.</li>
-  <li>author: A string that describes the authorship</li>
-  <li>copyright: A string that describes the used license</li>
-  <li>version: A version number (use versions like X.Y.Z); if you contribute a plugin, each following version needs to be “higher” than the one before: After 1.10 follows 1.11 and noot 1.2!</li>
-  <li>website: A string that can hold a URL to the author’s site</li>
-  <li>stackable: If set to TRUE, a plugin can be installed multiple times.</li>
-  <li>requirements: Can hold an array with the keys “php”, “smarty” and “serendipity” that indicates the minimum version number required to run the plugin.</li>
-  <li>groups: Can hold an array with values like “MARKUP”, “FRONTEND” etc. that indicate in which group a plugin belongs. A constant like “PLUGIN_GROUP_XXX” needs to exist for the group to be accepted; check the lang/serendipity_lang_en.inc.php file for available matching constants (like IMAGES, MARKUP, ANTISPAM, FRONTEND_FEATURES, …)</li>
-  <li>configuration: Can hold an array of available configuration items.</li>
-  <li>Dependencies are registered through the $this-&gt;dependencies class member variable (see below)</li>
+  <li><strong>name</strong>: A string that indicates the displayed name of the plugin. Should also be set to the <code>$title</code> class member variable, and in the referenced <code>$title</code> variable that is passed to <code>generate_content()</code>.</li>
+  <li><strong>description</strong>: A string that describes the plugin.</li>
+  <li><strong>author</strong>: A string that describes the authorship</li>
+  <li><strong>copyright</strong>: A string that describes the used license</li>
+  <li><strong>version</strong>: A version number (use versions like X.Y.Z); If you contribute a plugin, each following version needs to be “higher” than the one before: After 1.10 follows 1.11 and not 1.2!</li>
+  <li><strong>website</strong>: A string that can hold a URL to the author’s site</li>
+  <li><strong>stackable</strong>: If set to TRUE, a plugin can be installed multiple times.</li>
+  <li><strong>requirements</strong>: Can hold an array with the keys “php”, “smarty” and “serendipity” that indicates the minimum version number required to run the plugin.</li>
+  <li><strong>groups</strong>: Can hold an array with values like “MARKUP”, “FRONTEND” etc. that indicate in which group a plugin belongs. A constant like “PLUGIN_GROUP_XXX” needs to exist for the group to be accepted; check the lang/serendipity_lang_en.inc.php file for available matching constants (like IMAGES, MARKUP, ANTISPAM, FRONTEND_FEATURES, …)</li>
+  <li><strong>configuration</strong>: Can hold an array of available configuration items.</li>
+  <li><strong>Dependencies</strong>: are registered through the <code>$this-&gt;dependencies</code> class member variable (see below)</li>
 </ul>
 
 <p>Note that you can use a property bag to pass along any other kind of variables. The property bag is a temporary storage; it is setup and queries every time the plugin is instantiated; it does not persist on requests. To persist session data, simply use the PHP $_SESSION superglobal array. You can permanently store data through the plugin API’s set_config() method, which is described later on.</p>
@@ -369,16 +369,16 @@ echo $bag-&gt;get('version');</code></pre>
 
 <h4 id="docs-the-generate_contenttitle-method">The generate_content(&amp;$title) method</h4>
 
-<p>For sidebar plugins, generate_content() is the central “main” method that returns the output. Note that $title is passed as a referenced variable where you set a plugin’s title and can overwrite that variable (or display it).</p>
+<p>For sidebar plugins, <code>generate_content()</code> is the central “main” method that returns the output. Note that <code>$title</code> is passed as a referenced variable where you set a plugin’s title and can overwrite that variable (or display it).</p>
 
 <h4 id="docs-adding-configuration-options-to-your-plugin-introspect_config_item-get_config-set_config-validate">Adding configuration options to your plugin: introspect_config_item(), get_config(), set_config(), validate()</h4>
 
-<p>To permanently store configuration inside your plugin, you first need to setup an array of available configuration keys in the introspect() property bag:</p>
+<p>To permanently store configuration inside your plugin, you first need to setup an array of available configuration keys in the <code>introspect()</code> property bag:</p>
 
 <pre><code>$propbad-&gt;add('configuration', array('title', 'subtitle', 'mood'));
 </code></pre>
 
-<p>When this is done, your plugin needs to define a introspect_config_item() method like this:</p>
+<p>When this is done, your plugin needs to define a <code>introspect_config_item()</code> method like this:</p>
 
 <pre><code>function introspect_config_item($name, &amp;$propbag) {
    switch($name) {
@@ -409,13 +409,13 @@ echo $bag-&gt;get('version');</code></pre>
 
 <p>As you can see, for each configuration option that is available, you can setup a central switch/case structure. Then for each configuration option you setup a configuration property bag that supports a list of options.</p>
 
-<p>The available property keys are actually the same as for theme options, and they are descriped here: <a href="./themes.html#docs-configuration-keys">Configuration keys</a>.</p>
+<p>The available property keys are actually the same as for theme options, and they are described here: <a href="templating.html#docs-configuration-keys">Configuration keys</a>.</p>
 
 <p>On top of that, each property bag can also have these keys:</p>
 
 <ul>
-  <li>validate: Allows to validate the input for a configuration option, can be set to: string, words, number, url, mail, path. If none of these matches, the validation is interpreted as a regular expression.</li>
-  <li>validate_error: If set, contains a specific error message when validation fails. If not set a generic error message will be displayed when the user saves the configuration.</li>
+  <li><strong>validate</strong>: Allows to validate the input for a configuration option, can be set to: <code>string</code>, <code>words</code>, <code>number</code>, <code>url</code>, <code>mail</code>, <code>path</code>. If none of these matches, the validation is interpreted as a regular expression.</li>
+  <li><strong>validate_error:</strong> If set, contains a specific error message when validation fails. If not set a generic error message will be displayed when the user saves the configuration.</li>
 </ul>
 
 <p>Inside the plugin (i.e. in the generate_content()) method you can use this code to access the values:</p>
@@ -427,7 +427,7 @@ echo $bag-&gt;get('version');</code></pre>
     }
 }</code></pre>
 
-<p>Be sure to always wrap serendipity_db_bool() around stored boolean values. Also make sure to escape output with serendipity_specialchars() if you pass through configuration values that shall not be interpreted as HTML!</p>
+<p>Be sure to always wrap <code>serendipity_db_bool()</code> around stored boolean values. Also make sure to escape output with <code>serendipity_specialchars()</code> if you pass through configuration values that shall not be interpreted as HTML!</p>
 
 <p>You can store/overwrite configuration values inside a plugin:</p>
 
@@ -437,7 +437,7 @@ echo $bag-&gt;get('version');</code></pre>
 
 <p>Those internal configuration values do NOT need to be advertised in the ‘configuration’ introspection bag, you can use them distinctly.</p>
 
-<p>The values are stored in the serendipity_config database table and prefixed with the name of the plugin that it belongs to. If you need to store large amounts of data, it is better to create your own database tables for a plugin (by using serendipity_db_schema_import(“CREATE TABLE…”)).</p>
+<p>The values are stored in the serendipity_config database table and prefixed with the name of the plugin that it belongs to. If you need to store large amounts of data, it is better to create your own database tables for a plugin (by using <code>serendipity_db_schema_import(“CREATE TABLE…”)</code>).</p>
 
 <h4 id="docs-more-methods-for-plugins">More methods for plugins</h4>
 
@@ -461,7 +461,7 @@ echo $bag-&gt;get('version');</code></pre>
 
 <h5 id="docs-parsetemplatefilename">parseTemplate($filename)</h5>
 
-<p>This helper method can be called to render a smarty template file inside the plugin directory path.</p>
+<p>This helper method can be called to render a Smarty template file inside the plugin directory path.</p>
 
 <h5 id="docs-register_dependenciesremove-authorid">register_dependencies($remove, $authorid)</h5>
 
@@ -476,39 +476,39 @@ echo $bag-&gt;get('version');</code></pre>
 <p>The serendipity_plugin class offers several member variables:</p>
 
 <ul>
-  <li>$instance: Holds the unique instance ID of a plugin</li>
-  <li>$protected: If set to “true” only the owner of a plugin can configure it (set for “dangerous” plugins)</li>
-  <li>$wrap_class: The CSS class in which a sidebar plugin is wrapped into</li>
-  <li>$title_class: The CSS class in which the title of a sidebar plugin is wrapped into</li>
-  <li>$content_class: The CSS class in which the content of a sidebar plugin is wrapped into</li>
-  <li>$title: The title of the plugin (used for the output)</li>
-  <li>$pluginPath: The internal path to the plugin file</li>
-  <li>$act_pluginPath: The resolved internal path to the plugin file</li>
-  <li>$pluginFile: The plugin filename</li>
-  <li>$serendipity_owner: The intial owner of the plugin (who installed it)</li>
-  <li>$dependencies: A possible array of dependencies. Each array keys represents a plugin class name, and the value can either be “remove” or “keep”, which influences what happens to the bundled plugin when it’s siblings are removed.</li>
+  <li><strong>$instance</strong>: Holds the unique instance ID of a plugin</li>
+  <li><strong>$protected</strong>: If set to “true” only the owner of a plugin can configure it (set for “dangerous” plugins)</li>
+  <li><strong>$wrap_class</strong>: The CSS class in which a sidebar plugin is wrapped into</li>
+  <li><strong>$title_class</strong>: The CSS class in which the title of a sidebar plugin is wrapped into</li>
+  <li><strong>$content_class</strong>: The CSS class in which the content of a sidebar plugin is wrapped into</li>
+  <li><strong>$title</strong>: The title of the plugin (used for the output)</li>
+  <li><strong>$pluginPath</strong>: The internal path to the plugin file</li>
+  <li><strong>$act_pluginPath</strong>: The resolved internal path to the plugin file</li>
+  <li><strong>$pluginFile</strong>: The plugin filename</li>
+  <li><strong>$serendipity_owner</strong>: The intial owner of the plugin (who installed it)</li>
+  <li><strong>$dependencies</strong>: A possible array of dependencies. Each array keys represents a plugin class name, and the value can either be “remove” or “keep”, which influences what happens to the bundled plugin when it’s siblings are removed.</li>
 </ul>
 
 <h3 id="docs-structure-of-serendipity_event-in-detail">Structure of serendipity_event in detail</h3>
 
-<p>The serendipity_event class inherits all methods and class member variables like serendipity_plugin (see above).</p>
+<p>The <code>serendipity_event</code> class inherits all methods and class member variables like <code>serendipity_plugin</code> (see above).</p>
 
 <p>It only adds the method:</p>
 
 <ul>
-  <li>event_hook($event, &amp;$bag, &amp;$eventData, $addData = null): Central method to route events (see example)</li>
+  <li><strong>event_hook($event, &amp;$bag, &amp;$eventData, $addData = null)</strong>: Central method to route events (see example)</li>
 </ul>
 
 <p>And this property bag attribute:</p>
 
 <ul>
-  <li>event_hooks: Array of event hooks that a plugin wants to listen on (see example)</li>
-  <li>cachable_events: Array of cachable event hooks (usually only for markup text plugins)</li>
+  <li><strong>event_hooks</strong>: Array of event hooks that a plugin wants to listen on (see example)</li>
+  <li><strong>cachable_events</strong>: Array of cachable event hooks (usually only for markup text plugins)</li>
 </ul>
 
 <h3 id="docs-more-examples" class="hspace">More examples</h3>
 
-<h4 id="docs-how-to-make-an-event-plugin-create-its-own-backend-menu-entries">How to make an event plugin create its own backend menu entries</h4>
+<h4 id="docs-how-to-make-an-event-plugin-create-its-own-backend-menu-entries">How to make an event plugin create its own Backend menu entries</h4>
 
 <p><strong>Example</strong> on how to create a plugin that hooks in the admin menu via: backend_sidebar_entries_event_display_XXX</p>
 
@@ -593,7 +593,7 @@ class serendipity_event_backpage extends serendipity_event
 }
 
 /* vim: set sts=4 ts=4 expandtab : */
-?&gt;</code></pre>
+?&gt;</code></pre><br>
 
 <h4 id="docs-how-to-create-an-event-plugin-that-performs-an-action-when-an-entry-is-saved">How to create an event plugin that performs an action when an entry is saved</h4>
 
@@ -716,7 +716,7 @@ class serendipity_event_backpage extends serendipity_event
 }
 
 /* vim: set sts=4 ts=4 expandtab : */
-?&gt;</code></pre>
+?&gt;</code></pre><br>
 
 <h4 id="docs-how-to-create-an-event-plugin-that-transforms-entry-markup">How to create an event plugin that transforms entry markup</h4>
 
@@ -834,7 +834,7 @@ class serendipity_event_backpage extends serendipity_event
 }
 
 /* vim: set sts=4 ts=4 expandtab : */
-?&gt;</code></pre>
+?&gt;</code></pre><br>
 
 <h4 id="docs-how-to-create-an-event-plugin-that-shows-remote-data-or-its-distinct-output">How to create an event plugin that shows remote data or its distinct output</h4>
 
@@ -984,32 +984,29 @@ class serendipity_event_backpage extends serendipity_event
 }
 
 /* vim: set sts=4 ts=4 expandtab : */
-?&gt;</code></pre>
+?&gt;</code></pre><br>
 
 <h4 id="docs-important-event-hooks">Important event hooks</h4>
 
-<p>The easiest way to see how to implement any given event hook is to search in the .php files for:
-<code>hook_event('XXX')</code></p>
-
-<p>where you replace ‘XXX’ with the name of the even thook you want to look up. There you can also easily see which $eventData is passed to the hook.</p>
+<p>The easiest way to see how to implement any given event hook is to search in the .php files for: <code>hook_event('XXX')</code> where you replace ‘XXX’ with the name of the event hook you want to look up. There you can also easily see which <code>$eventData</code> is passed to the hook.</p>
 
 <ul>
-  <li>css: Frontend CSS generation</li>
-  <li>css_backend: Backend CSS generation</li>
-  <li>js: Additional javascript frontend</li>
-  <li>js_backend: Additional javascript backend</li>
-  <li>frontend_configure: Performed when frontend is initialized</li>
-  <li>backend_configure: Performed when backend is initialized</li>
-  <li>backend_publish: Performed when an entry is published</li>
-  <li>backend_save: Performed when an entry is saved (also for drafts!)</li>
-  <li>entry_display: Performed when multiple entries are displayed in the frontend</li>
-  <li>external_plugin: Execution of external plugins that take over complete page flow</li>
-  <li>frontend_display: Performed when a single entry is displayed in the frontend</li>
-  <li>genpage: Performed when Smarty framework was initialized</li>
-  <li>frontend_display:rss-2.0:namespace: RSS feed namespace</li>
-  <li>frontend_display:atom-1.0:namespace: RSS feed namespace</li>
-  <li>frontend_display:rss-2.0:per_entry: Single entry display in RSS feed</li>
-  <li>frontend_display:atom-1.0:per_entry: Single entry display in Atom feed</li>
+  <li><strong>css</strong>: Frontend CSS generation</li>
+  <li><strong>css_backend</strong>: Backend CSS generation</li>
+  <li><strong>js</strong>: Additional javascript Frontend</li>
+  <li><strong>js_backend</strong>: Additional javascript Backend</li>
+  <li><strong>frontend_configure</strong>: Performed when Frontend is initialized</li>
+  <li><strong>backend_configure</strong>: Performed when Backend is initialized</li>
+  <li><strong>backend_publish</strong>: Performed when an entry is published</li>
+  <li><strong>backend_save</strong>: Performed when an entry is saved (also for drafts!)</li>
+  <li><strong>entry_display</strong>: Performed when multiple entries are displayed in the Frontend</li>
+  <li><strong>external_plugin</strong>: Execution of external plugins that take over complete page flow</li>
+  <li><strong>frontend_display</strong>: Performed when a single entry is displayed in the Frontend</li>
+  <li><strong>genpage</strong>: Performed when Smarty framework was initialized</li>
+  <li><strong>frontend_display:rss-2.0:namespace</strong>: RSS feed namespace</li>
+  <li><strong>frontend_display:atom-1.0:namespace</strong>: RSS feed namespace</li>
+  <li><strong>frontend_display:rss-2.0:per_entry</strong>: Single entry display in RSS feed</li>
+  <li><strong>frontend_display:atom-1.0:per_entry</strong>: Single entry display in Atom feed</li>
 </ul>
 
 <h4 id="docs-other-event-hooks">Other event hooks</h4>
@@ -1131,11 +1128,11 @@ class serendipity_event_backpage extends serendipity_event
 
 <h3 id="docs-creating-new-event-hooks">Creating new event hooks</h3>
 
-<p>If there is an event hook missing in the current Serendipity code, a single line is sufficient to add new events. Please let our developers know when you think a specific event is missing (<strong>“Contributing”</strong> via <a href="https://github.com/ophian/styx/issues">GitHub Styx Issues</a>, please.).</p>
+<p>If there is an event hook missing in the current Serendipity code, a single line is sufficient to add new events. Please let our developers know when you think a specific event is missing. (<strong>“Contributing”</strong> via <a href="https://github.com/ophian/styx/issues">GitHub Styx Issues</a>, please.)</p>
 
-<h3 id="docs-linking-spartacus">Linking spartacus</h3>
+<h3 id="docs-linking-spartacus">Linking Spartacus</h3>
 
-<p>You can easily combine the whole spartacus theme and plugin checkouts on your machine. To do that you can for example checkout these repositories to a subdirectory like <code>templates/spartacus/</code> and <code>plugins/spartacus/</code>. The reason this works is because both the theme and plugin framework of Serendipity can iterate through every subdirectory of the templates/ or plugins/ structure to search for matching plugin/theme files.</p>
+<p>You can easily combine the whole Spartacus theme and plugin checkouts on your machine. To do that you can for example checkout these repositories to a subdirectory like <code>templates/spartacus/</code> and <code>plugins/spartacus/</code>. The reason this works is because both the theme and plugin framework of Serendipity can iterate through every subdirectory of the templates/ or plugins/ structure to search for matching plugin/theme files.</p>
                 </div>
             </div>
         </div>
