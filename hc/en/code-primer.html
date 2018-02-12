@@ -135,7 +135,7 @@
 
 <p>To get started with developing Serendipity, here’s a few things to get you kickstarted.</p>
 
-<p>The first thing you need is an installation of Serendipity, and FTP/SSH/file access to that installation. It’s easy to setup a local Apache server with PHP and MySQL on all Linux, MacOS or Windows systems. Of course the best thing would be if you use github to check out our core code, so you can easily contribute patches or update your installation to the latest code version.</p>
+<p>The first thing you need is an installation of Serendipity, and FTP/SSH file access to that installation. It’s easy to setup a local Apache server with PHP and MySQL on all Linux, MacOS or Windows systems. Of course the best thing would be if you use github to check out our core code, so you can easily contribute patches or update your installation to the latest code version.</p>
 
 <p>Now here are the most basic concepts you need to know. Those assume you have some basic PHP knowledge, and you are comfortable with reading the PHP code of the files alongside. The best way is always learning-by-doing when working with an existing system, so our goal is not to teach you all the basics - but rather to get you to know the basic workflows, so that you can check them out easily on your own, and know where to find what.</p>
 
@@ -145,7 +145,7 @@
 
 <h4 id="docs-initializing-the-framework-serendipity_configincphp-and-serendipity_config_localincphp">Initializing the Framework: serendipity_config.inc.php and serendipity_config_local.inc.php</h4>
 
-<p>The user configuration for the most basic settings required to start the framework lies in <strong>serendipity_config_local.inc.php</strong>. It sets up the basic array <strong>$serendipity</strong>, and configure database credentials and the used Serendipity version.</p>
+<p>The user configuration for the most basic settings required to start the framework lies in <strong>serendipity_config_local.inc.php</strong>. It sets up the basic array <code>$serendipity</code>, and configure database credentials and the used Serendipity version.</p>
 
 <p>The file <strong>serendipity_config.inc.php</strong> is the heart of our framework. It sets default variables, checks the PHP environment, loads the user configuration, includes the required files.</p>
 
@@ -202,7 +202,7 @@ print_r($entries);
 
 <h4 id="docs-htaccess">.htaccess</h4>
 
-<p>This file holds simple, central mod_rewrite RewriteRules (when URL-Rewriting is enabled) to match all permalink patters back to index.php (see the “Routing”-part below).</p>
+<p>This file holds simple, central mod_rewrite RewriteRules (when URL-Rewriting is enabled) to match all permalink patters back to index.php (see the “Routing”-parts below).</p>
 
 <h4 id="docs-serendipitycssphp">serendipity.css.php</h4>
 
@@ -216,7 +216,7 @@ print_r($entries);
 
 <h4 id="docs-composer--bundled-libs">Composer / Bundled-Libs</h4>
 
-<p>The directory <strong>bundled-libs</strong> holds all of our internally used libraries that ship together with Serendipity. Using composer, we are able to update those libraries (in part). However, note that composer is NOT required to develop with Serendipity, since the libraries are all contained in our source code repository.</p>
+<p>The directory <strong>bundled-libs</strong> holds all of our internally used libraries that ship together with Serendipity. Using composer, we are able to update those libraries (in part). However, note that composer is NOT required to develop with Serendipity, since the libraries are all contained in our source code repository. Developers note, that Styx has removed the roots executing composer.phar file, since not maintained. Take your own!</p>
 
 <p>We currently bundle:</p>
 
@@ -233,16 +233,16 @@ print_r($entries);
   <li><strong>Onyx</strong> for RSS parsing</li>
   <li><strong>simplepie</strong> for advanced Atom and RSS parsing</li>
   <li><strong>Smarty</strong> for our templating infrastructure</li>
-  <li><strong>composer</strong> for library maintenance (Since not maintained: removed. Take your own!)</li>
+  <li><strong>composer</strong> for library maintenance</li>
   <li><strong>katzgrau/klogger</strong>, <strong>psr</strong> as a central low-level logging facility</li>
   <li><strong>zendframework/zend-db/</strong> as an (optional) database layer intermediate</li>
   <li><strong>create_release.sh</strong> is the script we use to bundle releases</li>
-  <li><strong>serendipity_generateFTPChecksums.php</strong> is the code used by the create_release.sh to create the <em>*checksums.inc.php</em> file</li>
+  <li><strong>serendipity_generateFTPChecksums.php</strong> is the code used by the “create_release.sh” to create the integrity <strong>checksums.inc.php</strong> file</li>
 </ul>
 
 <h4 id="docs-internationalization">Internationalization</h4>
 
-<p>Serendipity’s translations are handled through easy .php include files inside the <strong>lang/</strong> subdirectory. Each language has its own file according to its country code.</p>
+<p>Serendipity’s translations are handled through easy “.php” include files inside the <strong>lang/</strong> subdirectory. Each language has its own file according to its country code.</p>
 
 <p>Translation files can have a “local charset” file and a UTF-8 variant in the UTF-8 subdirectory.</p>
 
@@ -282,7 +282,7 @@ print_r($entries);
   <li><strong>exit.php</strong>: A tracking script used for external links</li>
   <li><strong>rss.php</strong>: The RSS feeds are routed through this</li>
   <li><strong>serendipity_admin_image_selector.php</strong>: A media database popup screen that is called from within the Backend</li>
-  <li><em>*serendipity_xmlrpc.php</em>: A basic stub for XML-RPC calls made to the Blog, the actual XML-RPC client is provided through a plugin</li>
+  <li><strong>serendipity_xmlrpc.php</strong>: A basic stub for XML-RPC calls made to the Blog, the actual XML-RPC client is provided through a plugin</li>
 </ul>
 
 <p>The subdirectories contain:</p>
