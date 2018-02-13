@@ -517,9 +517,9 @@ print_r($entries);
 
 <h4 id="docs-error-handling">Error-Handling</h4>
 
-<p>By default, Serendipity sets the PHP error_reporting() to E_ALL without E_NOTICE and E_STRICT to prevent unnecessary PHP error output. When $serendipity['production'] is set to “Debug”, E_STRICT errors will be shown.</p>
+<p>By default, Serendipity sets the PHP error_reporting() to E_ALL without E_NOTICE and E_STRICT to prevent unnecessary PHP error output. When <code>$serendipity['production']</code> is set to “Debug”, E_STRICT errors will be shown.</p>
 
-<p>Serendipity uses a default errorhandler (configured as $serendipity['errorhandler'], by default set to “errorToExceptionHandler” (defined in “include/compat.inc.php”). This will take care of emitting all error messages, and also ignore specific warnings that can be dealt with.</p>
+<p>Serendipity uses a default errorhandler (configured as <code>$serendipity['errorhandler']</code>, by default set to “errorToExceptionHandler” (defined in “include/compat.inc.php”). This will take care of emitting all error messages, and also ignore specific warnings that can be dealt with.</p>
 
 <p>You can overwrite such an errorhandler in your “serendipity_config_local.inc.php” file by implementing your own function.</p>
 
@@ -541,9 +541,9 @@ print_r($entries);
 
 <p>The Blog’s url “http://www.example.com/archives/2019/10/28.html” is called by the visitor.</p>
 
-<p>Through the “.htaccess” file, “index.php” get assigned to this page call. The “index.php” file instantiates the Serendipity framework by including the “serendipity_config.inc.php” file. It sets a view headers and sets up a few variables.</p>
+<p>Through the “.htaccess” file, “index.php” gets assigned to this page call. The “index.php” file instantiates the Serendipity framework by including the “serendipity_config.inc.php” file. It sets a view headers and sets up a few variables.</p>
 
-<p>Now the central URL that was called is stored in <code>$uri</code>, and additional parameters (like the date: 2019-10-28) get evaluated and stored in <code>$serendipity['uriArguments']</code>.</p>
+<p>Now the central URL that was called is stored in <code>$uri</code>, and additional parameters (like the date: “2019-10-28”) get evaluated and stored in <code>$serendipity['uriArguments']</code>.</p>
 
 <p>Now, multiple regular expressions check the <code>$uri</code> for each possible scenario that could happen. This means, the central PAT_ARCHIVES rule will evaluate true, and execute its workflow.</p>
 
@@ -559,7 +559,7 @@ print_r($entries);
 
 <p>The routing for executing a plugin like “http://www.example.com/pages/a-pagetitle.html” to match a staticpage plugin’s output is very similar to the example above.</p>
 
-<p>The difference is that in this case the usual routing in “index.php” finds no specific pattern, and then goes to the “404” routing view. Once “include/genpage.inc.php” operates on that page, the plugin API event hook “genpage” is executed. The staticpage plugin has registered this event hook, and performs routines on its database tables to see if there is an entry that matches the current URL. If that is the case, it adjusts the serendipity output and passes over its content.</p>
+<p>The difference is that in this case the usual routing in “index.php” finds no specific pattern, and then goes to the “404” routing view. Once “include/genpage.inc.php” operates on that page, the plugin API event hook “genpage” is executed. The staticpage plugin has registered this event hook, and performs routines on its database tables to see if there is an entry that matches the current URL. If that is the case, it adjusts the Serendipity output and passes over its content.</p>
 
 <h3 id="docs-backend-routing-serendipity_adminphp">Backend-Routing: “serendipity_admin.php”</h3>
 
@@ -644,7 +644,7 @@ print_r($entries);
 
 <p>Both kinds of plugins can be enabled through the Admin interface, and they can be put into a custom order. For sidebar plugins the order simply visually arranges the output of plugins. For event plugins, the order indicates which plugin gets executed first, which can in turn influence the “pipeline” of plugins coming after that. This is mostly important for Markup plugins that affect the rendering of Blog entries: If one event plugin takes care of translating glossary terms to full links, and another plugin is used to mark internal and external links graphically, it would be important the the glossary plugin gets executed first, so that the link-marking plugin can also take care of glossary links. There is no “proper” order of plugins, it all depends on the specific combination of these.</p>
 
-<p>A plugin is defined by the files in the plugins/ subdirectory. Each plugin has its own distinct directory name which must conform to a prefix “serendipity_plugin_XXX” for sidebar plugins and “serendipity_event_XXX” for event plugins. The same name must then be repeated as the filename of the “.php” file within that directory.</p>
+<p>A plugin is defined by the files in the “plugins/” subdirectory. Each plugin has its own distinct directory name which must conform to a prefix “serendipity_plugin_XXX” for sidebar plugins and “serendipity_event_XXX” for event plugins. The same name must then be repeated as the filename of the “.php” file within that directory.</p>
 
 <p>Plugin files within those directories are then only loaded, if you have activated/installed that plugin through the Admin interface.</p>
 
@@ -689,7 +689,7 @@ print_r($entries);
 
     <li>By removing them from Spartacus, users who have the plugin installed (and because of any reason want to keep using them) could do that, because Serendipity would not delete them.</li>
 
-    <li>When a plugin is removed from Spartacus, the development team will  write a Blog announcement post to inform users who have the plugin installed so that they can remove them themselves (or maybe even better, volunteer to fix/improve it).</li>
+    <li>When a plugin is removed from Spartacus, the development team will write a Blog announcement post to inform users who have the plugin installed so that they can remove them themselves (or maybe even better, volunteer to fix/improve it).</li>
 
     <li>If users find plugins that no longer work and should be marked as deprecated, please report this on our issue tracker or on the forums, so that we can take action.</li>
 </ul>
