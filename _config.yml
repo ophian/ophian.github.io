@@ -7,11 +7,16 @@ description:         ''
 url:                 https://ophian.github.io
 paginate:            5
 paginate_path:       "/blog/page:num/"
+defaults:
+  - scope:
+      path: "blog/page"
+    values:
+      sitemap: false
 highlighter:         rouge
 
 # About/contact
 author:
-  name:              Ian
+  name:              Ian Styx
   url:               https://github.com/ophian/styx
   email:             just no - get me over github please
 
