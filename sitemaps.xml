@@ -37,7 +37,7 @@ permalink: /sitemaps.xml
     {% endif %}
   {% endfor %}
   {% for file in site.static_files %}
-    {% if file.extname == 'html' %}
+    {% if file.extname == '.html' %}
       <url>
         <loc>{{ site.url }}{{ file.path }}</loc>
         <lastmod>{{ file.modified_time | date_to_xmlschema }}</lastmod>
