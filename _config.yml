@@ -8,8 +8,9 @@ url:                 https://ophian.github.io
 paginate:            5
 paginate_path:       "/blog/page/:num/"
 defaults:
-  - scope:
-      path: "blog/page"
+  -
+    scope:
+      path: "/blog/page"
     values:
       sitemap: false
 highlighter:         rouge
