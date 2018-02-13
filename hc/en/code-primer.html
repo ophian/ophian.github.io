@@ -159,7 +159,7 @@ print_r($entries);
 
 <p>The defined variables in this file by default are:</p>
 
-<ul>
+<ul class="plainList">
   <li><code>$serendipity['versionInstalled']</code>: Current version number</li>
   <li><code>$serendipity['dbName']</code>: Database name</li>
   <li><code>$serendipity['dbPrefix']</code>: Database prefix (prepended before internal table names)</li>
@@ -172,7 +172,7 @@ print_r($entries);
 
 <p>On top of that, certain variables that are not included in the Serendipity Configuration panel can be configured in this file; If they are not present, the Serendipity defaults will be used. Such variables are:</p>
 
-<ul>
+<ul class="plainList">
   <li><code>$serendipity['production']</code>: If set to “false” you can evoke extra debugging output when errors occur. If set to “debug”, it will be extra-verbose. (default: based on version, RC and alpha/betas default to false)</li>
   <li><code>$serendipity['allowDateManipulation']</code>: If set to true (default), users can change the date of entries</li>
   <li><code>$serendipity['max_last_modified']</code>: Amount of seconds how fresh an article must be, so that a comment to an entry will modify its LastModified-timestamp (default: 7 days)</li>
@@ -250,7 +250,7 @@ print_r($entries);
 
 <p>Some special constants / variables inside the language files are these:</p>
 
-<ul>
+<ul class="plainList">
   <li><code>$i18n_filename_from</code>: Holds an array of character replacements, which will replaced with ASCII characters when they occur within a URL. This can be used to translate umlauts etc. to “readable” variants of those, like a german “Ü” gets translated to “Ue”.</li>
   <li><code>$i18n_filename_to</code>: This holds the actual character replacement values.</li>
   <li><strong>LANG_CHARSET</strong>: Central constant that indicates the used charset of a language. Many plugins etc. use this to deduce which</li>
@@ -365,7 +365,7 @@ print_r($entries);
 
 <p>Core variables are:</p>
 
-<ul>
+<ul class="plainList">
   <li><strong>S9Y_DATA_PATH</strong>: If a shared installation is used, points to the directory where Serendipity keeps its per-user files</li>
   <li><strong>S9Y_INCLUDE_PATH</strong>: Path to the core installation of Serendipity</li>
   <li><strong>S9Y_PEAR_PATH</strong>: Path to the bundled PEAR libraries of Serendipity</li>
@@ -390,7 +390,7 @@ print_r($entries);
 
 <p>Some important URL variables (note that if those specific variables are submitted via POST they get automatically merged into the GET array and acts like a $_REQUEST superglobal):</p>
 
-<ul>
+<ul class="plainList">
   <li><code>$serendipity['GET']['action']</code>: Indicates which action on the Frontend shall be executed (i.e. “read”, “search”, “comments”, “archives”, …) and is evaluated by “include/genpage.inc.php”.</li>
   <li><code>$serendipity['GET']['adminModule']</code>: Indicates which module of the Backend shall be executed (i.e. “maintenance”, “comments”, “entries”, …) and is evaluated by “serendipity_admin.php”, which includes the specific module from “include/admin/”.</li>
   <li><code>$serendipity['GET']['adminAction']</code>: Indicates which action of a requested module on the Frontend shall be executed; The performed action is evaluated by the specific module that it is a part of.</li>
@@ -416,7 +416,7 @@ print_r($entries);
 
 <h5 id="docs-local-configuration">Local configuration</h5>
 
-<ul>
+<ul class="plainList">
   <li><code>$serendipity['dbNames']</code>: Boolean whether to use “SET NAMES” charset directive in database layer</li>
   <li><code>$serendipity['uploadPath']</code>: Path to “uploads” directory</li>
   <li><code>$serendipity['templatePath']</code>: Path to “templates” directory”</li>
@@ -493,7 +493,7 @@ print_r($entries);
 
 <h5 id="docs-personal-configuration">Personal Configuration</h5>
 
-<ul>
+<ul class="plainList">
   <li><code>$serendipity['wysiwyg']</code>: Whether to use the WYSIWYG editor</li>
   <li><code>$serendipity['wysiwygToolbar']</code>: Defines the toolbar palette of the WYSIWYG editor</li>
   <li><code>$serendipity['mail_comments']</code>: Boolean whether a user receives comments to his entries via mail</li>
