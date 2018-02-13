@@ -105,9 +105,9 @@
 
 <p>If you want to add a new language, just copy this mentioned file and adjust your language prefix. Say you want to add a dutch version of s9y you just need the file <strong>lang/serendipity_lang_nl.inc.php</strong>.</p>
 
-<p>Now you also need to supply a UTF-8 version of your language file, which you then put into the <strong>UTF-8</strong> directory. For new language we suggest that you only create a UTF-8 version of your language, with all the Constants set to UTF-8 and the file saved in UTF-8 encoding. Then you just put the same file into both the <strong>lang</strong> and <strong>lang/UTF-8</strong> directories. If all this UTF-8 mumbo-jombo is too complex for you, just announce your translated language file on the Serendipity Forums, and somebody will come to your help to create the UTF-8 variant!</p>
+<p>Now you also need to supply a UTF-8 version of your language file, which you then put into the <strong>UTF-8</strong> directory. For new language we suggest that you only create a UTF-8 version of your language, with all the constants set to UTF-8 and the file saved in UTF-8 encoding. Then you just put the same file into both the <strong>lang</strong> and <strong>lang/UTF-8</strong> directories. If all this UTF-8 mumbo-jombo is too complex for you, just announce your translated language file on the Serendipity Forums, and somebody will come to your help to create the UTF-8 variant!</p>
 
-<p>Now to make Serendipity recognize the new language, you need to edit the file <strong>serendipity_config.inc.php</strong> in the main serendipity directory. Open that file with an editor and look for the definition of the $serendipity[‘languages’] array. It will look something like this:</p>
+<p>Now to make Serendipity recognize the new language, you need to edit the file <strong>serendipity_config.inc.php</strong> in the main serendipity directory. Open that file with an editor and look for the definition of the <code>$serendipity['languages']</code> array. It will look something like this:</p>
 
 <pre><code>$serendipity['languages'] = array(
         'en' =&gt; 'English',
