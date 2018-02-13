@@ -6,13 +6,7 @@ tagline:             'Styx is what Serendipity should be'
 description:         ''
 url:                 https://ophian.github.io
 paginate:            5
-paginate_path:       "/blog/page/:num/"
-defaults:
-  -
-    scope:
-      path: "/blog/page"
-    values:
-      sitemap: false
+paginate_path:       "/blog/page:num/"
 highlighter:         rouge
 
 # About/contact
