@@ -36,11 +36,14 @@ permalink: /sitemaps.xml
       </url>
     {% endif %}
   {% endfor %}
-    {% for file in site.static_files %}
-        {{ site.baseurl }}{{ file.path }}
-        {{ file.name }}
-        {{ file.modified_time | date_to_string }}
-        {{ file.basename }}{{ file.extname }}
-    {% endfor %}
-
+  {% for file in site.static_files %}
+    {% if file.extname == 'html' %}
+      <url>
+        <loc>{{ site.url }}{{ file.path }}</loc>
+        <lastmod>{{ file.modified_time | date_to_xmlschema }}</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+      </url>
+    {% endif %}
+  {% endfor %}
 </urlset>
