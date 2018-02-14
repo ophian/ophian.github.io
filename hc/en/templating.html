@@ -276,11 +276,11 @@ Engine: [ENGINE]</code></pre>
   <li><strong>[ENGINE]</strong> can hold the string of any theme directory (i.e. “bulletproof”, “2k11”, “default”) to specify, which fallback to use.</li>
 </ul>
 
-<p>If ENGINE is not provided, a <strong>Frontend</strong> theme first falls back to the “default/” files and then back to <code>$serendipity['defaultTemplate']</code> (the standard template) “2k11/” pool. In the <strong>Backend</strong> this is slightly different, since we do not have engines but need to grab the Backend theme correctly, So the cascade iterates from "yourTheme/", to the chosen Backend theme, eg. "2styx/", followed by the standard Backend theme "2k11/" and at last falls to "default/".</p>
+<p>If ENGINE is not provided, a <strong>Frontend</strong> theme first falls back to the “default/” files and then back to <code>$serendipity['defaultTemplate']</code> (the standard template) “2k11/” pool. In the <strong>Backend</strong> (*) this is slightly different, since we do not have engines but need to grab the Backend theme correctly, So the cascade iterates from "yourTheme/", to the chosen Backend theme, eg. "2styx/", followed by the standard Backend theme "2k11/" and at last falls to "default/".</p>
 
 <p>Needless to say, that the cascade iteration is being stopped, when the searched template file is found. <strong>First come, first serve!</strong></p>
 
-<p>Some special Backend images and the designated and <em>special cased</em> “serendipity_editor.js” template file(s), follow the Frontend principles of “default/” first, while being called from the “external_plugin” plugin API hook, or by “Frontend designed” callers, outside the current cascade array.</p>
+<p>(*) Some special Backend images and the designated and <em>special cased</em> “serendipity_editor.js” Backend template file(s), follow the Frontend principles of “default/” first, while being called from the “external_plugin” plugin API hook, or by “Frontend designed” callers, outside the current cascade array.</p>
 
 <h4 id="docs-previewpng-preview_fullsizejpg">preview.png, preview_fullsize.jpg</h4>
 
@@ -572,7 +572,7 @@ function serendipity_plugin_api_event_hook($event, &amp;$bag, &amp;$eventData, $
 
 <h5 id="docs-configuration-keys">Configuration keys</h5>
 
-<p>This example defines four different configuration options. Each configuration option has a specific variable name, a title displayed for the user, an indicator of what type it is, and its available options. Those are defined by these array keys:</p>
+<p>This example defines <strong>four</strong> different configuration options. Each configuration option has a specific variable name, a title displayed for the user, an indicator of what type it is, and its available options. Those are defined by these array keys:</p>
 
 <ul>
   <li><strong>var</strong>: Defines what variable name is later used so that you can check for it in the Smarty template files. <code>'var' =&gt; 'layouttype'</code> would later be accessible as <code>{$template_option.layouttype}</code> in the index.tpl file for example.</li>
@@ -582,35 +582,33 @@ function serendipity_plugin_api_event_hook($event, &amp;$bag, &amp;$eventData, $
     <ul>
       <li><strong>select</strong>: Offers a select menu.
         <ul>
-          <li>The values that are available need to be defined in a <strong>select_values</strong> array key (see example).</li>
-          <li>The size of the select field can be changed with the <strong>select_size</strong> array key</li>
+          <li>The values that are available need to be defined in a ‘<strong>select_values</strong>’ array key (see above example).</li>
+          <li>The size of the select field can be changed with the ‘<strong>select_size</strong>’ array key</li>
         </ul>
       </li>
       <li><strong>multiselect</strong>: Like the select menu above, but with multiselection.</li>
       <li><strong>separator</strong>: Emits a simple separator</li>
       <li><strong>tristate</strong>: Offers a “YES”, “NO”, “USE DEFAULT” radio-selection</li>
       <li><strong>boolean</strong>: Offers a “YES, “NO” radio-selection</li>
-      <li><strong>radio</strong>: Offers a radio-selection. The available values need to be defined in the <strong>value</strong> array key, the matching descriptions in a <strong>desc</strong> array key. The <strong>per_row</strong> key defines how many radio buttons are displayed on a single row in the configuration.</li>
+      <li><strong>radio</strong>: Offers a radio-selection. The available values need to be defined in the ‘<strong>value</strong>’ array key, the matching descriptions in a ‘<strong>desc</strong>’ array key. The ‘<strong>per_row</strong>’ key defines how many radio buttons are displayed on a single row in the configuration.</li>
       <li><strong>string</strong>: Offers a single line input text field</li>
-      <li><strong>html</strong>: Offers a textarea input field. Number of rows can be defined with <strong>rows</strong> array key. When WYSIWYG editor is enabled, this is shown a a WYSIWYG field.</li>
-      <li><strong>text</strong>: Offers a textarea input field. Number of rows can be defined with <strong>rows</strong> array key. No WYSIWYG editing available.</li>
-      <li><strong>content</strong>: Can be used to emit any kind of HTML on the configuration Backend. The HTML is stored in the <strong>default</strong> array key. This is used for information output.</li>
-      <li><strong>custom</strong>: Can be used to emit any kind of HTML on the configuration Backend. The HTML is stored in the <strong>default</strong> array key. This is used to store custom values.</li>
-      <li><strong>hidden</strong>: Can be used to store a hidden HTML input field. The value is fetched from the <strong>value</strong> array key.</li>
-      <li><strong>media</strong>: Can be used to retrieve a media file location. Array keys <strong>preview_width</strong> and <strong>preview_height</strong> indicate image size.</li>
-      <li><strong>sequence</strong>: Can be used for a re-orderable widget with multiple values. For an example, check out the <code>serendipity_event_entryproperties</code> plugin which uses this configuration item.
-<strong>checkable</strong>: If set to true, each ordered widget can be enabled/disabled. When set, retrieving the option later will only list those widgets that were checked. If not set, all available values will always be returned (in the order the user indicated)
-<strong>values</strong>: Defines an array that uses a unique key for its configuration and as the value it holds a sub-array with the key ‘display’ to provide the HTML output for each re-orderable widget.</li>
+      <li><strong>html</strong>: Offers a textarea input field. Number of rows can be defined with ‘<strong>rows</strong>’ array key. When WYSIWYG editor is enabled, this is shown a a WYSIWYG field.</li>
+      <li><strong>text</strong>: Offers a textarea input field. Number of rows can be defined with ‘<strong>rows</strong>’ array key. No WYSIWYG editing available.</li>
+      <li><strong>content</strong>: Can be used to emit any kind of HTML on the configuration Backend. The HTML is stored in the ‘<strong>default</strong>’ array key. This is used for information output.</li>
+      <li><strong>custom</strong>: Can be used to emit any kind of HTML on the configuration Backend. The HTML is stored in the ‘<strong>default</strong>’ array key. This is used to store custom values.</li>
+      <li><strong>hidden</strong>: Can be used to store a hidden HTML input field. The value is fetched from the ‘<strong>value</strong>’ array key.</li>
+      <li><strong>media</strong>: Can be used to retrieve a media file location. Array keys ‘<strong>preview_width</strong>’ and ‘<strong>preview_height</strong>’ indicate image sizes.</li>
+      <li><strong>sequence</strong>: Can be used for a re-orderable widget with multiple values. For an example, check out the <code>serendipity_event_entryproperties</code> plugin which uses this configuration item. This sequence <strong>type</strong> allows two additional key properties, which are:
+        <ul>
+          <li><strong>checkable</strong>: If set to true, each ordered sequence widget can be enabled/disabled. When set, retrieving the option later will only list those widgets that were checked. If not set, all available values will always be returned (in the order the user indicated)</li>
+          <li><strong>values</strong>: Defines an array that uses a unique key for its configuration and as the value it holds a sub-array with the key ‘<strong>display</strong>’ to provide the HTML output for each re-orderable widget.</li>
+        </ul>
+      </li>
     </ul>
   </li>
 </ul>
 
-<p>(when selected) Values can be: select, tristate, boolean, radio, string, html, hidden.</p>
-<ul>
-  <li>When using the “select”</li>
-</ul>
-
-<p>The configuration array is processed through <code>ìnclude/functions_plugins_admin.inc.php</code>, <code>serendipity_plugin_config()</code> if you want to see how these arrays are checked. The output of the configuration items is done by the <code>admin/plugin_config.tpl</code> file (which also calls <code>admin/plugin_config_item.tpl</code> for each item).</p>
+<p>The configuration array is processed through <code>include/functions_plugins_admin.inc.php</code>, <code>serendipity_plugin_config()</code> if you want to see how these arrays are checked. The output of the configuration items is done by the <code>admin/plugin_config.tpl</code> file (which also calls <code>admin/plugin_config_item.tpl</code> for each item).</p>
 
 <h5 id="docs-advanced-theme-options-theme-option-groups">Advanced theme options: Theme option groups</h5>
 
