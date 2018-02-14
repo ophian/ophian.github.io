@@ -192,7 +192,7 @@ class serendipity_plugin_myfirstplugin extends serendipity_plugin {
 
 <p>And that’s it for the plugin! You can now log into your plugin configuration management page and install the sidebar plugin. On the Frontend, it will simply show you a “Hello world” statement.</p>
 
-<p>Now let’s disect the plugin code above:</p>
+<p>Now let’s dissect the plugin code above:</p>
 
 <ol>
   <li>The first thing is a hack-protection code, you can simply copy and paste this in new plugins</li>
@@ -475,18 +475,18 @@ echo $bag-&gt;get('version');</code></pre>
 
 <p>The serendipity_plugin class offers several member variables:</p>
 
-<ul>
-  <li><strong>$instance</strong>: Holds the unique instance ID of a plugin</li>
-  <li><strong>$protected</strong>: If set to “true” only the owner of a plugin can configure it (set for “dangerous” plugins)</li>
-  <li><strong>$wrap_class</strong>: The CSS class in which a sidebar plugin is wrapped into</li>
-  <li><strong>$title_class</strong>: The CSS class in which the title of a sidebar plugin is wrapped into</li>
-  <li><strong>$content_class</strong>: The CSS class in which the content of a sidebar plugin is wrapped into</li>
-  <li><strong>$title</strong>: The title of the plugin (used for the output)</li>
-  <li><strong>$pluginPath</strong>: The internal path to the plugin file</li>
-  <li><strong>$act_pluginPath</strong>: The resolved internal path to the plugin file</li>
-  <li><strong>$pluginFile</strong>: The plugin filename</li>
-  <li><strong>$serendipity_owner</strong>: The intial owner of the plugin (who installed it)</li>
-  <li><strong>$dependencies</strong>: A possible array of dependencies. Each array keys represents a plugin class name, and the value can either be “remove” or “keep”, which influences what happens to the bundled plugin when it’s siblings are removed.</li>
+<ul class="plainList">
+  <li><code>$instance</code>: Holds the unique instance ID of a plugin</li>
+  <li><code>$protected</code>: If set to “true” only the owner of a plugin can configure it (set for “dangerous” plugins)</li>
+  <li><code>$wrap_class</code>: The CSS class in which a sidebar plugin is wrapped into</li>
+  <li><code>$title_class</code>: The CSS class in which the title of a sidebar plugin is wrapped into</li>
+  <li><code>$content_class</code>: The CSS class in which the content of a sidebar plugin is wrapped into</li>
+  <li><code>$title</code>: The title of the plugin (used for the output)</li>
+  <li><code>$pluginPath</code>: The internal path to the plugin file</li>
+  <li><code>$act_pluginPath</code>: The resolved internal path to the plugin file</li>
+  <li><code>$pluginFile</code>: The plugin filename</li>
+  <li><code>$serendipity_owner</code>: The initial owner of the plugin (who installed it)</li>
+  <li><code>$dependencies</code>: A possible array of dependencies. Each array keys represents a plugin class name, and the value can either be “remove” or “keep”, which influences what happens to the bundled plugin when it’s siblings are removed.</li>
 </ul>
 
 <h3 id="docs-structure-of-serendipity_event-in-detail">Structure of serendipity_event in detail</h3>
