@@ -237,7 +237,7 @@
 
 <p>A Frontend theme can hold multiple files in its directory and define its custom output. Serendipity contains a lot of individual template files (see below), but very often a theme can work with the default template files that are provided by Serendipity.</p>
 
-<p>To make theme directories as small as possible, and as update- and future-proof as possible, we have a sophisticated scheme of fallbacks for files that are not provided by an individual theme.</p>
+<p>To make theme directories as small as possible, and as update- and future-proof as possible, we have a sophisticated scheme of fallbacks for files that are not provided by an individual theme. (Please also see <a href="#template-fallback-cascade">here</a>.)</p>
 
 <p>Let’s take the file ‘entries.tpl’ for example. This template file is used in the Frontend to display both the list of entries and the view of a single entry.</p>
 
@@ -245,9 +245,12 @@
 
 <ul>
   <li>First, check if the currently set theme (for example “my_custom_theme”) has the file ‘entries.tpl’. If yes: Use that file <code>templates/my_custom_theme/entries.tpl</code>.</li>
-  <li>Now check the theme’s ‘info.txt’ file and see if the theme defined an “Engine: XXX” which specifies the default fallback directory to use. By default, this directory is set to “2k11” - so this file <code>templates/2k11/entries.tpl</code>will be returned. If “Engine: bulletproof” would be contained in the file, then <code>templates/bulletproof/entries.tpl</code> would be returned.</li>
-  <li>If such a file would still not exist, the last fallback is to use <code>templates/default/entries.tpl</code></li>
+  <li>Now check the theme’s ‘info.txt’ file and see if the theme defined an “Engine: XXX” which specifies the default fallback directory to use. If “Engine: bulletproof would be contained in the file, then <code>templates/bulletproof/entries.tpl</code> would be returned.</li>
+  <li>The next iterated theme to be processed as fallback would be “default/” and this file <code>templates/default/entries.tpl</code> be returned.
+  <li>If such a file would still not exist, the last fallback is to use is the standard Theme <code>templates/2k11/entries.tpl</code>.</li>
 </ul>
+
+<p>So for simple extended themes, an “ENGINE: 2k11” would suffice best!</p>
 
 <p>So make sure that you only copy over those files to your theme directory which you are really going to customize!</p>
 
@@ -276,7 +279,9 @@ Engine: [ENGINE]</code></pre>
   <li><strong>[ENGINE]</strong> can hold the string of any theme directory (i.e. “bulletproof”, “2k11”, “default”) to specify, which fallback to use.</li>
 </ul>
 
-<p>If ENGINE is not provided, a <strong>Frontend</strong> theme first falls back to the “default/” files and then back to <code>$serendipity['defaultTemplate']</code> (the standard template) “2k11/” pool. In the <strong>Backend</strong> (*) this is slightly different, since we do not have engines but need to grab the Backend theme correctly, So the cascade iterates from "yourTheme/", to the chosen Backend theme, eg. "2styx/", followed by the standard Backend theme "2k11/" and at last falls to "default/".</p>
+<p id="template-fallback-cascade">An <strong> extended note</strong> about the Serendipity template fallback cascade:</p>
+
+<p>If ENGINE is not provided, a <strong>Frontend</strong> theme first falls back to the “default/” files and then back to <code>$serendipity['defaultTemplate']</code> (the standard template) “2k11/” pool. In the <strong>Backend</strong> (*) this is slightly different, since we do not have engines, but need to grab the Backend theme correctly. So the cascade iterates from "yourTheme/", to the chosen Backend theme, eg. "2styx/", followed by the standard Backend theme "2k11/" and at last falls to "default/".</p>
 
 <p>Needless to say, that the cascade iteration is being stopped, when the searched template file is found. <strong>First come, first serve!</strong></p>
 
