@@ -273,8 +273,14 @@ Engine: [ENGINE]</code></pre>
 <ul>
   <li><strong>[VERSION]</strong> can be replaced with the minimum version of Serendipity that is required to power your theme. Simply set the version number of your current installation where you developed a theme with.</li>
   <li><strong>[BACKEND]</strong> can hold the string “Yes” if your theme also provides a Backend theme. Leave out this line, if no Backend is provided</li>
-  <li><strong>[ENGINE]</strong> can hold the string of any theme directory (i.e. “bulletproof”, “2k11”, “default”) to specify, which fallback to use. If not provided, a <strong>Frontend</strong> theme first falls back to the “default/” files and then back to the <code>$serendipity['defaultTemplate']</code> (standard) template “2k11/” pool. In the <strong>Backend</strong> this is slightly different, since we do not have engines but need to grab the Backend theme correctly, So the cascade iterates from "yourTheme/", to the chosen Backend theme, eg. "2styx/", followed by the standard Backend theme "2k11/" and at last falls to "default/". Needless to say, that the cascade iteration is being stopped, when the searched template file is found. First come, first serve!</li>
+  <li><strong>[ENGINE]</strong> can hold the string of any theme directory (i.e. “bulletproof”, “2k11”, “default”) to specify, which fallback to use.</li>
 </ul>
+
+<p>If ENGINE is not provided, a <strong>Frontend</strong> theme first falls back to the “default/” files and then back to <code>$serendipity['defaultTemplate']</code> (the standard template) “2k11/” pool. In the <strong>Backend</strong> this is slightly different, since we do not have engines but need to grab the Backend theme correctly, So the cascade iterates from "yourTheme/", to the chosen Backend theme, eg. "2styx/", followed by the standard Backend theme "2k11/" and at last falls to "default/".</p>
+
+<p>Needless to say, that the cascade iteration is being stopped, when the searched template file is found. <strong>First come, first serve!</strong></p>
+
+<p>Some special Backend images and the designated and <em>special cased</em> “serendipity_editor.js” template file(s), follow the Frontend principles of “default/” first, while being called from the “external_plugin” plugin API hook, or by “Frontend designed” callers, outside the current cascade array.</p>
 
 <h4 id="docs-previewpng-preview_fullsizejpg">preview.png, preview_fullsize.jpg</h4>
 
