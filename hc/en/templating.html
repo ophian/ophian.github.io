@@ -239,13 +239,13 @@
 
 <p>To make theme directories as small as possible, and as update- and future-proof as possible, we have a sophisticated scheme of fallbacks for files that are not provided by an individual theme.</p>
 
-<p>Let’s take the file “entries.tpl” for example. This template file is used in the Frontend to display both the list of entries and the view of a single entry.</p>
+<p>Let’s take the file ‘entries.tpl’ for example. This template file is used in the Frontend to display both the list of entries and the view of a single entry.</p>
 
-<p>When your Frontend is called and the entries.tpl file should be rendered, Serendipity checks for this file like this:</p>
+<p>When your Frontend is called and the ‘entries.tpl’ file should be rendered, Serendipity checks for this file like this:</p>
 
 <ul>
-  <li>First, check if the currently set theme (for example “my_custom_theme”) has the file “entries.tpl”. If yes: Use that file <code>templates/my_custom_theme/entries.tpl</code>.</li>
-  <li>Now check the theme’s “info.txt” file and see if the theme defined an “Engine: XXX” which specifies the default fallback directory to use. By default, this directory is set to “2k11” - so this file <code>templates/2k11/entries.tpl</code>will be returned. If “Engine: bulletproof” would be contained in the file, then <code>templates/bulletproof/entries.tpl</code> would be returned.</li>
+  <li>First, check if the currently set theme (for example “my_custom_theme”) has the file ‘entries.tpl’. If yes: Use that file <code>templates/my_custom_theme/entries.tpl</code>.</li>
+  <li>Now check the theme’s ‘info.txt’ file and see if the theme defined an “Engine: XXX” which specifies the default fallback directory to use. By default, this directory is set to “2k11” - so this file <code>templates/2k11/entries.tpl</code>will be returned. If “Engine: bulletproof” would be contained in the file, then <code>templates/bulletproof/entries.tpl</code> would be returned.</li>
   <li>If such a file would still not exist, the last fallback is to use <code>templates/default/entries.tpl</code></li>
 </ul>
 
@@ -273,7 +273,7 @@ Engine: [ENGINE]</code></pre>
 <ul>
   <li><strong>[VERSION]</strong> can be replaced with the minimum version of Serendipity that is required to power your theme. Simply set the version number of your current installation where you developed a theme with.</li>
   <li><strong>[BACKEND]</strong> can hold the string “Yes” if your theme also provides a Backend theme. Leave out this line, if no Backend is provided</li>
-  <li><strong>[ENGINE]</strong> can hold the string of any theme directory (i.e. “bulletproof”, “2k11”, “default”) to specify, which fallback to use. If not provided, falls back to $serendipity['defaultTemplate'] (2k11).</li>
+  <li><strong>[ENGINE]</strong> can hold the string of any theme directory (i.e. “bulletproof”, “2k11”, “default”) to specify, which fallback to use. If not provided, a <strong>Frontend</strong> theme first falls back to the “default/” files and then back to the <code>$serendipity['defaultTemplate']</code> (standard) template “2k11/” pool. In the <strong>Backend</strong> this is slightly different, since we do not have engines but need to grab the Backend theme correctly, So the cascade iterates from "yourTheme/", to the chosen Backend theme, eg. "2styx/", followed by the standard Backend theme "2k11/" and at last falls to "default/". Needless to say, that the cascade iteration is being stopped, when the searched template file is found. First come, first serve!</li>
 </ul>
 
 <h4 id="docs-previewpng-preview_fullsizejpg">preview.png, preview_fullsize.jpg</h4>
@@ -405,7 +405,7 @@ function serendipity_plugin_api_event_hook($event, &amp;$bag, &amp;$eventData, $
 
 <p>Serendipity allows you to define custom fields within your entry, which you can display within an entry. For that you need to enable the serendipity_event_entryproperties plugin.</p>
 
-<p>That means, you can create two custom fields called Listening and Playing (don’t use whitespace or special characters for fieldnames). Create an entry, and fill in values for those two fields. Now edit your entries.tpl template and place the Smarty Codes</p>
+<p>That means, you can create two custom fields called Listening and Playing (don’t use whitespace or special characters for fieldnames). Create an entry, and fill in values for those two fields. Now edit your ‘entries.tpl’ template and place the Smarty Codes</p>
 
 <pre><code>Now listening to: {$entry.properties.ep_Listening}
 Now playing: {$entry.properties.ep_Playing}</code></pre>
@@ -1143,7 +1143,7 @@ It is not advised to create your own  style_fallback.css file.</p>
 <p>Several variables for showing/parsing entries.</p>
 
 <ul class="plainList">
-  <li><code>$plugin_clean_page</code> indicates whether a plugin has taken over parsing entries.tpl, and not the usual entries listing is displayed.</li>
+  <li><code>$plugin_clean_page</code> indicates whether a plugin has taken over parsing ‘entries.tpl’, and not the usual entries listing is displayed.</li>
   <li><code>$comments_messagestack</code> holds an array of output messages when somebody submits a comment (like “comment was added”, “comment was moderated” etc.).</li>
   <li><code>$is_comment_added</code> indicates whether somebody just submitted a comment.</li>
   <li><code>$is_comment_moderate</code> indicates if the current entry being displayed is moderated</li>
