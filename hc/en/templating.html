@@ -208,13 +208,13 @@
 
 <h2 id="docs-templating">Templating</h2>
 
-<p>A theme is a collection of single template files, and must be put into the templates/ subdirectory to be available for selection your blog’s “Manage Themes” admin section.</p>
+<p>A theme is a collection of single template files, and must be put into the “templates/” subdirectory to be available for selection your Blog’s “Manage Themes” admin section.</p>
 
 <p>Themes can either consist of a Frontend Theme, a Backend Theme or provide both. All styling for the Backend is done in a subdirectory “admin” of the theme directory.</p>
 
 <h3 id="docs-smarty">Smarty</h3>
 
-<p>Are you afraid of using PHP? Get the shivers of complexity? Don’t be afraid: Serendipity uses the Smarty PHP templating system, see (http://www.smarty.net). There you can also find a complete description of how it can be used - it is very easy to learn, has a lower entry barrier that using PHP code, and generally “looks” cleaner und more understandable.</p>
+<p>Are you afraid of using PHP? Get the shivers of complexity? Don’t be afraid: Serendipity uses the Smarty PHP templating system, see (http://www.smarty.net). There you can also find a complete description of how it can be used - it is very easy to learn, has a lower entry barrier than using PHP code, and generally “looks” cleaner and simpler to understand.</p>
 
 <p>(Sidestep: You are not afraid of using PHP? See below for the “Template API”, but bear in mind that Smarty is really comfortable to use and you shouldn’t worry about using it. You can place custom PHP code easily in our Plugin API, or even a template’s configuration file).</p>
 
@@ -225,12 +225,12 @@
 <ul>
   <li>Variables are placed through curly brackets and the dollar sign: <code>{$variable}</code></li>
   <li>Arrays can be accessed similar to JavaScript: <code>{$array.subkey}</code></li>
-  <li>… but also simliar to PHP: <code>{$array['subkey']}</code></li>
+  <li>… but also similar to PHP: <code>{$array['subkey']}</code></li>
   <li>Function calls can be executed with curly brackets: <code>{myFunction param1="something" param2="something else"}</code></li>
   <li>IF-queries can be performed: <code>{if $variable == true}...{/if}</code></li>
   <li>Loops can be performed: <code>{foreach $array AS $key => $value}...{/foreach}</code></li>
   <li>So called “modifiers” can be stacked to operate on a single variable with the “pipe” sign: <code>{$variable|escape|lower}</code></li>
-  <li>Modifers can have parameters: <code>{$variable|format_date:"%d.%m.%Y"}</code></li>
+  <li>Modifiers can have parameters: <code>{$variable|format_date:"%d.%m.%Y"}</code></li>
 </ul>
 
 <h3 id="docs-fallback-templates">Fallback templates</h3>
@@ -271,9 +271,9 @@ Engine: [ENGINE]</code></pre>
 <p>Every line except “Name:” is optional.</p>
 
 <ul>
-  <li><code>[VERSION]</code> can be replaced with the minimum version of Serendipity that is required to power your theme. Simply set the version number of your current installation where you developed a theme with.</li>
-  <li><code>[BACKEND]</code> can hold the string “Yes” if your theme also provides a Backend theme. Leave out this line, if no Backend is provided</li>
-  <li><code>[ENGINE]</code> can hold the string of any theme directory (i.e. “bulletproof”, “2k11”, “default”) to specify, which fallback to use. If not provided, falls back to $serendipity['defaultTemplate'] (2k11).</li>
+  <li><strong>[VERSION]</strong> can be replaced with the minimum version of Serendipity that is required to power your theme. Simply set the version number of your current installation where you developed a theme with.</li>
+  <li><strong>[BACKEND]</strong> can hold the string “Yes” if your theme also provides a Backend theme. Leave out this line, if no Backend is provided</li>
+  <li><strong>[ENGINE]</strong> can hold the string of any theme directory (i.e. “bulletproof”, “2k11”, “default”) to specify, which fallback to use. If not provided, falls back to $serendipity['defaultTemplate'] (2k11).</li>
 </ul>
 
 <h4 id="docs-previewpng-preview_fullsizejpg">preview.png, preview_fullsize.jpg</h4>
@@ -410,11 +410,11 @@ function serendipity_plugin_api_event_hook($event, &amp;$bag, &amp;$eventData, $
 <pre><code>Now listening to: {$entry.properties.ep_Listening}
 Now playing: {$entry.properties.ep_Playing}</code></pre>
 
-<p>anywhere you like inside the entry loop. Remember to prefix your property keyname with ep_. Then you’ll see those fields at the place you configured. You can also add the usual Smarty markup to check if a variable is empty, and add some DIV or other tags to surround your output.</p>
+<p>anywhere you like inside the entry loop. Remember to prefix your property keyname with “ep_”. Then you’ll see those fields at the place you configured. You can also add the usual Smarty markup to check if a variable is empty, and add some DIV or other tags to surround your output.</p>
 
-<p>Now if you don’t want to show actually fixed customFields of an entry, but instead make your own plugin insert stuff at that place, you can do that either by the custom function calls mentioned above, or by making your plugin alter the $entry['properties'] array to inject new content.</p>
+<p>Now if you don’t want to show actually fixed customFields of an entry, but instead make your own plugin insert stuff at that place, you can do that either by the custom function calls mentioned above, or by making your plugin alter the <code>$entry['properties']</code> array to inject new content.</p>
 
-<p>Your plugin can just hook into one of the events where entries are fetched (‘entry_display’ or ‘frontend_display’ or even ‘frontend_entryproperties’) and then just set your $eventData property index to what you want to be displayed later on. As your template already contains the display code from above, it will just pick up the new $entry['properties'] data from your custom plugin and show it, just as if you entered it on the entry creation screen.</p>
+<p>Your plugin can just hook into one of the events where entries are fetched (‘entry_display’ or ‘frontend_display’ or even ‘frontend_entryproperties’) and then just set your <code>$eventData</code> property index to what you want to be displayed later on. As your template already contains the display code from above, it will just pick up the new <code>$entry['properties']</code> data from your custom plugin and show it, just as if you entered it on the entry creation screen.</p>
 
 <p><strong>Using a theme’s entryproperties</strong></p>
 
@@ -615,7 +615,7 @@ function serendipity_plugin_api_event_hook($event, &amp;$bag, &amp;$eventData, $
     THEME_HEADER    =&gt; array('custheader', 'headerimage', 'headertype')
 );</code></pre>
 
-<p>The array key defines the theme option group name which gets displayed for the user. The array value defines an array of defined theme options you want to have in that group. Those array values corellate with the name of the theme options that are defined in <code>$template_config</code>.</p>
+<p>The array key defines the theme option group name which gets displayed for the user. The array value defines an array of defined theme options you want to have in that group. Those array values correlate with the name of the theme options that are defined in <code>$template_config</code>.</p>
 
 <h5 id="docs-advanced-theme-options-central-navigation">Advanced theme options: Central navigation</h5>
 
@@ -648,7 +648,7 @@ serendipity_loadGlobalThemeOptions($template_config, $template_loaded_config, $t
 
 <pre><code>@serendipity_plugin_api::load_language(dirname(__FILE__));</code></pre>
 
-<p>This line ensures that a language file of the current user language is loaded (if it exists!), and also the english file is ALWAYS loaded as a fallback.</p>
+<p>This line ensures that a language file of the current user language is loaded (if it exists!), and also the (ISO) english file is ALWAYS loaded as a fallback.</p>
 
 <p>If you now provide a translation for german, you would add a file <code>lang_de.inc.php</code> with this content:</p>
 
@@ -679,7 +679,7 @@ serendipity_loadGlobalThemeOptions($template_config, $template_loaded_config, $t
 
 <h4 id="docs-specific-frontend-theme-files-and-their-meaning">Specific FRONTEND theme files and their meaning</h4>
 
-<p>Each of those files is not mandatory in your theme directory. If you want to adapt it, you should copy it over from the 2k11 directory. Only copy over the files you actually change, so that the fallback-chain can work properly (see above).</p>
+<p>Each of those files is not mandatory in your theme directory. If you want to adapt it, you should copy it over from the “2k11” or “default” directory. Only copy over the files you actually change, so that the fallback-chain can work properly (see above).</p>
 
 <h5 id="docs-atomcss">atom.css</h5>
 
@@ -717,7 +717,7 @@ It is not advised to create your own  style_fallback.css file.</p>
 
 <h5 id="docs-contenttpl">content.tpl</h5>
 
-<p>This is a master template that holds your page content area, and depending on the page type (entries overview, entry search, archive page, …) emits different messages.</p>
+<p>This is a <strong>master</strong> template that holds your page content area, and depending on the page type (entries overview, entry search, archive page, …) emits different messages.</p>
 
 <h5 id="docs-entries_archivestpl">entries_archives.tpl</h5>
 
@@ -733,11 +733,11 @@ It is not advised to create your own  style_fallback.css file.</p>
 
 <h5 id="docs-indextpl">index.tpl</h5>
 
-<p>This is the main template file that controls the general look of your page as well as HTML headers, meta tags, CSS embedding, sidebar locations etc.</p>
+<p>This is the <strong>main</strong> template file that controls the general look of your page as well as HTML headers, meta tags, CSS embedding, sidebar locations etc.</p>
 
 <h5 id="docs-entriestpl">entries.tpl</h5>
 
-<p>This is the main logic file and it tells Serendipity how to format your entry overview, how to loop entries, where to show commentsforms etc.</p>
+<p>This is the <strong>main</strong> logic file and it tells Serendipity how to format your entry overview, how to loop entries, where to show commentsforms etc.</p>
 
 <h5 id="docs-plugin_calendartpl-plugin_categoriestpl-plugin_staticpagetpl">plugin_calendar.tpl, plugin_categories.tpl, plugin_staticpage.tpl</h5>
 
@@ -745,17 +745,17 @@ It is not advised to create your own  style_fallback.css file.</p>
 
 <h5 id="docs-preview_iframetpl">preview_iframe.tpl</h5>
 
-<p>When you create a preview from within the admin interface, this file controls the basic look of the embedded iframe holding the preview. You need to adapt this file if your preview looks odd/off.</p>
+<p>When you create a preview from within the admin interface, this file controls the basic look of the embedded IFRAME holding the preview. You need to adapt this file if your preview looks odd/off.</p>
 
 <h5 id="docs-sidebartpl">sidebar.tpl</h5>
 
-<p>This file controls how the list of sidebar plugins is displayed in the frontent.</p>
+<p>This file controls how the list of sidebar plugins is displayed in the Frontent.</p>
 
 <h5 id="docs-media_showitemtpl">media_showitem.tpl</h5>
 
 <p>If a media database file is shown in the Frontend, this file controls its layout.</p>
 
-<h5 id="docs-img-subfolder-and-others">img/ subfolder and others</h5>
+<h5 id="docs-img-subfolder-and-others">“img/” subfolder and others</h5>
 
 <p>Of course your theme can hold its own assets and javascript file. You can put them anywhere you like. Most themes use a “js” and “img” subdirectory.</p>
 
@@ -776,7 +776,7 @@ It is not advised to create your own  style_fallback.css file.</p>
     );
 ?&gt;</code></pre>
 
-<p>This will override the default list of emoticons set inside the file plugins/serendipity_event_emoticate/serendipity_event_emoticate.php and use the ones you created for your template.</p>
+<p>This will override the default list of emoticons set inside the file “plugins/serendipity_event_emoticate/serendipity_event_emoticate.php” and use the ones you created for your template.</p>
 
 <p>Alternatively, you can also simply deliver a set of image files that match the default image file names.</p>
 
@@ -786,11 +786,11 @@ It is not advised to create your own  style_fallback.css file.</p>
 
 <h4 id="docs-smarty-methods">Smarty methods</h4>
 
-<p>Serendipity offers a list of custom Smarty methods and functions that can be used by the template files. They are defined in the serendipity_smarty_init() function inside include/functions_smarty.inc.php.</p>
+<p>Serendipity offers a list of custom Smarty methods and functions that can be used by the template files. They are defined in the “serendipity_smarty_init()” function inside “include/functions_smarty.inc.php”.</p>
 
 <h5 id="docs-smarty-modifiers">Smarty modifiers</h5>
 
-<p>The name in brackets is the PHP function that is called and defined in include/functions_smarty.inc.php, the bold name is how you actually call the modifier in Smarty with <code>{$variable|makeFilename}</code> for example.</p>
+<p>The name in brackets is the PHP function that is called and defined in “include/functions_smarty.inc.php”, the bold name is how you actually call the modifier in Smarty with <code>{$variable|makeFilename}</code> for example.</p>
 
 <p>The first parameter is always the variable that the modifier gets applied to.</p>
 
@@ -808,24 +808,24 @@ It is not advised to create your own  style_fallback.css file.</p>
 
 <h5 id="docs-smarty-functions">Smarty functions</h5>
 
-<p>Smarty functions are meant to be executed on their own and will return their content at the place of where you put the function call. In distinction to Smarty modifieres, function calls are executed with exact parameters and cannot be “stacked” upon each other like a <code>{$variable|modifier1|modifier2|...}</code> call.</p>
+<p>Smarty functions are meant to be executed on their own and will return their content at the place of where you put the function call. In distinction to Smarty modifiers, function calls are executed with exact parameters and cannot be “stacked” upon each other like a <code>{$variable|modifier1|modifier2|...}</code> call.</p>
 
-<p>The name in brackets is the PHP function that is called and defined in include/functions_smarty.inc.php, the bold name is how you actually call the function in Smarty with <code>{serendipity_printSidebar param1="value" param2="value" ...}</code> for example. The list of parameters is indented below.</p>
+<p>The name in brackets is the PHP function that is called and defined in “include/functions_smarty.inc.php”, the bold name is how you actually call the function in Smarty with <code>{serendipity_printSidebar param1="value" param2="value" ...}</code> for example. The list of parameters is indented below.</p>
 
 <ul>
   <li><strong>serendipity_printSidebar</strong> (serendipity_smarty_printSidebar): Prints the list of sidebar plugins.
     <ul>
-      <li><span class="var">side:</span> The name of the sidebar, i.e. “left”, “right”, “hide”</li>
-      <li><span class="var">template:</span> The name of the Smarty template file to render a plugin with (default: “sidebar.tpl”)</li>
+      <li><span class="var">side</span>: The name of the sidebar, i.e. “left”, “right”, “hide”</li>
+      <li><span class="var">template</span>: The name of the Smarty template file to render a plugin with (default: “sidebar.tpl”)</li>
       <li><strong>EXAMPLE</strong>: <pre><code>{serendipity_printSidebar side="left|right|hide|*" template="yourtemplate.tpl"}</code></pre></li>
     </ul>
   </li>
   <li><strong>serendipity_hookPlugin</strong> (serendipity_smarty_hookPlugin): Executes a hook of the Plugin API and return content.
     <ul>
-      <li><span class="var">hook:</span> The name of the event hook to call. Available names are: ‘frontend_header’, ‘entries_header’, ‘entries_footer’, ‘frontend_comment’, ‘frontend_footer’. If other hooks are meant to be executed, the following parameter needs to be set:</li>
-      <li><span class="var">hookAll:</span> If set to true, any plugin API event hook can be executed.</li>
-      <li><span class="var">data:</span> Passes the $eventData for the event</li>
-      <li><span class="var">addData:</span> Passes optional additional $addData for the event</li>
+      <li><span class="var">hook</span>: The name of the event hook to call. Available names are: ‘frontend_header’, ‘entries_header’, ‘entries_footer’, ‘frontend_comment’, ‘frontend_footer’. If other hooks are meant to be executed, the following parameter needs to be set:</li>
+      <li><span class="var">hookAll</span>: If set to true, any plugin API event hook can be executed.</li>
+      <li><span class="var">data</span>: Passes the <code>$eventData</code> for the event</li>
+      <li><span class="var">addData</span>: Passes optional additional <code>$addData</code> for the event</li>
       <li>External variable <code>$serendipity['skip_smarty_hooks']</code> is evaluated, if set to “true” no plugins will be executed. This is for specific recursive calls of event hooks and used internally.</li>
       <li>External variable <code>$serendipity['skip_smarty_hook']</code> can contain an array of plugin hooks to not execute.  This is for specific recursive calls of event hooks and used internally.</li>
       <li><strong>EXAMPLE</strong>: <pre><code>{serendipity_hookPlugin hook="hookname" hookAll="true|false" data=$eventData addData=$addData}</code></pre></li>
@@ -833,136 +833,139 @@ It is not advised to create your own  style_fallback.css file.</p>
   </li>
   <li><strong>serendipity_showPlugin</strong> (serendipity_smarty_showPlugin): Shows the output of a specific sidebar plugin.
     <ul>
-      <li><span class="var">class:</span> The classname of the plugin to show, like “serendipity_plugin_quicksearch”</li>
-      <li><span class="var">id:</span> A distinct ID of a plugin to show (see database table <code>serendipity_plugins</code>)</li>
-      <li><span class="var">side:</span> Which sidebar the plugins belongs to. If set to “*”, the sidebar will not matter.</li>
-      <li><span class="var">negate:</span> If set, reverts the previous filters, can be used to “Show all plugins EXCEPT …”.</li>
-      <li><span class="var">empty:</span> Can be set to a string that is shown, when the plugin output was empty.</li>
-      <li><span class="var">template:</span> Can be set to a sidebar template file other than the default “sidebar.tpl”</li>
+      <li><span class="var">class</span>: The classname of the plugin to show, like “serendipity_plugin_quicksearch”</li>
+      <li><span class="var">id</span>: A distinct ID of a plugin to show (see database table <code>serendipity_plugins</code>)</li>
+      <li><span class="var">side</span>: Which sidebar the plugins belongs to. If set to “*”, the sidebar will not matter.</li>
+      <li><span class="var">negate</span>: If set, reverts the previous filters, can be used to “Show all plugins EXCEPT …”.</li>
+      <li><span class="var">empty</span>: Can be set to a string that is shown, when the plugin output was empty.</li>
+      <li><span class="var">template</span>: Can be set to a sidebar template file other than the default “sidebar.tpl”</li>
       <li><strong>EXAMPLE</strong>: <pre><code>{serendipity_showPlugin class="serendipity_your_nugget" id="serendipity_your_plugin:21323223efsd22aa" side="left|right|hide|*" negate="null|true"}</code></pre></li>
     </ul>
   </li>
   <li><strong>serendipity_getFile</strong> (serendipity_smarty_getFile): Get the full path to a template file. The file is searched in the usual template fallback mechanism, so it can also be fetched from the default location.
     <ul>
-      <li><span class="var">file:</span> The name of the template file (i.e. “img/preview.png”).</li>
+      <li><span class="var">file</span>: The name of the template file (i.e. “img/preview.png”).</li>
       <li><strong>EXAMPLE</strong>: <pre><code>{serendipity_getFile file="img/preview.png"}</code></pre></li>
     </ul>
   </li>
   <li><strong>serendipity_printComments</strong> (serendipity_smarty_printComments): Shows the comments to an entry with a specified Smarty template
     <ul>
-      <li><span class="var">template:</span> Indicates which Smarty template file to render comments with</li>
-      <li><span class="var">block:</span> Indicates the name of a temporary placeholder for the comments output (defaults to <code>{$COMMENTS}</code>.</li>
-      <li><span class="var">trace:</span> Nested comments are nested with a “1.3.1.1” like terminology. You can specify a used prefix here.</li>
-      <li><span class="var">depth:</span> Defines the starting depth of nested comments (0)</li>
-      <li><span class="var">entry:</span> Holds the entry ID to which comments shall be printed</li>
-      <li><span class="var">order:</span> Defines the sorting order of comments (ASC or DESC)</li>
-      <li><span class="var">mode:</span> Defines a viewing mode ($CONST.VIEWMODE_THREADED or $CONST.VIEWMODE_LINEAR)</li>
-      <li><span class="var">limit:</span> How many comments to fetch (0 means all)</li>
+      <li><span class="var">template</span>: Indicates which Smarty template file to render comments with</li>
+      <li><span class="var">block</span>: Indicates the name of a temporary placeholder for the comments output (defaults to <code>{$COMMENTS}</code>.</li>
+      <li><span class="var">trace</span>: Nested comments are nested with a “1.3.1.1” like terminology. You can specify a used prefix here.</li>
+      <li><span class="var">depth</span>: Defines the starting depth of nested comments (0)</li>
+      <li><span class="var">entry</span>: Holds the entry ID to which comments shall be printed</li>
+      <li><span class="var">order</span>: Defines the sorting order of comments (ASC or DESC)</li>
+      <li><span class="var">mode</span>: Defines a viewing mode (<code>$CONST.VIEWMODE_THREADED</code> or <code>$CONST.VIEWMODE_LINEAR</code>)</li>
+      <li><span class="var">limit</span>: How many comments to fetch (0 means all)</li>
       <li><strong>EXAMPLE</strong>: <pre><code>{serendipity_printComments entry="123" mode=$CONST.VIEWMODE_LINEAR}</code></pre></li>
     </ul>
   </li>
   <li><strong>serendipity_printTrackback</strong> (serendipity_smarty_printTrackbacks): Shows the trackbacks to an entry with a specified Smarty template
     <ul>
-      <li><span class="var">template:</span> Indicates which Smarty template file to render trackbacks with</li>
-      <li><span class="var">block:</span> Indicates the name of a temporary placeholder for the trackbacks output (defaults to <code>{$TRACKBACKS}</code>.</li>
-      <li><span class="var">trace:</span> Trackbacks are enumberated, you can specify a prefix here.</li>
-      <li><span class="var">entry:</span> Holds the entry ID to which trackbacks shall be printed</li>
+      <li><span class="var">template</span>: Indicates which Smarty template file to render trackbacks with</li>
+      <li><span class="var">block</span>: Indicates the name of a temporary placeholder for the trackbacks output (defaults to <code>{$TRACKBACKS}</code>.</li>
+      <li><span class="var">trace</span>: Trackbacks are enumerated, you can specify a prefix here.</li>
+      <li><span class="var">entry</span>: Holds the entry ID to which trackbacks shall be printed</li>
       <li><strong>EXAMPLE</strong>: <pre><code>{serendipity_printTrackbacks entry="123"}</code></pre></li>
     </ul>
   </li>
   <li><strong>serendipity_rss_getguid</strong> (serendipity_smarty_rss_getguid): Returns a canonical permalink to an entry.
     <ul>
-      <li><span class="var">entry:</span> The entry ID</li>
-      <li><span class="var">is_comments:</span> Whether a permalink for a comment feed should be embedded</li>
+      <li><span class="var">entry</span>: The entry ID</li>
+      <li><span class="var">is_comments</span>: Whether a permalink for a comment feed should be embedded</li>
     </ul>
   </li>
-  <li><strong>serendipity_fetchPrintEntries</strong> (serendipity_smarty_fetchPrintEntries): A central function to print/display blog entries, which can be used to place different entry boxes in a magazine-like fashion. The function combines parameters for fetching and displaying
+  <li><strong>serendipity_fetchPrintEntries</strong> (serendipity_smarty_fetchPrintEntries): A central function to print/display Blog entries, which can be used to place different entry boxes in a magazine-like fashion. The function combines parameters for fetching and displaying
     <ul>
       <li>Parameters for <strong>fetching</strong>:
         <ul>
-          <li><span class="var">category:</span> The category ID (separate multiple with “;”) to fetch entries from</li>
-          <li><span class="var">viewAuthor:</span> The author ID (separate multiple with “;”) to fetch entries from</li>
-          <li><span class="var">page:</span> The number of the page for paginating entries</li>
-          <li><span class="var">id:</span> The ID of an entry. If given, only a single entry will be fetched. If left empty, multiple entries are fetched.</li>
-          <li><span class="var">range:</span> Restricts fetching entries to a specific timespan. Behaves differently depending on the type:
+          <li><span class="var">category</span>: The category ID (separate multiple with “;”) to fetch entries from</li>
+          <li><span class="var">viewAuthor</span>: The author ID (separate multiple with “;”) to fetch entries from</li>
+          <li><span class="var">page</span>: The number of the page for paginating entries</li>
+          <li><span class="var">id</span>: The ID of an entry. If given, only a single entry will be fetched. If left empty, multiple entries are fetched.</li>
+          <li><span class="var">range</span>: Restricts fetching entries to a specific timespan. Behaves differently depending on the type:
             <ul>
-              <li><span class="var">Numeric:</span> YYYYMMDD - Shows all entries from YYYY-MM-DD. If DD is “00”, it will show all entries from that month. If DD is any other number, it will show entries of that specific day.</li>
+              <li><span class="var">Numeric</span>: YYYYMMDD - Shows all entries from YYYY-MM-DD. If DD is “00”, it will show all entries from that month. If DD is any other number, it will show entries of that specific day.</li>
               <li>2-Dimensional Array:
                 <ul>
                   <li>Key #0   - Specifies the start timestamp (unix seconds)</li>
                   <li>Key #1   - Specifies the end timestamp (unix seconds)</li>
                 </ul>
               </li>
-              <li>Other (null, 3-dimensional Array, …): Entries newer than $modified_since will be fetched</li>
+              <li>Other (null, 3-dimensional Array, …): Entries newer than <code>$modified_since</code> will be fetched</li>
             </ul>
           </li>
-          <li><span class="var">full:</span> Indicates if the full entry will be fetched (body+extended: TRUE), or only the body (FALSE).</li>
-          <li><span class="var">limit:</span> Holds a “Y” or “X, Y” string that tells which entries to fetch. X is the first entry offset, Y is number of entries. If not set, the global fetchLimit will be applied (15 entries by default)</li>
-          <li><span class="var">fetchDrafts:</span> Indicates whether drafts should be fetched (TRUE) or not</li>
-          <li><span class="var">modified_since:</span> Holds a unix timestamp to be used in conjunction with $range, to fetch all entries newer than this timestamp</li>
-          <li><span class="var">orderby:</span> Holds the SQL “ORDER BY” statement.</li>
-          <li><span class="var">filter_sql:</span> Can contain any SQL code to inject into the central SQL statement for fetching the entry</li>
-          <li><span class="var">noCache:</span> If set to TRUE, all entries will be fetched from scratch and any caching is ignored</li>
-          <li><span class="var">noSticky:</span> If set to TRUE, all sticky entries will NOT be fetched.</li>
-          <li><span class="var">select_key:</span> Can contain a SQL statement on which keys to select. Plugins can also set this, pay attention!</li>
-          <li><span class="var">group_by:</span> Can contain a SQL statement on how to group the query. Plugins can also set this, pay attention!</li>
-          <li><span class="var">returncode:</span> If set to “array”, the array of entries will be returned. “flat-array” will only return the articles without their entryproperties. “single” will only return a 1-dimensional array. “query” will only return the used SQL.</li>
-          <li><span class="var">joinauthors:</span> Should an SQL-join be made to the AUTHORS DB table?</li>
-          <li><span class="var">joincategories:</span> Should an SQL-join be made to the CATEGORIES DB table?</li>
-          <li><span class="var">joinown:</span> SQL-Parts to add to the “JOIN” query</li>
-          <li><span class="var">entryprops:</span> Condition list of comma separated entryproperties that an entry must have to be displayed (example: “ep_CustomField=’customVal’,ep_CustomField2=’customVal2’”)</li>
+          <li><span class="var">full</span>: Indicates if the full entry will be fetched (body+extended: TRUE), or only the body (FALSE).</li>
+          <li><span class="var">limit</span>: Holds a “Y” or “X, Y” string that tells which entries to fetch. “X” is the first entry offset, “Y” is number of entries. If not set, the global fetchLimit will be applied (15 entries by default)</li>
+          <li><span class="var">fetchDrafts</span>: Indicates whether drafts should be fetched (TRUE) or not</li>
+          <li><span class="var">modified_since</span>: Holds a unix timestamp to be used in conjunction with <code>$range</code>, to fetch all entries newer than this timestamp</li>
+          <li><span class="var">orderby</span>: Holds the SQL “ORDER BY” statement.</li>
+          <li><span class="var">filter_sql</span>: Can contain any SQL code to inject into the central SQL statement for fetching the entry</li>
+          <li><span class="var">noCache</span>: If set to TRUE, all entries will be fetched from scratch and any caching is ignored</li>
+          <li><span class="var">noSticky</span>: If set to TRUE, all sticky entries will NOT be fetched.</li>
+          <li><span class="var">select_key</span>: Can contain a SQL statement on which keys to select. Plugins can also set this, pay attention!</li>
+          <li><span class="var">group_by</span>: Can contain a SQL statement on how to group the query. Plugins can also set this, pay attention!</li>
+          <li><span class="var">returncode</span>: If set to “array”, the array of entries will be returned. “flat-array” will only return the articles without their entryproperties. “single” will only return a 1-dimensional array. “query” will only return the used SQL.</li>
+          <li><span class="var">joinauthors</span>: Should an SQL-join be made to the AUTHORS DB table?</li>
+          <li><span class="var">joincategories</span>: Should an SQL-join be made to the CATEGORIES DB table?</li>
+          <li><span class="var">joinown</span>: SQL-Parts to add to the “JOIN” query</li>
+          <li><span class="var">entryprops</span>: Condition list of comma separated entryproperties that an entry must have to be displayed (example: “ep_CustomField=’customVal’,ep_CustomField2=’customVal2’”)</li>
         </ul>
       </li>
-      <li>Parameters for <strong>displaying</strong>:</li>
-      <li><span class="var">template:</span> Name of the template file to print entries with</li>
-      <li><span class="var">preview:</span> Indicates if this is a preview</li>
-      <li><span class="var">block:</span> The name of the SMARTY block that this gets parsed into</li>
-      <li><span class="var">use_hooks:</span> Indicates whether to apply footer/header event hooks</li>
-      <li><span class="var">use_footer:</span> Indicates whether the pagination footer should be displayed</li>
-      <li><span class="var">groupmode:</span> Indicates whether the input $entries array is already grouped in preparation for the Smarty $entries output array [TRUE], or if it shall be grouped by date [FALSE]</li>
-      <li><span class="var">skip_smarty_hooks:</span> If TRUE, no plugins will be executed at all</li>
-      <li><span class="var">skip_smarty_hook:</span> Can be set to an array of plugin hooks to NOT execute</li>
-      <li><span class="var">prevent_reset:</span> If set to TRUE, the Smarty $entries array will NOT be cleared. (to prevent possible duplicate output of entries)</li>
-      <li><span class="var">short_archives:</span> If set to true and an archive listing is displayed, uses the short variant.</li>
+      <li>Parameters for <strong>displaying</strong>:
+        <ul>
+          <li><span class="var">template</span>: Name of the template file to print entries with</li>
+          <li><span class="var">preview</span>: Indicates if this is a preview</li>
+          <li><span class="var">block</span>: The name of the Smarty block that this gets parsed into</li>
+          <li><span class="var">use_hooks</span>: Indicates whether to apply footer/header event hooks</li>
+          <li><span class="var">use_footer</span>: Indicates whether the pagination footer should be displayed</li>
+          <li><span class="var">groupmode</span>: Indicates whether the input <code>$entries</code> array is already grouped in preparation for the Smarty <code>$entries</code> output array [TRUE], or if it shall be grouped by date [FALSE]</li>
+          <li><span class="var">skip_smarty_hooks</span>: If TRUE, no plugins will be executed at all</li>
+          <li><span class="var">skip_smarty_hook</span>: Can be set to an array of plugin hooks to NOT execute</li>
+          <li><span class="var">prevent_reset</span>: If set to TRUE, the Smarty <code>$entries</code> array will NOT be cleared. (to prevent possible duplicate output of entries)</li>
+          <li><span class="var">short_archives</span>: If set to true and an archive listing is displayed, uses the short variant.</li>
+        </ul>
+      </li>
     </ul>
   </li>
   <li><strong>serendipity_getTotalCount</strong> (serendipity_smarty_getTotalCount): Get total count for specific objects (like comments, entries etc.)
     <ul>
-      <li><strong>$what</strong>: Can be set to either “entries”, “trackbacks” or “comments” to get the specific amounts.</li>
+      <li><span class="var">what</span>: Can be set to either “entries”, “trackbacks” or “comments” to get the specific amounts.</li>
     </ul>
   </li>
   <li><strong>pickKey</strong> (serendipity_smarty_pickKey): Helper function to return a specific array key of a multi-dimensional array.
     <ul>
-      <li>array: The array to search in</li>
-      <li>key: The array key to return if found</li>
-      <li>default: The default string to return when an array does not contain the key searched for.</li>
+      <li><span class="var">array</span>: The array to search in</li>
+      <li><span class="var">key</span>: The array key to return if found</li>
+      <li><span class="var">default</span>: The default string to return when an array does not contain the key searched for.</li>
     </ul>
   </li>
   <li><strong>serendipity_showCommentForm</strong> (serendipity_smarty_showCommentForm): Displays the comment form
     <ul>
-      <li><span class="var">id:</span> An entryid to show the commentform for</li>
-      <li><span class="var">entry:</span> The array of $entry data that the commentform is for</li>
-      <li><span class="var">url:</span> URL to point the commentform to (defaults to Serendipity core)</li>
-      <li><span class="var">comments:</span> Optional array of contained comments</li>
-      <li><span class="var">data:</span> possible pre-submitted values to the input values</li>
-      <li><span class="var">showToolbar:</span> Whether to show extended options to the comment form</li>
-      <li><span class="var">moderate_comments:</span> Indicates if comments are accepted</li>
+      <li><span class="var">id</span>: An entryid to show the commentform for</li>
+      <li><span class="var">entry</span>: The array of <code>$entry</code> data that the commentform is for</li>
+      <li><span class="var">url</span>: URL to point the commentform to (defaults to Serendipity core)</li>
+      <li><span class="var">comments</span>: Optional array of contained comments</li>
+      <li><span class="var">data</span>: possible pre-submitted values to the input values</li>
+      <li><span class="var">showToolbar</span>: Whether to show extended options to the comment form</li>
+      <li><span class="var">moderate_comments</span>: Indicates if comments are accepted</li>
     </ul>
   </li>
   <li><strong>serendipity_getImageSize</strong> (serendipity_smarty_getImageSize): Sets information about image size of a file
     <ul>
-      <li><span class="var">file:</span> The file to check the size for. The file is checked for first related to the DOCUMENT_ROOT, then (if not found) from the template subdirectory.</li>
-      <li><span class="var">assign:</span> Name of a Smarty parameter where the image size is saved into</li>
+      <li><span class="var">file</span>: The file to check the size for. The file is checked for first related to the DOCUMENT_ROOT, then (if not found) from the template subdirectory.</li>
+      <li><span class="var">assign</span>: Name of a Smarty parameter where the image size is saved into</li>
     </ul>
   </li>
   <li><strong>serendipity_getConfigVar</strong> (serendipity_smarty_getConfigVar): Returns a Serendipity configuration variable
     <ul>
-      <li>key: The name of the configuration variable</li>
+      <li><span class="var">key</span>: The name of the configuration variable</li>
     </ul>
   </li>
   <li><strong>serendipity_setFormToken</strong> (serendipity_smarty_setFormToken): Sets the XSS-prevention form token (a unique hash)
     <ul>
-      <li><strong>$type</strong>: If set to “form”, a whole <code>&lt;input /&gt;</code> element will be returned. If set to “url” a URL-compatible string (key=value) will be returned. Else, only the token itself will be returned.</li>
+      <li><span class="var">type</span>: If set to “form”, a whole <code>&lt;input /&gt;</code> element will be returned. If set to “url” a URL-compatible string (key=value) will be returned. Else, only the token itself will be returned.</li>
     </ul>
   </li>
 </ul>
@@ -977,7 +980,7 @@ It is not advised to create your own  style_fallback.css file.</p>
   <li><strong>$serendipity['smarty']-&gt;assign_by_ref()</strong> was previously used to assign Smarty variables by references (it is now done by <code>$serendipity['smarty']-&gt;assignByRef()</code>).</li>
 </ul>
 
-<p>On top of that, a <code>Serendipity_Smarty_Security_Policy</code> class constraints the security settings of Smarty. It allows only calling a set of PHP functions (isset, empty, count, sizeof, in_array, is_array, time, nl2br, class_exists) as well as using PHP functions for modifiers (sprintf, sizeof, count, rand, print_r, str_repeat, nl2br). If a theme or plugin needs to do more, it can override the security Settings of Serendipity by setting <code>$serendipity['smarty']-&gt;security = false</code>.</p>
+<p>On top of that, a <code>Serendipity_Smarty_Security_Policy</code> class constraints the security settings of Smarty. It allows only calling a set of PHP functions (isset, empty, count, sizeof, in_array, is_array, time, nl2br, class_exists) as well as using PHP functions for modifiers (sprintf, sizeof, count, rand, print_r, str_repeat, nl2br). If a theme or plugin needs to do more, it can override the security settings of Serendipity by setting <code>$serendipity['smarty']-&gt;security = false</code>.</p>
 
 <h4 id="docs-smarty-variables">Smarty variables</h4>
 
@@ -999,7 +1002,7 @@ It is not advised to create your own  style_fallback.css file.</p>
 
 <p>Specific variables for displaying the category listing in the sidebar.</p>
 
-<ul>
+<ul class="plainList">
   <li><code>$is_form</code> indicates whether a &lt;form&gt; tag for selecting multiple categories shall be emitted.</li>
   <li><code>$form_url</code> contains the URL to the submission target of the form.</li>
   <li><code>$category</code>_image contains the image filename for the “XML” button.</li>
@@ -1010,7 +1013,7 @@ It is not advised to create your own  style_fallback.css file.</p>
 
 <h5 id="docs-plugindata-array-pluginside-string">$plugindata [array], $pluginside [string]</h5>
 
-<ul>
+<ul class="plainList">
   <li><code>$plugindata</code> contains an associative array for the output of a sidebar plugin. The keys are ‘side’ (left/right), ‘class’ (CSS), ‘title’ (text), ‘content’ (HTML), ‘id’ (plugin ID).</li>
   <li><code>$pluginside</code> holds the currently rendered sidebar key.</li>
 </ul>
@@ -1061,7 +1064,7 @@ It is not advised to create your own  style_fallback.css file.</p>
 
 <p>Multiple variables used for representing the comment form.</p>
 
-<ul>
+<ul class="plainList">
   <li><code>$commentform_action</code> contains the form URL to submit the data to.</li>
   <li><code>$commentform_id</code> contains the ID of the entry to display the form for.</li>
   <li><code>$commentform_name</code>, <code>…_email</code>, <code>…</code>: The specific entered data from the user. Drawn from POST or COOKIE.</li>
@@ -1084,7 +1087,7 @@ It is not advised to create your own  style_fallback.css file.</p>
 
 <p>Contains multiple values for displaying an RSS/ATOM feed.</p>
 
-<ul>
+<ul class="plainList">
   <li><code>$metadata</code> is an associative array containing metadata for the current feed. Array keys: ‘title’ (feed title), ‘description’ (feed description), ‘language’ (feed language), ‘additional_fields’ (specific fields from the syndication plugin), ‘link’ (feed link), ‘email’ (admin email), ‘fullFeed’ (if the feed contains full texts), ‘showMail’ (whether emails are disclosed), ‘version’ (feed version).</li>
   <li><code>$entries</code> holds the associative array of entry data</li>
   <li><code>$is_comments</code> indicates whether this is a comment only feed</li>
@@ -1100,7 +1103,7 @@ It is not advised to create your own  style_fallback.css file.</p>
 
 <p>Multiple values for showing the comments inside a popup window.</p>
 
-<ul>
+<ul class="plainList">
   <li><code>$entry_id</code> contains the ID of the entry showing the comments</li>
   <li><code>$comment_url</code> contains the URL to submitting a comment to</li>
   <li><code>$comment_entryurl</code> contains the URL to the entry for which comments are shown</li>
@@ -1125,12 +1128,12 @@ It is not advised to create your own  style_fallback.css file.</p>
 
 <p>Specifies multiple variables for showing the pagination footer.</p>
 
-<ul>
+<ul class="plainList">
   <li><code>$footer_prev_page</code>, <code>$footer_next_page</code> and <code>$footer_pageLink</code> contain links to the previous page, next page and the current page.</li>
   <li><code>$footer_totalEntries</code> holds the total number of entries available in the current display scope.</li>
   <li><code>$footer_totalPages</code> holds the total number of pages available in the current display scope.</li>
   <li><code>$footer_currentPage</code> holds the number of the currently viewed page</li>
-  <li><code>$footer_info</code> contains a textual representation of which page you are currently viewing (“Page 1 of 5, totalling 20 entries”)</li>
+  <li><code>$footer_info</code> contains a textual representation of which page you are currently viewing (“Page 1 of 5, totaling 20 entries”)</li>
 </ul>
 
 <p>Scope: entries.tpl</p>
@@ -1139,7 +1142,7 @@ It is not advised to create your own  style_fallback.css file.</p>
 
 <p>Several variables for showing/parsing entries.</p>
 
-<ul>
+<ul class="plainList">
   <li><code>$plugin_clean_page</code> indicates whether a plugin has taken over parsing entries.tpl, and not the usual entries listing is displayed.</li>
   <li><code>$comments_messagestack</code> holds an array of output messages when somebody submits a comment (like “comment was added”, “comment was moderated” etc.).</li>
   <li><code>$is_comment_added</code> indicates whether somebody just submitted a comment.</li>
@@ -1193,13 +1196,13 @@ It is not advised to create your own  style_fallback.css file.</p>
 
 <h5 id="docs-head_charset-string-head_version-string-head_title-string-is_logged_in-bool">$head_charset [string], $head_version [string], $head_title [string], $head_subtitle [string], $head_link_stylesheet [string], $is_xhtml [bool], $serendipityVersion [string], $lang [string], $head_link_script [string], $head_link_stylesheet_frontend [string], $is_logged_in [bool]</h5>
 
-<p>Multiple variables defining the Serendipity version/language, blog title and link to Stylesheets. $head_title and $head_subtitle are set according to which action is currently performed on the Frontend (category view, archive view etc.)</p>
+<p>Multiple variables defining the Serendipity version/language, Blog title and link to Stylesheets. <code>$head_title</code> and <code>$head_subtitle</code> are set according to which action is currently performed on the Frontend (category view, archive view etc.)</p>
 
 <p>Scope: *.tpl</p>
 
 <h5 id="docs-use_popups-bool-is_embedded-bool-is_raw_mode-bool">$use_popups [bool], $is_embedded [bool], $is_raw_mode [bool]</h5>
 
-<p>Indicates if popups are enabled on the blog, if the blog is embedded, and if the blog is using deprecated layout.php styling</p>
+<p>Indicates if popups are enabled on the Blog, if the Blog is embedded, and if the Blog is using deprecated layout.php styling</p>
 
 <p>Scope: *.tpl</p>
 
@@ -1211,7 +1214,7 @@ It is not advised to create your own  style_fallback.css file.</p>
 
 <h5 id="docs-blogtitle-string-blogsubtitle-string-blogdescription-string">$blogTitle [string], $blogSubTitle [string], $blogDescription [string]</h5>
 
-<p>Holds the configured blog’s title, subtitle and description as entered by the admin. Note that those variables will not be changed, unlike the $head_subtitle / $head_title variables!</p>
+<p>Holds the configured Blog’s title, subtitle and description as entered by the admin. Note that those variables will not be changed, unlike the <code>$head_title</code> / <code>$head_subtitle</code> variables!</p>
 
 <p>Scope: *.tpl</p>
 
@@ -1223,7 +1226,7 @@ It is not advised to create your own  style_fallback.css file.</p>
 
 <h5 id="docs-category-int-category_info-array">$category [int], $category_info [array]</h5>
 
-<p>$category holds the current ID of a category, if a category is being viewed. $category_info contains an associative array with the full category data (‘category_name’, ‘parentid’, ‘category_description’ etc.)</p>
+<p><code>$category</code> holds the current ID of a category, if a category is being viewed. <code>$category_info</code> contains an associative array with the full category data (‘category_name’, ‘parentid’, ‘category_description’ etc.)</p>
 
 <p>Scope: *.tpl</p>
 
@@ -1283,7 +1286,7 @@ It is not advised to create your own  style_fallback.css file.</p>
 
 <p><strong>media_properties.tpl</strong></p>
 
-<p>The page which displays properties (keywords, exif-information etc.) of a selected image.</p>
+<p>The page which displays properties (keywords, EXIF-information etc.) of a selected image.</p>
 
 <p><strong>media_showitem.tpl</strong></p>
 
@@ -1337,13 +1340,13 @@ It is not advised to create your own  style_fallback.css file.</p>
 
 <h2 id="docs-linking-spartacus">Linking Spartacus</h2>
 
-<p>You can easily combine the whole Spartacus theme and plugin checkouts on your machine. To do that you can for example checkout these repositories to a subdirectory like <code>templates/spartacus/</code> and <code>plugins/spartacus/</code>. The reason this works is because both the theme and plugin framework of Serendipity can iterate through every subdirectory of the templates/ or plugins/ structure to search for matching plugin/theme files.</p>
+<p>You can easily combine the whole Spartacus theme and plugin checkouts on your machine. To do that you can for example checkout these repositories to a subdirectory like <code>templates/spartacus/</code> and <code>plugins/spartacus/</code>. The reason this works is because both the theme and plugin framework of Serendipity can iterate through every subdirectory of the “templates/” or “plugins/” structure to search for matching plugin/theme files.</p>
 
 <h2 id="docs-showing-entries-in-foreign-webpages">Showing entries in foreign webpages</h2>
 
 <p>You can quite easily “show” Serendipity entries from other parts of your website, if PHP is available there and you have filesystem access to the Serendipity installation.</p>
 
-<p>You can use the following PHP code to include the Serendipity framework and use the Serendipty API to display entries:</p>
+<p>You can use the following PHP code to include the Serendipity framework and use the Serendipity API to display entries:</p>
 
 <pre><code>&lt;?php
 // 1: Switch to the Serendipity path. We need to use chdir so that the s9y framework can use its relative calls.
@@ -1371,15 +1374,15 @@ $serendipity['smarty']-&gt;display($tpl);
 chdir('/home/www/public_html/');
 ?&gt;</code></pre>
 
-<p>You can adapt each of the serendipity_fetchEntries() / serendipity_printEntries() calls to suit your needs. You can of course also pass any other template file instead of entries.tpl to the serendipity_getTemplateFile() call, so that you can have a custom layout for your entries in the PHP application, and use the default entries.tpl template in the real Serendipity installation.</p>
+<p>You can adapt each of the “serendipity_fetchEntries()” / “serendipity_printEntries()” calls to suit your needs. You can of course also pass any other template file instead of ‘entries.tpl’ to the “serendipity_getTemplateFile()” call, so that you can have a custom layout for your entries in the PHP application, and use the default ‘entries.tpl’ template in the real Serendipity installation.</p>
 
-<p>To look up possible functions, check out the include/functions_entries.inc.php file of your Serendipity installation to see phpDoc comments above the functions for which parameters you can use.</p>
+<p>To look up possible functions, check out the “include/functions_entries.inc.php” file of your Serendipity installation to see phpDoc comments above the functions for which parameters you can use.</p>
 
 <h2 id="docs-you-hate-smarty-youve-come-a-long-way">You hate Smarty? You’ve come a long way!</h2>
 
 <p>We love Smarty. But we also covered people like you, who hate it. Since Smarty is a template layer that implements very specific methods, you can simply overwrite it with whatever you like: XML-based transformations, or PHP transformations.</p>
 
-<p>Since we firmly believe in Smarty as a great templating system, we only provide a “proof of concept” theme on how to achieve this, if you are interested. Check out the themes “default-php” and “default-xml” in our Spartacus repository to see those examples.</p>
+<p>Since we firmly believe in Smarty as a great templating system, we only provide a “proof of concept” theme on how to achieve this, if you are interested. Check out the core delivered themes “default-php” and “default-xml” to see those examples.</p>
 
 <p>Note that even if you use a custom Frontend theme, the Backend will always continue to use Smarty templating, because it would be too much work to port alternate layers for the code.</p>
 
@@ -1397,13 +1400,13 @@ $GLOBALS['serendipity']['smarty'] =&amp; $GLOBALS['template'];</code></pre>
 
 <p>Check out the instructions in the file <code>include/template_api.inc.php</code> if you want to know more about the internal Template API layer.</p>
 
-<p>All it basically does it it wraps the Smarty commands to simple PHP, which collects all variables in a <code>$GLOBALS['tpl']</code> array, that you can access in PHP.</p>
+<p>All it basically does is it wraps the Smarty commands to simple PHP, which collects all variables in a <code>$GLOBALS['tpl']</code> array, that you can access in PHP.</p>
 
-<p>Also, check out the alternate layer <code>serendipity_smarty_emulator_xml</code> which is another way to store all assigned variables in XML language, so you could use XSLT to render your blog view.</p>
+<p>Also, check out the alternate layer <code>serendipity_smarty_emulator_xml</code> which is another way to store all assigned variables in XML language, so you could use XSLT to render your Blog view.</p>
 
 <h3 id="docs-step-3-create-template-files">Step 3: Create template files</h3>
 
-<p>Now instead of using Smarty markup, check out the files like index.tpl which simply contain PHP markup to output the <code>$GLOBALS['tpl']['...']</code> values at the place you like.</p>
+<p>Now instead of using Smarty markup, check out the files like ‘index.tpl’ which simply contain PHP markup to output the <code>$GLOBALS['tpl']['...']</code> values at the place you like.</p>
 
 <p>We have provided a few examples on what to replace with what, but it is more a proof-of-concept that should get you kickstarted.</p>
 
@@ -1411,7 +1414,7 @@ $GLOBALS['serendipity']['smarty'] =&amp; $GLOBALS['template'];</code></pre>
 
 <ul>
   <li>Make sure that you only change template files you absolutely must. Serendipity can fallback to use default template files, so if you do not need to change the ‘index.tpl’ file for example, please simply do not provide that file.</li>
-  <li>If your templates needs a config.inc.php file or custom language files, please try to make those files as small as possible. Performance counts, and PHP code should only be used if the code in there is fit to be executed on each page visit. You can disable Smarty security through $serendipity['smarty']-&gt;security = false - but only do this, if you absolutely must due to custom use of unregistered PHP functions or modifiers or {php} calls.</li>
+  <li>If your templates needs a ‘config.inc.php’ file or custom language files, please try to make those files as small as possible. Performance counts, and PHP code should only be used if the code in there is fit to be executed on each page visit. You can disable Smarty security through <code>$serendipity['smarty']-&gt;security = false</code> - but only do this, if you absolutely must due to custom use of unregistered PHP functions or modifiers calls.</li>
   <li>Please try to properly indent all of your HTML and CSS rules by using 4 spaces (not tabs).</li>
   <li>Please try to use HTML5 or proper XHTML. HTML 4.0 should really no longer be used.</li>
   <li>Please try to make sure your template can be viewed in all modern browsers.</li>
