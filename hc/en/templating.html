@@ -976,7 +976,7 @@ It is not advised to create your own  style_fallback.css file.</p>
 
 <h4 id="docs-serendipity-smarty-layer">Serendipity Smarty Layer</h4>
 
-<p>Serendipity uses it’s own Layer on Top of Smarty to offer some backwards compatibility and default setup. This class <code>Serendipity_Smarty</code> is defined in <strong>include/serendipity_smarty_class.inc.php</strong>. It makes sure to only use the Serendipity theme directories, sets the compile directory and offers those backwards compatibility calls:</p>
+<p>Serendipity uses it’s own layer on top of Smarty to offer some backwards compatibility and default setup. This class <code>Serendipity_Smarty</code> is defined in <strong>include/serendipity_smarty_class.inc.php</strong>. It makes sure to only use the Serendipity theme directories, sets the compile directory and offers those backwards compatibility calls:</p>
 
 <ul>
   <li><strong>$serendipity['smarty']-&gt;register_function()</strong> was previously used to register Smarty functions (it is now done by <code>$serendipity['smarty']-&gt;registerPlugin('function', ...)</code>).</li>
