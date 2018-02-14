@@ -3006,6 +3006,31 @@ Konfigurationsoberfläche angezeigt wird.</span>
             eigenen Wert eingegeben hat.</span>
         </span>
 
+        <span class="box"><code class="sub-item">sequence</code>
+            <span class="sub-box">
+                Kann für ein umsortierbares Widget mit mehreren Werten verwendet werden.
+                Ein Beispiel dafür ist das Plugin <code>serendipity_event_entryproperties</code>,
+                das dieses Konfigurationselement verwendet. Dieser Sequenztyp erlaubt zwei
+                zusätzliche Variablen, die sich durch folgende Eigenschaften auszeichnen:
+            </span>
+
+            <span class="sub-box">
+                <code>checkable</code>: Wenn auf true gesetzt, kann jedes verschiebbare
+                Sequenz-Widget aktiviert bzw. deaktiviert werden. Wenn gesetzt, werden beim
+                späteren Abrufen der Option nur diejenigen Widgets aufgelistet, die markiert
+                wurden. Wenn nicht gesetzt, werden immer alle verfügbaren Werte
+                zurückgegeben (in der Reihenfolge, in der der Benutzer angegeben hat).
+            </span>
+
+            <span class="sub-box">
+                <code>values</code>: Definiert ein Array, das einen eindeutigen
+                Schlüssel für seine Konfiguration verwendet und als Wert ein
+                Unter-Array mit dem Schlüssel <span class="mbold">'display'</span>
+                enthält, um die HTML-Ausgabe für jedes wiederbestellbare Widget
+                bereitzustellen.
+            </span>
+        </span>
+
         <span class="box"><code class="sub-item">select_values</code>
             <span class="sub-box">Enthält ein Array mit möglichen Werten zur Befüllung einer Konfigurationsoption
             vom Typ <code>select</code> oder <code>multiselect</code>. Der Schlüssel dieses Arrays enthält
