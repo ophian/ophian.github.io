@@ -124,16 +124,16 @@
                     <p>Holds the users/authors. Columns are:</p>
 
                     <ul>
-                      <li>authorid: Primary ID</li>
-                      <li>realname: The full author name</li>
-                      <li>username: The loginname</li>
-                      <li>password: Hashed password</li>
-                      <li>email: E-Mail</li>
-                      <li>userlevel: User level (0,1,255) of the user</li>
-                      <li>right_publish: Whether author is allowed to publish</li>
-                      <li>hashtype: Used password hash (0: old md5, 1: sha1)</li>
-                      <li>mail_comments: Configuration option “receive mail notifications for comments”</li>
-                      <li>mail_trackbacks: Configuration option “receive mail notifications for trackbacks”</li>
+                      <li><span class="var">authorid</span>: Primary ID</li>
+                      <li><span class="var">realname</span>: The full author name</li>
+                      <li><span class="var">username</span>: The loginname</li>
+                      <li><span class="var">password</span>: Hashed password</li>
+                      <li><span class="var">email</span>: E-Mail</li>
+                      <li><span class="var">userlevel</span>: User level (0,1,255) of the user</li>
+                      <li><span class="var">right_publish</span>: Whether author is allowed to publish</li>
+                      <li><span class="var">hashtype</span>: Used password hash (0: old md5, 1: sha1)</li>
+                      <li><span class="var">mail_comments</span>: Configuration option “receive mail notifications for comments”</li>
+                      <li><span class="var">mail_trackbacks</span>: Configuration option “receive mail notifications for trackbacks”</li>
                     </ul>
 
                     <h3 id="docs-serendipity_groups">serendipity_groups</h3>
@@ -141,8 +141,8 @@
                     <p>Holds the user groups</p>
 
                     <ul>
-                      <li>id: Primary ID</li>
-                      <li>Name: Name of the group</li>
+                      <li><span class="var">id</span>: Primary ID</li>
+                      <li><span class="var">Name</span>: Name of the group</li>
                     </ul>
 
                     <h3 id="docs-serendipity_groupconfig">serendipity_groupconfig</h3>
@@ -150,9 +150,9 @@
                     <p>Holds ACL configuration data of usergroups</p>
 
                     <ul>
-                      <li>id: Foreign key of serendipity_groups.id</li>
-                      <li>property: Property name</li>
-                      <li>value: Property value</li>
+                      <li><span class="var">id</span>: Foreign key of serendipity_groups.id</li>
+                      <li><span class="var">property</span>: Property name</li>
+                      <li><span class="var">value</span>: Property value</li>
                     </ul>
 
                     <h3 id="docs-serendipity_authorgroups">serendipity_authorgroups</h3>
@@ -160,8 +160,8 @@
                     <p>Holds n:m associations for users to groups</p>
 
                     <ul>
-                      <li>groupid: Foreign key of serendipity_groups.id</li>
-                      <li>authorid: Foreign key of serendipity_authors.authorid</li>
+                      <li><span class="var">groupid</span>: Foreign key of serendipity_groups.id</li>
+                      <li><span class="var">authorid</span>: Foreign key of serendipity_authors.authorid</li>
                     </ul>
 
                     <h3 id="docs-serendipity_access">serendipity_access</h3>
@@ -169,11 +169,11 @@
                     <p>Holds access control lists for any kind of stored data (entries, categories, entries) to indicate which author is allowed to access what. Access is granted on a usergroup level.</p>
 
                     <ul>
-                      <li>groupid: Foreign key of serendipity_groups</li>
-                      <li>artifact_id: Foreign key of the item that gets controlled</li>
-                      <li>artifact_type: Type of the item (entry, category, …)</li>
-                      <li>artifact_mode: Read or write</li>
-                      <li>artifact_index: Possible additional data for an item</li>
+                      <li><span class="var">groupid</span>: Foreign key of serendipity_groups</li>
+                      <li><span class="var">artifact_id</span>: Foreign key of the item that gets controlled</li>
+                      <li><span class="var">artifact_type</span>: Type of the item (entry, category, …)</li>
+                      <li><span class="var">artifact_mode</span>: Read or write</li>
+                      <li><span class="var">artifact_index</span>: Possible additional data for an item</li>
                     </ul>
 
                     <h3 id="docs-serendipity_comments">serendipity_comments</h3>
@@ -181,20 +181,20 @@
                     <p>Holds the comments to entries</p>
 
                     <ul>
-                      <li>id: Primary ID</li>
-                      <li>entry_id: Foreign key of serendipity_entries.id</li>
-                      <li>parent_id: For threaded comments holds the foreign key of serendipity_comments.id</li>
-                      <li>timestamp: Time of the comment</li>
-                      <li>title: Title of a comment (trackbacks)</li>
-                      <li>author: Author of a comment</li>
-                      <li>email: E-Mail of the comment’s author</li>
-                      <li>url: URL of the comment</li>
-                      <li>ip: IP of the comment’s author</li>
-                      <li>body: The comment body</li>
-                      <li>type: Comment type (trackback, comment, pingback)</li>
-                      <li>subscribed: Whether the comment’s author wants subscription notifications of more comments</li>
-                      <li>status: Whether the comment is approved/pending</li>
-                      <li>referer: URL of the referrer</li>
+                      <li><span class="var">id</span>: Primary ID</li>
+                      <li><span class="var">entry_id</span>: Foreign key of serendipity_entries.id</li>
+                      <li><span class="var">parent_id</span>: For threaded comments holds the foreign key of serendipity_comments.id</li>
+                      <li><span class="var">timestamp</span>: Time of the comment</li>
+                      <li><span class="var">title</span>: Title of a comment (trackbacks)</li>
+                      <li><span class="var">author</span>: Author of a comment</li>
+                      <li><span class="var">email</span>: E-Mail of the comment’s author</li>
+                      <li><span class="var">url</span>: URL of the comment</li>
+                      <li><span class="var">ip</span>: IP of the comment’s author</li>
+                      <li><span class="var">body</span>: The comment body</li>
+                      <li><span class="var">type</span>: Comment type (trackback, comment, pingback)</li>
+                      <li><span class="var">subscribed</span>: Whether the comment’s author wants subscription notifications of more comments</li>
+                      <li><span class="var">status</span>: Whether the comment is approved/pending</li>
+                      <li><span class="var">referer</span>: URL of the referrer</li>
                     </ul>
 
                     <h3 id="docs-serendipity_entries">serendipity_entries</h3>
@@ -202,20 +202,20 @@
                     <p>Holds the blog entries</p>
 
                     <ul>
-                      <li>id: Primary ID</li>
-                      <li>title: Entry title</li>
-                      <li>timestamp: Entry timestamp</li>
-                      <li>body: Entry body</li>
-                      <li>comments: Number of comments for this entry</li>
-                      <li>trackbacks: Number of trackbacks for this entry</li>
-                      <li>extended: Extended entry body</li>
-                      <li>exflag: Boolean to indicate if entry has extended body</li>
-                      <li>author: Name of the entry’s author</li>
-                      <li>authorid: Foreign key to serendipity_authors.id</li>
-                      <li>isdraft: Boolean to indicate if entry is a draft</li>
-                      <li>allow_comments: Boolean to indicate if comments are allowed</li>
-                      <li>last_modified: Timestamp of last modification</li>
-                      <li>moderate_comments: Boolean to indicate if comments are moderated</li>
+                      <li><span class="var">id</span>: Primary ID</li>
+                      <li><span class="var">title</span>: Entry title</li>
+                      <li><span class="var">timestamp</span>: Entry timestamp</li>
+                      <li><span class="var">body</span>: Entry body</li>
+                      <li><span class="var">comments</span>: Number of comments for this entry</li>
+                      <li><span class="var">trackbacks</span>: Number of trackbacks for this entry</li>
+                      <li><span class="var">extended</span>: Extended entry body</li>
+                      <li><span class="var">exflag</span>: Boolean to indicate if entry has extended body</li>
+                      <li><span class="var">author</span>: Name of the entry’s author</li>
+                      <li><span class="var">authorid</span>: Foreign key to serendipity_authors.id</li>
+                      <li><span class="var">isdraft</span>: Boolean to indicate if entry is a draft</li>
+                      <li><span class="var">allow_comments</span>: Boolean to indicate if comments are allowed</li>
+                      <li><span class="var">last_modified</span>: Timestamp of last modification</li>
+                      <li><span class="var">moderate_comments</span>: Boolean to indicate if comments are moderated</li>
                     </ul>
 
                     <h3 id="docs-serendipity_references">serendipity_references</h3>
@@ -223,11 +223,11 @@
                     <p>Holds parsed references within a blog entry</p>
 
                     <ul>
-                      <li>id: Primary ID</li>
-                      <li>entry_id: Foreign key to serendipity_entries.id</li>
-                      <li>link: The link that is references</li>
-                      <li>name: Link title</li>
-                      <li>type: Link type</li>
+                      <li><span class="var">id</span>: Primary ID</li>
+                      <li><span class="var">entry_id</span>: Foreign key to serendipity_entries.id</li>
+                      <li><span class="var">link</span>: The link that is references</li>
+                      <li><span class="var">name</span>: Link title</li>
+                      <li><span class="var">type</span>: Link type</li>
                     </ul>
 
                     <h3 id="docs-serendipity_exits">serendipity_exits</h3>
@@ -235,14 +235,14 @@
                     <p>Holds external URLs that are captured through exit tracking</p>
 
                     <ul>
-                      <li>entry_id: Foreign key to serendipity_entries.id where the URL was linked from</li>
-                      <li>day: Timestamp of when a link was clicked</li>
-                      <li>count: Number of clicks</li>
-                      <li>scheme: URL scheme</li>
-                      <li>host: URL host</li>
-                      <li>port: URL port</li>
-                      <li>path: URL path</li>
-                      <li>query: URL query part</li>
+                      <li><span class="var">entry_id</span>: Foreign key to serendipity_entries.id where the URL was linked from</li>
+                      <li><span class="var">day</span>: Timestamp of when a link was clicked</li>
+                      <li><span class="var">count</span>: Number of clicks</li>
+                      <li><span class="var">scheme</span>: URL scheme</li>
+                      <li><span class="var">host</span>: URL host</li>
+                      <li><span class="var">port</span>: URL port</li>
+                      <li><span class="var">path</span>: URL path</li>
+                      <li><span class="var">query</span>: URL query part</li>
                     </ul>
 
                     <h3 id="docs-serendipity_referrers">serendipity_referrers</h3>
@@ -250,14 +250,14 @@
                     <p>Holds external URLs that reference to blog entries</p>
 
                     <ul>
-                      <li>entry_id: Foreign key to serendipity_entries.id where the URL was linked to</li>
-                      <li>day: Timestamp of when a link was incoming</li>
-                      <li>count: Number of clicks</li>
-                      <li>scheme: URL scheme</li>
-                      <li>host: URL host</li>
-                      <li>port: URL port</li>
-                      <li>path: URL path</li>
-                      <li>query: URL query part</li>
+                      <li><span class="var">entry_id</span>: Foreign key to serendipity_entries.id where the URL was linked to</li>
+                      <li><span class="var">day</span>: Timestamp of when a link was incoming</li>
+                      <li><span class="var">count</span>: Number of clicks</li>
+                      <li><span class="var">scheme</span>: URL scheme</li>
+                      <li><span class="var">host</span>: URL host</li>
+                      <li><span class="var">port</span>: URL port</li>
+                      <li><span class="var">path</span>: URL path</li>
+                      <li><span class="var">query</span>: URL query part</li>
                     </ul>
 
                     <h3 id="docs-serendipity_config">serendipity_config</h3>
@@ -265,9 +265,9 @@
                     <p>Holds the central serendipity configuration options</p>
 
                     <ul>
-                      <li>name: Name of the config option</li>
-                      <li>value: Value of the config option</li>
-                      <li>authorid: 0 if global, or reference to the authorid that the configuration option is valid for</li>
+                      <li><span class="var">name</span>: Name of the config option</li>
+                      <li><span class="var">value</span>: Value of the config option</li>
+                      <li><span class="var">authorid</span>: 0 if global, or reference to the authorid that the configuration option is valid for</li>
                     </ul>
 
                     <h3 id="docs-serendipity_options">serendipity_options</h3>
@@ -275,9 +275,9 @@
                     <p>Holds template options.</p>
 
                     <ul>
-                      <li>name: Name of the config option</li>
-                      <li>value: Value of the config option</li>
-                      <li>okey: Key/ID of the template the config option belongs to</li>
+                      <li><span class="var">name</span>: Name of the config option</li>
+                      <li><span class="var">value</span>: Value of the config option</li>
+                      <li><span class="var">okey</span>: Key/ID of the template the config option belongs to</li>
                     </ul>
 
                     <h3 id="docs-serendipity_suppress">serendipity_suppress</h3>
@@ -285,13 +285,13 @@
                     <p>Holds URLs that are blocked from exit-tracking</p>
 
                     <ul>
-                      <li>ip: Incoming IP</li>
-                      <li>scheme: URL scheme</li>
-                      <li>host: URL host</li>
-                      <li>port: URL port</li>
-                      <li>path: URL path</li>
-                      <li>query: URL query part</li>
-                      <li>last: Last access</li>
+                      <li><span class="var">ip</span>: Incoming IP</li>
+                      <li><span class="var">scheme</span>: URL scheme</li>
+                      <li><span class="var">host</span>: URL host</li>
+                      <li><span class="var">port</span>: URL port</li>
+                      <li><span class="var">path</span>: URL path</li>
+                      <li><span class="var">query</span>: URL query part</li>
+                      <li><span class="var">last</span>: Last access</li>
                     </ul>
 
                     <h3 id="docs-serendipity_plugins">serendipity_plugins</h3>
@@ -299,11 +299,11 @@
                     <p>Holds the list of enabled plugins</p>
 
                     <ul>
-                      <li>name: Name of the plugin</li>
-                      <li>placement: Type of plugin (event, sidebar, hidden, …)</li>
-                      <li>sort_order: Sort order ID of the plugin</li>
-                      <li>authorid: Owner of the plugin</li>
-                      <li>path: Path to plugin directory</li>
+                      <li><span class="var">name</span>: Name of the plugin</li>
+                      <li><span class="var">placement</span>: Type of plugin (event, sidebar, hidden, …)</li>
+                      <li><span class="var">sort_order</span>: Sort order ID of the plugin</li>
+                      <li><span class="var">authorid</span>: Owner of the plugin</li>
+                      <li><span class="var">path</span>: Path to plugin directory</li>
                     </ul>
 
                     <h3 id="docs-serendipity_category">serendipity_category</h3>
@@ -311,16 +311,16 @@
                     <p>Holds the categories of a blog.</p>
 
                     <ul>
-                      <li>categoryid: Primary ID</li>
-                      <li>category_name: Category name</li>
-                      <li>category_icon: A category icon</li>
-                      <li>category_description: Description of Category</li>
-                      <li>authorid: Owner of category</li>
-                      <li>category_left: Nested Set ID of next category for hierarchy</li>
-                      <li>category_right: Nested Set ID of previous category for hierarchy</li>
-                      <li>parentid: Parent category for hierarchy</li>
-                      <li>sort_order: Sort order of a category within parent hierarchy</li>
-                      <li>hide_sub: Boolean whether subcategories are hidden</li>
+                      <li><span class="var">categoryid</span>: Primary ID</li>
+                      <li><span class="var">category_name</span>: Category name</li>
+                      <li><span class="var">category_icon</span>: A category icon</li>
+                      <li><span class="var">category_description</span>: Description of Category</li>
+                      <li><span class="var">authorid</span>: Owner of category</li>
+                      <li><span class="var">category_left</span>: Nested Set ID of next category for hierarchy</li>
+                      <li><span class="var">category_right</span>: Nested Set ID of previous category for hierarchy</li>
+                      <li><span class="var">parentid</span>: Parent category for hierarchy</li>
+                      <li><span class="var">sort_order</span>: Sort order of a category within parent hierarchy</li>
+                      <li><span class="var">hide_sub</span>: Boolean whether subcategories are hidden</li>
                     </ul>
 
                     <h3 id="docs-serendipity_images">serendipity_images</h3>
@@ -328,19 +328,19 @@
                     <p>Holds media items of the database</p>
 
                     <ul>
-                      <li>id: Primary ID</li>
-                      <li>name: Name of media file</li>
-                      <li>extension: Extension of media file</li>
-                      <li>mime: Mime-Type of media file</li>
-                      <li>size: Filesize</li>
-                      <li>dimensions_width: Image dimensions (width)</li>
-                      <li>dimensions_height: Image dimensions (height)</li>
-                      <li>date: Upload date</li>
-                      <li>thumbnaul_name: Thumbnail extension name</li>
-                      <li>authorid: Owner of media file</li>
-                      <li>path: Storage directory of media file</li>
-                      <li>hotlink: Whether media file is hotlinked (comes from foreign server)</li>
-                      <li>realname: Full media file</li>
+                      <li><span class="var">id</span>: Primary ID</li>
+                      <li><span class="var">name</span>: Name of media file</li>
+                      <li><span class="var">extension</span>: Extension of media file</li>
+                      <li><span class="var">mime</span>: Mime-Type of media file</li>
+                      <li><span class="var">size</span>: Filesize</li>
+                      <li><span class="var">dimensions_width</span>: Image dimensions (width)</li>
+                      <li><span class="var">dimensions_height</span>: Image dimensions (height)</li>
+                      <li><span class="var">date</span>: Upload date</li>
+                      <li><span class="var">thumbnail_name</span>: Thumbnail extension name</li>
+                      <li><span class="var">authorid</span>: Owner of media file</li>
+                      <li><span class="var">path</span>: Storage directory of media file</li>
+                      <li><span class="var">hotlink</span>: Whether media file is hotlinked (comes from foreign server)</li>
+                      <li><span class="var">realname</span>: Full media file</li>
                     </ul>
 
                     <h3 id="docs-serendipity_entrycat">serendipity_entrycat</h3>
@@ -348,8 +348,8 @@
                     <p>Holds n:m associations of entries to categories</p>
 
                     <ul>
-                      <li>entryid: Foreign key to serendipity_entries.id</li>
-                      <li>categoryid: Foreign key to serendipity_category.categoryid</li>
+                      <li><span class="var">entryid</span>: Foreign key to serendipity_entries.id</li>
+                      <li><span class="var">categoryid</span>: Foreign key to serendipity_category.categoryid</li>
                     </ul>
 
                     <h3 id="docs-serendipity_entryproperties">serendipity_entryproperties</h3>
@@ -357,9 +357,9 @@
                     <p>Holds additional entry properties</p>
 
                     <ul>
-                      <li>entryid: Foreign key to serendipity_entries.id</li>
-                      <li>property: Property name</li>
-                      <li>value: Property value</li>
+                      <li><span class="var">entryid</span>: Foreign key to serendipity_entries.id</li>
+                      <li><span class="var">property</span>: Property name</li>
+                      <li><span class="var">value</span>: Property value</li>
                     </ul>
 
                     <h3 id="docs-serendipity_mediaproperties">serendipity_mediaproperties</h3>
@@ -367,11 +367,11 @@
                     <p>Holds additional properties of media files</p>
 
                     <ul>
-                      <li>mediaid: Foreign key to serendipity_images.id</li>
-                      <li>property: Property name</li>
-                      <li>property_group: Property main group</li>
-                      <li>property_subgroup: Property sub group</li>
-                      <li>value: Property value</li>
+                      <li><span class="var">mediaid</span>: Foreign key to serendipity_images.id</li>
+                      <li><span class="var">property</span>: Property name</li>
+                      <li><span class="var">property_group</span>: Property main group</li>
+                      <li><span class="var">property_subgroup</span>: Property sub group</li>
+                      <li><span class="var">value</span>: Property value</li>
                     </ul>
 
                     <h3 id="docs-serendipity_permalinks">serendipity_permalinks</h3>
@@ -379,10 +379,10 @@
                     <p>Holds the created permalinks for articles, authors and categories for lookup purposes.</p>
 
                     <ul>
-                      <li>permalink: The URL</li>
-                      <li>entry_id: The ID of an item</li>
-                      <li>type: The typ eof an item (entry, author, category, …)</li>
-                      <li>data: Additional data</li>
+                      <li><span class="var">permalink</span>: The URL</li>
+                      <li><span class="var">entry_id</span>: The ID of an item</li>
+                      <li><span class="var">type</span>: The type of an item (entry, author, category, …)</li>
+                      <li><span class="var">data</span>: Additional data</li>
                     </ul>
 
                     <h3 id="docs-serendipity_plugincategories">serendipity_plugincategories</h3>
@@ -390,8 +390,8 @@
                     <p>Holds categorization information for available plugins</p>
 
                     <ul>
-                      <li>class_name: Plugin class name</li>
-                      <li>category: Name of category the plugin belongs to</li>
+                      <li><span class="var">class_name</span>: Plugin class name</li>
+                      <li><span class="var">category</span>: Name of category the plugin belongs to</li>
                     </ul>
 
                     <h3 id="docs-serendipity_pluginlist">serendipity_pluginlist</h3>
@@ -399,21 +399,21 @@
                     <p>Holds information about all available plugins</p>
 
                     <ul>
-                      <li>plugin_file: Plugin filename</li>
-                      <li>class_name: Plugin class name with identifier</li>
-                      <li>plugin_class: Normal plugin class name</li>
-                      <li>pluginPath: Directory for plugin file</li>
-                      <li>name: Name of plugin</li>
-                      <li>description: Description of plugin</li>
-                      <li>version: Version of plugin</li>
-                      <li>upgrade_version: Repository version of plugin</li>
-                      <li>plugintype: Type of plugin (event/sidebar)</li>
-                      <li>pluginlocation: storage location of plugin</li>
-                      <li>stackable: Whether plugin is installable multiple times</li>
-                      <li>author: Author of plugin</li>
-                      <li>requirements: Installation requirements</li>
-                      <li>website: Author of plugin</li>
-                      <li>last_modified: Time of last plugin update</li>
+                      <li><span class="var">plugin_file</span>: Plugin filename</li>
+                      <li><span class="var">class_name</span>: Plugin class name with identifier</li>
+                      <li><span class="var">plugin_class</span>: Normal plugin class name</li>
+                      <li><span class="var">pluginPath</span>: Directory for plugin file</li>
+                      <li><span class="var">name</span>: Name of plugin</li>
+                      <li><span class="var">description</span>: Description of plugin</li>
+                      <li><span class="var">version</span>: Version of plugin</li>
+                      <li><span class="var">upgrade_version</span>: Repository version of plugin</li>
+                      <li><span class="var">plugintype</span>: Type of plugin (event/sidebar)</li>
+                      <li><span class="var">pluginlocation</span>: Storage location of plugin</li>
+                      <li><span class="var">stackable</span>: Whether plugin is installable multiple times</li>
+                      <li><span class="var">author</span>: Author of plugin</li>
+                      <li><span class="var">requirements</span>: Installation requirements</li>
+                      <li><span class="var">website</span>: Author of plugin</li>
+                      <li><span class="var">last_modified</span>: Time of last plugin update</li>
                     </ul>
 
                 </div>
