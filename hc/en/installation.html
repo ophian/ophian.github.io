@@ -147,7 +147,7 @@
 <p><strong>Read and follow carefully:</strong></p>
 
 <ol class="boxed" type="a">
-    <li> Manually update the Serendipity Spartacus plugin file with the temporary styx-spartacus-up file (4) to solve some bugs and set the custom plugin load location option to this URL (5).</li>
+    <li> Manually update the Serendipity Spartacus plugin file with the temporary ‘styx-spartacus-up’ file (4) to solve some bugs and set the custom plugin load location option to this URL (5).</li>
     <li> Update the Autoupdater by Spartacus from the new location, currently this is version 1.5.3 or up.</li>
     <li> Click somewhere else and then return to the plugin list page. Select events and search for the installed/updated autoupdater plugin. It now is configurable! The two new options are pre-filled with the origin Serendipity GitHub path. Change both to the new URLs (6) and (7). Version 1.4.0 has this already preset. This is important!</li>
     <li> Next, go to your BACKEND global “Configuration” <span class="icon">→</span> “General Settings” and enable the “autoupdate” option to search for “beta” releases. This as well gives you RC and full release versions.</li>
@@ -224,7 +224,7 @@
 
 <figure id="install-0">
     <img src="/i/h/fresh_install_00.png" alt="Token secured installation" class="content-image">
-    <figcaption>Token secured installation (german browser example)</figcaption>
+    <figcaption>Styx: Token secured installation</figcaption>
 </figure>
 
 <h4 id="docs-requirements">Requirements</h4>
@@ -259,7 +259,7 @@
 
 <h4 id="docs-permissions-on-filesdirectories">Permissions on files/directories</h4>
 
-<p>Very important to Serendipity are the directories <strong>archives</strong>, <strong>templates_c</strong> and <strong>uploads</strong>. The directory <strong>archives</strong> is used to store pregenerated files, the directory <strong>templates_c</strong> will contain automatically compiled HTML templates from the Smarty Templating Engine and the directory <strong>uploads</strong> will contain any media files you upload to your Blog. This means, all three folders will require write access for your webserver.</p>
+<p>Very important to Serendipity are the directories <strong>archives</strong>, <strong>templates_c</strong> and <strong>uploads</strong>. The directory <strong>archives</strong> is used to store pre-generated files, the directory <strong>templates_c</strong> will contain automatically compiled HTML templates from the Smarty Templating Engine and the directory <strong>uploads</strong> will contain any media files you upload to your Blog. This means, all three folders will require write access for your webserver.</p>
 
 <p>PHP usually runs as a specific user that is different from the FTP user account you use to upload files. So, if your FTP user is able to upload files, this does not necessarily mean, that the PHP process will be able to access the same files/directory. Depending on your webservers setup, you might need to change the permissions (CHMOD) of the three mentioned directory to something like <strong>777</strong> (read, write and execute permissions for everyone, meaning “world writable”), <strong>775</strong> (meaning read, write and execute permissions for the owner and the group of the files/directory, but not “everybody”). Which one to use is very specific to your webserver’s setup. Please ask your provider, if you are unsure which permissions you need to use!</p>
 
@@ -277,12 +277,12 @@
 
 <figure id="install-1">
     <img src="/i/h/fresh_install_01.png" alt="First page of the installer" class="content-image">
-    <figcaption>First page of the installer (german browser example)</figcaption>
+    <figcaption>First page of the installer</figcaption>
 </figure>
 
 <p>Fatal problems are shown in red color. The most usual case of a red error is if Serendipity cannot create the directories <strong>templates_c</strong>, <strong>archives</strong> or <strong>uploads</strong>. In this case, please follow the suggestions in the “Permissions on Files/Directories” step of this documentation.</p>
 
-<p>On the bottom of the diagnosis screen, you can choose if you want to perform a “<strong>Simple installation</strong>” or the “<strong>Expert installation</strong>”. Both methods actually perform the same steps; however the “Simple installation” only shows you very few initial configuration options so that you can install Serendipity quickkly. The “Expert installation” will ask you to enter every configuration directive.</p>
+<p>On the bottom of the diagnosis screen, you can choose if you want to perform a “<strong>Simple installation</strong>” or the “<strong>Expert installation</strong>”. Both methods actually perform the same steps; however the “Simple installation” only shows you very few initial configuration options so that you can install Serendipity quickly. The “Expert installation” will ask you to enter every configuration directive.</p>
 
 <p>Since the goal of this document is to show how fast you can install Serendipity, we will only discuss the “Simple installation” right now, so please click on that link and you will see a screen like this:</p>
 
@@ -332,7 +332,7 @@
 
 <h4 id="docs-accessing-your-blog-frontend">Accessing your Blog Frontend</h4>
 
-<p>After the installation, the screen above showed you a link to “Visit your new blog here”. You can click on this, and then you should see your empty Blog like this:</p>
+<p>After the installation, the screen above showed you a link to “Visit your new Blog here”. You can click on this, and then you should see your empty Blog like this:</p>
 
 <figure id="startpage-empty">
     <img src="/i/h/fresh_install_04.png" alt="Index page of an empty Blog" class="content-image">
@@ -365,17 +365,22 @@
 
 <h5 id="docs-frontpage">Frontpage</h5>
 
-<p>The Frontpage currently just shows you the basic page. Here, specific plugins might show you specific output.</p>
+<p>The Backends “Frontpage” - also named the “Dashboard” - normally just shows you the basic page. Here, specific plugins might show you a specific output, which currently are: The last (5) “Comments” and (draft entries) “In Progress”.</p>
 
 <h5 id="docs-personal-settings">Personal Settings</h5>
 
-<p>The button with the three gears on the upper right of the page will lead you to personal settings section. The personal settings section will show all user-specific options to your currently logged-in user. There you can change your username, your password and also the language you want to see for the Admin interface.
-The most important distinct option is whether to use the “WYSIWYG” editor. This will show you a Word-like interface for creating Blog entries. It makes life easy, and if you do not know any HTML at all, you will be very glad about that editor that will allow you to insert images, links and text formatting at ease. This option can also be changed later, if you happen to dislike the WYSIWYG editor, or if you’re missing it.</p>
+<p>The button with the three gears on the upper right of the page will lead you to your personal settings section. The personal settings section will show all user-specific options to your currently logged-in user. There you can change your username, your password and also the language you want to see for the Admin interface.</p>
+
+<p>The most important distinct option is whether to use the “WYSIWYG” editor. This will show you a Word-like interface for creating Blog entries. It makes life easy, and if you do not know any HTML at all, you will be very glad about this editor that will allow you to insert images, links and text formatting at ease. This option can also be changed later, if you happen to dislike the WYSIWYG editor, or if you’re missing it.</p>
+
+<p>Further on, you can set the behaviour of the Dashboard widgets. Default is “ON”, but Styx recommends using it NOT, to allow to reduce this to an informational only widget, much smaller and leaving enough space for additional ‘snapped’ widgets.</p>
+
+<p>Simplified filters reduce some of the extended possibilities of Serendipity. This is a good start for the Beginners, but will not let you recognize some more advanced tools. Take a ride when you are ready!</p>
 
 <figure id="personal-settings">
     <img src="/i/h/fresh_install_07.png" alt="Personal settings" class="content-image">
     <figcaption>Personal settings</figcaption>
-</figure>
+</figure><br>
 
 <h5 id="docs-content">Content</h5>
 
@@ -384,7 +389,7 @@ The most important distinct option is whether to use the “WYSIWYG” editor. T
 <figure id="entry-editor">
     <img src="/i/h/fresh_install_08.png" alt="Entry editor" class="content-image">
     <figcaption>Entry editor</figcaption>
-</figure>
+</figure><br>
 
 <h5 id="docs-media">Media</h5>
 
@@ -393,7 +398,7 @@ The most important distinct option is whether to use the “WYSIWYG” editor. T
 <figure id="upload-form-for-the-media-database">
     <img src="/i/h/fresh_install_09.png" alt="Upload form for the media database" class="content-image">
     <figcaption>Upload form for the media database</figcaption>
-</figure>
+</figure><br>
 
 <h5 id="docs-activity">Activity</h5>
 
@@ -420,7 +425,7 @@ The most important distinct option is whether to use the “WYSIWYG” editor. T
 <figure id="plugin-configuration">
     <img src="/i/h/fresh_install_11.png" alt="Plugin configuration" class="content-image">
     <figcaption>Plugin configuration</figcaption>
-</figure>
+</figure><br>
 
 <h5 id="docs-maintain">Maintenance</h5>
 
@@ -429,7 +434,7 @@ The most important distinct option is whether to use the “WYSIWYG” editor. T
 <figure id="configuration-section">
     <img src="/i/h/fresh_install_13.png" alt="Maintenance section" class="content-image">
     <figcaption>Maintenance section</figcaption>
-</figure>
+</figure><br>
 
 <h4 id="docs-and-what-now">And what next?</h4>
 
