@@ -113,7 +113,7 @@
 
                     <p>When your domain is reachable by HTTPS you have to map all not encrypted HTTP calls to HTTPS. You can do this by an entry in the .htaccess file in the root directory of your Blog. Insert the following lines before the ‘# BEGIN s9y‘ statement in your .htaccess.</p>
 
-                    <pre><code>RewriteEngine on<br>RewriteCond %{HTTPS} !=on<br>RewriteRule ^ https://%{SERVER_NAME}%{REQUEST_URI} [L,R=301]</code></pre>
+                    <pre><code>RewriteEngine on<br>RewriteCond %{HTTPS} !=on<br>RewriteRule ^ https://%{SERVER_NAME}%{REQUEST_URI} [L,R=301]</code></pre><br>
 
                     <h3 id="docs-change-url-in-the-configuration">Change URL in the configuration</h3>
 
