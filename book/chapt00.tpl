@@ -64,6 +64,11 @@ der Sprungmarken und der ausfahrbaren Seitenleistennavigation im vollständig
 geladenen und aufbereiteten Werk frei herum bewegen. Ein erneutes Laden geschieht
 dann zum größten Teil aus dem Browsercache und ist wesentlich schneller erledigt.</p>
 
+<p>Mitunter sehen Sie nach dem ersten Laden des Buches das Inhaltsverzeichnis
+der Seitenleiste vollständig ausgeklappt. Dann wurde das Buch nur unvollständig
+geladen. Drücken Sie dann einfach auf ‹ Aktualisieren › im rechten Mausfenster
+[Ctrl-R].</p>
+
 <p>Ansonsten ist noch viel Raum für weitere Optimierungen gegeben!</p>
 
 <p>Ein großer Dank geht an Garvin Hicking, der mit seiner umfassenden Arbeit für
