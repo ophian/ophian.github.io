@@ -859,7 +859,7 @@ die korrekten HTML-Absätze (entweder mittels <code>&lt;p&gt;...&lt;/p&gt;</code
 tut dies der Editor auch bereits selbständig.</p>
 
 <p>Wenn Sie also bei selbständiger Eingabe überflüssige Zeilenumbrüche in
-Ihren Artikeln haben, sollten Sie das <em>NL2BR</em>-Plugin deinstallieren.</p>
+Ihren Artikeln haben, sollten Sie das <em>NL2BR</em>-Plugin anpassen (s.u.).</p>
 
 <p>Abhängig vom eingesetzten Template kann es sein, dass das Template die
 Abstände zwischen Absätzen (den <code>&lt;p&gt;</code>-Tags) mittels
@@ -890,17 +890,23 @@ stören. Es gibt mehrere
 Möglichkeiten (abgesehen vom Deinstallieren des NL2BR-Plugins), dieses Problem zu beheben:</p>
 
 <ul class="realList">
+    <li>Den WYSIWYG-Editor verwenden, denn dieser deaktiviert die
+    Benutzung von nl2br automatisch. Im PLAIN TEXT-Editor haben Sie
+    die Möglichkeit die P-Tag Option zu verwenden, oder per NoBR-Button
+    bestimmte Textpassagen vom NL2BR-Parsen auszuschließen.</li>
+
     <li>NL2BR-Plugin fallweise für einen einzelnen Artikel
     deaktivieren. Dies können Sie beim Erstellen eines Artikels im
     Abschnitt <em>Erweiterte Optionen</em> erledigen, wenn Sie das
     Ereignis-Plugin <em>Erweiterte Eigenschaften von Artikeln</em>
     installiert haben.</li>
 
-    <li>In der Konfiguration des NL2BR-Plugins die Liste von
-    geschützten HTML-Tags so ändern, dass keine Zeilenumbrüche
-    zwischen ungewünschten Tags eingefügt werden. So können Sie zB.
-    <code>script</code> mit in die kommaseparierte Tagliste aufnehmen, damit
-    das NL2BR-Plugin keine Zeilenumbrüche in JavaScript-Containern
+    <li>In der Konfiguration des NL2BR-Plugins die Blog Einträge von
+    der NL2BR-Parsung auszunehmen, oder die Liste von geschützten
+    HTML-Tags so ändern, dass keine Zeilenumbrüche zwischen
+    ungewünschten Tags eingefügt werden. So können Sie zB.
+    <code>script</code> mit in die kommaseparierte Tagliste aufnehmen,
+    damit das NL2BR-Plugin keine Zeilenumbrüche in JavaScript-Containern
     einfügt.</li>
 
     <li>Bei der Reihenfolge der Textformatierungs-Plugins darauf achten,
