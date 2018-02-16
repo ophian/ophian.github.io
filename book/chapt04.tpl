@@ -2542,7 +2542,7 @@ angezeigt werden, können Sie im Kopfbereich anpassen:</p>
 </p>
 
 <p class="desc">
-<span class="item mbold">Filter: Verzeichnise</span><!-- menuitem -->
+<span class="item mbold">Filter: Verzeichnis</span><!-- menuitem -->
 <span class="desc-info">Im Auswahlfeld <span class="mbold">Verzeichnis</span> können Sie wählen, aus welchem
 Unterverzeichnis Dateien dargestellt werden sollen.</span>
 </p>
