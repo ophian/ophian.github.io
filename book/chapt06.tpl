@@ -880,14 +880,13 @@ CSS-Formatierung am Ende der <code>style.css</code>-Datei im entsprechenden
 <p>Dadurch wird der Abstand (<em>margin</em>) zwischen Paragraphen auf eine
 relative Einheit gesetzt, die dem üblichen Absatzabstand entspricht.</p>
 
-<p>Ein weiteres Problem kann auftreten, wenn Sie in einem
-Beitrag JavaScript oder anderweitigen Sourcecode platzieren möchten. Denn
-auch hier würde das Plugin relativ stur sämtliche Leerzeichen durch
-<code>&lt;br /&gt;</code> umwandeln und dadurch JavaScript ungültig machen oder Ihre
-spezielle Sourcecode-Formatierung in einem
-<code>&lt;blockquote&gt;</code>-HTML-Konstrukt mit überflüssigen HTML-Zeilenumbrüchen
-stören. Es gibt mehrere
-Möglichkeiten (abgesehen vom Deinstallieren des NL2BR-Plugins), dieses Problem zu beheben:</p>
+<p>Ein weiteres Problem kann auftreten, wenn Sie in einem Beitrag JavaScript
+oder anderweitigen Sourcecode platzieren möchten. Denn auch hier würde das
+Plugin relativ stur sämtliche Leerzeichen durch <code>&lt;br /&gt;</code>
+umwandeln und dadurch JavaScript ungültig machen oder Ihre spezielle
+Sourcecode-Formatierung in einem <code>&lt;blockquote&gt;</code>-HTML-Konstrukt
+mit überflüssigen HTML-Zeilenumbrüchen stören. Es gibt mehrere Möglichkeiten
+(abgesehen vom Deinstallieren des NL2BR-Plugins), dieses Problem zu beheben:</p>
 
 <ul class="realList">
     <li>Den WYSIWYG-Editor verwenden, denn dieser deaktiviert die
