@@ -97,10 +97,9 @@
                         <li class="document-current">«&nbsp;SSL encryption (HTTPS)&nbsp;»</li>
                         <li class="document-next"><a href="configuration.html">Configuration&nbsp;<span class="icon arrow-right">→</span></a></li>
                     </ul>
-                    <h2>Using SSL encryption for your blog</h2>
+                    <h2>Using SSL encryption for your Blog</h2>
 
-                    <p>In this times it is very important for your reader to care about their privacy. Therefor more and more sites use SSL encryption (HTTPS) to transmit data safely from the webserver to the users browser. Search engines like google will rank sites better if they are using encryption. For yourself it is safer to type the password for the login to your backend via an ecrypted connection.
-                    If you want your blog to use SSL encryption as well you have to follow these steps.</p>
+                    <p>In this times it is very important for your reader to care about their privacy. Therefor more and more sites use SSL encryption (HTTPS) to transmit data safely from the webserver to the users browser. Search engines like Google will rank sites better if they are using encryption. For yourself it is safer to type the password for the login to your Backend via an encrypted connection. If you want your Blog to use SSL encryption as well you have to follow these steps.</p>
 
                     <h3 id="docs-implement-ssl-to-your-domain">Implement SSL to your domain</h3>
 
@@ -112,13 +111,13 @@
 
                     <h3 id="docs-map-all-http-calls-to-https">Map all HTTP-calls to HTTPS</h3>
 
-                    <p>When your domain is reachable by HTTPS you have to map all not encrypted HTTP calls to HTTPS. You can do this by an entry in the .htaccess file in the root directoy of your blog. Insert the following lines before the ‘# BEGIN s9y‘ statement in your .htaccess.</p>
+                    <p>When your domain is reachable by HTTPS you have to map all not encrypted HTTP calls to HTTPS. You can do this by an entry in the .htaccess file in the root directory of your Blog. Insert the following lines before the ‘# BEGIN s9y‘ statement in your .htaccess.</p>
 
                     <pre><code>RewriteEngine on<br>RewriteCond %{HTTPS} !=on<br>RewriteRule ^ https://%{SERVER_NAME}%{REQUEST_URI} [L,R=301]</code></pre>
 
                     <h3 id="docs-change-url-in-the-configuration">Change URL in the configuration</h3>
 
-                    <p>In your Serendipity backend go to the blogs configuration and modify the URL from</p>
+                    <p>In your Serendipity Backend go to the Blogs configuration and modify the URL from</p>
 
                     <pre><code>http://my.blog.xyz to<br>https://my.blog.xyz</code></pre>
 
@@ -131,11 +130,11 @@
 
                     <h3 id="docs-some-things-to-think-about">Some things to think about</h3>
 
-                    <p>If you embed anything in your blog (fonts, javascript, pictures) you have to take care to do this via HTTPS. If not that could lead to a broken security chain. This is shown differently in dependence of the browser you are using. For example, firefox shows an exclamation mark beside the lock symbol at the url.</p>
+                    <p>If you embed anything in your Blog (fonts, javascript, pictures) you have to take care to do this via HTTPS. If not that could lead to a broken security chain. This is shown differently in dependence of the browser you are using. For example, Firefox shows an exclamation mark beside the lock symbol at the url.</p>
 
-                    <p>The modern themes and the plugins usually are aware to use the prefix from the configuration. There could be plugins which use external services that may implemet them with http instead of https. This will lead to a broken security chain. For the most cases, an entry on S9y-Origin <a href="https://board.s9y.org">board</a> will activate a developer to fix it (if it is possible for the external service). :)</p>
+                    <p>The modern themes and the plugins usually are aware to use the prefix from the configuration. There could be plugins which use external services that may implement them with http instead of https. This will lead to a broken security chain. For the most cases, an entry on S9y-Origin <a href="https://board.s9y.org">board</a> will activate a developer to fix it (if it is possible for the external service). :)</p>
 
-                    <p>You have to take care for things you embed via the http-nugget-plugin or other things you modify individually in your blogs sources. If you embed external elements to your blog entries you also have to take care that they use a secure connection.</p>
+                    <p>You have to take care for things you embed via the http-nugget-plugin or other things you modify individually in your Blogs sources. If you embed external elements to your Blog entries you also have to take care that they use a secure connection.</p>
 
                 </div>
             </div>
