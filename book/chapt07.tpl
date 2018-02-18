@@ -850,8 +850,6 @@ erhalten haben.</span>
 </span>
 </p>
 
-<p>&nbsp;</p><!-- separator -->
-
 <p>
 <span class="tag-box invisible">
     <span class="inline-tag">TagURLs@Tag-URL</span>
@@ -910,8 +908,6 @@ Wert als Konstante vom Plugin gesetzt wird (wie auch das Array
 anderer Plugins (mit PHP-Code) auf die Ansicht des Tagging-Plugins
 zugreifen.</span>
 </p>
-
-<p>&nbsp;</p><!-- separator -->
 
 <p>Das Tagging-Plugin bindet die zugewiesenen Schlüsselwörter selbständig in
 Ihre RSS-Feeds ein. Dort werden sie über die Elemente <code>&lt;category&gt;</code>
@@ -1169,8 +1165,6 @@ soll, können Sie dies über die Option <span class="mbold">Technorati Tag Link<
 Standardmäßig wird ein Bild von den Technorati-Servern als Symbol dargestellt,
 Sie können jedoch auch eine eigene URL für die Grafik eintragen.</span>
 </p>
-
-<p>&nbsp;</p><!-- separator -->
 
 <p>Weiterhin steht ein gekoppeltes Seitenleisten-Plugin zur Verfügung. Darüber können Sie eine Übersicht aller verwendeten Tags in der
 Seitenleiste [*]
@@ -2239,8 +2233,6 @@ sind erlaubt.</span>
 </span>
 </p>
 
-<p>&nbsp;</p><!-- separator -->
-
 <p>
 <span class="tag-box invisible">
     <span class="inline-tag">Fehler!doppelte Seitentypen für statische Seiten</span>
@@ -2268,7 +2260,7 @@ kann abseits von den angelegten statischen Seiten auch die Ausgabeseiten
 einiger Plugins mit einbinden.
 Zu diesen Plugins zählen der <em>Downloadmanager</em>, das <em>Gästebuch</em>,
 <em>Kontaktformular</em>, <em>Forum</em>, die <em>FAQs</em> sowie die
-<em>Bildgallerie</em>.</p>
+<em>Bildergalerie</em>.</p>
 
 <p>Links zu derartigen Plugins müssten Sie andernfalls immer manuell über
 HTML-Klötze oder Template-Änderungen einbinden.</p>
@@ -2677,8 +2669,6 @@ zur Verfügung.</p>
 
 </span>
 </p>
-
-<p>&nbsp;</p><!-- separator -->
 
 <p>Folgende Smarty-Variablen stehen in allen Template-Dateien der statischen
 Seiten bzw. Seitentypen zur Verfügung:</p>
@@ -3631,8 +3621,6 @@ Sie keinen Sinn, Suchmaschinen in dieser Zählung aufzuführen, daher ist
 es selten zu empfehlen, die Option auf <span class="mbold">Nein, Robots bitte
 mitzählen</span> zu setzen.</span>
 </p>
-
-<p>&nbsp;</p><!-- separator -->
 
 <p>Die Darstellung des Statistik-Plugins umfasst folgende Daten:</p>
 
