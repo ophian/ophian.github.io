@@ -9995,6 +9995,14 @@ fest, einen zusätzlichen beschreibenden Text und die Zuordnung zur Blog-Kategor
 <p>Das Feld <span class="mbold">Bildgröße</span> enthält eine Zahl (in Pixeln), die bestimmt, in welcher
 Größe das Bild in dem Quickblog-Artikel eingestellt wird.</p>
 
+<p>Serendipity Styx stellt solche per "Quickblog" größenmäßig geänderten Bilder
+außerhalb der Mediendatenbank Synchronisation und der automatischen Generierung
+von Vorschaubildern, in dem es ihnen einen speziellen Vorschaubild-Namen (s.u.)
+zuweist. Diese Dateien leben also ein verstecktes Leben innerhalb der Mediendatenbank
+und überleben mögliche Löschungen der Original Bilddatei!
+Sie werden mit einem neuen Dateieigenschafts Aktions-Button "Image Of" ausgezeichnet.
+Beispiel: "Veröffentlicht: zwiebel.quickblog.jpg, 240x160px".
+
 <p>Technisch gesehen wird ein via Quickblog hochgeladenes Bild mit speziellem Code
 in Ihren Eintrag eingebunden. Dieser Code enthält die ID zu einem Bild der
 Mediendatenbank und wird im normalen Eintragstext des Artikels hinterlegt:</p>
