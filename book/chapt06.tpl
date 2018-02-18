@@ -8333,21 +8333,21 @@ irgendein anderes <em>WYSIWYG</em>-Editor-Plugin einzusetzen, wenn nicht absolut
 wichtige persönliche Präferenzen dafür sprechen.
 (Siehe <span class="pageref"><a href="#WYSIWYG">WYSIWYG</a></span>)</p>
 
-<p>An der Qualität verschiedener WYSIWYG-Editoren scheiden sich
-die Geister - grundsätzlich ist es ein beinahe unmögliches Ziel,
+<p>An der Qualität verschiedener WYSIWYG-Editoren schieden sich
+die Geister - grundsätzlich schien es ein beinahe unmögliches Ziel,
 vollständige WYSIWYG-Fähigkeiten browserübergreifend zu verwirklichen.
-Gerade zwischen Internet Explorer und Firefox unterscheiden sich die
+Gerade zwischen Internet Explorer und Firefox unterschieden sich die
 technischen Implementationen fast grundlegend, so dass ein überall
-gleich arbeitender WYSIWYG-Editor wohl noch lange ein Zukunftstraum
-bleiben wird. Dies gilt nicht mehr für den heute benutzten Editor. Ja,
-die Dinge sich und manche werden besser!</p>
+gleich arbeitender WYSIWYG-Editor lange Zeit ein Zukunftstraum war.</p>
 
 <p>Dennoch arbeiten viele Entwickler unbeirrt an diesem hehren Ziel und
 bringen häufige Updates ihrer Editoren heraus, die stetig stabiler
-werden. Das Kernproblem bei WYSIWYG-Editoren ist, dass diese häufig
-ungültigen HTML-Code produzieren, Sonderzeichen schlucken oder beim
-Verschieben von Bildern Abstürze hervorrufen. Davon bleibt auch der interne
-Serendipity-Editor leider nicht verschont.</p>
+werden. Das Kernproblem bei älteren WYSIWYG-Editoren war, dass diese häufig
+ungültigen HTML-Code produzierten, Sonderzeichen schluckten oder beim
+Verschieben von Bildern Abstürze hervorriefen.</p>
+
+<p>Dies gilt nicht mehr für den heute benutzten Editor. Ja,
+die Dinge ändern sich und manche davon werden auch besser!</p>
 
 <p>Serendipity geht daher grundsätzlich den Weg, dass alternative
 WYSIWYG-Editoren eingebunden werden können. Dazu zählen
@@ -8362,9 +8362,9 @@ Für alle Editoren sind externe Plugins verfügbar. Aufgrund der weiteren Entwic
 WYSIWYG-Editor-Plugins bei Serendipity ist, dass einigen die Unterstützung
 der Mediendatenbank fehlt oder die Integration in weitere Plugins (wie
 den HTML-Klotz oder Statische Seiten) nicht vorhanden ist. TinyMCE ist
-hier am weitesten fortgeschritten und wird daher an dieser Stelle exemplarisch
-beschrieben. Die Verwendung der anderen WYSIWYG-Editor-Plugins ist jedoch
-im Grundsatz gleich.</p>
+hier - außerhalb des CKEditors - am weitesten fortgeschritten und wird
+daher an dieser Stelle exemplarisch beschrieben. Die Verwendung der anderen
+WYSIWYG-Editor-Plugins ist jedoch im Grundsatz gleich.</p>
 
 <p>Um einen externen WYSIWYG-Editor wie TinyMCE verwenden zu können, müssen
 Sie drei Dinge durchführen: Erstens müssen Sie in Ihren persönlichen
@@ -9327,8 +9327,6 @@ Schlüssel <code>$selected_membmers.X.posts</code> für die Anzahl der vom
 Redakteur geschriebenen Artikel.</span>
 </p>
 
-<p>&nbsp;</p><!-- separator -->
-
 <p>Die Darstellung der jeweiligen Benutzerprofile wird über die Template-Datei
 <span class="tag-box invisible">
     <span class="inline-tag">Template-Dateien!plugin_userprofile.tpl</span>
@@ -9425,8 +9423,6 @@ werden. Folgende Variablen sind verfügbar:</p>
 <code class="item smarty">{$userProfileTitle}</code>: String
 <span class="desc-info">Diese Variable enthält den Namen des Benutzerprofil-Plugins.</span>
 </p>
-
-<p>&nbsp;</p><!-- separator -->
 
 <p>Die Standardausgabe des Plugins lässt sich weiterhin über die CSS-Klasse
 <code>.serendipityAuthorProfile</code> optisch anpassen.</p>
@@ -10078,8 +10074,6 @@ sich nach dem jeweiligen EXIF-Feldnamen, zB. <code>Focal_length</code> oder
     <span class="box">Wenn keine Datei gelesen werden konnte, enthält die Variable den Wert <code>none</code>.</span>
 </span>
 </p>
-
-<p>&nbsp;</p><!-- separator -->
 
 <p>Sie können die <code>&lt;!--quickblog:xxx --&gt;</code>-Anweisungen praktisch auch
 eigenständig in Artikel einfügen und in einen normalen Artikeltext einbetten.
