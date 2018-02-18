@@ -2469,9 +2469,8 @@ Ausführungsgeschwindigkeit zu beschleunigen:</p>
         <span class="li-item">In gute Server-Hardware investieren, vor allem schnelle Festplatten und
         RAM. Merksatz: Besser als RAM ist nur mehr RAM.</span>
         <span class="li-item">Den Webserver so einrichten, dass er eine sinnvolle Anzahl an
-        Connections/Threads handhaben kann und Speicher- und Ressourcenlimits korrekt setzt.
-    </span>
-    </span>
+        Connections/Threads handhaben kann und Speicher- und Ressourcenlimits korrekt setzt.</span>
+    </span><br>
 </span>
 </p>
 
