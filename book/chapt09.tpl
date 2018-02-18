@@ -10542,35 +10542,36 @@ Text-Editor Ihrer Wahl die entsprechende Template-Datei öffnen, um die Schritte
 <p>Über die Datei <code>index.tpl</code> wird das Grundgerüst der HTML-Seite mitsamt Kopf-
 und Fußbereich ausgegeben.</p>
 
+<p>Die hier beschriebene Vorgehensweise orientiert sich an der "default/index.tpl" Datei.</p>
+
 <p>Dazu prüft eine Smarty-Abfrage <code class="smarty">{if $is_embedded != true}</code> in der ersten
 Zeile, ob die Serendipity-Konfigurationsoption zur eingebetteten Nutzung
 aktiviert wurde (siehe Seite <span class="pageref"><a href="#embedding">embedding</a></span>).
 Ist dies der Fall, werden alle HTML-Kopfbereiche unterdrückt, und das Template
-schreitet erst ab Zeile 29 fort.</p>
+schreitet erst ab Zeile 33 fort.</p>
 
-<p>Bei standardmäßig deaktivierter eingebetteter Nutzung wird im Folgenden die
+<p>Bei standardmäßig deaktivierter eingebetteter Nutzung wurde früher - vor HTML5 - im Folgenden die
 Variable <code class="item smarty">{$is_xhtml}</code> geprüft und abhängig davon der entsprechende
-HTML <code>&lt;!DOCTYPE&gt;</code>-Tag ausgegeben (Zeile 2 bis 8).</p>
+HTML <code>&lt;!DOCTYPE&gt;</code>-Tag ausgegeben.</p>
 
-<p>Im nächsten Block begint der <code>&lt;html&gt;</code>- und <code>&lt;head&gt;</code>-Bereich der Seite,
+<p>Nach dem doctype header begint der <code>&lt;html&gt;</code>- und <code>&lt;head&gt;</code>-Bereich der Seite,
 der einige Metadaten wie Seitentitel, Sprache und Links zu den Stylesheets
 enthält.</p>
 
-<p>In Zeile 18 wird geprüft, ob ein spezieller Trackback-Link eingebettet wird. Die
+<p>In Zeile 25 wird zB geprüft, ob ein spezieller Trackback-Link eingebettet wird. Die
 Variable <code>entry_id</code> ist nur dann gesetzt, wenn im Blog ein einzelner
 Artikel angezeigt wird. Andernfalls ist diese Variable leer, und der
 entsprechende <code>&lt;link&gt;</code>-HTML-Tag wird nicht ausgegeben.</p>
 
-<p>Kurz vor dem Ende des <code>&lt;head&gt;</code>-Bereichs wird in Zeile 22 ein Aufruf der
-Plugin-Schnittstelle mittels <code>serendipity_hookPlugin
-hook="frontend_header"</code> durchgeführt. An dieser Stelle werden später
-etwaige Zusatzausgaben von Plugins eingebunden. Dieser Plugin-Aufruf findet sich
-auch in Zeile 27 wieder, damit Plugins auch dann ausgeführt werden, wenn der
-Modus zur eingebetteten Nutzung aktiviert wurde.</p>
+<p>Kurz vor dem Ende des <code>&lt;head&gt;</code>-Bereichs wird in Zeile 28 ein Aufruf der
+Plugin-Schnittstelle mittels <code>serendipity_hookPlugin hook="frontend_header"</code>
+durchgeführt. An dieser Stelle werden später etwaige Zusatzausgaben von Plugins
+eingebunden. Dieser Plugin-Aufruf findet sich auch in Zeile 33 wieder, damit Plugins auch
+dann ausgeführt werden, wenn der Modus zur eingebetteten Nutzung aktiviert wurde.</p>
 
-<p>Eine weitere Abfrage, die den generellen Seitenaufbau betrifft, ist in Zeile 30
-zu finden: <code class="smarty">{if $is_raw_mode != true}</code> prüft, ob das Template im Folgenden
-seinen eigenen Kopf-Bereich mit Plugin-Seitenleisten ausgeben soll oder
+<p>Eine weitere Abfrage, die den generellen Seitenaufbau betrifft, ist in Zeilen 36-51
+zu finden: <code class="smarty">{if $is_raw_mode != true}</code> prüft, ob das Template
+im Folgenden seinen eigenen Kopf-Bereich mit Plugin-Seitenleisten ausgeben soll oder
 nicht. Diese spezielle Variable wird intern belegt und ist dafür gedacht, um
 mittels Plugin-Schnittstelle fremde Seiten in das Serendipity-Layout
 einzubinden. Es wird auch verwendet, wenn ein Template aus einer
@@ -10581,16 +10582,16 @@ Smarty-Templates, und die Ausgabe erfolgte mittels einer eigenständigen
 </span>
 <code>layout.php</code>-Datei. Daher wird im üblichen Fall die Variable
 <code class="item smarty">{$is_raw_mode}</code> meist nicht aktiviert werden, so dass Ihr
-<code>index.tpl</code>-Template in fast allen Fällen den Bereich zwischen Zeile 30 und
-47 auswerten wird. Im aktivierten <em>Roh/Raw-Modus</em> wird der einzubindende
-Inhalt über die Variable <code class="item smarty">{$raw_data}</code> (Zeile 49) ausgeliefert.</p>
+<code>index.tpl</code>-Template in fast allen Fällen den Bereich zwischen Zeile 33 und
+49 auswerten wird. Im aktivierten <em>Roh/Raw-Modus</em> wird der einzubindende
+Inhalt über die Variable <code class="item smarty">{$raw_data}</code> (Zeile 53) ausgeliefert.</p>
 
-<p>In Zeile 31 bis 34 wird der Kopfbereich der Seite mitsamt Blog-Titel und
--Beschreibung eingebunden, darauf folgt eine Layout-Tabelle in Zeile 36, die den
-Bereich in linke Seitenleiste, rechte Seitenleiste und mittleren Inhaltsbereich
-aufteilt.</p>
+<p>In Zeile 37 bis 40 wird der Kopfbereich der Seite mitsamt Blog-Titel und
+-Beschreibung eingebunden, darauf folgen die Hauptcontainer in Zeilen 42-50, die die
+eigentliche Seite in linke Seitenleiste, rechte Seitenleiste und mittleren Inhaltsbereich
+aufteilen.</p>
 
-<p>In der linken und rechten Seitenleiste wird in Zeile 38 und 42 vorerst über die
+<p>In der linken und rechten Seitenleiste wird in Zeile 44 und 47 vorerst über die
 Variablen <code class="item smarty">{$leftSidebarElements}</code> und <code class="item smarty">{$rightSidebarElements}</code>
 geprüft, ob die jeweilige Seitenleiste überhaupt Elemente einbindet. Die
 Seitenleisten-Zuordnung wird über das Blog-Backend vorgenommen, daher müssen
@@ -10599,10 +10600,10 @@ ausgegeben werden. Dies erfolgt letztlich über den Aufruf
 <code class="smarty">{serendipity_printSidebar side="..."}</code>.</p>
 
 <p>Der eigentliche Inhalt des Blogs wird über die Variable <code class="smarty">{$CONTENT}</code>
-in Zeile 41 eingebunden. Dieser wird über die folgende Template-Datei
+in Zeile 43 eingebunden. Dieser wird über die folgende Template-Datei
 <code>content.tpl</code> bestimmt.</p>
 
-<p>Am Ende von <code>index.tpl</code> in Zeile 50 wird der Fußbereich durch
+<p>Am Ende von <code>index.tpl</code> in Zeile 54 wird der Fußbereich durch
 Plugin-Ausgaben mit <code>serendipity_hookPlugin hook="frontend_footer"</code>
 ausgegeben, gefolgt von den schließenden <code>&lt;/body&gt;</code>- und
 <code>&lt;/html&gt;</code>-Tags (nur bei deaktivierter eingebetteter Nutzung).</p>
