@@ -575,6 +575,11 @@ Provider wie <em>Manitu</em> [*]
 <span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://www.all-inkl.com/" target="_blank">http://www.all-inkl.com/</a></span><!-- footnote --> sind bekannt
 dafür, hier individuelle Lösungsmöglichkeiten anzubieten.</p>
 
+<p>Abhilfe schafft hier auch die Spamschutz Biene (siehe Seite
+<span class="pageref"><a href="#serendipity_event_spamblock_bee">Spamschutz Biene</a></span>),
+die den über 90 Prozent tumben Spambots schon an vorderster Front
+den Garaus macht und am wenigsten der teuren Ressourcen bindet.</p>
+
 <p><span class="label invisible" id="commentphp">commentphp</span>
 <span class="tag-box invisible">
     <span class="inline-tag">Trackbacks!verbieten</span>
@@ -2431,6 +2436,10 @@ Ausführungsgeschwindigkeit zu beschleunigen:</p>
     <span class="box">
         Auch derartige Methoden helfen vermutlich nicht für die Ewigkeit, da sich auch
         Browser-Namen problemlos manipulieren lassen.
+    </span>
+
+    <span class="box">
+        Siehe auch Seite <span class="pageref"><a href="#serendipity_event_spamblock_bee">Spamschutz Biene</a></span>.
     </span>
 </span>
 </p>
