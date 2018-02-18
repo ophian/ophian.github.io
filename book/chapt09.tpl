@@ -457,6 +457,65 @@ für solche Klassen nicht immer konsequent durchgehalten, zB mit den neuen
 gesagt werden, die zB. in sidebarhider teils direkte Bezugnahmen in Plugins haben. )
 </p>
 
+<p>Vergleichsbeispiel - Auszug aus der "default/index.tpl" Datei:</p>
+
+<pre><code class="smarty">{if $is_raw_mode != true}<br>
+&lt;div id="serendipity_banner"&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;h1&gt;&lt;a class="homelink1" href="{$serendipityBaseURL}"&gt;{$head_title|default:$blogTitle}&lt;/a&gt;&lt;/h1&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;h2&gt;&lt;a class="homelink2" href="{$serendipityBaseURL}"&gt;{$head_subtitle|default:$blogDescription}&lt;/a&gt;&lt;/h2&gt;<br>
+&lt;/div&gt;<br>
+<br>
+&lt;div id="mainpane"&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;div id="content" valign="top"&gt;{$CONTENT}&lt;/div&gt;<br>
+{if $leftSidebarElements &gt; 0}<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;div id="serendipityLeftSideBar" valign="top"&gt;{serendipity_printSidebar side="left"}&lt;/div&gt;<br>
+{/if}<br>
+{if $rightSidebarElements &gt; 0}<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;div id="serendipityRightSideBar" valign="top"&gt;{serendipity_printSidebar side="right"}&lt;/div&gt;<br>
+{/if}<br>
+&lt;/div&gt;<br>
+{/if}</code></pre>
+
+<p>In der Entwicklung von Serendipity wurde diese Schema Vorgabe aus Gründen der
+Vereinfachung und Modernisierung zum Teil verändert. Damit kann sich aber ein Plugin
+(wie schon erwähnt zb. "sidebarhider") auf dieses Schema nicht mehr verlassen, was die
+durchgängig strukturellen Möglichkeiten etwas beschränkt. Siehe zum Vergleich das
+Serendipity Standard Template "2k11" (vereinfacht) in seiner "index.tpl" Datei:</p>
+
+<pre><code class="smarty">&lt;div id="page" class="clearfix"&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;header id="banner" class="clearfix{if ...} col3{elseif ...} col2l{else} col2r{/if}{if ...} no-nav{/if}"&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div id="identity"&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;a href="{$serendipityBaseURL}"&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;h1&gt;{$blogTitle}&lt;/h1&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{if $blogDescription}&lt;p&gt;{$blogDescription}&lt;/p&gt;{/if}<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/a&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;   [ ... ]<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;/header&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;[ ... ]<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="clearfix{if ...} col3{elseif ...} col2l{else} col2r{/if}"&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;main id="content"{if $template_option.imgstyle != 'none'} class="{$template_option.imgstyle}"{/if}&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{$CONTENT}<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/main&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;{if $leftSidebarElements &gt; 0}<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;aside id="sidebar_left"&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;h2 class="visuallyhidden"&gt;{$CONST.TWOK11_SIDEBAR}&lt;/h2&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{serendipity_printSidebar side="left"}<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/aside&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;{/if}<br>
+&nbsp;&nbsp;&nbsp;&nbsp;{if $rightSidebarElements &gt; 0}<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;aside id="sidebar_right"&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;h2 class="visuallyhidden"&gt;{$CONST.TWOK11_SIDEBAR}&lt;/h2&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{serendipity_printSidebar side="right"}<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/aside&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;{/if}<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;footer id="colophon"&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;2k11&lt;/p&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;/footer&gt;<br>
+&lt;/div&gt;</code></pre>
+
 <p>
 <span class="tag-box invisible">
     <span class="inline-tag">Firebug</span>
@@ -480,6 +539,8 @@ Verwendung finden:</p>
 <span class="tag-box invisible">
     <span class="inline-tag">CSS-Variablen!.mainpane@\#mainpane</span>
     <span class="inline-tag">CSS-Variablen!.content@\#content</span>
+    <span class="inline-tag">CSS-Variablen!#page</span>
+    <span class="inline-tag">CSS-Variablen!#colophon</span>
 </span>
 <code class="item css">#mainpane</code>, <code class="item css">#content</code>
 <span class="desc-info">Enthält in den meisten Templates das Grundgerüst der Seite.</span>
@@ -488,9 +549,11 @@ Verwendung finden:</p>
 <p class="desc citem-desc">
 <span class="tag-box invisible">
     <span class="inline-tag">CSS-Variablen!.serendipity_banner@\#serendipity_banner</span>
+    <span class="inline-tag">CSS-Variablen!#banner</span>
+    <span class="inline-tag">CSS-Variablen!#identity</span>
 </span>
 <code class="item css">#serendipity_banner</code>
-<span class="desc-info">Enthält den Seitenkopfbereich, meist mit einem Hintergrundbild.</span>
+<span class="desc-info">Enthält den Seitenkopfbereich, meist mit einem Hintergrundbild. (Siehe Vergleich)</span>
 </p>
 
 <p class="desc citem-desc">
@@ -500,16 +563,30 @@ Verwendung finden:</p>
 </span>
 <code class="item css">.homelink1</code>, <code class="item css">.homelink2</code>
 <span class="desc-info">Enthält innerhalb des Seitenkopfbereichs die Links zu der aktuellen Blog-Seite
-bzw. Blog-Übersicht.</span>
+bzw. Blog-Übersicht. (Siehe Vergleich)</span>
 </p>
 
 <p class="desc citem-desc">
 <span class="tag-box invisible">
     <span class="inline-tag">CSS-Variablen!.serendipity_LeftSideBar@\#serendipityLeftSideBar</span>
     <span class="inline-tag">CSS-Variablen!.serendipity_RightSideBar@\#serendipityRightSideBar</span>
+    <span class="inline-tag">CSS-Variablen!#sidebar_left</span>
+    <span class="inline-tag">CSS-Variablen!#sidebar_right</span>
 </span>
 <code class="item css">#serendipityLeftSideBar</code>, <code class="item css">#serendipityRightSideBar</code>
-<span class="desc-info">Bezeichnet den Container, der jeweils die Elemente der Seitenleiste(n) enthält.</span>
+<span class="desc-info">
+    <span class="box">
+        Bezeichnet den Container, der jeweils die Elemente der Seitenleiste(n) enthält. (Siehe Vergleich)
+    </span>
+
+    <span class="box">
+        In der Entwicklung von Serendipity wurde diese Vorgabe aus Gründen der Vereinfachung
+        leider nicht eingehalten, so dass ein Plugin diese Vorgabe nicht mehr ohne Weiteres
+        als verlässlich nutzen und setzen kann. (Siehe das Standard Template "2k11" (mit
+        <code class="item css">#sidebar_left</code> und
+        <code class="item css">#sidebar_right</code>) sowie potentielle Nachfolgetemplates.)
+    </span>
+</span>
 </p>
 
 <p class="desc citem-desc">
@@ -701,13 +778,32 @@ Fehlern) werden mit dieser Klasse ausgezeichnet.</span>
     <span class="inline-tag">CSS-Variablen!.serendipity_msg_important</span>
     <span class="inline-tag">CSS-Variablen!.serendipity_msg_notice</span>
     <span class="inline-tag">CSS-Variablen!.serendipity_content_message</span>
+    <span class="inline-tag">CSS-Variablen!.msg_error</span>
+    <span class="inline-tag">CSS-Variablen!.msg_success</span>
+    <span class="inline-tag">CSS-Variablen!.msg_notice</span>
+    <span class="inline-tag">CSS-Variablen!.msg_hint</span>
 </span>
 <code class="item css">.serendipity_msg_important</code>, 
 <code class="item css">.serendipity_msg_notice</code>, 
 <code class="item css">.serendipity_content_message</code>
-<span class="desc-info">Die jeweiligen Bildschirmmeldungen werden entsprechend ihrer Gewichtung
-(<code>notice</code> = Hinweis, <code>important</code> = Wichtige Information) mit den
-entsprechenden Klassen ausgezeichnet.</span>
+<span class="desc-info">
+    <span class="box">
+        Die jeweiligen Bildschirmmeldungen werden entsprechend ihrer Gewichtung
+        (<code>notice</code> = Hinweis, <code>important</code> = Wichtige Information)
+        mit den entsprechenden Klassen ausgezeichnet.
+    </span>
+
+    <span class="box">
+        In der Entwicklung von Serendipity wurde diese Vorgabe aus Gründen der Vereinfachung
+        leider nicht immer eingehalten, so dass ein Plugin diese Vorgabe nicht mehr ohne Weiteres
+        als verlässlich nutzen und setzen kann. Siehe im Frontend zB. mit "Next" (mit
+        <code class="item css">.msg-warning</code>, <code class="item css">.msg-success</code>,
+        <code class="item css">.msg-notice</code>, <code class="item css">.msg-question</code>
+        und im Backend sogar mit dem Serendipity Admin Standard Template "2k11" mit
+        <code class="item css">.msg_error</code>, <code class="item css">.msg_success</code>,
+        <code class="item css">.msg_notice</code>, <code class="item css">.msg_hint</code>.
+    </span>
+</span>
 </p>
 
 <p class="desc citem-desc">
@@ -771,7 +867,7 @@ CSS-Regeln eines Plugins immer noch überschreiben, indem Sie eine Regel wie:</p
 </code></pre>
 
 <p>in Ihr Stylesheet übernehmen. Die Anweisung <code>!important</code> sorgt dafür, dass
-diese Zeile immer Vorrang vor anderen Anweisungen haben wird. [...??? Bitte ergänzen ???...]</p>
+diese Zeile immer Vorrang vor anderen Anweisungen haben wird. Dies sollte aber nur im absoluten Notfall benutzt werden.</p>
 
 </section><!-- section.sub end -->
 
@@ -856,7 +952,7 @@ vertraut Serendipity auf eine Software-Bibliothek namens Smarty [*]
 <span class="footnote"><i class="fa fa-info-circle"></i>
 <a href="http://www.smarty.net/" target="_blank">http://www.smarty.net/</a></span><!-- footnote -->.</p>
 
-<p>Smarty ist das Bindeglied zwischen Serendipity und Ihnen als Template-Bauer.
+<p>Smarty ist das Bindeglied zwischen Serendipity und Ihnen als Template-Developer.
 Eine Smarty-Datei ist eine einfache Ansammlung von HTML-Elementen, Variablen und
 Darstellungslogik. Dabei greift Smarty auf übliche Programmiermuster zurück,
 eine Variablenabfrage erfolgt beispielsweise mit:</p>
@@ -1437,7 +1533,7 @@ Datei enthält einige wenige zentrale CSS-Regeln über die jedes Theme verfügen
 Inbesondere die Regeln für das Markup welches aus der Mediendatenbank eingefügt wird,
 werden hier ausgezeichnet. Diese Datei wird <span class="mbold">vor</span> der Theme
 eigenen <code>style.css</code> Datei einfügt, so dass die Regeln vom Theme, oder
-später von der <code>user.css</code> Datei überschrieben werden können. Es ist nicht
+später von der <code>user.css</code> Datei überschrieben werden können. Es ist <span class="mbold">nicht</span>
 ratsam sich eine eigene <code>style_fallback.css</code> Datei zu erstellen.</span>
 </p>
 
