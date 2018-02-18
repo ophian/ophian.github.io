@@ -3522,7 +3522,7 @@ oder eine Nachricht in der Projekt-Issue-Datenbank hinterlassen.</p>
 <ul class="realList star">
   <li>Plugins für <span class="item mbold">Serendipity Styx</span> und den eigentlichen
       <span class="item mbold">Styx Kern</span> finden Sie auf meiner <a href="https://github.com/ophian/">GitHub Seite</a>.
-      Die Plugins und Themes des S9y Serendipity-S9y-Kerns finden Sie <a href="https://github.com/s9y/">hier</a>.</li>
+      Die Plugins und Themes des originalen S9y Serendipity-Kerns finden Sie <a href="https://github.com/s9y/">hier</a>.</li>
   <li>Die Original-S9y-Dokumentation <a href="http://docs.s9y.org">docs.s9y.org</a> wird über GitHub
       <a href="https://github.com/s9y/s9y.github.io">s9y.github.io</a> erstellt und verwaltet.
       Besser, aktueller und exakter liest sie sich aber hier im Styx <a href="/hc/en">Help Center</a>.</li>
