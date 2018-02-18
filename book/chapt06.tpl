@@ -10638,7 +10638,7 @@ Serendipity-Wrapper ausgeben (siehe Seite <span class="pageref"><a href="#mdb-by
     <span class="inline-tag">Template-Dateien!plugin_usergallery_imagedisplay.tpl</span>
 </span>
 Falls die Darstellung des Plugins mittels Template-Datei erfolgt
-(<span class="mbold">Choose the gallery style <span class="icon arrow-right">→</span> Media Library</span>), können Sie in den Dateien
+(<span class="mbold">Art der Galeriedarstellung <span class="icon arrow-right">→</span> Medienbibliothek</span>), können Sie in den Dateien
 <code>plugin_usergallery.tpl</code> (Übersicht)
 und <code>plugin_usergallery_imagedisplay.tpl</code> (Einzelseite) auf
 folgende Smarty-Variablen zugreifen:</p>
@@ -10906,9 +10906,7 @@ Die Inhalte des Arrays richten sich nach den Array-Schlüsseln
 (siehe Seite <span class="pageref"><a href="#mediafile">mediafile</a></span>).</span>
 </p>
 
-<p>&nbsp;</p><!-- separator -->
-
-<p>Bei der Darstellung mittels <span class="mbold">Choose the gallery style <span class="icon arrow-right">→</span> Media</span> greift das
+<p>Bei der Darstellung mittels <span class="mbold">Art der Galeriedarstellung <span class="icon arrow-right">→</span> Seite mit Vorschaubildern</span> greift das
 Plugin auf die Standard-Template-Dateien wie <code>media_choose.tpl</code> zurück
 (siehe Seite <span class="pageref"><a href="#media-choose.tpl">media-choose.tpl</a></span>).</p>
 
