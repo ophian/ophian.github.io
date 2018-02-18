@@ -10653,10 +10653,12 @@ verwendet, sowohl Einzelbeiträge als auch Eintragsübersichten werden (mittels 
 durchlaufen und ausgegeben, daher macht es für das Template keinen Unterschied,
 ob in dem Array ein Eintrag oder 200 Einträge enthalten sind.</p>
 
-<p>In Zeile 2 wird als mit <code>serendipity_hookPlugin hook="entries_header" addData="$entry_id"</code>
+<p>Die hier beschriebene Vorgehensweise orientiert sich an der "default/entries.tpl" Datei.</p>
+
+<p>Am Anfang wird mit <code>serendipity_hookPlugin hook="entries_header" addData="$entry_id"</code>
 dafür gesorgt, dass etwaige Ereignis-Plugins ihre Ausgaben vor der Artikeldarstellung ausliefern können.</p>
 
-<p>Von Zeile 4 bis Zeile 181 wird die erste Schleife über das mehrdimensionale
+<p>Dann wird die erste Schleife <code>{foreach $entries AS $dategroup}</code> über das mehrdimensionale
 <code class="smarty">{$entries}</code>-Array ausgegeben. Die erste Dimension enthält die Einträge
 gruppiert nach deren Veröffentlichungsdatum. So können Einträge, die zum selben
 Tag gehören, auch gemeinsam ausgegeben werden, und pro Datumsgruppe wird nur eine
@@ -10673,81 +10675,87 @@ Artikelgruppe dargestellt. Dieser Wert liegt in Unix-Sekunden vor und muss
 daher über den Smarty-Modifier <code>formatTime</code> erst in ein menschenlesbares
 Format überführt werden.</p>
 
-<p>Ab Zeile 12 beginnt nun die innere Schleife, die die einzelnen Artikel des
-<code class="smarty">{$entries}</code>-Array ausliest. Die Artikel enstammen dabei der Variable
-<code class="item smarty">{$dategroup.entries}</code>. Pro Durchlauf der <code>foreach</code>-Schleife wird der
-aktuell durchlaufene Artikel der Variable <code class="item smarty">{$entry}</code> zugewiesen, so dass
-auf dessen Daten mit einfacher, kurzer Notation zugegriffen werden kann.</p>
+<p>Ab Zeile 12 beginnt nun die innere Schleife, <code>{foreach $dategroup.entries AS $entry}</code>,
+die die einzelnen Artikel des <code class="smarty">{$entries}</code>-Array ausliest. Die Artikel
+enstammen dabei der Variable <code class="item smarty">{$dategroup.entries}</code>. Pro Durchlauf
+der <code>foreach</code>-Schleife wird der aktuell durchlaufene Artikel der Variable
+<code class="item smarty">{$entry}</code> zugewiesen, so dass auf dessen Daten mit einfacher,
+kurzer Notation zugegriffen werden kann.</p>
 
 <p>Wird die Detailansicht eines Artikels aufgerufen, enthält das Array nur
 einen Datensatz, und zusätzlich ist die Variable <code class="item smarty">{$is_single_entry}</code>
 gesetzt. Diese Variable wird an mehreren Stellen abgefragt, um die Ansicht
 der Detailseite und der Artikelübersicht unterschiedlich zu gestalten.</p>
 
-<p>In Zeile 13 wird der Artikeltitel ausgegeben, gefolgt vom Autorennamen in Zeile
-15. Falls der Artikel einer oder mehreren Kategorien zugeordnet ist, werden die
-Kategoriebilder in Zeile 18 bis 22 in einer Schleife ausgegeben.</p>
+<p>Zeile 13 setzt das Smarty scoping. Dieser Geltungsbereich [ <em>scope</em> ]
+<code>{assign var="entry" value=$entry scope="root"}</code> wäre seit Smarty 3
+eigentlich "parent",  muss aber für comment "_self" Ausgaben sogar noch auf "root"
+heraufgesetzt werden.</p>
 
-<p>Der Artikeltext wird in Zeile 34 bis 36 ausgegeben. Falls der Artikel einen
+<p>In Zeile 15 wird der Artikeltitel ausgegeben, gefolgt vom Autorennamen in Zeile
+17. Falls der Artikel einer oder mehreren Kategorien zugeordnet ist, werden die
+Kategoriebilder in Zeile 18 bis 26 in einer Schleife ausgegeben.</p>
+
+<p>Der Artikeltext wird in Zeile 28 bis 36 ausgegeben. Falls der Artikel einen
 erweiterten Eintragstext (<code class="item smarty">{$entry.is_extended}</code>) besitzt, wird ein
 HTML-Link zur Detailseite dieses Artikels ausgegeben.</p>
 
 <p>Damit der erweiterte Eintrag angezeigt wird, wenn die Detailansicht
-aufgerufen wurde, wird die Variable <code class="item smarty">{$entry.extended}</code> in Zeile 26 bis
-28 dargestellt.</p>
+aufgerufen wurde, wird die Variable <code class="item smarty">{$entry.extended}</code> in Zeile 36 bis
+38 dargestellt.</p>
 
-<p>Die Zeilen 38 bis 71 geben weitere Metadaten eines Artikels in einem Fußbereich
+<p>Die Zeilen 40 bis 73 geben weitere Metadaten eines Artikels in einem Fußbereich
 aus: Zugeordnete Kategorien, Anzahl der Einträge, Anzahl der Kommentare und Anzahl der
 Trackbacks. Dazu werden jeweils einfache IF-Abfragen auf die entsprechenden
 Variablen eingebunden. Fallweise kann die Darstellung der Kommentare als Popup
 erfolgen, daher wird die zentrale Konfigurationsvariable <code>use_pops</code> in
 einige IF-Abfragen miteinbezogen. Falls der aktuelle Besucher ein eingeloggter
-Redakteur ist, wird ihm zusätzlich in Zeile 67 ein Link zum Bearbeiten des
+Redakteur ist, wird ihm zusätzlich in Zeilen 68-70 ein Link zum Bearbeiten des
 Artikels angeboten. Die Zusatzvariable <code class="item smarty">{$entry.add_footer}</code> enthält
 zusätzliche HTML-Ausgaben, die von Ereignis-Plugins stammen.</p>
 
 <p>RDF-Metadaten zur Verwendung für Trackbacks und Suchmaschinen werden in den Zeilen
-73 bis 83 dargestellt. Nach diesem Abschnitt dient die Zusatzvariable
+75 bis 85 dargestellt. Nach diesem Abschnitt dient die Zusatzvariable
 <code class="item smarty">{$entry.plugin_display_dat}</code> erneut dazu, weitere Ausgaben von
 Ereignis-Plugins einzugliedern.</p>
 
-<p>Ab Zeile 86 bis 117 wird bei der Detailansicht eines Artikels die Liste von
-Trackbacks angezeigt. Innerhalb dieses Blocks werden von Zeile 87 bis 105
+<p>Ab Zeile 88 bis 119 wird bei der Detailansicht eines Artikels die Liste von
+Trackbacks angezeigt. Innerhalb dieses Blocks werden von Zeile 89 bis 107
 etwaige Nachrichten eingebunden, falls ein Besucher gerade ein Trackback an die
-Artikelseite gesendet hat. Die Liste der Trackbacks erfolgt in Zeile 115 mittels
+Artikelseite gesendet hat. Die Liste der Trackbacks erfolgt in Zeile 117 mittels
 Smarty-Funktion <code class="smarty">{serendipity_printTrackbacks entry=$entry.id}</code>.</p>
 
-<p>Zeile 119 bis 172 regelt ähnlich wie im vorausgehenden Block die Darstellung der
-Kommentare. Hier wird in Zeile 124 bis 130 ein kleiner Auswahlbereich für den
+<p>Zeile 121 bis 174 regelt ähnlich wie im vorausgehenden Block die Darstellung der
+Kommentare. Hier wird in Zeile 126 bis 132 ein kleiner Auswahlbereich für den
 Benutzer angezeigt, damit die Kommentare entweder verschachtelt oder
 chronologisch sortiert dargestellt werden können. Abhängig von dieser Auswahl
 erfolgt eine Einbindung der Kommentarliste mittels Smarty-Funktion
 <code class="smarty">{serendipity_printComments}</code>.</p>
 
-<p>Zeile 134 bis 140 ermöglichen einem eingeloggten Redakteur, den Eintrag für
+<p>Zeile 136 bis 142 ermöglichen einem eingeloggten Redakteur, den Eintrag für
 weitere Kommentare zu sperren oder wieder zu öffnen.</p>
 
-<p>Ab Zeile 143 bis 162 werden Hinweise und Nachrichten für einen Besucher
+<p>Ab Zeile 145 bis 164 werden Hinweise und Nachrichten für einen Besucher
 angezeigt, der gerade einen Kommentar übermittelt hat. Entweder informieren diese
 Hinweise über den Erfolg ober die Abweisung des Kommentars, jeweils abhängig
 davon, ob Kommentare des Artikels moderiert werden, gesperrt sind oder
 Anti-Spam-Maßnahmen zutrafen.</p>
 
 <p>Das Kommentarformular selbst wird über die Variable <code class="item smarty">{$COMMENTFORM}</code> in
-Zeile 165 bis 169 eingebunden.</p>
+Zeile 167 bis 170 eingebunden.</p>
 
 <p>Sollte das Array <code class="smarty">{$entries}</code> einmal keine Artikel enthalten, wird eine
-Information zur leeren Artikelliste in Zeile 177 bis 181 ausgegeben. Dieser
+Information zur leeren Artikelliste in Zeile 179 bis 183 ausgegeben. Dieser
 <code>else</code>-Fall der <code>foreach</code>-Schleife tritt beispielweise dann ein, wenn
 eine Volltextsuche keine Ergebnisse ausliefert oder wenn man die Übersichtsseite
 eines Monats aufruft, in dem kein Artikel verfasst wurde.
 
 Im Anschluss an die beiden Schleifen zur Darstellung von Artikeln erfolgt in den
-Zeilen 183 bis 197 die Einbindung eines Fußbereichs zum Vor- und Zurückblättern
-etwaiger Archivseiten. Auch hier können sich in Zeile 196 etwaige
+Zeilen 185 bis 199 die Einbindung eines Fußbereichs zum Vor- und Zurückblättern
+etwaiger Archivseiten. Auch hier können sich in Zeile 198 etwaige
 Ereignis-Plugins einbinden.</p>
 
-<p>Die hier genannten Zeilennummern entsprechen nicht mehr unbedingt den Beispielen neuerer Templates.</p>
+<p>Die hier genannten Zeilennummern entsprechen nicht mehr unbedingt den Beispielen neuerer Templates, wie zB. beim "2k11" Standard Theme.</p>
 
 </section><!-- section.sub end -->
 
