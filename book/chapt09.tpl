@@ -3396,6 +3396,10 @@ Variable eher wie folgt zugreifen würde:</p>
 <pre><code class="smarty">
     {foreach from=$entries item=$entry key=$index}<br>
     &nbsp; Datum: {$entry.timestamp}<br>
+    {/foreach}<br><br>
+    bzw. in der PHP-like Syntax:<br><br>
+    {foreach $entries AS $index =&gt; $entry}<br>
+    &nbsp; Datum: {$entry.timestamp}<br>
     {/foreach}
 </code></pre>
 
