@@ -136,12 +136,12 @@
                           <li><span class="var">serendipity_get_user_var</span>: Retrieves an author-specific account value</li>
                           <li><span class="var">serendipity_set_user_var</span>: Updates data from the author-specific account</li>
                           <li><span class="var">serendipity_getTemplateFile</span>: Gets the full filename and path of a template file</li>
-                          <li><span class="var">serendipity_load_configuration</span>: Loads all configuration values and imports them to the $serendipity array</li>
+                          <li><span class="var">serendipity_load_configuration</span>: Loads all configuration values and imports them to the <code>$serendipity</code> array</li>
                           <li><span class="var">serendipity_logout</span>: Perform logout functions (destroys session data)</li>
                           <li><span class="var">serendipity_login</span>: Perform login to Serendipity</li>
                           <li><span class="var">serendipity_authenticate_author</span>: Perform user authentication routine</li>
                           <li><span class="var">serendipity_userLoggedIn</span>: Check if a user is logged in</li>
-                          <li><span class="var">serendipity_setCookie</span>: Set a Cookie via HTTP calls, and update $_COOKIE plus <code>$serendipity['COOKIE']</code> array.</li>
+                          <li><span class="var">serendipity_setCookie</span>: Set a Cookie via HTTP calls, and update <code>$_COOKIE</code> plus <code>$serendipity['COOKIE']</code> array.</li>
                           <li><span class="var">serendipity_getPermissions</span>: Retrieves an array of applying permissions to an author</li>
                           <li><span class="var">serendipity_getPermissionNames</span>: Returns the list of available internal Serendipity permission field names</li>
                           <li><span class="var">serendipity_checkPermission</span>: Checks if a permission is granted to a specific author</li>
@@ -176,7 +176,7 @@
                       <li><strong><em>include/functions_entries_admin.inc.php</em></strong> : Central functions for operating on entries in the Backend
                         <ul>
                           <li><span class="var">serendipity_printEntryForm</span>: Prints the form for editing/creating new Blog entries</li>
-                          <li><span class="var">>serendipity_emit_htmlarea_code</span: Emits the WYSIWYG code for plugins and entries in the Backend</li>
+                          <li><span class="var">serendipity_emit_htmlarea_code</span: Emits the WYSIWYG code for plugins and entries in the Backend</li>
                         </ul>
                       </li>
                       <li><strong><em>include/functions_images.inc.php</em></strong> : Central functions for media/image handling
@@ -254,40 +254,40 @@
                           <li><span class="var">serendipity_plugin_api_core_event_hook</span>: Central function with which the Serendipity core can act as a plugin on it’s own and “listen” on specific events.</li>
                           <li><span class="var"><em>serendipity_plugin_api</em></span>: Central class for operating the plugin API
                             <ul>
-                              <li>serendipity_plugin_api::create_plugin_instance: Create an instance of a plugin.</li>
-                              <li>serendipity_plugin_api::enum_plugins: Searches for installed plugins based on specific conditions</li>
-                              <li>serendipity_plugin_api::probePlugin: Auto-detect a plugin and see if the file information is given, and if not, detect it.</li>
-                              <li>serendipity_plugin_api::load_plugin: Instantiates a plugin class</li>
-                              <li>serendipity_plugin_api::getPluginInfo: Gets cached properties/information about a specific plugin, auto-loads a cache of all plugins</li>
-                              <li>serendipity_plugin_api::generate_plugins: Get a list of Sidebar plugins and pass them to Smarty</li>
-                              <li>serendipity_plugin_api::hook_event: Executes a specific event hook by checking all plugins that listen on the specified event</li>
+                              <li><span class="var">serendipity_plugin_api::create_plugin_instance</span>: Create an instance of a plugin.</li>
+                              <li><span class="var">serendipity_plugin_api::enum_plugins</span>: Searches for installed plugins based on specific conditions</li>
+                              <li><span class="var">serendipity_plugin_api::probePlugin</span>: Auto-detect a plugin and see if the file information is given, and if not, detect it.</li>
+                              <li><span class="var">serendipity_plugin_api::load_plugin</span>: Instantiates a plugin class</li>
+                              <li><span class="var">serendipity_plugin_api::getPluginInfo</span>: Gets cached properties/information about a specific plugin, auto-loads a cache of all plugins</li>
+                              <li><span class="var">serendipity_plugin_api::generate_plugins</span>: Get a list of Sidebar plugins and pass them to Smarty</li>
+                              <li><span class="var">serendipity_plugin_api::hook_event</span>: Executes a specific event hook by checking all plugins that listen on the specified event</li>
                             </ul>
                           </li>
                           <li><span class="var"><em>serendipity_property_bag</em></span>: Central class for making key/value stores available to plugins
                             <ul>
-                              <li>serendipity_property_bag::get: Getter</li>
-                              <li>serendipity_property_bag::set: Setter</li>
+                              <li><span class="var">serendipity_property_bag::get</span>: Getter</li>
+                              <li><span class="var">serendipity_property_bag::set</span>: Setter</li>
                             </ul>
                           </li>
                           <li><span class="var"><em>serendpity_plugin</em></span>: Central core class for plugins
                             <ul>
-                              <li>serendipity_plugin::performConfig: Perform configuration routines. Called by Serendipity when the plugin is being configured.</li>
-                              <li>serendipity_plugin::install: Perform install routines</li>
-                              <li>serendipity_plugin::uninstall: Perform uninstall routines</li>
-                              <li>serendipity_plugin::cleanup: Garbage Collection, called by serendipity after insertion of a config item</li>
-                              <li>serendipity_plugin::introspect: The introspection function of a plugin, to setup properties</li>
-                              <li>serendipity_plugin::introspect_config_item: Introspection of a plugin configuration item</li>
-                              <li>serendipity_plugin::validate: Validate plugin configuration options.</li>
-                              <li>serendipity_plugin::generate_content: Output plugin’s contents (Sidebar plugins)</li>
-                              <li>serendipity_plugin::get_config: Get a config value of the plugin</li>
-                              <li>serendipity_plugin::set_config: Sets a configuration value for a plugin</li>
-                              <li>serendipity_plugin::register_dependencies: Auto-Register dependencies of a plugin</li>
-                              <li>serendipity_plugin::parseTemplate: Parses a Smarty template file</li>
+                              <li><span class="var">serendipity_plugin::performConfig</span>: Perform configuration routines. Called by Serendipity when the plugin is being configured.</li>
+                              <li><span class="var">serendipity_plugin::install</span>: Perform install routines</li>
+                              <li><span class="var">serendipity_plugin::uninstall</span>: Perform uninstall routines</li>
+                              <li><span class="var">serendipity_plugin::cleanup</span>: Garbage Collection, called by serendipity after insertion of a config item</li>
+                              <li><span class="var">serendipity_plugin::introspect</span>: The introspection function of a plugin, to setup properties</li>
+                              <li><span class="var">serendipity_plugin::introspect_config_item</span>: Introspection of a plugin configuration item</li>
+                              <li><span class="var">serendipity_plugin::validate</span>: Validate plugin configuration options.</li>
+                              <li><span class="var">serendipity_plugin::generate_content</span>: Output plugin’s contents (Sidebar plugins)</li>
+                              <li><span class="var">serendipity_plugin::get_config</span>: Get a config value of the plugin</li>
+                              <li><span class="var">serendipity_plugin::set_config</span>: Sets a configuration value for a plugin</li>
+                              <li><span class="var">serendipity_plugin::register_dependencies</span>: Auto-Register dependencies of a plugin</li>
+                              <li><span class="var">serendipity_plugin::parseTemplate</span>: Parses a Smarty template file</li>
                             </ul>
                           </li>
                           <li><span class="var"><em>serendipity_event</em></span>: Class for event plugins
                             <ul>
-                              <li>serendipity_event::event_hook: Main logic for making a plugin “listen” to an event</li>
+                              <li><span class="var">serendipity_event::event_hook</span>: Main logic for making a plugin “listen” to an event</li>
                             </ul>
                           </li>
                         </ul>
