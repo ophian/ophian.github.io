@@ -2662,6 +2662,7 @@ eines Plugins dargestellt, pro Zeile stellen Sie eine Option ein.</p>
 
 <figure id="fig-bulletproof2">
     <img src="img/bulletproof2.png">
+    <div class="shape-separator"></div>
     <figcaption>Abbildung 9.1: Ausschnitt der Template-Optionen des Bulletproof-Themes</figcaption>
 </figure>
 

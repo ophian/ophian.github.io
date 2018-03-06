@@ -4067,6 +4067,7 @@ hochgeladene Plugin für Serendipity über die Plugin-Verwaltung
 
 <figure id="fig-plugin_new">
     <img src="img/plugin_new.png">
+    <div class="shape-separator"></div>
     <figcaption>Abbildung 4.22: Einstellungen: Plugins verwalten: Neues Plugin installieren (Ausschnitt)</figcaption>
 </figure>
 
