@@ -526,9 +526,9 @@ daher von Besuchern auch seltener genutzt.</p>
 <p class="desc">
 <code class="item">/comments/kommentator/</code>
 <span class="desc-info">stellt die Übersicht aller Kommentare dar, die vom Benutzer <code>kommentator</code> stammen.
-Die Kommentatoren werden dabei in der Datenbank nach exaktem
-Übereinstimmen mit dem Namen in der URL herausgesucht. Ohne Angabe
-eines solchen Wertes werden die Kommentare aller Benutzer angezeigt.</span>
+Die Kommentatoren werden dabei in der Datenbank nach exakter Übereinstimmung mit dem Namen in der URL herausgesucht.
+Ohne Angabe eines solchen Wertes werden die Kommentare aller Benutzer angezeigt. Sollten Sie nach Namen mit Leerzeichen
+suchen, müssen Sie ein + anstelle des Leerzeichens einfügen, zB. <code>/comments/John+Doe/</code>. </span>
 </p>
 
 <p class="desc">
