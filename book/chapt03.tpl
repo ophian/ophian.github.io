@@ -533,8 +533,8 @@ eines solchen Wertes werden die Kommentare aller Benutzer angezeigt.</span>
 
 <p class="desc">
 <code class="item">/comments/last_5/</code>
-<span class="desc-info">stellt die letzten fünf Kommentare zu allen Artikeln dar. Ohne Angabe eines solchen Wertes
-werden alle Kommentare angezeigt.</span>
+<span class="desc-info">stellt die letzten fünf Kommentare zu allen Artikeln des aktuellen Monats ab Uhrzeit dar.
+Ohne Angabe eines solchen Wertes werden alle Kommentare angezeigt.</span>
 </p>
 
 <p class="desc">
