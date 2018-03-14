@@ -771,13 +771,6 @@ function styx_my_custom_function($params, $template) {
 
     <p>The second and often the best way is to create your own Serendipity plugins that deal with content. You can then access them with <code>{serendipity_hookPlugin …}</code> Smarty calls.</p>
     
-    <p>more to come… </p>
-
-    <p><a href="https://git-scm.com/docs/git-archive#_examples" rel="nofollow"><code>git-archive</code></a> already supports exporting subdirectories;</p>
-    <pre><code>git archive -o archive.zip HEAD:path/to/subdir</code></pre>
-    <p>@Croydon And git-archive supports remote sources, although GitHub doesn’t support this. What GitHub does support is SVN, so it’s possible to svn export a subdirectory;</p>
-    <pre><code>svn export https://github.com/username/reponame/trunk/path/to/subdir subdir</code></pre>
-
     <li id="docs-extend-the-smarty-plugin-system">Extend the Smarty plugin system</li>
 
     <p>The third alternate is to create additional Smarty plugins as filters, modifiers, or functions. You can then access them with <code>{myCustomSmartyExtendPluginFunction(…)}</code> Smarty calls.</p>
