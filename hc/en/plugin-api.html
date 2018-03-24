@@ -360,9 +360,9 @@ echo $bag-&gt;get('version');</code></pre>
     $propbag-&gt;add('version', '1.0');
     $propbag-&gt;add('website', 'http://garv.in/');
     $propbag-&gt;add('stackable', true);
-    $propbad-&gt;add('requirements', array('php' =&gt; '5.4.0', 'smarty' =&gt; '3.1.0', 'serendipity' =&gt; '2.4.0'));
-    $propbad-&gt;add('groups', array('MARKUP', 'FRONTEND_FEATURES'));
-    $propbad-&gt;add('configuration', array('title', 'subtitle', 'mood'));
+    $propbag-&gt;add('requirements', array('php' =&gt; '5.4.0', 'smarty' =&gt; '3.1.0', 'serendipity' =&gt; '2.4.0'));
+    $propbag-&gt;add('groups', array('MARKUP', 'FRONTEND_FEATURES'));
+    $propbag-&gt;add('configuration', array('title', 'subtitle', 'mood'));
     $this-&gt;dependencies = array('serendipity_event_myfirstplugin' =&gt; 'keep');
 }</code></pre>
 
@@ -374,7 +374,7 @@ echo $bag-&gt;get('version');</code></pre>
 
 <p>To permanently store configuration inside your plugin, you first need to setup an array of available configuration keys in the <code>introspect()</code> property bag:</p>
 
-<pre><code>$propbad-&gt;add('configuration', array('title', 'subtitle', 'mood'));
+<pre><code>$propbag-&gt;add('configuration', array('title', 'subtitle', 'mood'));
 </code></pre>
 
 <p>When this is done, your plugin needs to define a <code>introspect_config_item()</code> method like this:</p>
