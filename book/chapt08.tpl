@@ -2464,8 +2464,8 @@ Ausführungsgeschwindigkeit zu beschleunigen:</p>
         <span class="li-item">Op-Code-Cache (APC, Zend, ionCube) installieren.</span>
         <span class="li-item"><code>register_globals</code> in der <code>php.ini</code> deaktivieren.</span>
         <span class="li-item"><code>magic_quotes_gpc</code> in der <code>php.ini</code> deaktivieren.</span>
-        <span class="li-item">PHP als FastCGI kompilieren und einsetzen, möglicherweise den schlanken
-        Lighttpd als Webserver einsetzen.</span>
+        <span class="li-item">PHP als FastCGI kompilieren und einsetzen, oder möglicherweise die schlanken
+        NGINX oder Lighttpd als Webserver einsetzen.</span>
         <span class="li-item">In gute Server-Hardware investieren, vor allem schnelle Festplatten und
         RAM. Merksatz: Besser als RAM ist nur mehr RAM.</span>
         <span class="li-item">Den Webserver so einrichten, dass er eine sinnvolle Anzahl an
