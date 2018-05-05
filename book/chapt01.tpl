@@ -1889,8 +1889,8 @@ wichtige persönliche Präferenzen dafür sprechen.
 einfachen Code-Schnipsel auf der eigenen Seite einzubinden. Beliebte
 Beispiele dafür sind zB. Google AdSense, das aktuelle Wetter, die
 letzten Flickr-Bilder und vieles mehr. Solche eingebundenen Schnipsel
-bezeichnet man als <em>Widgets</em> oder <em>Nuggets/Klötze</em>; sie lassen sich
-auch bei Serendipity leicht ins eigene Blog einbauen.</p>
+bezeichnet man als <em>Widgets</em> oder <em>Nuggets/Klötze</em>. Diese lassen sich
+bei Serendipity leicht in das eigene Blog einbauen.</p>
 
 <p>
 <span class="tag-box invisible">
@@ -2386,7 +2386,7 @@ Protokolle von Belang:</p>
             gerade im Einsatz als Webserver als große Erleichterung herausgestellt
             hat. Das geht auch ferngesteuert übers Netz, am besten über einen
             abgesicherten SSH-Zugang.[*]
-            <span class="footnote"><i class="fa fa-info-circle"></i> SSH steht für <em>Secure Shell</em>; mit
+            <span class="footnote"><i class="fa fa-info-circle"></i> SSH steht für <em>Secure Shell</em>. Mit
             <em>Shell</em> bezeichnet man ein Programm, das die interaktive Steuerung
             über Textbefehle ermöglicht.</span><!-- footnote -->
         </span>

@@ -10841,7 +10841,7 @@ installieren</span> ein.</p>
 Gehen Sie dazu auf den Menüpunkt <span class="mbold">Einstellungen
 <span class="icon arrow-right">→</span> Plugins verwalten</span> und
 suchen Sie in der Auflistung der Ereignis-Plugins das Plugin <em>Erweiterte
-Eigenschaften von Artikeln</em>; klicken Sie auf das Blacklist-Symbol, um zur
+Eigenschaften von Artikeln</em>. Klicken Sie auf das Blacklist-Symbol, um zur
 Konfiguration zu gelangen.</p>
 
 <p>Dort finden Sie die Option <span class="mbold">Freie Felder</span>.
