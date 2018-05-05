@@ -88,7 +88,7 @@ Kaskade ist. Ein Standard Theme kann alle relevanten Daten natürlich vorhalten,
 ganz ersetzen kann es das <em>default</em> Theme aber nicht. Dies ist eine der wichtigen
 Unterscheidungen, die die Styx Edition und aktuelle Original S9y Installationen
 voneinander unterscheiden. Denn durch die unsaubere, inwischen schleichende Ersetzung des
-Default-Themes durch das Standard-Theme fällt dem orginalen Serendipity dies bis Heute
+Default-Themes durch das Standard-Theme fällt dem originalen Serendipity dies bis Heute
 immer wieder vor die Füße, war es doch ehemals brilliant vom Kern bis hin zu den einzelnen
 Themes und Plugins durchdesignt, so dass man sich auf diese Grundwerte wie bestimmte
 serendipity_* CSS styles oder eben Fallback-Prinzipien verlassen konnte.</p>
