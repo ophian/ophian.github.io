@@ -465,7 +465,7 @@ Rechtsmittel gegen diese Nutzung einlegen.</p>
 
 <p>Die zweite Variante, die Offenlegung Ihres Artikels, hilft der Verbreitung
 Ihres Textes. Wenn Sie hauptsächlich aus ideologischen Gründen daran interessiert sind,
-Informationen zu verbreiten ("<em>Das Internet ist frei</em>"), ist dies
+Informationen zu verbreiten (<em>“Das Internet ist frei”</em>), ist dies
 sicher die beste Maßnahme, damit Ihr Text Gehör (oder <em>Geles</em>)
 findet. Andererseits könnten böswillige Nutzer Ihren Artikel auf kommerziellen
 Webseiten als Eigenleistung darstellen. Da Sie den Text

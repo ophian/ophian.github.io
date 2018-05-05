@@ -2139,7 +2139,7 @@ einem Schritt hochladen sollten. Je nach Einstellung des Webservers
 (siehe Kapitel <span class="reference">file-uploads</span> auf Seite <span class="pageref"><a href="#file-uploads">file-uploads</a></span>)
 dürfen Sie ein gewisses Limit (meist 4MB) nicht überschreiten.</p>
 
-<p>Inzwischen gibt es aber die Möglichkeit beim Durchsuchen gleich mehrere Bilder "<em>In-Once</em>" zugleich emporzuladen,
+<p>Inzwischen gibt es aber die Möglichkeit beim Durchsuchen gleich mehrere Bilder <em>“In-Once”</em> zugleich emporzuladen,
 die, durch ein kleines Javascript Programm gesteuert, automatisch abgearbeitet werden.</p>
 
 <p>Nachdem Sie also die Dateien ausgewählt haben, haben Sie zwei
@@ -7568,7 +7568,7 @@ Menüpunkt im Backend seit der Serendipity Version 2.0.</p>
 die einen Wartungscharakter haben, aber als eigenständiger Menüpunkt entweder zu
 gewichtig wären, oder etwas außerhalb der sonstigen Aufgaben stehen. Diese Seite
 ist ein wenig so etwas, wie das Pendent, die Rückseite, zur Backend-Startseite,
-dem "<em>Dashboard</em>".</p>
+dem <em>“Dashboard”</em>.</p>
 
 <p>So finden Sie hier die <span class="mbold">Daten importieren</span>
 und <span class="mbold">Einträge exportieren</span> Zugänge, das Werkzeug
@@ -8354,7 +8354,7 @@ wieder löschen.</p>
         Über das zu installierende <code>serendipity_event_modemaintain</code>
         <span class="pageref"><a href="#serendipity_event_modemaintain">modemaintain</a></span>
         event Plugin, kann Ihr öffentliches Blog - das Frontend - in einen
-        "<em>503 - Service Temporarily Unavailable</em>" Modus (einen
+        <em>“503 - Service Temporarily Unavailable”</em> Modus (einen
         temporären 503 Wartungsmodus) versetzt werden.
         Die <span class="mbold">Bedingung</span> dafür ist, dass sie sich
         mit der LogIn speichern Methode angemeldet haben und sich während

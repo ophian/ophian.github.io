@@ -76,7 +76,7 @@ sind solche Erweiterungen über die Jahre eigentlich unnötig geworden, da heutz
 <span class="label invisible" id="Developer-Tools">Developer-Tools</span>
 <span class="footnote"><i class="fa fa-info-circle"></i> Das ist natürlich spezifisch in verschiedenen Browsern auf verschiedenen Betriebssystemen.
 Zum Beispiel wäre das gleiche auf OS X in Chrome so [<code>⌥ + ⌘ + J</code>] zu erreichen.</span>) mitbringen,
-die die genannten Änderungen spielerisch einfach "<em>am lebenden Objekt</em>" einer Webseite ermöglichen. [*]
+die die genannten Änderungen spielerisch einfach <em>“am lebenden Objekt”</em> einer Webseite ermöglichen. [*]
 <span class="footnote"><i class="fa fa-info-circle"></i> <a href="https://developer.mozilla.org/en-US/docs/Tools" target="_blank">https://developer.mozilla.org/en-US/docs/Tools</a></span><!-- footnote -->
 <span class="footnote"><i class="fa fa-info-circle"></i> <a href="https://developer.chrome.com/devtools" target="_blank">https://developer.chrome.com/devtools</a></span><!-- footnote --></p>
 

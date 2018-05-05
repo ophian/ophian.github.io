@@ -733,7 +733,7 @@ dargestellten Box einträgt.</span>
 </p>
 
 <p>Dieses Plugin erlaubt das öffentliche Blog - das Frontend - in einen
-"<em>503 - Service Temporarily Unavailable</em>" Modus zu versetzen.
+<em>“503 - Service Temporarily Unavailable”</em> Modus zu versetzen.
 Siehe: <span class="pageref"><a href="#U497">Wartung: Service Wartungs Modus</a></span>.</p>
 
 <p class="desc">
@@ -3312,10 +3312,10 @@ sein soll.</p>
 
 <p>Bereits seit ein paar Jahren werkelt das Serendipity Autoupdate Plugin still und erfolgreich vor sich.
 Es stellt in Verbindung mit dem (PRE-Serendipity-2.0) Dashboard-Plugin, sowohl als auch mit der neuen eingebauten
-Backend Startseite ("Dashboard") in Serendipity 2.0+ einen Upgrade Button für ein automatisches "<em>EIN</em>-Klick"
-Serendipity Upgrade bereit, solange Sie es installiert haben und die generelle Konfigurationsoption "<em>Update-Hinweis</em>"
+Backend Startseite ("Dashboard") in Serendipity 2.0+ einen Upgrade Button für ein automatisches <em>“EIN</em>-Klick"
+Serendipity Upgrade bereit, solange Sie es installiert haben und die generelle Konfigurationsoption <em>“Update-Hinweis”</em>
 dafür eingestellt haben. Mit <strong>Serendipity Styx</strong> bekam dieses Plugin aufgrund der Loslösung von Serendipity seine eigenen
-Konfigurationsoptionen und ist damit nicht mehr ein Beispiel für ein sogenanntes "<em>stilles</em>" Plugin.
+Konfigurationsoptionen und ist damit nicht mehr ein Beispiel für ein sogenanntes <em>“stilles”</em> Plugin.
 </p>
 
 <p class="desc">
@@ -3784,7 +3784,7 @@ CKEditor-Plugin für embedded YouTube code, folgende offizielle CKEditor Plugins
 <code>notificationaggregator</code>, <code>widget</code> und <code>widgetselection</code>
 Plugins, sowie das Serendipity-CKE-<code>procurator</code> [*]
 <span class="footnote"><i class="fa fa-info-circle"></i>
-Dies ist eine Art "<em>Platzhalter</em>"-Plugin für spezielle Serendipity
+Dies ist eine Art <em>“Platzhalter”</em>-Plugin für spezielle Serendipity
 HTML Markup Erfordernisse, insbesondere bei JavaScript Snippets, oder
 bestimmten installierten Serendipity Plugins, wie <code>imageselectorplus</code>,
 oder <code>smartymarkup</code>.</span><!-- footnote -->
@@ -9218,8 +9218,8 @@ Optionen.</p>
 <span class="item mbold">An Kommentartext anhängen</span><!-- menuitem -->
 <span class="desc-info">Bei dieser Option wird die Anzahl der Kommentare in Klammern hinter dem
 jeweiligen Kommentar angezeigt. Wenn ein Benutzer also den Kommentar
-"<em>Das war sehr interessant!</em>" schreibt, dann wird dahinter
-"<em>Kommentare (42)</em>" eingefügt. Der Kommentartext wird innerhalb
+<em>“Das war sehr interessant!”</em> schreibt, dann wird dahinter
+<em>“Kommentare (42)”</em> eingefügt. Der Kommentartext wird innerhalb
 eines HTML-Containers mit der Klasse <code>.serendipity_commentcount</code>
 eingebunden, den Sie in der CSS-Datei Ihres Templates beliebig
 formatieren können. Standardmäßig ist dieser Kommentarblock rechtsbündig

@@ -3603,7 +3603,7 @@ getreten sind und sprechen mit Ihnen detailliert den weiteren Vorgang ab.</p>
 <p>Wenn Sie es vorziehen, können Sie ein GitHub Security Issue aufmachen,
 in dem sie uns Informationen hinterlassen, wie wir Sie erreichen können,
 um Näheres zu erfahren. Bitte halten Sie eventuelle Informationen über das gefundene
-"<em>Loch</em>" nur sehr allgemein, da dies ein öffentlich zugänglicher Bereich ist.</p>
+<em>“Loch”</em> nur sehr allgemein, da dies ein öffentlich zugänglicher Bereich ist.</p>
 
 <section id="U1071" class="sub">
 <span class="u-toc">10.7.1 - Freier Zugriff</span>
@@ -3728,7 +3728,7 @@ gut herausstellen, zB. wieder in den Master-Zweig eingepflegt.</p>
 </code></pre>
 
 <p>Später wäre dann die einfachste und immerwährende Commit Abfolge:
-"<em>holen</em>", "<em>setzen</em>", "<em>senden</em>" (<em>pull, commit, push</em>): </p>
+<em>“holen”</em>, <em>“setzen”</em>, <em>“senden”</em> (<em>pull, commit, push</em>): </p>
 
 <pre><code class="bash">
     user@server:~# git pull origin master
@@ -4081,7 +4081,7 @@ Sprachdatei dann mit folgendem Code am Anfang der PHP-Datei:</p>
 <p>Es wird bei Plugins und Themes folgende Methodik angewendet:
 Zuerst wird die <code>lang</code>-Datei der gesuchten Sprache, mit der in der
 <code>LANG_CHARSET</code> definierten Sprache, vorzugsweise <code>UTF-8 kodiert</code>
-gesucht, dann wird die englische Sprachdatei geladen, die immer im "<em>Root</em>"
+gesucht, dann wird die englische Sprachdatei geladen, die immer im <em>“Root”</em>
 des Plugins/Themes liegt. Seit Serendipity 1.6 kann und sollte hier die verbesserte,
 auch weil kürzere<em>API</em>-Schreibweise genutzt werden.</p>
 
@@ -7375,7 +7375,7 @@ auch selbstgeschriebene Plugins zugreifen können:</p>
     <span class="box group-box">
         wird ausgeführt, wenn die Backend Übersicht (Dashboard) ausgegeben wird.
         Benötigt ein installiertes <code>serendipity_event_autoupdater</code>-Plugin
-        und die gesetzte Konfigurationsoption "<em>Update-Hinweis</em>".
+        und die gesetzte Konfigurationsoption <em>“Update-Hinweis”</em>.
         Erstellt einen Formularbutton für das Serendipity Auto Update auf der
         Backend Startseite (Dashboard).
         <span class="subdesc">

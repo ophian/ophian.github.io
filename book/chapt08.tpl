@@ -372,8 +372,8 @@ Eintrag speichern.</p>
 
 <p>Das Plugin <em>Einträge ankündigen</em> (siehe Seite <span class="pageref"><a href="#weblogping">weblogping</a></span>)
 kann dies für Sie erledigen. Mittels einer XML-RPC-Schnittstelle kann es einen
-sogenannten Ping senden, der dem Webservice mitteilt: "<em>Guck mal, hier
-gibt's was Neues</em>".</p>
+sogenannten Ping senden, der dem Webservice mitteilt: <em>“Guck mal, hier
+gibt's was Neues”</em>.</p>
 
 </section><!-- section.sub end -->
 
@@ -1139,7 +1139,7 @@ jedoch erhöhen lassen.</span>
     <span class="box">
         Wenn Sie beim Aufruf einer Webseite lediglich den Fehler <code>Internal Server
         Error</code> oder eine leere, weiße Seite erhalten, kann dies zahlreiche
-        Problemursachen haben. Die Fehlermeldung bedeutet hier lediglich: "<em>Etwas lief schief</em>".
+        Problemursachen haben. Die Fehlermeldung bedeutet hier lediglich: <em>“Etwas lief schief”</em>.
         Die Fehlerursache erfahren Sie nur über die Server-Logdateien. Häufige Probleme hier sind
         überschrittener Speicherbedarf, fehlende Schreibrechte zu einem Verzeichnis,
         Datenbank-Verbindungsprobleme.
