@@ -78,14 +78,20 @@ als viel zu viel und daher zu unübersichtlich.</p>
 Nachdem Bulletproof über viele Jahre daher treu seinen Dienst versehen hatte,
 wurde ab Serendipity 1.7 ein neues Standard Theme/Template namens
 <span class="mbold"><em>2k11</em></span> ausgeliefert,
-welches von nun an bis zum heutigen Tag als "<em>Referenz</em>" und "<em>Fallback</em>",
+welches von nun an bis zum heutigen Tag als <em>“Referenz”</em> und <em>“Fallback”</em>,
 sprich <span class="mbold"><em>Standard</em></span>-Theme
 per default eingestellt und ausgeliefert wurde.</p>
 
 <p><span class="mbold">Serendpity Styx</span> legt Wert auf die Feststellung,
-dass das <em>default</em> Theme/Template maßgeblich für die interne "<em>Fallback</em>"
+dass das <em>default</em> Theme (Template) maßgeblich für die interne <em>“Fallback”</em>
 Kaskade ist. Ein Standard Theme kann alle relevanten Daten natürlich vorhalten,
-ganz ersetzen kann es das <em>default</em> Theme aber nicht.</p>
+ganz ersetzen kann es das <em>default</em> Theme aber nicht. Dies ist eine der wichtigen
+Unterscheidungen, die die Styx Edition und aktuelle Original S9y Installationen
+voneinander unterscheiden. Denn durch die unsaubere, inwischen schleichende Ersetzung des
+Default-Themes durch das Standard-Theme fällt dem orginalen Serendipity dies bis Heute
+immer wieder vor die Füße, war es doch ehemals brilliant vom Kern bis hin zu den einzelnen
+Themes und Plugins durchdesignt, so dass man sich auf diese Grundwerte wie bestimmte
+serendipity_* CSS styles oder eben Fallback-Prinzipien verlassen konnte.</p>
 
 <p>Abgesehen von den Template-Optionen bietet auch die
 Serendipity-Grundkonfiguration (siehe Seite <span class="pageref"><a href="#Konfiguration">Konfiguration</a></span>)
@@ -450,7 +456,7 @@ eingesetzten HTML-Klassen im Quelltext des jeweiligen Templates nachschlagen.</p
 
 <p>Auch wenn hier nicht alle CSS-Klassen aufgeführt werden können, haben sich mit
 der neuen Referenz des <em>2k11</em>-Standard-Themes doch auch einige Elemente geändert.
-(zB. wurde mit Serendipity 2.0 das ehemalige Schema "<em>serendipity_klassenname</em>"
+(zB. wurde mit Serendipity 2.0 das ehemalige Schema <em>“serendipity_klassenname”</em>
 für solche Klassen nicht immer konsequent durchgehalten, zB mit den neuen
 <code>msg_*</code>-Klassen. Leider muss dies auch für die überaus wichtigen Schemas
 <code>content</code>, <code>serendipityRightSideBar</code>, <code>serendipityLeftSideBar</code>
