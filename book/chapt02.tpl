@@ -542,10 +542,9 @@ Webserver an. Im Gegensatz zu Fehlern können Sie Serendipity bei solchen Hinwei
 trotzdem betreiben, jedoch entweder mit Einbußen bei der Performance oder
 Funktionalität.</p>
 
-<p>Stimmen die systemseitigen Voraussetzungen, starten Sie die
-Installationsoberfläche über einen der beiden
-Links am Ende der Seite: <span class="mbold">Einfache Installation</span> oder
-<span class="mbold">Fortgeschrittene Installation</span>.</p>
+<p>Stimmen die systemseitigen Voraussetzungen, was gerade bei den Rechten oft schon die Regel ist, starten Sie die
+Installationsoberfläche über einen der beiden Links am Ende der Seite: <span class="mbold">Einfache Installation</span>
+oder <span class="mbold">Fortgeschrittene Installation</span>.</p>
 
 <p>Die <span class="mbold">Einfache Installation</span> verlangt von Ihnen nur die absolut
 notwendigen Angaben. Dagegen bietet die
@@ -775,7 +774,7 @@ lässt sich mit dem <code>fixperm.php</code>-Skript (siehe Seite
 </p>
 
 <p>Die zahlreichen Konfigurationsmöglichkeiten von Webservern geben
-Spielraum für hinterlistige Fehler.</p>
+Spielraum für <em>hinterlistige</em> Fehler.</p>
 
 <article id="XU" class="subsub">
 
