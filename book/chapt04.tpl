@@ -432,6 +432,9 @@ da Ihr Browser das Feld <span class="mbold">Altes Passwort</span> nicht eingetra
         HTML-Konstrukte ein, die die Formatierung in Ihrem Blog durcheinanderbringen könnten.
         Beispielsweise sind dies falsche Zeilenabstände, überflüssige Absätze bis hin zur falschen Platzierung von
         eingebundenen Bildern. Dies Verhalten hat sich über die Jahre aber extrem verbessert.
+        Trotzdem bergen Kopieraktionen, wie zB. aus MS Word in den WYSIWYG-Editor, ein gewisses Risiko,
+        da damit auch HTML Auszeichnungen völlig verschiedener Art eingeschleppt werden.
+        Dies gilt aber für alle Editoren die nicht nur reinen Text bearbeiten.
     </span>
 
     <span class="box">
