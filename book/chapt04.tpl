@@ -431,7 +431,7 @@ da Ihr Browser das Feld <span class="mbold">Altes Passwort</span> nicht eingetra
         Frühere Editoren fügten gerade bei intensiven Kopier-/Einfüge-Operationen häufig problematische
         HTML-Konstrukte ein, die die Formatierung in Ihrem Blog durcheinanderbringen könnten.
         Beispielsweise sind dies falsche Zeilenabstände, überflüssige Absätze bis hin zur falschen Platzierung von
-        eingebundenen Bildern. Dies verhalten hat sich über die Jahre aber extrem verbessert.
+        eingebundenen Bildern. Dies Verhalten hat sich über die Jahre aber extrem verbessert.
     </span>
 
     <span class="box">
