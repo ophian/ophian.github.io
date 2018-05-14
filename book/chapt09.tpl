@@ -5258,9 +5258,9 @@ nicht direkt freigeschaltet wird.
                 Enthält etwaige Zusatzfelder, die durch Plugins hinzugefügt werden. Das
                 Plugin <em>Blog abonnieren</em> bindet Werte für folgende Array-Schlüssel ein:
                 <code class="item smarty">{$ospismarty{metadata.additional_fields.image}</code>,
-                <code class="item smarty">{$metadata.additional_fields.image_atom1.0}</code>,
-                <code class="item smarty">{$metadata.additional_fields.image_rss1.0_channel}</code>,
-                <code class="item smarty">{$metadata.additional_fields.image_rss1.0_rdf}</code> (Feed-Bilder
+                <code class="item smarty">{$metadata.additional_fields.image_atom10}</code>,
+                <code class="item smarty">{$metadata.additional_fields.image_rss10_channel}</code>,
+                <code class="item smarty">{$metadata.additional_fields.image_rss10_rdf}</code> (Feed-Bilder
                 für die unterschiedlichen Versionen der Feed-Typen) und
                 <code class="item smarty">{$metadata.additional_fields.channel}</code> (Liste zusätzlicher XML-Elemente
                 wie <code>webMaster</code>, <code>ttl</code>, <code>pubDate</code>).
