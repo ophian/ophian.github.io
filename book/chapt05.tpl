@@ -239,8 +239,8 @@ Name dieser Oberkategorie angezeigt (<span class="mbold">Nein</span>) oder verst
         Kategorien nach dem Namen der Kategorie alphabetisch sortiert. Weitere
         Möglichkeiten sind eine Sortierung nach Beschreibung oder der ID einer
         Kategorie. Auch kann eine Sortierung nach <em>keinem</em> Kriterium
-        ausgewählt werden, in diesem Fall werden die Kategorien nach
-        Erstellungszeit in der Datenbank sortiert.
+        ausgewählt werden, in diesem Fall werden die Kategorien so wie sie in
+        der Datenbank abgelegt sind geordert.
     </span>
 
     <span class="box">
