@@ -324,7 +324,7 @@ Pfadkomponente darf somit keinen abschließenden <em>/</em> enthalten.</p>
 
 <p>Da für die Ansicht der Artikel nach Autoren oder nach Kategorie
 eigenständige Permalinks wünschenswert sind, bietet Serendipity dieselben
-Artikelübersichten auch bei Aufruf folgender URLs an:</p>
+Artikelübersichten auch bei Aufruf folgender URLs (ohne .html) an:</p>
 
 <p class="tagging invisible">
 <span class="tag-box invisible">
@@ -333,13 +333,13 @@ Artikelübersichten auch bei Aufruf folgender URLs an:</p>
 </p>
 
 <p class="desc">
-<code class="item">/authors/1-AutorenName.html</code>
+<code class="item">/authors/1-AutorName</code>
 <span class="desc-info">stellt die
 Artikelübersicht nach Autor dar, wobei in diesem Fall der Name des
 Autors zu Suchmaschinenzwecken in
 der URL stehen kann. Mehrere Autoren können hierbei mittels <code>;</code> nach
 der Nummer des Autors kombiniert werden:
-<code>authors/1;2;3-Autorenübersicht.html</code>. Der Parameter <em>P</em> für die
+<code>authors/1;2;3-AutorName</code>. Der Parameter <em>P</em> für die
 gewünschte Seite kann angehängt werden.</span>
 </p>
 
@@ -348,13 +348,13 @@ gewünschte Seite kann angehängt werden.</span>
 <span class="tag-box invisible">
     <span class="inline-tag">Permalinks!Kategorien</span>
 </span>
-<code class="item">/categories/1-KategorieName.html</code>
+<code class="item">/categories/1-KategorieName</code>
 <span class="desc-info">stellt die
 Artikelübersicht nach Kategorie dar, wobei in diesem Fall der Name der
 Kategorie zu Suchmaschinenzwecken in der URL stehen kann. Mehrere
 Kategorien können hierbei mittels <code>;</code> nach der Nummer der
 Kategorie kombiniert werden:
-<code>categories/1;2;3-KategorieName.html</code>. Die Parameter
+<code>categories/1;2;3-KategorieName</code>. Die Parameter
 <em>P</em> für die gewünschte Seite sowie <em>A</em> für die
 Einschränkung nach Autoren können zusätzlich angehängt werden.</span>
 </p>
