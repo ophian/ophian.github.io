@@ -324,7 +324,7 @@ Pfadkomponente darf somit keinen abschließenden <em>/</em> enthalten.</p>
 
 <p>Da für die Ansicht der Artikel nach Autoren oder nach Kategorie
 eigenständige Permalinks wünschenswert sind, bietet Serendipity dieselben
-Artikelübersichten auch bei Aufruf folgender URLs (ohne .html) an:</p>
+Artikelübersichten auch bei Aufruf folgender URLs (ohne <code class="item">.html</code>) an:</p>
 
 <p class="tagging invisible">
 <span class="tag-box invisible">
@@ -375,7 +375,7 @@ Artikel, die in dem jeweiligen Zeitraum verfasst wurden eine Balkengrafik.</p>
 <p>Auch die URL für die spezielle chronologische Übersicht kann mit
 speziellen Pfadkomponenten eingeschränkt werden - eine Einschränkung
 nach Zeitraum erfolgt dabei jedoch nicht, da die Übersicht immer den
-ganzen Zeitraum berücksichtigt.</p>
+ganzen Zeitraum berücksichtigt. (Das <code class="item">.html</code> ist hier optional.)</p>
 
 <p class="desc">
 <code class="item">/archive/C1.html</code>
