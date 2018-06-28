@@ -7763,6 +7763,67 @@ wieder löschen.</p>
 
 <p class="desc">
 <span class="tag-box invisible">
+    <span class="inline-tag">Import!Serendipity</span>
+    <span class="inline-tag">Serendipity</span>
+</span>
+<span class="item select">Serendipity</span><!-- itemselect -->
+<span class="desc-info">
+    <span class="box">
+        <em>Importiert werden</em>: Daten aus Serendipity Standard Release Datenbank Tabellen.
+    </span>
+
+    <span class="box">
+        Serendipity Import ist <span class="mbold">kein</span> Serendipity <span class="mbold">Upgrader</span>
+        oder <span class="mbold">Installer</span> und dient nur dazu Tabellendaten eines anderen Blogs in
+        einen weiterführenden und existierenden anderen Blog zu integrieren.
+    </span>
+
+    <span class="box">
+        <em>Konfigurationsoptionen</em>: Zugangsdaten, Zeichensatz, HTML-Maskierung, Tabellen-Gruppen, Testlauf.
+    </span>
+
+    <span class="box">
+        Die Option <span class="mbold">Zeichensatz</span> gibt an, in welchem Zeichensatz das Import-Serendipity
+        seine Artikel gespeichert hat. Dies ist in neuen Serendipity-Versionen meist UTF-8, und ISO-8859-1 in älteren.
+    </span>
+
+    <span class="tag-box invisible">
+        <span class="inline-tag">Sonderzeichen</span>
+    </span>
+    <span class="box">
+        In Serendipity-Artikeln werden früher Sonderzeichen gerne auch mit HTML-Syntax
+        maskiert. Aus einem <em>Ä</em> wird so ein <em>&amp;Auml;</em>. Serendipity
+        bevorzugt jedoch die <em>echten</em> Sonderzeichen. Wenn Sie die Option
+        <span class="mbold">Soll versucht werden, HTML-Instanzen automatisch zu konvertieren</span>
+        aktivieren, werden derartige Sonderzeichen wieder korrekt umgewandelt.
+    </span>
+
+    <span class="box">
+        Sollten Sie beim Import der Einträge später einmal merkwürdige
+        Sonderzeichen erhalten, probieren Sie einmal diese beiden Optionen aus.
+    </span>
+
+    <span class="box">
+        Mit der Option <span class="mbold">Imortiere gruppierte Tabellen</span>
+        (aus Gründen der PHP max_execution_time limits bei Blogs mit vielen Einträgen)
+        können Sie erzwingen, dass Datenbank Tabelleneinträge nur gruppiert eingelesen
+        und importiert werden, was die Last und Ausführungszeit deutlich verringern kann.
+    </span>
+
+    <span class="box">
+        Die wichtigste Option ist der virtuelle <span class="mbold">Testlauf-Import</span>.
+        Mit seiner Hilfe können Sie recht gefahrlos testen, ob beim Auslesen und Importieren
+        eventuelle Fehler geschehen würden, die vorher dringend gefixt werden müssten.
+        Sie sollten nur Daten <span class="mbold">gleicher</span> Serendipity Versionen
+        importieren und immer mit einem vollständigen Backup ihrer Datenbank beginnen.
+        Tabellendaten von Plugins, wie zB. Staticpages, sind unbekannt und müssen, ebenso
+        wie anderes, zB die Mediendaten in "<code>/uploads</code>", per Hand importiert werden.
+    </span>
+</span>
+</p>
+
+<p class="desc">
+<span class="tag-box invisible">
     <span class="inline-tag">Import!WordPress</span>
     <span class="inline-tag">WordPress</span>
 </span>
