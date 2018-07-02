@@ -1870,8 +1870,8 @@ die Sie bei der Entwicklung von Plugins und Ähnlichem häufig einsetzen werden.
 </p>
 
 <p class="desc">
-<code class="item function">serendipity_makePermalinks()</code>, 
-<code class="item function">serendipity_makePermalinkRegex()</code>, 
+<code class="item function">serendipity_makePermalink()</code>,
+<code class="item function">serendipity_makePermalinkRegex()</code>,
 (<code class="item file">include/functions_permalinks.inc.php</code>)
 <span class="desc-info">
     <span class="box">
