@@ -73,8 +73,8 @@ geladen. Drücken Sie dann einfach auf ‹ Aktualisieren › im rechten Mausfens
 
 <p>Ein großer Dank geht an Garvin Hicking, der mit seiner umfassenden Arbeit für
 Serendipity seit Mitte 2003 und seinem veröffentlichten Buch vom April 2008 den
-gewichtigen Grundstock für diese Neubearbeitung legte, ohne jene nichts wäre wie
-es ist!</p>
+gewichtigen Grundstock für diese Neubearbeitung legte, ohne jene nicht wäre was
+sie ist!</p>
 
 <p>&nbsp;</p><!-- separator -->
 
