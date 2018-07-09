@@ -427,13 +427,13 @@ chmod('/path/to/your/serendipity/<code>serendipity_config_local.inc.php</code>',
 <div>
     <ol class="styx-counter">
         <li>Url Rewriting</li>
-        <p>Serendipity offers several forms of URL Rewriting, to make your URLs look pretty. So instead of having the URL “http://localhost/index.php?article=1” you can have something nice like “http://localhost/archives/1-myentry.html”.</p>
+        <p>Serendipity offers several forms of URL Rewriting, to make your URLs look pretty. So instead of having the URL <code>http://localhost/index.php?article=1</code> you can have something nice like <code>http://localhost/archives/1-myentry.html</code>.</p>
 
         <p>To achieve this, Serendipity either uses <strong>mod_rewrite</strong> or the <strong>Apache Errorhandling</strong> functionality. Both may not be available on all hosts, and require a certain setup (“AllowOverride All”) to apply rewriting within your <code>.htaccess</code> file. Serendipity tries to autodetect your best setting in the installer, but under certain circumstances, this might fail. Or you might even change the suggested setting during installation without knowing the problems.</p>
 
         <p>The problems of enabling URL Rewriting without meeting the requirements are the problems you’re now having: Stylesheet URLs cannot be find, article links cannot be found and so on, or even your .htaccess might contain “dangerous” settings.</p>
 
-        <p>You can easily fix this by entering your admin panel with the “http://localhost/serendipity_admin.php” URL. Then enter the configuration area, and set “URL Rewriting” to “None” and save your config. Make sure your .htaccess file is writable!</p>
+        <p>You can easily fix this by entering your admin panel with the <code>http://localhost/serendipity_admin.php</code> URL. Then enter the configuration area, and set “URL Rewriting” to “None” and save your config. Make sure your .htaccess file is writable!</p>
 
         <p>Another problem that calls this symptoms is that your .htaccess file might not be parsed/readable by the webserver. Check your permissions or contact your provider to check the Apache errorlogs for detailed information.</p>
 
@@ -473,7 +473,7 @@ chmod('/path/to/your/serendipity/<code>serendipity_config_local.inc.php</code>',
 
     <p>To enter custom HTML in the WYSIWYG editor, you must click the button that places the editor into tag-editing mode. Sometimes this is marked “View Source” or “Show HTML”. If you tried to enter, for instance, an <img /> tag in WYSIWYG mode, you’d see the <img /> tag in your entry. Edit the entry to correct the problem.</p>
 
-    <p>If your imported entries display HTML tags, you’ll probably have to modify the database. The easiest method is to create a database dump. This is a plain text file; you can then edit it and replace all the instances of “&lt;” with “&lt;” and “&gt;” with “&gt;”.</p>
+    <p>If your imported entries display HTML tags, you’ll probably have to modify the database. The easiest method is to create a database dump. This is a plain text file; you can then edit it and replace all the instances of “&amp;lt;” with “&lt;” and “&amp;gt;” with “&gt;”.</p>
 
     <span class="faq-up"><a class="navigator" href="#faq-top">top</a></span>
 </div>
