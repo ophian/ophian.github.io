@@ -2802,10 +2802,9 @@ Seiten bzw. Seitentypen zur Verfügung:</p>
         </span>
 
         <span class="tag-box invisible">
-            <span class="inline-tag">Template-Variablen!\$staticpage_pre_content</span>
             <span class="inline-tag">Template-Variablen!\$staticpage_precontent</span>
         </span>
-        <span class="box"><code class="sub-item smarty">{$staticpage_pre_content}</code>, <code class="item smarty">{$staticpage_precontent}</code> (String)
+        <span class="box"><code class="item smarty">{$staticpage_precontent}</code> (String)
             <span class="sub-box">enthält die <span class="mbold">Einleitung</span>,
             die bei Elternseiten eingetragen werden kann.</span>
         </span>
