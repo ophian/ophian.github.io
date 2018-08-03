@@ -891,7 +891,7 @@ mit überflüssigen HTML-Zeilenumbrüchen stören. Es gibt mehrere Möglichkeite
 <ul class="realList">
     <li>Den WYSIWYG-Editor verwenden, denn dieser deaktiviert die
     Benutzung von nl2br automatisch. Im PLAIN TEXT-Editor haben Sie
-    die Möglichkeit die P-Tag Option zu verwenden, oder per NoBR-Button
+    die Möglichkeit die P-Tag Option zu verwenden, oder per noBR-Button
     bestimmte Textpassagen vom NL2BR-Parsen auszuschließen.</li>
 
     <li>NL2BR-Plugin fallweise für einen einzelnen Artikel

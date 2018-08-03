@@ -821,7 +821,7 @@ Artikel veröffentlichen.</span>
 
         <span class="list">
             <span class="li-item siLi">
-                <code class="sub-item">NoBR</code>
+                <code class="sub-item">noBR</code>
                 <span class="sub-box">
                     Aktiviert einen Block indem das nl2br Plugin nicht aktiv sein darf. Dies ist ratsam, wenn einzelne Textpassagen im Textfeld bereits HTML-formatiert sind.
                 </span>
