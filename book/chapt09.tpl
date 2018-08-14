@@ -3707,7 +3707,7 @@ die Variable <code class="smarty">{$ENTRIES}</code> mittels der Datei <code>entr
 </p>
 
 <p class="desc citem-desc">
-<code class="item smarty">{$head_version}</code>, 
+<code class="item smarty">{$head_version}</code> <em>(deprecated)</em>,
 <code class="item smarty">{$serendipityVersion}</code>
 <span class="desc-info">
     <span class="box">
