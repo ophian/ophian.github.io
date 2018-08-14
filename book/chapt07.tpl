@@ -62,7 +62,7 @@ den folgenden Seiten.</p>
 
 <p>Technisch gesehen gibt es keinen Grund, dass Sie Ihr Blog in einsamem
 Schattendasein mit Inhalten füllen. Gruppen-Blogs mit mehreren
-Redakteuren könenn den Reiz für Ihre Leser erhöhen, Ihr Blog regelmäßig
+Redakteuren können den Reiz für Ihre Leser erhöhen, Ihr Blog regelmäßig
 zu verfolgen. Mehr Redakteure schreiben mehr Artikel, können Themen
 unterschiedlich beleuchten oder durch einen eigenen Schreibstil
 verschiedene Gruppen von Lesern anziehen.</p>
@@ -267,7 +267,7 @@ aufrufen.</span>
         Option nicht nur Spam-Kommentare reduziert, sondern auch weniger gültige
         Kommentare zur Folge hat. Blogs mit einem hohen
         <em>Troll-Faktor</em> [*]
-        <span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://de.wikipedia.org/wiki/Troll_%28Netzkultur%29" target="_blank">http://de.wikipedia.org/wiki/Troll_%28Netzkultur%29</a></span><!-- footnote -->
+        <span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://de.wikipedia.org/wiki/Troll_%28Netzkultur%29" target="_blank">http://de.wikipedia.org/wiki/Troll_(Netzkultur)</a></span><!-- footnote -->
         wissen es jedoch sicher zu schätzen, nur noch wirklich ernsthafte
         Kommentare zu erhalten.
     </span>

@@ -2345,7 +2345,7 @@ lang dasselbe Zufallsbild angezeigt wird.</span>
 <span class="item mbold">Behavior of image link</span><!-- menuitem -->
 <span class="desc-info">
     <span class="box">
-        Mit der Option <span class="mbold">Behavior of image link</span> könenn Sie einstellen, was
+        Mit der Option <span class="mbold">Behavior of image link</span> können Sie einstellen, was
         bei einem Klick des Besuchers auf ein Bild passieren soll. Entweder kann
         dann das große Bild auf derselben Seite angezeigt werden (<span class="mbold">In Page</span>),
         oder das Bild kann in einem Popup-Fenster erscheinen (<span class="mbold">Pop Up</span>).
