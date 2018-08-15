@@ -2406,7 +2406,7 @@ hochgeladenen Dateien, oder eines einzelnen Ordners.</p>
 <p>Die Seite stellt standardmäßig jeweils acht Dateien pro Seite dar und kann
 über die Buttons <span class="mbold">Weiter</span> und <span class="mbold">Zurück</span> (in einem Bereich vor
 und nach der Dateiübersicht) geblättert werden.
-Mit Serendipty 2.1 kamen noch Seitenanfang und Seitenende Buttons, wie auch für die Blog Eintrags Liste hinzu.
+Mit Serendipity 2.1 kamen noch Seitenanfang und Seitenende Buttons, wie auch für die Blog Eintrags Liste hinzu.
 Ebenfalls neu ist die Möglichkeit, analog zur bisherigen Sammel-Löschung mittels checkbox Auswahl, einer Sammel-Verschiebung von Dateien
 innerhalb der Mediendatenbank über den "Bewegen" Knopf und das Verzeichnis Auswahl Feld am unteren Ende. Damit können etwas ausgeuferte
 Mediendatei-Sammlungen effizient in Form gebracht werden.</p>
