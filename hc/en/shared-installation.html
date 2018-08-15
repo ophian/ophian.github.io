@@ -187,7 +187,7 @@ $ chown -R tom.www /home/www/tom.s9yblogs.org/htdocs/*
 $ chmod ug+rwx /home/www/tom.s9yblogs.org/htdocs
 $ chmod ug+rwx /home/www/tom.s9yblogs.org/htdocs/uploads/</code></pre>
 
-<p>The difference between copying or linking the <strong>htmlarea</strong> and <strong>templates</strong> folder is a maintaineance issue. Whenever you upgrade the core s9y libraries, it could happen that the distributed templates or the htmlarea code could have changed. Now you only copied those directories, you need to copy the new files inside each of the user’s directories. If you only linked them, it will be instantly all the same for every user. It is recommended to link the directories, but that depends on your OS and permission structure. Of course this way a “shared library user” cannot store his own templates inside the linked directory, so this is at a loss of individualisation.</p>
+<p>The difference between copying or linking the <strong>htmlarea</strong> and <strong>templates</strong> folder is a maintenance issue. Whenever you upgrade the core s9y libraries, it could happen that the distributed templates or the htmlarea code could have changed. Now you only copied those directories, you need to copy the new files inside each of the user’s directories. If you only linked them, it will be instantly all the same for every user. It is recommended to link the directories, but that depends on your OS and permission structure. Of course this way a “shared library user” cannot store his own templates inside the linked directory, so this is at a loss of individualization.</p>
 
 <p>For later management access, it is advised you keep a list of all URLs for your s9y-managed blogs. We suggest to create a SQL table like ‘my_managed_s9y_blogs’:</p>
 
