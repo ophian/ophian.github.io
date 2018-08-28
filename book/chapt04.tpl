@@ -5279,11 +5279,11 @@ Sprachauswahl die Artikel nicht automatisch übersetzen kann.</span>
 </p>
 
 <p class="desc">
-<span class="label invisible" id="persoenliche pluginrechte">persoenliche pluginrechte</span>
+<span class="label invisible" id="benutzergruppen-pluginrechte">benutzergruppen pluginrechte</span>
 <span class="tag-box invisible">
-    <span class="inline-tag">Konfiguration!persönliche Plugin-Rechte für Benutzergruppen</span>
+    <span class="inline-tag">Konfiguration!Plugin-Rechte für Benutzergruppen</span>
 </span><!-- tagbox -->
-<span class="item mbold">Sollen persönliche Plugin-Rechte für Benutzergruppen aktiviert werden?</span><!-- menuitem -->
+<span class="item mbold">Plugin-Rechte für Benutzergruppen aktivieren?</span><!-- menuitem -->
 <span class="desc-info">
     <span class="box">
         Serendipity ermöglicht es, pro Benutzergruppe zu definieren, welche

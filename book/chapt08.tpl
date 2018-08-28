@@ -2547,7 +2547,7 @@ Ausführungsgeschwindigkeit zu beschleunigen:</p>
         Dies erreichen Sie durch die Option <span class="mbold">Sollen
         persönliche Plugin-Rechte für Benutzergruppen aktiviert werden?</span>
         in der Serendipity-Konfiguration (siehe Seite
-        <span class="pageref"><a href="#persoenliche pluginrechte">persoenliche pluginrechte</a></span>).
+        <span class="pageref"><a href="#benutzergruppen-pluginrechte">benutzergruppen pluginrechte</a></span>).
     </span>
 
     <span class="box">
