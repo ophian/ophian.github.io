@@ -1616,7 +1616,6 @@ die Sie bei der Entwicklung von Plugins und Ähnlichem häufig einsetzen werden.
 </p>
 
 <p class="desc">
-<code class="item function">serendipity_purgeEntry()</code>, 
 <code class="item function">serendipity_deleteEntry()</code>, 
 (<code class="item file">include/functions_entries.inc.php</code>)
 <span class="desc-info">
