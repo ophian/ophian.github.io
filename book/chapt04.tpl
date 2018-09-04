@@ -5357,7 +5357,7 @@ und alte Logdateien in der Wartung gelöscht werden können, da sie eventuell re
 <span class="item mbold">Erlaube caching (EXPERIMENTAL)</span><!-- menuitem -->
 <span class="desc-info">Wenn diese Option aktiviert ist, erlaubt Serendipity
 einen internen Puffer (cache) einzuschalten, um spezifische SQL queries zwischenzuspeichern.
-Dadurch verringert sich die Last auf Servern mit mittlerem bis hohem Traffic und verbessert die Ladezeit.
+Dadurch verringert sich die Last auf Servern mit mittlerem bis hohem Verkehr und verbessert die Ladezeit.
 Diese Option ist immer noch experimentell und bisher nur ungenügend validiert und getestet.</span>
 </p>
 
