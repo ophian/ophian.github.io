@@ -33,7 +33,7 @@ sitemap:
 </ul>
 <div class="menu menu--no-hero menu--tiny ">
     <div class="menu__page-title">
-        <h1><a href="/blog/">Serendipity Styx Edition - Blog Entry</a></h1>
+        <h1><a href="{{ site.url }}{{ page.url }}">{% if page.title %}{{ page.title }}{% else %}Serendipity Styx Edition - Blog Entry{% endif %}</a></h1>
     </div>
     <div class="progress-bar" aria-hidden="true"><span class="progress-bar__fill"></span></div>
 </div>
