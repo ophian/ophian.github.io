@@ -142,14 +142,14 @@
     <pre><code>?serendipity[adminModule]=event_display&amp;serendipity[adminAction]=update&amp;serendipity[newVersion]=2.4.0</code></pre>
     (as a 1-liner) and hit ENTER - This will start the autoupdate upgrade routine. You are now at the 2cd half of upgrade guide point “f”. The new version string, ie. ‘2.4.0’, has to match the zip files version string, ie. ‘serendipity-2.4.0.zip’, which also has to match the searched docs/RELEASE file version string!</em></li>
     <li><em>Afterwards resume with point “g” to “h”! Enable “d” at last.</em></li>
-    <li>On the other hand, if you upgrade an <strong>existing</strong> Serendipity <strong>2.1.x</strong> it makes sense to <strong>downgrade</strong> your version first to <strong>‘2.0.0’</strong> in the <code>serendipity_config.inc.php</code> and in the <code>serendipity_config_local.inc.php</code> files, to get all the recommended and necessary <strong>upgrade tasks</strong> in need for Styx on upgrade (see a-h steps).</li>
+    <li>On the other hand, if you upgrade an <strong>existing</strong> Serendipity <strong>2.1.x</strong> installation, it makes sense to <strong>downgrade</strong> your version first to <strong>‘2.0.0’</strong> in the <code>serendipity_config.inc.php</code> and in the <code>serendipity_config_local.inc.php</code> files, to get all the recommended and necessary <strong>upgrade tasks</strong> in need for Styx on upgrade (see a-h steps).</li>
 </ul>
 
-<p><strong>Read and follow carefully:</strong></p>
+<p><strong>Read and follow carefully (inclusive the advising “Update” section):</strong></p>
 
 <ol class="boxed" type="a">
     <li> Manually update the Serendipity Spartacus plugin file with the temporary ‘styx-spartacus-up’ file (4) to solve some bugs and set the custom plugin load location option to this URL (5).</li>
-    <li> Update the Autoupdater by Spartacus from the new location, currently this is version 1.5.3 or up.</li>
+    <li> Update the “Autoupdater” by Spartacus from the new location, currently this is version 1.5.3 or up.</li>
     <li> Click somewhere else and then return to the plugin list page. Select events and search for the installed/updated autoupdater plugin. It now is configurable! The two new options are pre-filled with the origin Serendipity GitHub path. Change both to the new URLs (6) and (7). Version 1.4.0 has this already preset. This is important!</li>
     <li> Next, go to your BACKEND global “Configuration” <span class="icon">→</span> “General Settings” and enable the “autoupdate” option to search for “beta” releases. This as well gives you RC and full release versions.</li>
     <li> Now click the HOME top navigation button or the Blog name to open your BACKEND dashboard.</li>
@@ -173,7 +173,7 @@
     <li> Fresh Styx installs will have to set the URLs too; In this mentioned order! (<em>Except step a. for [4].</em>).</li>
     <li> [ <strong>Update</strong> ]:<br>With Styx 2.1++ releases, the Spartacus custom mirror g.[5] and the general setting h.[8] are already preset for <strong>new</strong> installations.</li>
     <li> [ <strong>Update</strong> ]:<br>Newer versions of the Serendipity Autoupdater from this repository already also have [6] and [7] preset for <strong>new</strong> installations.</li>
-    <li> [ <strong>Update</strong> ]:<br>Since the Serendipity Styx 2.6-beta1 release, read and scroll down to the <a href="https://ophian.github.io/blog/"><em>BLOG NOTES</em></a> for the 2.6-beta1, you <strong>don't</strong> need to care about these URLs any more, neither for Spartacus, the Configuration, nor the Autoupdater!</li>
+    <li> [ <strong>Update</strong> ]:<br>Since the Serendipity Styx 2.6-beta1 release (read the <a href="https://ophian.github.io/blog/"><em>BLOG NOTES</em></a> and scroll down to to the 2.6-beta1), you <strong>don't</strong> need to care about these URLs any more, neither for Spartacus, the Configuration, nor the Autoupdater!</li>
 </ol>
 
 <hr>
