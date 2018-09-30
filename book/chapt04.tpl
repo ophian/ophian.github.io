@@ -5885,7 +5885,7 @@ für die Mediendatenbank und die Vorschaubild-Erzeugung fest.</p>
 <span class="tag-box invisible">
     <span class="inline-tag">Konfiguration!Pfad!zur convert-ImageMagick-Datei</span>
 </span><!-- tagbox -->
-<span class="item mbold">Pfad zur convert ImageMagick-Datei</span><!-- menuitem -->
+<span class="item mbold">Pfad zur "convert" ImageMagick-Datei</span><!-- menuitem -->
 <span class="desc-info">In diesem Eingabefeld müssen Sie den vollständigen Pfad zur
 ImageMagick-Datei auf dem Webserver eintragen. ImageMagick kann nur
 ausgeführt werden, wenn der Webserver-Benutzer für diese Datei
