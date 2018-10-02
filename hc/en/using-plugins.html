@@ -112,7 +112,7 @@
                           <li><a href="#docs-installing-external-plugins" id="toc-docs-installing-external-plugins">Installing external Plugins</a>
                             <ul>
                               <li><a href="#docs-using-spartacus" id="toc-docs-using-spartacus">Using SPARTACUS</a></li>
-                              <li><a href="#docs-installing-a-plugin-via-cvs-checkouts" id="toc-docs-installing-a-plugin-via-cvs-checkouts">Installing a plugin via CVS checkouts</a></li>
+                              <li><a href="#docs-installing-a-plugin-via-git-checkouts" id="toc-docs-installing-a-plugin-via-git-checkouts">Installing a plugin via GIT checkouts</a></li>
                               <li><a href="#docs-downloading-a-plugin" id="toc-docs-downloading-a-plugin">Downloading a plugin</a></li>
                             </ul>
                           </li>
@@ -287,7 +287,7 @@
 
                     <h4 id="docs-using-spartacus">Using SPARTACUS</h4>
 
-                    <p>Since Serendipity 0.8 we offer a Event Plugin called “SPARTACUS”. This is a repository manager plugin which is already install for your usage. It will then hook itself into the Serendipity <strong>plugin manager</strong> and each adds a new Link to “Install event/sidebar plugin”.</p>
+                    <p>Since Serendipity 0.8 we offer an Event Plugin called “SPARTACUS”. This is a repository manager plugin which is already install for your usage. It will then hook itself into the Serendipity <strong>plugin manager</strong> and each adds a new Link to “Install event/sidebar plugin”.</p>
 
                     <p>If you click on that link, Serendipity will connect itself to our Plugin Repository, fetch a list of available plugins and offer those to you. Then you can click on the plugin to install just like you do with bundled plugins, and the files will automatically be downloaded.</p>
 
@@ -305,21 +305,21 @@
                       </li>
                     </ol>
 
-                    <h4 id="docs-installing-a-plugin-via-cvs-checkouts">Installing a plugin via CVS checkouts</h4>
+                    <p>Please note the mentioned issues to be not that important nowadays, since for most users it is absolutely no problem using the spartacus plugin over GIT repositories.</p>
 
-                    <p>You can checkout our “additional_plugins” repository using CVS/GIT into a separate directory. Then you could create a symbolic link of that additional_plugins directory into your serendipity/plugins/ directory. Serendipity will then detect the nested new plugin lists and offer you the plugins in the Installation facility.</p>
+                    <h4 id="docs-installing-a-plugin-via-git-checkouts">Installing a plugin via GIT checkouts</h4>
 
-                    <p>This requires some basic Linux/Windows-Shell knowledge and knowledge how to use CVS.</p>
+                    <p>You can checkout our “additional_plugins” repository using GIT into a separate directory. Then you could create a symbolic link of that additional_plugins directory into your serendipity/plugins/ directory. Serendipity will then detect the nested new plugin lists and offer you the plugins in the Installation facility.</p>
+
+                    <p>This requires some basic Linux/Windows-Shell knowledge and knowledge how to use GIT.</p>
 
                     <h4 id="docs-downloading-a-plugin">Downloading a plugin</h4>
 
-                    <p>You can download the plugin you want either via the Spartacus plugin (recommended) or by downloading a full plugin snapshot at <a href="https://github.com/ophian/additional_plugins/archive/master.zip">GitHub.com</a>.</p>
+                    <p>You can download the plugin you want either via the Spartacus plugin (<b>recommended</b>) or by downloading a full plugin snapshot at <a href="https://github.com/ophian/additional_plugins/archive/master.zip">GitHub.com</a>.</p>
 
-                    <p>A plugin always consists of a single directory like “serendipity_event_trackback” with at least one file in it. If you use the ViewCVS facility you can click on each single file and then on the following page click on the first “Download” link which fetches the latest version of that file. Save that file on your Serendipity installation and place them all into a subdirectory of your /plugins directory. First create a directory with the same name as the plugin (“serendipity_event_trackback”). Then save the file “serendipity_event_trackback.php” inside that directory.</p>
+                    <p>A plugin always consists of a single directory like eg. “serendipity_event_trackback” with at least one file in it. If you use GitHub already, the <a href="https://git-scm.com/docs/git-archive#_examples" rel="nofollow" target="_blank"><code>git-archive</code></a> command already supports exporting subdirectories, which are singular Serendipity plugins; see explanation on this <a href="../../plugins/">Styx Spartacus</a> page. Save that file on your Serendipity installation and extract it as a subdirectory of your /plugins directory. The path would then look like “plugins/serendipity_event_trackback/”. Inside that directory you then have the file “serendipity_event_trackback.php” and probably some more.</p>
 
-                    <p>After you have downloaded all files you can go to your Serendipity Plugin manager and on the list of available plugins you will see your latest acquired plugin. :-)</p>
-
-                    <p>The same applies when having downloaded our Netmirror Snapshot file. Just extract the tarball somewhere and copy the files and directory you want to your /plugins subdirectory of the Serendipity installation.</p>
+                    <p>After you have downloaded and placed all files you want to add manually, you can go to your Serendipity Plugin manager and on the list of available plugins you will see your latest acquired plugin. :-)</p>
 
                     <h2 id="docs-available-activated-sidebar-plugins-bundled-with-s9y">Available active sidebar plugins bundled with Serendipity</h2>
 
