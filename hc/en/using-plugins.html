@@ -584,15 +584,15 @@
 
                     <p>This is the place where you actually edit and insert all words you want to rewrite. You can edit the “from” and “to” substitution rules here as well.</p>
 
-                    <p>Here’s an example. Say everytime you have the word “test” and always want it changed to “testing, one two” you would enter this in the configuration panel:</p>
+                    <p>Here’s an example. Say, every time you have the word “test” and always want it changed to “testing, one two” you would enter this in the configuration panel:</p>
 
                     <pre><code>Rewrite String: "{to}"<br>Rewrite Char: ""<br>New Title ({from}): "test"<br>New Description ({to}): "testing, one two"</code></pre>
 
                     <p>So you can see, the “Rewrite String” can make use of {to} and {from} variables. The “New Title” value allows you to enter what is the source of your rewrite ({from}, “test”). The “New Description” value is the {to} variable and says what your wording shall be rewritten to (“testing, one two”).</p>
 
-                    <p>So you use the Rewrite String usually to add any special HTML markup using {from} and {to}, and make those variables fit inside any HTML markup you like (&lt;a href=”{to}” title=”{from}”&gt;{to}&lt;/a&gt;)</p>
+                    <p>So you use the Rewrite String usually to add any special HTML markup using {from} and {to}, and make those variables fit inside any HTML markup you like (<code>&lt;a href=”{to}” title=”{from}”&gt;{to}&lt;/a&gt;</code>)</p>
 
-                    <p>Now, everytime Serendipity finds your word “test” it will save the word ‘test’ in the temporary variable {from}. It will then look up in which word it shall be transfered to and saves that in the variable {to}. Then it will look up your Rewrite String and replace “test” with the parsed contents of the Rewrint String. As this is set to “{to}” only, the {from} variable will completely vanish.</p>
+                    <p>Now, every time Serendipity finds your word “test” it will save the word ‘test’ in the temporary variable <code>{from}</code>. It will then look up in which word it shall be transfered to and saves that in the variable <code>{to}</code>. Then it will look up your Rewrite String and replace “test” with the parsed contents of the Rewrite String. As this is set to “<code>{to}</code>” only, the <code>{from}</code> variable will completely vanish.</p>
 
                     <h3 id="docs-statistics">Statistics</h3>
 
