@@ -262,7 +262,7 @@
 <h4 id="docs-what-are-the-file-permissions-required-to-run-serendipity">What are the file permissions required to run Serendipity?</h4>
 
 <div>
-    <p>Serendipity’s installation usually <strong>ships with proper permissions</strong> within the tarball.</p>
+    <p>Serendipity’s installation usually <strong>ships with proper permissions</strong> within the named package zip.</p>
 
     <p>Upon installation, Serendipity needs to create the files <code>.htaccess</code> and <code>serendipity_config_local.inc.php</code>. That is why the core directory needs to be writable for your webserver user (775 or 777 on some installations). Those two files will then be created in a way, that Serendipity can always write to those files later on. It needs to be able to do that for upgrading purposes - so leave those files writable after installation. You can then re-adjust your core directory to be only executable for the webserver user (i.e. 755).</p>
 
