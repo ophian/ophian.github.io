@@ -609,43 +609,52 @@ Blog-Artikels einige neue Einstellungen tätigen:</p>
 </span><!-- tagbox -->
 <span class="label invisible" id="stickyentries">stickyentries</span>
 <span class="item mbold">Dauerhafte Artikel</span><!-- menuitem -->
-<span class="desc-info">Wenn ein Artikel als <em>Dauerhafter Artikel</em> (<em>Sticky</em>) markiert
-ist, wird er im Frontend immer als erster Artikel angezeigt. Ein
-Blog-Beitrag kann durch diese Markierung hervorgehoben werden und
-erscheint so außerhalb der üblichen chronologischen Übersicht. Oft wird dies
-für besonders wichtige Artikel verwendet, oder als eine Art Einführung zum Blog.</span>
+<span class="desc-info">
+    Wenn ein Artikel als <em>Dauerhafter Artikel</em> (<em>Sticky</em>) markiert
+    ist, wird er im Frontend immer als erster Artikel angezeigt. Ein
+    Blog-Beitrag kann durch diese Markierung hervorgehoben werden und
+    erscheint so außerhalb der üblichen chronologischen Übersicht. Oft wird dies
+    für besonders wichtige Artikel verwendet, oder als eine Art Einführung zum Blog.
+    Benötigt die Option für erweiterte Datenbankabfragen.
+</span>
 </p>
 
 <p class="desc">
 <span class="item mbold">Nicht in Artikelübersicht zeigen</span><!-- menuitem -->
-<span class="desc-info">Die Aktivierung dieser Option bewirkt, dass ein Artikel nicht in der
-Artikelübersicht dargestellt wird. Er kann dann von einem Besucher nur
-gefunden werden, wenn er sich in der Ansicht der zugehörigen Kategorie
-des Eintrages befindet oder nach einem Artikel sucht.</span>
+<span class="desc-info">
+    Die Aktivierung dieser Option bewirkt, dass ein Artikel nicht in der
+    Artikelübersicht dargestellt wird. Er kann dann von einem Besucher nur
+    gefunden werden, wenn er sich in der Ansicht der zugehörigen Kategorie
+    des Eintrages befindet oder nach einem Artikel sucht.</span>
 </p>
 
 <p class="desc">
 <span class="item mbold">Eintragsinhalt im RSS-Feed verstecken</span><!-- menuitem -->
-<span class="desc-info">Wenn Sie nicht wollen, dass ein Blog-Beitrag mit im RSS-Feed ausgeliefert
-werden soll, können Sie diese Option aktivieren.</span>
+<span class="desc-info">
+    Wenn Sie nicht wollen, dass ein Blog-Beitrag mit im RSS-Feed ausgeliefert
+    werden soll, können Sie diese Option aktivieren.
+</span>
 </p>
 
 <p class="desc">
 <span class="item mbold">Artikel können gelesen werden von:</span><!-- menuitem -->
-<span class="desc-info">Mit diesem Auswahlfeld können Sie festlegen, ob ein Artikel nur von
-eingeloggten Benutzern gelesen werden kann, nur von Ihnen selbst oder von
-allen Besuchern. Diese Option wird nur dann angezeigt, wenn Sie in den
-Optionen des Plugins die Beschränkung der Leserechte aktiviert haben.</span>
+<span class="desc-info">
+    Mit diesem Auswahlfeld können Sie festlegen, ob ein Artikel nur von
+    eingeloggten Benutzern gelesen werden kann, nur von Ihnen selbst oder von
+    allen Besuchern. Diese Option wird nur dann angezeigt, wenn Sie in den
+    Optionen des Plugins die Beschränkung der Leserechte aktiviert haben.</span>
 </p>
 
 <p class="desc">
 <span class="item mbold">Passwort</span><!-- menuitem -->
-<span class="desc-info">Sie können einen Artikel vor unbefugten Lesern schützen, indem Sie ein
-Passwort für einen Artikel vergeben. Der Besucher kann dann in der
-Artikelübersicht zwar den normalen Artikeltext wie gewöhnlich lesen, aber
-der <em>Erweiterte Eintrag</em> und die Detailansicht des Artikels können nur
-aufgerufen werden, wenn der Besucher das richtige Passwort in einer
-dargestellten Box einträgt.</span>
+<span class="desc-info">
+    Sie können einen Artikel vor unbefugten Lesern schützen, indem Sie ein
+    Passwort für einen Artikel vergeben. Der Besucher kann dann in der
+    Artikelübersicht zwar den normalen Artikeltext wie gewöhnlich lesen, aber
+    der <em>Erweiterte Eintrag</em> und die Detailansicht des Artikels können nur
+    aufgerufen werden, wenn der Besucher das richtige Passwort in einer
+    dargestellten Box einträgt.
+</span>
 </p>
 
 <p class="desc">
