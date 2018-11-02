@@ -78,6 +78,14 @@ sie ist!</p>
 
 <p>&nbsp;</p><!-- separator -->
 
+<p><u>Oktober 2018</u>: Das Wort "Mediendatenbank" für die MediaLibrary wurde für Styx 2.7.0
+in "Mediathek" geändert. Die Endung "datenbank" wurde dort behalten, wo direkt und einzig
+auf die Datenbank der Mediathek Bezug genommen wird. Einzig die Beispielbilder weisen noch den
+alten Namen aus.<br/>
+Ebenso wurde "Mediendaten hinzufügen" in "Medien hinzufügen" geändert. </p>
+
+<p>&nbsp;</p><!-- separator -->
+
 <p>Ian Styx, für die <strong>Serendipity Styx Edition</strong></p>
 <p>Januar 2018.</p>
 
