@@ -10324,7 +10324,7 @@ eingesetzt werden.</p>
 
 <p>In Blog-Artikeln von Serendipity können Sie dank der Mediathek
 relativ einfach ein Bild einfügen (siehe Seite
-<span class="pageref"><a href="#Mediathek-Popup">Mediathek-Popup</a></span>). Ein solches Bild wird
+<span class="pageref"><a href="#mediathek-popup">Mediathek-Popup</a></span>). Ein solches Bild wird
 entweder in der vollen Größe oder als kleines Vorschaubild eingebettet,
 und ein Klick auf das Bild öffnet es meist in einem neuen Browserfenster.</p>
 

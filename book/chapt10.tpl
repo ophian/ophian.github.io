@@ -232,7 +232,7 @@ dies Ressourcen sparend geschehen kann, ist diese Funktionalität in der Datei
 <section id="U1034" class="sub">
 <span class="u-toc">10.3.4 - Mediathek-Popup</span>
 
-<h3 class="subsection" id="Mediathek-popup">Mediathek-Popup</h3>
+<h3 class="subsection" id="mediathek-popup">Mediathek-Popup</h3>
 
 <p>Die Mediathek kann an einigen Stellen des Front- und Backends aufgerufen
 werden und erfolgt meist als Popup. Um dies komfortabler und isolierter zu
@@ -8324,7 +8324,7 @@ zugänglichen Methoden über ein weiteres Feature, das jedoch derzeit nicht von
 Plugins oder dem Kernsystem unterstützt wird.</p>
 
 <p>Wenn ein Bild über das Mediathek-Popup in einen Blog-Artikel eingebunden
-wird (siehe Seite <span class="pageref"><a href="#Mediathek-Popup">Mediathek-Popup</a></span>),
+wird (siehe Seite <span class="pageref"><a href="#mediathek-popup">Mediathek-Popup</a></span>),
 sorgt ein JavaScript (aus der Datei <code>serendipity_editor.js</code>, Funktion
 <code>serendipity_admin_imageselector_done()</code>) dafür, dass die URL dieses
 Bildes gemeinsam mit dem entsprechenden HTML-Code in den Beitrag eingebunden

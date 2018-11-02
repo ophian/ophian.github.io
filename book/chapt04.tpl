@@ -866,7 +866,7 @@ Artikel veröffentlichen.</span>
                     öffnet beim Anklicken ein neues Popup-Fenster, in
                     dem eine Vorschau-Bilderserie als einfache Bildergalerie aus der eigenen Mediathek eingefügt werden kann. Eine
                     detaillierte Beschreibung dieses Popups folgt auf Seite
-                    <span class="pageref"><a href="#Mediathek-Popup">Mediathek-Popup</a></span>.
+                    <span class="pageref"><a href="#mediathek-popup">Mediathek-Popup</a></span>.
                 </span>
             </span>
             <span class="li-item siLi">
@@ -875,7 +875,7 @@ Artikel veröffentlichen.</span>
                     öffnet beim Anklicken ein neues Popup-Fenster, in
                     dem ein Bild aus der eigenen Mediathek eingefügt werden kann. Eine
                     detaillierte Beschreibung dieses Popups folgt auf Seite
-                    <span class="pageref"><a href="#Mediathek-Popup">Mediathek-Popup</a></span>.
+                    <span class="pageref"><a href="#mediathek-popup">Mediathek-Popup</a></span>.
                 </span>
             </span>
             <span class="li-item siLi">
@@ -1069,7 +1069,7 @@ Artikel veröffentlichen.</span>
                 <span class="sub-box">Die komfortablere Art, ein Bild einzufügen, führt über die integrierte Mediathek
                 von Serendipity. Das Symbol hierfür befindet sich rechts neben dem Bilderrahmen und soll eine stilisierte
                 <span class="mbold">Bilderübersicht</span> in einer Liste darstellen. Ein Klick hierauf öffnet das Mediathek-Popup,
-                das auf Seite <span class="pageref"><a href="#Mediathek-Popup">Mediathek-Popup</a></span> eingehender erklärt wird.</span>
+                das auf Seite <span class="pageref"><a href="#mediathek-popup">Mediathek-Popup</a></span> eingehender erklärt wird.</span>
             </span>
             <span class="li-item siLi">
                 <code class="sub-item"><img src="images/mlgallery.png"> [Gallery]</code>
@@ -1078,7 +1078,7 @@ Artikel veröffentlichen.</span>
                     Dieser Button öffnet beim Anklicken ein neues Popup-Fenster, in
                     dem eine Vorschau-Bilderserie als einfache Bildergalerie aus der eigenen Mediathek eingefügt werden kann. Eine
                     detaillierte Beschreibung dieses Popups folgt auf Seite
-                    <span class="pageref"><a href="#Mediathek-Popup">Mediathek-Popup</a></span>.
+                    <span class="pageref"><a href="#mediathek-popup">Mediathek-Popup</a></span>.
                 </span>
             </span>
             <span class="li-item siLi">
@@ -1264,7 +1264,7 @@ der Plugins in den folgenden Kapiteln entnehmen.</span>
     <span class="inline-tag">Mediathek!Popup</span>
     <span class="inline-tag">Eintrag!Mediathek-Popup</span>
 </span>
-<span class="label invisible" id="Mediathek-Popup">Mediathek-Popup</span>
+<span class="label invisible" id="mediathek-popup">Mediathek-Popup</span>
 <span class="item mbold">Mediathek-Popup</span><!-- menuitem -->
 <span class="desc-info">
     <span class="box">
@@ -1283,7 +1283,7 @@ der Plugins in den folgenden Kapiteln entnehmen.</span>
         Serendipitys. Abhängig von der Option <span class="mbold">Symbolleiste für das
         Mediathek-Popup anzeigen</span> in den <span class="mbold">Eigenen Einstellungen</span> wird
         Ihnen jedoch zusätzliche Funktionalität angeboten, die im Kapitel
-        <span class="reference">Mediathek</span> auf Seite <span class="pageref"><a href="#Mediathek">Mediathek</a></span> detailliert
+        <span class="reference">Mediathek</span> auf Seite <span class="pageref"><a href="#mediathek">Mediathek</a></span> detailliert
         beschrieben wird.
     </span>
 
@@ -1305,7 +1305,7 @@ der Plugins in den folgenden Kapiteln entnehmen.</span>
     <span class="box">
         Wenn Sie eine bestimmte Datei suchen, werden Ihnen die Filteroptionen der
         Mediathek sehr hilfreich sein. Diese sind ebenfalls detailliert im
-        Kapitel <span class="reference">Mediathek</span> ab Seite <span class="pageref"><a href="#Mediathek Filter">Mediathek Filter</a></span>
+        Kapitel <span class="reference">Mediathek</span> ab Seite <span class="pageref"><a href="#mediathek-filter">Mediathek Filter</a></span>
         beschrieben.
     </span>
 
@@ -1784,7 +1784,7 @@ Hier können Sie auch längere Beschreibungen eintragen.</span>
 
     <span class="box">
         Über den Button <span class="mbold">Bild</span> können Sie das Mediathek-Popup (siehe
-        Seite <span class="pageref"><a href="#Mediathek-Popup">Mediathek-Popup</a></span>)
+        Seite <span class="pageref"><a href="#mediathek-popup">Mediathek-Popup</a></span>)
         aufrufen und die gewünschte Bilddatei einfügen. Alternativ tragen Sie in das Eingabefeld
         <span class="mbold">Bild</span> eine vollständige URL mit dem Bildziel ein.
     </span>
@@ -1960,7 +1960,7 @@ Kategorie steht.</p>
 
 <section id="S450" class="index">
 <span class="s-toc">4.5 - Mediathek</span>
-<span class="label invisible" id="Mediathek">Mediathek</span>
+<span class="label invisible" id="mediathek">Mediathek</span>
 
 <h3 class="section" id="mediathek">Mediathek</h3>
 
@@ -2391,7 +2391,7 @@ können.</p>
 aller in der Mediathek eingetragenen Dateien aufgerufen.</p>
 
 <p>Diese Seite haben Sie möglicherweise auch schon im Kapitel
-<span class="reference">Mediathek-Popup</span> auf Seite <span class="pageref"><a href="#Mediathek-Popup">Mediathek-Popup</a></span>
+<span class="reference">Mediathek-Popup</span> auf Seite <span class="pageref"><a href="#mediathek-popup">Mediathek-Popup</a></span>
 gesehen, dort jedoch noch ohne Bearbeitungsoptionen für jede Datei.</p>
 
 <p>Die Übersicht besteht aus einem Kopfbereich zur Suche in der
@@ -2537,7 +2537,7 @@ Datei abgelegt wurde. Diese Reihenfolge und die Kriterien, nach denen Dateien
 angezeigt werden, können Sie im Kopfbereich anpassen:</p>
 
 <p class="tagging invisible">
-<span class="label invisible" id="Mediathek Filter">Mediathek Filter</span>
+<span class="label invisible" id="mediathek-filter">Mediathek Filter</span>
 <span class="tag-box invisible">
     <span class="inline-tag">Mediathek!Filter</span>
     <span class="inline-tag">Mediathek!Sortieren</span>
@@ -2902,7 +2902,7 @@ in die <span class="mbold">Wartung</span>s Sektion der <span class="pageref">Bac
 <a href="#U495">Vorschauen erneuern</a></span>.</p>
 
 <p>Wie am Anfang des Kapitels <span class="reference">Mediathek</span> auf Seite
-<span class="pageref"><a href="#Mediathek">Mediathek</a></span> erklärt,
+<span class="pageref"><a href="#mediathek">Mediathek</a></span> erklärt,
 muss Serendipity zwischen den Dateien innerhalb der Verzeichnisstruktur auf dem Server
 und einer Datenbanktabelle mit Meta-Informationen synchronisieren.</p>
 
@@ -6047,7 +6047,7 @@ Internet nicht geeignet sind.</span>
 <span class="desc-info">
     <span class="box">
         Da Serendipity, wie im Kapitel <span class="reference">Mediathek</span> ab Seite
-        <span class="pageref"><a href="#Mediathek">Mediathek</a></span> beschrieben, den Dateibestand des
+        <span class="pageref"><a href="#mediathek">Mediathek</a></span> beschrieben, den Dateibestand des
         Upload-Verzeichnisses mit einer eigenen Datenbanktabelle abgleicht,
         kann es hier zu Unterschieden kommen.
     </span>

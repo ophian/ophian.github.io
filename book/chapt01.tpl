@@ -293,8 +293,8 @@ kommerziell erhältlicher Systeme vor allem in folgenden Punkten ab:</p>
 
     <li>Die integrierte Mediathek für Bilder, PDFs, MP3s etc. gestattet
         Rechtemanagement, Stichwortsuche und automatische Vorschaugrafiken (Seite
-        <span class="pageref"><a href="#Mediathek">Mediathek</a></span>). Über einen gesonderten Dialog (Seite
-        <span class="pageref"><a href="#Mediathek-Popup">Mediathek-Popup</a></span>) bindet man die Dateien aus der Mediathek
+        <span class="pageref"><a href="#mediathek">Mediathek</a></span>). Über einen gesonderten Dialog (Seite
+        <span class="pageref"><a href="#mediathek-popup">Mediathek-Popup</a></span>) bindet man die Dateien aus der Mediathek
         mit wählbaren Layout-Optionen einfach in Blog-Artikel ein. Die Inhalte dieser
         Mediathek lassen sich dynamisch in einer Verzeichnisansicht darstellen, wie
         Sie es zB. vom Windows Explorer gewöhnt sind.</li>

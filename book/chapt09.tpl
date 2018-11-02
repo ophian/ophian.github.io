@@ -10883,7 +10883,7 @@ trägt man in das Eingabefeld möglichst nur die Youtube-Video-ID (wie zB.
 <p>Zusätzlich werden Sie sicher bemerken, dass neben dem Eingabefeld ein Link
 <span class="mbold">Mediathek</span> eingebunden wird. Wenn Sie auf diesen Link klicken,
 öffnet sich das bekannte Popup zur Auswahl einer Datei in Ihrer Mediathek
-(siehe Seite <span class="pageref"><a href="#Mediathek-Popup">Mediathek-Popup</a></span>).
+(siehe Seite <span class="pageref"><a href="#mediathek-popup">Mediathek-Popup</a></span>).
 Dort können Sie eine Datei auswählen, die Sie einbinden möchten. Daraufhin
 erscheint der Dateiname der ausgewählten Datei innerhalb des Eingabefeldes und
 kann somit später im Template zB. als Downloadlink oder Bild ausgegeben werden,
