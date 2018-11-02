@@ -1952,7 +1952,7 @@ mit Werbeblöcken um, da Sie sonst Ihre Besucher vergraulen.</p>
     <span class="inline-tag">Menalto Gallery</span>
     <span class="inline-tag">Coppermine Gallery</span>
     <span class="inline-tag">Zooomr</span>
-    <span class="inline-tag">Mediendatenbank</span>
+    <span class="inline-tag">Mediathek</span>
     <span class="inline-tag">Plugins!Unified Sidebar Image Display</span>
     <span class="inline-tag">Plugins!serendipity_plugin_imagesidebar</span>
 </span>
@@ -1971,7 +1971,7 @@ auswählen: <em>Menalto Gallery</em> [*]
 <span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://coppermine-gallery.net" target="_blank">http://coppermine-gallery.net</a></span><!-- footnote -->,
 <em>Zooomr</em> [*]
 <span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://www.zooomr.com" target="_blank">http://www.zooomr.com</a></span><!-- footnote -->, aber auch die integrierte
-<em>Serendipity-Mediendatenbank</em>.</p>
+<em>Serendipity-Mediathek</em>.</p>
 
 <p>Bitte beachten Sie, dass für die gerade genannten Galerie-Anwendungen
 auch, wie erwähnt, eigenständige Plugins bestehen. Diese sind jedoch älter
@@ -2227,7 +2227,7 @@ Seitenleiste anzuzeigen.</span>
     <h4 class="subarticle" id="zooomr-plugin">Zooomr Plugin</h4>
 </header>
 
-<p>Im Gegensatz zu den beiden eingangs erwähnten Mediendatenbanken werden
+<p>Im Gegensatz zu den beiden eingangs erwähnten Mediatheken werden
 die Bilder bei dieser Datenquelle nicht von Ihrem eigenen Server bezogen,
 sondern vom zentralen Zooomr-Server aus eingebunden.</p>
 
@@ -2248,7 +2248,7 @@ Verlinkungs-Art verändern.</p>
 </header>
 
 <p>Natürlich ist es auch möglich, Bilder Ihrer
-Serendipity-Mediendatenbank in der Seitenleiste anzuzeigen. Hierfür dient
+Serendipity-Mediathek in der Seitenleiste anzuzeigen. Hierfür dient
 die Option <span class="mbold">Media Library</span> in den Einstellungen des Plugins.
 Folgende Konfigurationsoptionen sind dabei möglich:</p>
 
@@ -2257,7 +2257,7 @@ Folgende Konfigurationsoptionen sind dabei möglich:</p>
 <span class="desc-info">
     <span class="box">
         Wenn Sie diese Option aktivieren, werden nur die Bilder der
-        Mediendatenbank angezeigt, die von fremden Servern stammen.
+        Mediathek angezeigt, die von fremden Servern stammen.
     </span>
 
     <span class="box">
@@ -2282,7 +2282,7 @@ Folgende Konfigurationsoptionen sind dabei möglich:</p>
     <span class="box">
         Wenn Sie also einen Hotlink auf die Dateien
         <code>http://google.com/logo.jpg</code> und <code>http://yahoo.com/logo.jpg</code> in
-        der Mediendatenbank gespeichert haben und als Schlüsselwort
+        der Mediathek gespeichert haben und als Schlüsselwort
         <span class="mbold">google.com</span> eintragen, werden nur Bilder vom Google.com-Server
         angezeigt. Würden Sie stattdessen <code>logo.jpg</code> eintragen, könnten Sie beide
         Bilder sehen.
@@ -2293,7 +2293,7 @@ Folgende Konfigurationsoptionen sind dabei möglich:</p>
 <p class="desc">
 <span class="item mbold">Pick a default directory</span><!-- menuitem -->
 <span class="desc-info">Mit diesem Auswahlfeld können Sie ein Stammverzeichnis der
-Mediendatenbank auswählen, von dem Sie Bilder darstellen wollen.</span>
+Mediathek auswählen, von dem Sie Bilder darstellen wollen.</span>
 </p>
 
 <p class="desc">

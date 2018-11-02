@@ -304,7 +304,7 @@ erfolgt sowieso immer besser über deren vorgesehene Hauptseiten!</p>
 
 <ul class="simpleList">
     <li><span class="mbold">Inhalt</span> bietet Möglichkeiten zum Bearbeiten von Artikeln und aller Arten von inhaltsbezogenen Funktionen/Plugins.</li>
-    <li><span class="mbold">Mediendatenbank</span> gibt Zugriff auf die hochgeladenen Dateien und überhaupt auf die Administration der Mediendatenbank.</li>
+    <li><span class="mbold">Mediathek</span> gibt Zugriff auf die hochgeladenen Dateien und überhaupt auf die Administration der Mediathek.</li>
     <li><span class="mbold">Aktivität</span> verwaltet alle Arten von Backend Aktivitäten, Kommentare und eingesetzte Plugins
     des Blogs, soweit sie nicht streng artikelbezogen, eine solche Aktivität oder sonstiges sind.</li>
     <li><span class="mbold">Einstellungen</span> umfasst alle Funktionen, die den Zugriff auf
@@ -524,7 +524,7 @@ die Serendipity bereitstellt nicht und sind sogar eventuell überfordert, wenn
 zu viele Möglichkeiten ihren Schreibfluss behindern.
 Wenn aktiviert, werden Suchformulare und Filteroptionen auf die notwendigen Optionen reduziert.
 Ist diese Option deaktiviert, werden alle erweiterten Filteroptionen,
-z.b. beim Eintrags-Editor oder der Mediendatenbank, angezeigt.</span>
+z.b. beim Eintrags-Editor oder der Mediathek, angezeigt.</span>
 </p>
 
 <p class="desc">
@@ -534,7 +534,7 @@ z.b. beim Eintrags-Editor oder der Mediendatenbank, angezeigt.</span>
 <span class="item mbold">Popups für das Backend verwenden?</span><!-- menuitem -->
 <span class="desc-info">Sollen im Backend Popup-Fenster eingesetzt werden?
 Wenn deaktiviert (Standard), werden eingebettete modale Dialoge,
-z.b. für die Mediendatenbank und die Kategorieauswahl verwendet.</span>
+z.b. für die Mediathek und die Kategorieauswahl verwendet.</span>
 </p>
 
 <p class="desc">
@@ -553,16 +553,16 @@ Für <span class="mbold">Serendipity Styx</span> lautet die default Empfehlung: 
 
 <p class="desc">
 <span class="tag-box invisible">
-    <span class="inline-tag">Eigene Einstellungen!Symbolleiste für das Mediendatenbank-Popup anzeigen?</span>
+    <span class="inline-tag">Eigene Einstellungen!Symbolleiste für das Mediathek-Popup anzeigen?</span>
 </span><!-- tagbox -->
-<span class="item mbold">Symbolleiste für das Mediendatenbank-Popup anzeigen?</span><!-- menuitem -->
+<span class="item mbold">Symbolleiste für das Mediathek-Popup anzeigen?</span><!-- menuitem -->
 <span class="desc-info">Vielen Benutzer benötigen die erweiterten Funktionen der "Bildbearbeitung"
-die Serendipity bereitstellt nicht, wenn sie aus einem Artikel das Mediendatenbank-Popup öffnen
+die Serendipity bereitstellt nicht, wenn sie aus einem Artikel das Mediathek-Popup öffnen
 um ein Bild eizufügen, und sind sogar eventuell überfordert, wenn
 zu viele Möglichkeiten ihre Konzentration und ihren Schreibfluss behindern. Sollten
 Sie jedoch diese Funktionen jedoch auch gerne innerhalb des Popup-Fensters
 ausführen wollen, müssen Sie diese Option: <span class="mbold">Symbolleiste für das
-Mediendatenbank-Popup anzeigen</span> aktivieren.</span></p>
+Mediathek-Popup anzeigen</span> aktivieren.</span></p>
 
 <p>Der zweite Abschnitt der <span class="mbold">Eigenen Einstellungen</span> stellt
 <span class="mbold">Voreinstellungen für neue Einträge</span> ein:</p>
@@ -845,7 +845,7 @@ Artikel veröffentlichen.</span>
                 <span class="sub-box">
                     Die letzten vier Buttons dienen der Einbindung von externen Dateien und
                     benötigen daher keine vorherige Textauswahl. Ein Klick auf einen der
-                    Buttons <span class="mbold">img</span>, <span class="mbold">Mediendatenbank</span> oder <span class="mbold">URL</span> wird an der
+                    Buttons <span class="mbold">img</span>, <span class="mbold">Mediathek</span> oder <span class="mbold">URL</span> wird an der
                     Stelle, wo sich der Cursor im Text befindet, das gewünschte Objekt einbinden.
                 </span>
             </span>
@@ -864,18 +864,18 @@ Artikel veröffentlichen.</span>
                 <code class="sub-item"><img src="images/mlgallery.png"> [Gallery]</code>
                 <span class="sub-box">
                     öffnet beim Anklicken ein neues Popup-Fenster, in
-                    dem eine Vorschau-Bilderserie als einfache Bildergalerie aus der eigenen Mediendatenbank eingefügt werden kann. Eine
+                    dem eine Vorschau-Bilderserie als einfache Bildergalerie aus der eigenen Mediathek eingefügt werden kann. Eine
                     detaillierte Beschreibung dieses Popups folgt auf Seite
-                    <span class="pageref"><a href="#Mediendatenbank-Popup">Mediendatenbank-Popup</a></span>.
+                    <span class="pageref"><a href="#Mediathek-Popup">Mediathek-Popup</a></span>.
                 </span>
             </span>
             <span class="li-item siLi">
                 <code class="sub-item"><img src="images/thumbnail.png"> [Media]</code>
                 <span class="sub-box">
                     öffnet beim Anklicken ein neues Popup-Fenster, in
-                    dem ein Bild aus der eigenen Mediendatenbank eingefügt werden kann. Eine
+                    dem ein Bild aus der eigenen Mediathek eingefügt werden kann. Eine
                     detaillierte Beschreibung dieses Popups folgt auf Seite
-                    <span class="pageref"><a href="#Mediendatenbank-Popup">Mediendatenbank-Popup</a></span>.
+                    <span class="pageref"><a href="#Mediathek-Popup">Mediathek-Popup</a></span>.
                 </span>
             </span>
             <span class="li-item siLi">
@@ -943,7 +943,7 @@ Artikel veröffentlichen.</span>
             aktive <code>Mediaembed</code>-Button, das optionale <code>Embed</code>-Snippet-Button
             und 3 Serendipity Plugins (Linktrimmer, Amazonchooser, Emoticonchooser) aktiv gesetzt.
             Wie man sieht, sind solche <em>gehookten</em> Serendipity Plugin Buttons, wie auch die
-            beiden für die Bedienung der Mediendatenbank, in Farbe, im Gegensatz zum sonst üblich
+            beiden für die Bedienung der Mediathek, in Farbe, im Gegensatz zum sonst üblich
             gehaltenen Schwarz.
             Auf die Abbildung der vollständigen Toolbar wurde hier verzichtet, da solche Vollversionen
             in der Praxis wohl kaum genutzt werden. Sie beanspruchen einfach zuviel Platz und man wird
@@ -967,7 +967,7 @@ Artikel veröffentlichen.</span>
             Dabei wird ab Serendipity 2.0+ der im Kern bereits implementierte <em>CKEditor</em> verwendet
             und die benötigte Toolbar kann per Auswahlbox in den <em>Eigenen Einstellungen</em> festgelegt
             werden. Die Default Buttons des Editors sind in in schwarzer Schrift/Icon auf grauem Grund gehalten,
-            die per Serendipity Plugin dazu installierten Plugins haben ein farbiges Icon. Dazu gehört per Default auch das Mediendatenbank-Icon.
+            die per Serendipity Plugin dazu installierten Plugins haben ein farbiges Icon. Dazu gehört per Default auch das Mediathek-Icon.
             Weitere Hinweise zur individuellen Anpassung befinden sich in den Dateien <code>htmlarea/ckeditor_s9y_config.js</code> und <code>htmlarea/ckeditor_s9y_plugin.js</code>.
             Im Einzelnen bedeuten die Buttons und Gruppen Folgendes (Auswahl):
         </span>
@@ -1066,19 +1066,19 @@ Artikel veröffentlichen.</span>
             </span>
             <span class="li-item siLi">
                 <code class="sub-item"><img src="images/thumbnail.png"> [Media]</code>
-                <span class="sub-box">Die komfortablere Art, ein Bild einzufügen, führt über die integrierte Mediendatenbank
+                <span class="sub-box">Die komfortablere Art, ein Bild einzufügen, führt über die integrierte Mediathek
                 von Serendipity. Das Symbol hierfür befindet sich rechts neben dem Bilderrahmen und soll eine stilisierte
-                <span class="mbold">Bilderübersicht</span> in einer Liste darstellen. Ein Klick hierauf öffnet das Mediendatenbank-Popup,
-                das auf Seite <span class="pageref"><a href="#Mediendatenbank-Popup">Mediendatenbank-Popup</a></span> eingehender erklärt wird.</span>
+                <span class="mbold">Bilderübersicht</span> in einer Liste darstellen. Ein Klick hierauf öffnet das Mediathek-Popup,
+                das auf Seite <span class="pageref"><a href="#Mediathek-Popup">Mediathek-Popup</a></span> eingehender erklärt wird.</span>
             </span>
             <span class="li-item siLi">
                 <code class="sub-item"><img src="images/mlgallery.png"> [Gallery]</code>
                 <span class="sub-box">
                     Mit Styx haben Sie die Möglichkeit an dieser Stelle eine einfache Bildergalerie einzufügen.
                     Dieser Button öffnet beim Anklicken ein neues Popup-Fenster, in
-                    dem eine Vorschau-Bilderserie als einfache Bildergalerie aus der eigenen Mediendatenbank eingefügt werden kann. Eine
+                    dem eine Vorschau-Bilderserie als einfache Bildergalerie aus der eigenen Mediathek eingefügt werden kann. Eine
                     detaillierte Beschreibung dieses Popups folgt auf Seite
-                    <span class="pageref"><a href="#Mediendatenbank-Popup">Mediendatenbank-Popup</a></span>.
+                    <span class="pageref"><a href="#Mediathek-Popup">Mediathek-Popup</a></span>.
                 </span>
             </span>
             <span class="li-item siLi">
@@ -1261,29 +1261,29 @@ der Plugins in den folgenden Kapiteln entnehmen.</span>
 
 <p class="desc">
 <span class="tag-box invisible">
-    <span class="inline-tag">Mediendatenbank!Popup</span>
-    <span class="inline-tag">Eintrag!Mediendatenbank-Popup</span>
+    <span class="inline-tag">Mediathek!Popup</span>
+    <span class="inline-tag">Eintrag!Mediathek-Popup</span>
 </span>
-<span class="label invisible" id="Mediendatenbank-Popup">Mediendatenbank-Popup</span>
-<span class="item mbold">Mediendatenbank-Popup</span><!-- menuitem -->
+<span class="label invisible" id="Mediathek-Popup">Mediathek-Popup</span>
+<span class="item mbold">Mediathek-Popup</span><!-- menuitem -->
 <span class="desc-info">
     <span class="box">
-        Das Mediendatenbank-Popup ist ein Fenster, das sich an mehreren Stellen
+        Das Mediathek-Popup ist ein Fenster, das sich an mehreren Stellen
         Serendipitys öffnen lässt, vor allem beim Einfügen von Bildern bei der
         Artikel-Erstellung.
     </span>
 
     <span class="box" id="fig-ml_popup">
 		<img src="img/ml_popup.png">
-		<span class="asfigcaption">Abbildung 4.5: Mediendatenbank-Popup zum Einfügen einer Datei</span>
+		<span class="asfigcaption">Abbildung 4.5: Mediathek-Popup zum Einfügen einer Datei</span>
     </span>
 
     <span class="box">
-        Das Popup-Fenster enthält eine vereinfachte Ansicht der Mediendatenbank
+        Das Popup-Fenster enthält eine vereinfachte Ansicht der Mediathek
         Serendipitys. Abhängig von der Option <span class="mbold">Symbolleiste für das
-        Mediendatenbank-Popup anzeigen</span> in den <span class="mbold">Eigenen Einstellungen</span> wird
+        Mediathek-Popup anzeigen</span> in den <span class="mbold">Eigenen Einstellungen</span> wird
         Ihnen jedoch zusätzliche Funktionalität angeboten, die im Kapitel
-        <span class="reference">Mediendatenbank</span> auf Seite <span class="pageref"><a href="#Mediendatenbank">Mediendatenbank</a></span> detailliert
+        <span class="reference">Mediathek</span> auf Seite <span class="pageref"><a href="#Mediathek">Mediathek</a></span> detailliert
         beschrieben wird.
     </span>
 
@@ -1304,8 +1304,8 @@ der Plugins in den folgenden Kapiteln entnehmen.</span>
 
     <span class="box">
         Wenn Sie eine bestimmte Datei suchen, werden Ihnen die Filteroptionen der
-        Mediendatenbank sehr hilfreich sein. Diese sind ebenfalls detailliert im
-        Kapitel <span class="reference">Mediendatenbank</span> ab Seite <span class="pageref"><a href="#Mediendatenbank Filter">Mediendatenbank Filter</a></span>
+        Mediathek sehr hilfreich sein. Diese sind ebenfalls detailliert im
+        Kapitel <span class="reference">Mediathek</span> ab Seite <span class="pageref"><a href="#Mediathek Filter">Mediathek Filter</a></span>
         beschrieben.
     </span>
 
@@ -1326,7 +1326,7 @@ der Plugins in den folgenden Kapiteln entnehmen.</span>
     </span>
     <span class="box" id="fig-ml_popup2">
         <img src="img/ml_popup2.png">
-        <span class="asfigcaption">Abbildung 4.6: Mediendatenbank-Popup zur Formatierung einer eingefügten Datei</span>
+        <span class="asfigcaption">Abbildung 4.6: Mediathek-Popup zur Formatierung einer eingefügten Datei</span>
     </span>
 
     <span class="box">
@@ -1375,7 +1375,7 @@ der Plugins in den folgenden Kapiteln entnehmen.</span>
 
     <span class="box" id="fig-ml_galpopup">
 		<img src="img/ml_galpopup.png">
-		<span class="asfigcaption">Abbildung 4.7: Mediendatenbank-Popup zum Einfügen einer Galerie</span>
+		<span class="asfigcaption">Abbildung 4.7: Mediathek-Popup zum Einfügen einer Galerie</span>
     </span>
 
     <span class="box">
@@ -1391,7 +1391,7 @@ der Plugins in den folgenden Kapiteln entnehmen.</span>
         so dass Sie im Falle des Falles im Quellcode die alte Selektierung löschen müssen,
         um dann eine neue mit der gewünschten Vervollständigung vornehmen zu können.
         Wie Sie sich vorstellen können, ist es also ratsam eine saubere Ordner- und Dateistruktur
-        in der Mediendatenbank angelegt zu haben. <span class="mbold">Serendipity Styx</span> hat besonderen Wert darauf gelegt,
+        in der Mediathek angelegt zu haben. <span class="mbold">Serendipity Styx</span> hat besonderen Wert darauf gelegt,
         die Möglichkeiten einen tiefen Dateistruktur und ihrer Medien-Administrations-Aufgaben,
         wie Verschieben, Umbenennen, Ändern in Einträgen, etc zu verbessern, auszuarbeiten
         und vorhandene Bugs auszumerzen.
@@ -1408,28 +1408,28 @@ der Plugins in den folgenden Kapiteln entnehmen.</span>
         <span class="inline-tag">Fehler!Einfügen von Bildern</span>
     </span>
     <span class="box">
-        Sämtliche Einfügeoperationen des Mediendatenbank-Popups benötigen
+        Sämtliche Einfügeoperationen des Mediathek-Popups benötigen
         JavaScript. Sollte das Einfügen bei Ihnen also fehlschlagen, prüfen Sie,
         ob Sie JavaScript im Browser korrekt aktiviert haben. Auch
         mögliche Popup-Blocker oder die Firefox-Erweiterung <em>NoScript</em> könnten
-        den erfolgreichen Aufruf der Mediendatenbank verhindern.
+        den erfolgreichen Aufruf der Mediathek verhindern.
     </span>
 
     <span class="box">
         Wenn Sie gerne ein Bild einfügen möchten, das Sie noch nicht in die
-        Mediendatenbank hochgeladen haben, dann müssen Sie dafür nicht extra auf
-        den Menüpunkt <span class="mbold">Mediendaten hinzufügen</span> im Hauptmenü klicken.
-        Stattdessen ermöglicht es das Mediendatenbank-Popup in der Bildübersicht,
-        direkt, mittels Klick auf den Button <span class="mbold">Mediendaten hinzufügen</span> eine
+        Mediathek hochgeladen haben, dann müssen Sie dafür nicht extra auf
+        den Menüpunkt <span class="mbold">Medien hinzufügen</span> im Hauptmenü klicken.
+        Stattdessen ermöglicht es das Mediathek-Popup in der Bildübersicht,
+        direkt, mittels Klick auf den Button <span class="mbold">Medien hinzufügen</span> eine
         neue Datei von Ihrem Computer hochzuladen. Diese Datei wird dann direkt
         für die Folgeseite zur Bestimmung der Einfügungsoptionen übernommen, was
         Ihnen einiges an Klickarbeit abnimmt.
     </span>
 
     <span class="box">
-        Details zum Hochladen von Dateien finden Sie im Kapitel <span class="reference">Mediendaten
-        hinzufuegen</span> auf Seite <span class="pageref"><a href="#Mediendaten hinzufuegen">Mediendaten hinzufuegen</a></span>, die auch für das
-        Mediendatenbank-Popup gelten.
+        Details zum Hochladen von Dateien finden Sie im Kapitel <span class="reference">Medien
+        hinzufuegen</span> auf Seite <span class="pageref"><a href="#Medien hinzufuegen">Medien hinzufuegen</a></span>, die auch für das
+        Mediathek-Popup gelten.
     </span>
 </span>
 </p>
@@ -1783,8 +1783,8 @@ Hier können Sie auch längere Beschreibungen eintragen.</span>
     </span>
 
     <span class="box">
-        Über den Button <span class="mbold">Bild</span> können Sie das Mediendatenbank-Popup (siehe
-        Seite <span class="pageref"><a href="#Mediendatenbank-Popup">Mediendatenbank-Popup</a></span>)
+        Über den Button <span class="mbold">Bild</span> können Sie das Mediathek-Popup (siehe
+        Seite <span class="pageref"><a href="#Mediathek-Popup">Mediathek-Popup</a></span>)
         aufrufen und die gewünschte Bilddatei einfügen. Alternativ tragen Sie in das Eingabefeld
         <span class="mbold">Bild</span> eine vollständige URL mit dem Bildziel ein.
     </span>
@@ -1959,22 +1959,22 @@ Kategorie steht.</p>
 </section><!-- section.index end -->
 
 <section id="S450" class="index">
-<span class="s-toc">4.5 - Mediendatenbank</span>
-<span class="label invisible" id="Mediendatenbank">Mediendatenbank</span>
+<span class="s-toc">4.5 - Mediathek</span>
+<span class="label invisible" id="Mediathek">Mediathek</span>
 
-<h3 class="section" id="mediendatenbank">Mediendatenbank</h3>
+<h3 class="section" id="mediathek">Mediathek</h3>
 
 <p class="tagging invisible">
 <span class="tag-box invisible">
-    <span class="inline-tag">Mediendatenbank|see{Backend, Mediendatenbank}</span>
-    <span class="inline-tag">Backend!Mediendatenbank</span>
+    <span class="inline-tag">Mediathek|see{Backend, Mediathek}</span>
+    <span class="inline-tag">Backend!Mediathek</span>
 </span>
 </p>
 
 <p>Serendipity kann von Ihnen hochgeladene Bilder und Dateien in einer
-eigenständigen Datenbank, der <em>Mediendatenbank</em>, verwalten.</p>
+eigenständigen Datenbank, der <em>Mediathek</em>, verwalten.</p>
 
-<p>Die Mediendatenbank besteht aus zwei Komponenten. Zum einen ist das ein
+<p>Die Mediathek/Mediendatenbank besteht aus zwei Komponenten. Zum einen ist das ein
 Unterverzeichnis namens <code>uploads</code> im Serendipity-Stammverzeichnis.
 Dort werden die Dateien, die Sie von Ihrer eigenen Festplatte aus
 hochladen, abgespeichert. Zum anderen ist das eine Tabelle in Ihrer
@@ -1985,7 +1985,7 @@ die hochgeladenen Dateien speichert.</p>
 und von wem die Datei hochgeladen wurde sowie etwaige Beschreibungen der
 Datei.</p>
 
-<p>Serendipity stellt nur die Dateien der Mediendatenbank dar, die auch in
+<p>Serendipity stellt nur die Dateien der Mediathek dar, die auch in
 dieser Datenbanktabelle verzeichnet sind. Dateien, die lediglich manuell
 mittels FTP-Programm in das Verzeichnis <code>uploads</code> auf den Server
 geladen werden, sind dort vorerst nicht enthalten.</p>
@@ -1993,27 +1993,27 @@ geladen werden, sind dort vorerst nicht enthalten.</p>
 <p>
 <span class="tag-box invisible">
     <span class="inline-tag">Synchronisierung</span>
-    <span class="inline-tag">Mediendatenbank!Synchronisierung</span>
+    <span class="inline-tag">Mediathek!Synchronisierung</span>
 </span>
 Aufgrund dieser zwei unterschiedlichen Komponenten ist es wichtig, dass
 Serendipity diese ständig miteinander <em>synchronisiert</em>, denn sonst
 könnte es passieren, dass Ihnen Dateien angezeigt werden, die gar nicht
 existieren - oder Ihnen könnten bereits hochgeladene Dateien fehlen.</p>
 
-<p>Im Dateisystem der Mediendatenbank können sowohl Bilder (JPEG, GIF,
+<p>Im Dateisystem der Mediathek können sowohl Bilder (JPEG, GIF,
 PNG und weitere) verwaltet werden als auch beliebige andere Dokumente
 (MP3, AVI, ZIP, DOC, PDF, etc.). Diese Dateien können zur besseren
 Strukturierung auch in beliebig verschachtelten Unterverzeichnissen
 abgelegt werden.</p>
 
 <p>Unterschiedliche Schreib- und Leserechte auf Bildordner können über die
-Meta-Informationen der Mediendatenbank verwaltet werden.</p>
+Meta-Informationen der Mediathek verwaltet werden.</p>
 
 <p>
 <span class="tag-box invisible">
     <span class="inline-tag">Thumbnails</span>
 </span>
-Bilder können in der Mediendatenbank speziell bearbeitet werden. So kann
+Bilder können in der Mediathek speziell bearbeitet werden. So kann
 man die Bilder auf dem Server vergrößern/verkleinern, und Serendipity kann
 kleine Vorschaubilder (<em>Thumbnails</em>) einer Grafik erstellen. Für
 diesen Automatismus muss Ihr Webserver entweder <em>gdlib</em> oder
@@ -2038,28 +2038,28 @@ für den Upload festsetzen kann und das intern beim Upload größere Bilder bere
 Hier ist ImageMagick als Toolkit für die graphische Voraussetzung sehr zu empfehlen.</p> 
 
 <p class="tagging invisible">
-<span class="label invisible" id="Mediendaten hinzufuegen">Mediendaten hinzufuegen</span>
+<span class="label invisible" id="Medien hinzufuegen">Medien hinzufuegen</span>
 <span class="tag-box invisible">
-    <span class="inline-tag">Mediendaten!hinzufügen|see{Backend, Mediendaten hinzufügen}</span>
-    <span class="inline-tag">Backend!Mediendaten!hinzufügen</span>
+    <span class="inline-tag">Medien!hinzufügen|see{Backend, Medien hinzufügen}</span>
+    <span class="inline-tag">Backend!Medien!hinzufügen</span>
 </span>
 </p>
 
 <section id="U451" class="sub">
-<span class="u-toc">4.5.1 - Mediendaten hinzufügen</span>
+<span class="u-toc">4.5.1 - Medien hinzufügen</span>
 
-<h3 class="subsection" id="mediendaten-hinzufügen">Mediendaten hinzufügen</h3>
+<h3 class="subsection" id="medien-hinzufügen">Medien hinzufügen</h3>
 
-<p>Um Ihre Mediendatenbank mit Daten zu füllen, müssen Sie die Dateien in
+<p>Um Ihre Mediathek mit Daten zu füllen, müssen Sie die Dateien in
 dieser Datenbank <em>anmelden</em>. Um eine Datei komfortabel über die Oberfläche
-hochladen zu können, gibt es den Menüpunkt <span class="mbold">Mediendaten hinzufügen</span>.</p>
+hochladen zu können, gibt es den Menüpunkt <span class="mbold">Medien hinzufügen</span>.</p>
 
 <p>Auf dieser Seite können Sie zwischen zwei Varianten wählen, von welcher Quelle
 eine Datei eingestellt werden soll.</p>
 
 <figure id="fig-upload">
     <img src="img/upload.png">
-    <figcaption>Abbildung 4.12: Mediendatenbank: Mediendaten hinzufügen</figcaption>
+    <figcaption>Abbildung 4.12: Mediathek: Medien hinzufügen</figcaption>
 </figure>
 
 <p>Die erste Variante ist der Download einer Datei, die bereits im Internet
@@ -2126,7 +2126,7 @@ Namen</span> können Sie einen Dateinamen für die hochgeladene Datei vergeben.
 Standardmäßig wird hier der Originalname der Datei von Ihrer Festplatte
 eingetragen. Im Feld <span class="mbold">In diesem Verzeichnis ablegen</span> können
 Sie das Unterverzeichnis auswählen, in dem die Datei später gespeichert
-wird. Unterverzeichnisse werden über den Mediendatenbank-Menüpunkt
+wird. Unterverzeichnisse werden über den Mediathek-Menüpunkt
 <span class="mbold">Verzeichnisse verwalten</span> (siehe Kapitel <span class="reference">Verzeichnisse
 verwalten</span> auf Seite <span class="pageref"><a href="#Verzeichnisse verwalten">Verzeichnisse verwalten</a></span>) erstellt.</p>
 
@@ -2151,7 +2151,7 @@ Datei und erstellt ggf. automatisch kleine Voransichten. Wenn Sie
 jedoch auf <span class="mbold">Los und Eigenschaften angeben</span> klicken, werden Sie auf
 einer Folgeseite gebeten, zu einer Datei optionale Meta-Informationen
 anzugeben. Diese Meta-Informationen können Sie auch später noch
-nachtragen oder überarbeiten, wenn sie in der Mediendatenbank bereits
+nachtragen oder überarbeiten, wenn sie in der Mediathek bereits
 gespeichert sind.</p>
 
 </section><!-- section.sub end -->
@@ -2207,13 +2207,13 @@ lieber mittels FTP-Programm auf den Server laden.</p>
 
 <p>Wenn Sie beim Hochladen einer Datei auf den Button <span class="mbold">Los und
 Eigenschaften angeben</span> geklickt oder innerhalb der
-Mediendatenbank-Übersicht auf das <span class="mbold">Blacklist</span>-Symbol einer Datei
+Mediathek-Übersicht auf das <span class="mbold">Blacklist</span>-Symbol einer Datei
 geklickt haben, landen Sie auf einer Seite, in der Sie die Eigenschaften
 einer Datei überarbeiten können.</p>
 
 <figure id="fig-upload2">
     <img src="img/upload2.png">
-    <figcaption>Abbildung 4.13: Mediendatenbank: Eigenschaften angeben</figcaption>
+    <figcaption>Abbildung 4.13: Mediathek: Eigenschaften angeben</figcaption>
 </figure>
 
 <p>Diese Seite stellt die betreffenden Meta-Informationen einer Datei dar.
@@ -2308,7 +2308,7 @@ wird, falls das Bild aus irgendwelchen Gründen nicht im Frontend angezeigt werd
     </span>
 
     <span class="tag-box invisible">
-        <span class="inline-tag">Mediendaten!verschieben</span>
+        <span class="inline-tag">Medien!verschieben</span>
     </span>
     <span class="box">
         Bei der Änderung werden die Datei sowie das Vorschaubild in das
@@ -2328,7 +2328,7 @@ wird, falls das Bild aus irgendwelchen Gründen nicht im Frontend angezeigt werd
 </span>
 </p>
 
-<p>Diese Felder können später von Redakteuren in der Mediendatenbank eingesehen und
+<p>Diese Felder können später von Redakteuren in der Mediathek eingesehen und
 durchsucht werden und stehen auch in speziellen Galerie-Ansichten (siehe Seite
 <span class="pageref"><a href="#mdb-profi">mdb-profi</a></span>) für normale Besucher zur Verfügung.
 Sie können auch individuell weitere Meta-Informationsfelder für Dateien
@@ -2347,7 +2347,7 @@ werden dabei ebenfalls an zentraler Stelle der Serendipity-Konfiguration
 
 <p>Jedes Schlüsselwort kann über die Aktivierung der links daneben stehenden
 Auswahlbox aktiviert werden. Schlüsselwörter machen es später leichter,
-eine Datei mit bestimmten Kriterien über eine Suche in der Mediendatenbank
+eine Datei mit bestimmten Kriterien über eine Suche in der Mediathek
 wieder aufzufinden.</p>
 
 <p>
@@ -2366,7 +2366,7 @@ können sie von Ihnen nicht bearbeitet werden, sondern dienen nur der
 Information. Moderne Digitalkameras speichern diese Informationen in den
 erstellten Bilddateien automatisch ab.</p>
 
-<p>Sollte eine Datei über die Mediendatenbank im Frontend speziell
+<p>Sollte eine Datei über die Mediathek im Frontend speziell
 eingebunden werden (siehe Seite <span class="pageref"><a href="#mdb-by-id">mdb-by-id</a></span>), können Sie in einem weiteren
 Abschnitt alle Verweisquellen aufgelistet sehen. Die dort aufgeführten
 Webseiten stellen also Internet-Seiten dar, auf denen das aktuelle Bild
@@ -2377,30 +2377,30 @@ können.</p>
 </section><!-- section.sub end -->
 
 <section id="U454" class="sub">
-<span class="u-toc">4.5.4 - Mediendatenbank: Übersicht</span>
+<span class="u-toc">4.5.4 - Mediathek: Übersicht</span>
 
-<h3 class="subsection" id="mediendatenbank-übersicht">Mediendatenbank: Übersicht</h3>
+<h3 class="subsection" id="mediathek-übersicht">Mediathek: Übersicht</h3>
 
 <p class="tagging invisible">
 <span class="tag-box invisible">
-    <span class="inline-tag">Backend!Mediendatenbank</span>
+    <span class="inline-tag">Backend!Mediathek</span>
 </span>
 </p>
 
-<p>Über den Menüpunkt <span class="mbold">Mediendatenbank</span> wird die zentrale Übersicht
-aller in der Mediendatenbank eingetragenen Dateien aufgerufen.</p>
+<p>Über den Menüpunkt <span class="mbold">Mediathek</span> wird die zentrale Übersicht
+aller in der Mediathek eingetragenen Dateien aufgerufen.</p>
 
 <p>Diese Seite haben Sie möglicherweise auch schon im Kapitel
-<span class="reference">Mediendatenbank-Popup</span> auf Seite <span class="pageref"><a href="#Mediendatenbank-Popup">Mediendatenbank-Popup</a></span>
+<span class="reference">Mediathek-Popup</span> auf Seite <span class="pageref"><a href="#Mediathek-Popup">Mediathek-Popup</a></span>
 gesehen, dort jedoch noch ohne Bearbeitungsoptionen für jede Datei.</p>
 
 <p>Die Übersicht besteht aus einem Kopfbereich zur Suche in der
-Mediendatenbank und darunter einer zweispaltigen Ansicht aller von Ihnen
+Mediathek und darunter einer zweispaltigen Ansicht aller von Ihnen
 hochgeladenen Dateien, oder eines einzelnen Ordners.</p>
 
 <figure id="fig-ml_directory">
     <img src="img/ml_directory.png">
-    <figcaption>Abbildung 4.14: Mediendatenbank: Übersicht</figcaption>
+    <figcaption>Abbildung 4.14: Mediathek: Übersicht</figcaption>
 </figure>
 
 <p>Die Seite stellt standardmäßig jeweils acht Dateien pro Seite dar und kann
@@ -2408,21 +2408,21 @@ hochgeladenen Dateien, oder eines einzelnen Ordners.</p>
 und nach der Dateiübersicht) geblättert werden.
 Mit Serendipity 2.1 kamen noch Seitenanfang und Seitenende Buttons, wie auch für die Blog Eintrags Liste hinzu.
 Ebenfalls neu ist die Möglichkeit, analog zur bisherigen Sammel-Löschung mittels checkbox Auswahl, einer Sammel-Verschiebung von Dateien
-innerhalb der Mediendatenbank über den "Bewegen" Knopf und das Verzeichnis Auswahl Feld am unteren Ende. Damit können etwas ausgeuferte
+innerhalb der Mediathek über den "Bewegen" Knopf und das Verzeichnis Auswahl Feld am unteren Ende. Damit können etwas ausgeuferte
 Mediendatei-Sammlungen effizient in Form gebracht werden.</p>
 
 <figure id="fig-ml_imageinfo">
     <img src="img/ml_imageinfo.png">
-    <figcaption>Abbildung 4.14a: Mediendatenbank: Symbolleiste</figcaption>
+    <figcaption>Abbildung 4.14a: Mediathek: Symbolleiste</figcaption>
 </figure>
 
 <p>In dem zweispaltigen Bereich wird pro Box ein Objekt aus der
-Mediendatenbank dargestellt, mit den jeweiligen Informationen und
+Mediathek dargestellt, mit den jeweiligen Informationen und
 Optionen dieses Objekts:</p>
 
 <p class="desc">
 <span class="tag-box invisible">
-    <span class="inline-tag">Mediendatenbank!Symbolleiste</span>
+    <span class="inline-tag">Mediathek!Symbolleiste</span>
 </span><!-- tagbox -->
 <span class="item mbold">Symbolleiste</span><!-- menuitem -->
 <span class="desc-info">
@@ -2497,12 +2497,12 @@ Optionen dieses Objekts:</p>
 
 <figure id="fig-ml_imagesize">
     <img src="img/ml_imagesize.png">
-    <figcaption>Abbildung 4.14b: Mediendatenbank: Symbolleiste: Proportionen ändern</figcaption>
+    <figcaption>Abbildung 4.14b: Mediathek: Symbolleiste: Proportionen ändern</figcaption>
 </figure>
 
 <figure id="fig-ml_imagepoperties">
     <img src="img/ml_imagepoperties.png">
-    <figcaption>Abbildung 4.14c: Mediendatenbank: Symbolleiste: Medien Eigenschaften</figcaption>
+    <figcaption>Abbildung 4.14c: Mediathek: Symbolleiste: Medien Eigenschaften</figcaption>
 </figure>
 
 <p class="desc">
@@ -2527,7 +2527,7 @@ Medieninhalte mehr vergeben wird.</span>
 
 <figure id="fig-ml_filter_sort">
     <img src="img/ml_filter_sort.png">
-    <figcaption>Abbildung 4.15: Mediendatenbank: Filtern und Sortieren</figcaption>
+    <figcaption>Abbildung 4.15: Mediathek: Filtern und Sortieren</figcaption>
 </figure>
 
 <p>Üblicherweise richten sich die dargestellten Dateien nach deren
@@ -2537,10 +2537,10 @@ Datei abgelegt wurde. Diese Reihenfolge und die Kriterien, nach denen Dateien
 angezeigt werden, können Sie im Kopfbereich anpassen:</p>
 
 <p class="tagging invisible">
-<span class="label invisible" id="Mediendatenbank Filter">Mediendatenbank Filter</span>
+<span class="label invisible" id="Mediathek Filter">Mediathek Filter</span>
 <span class="tag-box invisible">
-    <span class="inline-tag">Mediendatenbank!Filter</span>
-    <span class="inline-tag">Mediendatenbank!Sortieren</span>
+    <span class="inline-tag">Mediathek!Filter</span>
+    <span class="inline-tag">Mediathek!Sortieren</span>
 </span>
 </p>
 
@@ -2554,7 +2554,7 @@ Unterverzeichnis Dateien dargestellt werden sollen.</span>
     <span class="item mbold">Filter: Dateiname</span><!-- menuitem -->
     <span class="desc-info">
         <span class="box">
-            Wenn Sie die Mediendatenbank nach einem ganz speziellen Dateinamen durchsuchen wollen,
+            Wenn Sie die Mediathek nach einem ganz speziellen Dateinamen durchsuchen wollen,
             können Sie diesen in dem Eingabefeld <span class="mbold">Dateiname</span> eintragen.
             Dabei wird die Suche später auch nach Teilwörtern und ohne Berücksichtigung der
             Groß- und Kleinschreibung ausgeführt. So könnten Sie beispielsweise nach allen
@@ -2743,7 +2743,7 @@ der Übersicht angezeigt werden sollen. Die Auswahl ist auf <span class="mbold">
 ob <span class="mbold">nur</span> Dateien des ausgewählten Verzeichnissebene,
 oder alle Mediendateien inklusive der Unterverzeichnisse dargestellt werden
 sollen. Diese Option ist ungemein hilfreich, wenn Sie über eine gut und
-verschachtelt sortierte Mediendatenabnk verfügen.</span>
+verschachtelt sortierte Mediathek verfügen.</span>
 </p>
 
 <p>&nbsp;</p><!-- separator -->
@@ -2770,19 +2770,19 @@ auswerten und danach alle Suchergebnisse in der gewohnten blätterbaren
 <p>
 <span class="tag-box invisible">
     <span class="inline-tag">Zugriffsrechte</span>
-    <span class="inline-tag">Mediendatenbank!Zugriffsrechte</span>
+    <span class="inline-tag">Mediathek!Zugriffsrechte</span>
 </span>
 Ähnlich wie die Verwaltung der Kategorien (siehe Kapitel <span class="reference">Kategorien</span>
 auf Seite <span class="pageref"><a href="#Kategorien">Kategorien</a></span>) können Schreib- und Leserechte von
-Mediendatenbank-Dateien verwaltet werden.</p>
+Mediathek-Dateien verwaltet werden.</p>
 
 <p>Hinter dem Menüpunkt <span class="mbold">Verzeichnisse verwalten</span> sehen Sie eine
-Übersicht aller Unterverzeichnisse der Mediendatenbank
+Übersicht aller Unterverzeichnisse der Mediathek
 (<code>uploads</code>-Verzeichnis im Serendipity-Stammverzeichnis).</p>
 
 <figure id="fig-ml_directories">
     <img src="img/ml_directories.png">
-    <figcaption>Abbildung 4.16: Mediendatenbank: Verzeichnisse verwalten: Neues Verzeichnis anlegen</figcaption>
+    <figcaption>Abbildung 4.16: Mediathek: Verzeichnisse verwalten: Neues Verzeichnis anlegen</figcaption>
 </figure>
 
 <p>Neben allen Verzeichnissen, die jeweils wie im Dateisystem verschachtelt
@@ -2799,7 +2799,7 @@ Seite <span class="pageref"><a href="#Zugriffsrechte">Zugriffsrechte</a></span>)
 
 <figure id="fig-ml_directories_new">
     <img src="img/ml_directories_new.png">
-    <figcaption>Abbildung 4.16a: Mediendatenbank: Verzeichnisse verwalten: Neues Verzeichnis anlegen</figcaption>
+    <figcaption>Abbildung 4.16a: Mediathek: Verzeichnisse verwalten: Neues Verzeichnis anlegen</figcaption>
 </figure>
 
 <p><span class="label invisible" id="mdb-zugriffsrechte">mdb-zugriffsrechte</span> Ein erstelltes Verzeichnis kann bearbeitet werden, indem Sie auf das
@@ -2809,15 +2809,15 @@ Auswahlfelder für die <span class="mbold">Leserechte</span> und die <span class
 
 <figure id="fig-ml_directories_edit">
     <img src="img/ml_directories_edit.png">
-    <figcaption>Abbildung 4.17: Mediendatenbank: Verzeichnisse verwalten: Verzeichnis bearbeiten</figcaption>
+    <figcaption>Abbildung 4.17: Mediathek: Verzeichnisse verwalten: Verzeichnis bearbeiten</figcaption>
 </figure>
 
 <p>Diese Zugriffsrechte bestimmen ausschließlich die Zugriffsmöglichkeiten
 innerhalb Serendipitys. Wenn Ihre Redakteure auch per FTP Zugriff auf die
-Dateien der Mediendatenbank haben, entzieht sich dies Serendipitys
+Dateien der Mediathek haben, entzieht sich dies Serendipitys
 Zugriffsmöglichkeiten.</p>
 
-<p>Die Zugriffsrechte in der Mediendatenbank werden auch nicht herangezogen,
+<p>Die Zugriffsrechte in der Mediathek werden auch nicht herangezogen,
 wenn eine in einem Artikel eingebundene Datei im Frontend angezeigt wird.
 Der Link für eine eingebundene Datei zeigt direkt auf den Dateinamen und
 kann außerhalb von Serendipity über den normalen Webserver
@@ -2826,7 +2826,7 @@ Datei nicht involviert und kann daher auch keine Zugriffsrechte auswerten.[*]
 <span class="footnote"><i class="fa fa-info-circle"></i> Um Bilder <em>nicht</em> über den vollständigen
 URL-Pfad auszugeben und so Zugriffsrechte abzufragen, gibt es jedoch einen
 Trick, der auf Seite <span class="pageref"><a href="#mdb-by-id">mdb-by-id</a></span> erklärt wird.</span><!-- footnote -->
-Einzig das Mediendatenbank-Popup und weitere Funktionalitäten für
+Einzig das Mediathek-Popup und weitere Funktionalitäten für
 Redakteure werten später die Zugriffsrechte aus und zeigen entsprechend
 der Rechte eines Redakteurs die ihm verfügbaren Optionen an.</p>
 
@@ -2834,7 +2834,7 @@ der Rechte eines Redakteurs die ihm verfügbaren Optionen an.</p>
 für alle darin enthaltenen Dateien. Solche Dateien könnte ein Redakteur
 daher später nicht löschen. Wenn ein Redakteur auch keine Leserechte in
 einem Verzeichnis besitzt, wird er derartige Bilder in der
-Mediendatenbank-Ansicht erst gar nicht angezeigt bekommen.</p>
+Mediathek-Ansicht erst gar nicht angezeigt bekommen.</p>
 
 <p>Die Lese- und Schreibrechte können jeweils für mehrere Benutzergruppen
 definiert werden, indem Sie die <em>(Strg/Apfel)</em>-Taste gedrückt halten und
@@ -2853,20 +2853,20 @@ Unterverzeichnisse anwenden</span> aktivieren.</p>
 
 <p>
 <span class="tag-box invisible">
-    <span class="inline-tag">Mediendatenbank!Verzeichnisse löschen</span>
+    <span class="inline-tag">Mediathek!Verzeichnisse löschen</span>
 </span>
 Um ein Verzeichnis zu löschen, klicken Sie auf das <span class="mbold">Mülleimer</span> Symbol. Sie
 gelangen danach auf eine Unterseite, die Sie nochmals fragt, ob Sie das
 Verzeichnis inklusive aller Dateien löschen (sowohl in der
 Mediendatenbank als auch im Dateisystem) wollen.
 <span class="tag-box invisible">
-    <span class="inline-tag">Mediendatenbank!FTP</span>
+    <span class="inline-tag">Mediathek!FTP</span>
 </span>
 Wenn Sie einmal Dateien mittels FTP in das zu löschende Verzeichnis (oder
 eines seiner Unterverzeichnisse) hochgeladen haben, kann es sein, dass
-sich darin Dateien befinden, die die Mediendatenbank noch nicht
+sich darin Dateien befinden, die die Mediathek noch nicht
 synchronisiert/importiert hat. Standardmäßig löscht Serendipity jedoch
-nur alle Dateien, die in der Mediendatenbank auch verzeichnet sind. Wenn
+nur alle Dateien, die in der Mediathek auch verzeichnet sind. Wenn
 Sie die Option <span class="mbold">Alle Dateien dieses Verzeichnisses löschen</span>
 aktivieren, wird Serendipity auch alle dem System unbekannten Dateien
 zu löschen versuchen. Auch hier gilt wieder, dass Serendipity nur Dateien
@@ -2874,7 +2874,7 @@ löschen kann, auf die es auch Schreibzugriff hat.</p>
 
 <figure id="fig-ml_directories_del">
     <img src="img/ml_directories_del.png">
-    <figcaption>Abbildung 4.18: Mediendatenbank: Verzeichnisse verwalten: Verzeichnis löschen</figcaption>
+    <figcaption>Abbildung 4.18: Mediathek: Verzeichnisse verwalten: Verzeichnis löschen</figcaption>
 </figure>
 
 </section><!-- section.sub end -->
@@ -2890,23 +2890,23 @@ löschen kann, auf die es auch Schreibzugriff hat.</p>
     <span class="inline-tag">Vorschauen erneuern|see{Backend, Vorschauen erneuern}</span>
     <span class="inline-tag">Backend!Vorschauen erneuern</span>
     <span class="inline-tag">FTP!Synchronisation</span>
-    <span class="inline-tag">Mediendatenbank!Synchronisierung</span>
+    <span class="inline-tag">Mediathek!Synchronisierung</span>
     <span class="inline-tag">Synchronisierung</span>
     <span class="inline-tag">Thumbnails</span>
 </span>
 </p>
 
-<p>Mit Serendipity 2.0 rückte dieser administrative Teil der Mediendatenbank an sich,
+<p>Mit Serendipity 2.0 rückte dieser administrative Teil der Mediathek an sich,
 in die <span class="mbold">Wartung</span>s Sektion der <span class="pageref">Backend:
 <a href="#S470">Einstellungen</a></span>, genauer <span class="pageref">Wartung:
 <a href="#U495">Vorschauen erneuern</a></span>.</p>
 
-<p>Wie am Anfang des Kapitels <span class="reference">Mediendatenbank</span> auf Seite
-<span class="pageref"><a href="#Mediendatenbank">Mediendatenbank</a></span> erklärt,
+<p>Wie am Anfang des Kapitels <span class="reference">Mediathek</span> auf Seite
+<span class="pageref"><a href="#Mediathek">Mediathek</a></span> erklärt,
 muss Serendipity zwischen den Dateien innerhalb der Verzeichnisstruktur auf dem Server
 und einer Datenbanktabelle mit Meta-Informationen synchronisieren.</p>
 
-<p>Wenn Sie also Dateien mittels FTP in das Mediendatenbank-Verzeichnis
+<p>Wenn Sie also Dateien mittels FTP in das Mediathek-Verzeichnis
 <code>uploads</code> hineinkopieren, wird Serendipity davon erst einmal nichts
 mitbekommen. Damit Serendipity einen Abgleich zwischen Dateien auf dem
 Server und der Mediendatenbank durchführen kann, nutzen Sie den Menüpunkt
@@ -2916,7 +2916,7 @@ Server und der Mediendatenbank durchführen kann, nutzen Sie den Menüpunkt
 Unterverzeichnisse des <code>uploads</code>-Verzeichnisses durchgehen und
 prüfen, ob die Datei bereits (oder noch) in der Mediendatenbank vorhanden
 ist. Etwaige gelöschte Dateien auf dem Server werden daraufhin aus der
-Mediendatenbank entfernt und neue Dateien importiert.</p>
+Mediathek entfernt und neue Dateien importiert.</p>
 
 <p>Für jede gelöschte oder neu hinzugefügte Datei wird daraufhin ein
 Hinweis auf die durchgeführte Aktion ausgegeben. Die Meldung <code>Fertig
@@ -2931,15 +2931,15 @@ oder verändern müssen.</p>
 <span class="tag-box invisible">
     <span class="inline-tag">Performance</span>
 </span>
-Wenn Sie besonders viele Dateien und Verzeichnisse in der Mediendatenbank
+Wenn Sie besonders viele Dateien und Verzeichnisse in der Mediathek
 gespeichert haben, kann die Ausführung dieser Funktion möglicherweise
 sehr lange dauern oder gar zu Server/PHP-Timeouts führen. Wenn dies
 passiert, sollten Sie entweder überlegen, alte Dateien in der
-Mediendatenbank zu löschen, oder Sie können alternativ in der
+Mediathek zu löschen, oder Sie können alternativ in der
 Serendipity-Konfiguration die automatische Synchronisierung der
-Mediendatenbank aktivieren (siehe Seite <span class="pageref"><a href="#MDB-Synchronisation">MDB-Synchronisation</a></span>).
+Mediathek aktivieren (siehe Seite <span class="pageref"><a href="#MDB-Synchronisation">MDB-Synchronisation</a></span>).
 Sobald die automatische Synchronisierung aktiviert ist, werden extern
-hochgeladene Dateien beim Betrachten der Mediendatenbank automatisch
+hochgeladene Dateien beim Betrachten der Mediathek automatisch
 importiert. Dies beansprucht weniger Zeit, da bei einem etwaigen
 Verbindungsabbruch an der Stelle fortgefahren werden kann, bei der zuletzt
 abgebrochen wurde.</p>
@@ -2954,7 +2954,7 @@ könnten sämtliche Vorschaubilder mit der neuen Auflösung neu berechnet werden
 
 <p>Die automatische Synchronisierung kann Änderungen in der
 Vorschaubild-Auflösung nicht automatisch durchführen. Wenn also Ihre
-Mediendatenbank zu groß geworden ist, um die Ausführung der Funktion
+Mediathek zu groß geworden ist, um die Ausführung der Funktion
 <span class="mbold">Vorschauen erneuern</span> erfolgreich zu beenden,
 müssen Sie die Vorschaubilder leider manuell mittels anderer
 Bildverwaltungsprogramme verkleinern.</p>
@@ -4649,7 +4649,7 @@ konfigurierten Pfad haben.</p>
 <span class="desc-info">
     <span class="box">
         Unterhalb des im <span class="mbold">Voller Pfad</span> eingetragenen Verzeichnisses
-        befindet sich der Ordner, in dem die Dateien der Mediendatenbank
+        befindet sich der Ordner, in dem die Dateien der Mediathek
         gespeichert werden sollen (üblicherweise <code>uploads</code>). Wenn Sie Ihre
         Mediendateien in einem anderen Verzeichnis speichern wollen, können Sie
         den gewünschten Speicherort relativ zum vollen Pfad hier eintragen.
@@ -5834,7 +5834,7 @@ Referrer-Statistik übernommen.</span>
 </p>
 
 <p>Der letzte Bereich, <span class="mbold">Bildkonvertierung</span>, legt einige Optionen
-für die Mediendatenbank und die Vorschaubild-Erzeugung fest.</p>
+für die Mediathek und die Vorschaubild-Erzeugung fest.</p>
 
 <p class="desc">
 <span class="tag-box invisible">
@@ -5875,8 +5875,8 @@ für die Mediendatenbank und die Vorschaubild-Erzeugung fest.</p>
         ungefähr gleichwertig; anderseits aber unterstützt ImageMagick mehr
         Dateitypen und kann Bilder auf viel mehr Arten transformieren als die GD-Bibliothek.
         Es erlaubt Ihnen, Code von größerer Klarheit und Qualität zu schreiben. Und
-        ImageMagick kann exaktere Zuschnitte von Bildern forcieren, was eventuelle
-        bei der Serendipity Mediendatenbank von Bedeutung sein kann.
+        ImageMagick kann exaktere Zuschnitte von Bildern forcieren, was eventuell
+        bei der Serendipity Mediathek von Bedeutung sein kann.
     </span>
 </span>
 </p>
@@ -5918,8 +5918,8 @@ bei der Vorschaubild-Erzeugung auftreten.</span>
     <span class="box">
         Diesen Dateinamen können Sie über die Option <span class="mbold">Thumbnail-Endung</span>
         selber festlegen. Wenn Sie den Dateinamen ändern und bereits Dateien
-        in der Mediendatenbank vorhanden sind, müssen Sie im Menü
-        <span class="mbold">Mediendatenbank</span> auf <span class="mbold">Vorschauen erneuern</span> klicken.
+        in der Mediathek vorhanden sind, müssen Sie im Menü
+        <span class="mbold">Mediathek</span> auf <span class="mbold">Vorschauen erneuern</span> klicken.
     </span>
 </span>
 </p>
@@ -5941,12 +5941,12 @@ bei der Vorschaubild-Erzeugung auftreten.</span>
     </span>
 
     <span class="box">
-        Serendipity zeigt die Vorschaubilder in der Mediendatenbank stets in der
+        Serendipity zeigt die Vorschaubilder in der Mediathek stets in der
         hier konfigurierten Größe an. Wenn Sie also größere (oder kleinere)
         Vorschaubilder bevorzugen, können Sie die maximale Größe unter
         <span class="mbold">Thumbnailgröße</span> einstellen. Auch hier müssen Sie auf
         <span class="mbold">Vorschauen erneuern</span> klicken, wenn Sie diesen Wert ändern, obwohl
-        Sie schon Dateien in die Mediendatenbank eingestellt haben.
+        Sie schon Dateien in die Mediathek eingestellt haben.
     </span>
 </span>
 </p>
@@ -5981,7 +5981,7 @@ bei der Vorschaubild-Erzeugung auftreten.</span>
 <span class="desc-info">
     <span class="box">
         Wenn Sie den Upload von Dateien künstlich einschränken wollen, können
-        Sie die maximale Dateigröße einer in die Mediendatenbank hochgeladenen
+        Sie die maximale Dateigröße einer in die Mediathek hochgeladenen
         Datei über das Feld <span class="mbold">Maximale Dateigröße für den Upload</span>
         einstellen.
     </span>
@@ -6040,20 +6040,20 @@ Internet nicht geeignet sind.</span>
 <span class="tag-box invisible">
     <span class="inline-tag">Automagische Synchronisation</span>
     <span class="inline-tag">Synchronisierung</span>
-    <span class="inline-tag">Konfiguration!Automagische Synchronisation der Mediendatenbank</span>
+    <span class="inline-tag">Konfiguration!Automagische Synchronisation der Mediathek</span>
     <span class="inline-tag">Fehler!beim Zugriff auf Mediendateien</span>
 </span>
-<span class="item mbold">Automagische Synchronisation der Mediendatenbank</span><!-- menuitem -->
+<span class="item mbold">Automagische Synchronisation der Mediathek</span><!-- menuitem -->
 <span class="desc-info">
     <span class="box">
-        Da Serendipity, wie im Kapitel <span class="reference">Mediendatenbank</span> ab Seite
-        <span class="pageref"><a href="#Mediendatenbank">Mediendatenbank</a></span> beschrieben, den Dateibestand des
+        Da Serendipity, wie im Kapitel <span class="reference">Mediathek</span> ab Seite
+        <span class="pageref"><a href="#Mediathek">Mediathek</a></span> beschrieben, den Dateibestand des
         Upload-Verzeichnisses mit einer eigenen Datenbanktabelle abgleicht,
         kann es hier zu Unterschieden kommen.
     </span>
 
     <span class="box">
-        Serendipity kann bei jedem Aufruf der Mediendatenbank prüfen, ob
+        Serendipity kann bei jedem Aufruf der Mediathek prüfen, ob
         möglicherweise Dateien hinzugekommen oder gelöscht worden sind. Dazu
         werden alle Verzeichnisse und Dateien auf dem Server mit der Datenbank
         abgeglichen. Serendipity optimiert den Zugriff dabei, indem es diese
@@ -6065,7 +6065,7 @@ Internet nicht geeignet sind.</span>
         <span class="inline-tag">Performance</span>
     </span>
     <span class="box">
-        Dieser Vorgang kann bei einer großen Mediendatenbank
+        Dieser Vorgang kann bei einer großen Mediathek
         möglicherweise zu Ressourcen-Engpässen führen. In so einem Fall müssen
         Sie die <span class="mbold">automagische Synchronisation</span> deaktivieren.
     </span>
@@ -6073,7 +6073,7 @@ Internet nicht geeignet sind.</span>
     <span class="box">
         Wenn der automatische Synchronisationsvorgang eine neue Datei findet
         oder eine alte Datei löscht, wird dies direkt innerhalb der
-        Mediendatenbank dargestellt.
+        Mediathek dargestellt.
     </span>
 </span>
 </p>
@@ -6090,7 +6090,7 @@ Internet nicht geeignet sind.</span>
     </span>
 
     <span class="box">
-        Ein Teil der Mediendatenbank kann aber auch (manuell) über
+        Ein Teil der Mediathek kann aber auch (manuell) über
         das Frontend angesprochen und benutzt werden, um Grafiken auch in jeder
         anderen beliebigen Dateigröße auszugeben (siehe Seite <span class="pageref"><a href="#mdb-profi">mdb-profi</a></span>).
     </span>
@@ -6104,9 +6104,9 @@ Internet nicht geeignet sind.</span>
 <span class="item mbold">EXIF/JPEG Metadaten übernehmen?</span><!-- menuitem -->
 <span class="desc-info">
     <span class="box">
-        Wenn Sie ein Bild in die Mediendatenbank von Serendipity hochladen,
+        Wenn Sie ein Bild in die Mediathek von Serendipity hochladen,
         kann Serendipity automatisch die Binärdaten des Bildes auswerten und in
-        der Mediendatenbank speichern. In solchen Binärdateien können
+        der Mediathek speichern. In solchen Binärdateien können
         <span class="tag-box invisible">
             <span class="inline-tag">EXIF</span>
         </span>
@@ -6122,7 +6122,7 @@ Internet nicht geeignet sind.</span>
     </span>
     <span class="box">
         Serendipity kann diese Metadaten innerhalb der
-        Mediendatenbank anzeigen. Da das Auslesen der Binärdaten einiges an
+        Mediathek anzeigen. Da das Auslesen der Binärdaten einiges an
         Server-Ressourcen beanspruchen kann, könnte dies möglicherweise zu sehr
         großen Datenmengen in der Datenbank (dort werden die Metadaten
         zwischengespeichert) oder auch dazu führen, dass das Hochladen von
@@ -6143,7 +6143,7 @@ Internet nicht geeignet sind.</span>
 <span class="item mbold">Medien-Eigenschaften</span><!-- menuitem -->
 <span class="desc-info">
     <span class="box">
-        Zu jeder Datei in der Serendipity-Mediendatenbank können Sie eine
+        Zu jeder Datei in der Serendipity-Mediathek können Sie eine
         selbst definierte Menge von möglichen Metadaten eintragen.
     </span>
 
@@ -6174,14 +6174,14 @@ Internet nicht geeignet sind.</span>
     <span class="box">
         Jedes Feld kann einen beliebigen Namen haben, der aber keine
         Sonderzeichen und Leerzeichen beinhalten darf. Wie der Name eines
-        Feldes später in der Mediendatenbank angezeigt wird, richtet sich
+        Feldes später in der Mediathek angezeigt wird, richtet sich
         ebenfalls nach diesem Feld. Serendipity sucht dabei in den
         Sprachdateien (siehe Kapitel <span class="reference">lang-dir</span>, Seite <span class="pageref"><a href="#lang-dir">lang-dir</a></span>)
         nach einer definierten Konstante <code>MEDIA_PROPERTY_DPI</code>.
         Ist diese Konstante definiert, wird die darin definierte Bezeichnung in
-        der Mediendatenbank angezeigt. Gäbe es keine solche Konstante, würde
+        der Mediathek angezeigt. Gäbe es keine solche Konstante, würde
         der Begriff selbst dargestellt werden. Wenn Sie also das Feld
-        <code>QUALITAET</code> am Ende einfügen, wird in der Mediendatenbank auch
+        <code>QUALITAET</code> am Ende einfügen, wird in der Mediathek auch
         <code>QUALITAET</code> angezeigt. Um eine eigene, klarere Bezeichnung zu
         wählen, müssen Sie die Konstante selbst definieren, wie im
         angesprochenen Kapitel erwähnt.
@@ -6241,7 +6241,7 @@ Internet nicht geeignet sind.</span>
         Jeder Datei in der Datenbank können Sie über die Eigenschaftsoberfläche
         einer Liste von selbst definierten Schlüsselwörtern zuordnen. Dabei
         können mehrere Schlüsselwörter einer einzelnen Datei zugewiesen werden,
-        und die Mediendatenbank kann später auch nach diesen Schlüsselwörtern
+        und die Mediathek kann später auch nach diesen Schlüsselwörtern
         durchsucht werden.
     </span>
 
@@ -7337,9 +7337,9 @@ freischalten.</span>
 <span class="item mbold">adminImages</span> und weitere
 <span class="desc-info">
     <span class="box">
-        Um auf die Mediendatenbank zuzugreifen, benötigt ein Redakteur das
+        Um auf die Mediathek zuzugreifen, benötigt ein Redakteur das
         Recht <span class="mbold">adminImages</span>. Weitere feinstufige Rechte kontrollieren, was
-        der Redakteur innerhalb der Mediendatenbank durchführen darf.
+        der Redakteur innerhalb der Mediathek durchführen darf.
     </span>
 
     <span class="box">
@@ -7352,7 +7352,7 @@ freischalten.</span>
     </span>
 
     <span class="box">
-        Die Mediendatenbank selbst kann ein Redakteur zum Einbinden von Dateien
+        Die Mediathek selbst kann ein Redakteur zum Einbinden von Dateien
         nur aufrufen, wenn er das Recht <span class="mbold">adminImagesView</span> besitzt. Um auch
         die Dateien anderer Redakteure anzusehen, benötigt er das Recht
         <span class="mbold">adminImagesViewOthers</span>.
@@ -8349,7 +8349,7 @@ wieder löschen.</p>
 
 <p class="desc-info">
     <span class="box">
-        Dieser Vorgang wurde bereits im Kapitel der Mediendatenbank genauer beschrieben.
+        Dieser Vorgang wurde bereits im Kapitel der Mediathek genauer beschrieben.
         Siehe: <span class="pageref"><a href="#U456">Vorschauen erneuern</a></span>.
         Bitte lesen Sie dort nach was es mit dieser Wartungsaufgabe auf sich hat.
     </span>
@@ -8465,7 +8465,7 @@ wieder löschen.</p>
         Wenn Sie das changelog event Plugin installiert haben (default) und
         die Konfigurationsoptions <span class="mbold">Log Level</span> auf Fehler
         oder Debug gestellt haben, werden bestimmte Ereignisse zB. bei
-        Trackbacks oder bei bestimmten Mediendatenbankaktionen während
+        Trackbacks oder bei bestimmten Mediathekaktionen während
         des Vorganges im Hintergrund still in eine Logdatei geschrieben.
         Diese können Sie dann hier und nur hier einsehen. Der Zugriff auf
         diese Logdateien sollte über das Frontend sollte nicht möglich sein.

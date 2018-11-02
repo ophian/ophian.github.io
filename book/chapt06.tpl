@@ -249,7 +249,7 @@ Siehe: <span class="pageref"><a href="#generelle-einstellungen">Generelle Einste
     <span class="box">
         Diese Debug-oder-Fehler Dateien, die, wenn aktiviert, im Hintergrund
         still in einigen Bereichen, wie zB. bei verschiedenen Operationen der
-        Mediendatenbank, geschrieben werden, können hier ausgelesen und alte
+        Mediathek, geschrieben werden, können hier ausgelesen und alte
         Dateien auch wieder gelöscht werden.
     </span>
 
@@ -715,10 +715,10 @@ Blog-Artikels einige neue Einstellungen tätigen:</p>
         eingerichteten <em>Freien Felder</em>. Für jedes festgelegte Feld können
         Sie hier einen beliebigen Inhalt hinterlegen: HTML-Text, kurze Sätze --
         die Einsatzzwecke sind nur durch Ihre Fantasie begrenzt. Auch ist es
-        möglich, einen Verweis auf eine Datei in der Mediendatenbank einzutragen
+        möglich, einen Verweis auf eine Datei in der Mediathek einzutragen
         -- so könnten Sie beispielsweise einfach eine MP3-Datei mit einem Artikel
         verketten. Um eine Mediendatei leicht einzufügen, befindet sich hinter
-        jedem freien Feld direkt ein Link zum Aufruf der Mediendatenbank. In
+        jedem freien Feld direkt ein Link zum Aufruf der Mediathek. In
         diesem Popup können Sie wie beim Artikeltext gewohnt eine Datei zum
         Einfügen auswählen.
     </span>
@@ -3902,7 +3902,7 @@ erreichbare Toolbar-Button Popup-Dokumentation für die CKEditor Tastatursteueru
         der die Eigenschaften enthält ein Bild aus dem Dateisytem oder Internet zu wählen
         und in den Textbereich per HTML-Markup einzubinden. Dies aber ist ein sensibler Bereich,
         der Serendipity-Funktionen und Serendipity-Eigenschften berührt. Also wurde das CKEdior
-        eigene <em>Form</em>-"blatt" zugunsten des Serendipity eigenen Mediendatenbank Popups/layers
+        eigene <em>Form</em>-"blatt" zugunsten des Serendipity eigenen Mediathek Popups/layers
         deaktiviert. Eine Forum-User-Anfrage brachte aber zutage, dass es wohl (rar gesähte) Nutzer gibt,
         die genau das nicht wollen und auf eigene Risiko das CKE-Image-Form verwenden wollen.
         Diese Deaktivierung des Buttons kann man hier nun rückgängig machen.
@@ -4622,7 +4622,7 @@ möchte, als der Artikeltitel enthält.</p>
 </span>
 </p>
 
-<p>Mittels der Serendipity-Mediendatenbank haben Sie als Blog-Redakteur die
+<p>Mittels der Serendipity-Mediathek haben Sie als Blog-Redakteur die
 Möglichkeit, Dateien in Blog-Artikel einzubinden, damit Ihre Besucher
 diese herunterladen können.</p>
 
@@ -4682,7 +4682,7 @@ Downloadmanager-Kategorie übernehmen möchten. Die Datei wird daraufhin
 aus dem incoming-Verzeichnis in das Zielverzeichnis verschoben.</p>
 
 <p>Als letzte Zuordnungsmöglichkeit können Sie Dateien auswählen, die Sie bereits in
-die Mediendatenbank von Serendipity hochgeladen haben. Ähnlich
+die Mediathek von Serendipity hochgeladen haben. Ähnlich
 wie beim incoming-Verzeichnis können Sie hier eine bestehende Datei
 durch Klick auf das Ordnersymbol mit dem grünen Pfeil in die
 Downloadmanager-Kategorie übernehmen. Dabei wird die Datei aber nicht
@@ -6754,7 +6754,7 @@ recht einfach, da es die Einbindung in den RSS-Feed selbständig
 übernimmt.</p>
 
 <p>Sobald Sie das Plugin installiert haben, können Sie eine MP3-Audiodatei
-einfach in die Serendipity-Mediendatenbank hochladen und in einen
+einfach in die Serendipity-Mediathek hochladen und in einen
 Blog-Artikel einbinden. Wenn Sie einen derartigen Blog-Artikel nun
 speichern, erkennt das Plugin automatisch angehängte MP3-Dateien, bindet
 einen Audioplayer in die Darstellung ein und fügt die MP3-Datei als
@@ -6908,8 +6908,8 @@ platzieren. Konkret funktioniert dies so:</p>
     <li>Wenn Sie nun einen neuen Artikel erstellen, sehen Sie in dem
         Abschnitt <span class="mbold">Erweiterte Optionen</span> ein neues Eingabefeld namens
     <span class="mbold">Podcast</span>. Dort können Sie entweder eine URL zu der
-        MP3-Datei eingeben oder mittels des Buttons <span class="mbold">Mediendatenbank</span> eine
-        Datei aus der Mediendatenbank auswählen.</li>
+        MP3-Datei eingeben oder mittels des Buttons <span class="mbold">Mediathek</span> eine
+        Datei aus der Mediathek auswählen.</li>
     <li>Nach dem Speichern eines Artikels ist nun ein Datenbankfeld mit
         der URL zu der Podcast-Datei angelegt worden. Diese Variable
         möchten Sie nun an einer festen Stelle des Artikel-Layouts
@@ -6993,7 +6993,7 @@ geheim halten. Ansonsten könnte es möglicherweise fremden Personen
 gelingen, Artikel in Ihr Blog zu schleusen.</p>
 
 <p>E-Mails können zudem Dateianhänge enthalten, die das Plugin automatisch
-in Artikeln und der Mediendatenbank einträgt.</p>
+in Artikeln und der Mediathek einträgt.</p>
 
 <p>Da der Importvorgang des POPfetchers automatisiert abläuft, lassen sich
 sämtliche Einstellungen ausschließlich über die Plugin-Konfiguration
@@ -7128,7 +7128,7 @@ Notation im Eingabefeld eingetragen werden.</span>
         (<code>uploads</code>). Wenn Sie hier ein Unterverzeichnis vorgeben
         (<code>Urlaubsbilder/</code>), müssen Sie sicherstellen, dass das gewünschte
         Verzeichnis bereits existiert. Das Verzeichnis können Sie über den
-        Menüpunkt <span class="mbold">Mediendatenbank <span class="icon arrow-right">→</span> Verzeichnisse verwalten</span> oder mittels
+        Menüpunkt <span class="mbold">Mediathek <span class="icon arrow-right">→</span> Verzeichnisse verwalten</span> oder mittels
         FTP anlegen.
     </span>
 </span>
@@ -7141,7 +7141,7 @@ Notation im Eingabefeld eingetragen werden.</span>
         Nur wenn Sie die Option <span class="mbold">Blog</span> aktivieren, wird der Inhaltstext
         einer E-Mail als Blog-Artikel angelegt.
         Wenn Sie die Option deaktivieren, werden nur Dateianhänge der E-Mail in
-        der Mediendatenbank gespeichert.
+        der Mediathek gespeichert.
     </span>
 
     <span class="box">
@@ -7164,7 +7164,7 @@ Notation im Eingabefeld eingetragen werden.</span>
 
     <span class="box">
         Bei deaktivierter Option wird ein derartiger Dateianhang genauso wie eine
-        PDF- oder Bilddatei behandelt und nur ein Link zu der Mediendatenbank
+        PDF- oder Bilddatei behandelt und nur ein Link zu der Mediathek
         für diese Datei in den Blog-Artikel eingebunden.
     </span>
 </span>
@@ -8369,7 +8369,7 @@ Für alle Editoren sind externe Plugins verfügbar. Aufgrund der weiteren Entwic
 
 <p>Das schwierigste Unterfangen bei der Verwendung externer
 WYSIWYG-Editor-Plugins bei Serendipity ist, dass einigen die Unterstützung
-der Mediendatenbank fehlt oder die Integration in weitere Plugins (wie
+der Mediathek fehlt oder die Integration in weitere Plugins (wie
 den HTML-Klotz oder Statische Seiten) nicht vorhanden ist. TinyMCE ist
 hier - außerhalb des CKEditors - am weitesten fortgeschritten und wird
 daher an dieser Stelle exemplarisch beschrieben. Die Verwendung der anderen
@@ -8408,7 +8408,7 @@ hoch.</p>
 <p>Je nachdem, welche TinyMCE-Sprachversion Sie benutzen wollen, müssen Sie
 eventuell noch weitere Dateien herunterladen. Optional können Sie das
 TinyMCE-Tool namens <em>iManager</em> installieren, das eine eigenständige
-Mediendatenbank (inklusive Bildbearbeitung) ermöglicht. Die hierfür
+Mediathek (inklusive Bildbearbeitung) ermöglicht. Die hierfür
 notwendigen Schritte werden in der Konfigurationsoberfläche des
 Serendipity-TinyMCE-Plugins aufgeführt.</p>
 
@@ -8465,7 +8465,7 @@ benutzen</span> aktivieren.</span>
     </span>
 
     <span class="box">
-        Bei der Benutzung der Mediendatenbank von Serendipity sind solche
+        Bei der Benutzung der Mediathek von Serendipity sind solche
         relativen URLs jedoch eher problematisch. Daher ist es eher zu empfehlen,
         die Option <span class="mbold">Relative URLs erzeugen</span> zu deaktivieren,
         um potenziellen Problemen bei der Einbindung von Podcasts, RSS-Feeds und
@@ -9151,7 +9151,7 @@ veröffentlichen kann.</p>
 
 <p>Bearbeiten Sie einen Datensatz, erscheint neben dem Ausklappfeld der
 Benutzerprofile ein weiterer Button <span class="mbold">VCard-Datei erstellen</span>. Wenn
-Sie darauf klicken, wird eine VCard-Datei in der Mediendatenbank erstellt
+Sie darauf klicken, wird eine VCard-Datei in der Mediathek erstellt
 (<code>uploads/Benutzername.vcf</code>). Diese Datei können Sie dann
 herunterladen
 (<code>http://www.example.com/serendipity/uploads/Benutzername.vcf</code>)
@@ -9976,7 +9976,7 @@ PHP-Version dies unterstützt) um die Möglichkeit, auch ZIP-Archive mit
 Bildern/Dateien hochzuladen.</p>
 
 <p>Zuletzt dient das Plugin dazu, die Optionen beim Einfügen einer Datei aus
-der Mediendatenbank in einen Blog-Eintrag zu erweitern. Seit Serendipity
+der Mediathek in einen Blog-Eintrag zu erweitern. Seit Serendipity
 1.1 sind diese Optionen jedoch bereits Bestandteil der offiziellen Version und
 werden somit innerhalb des Plugins nicht weiterverwendet. In Zukunft könnte das Plugin
 jedoch möglicherweise wieder eigenständige Optionen einbinden.</p>
@@ -9987,7 +9987,7 @@ jedoch möglicherweise wieder eigenständige Optionen einbinden.</p>
     <h4 class="subarticle" id="quickblog">QuickBlog</h4>
 </header>
 
-<p>Wenn Sie auf den Menüpunkt <span class="mbold">Mediendatenbank <span class="icon arrow-right">→</span> Mediendaten hinzufügen</span>
+<p>Wenn Sie auf den Menüpunkt <span class="mbold">Mediathek <span class="icon arrow-right">→</span> Medien hinzufügen</span>
 klicken, bindet das Plugin dort einen neuen Bereich mit der Überschrift
 <span class="mbold">QuickBlog</span> ein. Dort finden Sie mehrere Eingabefelder vor. Sobald Sie
 das Feld <span class="mbold">Titel</span> ausfüllen, wird die hochgeladene Mediendatei automatisch
@@ -10005,16 +10005,16 @@ fest, einen zusätzlichen beschreibenden Text und die Zuordnung zur Blog-Kategor
 Größe das Bild in dem Quickblog-Artikel eingestellt wird.</p>
 
 <p>Serendipity Styx stellt solche per "Quickblog" größenmäßig geänderten Bilder
-außerhalb der Mediendatenbank Synchronisation und der automatischen Generierung
+außerhalb der Mediathek Synchronisation und der automatischen Generierung
 von Vorschaubildern, in dem es ihnen einen speziellen Vorschaubild-Namen (s.u.)
-zuweist. Diese Dateien leben also ein verstecktes Leben innerhalb der Mediendatenbank
+zuweist. Diese Dateien leben also ein verstecktes Leben innerhalb der Mediathek
 und überleben mögliche Löschungen der Original Bilddatei!
 Sie werden mit einem neuen Dateieigenschafts Aktions-Button "Image Of" ausgezeichnet.
 Beispiel: "Veröffentlicht: zwiebel.quickblog.jpg, 240x160px".
 
 <p>Technisch gesehen wird ein via Quickblog hochgeladenes Bild mit speziellem Code
 in Ihren Eintrag eingebunden. Dieser Code enthält die ID zu einem Bild der
-Mediendatenbank und wird im normalen Eintragstext des Artikels hinterlegt:</p>
+Mediathek und wird im normalen Eintragstext des Artikels hinterlegt:</p>
 
 <pre><code class="html">
     &lt;!--quickblog:4711 --&gt;
@@ -10022,7 +10022,7 @@ Mediendatenbank und wird im normalen Eintragstext des Artikels hinterlegt:</p>
 
 <p>Wenn ein solcher Blog-Artikel angezeigt wird, sucht das Plugin automatisch
 nach dem Vorkommen derartiger Zeichenketten. Daraufhin liest es die
-Mediendatenbank aus und erstellt eine formatierte Darstellung für das Bild. Die
+Mediathek aus und erstellt eine formatierte Darstellung für das Bild. Die
 Formatierung richtet sich nach der Template-Datei
 <span class="tag-box invisible">
     <span class="inline-tag">Template-Dateien!quickblog.tpl</span>
@@ -10169,7 +10169,7 @@ Dateinamen verweisen könnte.</p>
 <p>Wenn Sie ein vollständiges Verzeichnis auslesen wollen, reicht die Zeile
 <code>&lt;media type='gallery' /&gt;</code> aus. Es werden dann alle Dateien eingebunden, die
 im durch <code>&lt;gallery name='Urlaub/Mallorca2006/' /&gt;</code> festgelegten Verzeichnis
-in die Mediendatenbank geladen wurden.</p>
+in die Mediathek geladen wurden.</p>
 
 <p>Der Code muss sich strikt an XML-Syntax halten. <code>&lt;media type='gallery'&gt;</code>
 wäre beispielsweise ungültig, da das Anführungszeichen nicht übereinstimmt und
@@ -10230,9 +10230,9 @@ Ihrer Bilderliste verwendet wird, stehen folgende Variablen zur Verfügung:</p>
         <span class="box">
             <span class="box"><code class="item smarty">{$plugin_mediainsert_media.X.comment1}</code></span>
             <span class="sub-box">
-                Kommentar zu einem Bild, wie in der Mediendatenbank festgelegt. Hierfür wird
+                Kommentar zu einem Bild, wie in der Mediathek festgelegt. Hierfür wird
                 davon ausgegangen, dass Sie die Beschreibung im Datensatz <code>COMMENT1</code>
-                gespeichert haben (siehe Konfigurationsoptionen der Mediendatenbank auf
+                gespeichert haben (siehe Konfigurationsoptionen der Mediathek auf
                 Seite <span class="pageref"><a href="#Medien-Eigenschaften">Medien-Eigenschaften</a></span>).
                 Falls kein Kommentar eingetragen wurde, wird der Dateiname verwendet.
             </span>
@@ -10268,7 +10268,7 @@ Ihrer Bilderliste verwendet wird, stehen folgende Variablen zur Verfügung:</p>
 
 <p>Wenn Sie die Konfigurationsoption <span class="mbold">ZIP archives unzipping</span> des Plugins
 aktiviert haben und Ihr Server mindestens PHP 5.1.0 einsetzt, könnnen Sie ein
-ZIP-Archiv mit mehreren Bildern in die Mediendatenbank hochladen.
+ZIP-Archiv mit mehreren Bildern in die Mediathek hochladen.
 Die ZIP-Datei wird automatisch auf dem Server entpackt, und alle darin
 enthaltenen Dateien werden so hochgeladen, als hätten Sie diese einzeln eingestellt.</p>
 
@@ -10322,9 +10322,9 @@ eingesetzt werden.</p>
 </span>
 </p>
 
-<p>In Blog-Artikeln von Serendipity können Sie dank der Mediendatenbank
+<p>In Blog-Artikeln von Serendipity können Sie dank der Mediathek
 relativ einfach ein Bild einfügen (siehe Seite
-<span class="pageref"><a href="#Mediendatenbank-Popup">Mediendatenbank-Popup</a></span>). Ein solches Bild wird
+<span class="pageref"><a href="#Mediathek-Popup">Mediathek-Popup</a></span>). Ein solches Bild wird
 entweder in der vollen Größe oder als kleines Vorschaubild eingebettet,
 und ein Klick auf das Bild öffnet es meist in einem neuen Browserfenster.</p>
 
@@ -10397,7 +10397,7 @@ jeweiligen Bibliothek.</p>
 </span>
 Die Darstellung von großen Bildern in einem eingebetteten Popup kann nur
 funktionieren, wenn Sie in Ihrem Beitrag einen Link zu einem Bild
-eingebunden haben. Wenn Sie ein Bild aus der Mediendatenbank einfügen und
+eingebunden haben. Wenn Sie ein Bild aus der Mediathek einfügen und
 davon nur das Vorschaubild ohne weitere Verlinkung auswählen, können die
 Bibliotheken nicht aktiv werden, da ihnen die notwendigen HTML-Daten
 fehlen.</p>
@@ -10418,9 +10418,9 @@ fehlen.</p>
 </p>
 
 <p>Mit dem Plugin <em>Bildergalerie</em> können Sie Bilder und Dateien
-aus Ihrer Mediendatenbank präsentieren. Dabei kann das Plugin so
+aus Ihrer Mediathek präsentieren. Dabei kann das Plugin so
 konfiguriert werden, dass nur spezielle Unterordner
-Ihrer Mediendatenbank eingesehen werden können. Die Darstellung der Galerie
+Ihrer Mediathek eingesehen werden können. Die Darstellung der Galerie
 kann über Templates gesteuert werden, zahlreiche Konfigurationsoptionen
 ermöglichen eine individuelle Anpassung der Galerie.</p>
 
@@ -10525,7 +10525,7 @@ auch Seite <span class="pageref"><a href="#Standardpluginkonfiguration-Permalink
 <span class="item mbold">Choose the gallery style</span><!-- menuitem -->
 <span class="desc-info">Mit diesem Ausklappfeld legen Sie fest, ob das Plugin zur Darstellung der
 Galerie eigene Template-Dateien mit eigener Formatierung (Wert <code>Thumbnail
-page</code>) oder die Standard-Mediendatenbankansicht von Serendipity (Wert
+page</code>) oder die Standard-Mediathekansicht von Serendipity (Wert
 <code>Media library</code>) verwenden soll. Nur bei der Option <code>Thumbnail page</code>
 sind die meisten der folgenden Konfigurationsoptionen verfügbar.</span>
 </p>
@@ -10598,13 +10598,13 @@ sein soll. Diese Größe kann durch den URL-Parameter <code>feed_width</code> vo
 <span class="item mbold">Nur verlinkte Bilder im RSS-Feed</span><!-- menuitem -->
 <span class="desc-info">Falls Sie diese Option aktivieren, enthält der RSS-Feed nur die Bilder, die Sie
 innerhalb Ihrer Blog-Beiträge auch tatsächlich verlinkt haben. Andernfalls wird
-stur das Verzeichnis der Mediendatenbank ausgelesen, und alle darin enthaltenen
+stur das Verzeichnis der Mediathek ausgelesen, und alle darin enthaltenen
 Bilder werden eingebunden.</span>
 </p>
 
 <p class="desc">
 <span class="item mbold">Zeige exif-Tags</span><!-- menuitem -->
-<span class="desc-info">Falls aktiviert, werden die EXIF-Metadaten einer Datei der Mediendatenbank
+<span class="desc-info">Falls aktiviert, werden die EXIF-Metadaten einer Datei der Mediathek
 dargestellt.</span>
 </p>
 
@@ -10694,7 +10694,7 @@ Blogs, siehe Seite <span class="pageref"><a href="#urlformung">urlformung</a></s
     <span class="inline-tag">Template-Variablen!\$plugin_usergallery_currentgal</span>
 </span>
 <code class="item smarty">{$plugin_usergallery_currentgal}</code> (Zeichenkette)
-<span class="desc-info">Enthält den Namen des aktuellen Pfades der Mediendatenbank.</span>
+<span class="desc-info">Enthält den Namen des aktuellen Pfades der Mediathek.</span>
 </p>
 
 <p class="desc citem-desc">
@@ -10703,7 +10703,7 @@ Blogs, siehe Seite <span class="pageref"><a href="#urlformung">urlformung</a></s
 </span>
 <code class="item smarty">{$plugin_usergallery_uppath}</code> (Zeichenkette)
 <span class="desc-info">Enthält den Namen des übergeordneten Pfades des aktuell dargestellten
-Verzeichnisses der Mediendatenbank.</span>
+Verzeichnisses der Mediathek.</span>
 </p>
 
 <p class="desc citem-desc">
@@ -10712,7 +10712,7 @@ Verzeichnisses der Mediendatenbank.</span>
 </span>
 <code class="item smarty">{$plugin_usergallery_toplevel}</code> (Zeichenkette)
 <span class="desc-info">Enthält den Wert <code>yes</code>, falls der Besucher das Stammverzeichnis der
-Mediendatenbank ansieht. Falls der Besucher ein Unterverzeichnis ansieht,
+Mediathek ansieht. Falls der Besucher ein Unterverzeichnis ansieht,
 enthält diese Variable den Wert <code>no</code>.</span>
 </p>
 
@@ -10729,7 +10729,7 @@ enthält diese Variable den Wert <code>no</code>.</span>
     <span class="inline-tag">Template-Variablen!\$plugin_usergallery_subdirectories</span>
 </span>
 <code class="item smarty">{$plugin_usergallery_subdirectories}</code> (Array)
-<span class="desc-info">Enthält ein Array mit allen Unterverzeichnissen der Mediendatenbank. Jeder
+<span class="desc-info">Enthält ein Array mit allen Unterverzeichnissen der Mediathek. Jeder
 Array-Index enthält den Namen des jeweiligen Verzeichnisses, der Array-Wert
 enthält in einem Unter-Array mit dem Array-Schlüssel <code>filecount</code> die
 jeweilige Anzahl der Objekte in diesem Verzeichnis. Alle weiteren
@@ -10750,7 +10750,7 @@ Galerieansicht dargestellt werden muss.</span>
     <span class="inline-tag">Template-Variablen!\$plugin_usergallery_total_count</span>
 </span>
 <code class="item smarty">{$plugin_usergallery_total_count}</code> (Zahl)
-<span class="desc-info">Enthält die Gesamtzahl an Objekten in der Mediendatenbank.</span>
+<span class="desc-info">Enthält die Gesamtzahl an Objekten in der Mediathek.</span>
 </p>
 
 <p class="desc citem-desc">
@@ -10803,7 +10803,7 @@ mehrere Seiten umbrochen werden muss.</span>
 </span>
 <code class="item smarty">{$plugin_usergallery_preface</code> (Zeichenkette)
 <span class="desc-info">Enthält die in den Konfigurationsoptionen hinterlegte Einführung (Text) zur
-Mediendatenbank.</span>
+Mediathek.</span>
 </p>
 
 <p class="desc citem-desc">
@@ -10829,7 +10829,7 @@ Klick als Popup oder innerhalb derselben Seite angezeigt werden soll.</span>
 </span>
 <code class="item smarty">{$plugin_usergallery_gallery_breadcrumb</code> (Array)
 <span class="desc-info">Enthält ein Array mit allen übergeordneten Pfaden des aktuellen Verzeichnisses
-der Mediendatenbank, so dass diese gezielt angesprungen werden können. Pro
+der Mediathek, so dass diese gezielt angesprungen werden können. Pro
 Array-Schlüssel enthält der Array-Wert den jeweiligen Verzeichnisnamen.</span>
 </p>
 
@@ -10901,7 +10901,7 @@ richten sich nach den festgelegten Array-Schlüsseln (siehe Seite <span class="p
     <span class="inline-tag">Template-Variablen!\$plugin_usergallery_extended_info</span>
 </span>
 <code class="item smarty">{$plugin_usergallery_extended_info</code> (Zeichenkette)
-<span class="desc-info">Enthält die HTML-Ausgabe mit in der Mediendatenbank festgelegten
+<span class="desc-info">Enthält die HTML-Ausgabe mit in der Mediathek festgelegten
 Medieneigenschaften einer Datei (zB. Titel, Copyright etc.)</span>
 </p>
 

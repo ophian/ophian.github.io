@@ -230,11 +230,11 @@ dies Ressourcen sparend geschehen kann, ist diese Funktionalität in der Datei
 </section><!-- section.sub end -->
 
 <section id="U1034" class="sub">
-<span class="u-toc">10.3.4 - Mediendatenbank-Popup</span>
+<span class="u-toc">10.3.4 - Mediathek-Popup</span>
 
-<h3 class="subsection" id="mediendatenbank-popup">Mediendatenbank-Popup</h3>
+<h3 class="subsection" id="Mediathek-popup">Mediathek-Popup</h3>
 
-<p>Die Mediendatenbank kann an einigen Stellen des Front- und Backends aufgerufen
+<p>Die Mediathek kann an einigen Stellen des Front- und Backends aufgerufen
 werden und erfolgt meist als Popup. Um dies komfortabler und isolierter zu
 verwalten, befindet sich der dafür notwendige Code in der Datei
 <code>serendipity_admin_image_selector.php</code>.</p>
@@ -293,11 +293,11 @@ Plugin aufzurufen.</p>
     <span class="li"><code class="item sub-file">rss.php</code> gibt RSS-Feeds aus.</span>
     <span class="li"><code class="item sub-file">serendipity.css.php</code> gibt die Stylesheets von Serendipity aus.</span>
     <span class="li"><code class="item sub-file">serendipity_admin.php</code> stellt den zentralen Anlaufpunkt für alle Backend-Ausgaben dar.</span>
-    <span class="li"><code class="item sub-file">serendipity_admin_image_selector.php</code> stellt das Mediendatenbank-Popup dar.</span>
+    <span class="li"><code class="item sub-file">serendipity_admin_image_selector.php</code> stellt das Mediathek-Popup dar.</span>
     <span class="li"><code class="item sub-file">serendipity_config.inc.php</code> lädt das Serendipity Framework.</span>
     <span class="li"><code class="item sub-file">serendipity_config_local.inc.php</code> enthält zentrale Konfigurationswerte Serendipitys.</span>
     <span class="li"><code class="item sub-file">serendipity_define.js.php</code> konvertiert einige PHP-Variablen, damit sie in JavaScripts zur Verfügung stehen.</span>
-    <span class="li"><code class="item sub-file">serendipity_editor.js</code> stellt JavaScript-Funktionen der Mediendatenbank bereit.</span>
+    <span class="li"><code class="item sub-file">serendipity_editor.js</code> stellt JavaScript-Funktionen der Mediathek bereit.</span>
     <span class="li"><code class="item sub-file">serendipity_xmlrpc.php</code> bindet die Anlaufstelle für die XML-RPC API ein.</span>
     <span class="li"><code class="item sub-file">wfwcomment.php</code> bindet eine Anlaufstelle für wfwComment-API-Aufrufe ein.</span>
 </span>
@@ -381,7 +381,7 @@ Plugin aufzurufen.</p>
         <span class="li"><code class="item sub-file">functions_comments.inc.php</code> enthält Funktionen zur Behandlung von Blog-Kommentaren.</span>
         <span class="li"><code class="item sub-file">functions_entries.inc.php</code> enthält Funktionen zur Behandlung von Blog-Artikeln.</span>
         <span class="li"><code class="item sub-file">functions_entries_admin.inc.php</code> enthält Funktionen zur Bearbeitung von Blog-Artikeln im Backend.</span>
-        <span class="li"><code class="item sub-file">functions_images.inc.php</code> enthält Funktionen zur Behandlung von Objekten der Mediendatenbank.</span>
+        <span class="li"><code class="item sub-file">functions_images.inc.php</code> enthält Funktionen zur Behandlung von Objekten der Mediathek.</span>
         <span class="li"><code class="item sub-file">functions_installer.inc.php</code> enthält Funktionen zur Installation Serendipitys.</span>
         <span class="li"><code class="item sub-file">functions_permalinks.inc.php</code> enthält Funktionen zur Bearbeitung von Permalinks/URL-Werten.</span>
         <span class="li"><code class="item sub-file">functions_plugins_admin.inc.php</code> enthält Funktionen zur Konfiguration von Plugins im Backend.</span>
@@ -415,7 +415,7 @@ Plugin aufzurufen.</p>
         <span class="li"><code class="item sub-file">entries_overview.inc.php</code> enthält die Maske für die Übersicht der Blog-Artikel.</span>
         <span class="li"><code class="item sub-file">export.inc.php</code> enthält die Maske zum Exportieren von Blog-Artikeln.</span>
         <span class="li"><code class="item sub-file">groups.inc.php</code> enthält die Maske zur Bearbeitung von Benutzergruppen.</span>
-        <span class="li"><code class="item sub-file">images.inc.php</code> enthält die Maske zum Verwalten der Mediendatenbank.</span>
+        <span class="li"><code class="item sub-file">images.inc.php</code> enthält die Maske zum Verwalten der Mediathek.</span>
         <span class="li"><code class="item sub-file">import.inc.php</code> enthält die Maske zum Importieren von Blog-Artikeln.</span>
         <span class="li"><code class="item sub-file">installer.inc.php</code> enthält die Maske zur Installation Serendipitys.</span>
         <span class="li"><code class="item sub-file">overview.inc.php</code> enthält die Maske zur Startseite des Backends.</span>
@@ -588,7 +588,7 @@ Plugin aufzurufen.</p>
 <code class="item dir">uploads</code>
 <span class="desc-info">
     <span class="box">
-        In diesem Verzeichnis werden die Dateien der Mediendatenbank gespeichert.
+        In diesem Verzeichnis werden die Dateien der Mediathek gespeichert.
     </span>
 </span>
 </p>
@@ -1218,7 +1218,7 @@ die Sie bei der Entwicklung von Plugins und Ähnlichem häufig einsetzen werden.
 <span class="desc-info">
     <span class="box">
         Gewährt einer Benutzergruppe Zugriff auf einen speziellen Objekttyp
-        (hauptsächlich für Objekte der Mediendatenbank).
+        (hauptsächlich für Objekte der Mediathek).
     </span>
 </span>
 </p>
@@ -1240,7 +1240,7 @@ die Sie bei der Entwicklung von Plugins und Ähnlichem häufig einsetzen werden.
 <span class="desc-info">
     <span class="box">
         Liefert Teile einer SQL-Abfrage, die benötigt werden, um Zugriffe auf bestimmte
-        Objekttypen (Mediendatenbank, Kategorien ...) in Abhängigkeit von den
+        Objekttypen (Mediathek, Kategorien ...) in Abhängigkeit von den
         Gruppenmitgliedschaften auszuwerten.
     </span>
 </span>
@@ -2047,7 +2047,7 @@ die Sie bei der Entwicklung von Plugins und Ähnlichem häufig einsetzen werden.
 
 <h3 class="subsection" id="bilder">Bilder</h3>
 
-<p>Funktionen zur Mediendatenbank.</p>
+<p>Funktionen zur Mediathek.</p>
 
 <p class="desc">
 <code class="item function">serendipity_isActiveFile()</code>, 
@@ -2064,7 +2064,7 @@ die Sie bei der Entwicklung von Plugins und Ähnlichem häufig einsetzen werden.
 (<code class="item file">include/functions_images.inc.php</code>)
 <span class="desc-info">
     <span class="box">
-        Holt eine Liste von gewünschten Objekten der Mediendatenbank.
+        Holt eine Liste von gewünschten Objekten der Mediathek.
     </span>
 </span>
 </p>
@@ -2074,7 +2074,7 @@ die Sie bei der Entwicklung von Plugins und Ähnlichem häufig einsetzen werden.
 (<code class="item file">include/functions_images.inc.php</code>)
 <span class="desc-info">
     <span class="box">
-        Holt eine einzelnes Objekt aus der Mediendatenbank.
+        Holt eine einzelnes Objekt aus der Mediathek.
     </span>
 </span>
 </p>
@@ -2084,7 +2084,7 @@ die Sie bei der Entwicklung von Plugins und Ähnlichem häufig einsetzen werden.
 (<code class="item file">include/functions_images.inc.php</code>)
 <span class="desc-info">
     <span class="box">
-        Aktualisiert ein Objekt der Mediendatenbank.
+        Aktualisiert ein Objekt der Mediathek.
     </span>
 </span>
 </p>
@@ -2094,7 +2094,7 @@ die Sie bei der Entwicklung von Plugins und Ähnlichem häufig einsetzen werden.
 (<code class="item file">include/functions_images.inc.php</code>)
 <span class="desc-info">
     <span class="box">
-        Löscht ein Objekt der Mediendatenbank.
+        Löscht ein Objekt der Mediathek.
     </span>
 </span>
 </p>
@@ -2105,7 +2105,7 @@ die Sie bei der Entwicklung von Plugins und Ähnlichem häufig einsetzen werden.
 <span class="desc-info">
     <span class="box">
         Holt eine Liste von Mediendateien direkt aus der Verzeichnisstruktur anstelle
-        der Mediendatenbank.
+        der Mediathek.
     </span>
 </span>
 </p>
@@ -2116,7 +2116,7 @@ die Sie bei der Entwicklung von Plugins und Ähnlichem häufig einsetzen werden.
 <span class="desc-info">
     <span class="box">
         Fügt einen Verweis zu einer Mediendatei eines fremden Servers in die eigene
-        Mediendatenbank ein.
+        Mediathek ein.
     </span>
 </span>
 </p>
@@ -2126,7 +2126,7 @@ die Sie bei der Entwicklung von Plugins und Ähnlichem häufig einsetzen werden.
 (<code class="item file">include/functions_images.inc.php</code>)
 <span class="desc-info">
     <span class="box">
-        Fügt der Mediendatenbank eine Datei hinzu.
+        Fügt der Mediathek eine Datei hinzu.
     </span>
 </span>
 </p>
@@ -2169,7 +2169,7 @@ die Sie bei der Entwicklung von Plugins und Ähnlichem häufig einsetzen werden.
 (<code class="item file">include/functions_images.inc.php</code>)
 <span class="desc-info">
     <span class="box">
-        Erzeugt Vorschaubilder aller Dateien der Mediendatenbank.
+        Erzeugt Vorschaubilder aller Dateien der Mediathek.
     </span>
 </span>
 </p>
@@ -2211,7 +2211,7 @@ die Sie bei der Entwicklung von Plugins und Ähnlichem häufig einsetzen werden.
 (<code class="item file">include/functions_images.inc.php</code>)
 <span class="desc-info">
     <span class="box">
-        Stellt eine Übersicht der Objekte der Mediendatenbank dar. Die
+        Stellt eine Übersicht der Objekte der Mediathek dar. Die
         darzustellenden Objekte werden anhand der Benutzereingaben ausgelesen und
         mittels Smarty-Variablen und Templates dargestellt.
     </span>
@@ -2223,7 +2223,7 @@ die Sie bei der Entwicklung von Plugins und Ähnlichem häufig einsetzen werden.
 (<code class="item file">include/functions_images.inc.php</code>)
 <span class="desc-info">
     <span class="box">
-        Prüft, ob ein Objekt der Mediendatenbank ein Bild ist.
+        Prüft, ob ein Objekt der Mediathek ein Bild ist.
     </span>
 </span>
 </p>
@@ -2287,7 +2287,7 @@ die Sie bei der Entwicklung von Plugins und Ähnlichem häufig einsetzen werden.
 (<code class="item file">include/functions_images.inc.php</code>)
 <span class="desc-info">
     <span class="box">
-        Liefert ein Array mit möglichen Datenbank-Feldnamen der Objekte einer Mediendatenbank.
+        Liefert ein Array mit möglichen Datenbank-Feldnamen der Objekte einer Mediathek.
     </span>
 </span>
 </p>
@@ -2298,7 +2298,7 @@ die Sie bei der Entwicklung von Plugins und Ähnlichem häufig einsetzen werden.
 <span class="desc-info">
     <span class="box">
         Prüft die Zugriffsrechte eines Redakteurs auf die Verzeichnisse der
-        Mediendatenbank.
+        Mediathek.
     </span>
 </span>
 </p>
@@ -2308,7 +2308,7 @@ die Sie bei der Entwicklung von Plugins und Ähnlichem häufig einsetzen werden.
 (<code class="item file">include/functions_images.inc.php</code>)
 <span class="desc-info">
     <span class="box">
-        Liest die Metadaten eines Objekts aus der Mediendatenbank.
+        Liest die Metadaten eines Objekts aus der Mediathek.
     </span>
 </span>
 </p>
@@ -2319,7 +2319,7 @@ die Sie bei der Entwicklung von Plugins und Ähnlichem häufig einsetzen werden.
 <span class="desc-info">
     <span class="box">
         Stellt das Formular zum Bearbeiten der Metadaten einer Datei in der
-        Mediendatenbank dar.
+        Mediathek dar.
     </span>
 </span>
 </p>
@@ -2329,7 +2329,7 @@ die Sie bei der Entwicklung von Plugins und Ähnlichem häufig einsetzen werden.
 (<code class="item file">include/functions_images.inc.php</code>)
 <span class="desc-info">
     <span class="box">
-        Liest die Metadaten eines Objekts der Mediendatenbank und bereitet sie für die
+        Liest die Metadaten eines Objekts der Mediathek und bereitet sie für die
         Darstellung auf.
     </span>
 </span>
@@ -2354,7 +2354,7 @@ die Sie bei der Entwicklung von Plugins und Ähnlichem häufig einsetzen werden.
 (<code class="item file">include/functions_images.inc.php</code>)
 <span class="desc-info">
     <span class="box">
-        Speichert Metadaten einer Datei in der Mediendatenbank.
+        Speichert Metadaten einer Datei in der Mediathek.
     </span>
 </span>
 </p>
@@ -2365,7 +2365,7 @@ die Sie bei der Entwicklung von Plugins und Ähnlichem häufig einsetzen werden.
 <span class="desc-info">
     <span class="box">
         Bereitet die vom Benutzer übermittelten Metadaten einer Datei auf und speichert
-        sie entsprechend in der Mediendatenbank.
+        sie entsprechend in der Mediathek.
     </span>
 </span>
 </p>
@@ -2376,7 +2376,7 @@ die Sie bei der Entwicklung von Plugins und Ähnlichem häufig einsetzen werden.
 (<code class="item file">include/functions_images.inc.php</code>)
 <span class="desc-info">
     <span class="box">
-        Liest Metadaten eines Objekts aus der Mediendatenbank.
+        Liest Metadaten eines Objekts aus der Mediathek.
     </span>
 </span>
 </p>
@@ -2386,7 +2386,7 @@ die Sie bei der Entwicklung von Plugins und Ähnlichem häufig einsetzen werden.
 (<code class="item file">include/functions_images.inc.php</code>)
 <span class="desc-info">
     <span class="box">
-        Prüft, ob ein Redakteur auf bestimmte Objekte der Mediendatenbank zugreifen darf,
+        Prüft, ob ein Redakteur auf bestimmte Objekte der Mediathek zugreifen darf,
         und entfernt alle nicht zulässigen Metadaten aus einer Liste.
     </span>
 </span>
@@ -2397,7 +2397,7 @@ die Sie bei der Entwicklung von Plugins und Ähnlichem häufig einsetzen werden.
 (<code class="item file">include/functions_images.inc.php</code>)
 <span class="desc-info">
     <span class="box">
-        Bereitet die Metadaten eines Objekts der Mediendatenbank auf und setzt
+        Bereitet die Metadaten eines Objekts der Mediathek auf und setzt
         benötigte Zusatzvariablen für die Darstellung eines Objekts.
     </span>
 </span>
@@ -2408,7 +2408,7 @@ die Sie bei der Entwicklung von Plugins und Ähnlichem häufig einsetzen werden.
 (<code class="item file">include/functions_images.inc.php</code>)
 <span class="desc-info">
     <span class="box">
-        Stellt ein Objekt der Mediendatenbank mittels Smarty-Templates
+        Stellt ein Objekt der Mediathek mittels Smarty-Templates
         (<code>media_pane.tpl</code> oder <code>media_properties.tpl</code>) dar.
     </span>
 </span>
@@ -2419,7 +2419,7 @@ die Sie bei der Entwicklung von Plugins und Ähnlichem häufig einsetzen werden.
 (<code class="item file">include/functions_images.inc.php</code>)
 <span class="desc-info">
     <span class="box">
-        Prüft, ob eine Datei in der Mediendatenbank bereits existiert. Ist das der Fall, wird
+        Prüft, ob eine Datei in der Mediathek bereits existiert. Ist das der Fall, wird
         ein numerischer Index an die Datei angehängt (aus <code>bild.jpg</code> wird
         <code>bild2.jpg</code>).
     </span>
@@ -2441,7 +2441,7 @@ die Sie bei der Entwicklung von Plugins und Ähnlichem häufig einsetzen werden.
 (<code class="item file">include/functions_images.inc.php</code>)
 <span class="desc-info">
     <span class="box">
-        Verschiebt ein Verzeichnis innerhalb der Mediendatenbank und im Verzeichnissystem.
+        Verschiebt ein Verzeichnis innerhalb der Mediathek und im Verzeichnissystem.
     </span>
 </span>
 </p>
@@ -2451,7 +2451,7 @@ die Sie bei der Entwicklung von Plugins und Ähnlichem häufig einsetzen werden.
 (<code class="item file">include/functions_images.inc.php</code>)
 <span class="desc-info">
     <span class="box">
-        Holt eine Liste aller Verzeichnisse der Mediendatenbank, auf die ein Redakteur Zugriff hat.
+        Holt eine Liste aller Verzeichnisse der Mediathek, auf die ein Redakteur Zugriff hat.
     </span>
 </span>
 </p>
@@ -2462,7 +2462,7 @@ die Sie bei der Entwicklung von Plugins und Ähnlichem häufig einsetzen werden.
 <span class="desc-info">
     <span class="box">
         Prüft, ob ein Redakteur Schreibzugriff auf ein bestimmte Verzeichnis der
-        Mediendatenbank besitzt.
+        Mediathek besitzt.
     </span>
 </span>
 </p>
@@ -2922,7 +2922,7 @@ unterschiedliche <code>artifact_mode</code>-Werte hinterlegt werden.</p>
     <code class="item sql-field">artifact_type</code> (varchar(64)) legt fest, für welchen Objekttyp ein Recht vergeben wird. Mögliche Werte sind:
         <span class="subdesc">
             <code>category</code> (für Kategorien),<br>
-            <code>directory</code> (für Verzeichnisse der Mediendatenbank).
+            <code>directory</code> (für Verzeichnisse der Mediathek).
         </span>
     <code class="item sql-field">artifact_mode</code> (varchar(64)) legt fest, welche Eigenschaft ein Recht hat. Mögliche Werte sind:
         <span class="subdesc">
@@ -2932,7 +2932,7 @@ unterschiedliche <code>artifact_mode</code>-Werte hinterlegt werden.</p>
     <code class="item sql-field">artifact_index</code> (varchar(64)) legt ein zusätzliches Attribut für ein Recht fest, 
         <span class="subdesc">
             falls ein Fremdobjekt nicht direkt mittels <code>artifact_id</code> zugeordnet werden kann.
-            Beispielsweise enthält <code>artifact_index</code> den Namen des Verzeichnisses der Mediendatenbank,
+            Beispielsweise enthält <code>artifact_index</code> den Namen des Verzeichnisses der Mediathek,
             für das ein Recht vergeben werden soll, da die vorhandenen Verzeichnisse nicht in der
             Datenbank verfolgt werden.
         </span>
@@ -2943,11 +2943,11 @@ unterschiedliche <code>artifact_mode</code>-Werte hinterlegt werden.</p>
 </section><!-- section.sub end -->
 
 <section id="U1062" class="sub">
-<span class="u-toc">10.6.2 - Mediendatenbank</span>
+<span class="u-toc">10.6.2 - Mediathek</span>
 
-<h3 class="subsection" id="mediendatenbank-1">Mediendatenbank</h3>
+<h3 class="subsection" id="mediathek-1">Mediathek</h3>
 
-<p>Die Objekte der Mediendatenbank dienen lediglich als Container für Metadaten.
+<p>Die Objekte der Mediathek dienen lediglich als Container für Metadaten.
 Die eigentlichen Dateien liegen weiterhin im Dateisystem.</p>
 
 <article id="XU" class="subsub">
@@ -2993,7 +2993,7 @@ Die eigentlichen Dateien liegen weiterhin im Dateisystem.</p>
 </span>
 </p>
 
-<p>Zu jedem Objekt der Mediendatenbank können beliebig viele Metadaten gespeichert
+<p>Zu jedem Objekt der Mediathek können beliebig viele Metadaten gespeichert
 werden. Diese Metadaten können in verschiedene Unterkategorien aufgeteilt
 werden, um zwischen frei vergebenen Metadaten und solchen, die in der Datei
 festgelegt wurden, zu unterscheiden.
@@ -3076,7 +3076,7 @@ Enthält eine Reihe an zusätzlichen Eigenschaften zu einem Artikel (n:m-Zuordnu
 <p class="desc sql-field-group">
     <code class="item sql-field">entryid</code> (Fremdschlüssel, int(11)) enthält die zugeordnete Artikel-ID
     <code class="item sql-field">property</code> (varchar(255)) enthält den Namen der zusätzlichen Eigenschaft.
-    <code class="item sql-field">value</code> (text) enthält den Wert der Eigenschaft, zB. HTML-Text oder Dateinamen der Mediendatenbank.
+    <code class="item sql-field">value</code> (text) enthält den Wert der Eigenschaft, zB. HTML-Text oder Dateinamen der Mediathek.
 </p>
 
 </article>
@@ -3180,7 +3180,7 @@ Enthält die Kommentare und Trackbacks zu Artikeln.
 Alle URLs, die ein Redakteur in einem Artikel einbindet, werden in dieser
 Datenbanktabelle gespeichert. Solche Referenzen können durch Plugins
 dargestellt oder ausgewertet werden. Des Weiteren enthält diese Tabelle auch
-alle Referenzen von aufgerufenen Bildern Ihrer Mediendatenbank (siehe Seite <span class="pageref"><a href="#mdb-profi">mdb-profi</a></span>).
+alle Referenzen von aufgerufenen Bildern Ihrer Mediathek (siehe Seite <span class="pageref"><a href="#mdb-profi">mdb-profi</a></span>).
 </p>
 
 <p class="desc sql-field-group">
@@ -3190,7 +3190,7 @@ alle Referenzen von aufgerufenen Bildern Ihrer Mediendatenbank (siehe Seite <spa
     <code class="item sql-field">name</code> (text) enthält den beschreibenden Text zu der referenzierten URL.
     <code class="item sql-field">type</code> (varchar(128)) legt den Typ der Referenz fest.
         <span class="subdesc">
-            Der Inhalt <code>media</code> steht für verwiesene Mediendatenbank-Objekte,
+            Der Inhalt <code>media</code> steht für verwiesene Mediathek-Objekte,
             ein leerer Typ steht für gewöhnlich referenzierte URLs.
         </span>
 </p>
@@ -5889,7 +5889,7 @@ auch selbstgeschriebene Plugins zugreifen können:</p>
 <span class="desc-info">
     <span class="box">
         (via Smarty <code>media_*.tpl</code>) sowie weitere
-        <code>frontend_image_...-Ereignisse</code> werden von dem Mediendatenbank-Popup
+        <code>frontend_image_...-Ereignisse</code> werden von dem Mediathek-Popup
         ausgegeben, wenn die Formatierungsoptionen für eine ausgewählte Datei angezeigt
         werden. Für jede der Formatierungsmöglichkeiten (Vorschau, Link, Platzierung,
         Kommentar ...) existiert ein eigenes Ereignis.
@@ -6332,7 +6332,7 @@ auch selbstgeschriebene Plugins zugreifen können:</p>
     <span class="box group-box">
         wird an der Stelle des Artikelformulars im Backend ausgeführt, bei der die
         Symbolleiste für Formatierungen und die Einbindung von Dateien in der
-        Mediendatenbank ausgegeben wird. Plugins können dort eigene Symbolleisten
+        Mediathek ausgegeben wird. Plugins können dort eigene Symbolleisten
         einbinden. <code>backend_entry_toolbar_body</code> gilt für die Symbolleiste des
         <span class="mbold">Eintrags</span> und <code>backend_entry_toolbar_extended</code>
         für die Symbolleiste des <span class="mbold">Erweiterten Eintrags</span>.
@@ -6566,7 +6566,7 @@ auch selbstgeschriebene Plugins zugreifen können:</p>
     <span class="box">
         wird bei der Darstellung der
         Menüpunkte des Backends ausgeführt. Über dieses Ereignis können zusätzliche
-        Menüpunkte im Bereich <span class="mbold">Mediendatenbank</span> hinzugefügt werden.
+        Menüpunkte im Bereich <span class="mbold">Mediathek</span> hinzugefügt werden.
     </span>
 </span>
 </p>
@@ -6643,12 +6643,12 @@ auch selbstgeschriebene Plugins zugreifen können:</p>
 <article id="XU" class="subsub">
 
 <header>
-    <h4 class="subarticle" id="backend-ereignisse-mediendatenbank">Backend-Ereignisse: Mediendatenbank</h4>
+    <h4 class="subarticle" id="backend-ereignisse-mediathek">Backend-Ereignisse: Mediathek</h4>
 </header>
 
 <p class="tagging invisible">
 <span class="tag-box invisible">
-    <span class="inline-tag">Plugin-API!Ereignisse!Backend: Mediendatenbank</span>
+    <span class="inline-tag">Plugin-API!Ereignisse!Backend: Mediathek</span>
 </span>
 </p>
 
@@ -6657,7 +6657,7 @@ auch selbstgeschriebene Plugins zugreifen können:</p>
 <span class="desc-info">
     <span class="box group-box">
         wird aufgerufen, wenn eine neue Datei in die
-        Mediendatenbank eingefügt wurde.
+        Mediathek eingefügt wurde.
         <span class="subdesc">
             <code>eventData</code> enthält den Pfad zu der eingestellten Datei.
         </span>
@@ -6674,7 +6674,7 @@ auch selbstgeschriebene Plugins zugreifen können:</p>
 <span class="desc-info">
     <span class="box group-box">
         wird aufgerufen, wenn ein neuer
-        <em>Hotlink</em> (siehe Seite <span class="pageref"><a href="#Hotlink">Hotlink</a></span>) in die Mediendatenbank eingefügt
+        <em>Hotlink</em> (siehe Seite <span class="pageref"><a href="#Hotlink">Hotlink</a></span>) in die Mediathek eingefügt
         wurde.
         <span class="subdesc">
             <code>eventData</code> enthält den Pfad zu der temporären lokalen Kopie der zu
@@ -6690,7 +6690,7 @@ auch selbstgeschriebene Plugins zugreifen können:</p>
     <span class="box">
         (via Smarty <code>media_upload.tpl</code>) wird
         aufgerufen, wenn das Eingabeformular zum Hochladen neuer Dateien für die
-        Mediendatenbank dargestellt wird.
+        Mediathek dargestellt wird.
     </span>
 </span>
 </p>
@@ -6700,7 +6700,7 @@ auch selbstgeschriebene Plugins zugreifen können:</p>
 <span class="desc-info">
     <span class="box group-box">
         wird aufgerufen, wenn ein neues
-        Verzeichnis in der Mediendatenbank erstellt wurde.
+        Verzeichnis in der Mediathek erstellt wurde.
         <span class="subdesc">
             <code>eventData</code>: vollständiger Pfad des neu angelegten Verzeichnisses.
         </span>
@@ -6713,7 +6713,7 @@ auch selbstgeschriebene Plugins zugreifen können:</p>
 <span class="desc-info">
     <span class="box group-box">
         wird aufgerufen, wenn ein neues
-        Verzeichnis in der Mediendatenbank erstellt wurde. ???
+        Verzeichnis in der Mediathek erstellt wurde. ???
         <span class="subdesc">
             <code>addData</code>: Neu angelegte Verzeichnisse. ???
         </span>
@@ -6737,7 +6737,7 @@ auch selbstgeschriebene Plugins zugreifen können:</p>
 <code class="item event">backend_media_delete</code>
 <span class="desc-info">
     <span class="box group-box">
-        wird aufgerufen, wenn eine Datei der Mediendatenbank gelöscht wird.
+        wird aufgerufen, wenn eine Datei der Mediathek gelöscht wird.
         <span class="subdesc">
             <code>eventData</code> enthält ein Array mit zu
             löschenden zusätzlichen Dateien, zB. der automatisch erzeugten Voransicht.
@@ -6751,7 +6751,7 @@ auch selbstgeschriebene Plugins zugreifen können:</p>
 <span class="desc-info">
     <span class="box group-box">
         wird aufgerufen, wenn eine Datei geprüft
-        werden soll, die gerade in die Mediendatenbank hochgeladen wird. Wenn
+        werden soll, die gerade in die Mediathek hochgeladen wird. Wenn
         <span class="subdesc">
             <code>eventData</code> von einem Plugin auf den Wert <code>true</code> gesetzt
             wird, verbietet Serendipity das Einstellen dieser Datei. Dies
@@ -6790,7 +6790,7 @@ auch selbstgeschriebene Plugins zugreifen können:</p>
 <span class="desc-info">
     <span class="box group-box">
         wird bei der automatischen
-        Synchronisation der Mediendatenbank (siehe Seite <span class="pageref"><a href="#MDB-Synchronisation">MDB-Synchronisation</a></span>)
+        Synchronisation der Mediathek (siehe Seite <span class="pageref"><a href="#MDB-Synchronisation">MDB-Synchronisation</a></span>)
         aufgerufen. Plugins können eine übergebene Liste von Datei- und Verzeichnisnamen
         modifizieren, um so bestimmte Dateien von der Synchronisation auszuschließen.
         <span class="subdesc">
@@ -6806,7 +6806,7 @@ auch selbstgeschriebene Plugins zugreifen können:</p>
 <span class="desc-info">
     <span class="box group-box">
         wird ausgeführt, wenn ein Objekt der
-        Mediendatenbank umbenannt wird.
+        Mediathek umbenannt wird.
         <span class="subdesc">
             <code>eventData</code> enthält ein verschachteltes
             Array, bei dem jedes Unterarray eine umzubenennende Datei enthält. So können auch
@@ -6821,9 +6821,9 @@ auch selbstgeschriebene Plugins zugreifen können:</p>
 <span class="desc-info">
     <span class="box group-box">
         wird aufgerufen, wenn Dateinamen
-        und Pfade eines Objekts der Mediendatenbank zusammengestellt werden.
+        und Pfade eines Objekts der Mediathek zusammengestellt werden.
         <span class="subdesc">
-            <code>eventData</code> enthält die Metadaten einer Datei der Mediendatenbank.
+            <code>eventData</code> enthält die Metadaten einer Datei der Mediathek.
         </span>
     </span>
 </span>
@@ -8307,24 +8307,24 @@ die Datenbanktabellen Serendipitys angewendet wird.</p>
 </section><!-- section.index end -->
 
 <section id="S10120" class="index">
-<span class="s-toc">10.12 - Mediendatenbank</span>
+<span class="s-toc">10.12 - Mediathek</span>
 
-<h3 class="section" id="mediendatenbank-2">Mediendatenbank</h3>
+<h3 class="section" id="mediathek-2">Mediathek</h3>
 
 <p class="tagging invisible">
 <span class="tag-box invisible">
-    <span class="inline-tag">Mediendatenbank</span>
-    <span class="inline-tag">CMS!Einbindung der Mediendatenbank</span>
+    <span class="inline-tag">Mediathek</span>
+    <span class="inline-tag">CMS!Einbindung der Mediathek</span>
 </span>
 <span class="label invisible" id="mdb-profi">mdb-profi</span>
 </p>
 
-<p>Die Serendipity-Mediendatenbank verfügt abseits von den normal über das Backend
+<p>Die Serendipity-Mediathek verfügt abseits von den normal über das Backend
 zugänglichen Methoden über ein weiteres Feature, das jedoch derzeit nicht von
 Plugins oder dem Kernsystem unterstützt wird.</p>
 
-<p>Wenn ein Bild über das Mediendatenbank-Popup in einen Blog-Artikel eingebunden
-wird (siehe Seite <span class="pageref"><a href="#Mediendatenbank-Popup">Mediendatenbank-Popup</a></span>),
+<p>Wenn ein Bild über das Mediathek-Popup in einen Blog-Artikel eingebunden
+wird (siehe Seite <span class="pageref"><a href="#Mediathek-Popup">Mediathek-Popup</a></span>),
 sorgt ein JavaScript (aus der Datei <code>serendipity_editor.js</code>, Funktion
 <code>serendipity_admin_imageselector_done()</code>) dafür, dass die URL dieses
 Bildes gemeinsam mit dem entsprechenden HTML-Code in den Beitrag eingebunden
@@ -8341,14 +8341,14 @@ Ihre Verzeichnisstruktur ändert oder Sie ein Bild umbenennen, wird der
 HTML-Code auf ein nicht mehr vorhandenes Bild zeigen.</p>
 
 <p>Dies ließe sich nur umgehen, wenn Serendipity anstelle des HTML-Codes nur die ID
-des Mediendatenbank-Objekts einbinden und dynamisch bei jedem Seitenaufruf die
+des Mediathek-Objekts einbinden und dynamisch bei jedem Seitenaufruf die
 korrekte URL zurückliefern würde. Der erste Schritt hierzu ist für Serendipity 1.1
 bereits gemacht worden, da hier die ID eines Bildes in einem HTML-Kommentar mit
 ausgeliefert wird. Es existieren jedoch noch keine weiteren Plugins, die diesen
 Kommentar aufbereiten.</p>
 
 <p><span class="label invisible" id="mdb-by-id">mdb-by-id</span>Dennoch bietet die
-Serendipity-Mediendatenbank intern bereits die Möglichkeit, ein Bild anhand einer
+Serendipity-Mediathek intern bereits die Möglichkeit, ein Bild anhand einer
 ID auszuliefern. Konkret können Sie beispielsweise das Bild mit der ID
 <code>42</code> wie folgt darstellen:</p>
 
@@ -8395,14 +8395,14 @@ angeben oder beide Parameter miteinander verbinden. Der URL-Parameter
 <p>Diese Art des Aufrufs macht es Serendipity möglich, auch als Bilddatenbank zu
 einem fremden Content-Management-System genutzt zu werden.</p>
 
-<p>Dabei muss das CMS die Serendipity-Mediendatenbank lediglich per Popup-Fenster
+<p>Dabei muss das CMS die Serendipity-Mediathek lediglich per Popup-Fenster
 zB. via JavaScript aufrufen. Die URL für dieses Popup lautet
 <code>http://www.example.com/serendipity/serendipity_admin_image_selector.php</code>
 und kann zahlreiche URL-Variablen enthalten, die für eine Übergabe wichtig sind:</p>
 
 <p class="desc">
 <code class="item uri_param">serendipity[only_path]</code>
-<span class="desc-info">kann einen Pfadnamen enthalten, den das Mediendatenbank-Popup auslesen soll.</span>
+<span class="desc-info">kann einen Pfadnamen enthalten, den das Mediathek-Popup auslesen soll.</span>
 </p>
 
 <p class="desc">
@@ -8411,7 +8411,7 @@ und kann zahlreiche URL-Variablen enthalten, die für eine Übergabe wichtig sin
 HTML-Elementes, in den der Rückgabewert des Popups geschrieben werden soll. Wenn
 das CMS zB. ein Feld wie <code>&lt;input type='hidden'
 name='data[foreign_image]' id='id_foreign_image' value='' /&gt;</code> ausgibt, müssen
-Sie der Mediendatenbank die Variable
+Sie der Mediathek die Variable
 <code>serendipity[htmltarget]=id_foreign_image</code> übergeben. Andernfalls kann das
 JavaScript keinen Rückgabewert an das CMS liefern.</span>
 </p>
@@ -8440,7 +8440,7 @@ des CMS ankoppeln.</span><!-- footnote -->, aber wenn Serendipity auf demselben 
 wie das Content-Management-System, können PHP-Sessions bzw. Cookies zur
 automatischen Anmeldung an Serendipity problemlos durchgereicht werden. Notfalls
 kann ein fester Login vom CMS auch per URL-Variable an den Aufruf der
-Serendipity-Mediendatenbank weitergereicht werden:
+Serendipity-Mediathek weitergereicht werden:
 <code>serendipity_admin_image_selector.php?http_auth_user=benutzername&amp;http_auth_pw=passwort</code>.</p>
 
 <p>&nbsp;</p>

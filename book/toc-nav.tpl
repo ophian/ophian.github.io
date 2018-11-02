@@ -86,11 +86,11 @@
  <li class="sct-sub"><span class="toc-sub">4.4.1</span> <a class="sidebar-nav-item" href="#U441">Neuer Eintrag</a></li>
  <li class="sct-sub"><span class="toc-sub">4.4.2</span> <a class="sidebar-nav-item" href="#U442">Einträge bearbeiten</a></li>
  <li class="sct-sub"><span class="toc-sub">4.4.3</span> <a class="sidebar-nav-item" href="#U443">Kategorien</a></li>
- <li class="sct"><span class="toc">4.5</span> <a class="sidebar-nav-item" href="#S450">Mediendatenbank</a>&nbsp;<a data-toggle="collapse" data-target="#collapse_S-4.5" href="#collapse_S-4.5"><i class="fa fa-caret-down"></i></a></li>
+ <li class="sct"><span class="toc">4.5</span> <a class="sidebar-nav-item" href="#S450">Mediathek</a>&nbsp;<a data-toggle="collapse" data-target="#collapse_S-4.5" href="#collapse_S-4.5"><i class="fa fa-caret-down"></i></a></li>
  <li class="sct-sub"><span class="toc-sub">4.5.1</span> <a class="sidebar-nav-item" href="#U451">Mediendaten hinzufügen</a></li>
  <li class="sct-sub"><span class="toc-sub">4.5.2</span> <a class="sidebar-nav-item" href="#U452">Mediendaten: Probleme beim Upload</a></li>
  <li class="sct-sub"><span class="toc-sub">4.5.3</span> <a class="sidebar-nav-item" href="#U453">Mediendaten: Eigenschaften angeben</a></li>
- <li class="sct-sub"><span class="toc-sub">4.5.4</span> <a class="sidebar-nav-item" href="#U454">Mediendatenbank: Übersicht</a></li>
+ <li class="sct-sub"><span class="toc-sub">4.5.4</span> <a class="sidebar-nav-item" href="#U454">Mediathek: Übersicht</a></li>
  <li class="sct-sub"><span class="toc-sub">4.5.5</span> <a class="sidebar-nav-item" href="#U455">Verzeichnisse verwalten</a></li>
  <li class="sct-sub"><span class="toc-sub">4.5.6</span> <a class="sidebar-nav-item" href="#U456">Vorschauen erneuern</a></li>
  <li class="sct"><span class="toc">4.6</span> <a class="sidebar-nav-item" href="#S460">Aktivität</a>&nbsp;<a data-toggle="collapse" data-target="#collapse_S-4.6" href="#collapse_S-4.6"><i class="fa fa-caret-down"></i></a></li>
@@ -330,7 +330,7 @@
  <li class="sct-sub"><span class="toc-sub">10.3.1</span> <a class="sidebar-nav-item" href="#U1031">Kommentare, Trackbacks</a></li>
  <li class="sct-sub"><span class="toc-sub">10.3.2</span> <a class="sidebar-nav-item" href="#U1032">Exit-Nachverfolgung</a></li>
  <li class="sct-sub"><span class="toc-sub">10.3.3</span> <a class="sidebar-nav-item" href="#U1033">RSS-Feeds</a></li>
- <li class="sct-sub"><span class="toc-sub">10.3.4</span> <a class="sidebar-nav-item" href="#U1034">Mediendatenbank-Popup</a></li>
+ <li class="sct-sub"><span class="toc-sub">10.3.4</span> <a class="sidebar-nav-item" href="#U1034">Mediathek-Popup</a></li>
  <li class="sct-sub"><span class="toc-sub">10.3.5</span> <a class="sidebar-nav-item" href="#U1035">XML-RPC</a></li>
  <li class="sct"><span class="toc">10.4</span> <a class="sidebar-nav-item" href="#S1040">Serendipity-Dateien</a></li>
  <li class="sct"><span class="toc">10.5</span> <a class="sidebar-nav-item" href="#S1050">Serendipity-Funktionen</a>&nbsp;<a data-toggle="collapse" data-target="#collapse_S-10.5" href="#collapse_S-10.5"><i class="fa fa-caret-down"></i></a></li>
@@ -344,7 +344,7 @@
  <li class="sct-sub"><span class="toc-sub">10.5.8</span> <a class="sidebar-nav-item" href="#U1058">Datenbank</a></li>
  <li class="sct"><span class="toc">10.6</span> <a class="sidebar-nav-item" href="#S1060">Datenbank</a>&nbsp;<a data-toggle="collapse" data-target="#collapse_S-10.6" href="#collapse_S-10.6"><i class="fa fa-caret-down"></i></a></li>
  <li class="sct-sub"><span class="toc-sub">10.6.1</span> <a class="sidebar-nav-item" href="#U1061">Benutzer- und Rechtemanagement</a></li>
- <li class="sct-sub"><span class="toc-sub">10.6.2</span> <a class="sidebar-nav-item" href="#U1062">Mediendatenbank</a></li>
+ <li class="sct-sub"><span class="toc-sub">10.6.2</span> <a class="sidebar-nav-item" href="#U1062">Mediathek</a></li>
  <li class="sct-sub"><span class="toc-sub">10.6.3</span> <a class="sidebar-nav-item" href="#U1063">Artikel, Kategorien, Kommentare</a></li>
  <li class="sct-sub"><span class="toc-sub">10.6.4</span> <a class="sidebar-nav-item" href="#U1064">Zentraltabellen</a></li>
  <li class="sct"><span class="toc">10.7</span> <a class="sidebar-nav-item" href="#S1070">Sourcecode-Verwaltung</a>&nbsp;<a data-toggle="collapse" data-target="#collapse_S-10.7" href="#collapse_S-10.7"><i class="fa fa-caret-down"></i></a></li>
@@ -368,7 +368,7 @@
  <li class="sct-sub"><span class="toc-sub">10.11.1</span> <a class="sidebar-nav-item" href="#U10111">LDAP</a></li>
  <li class="sct-sub"><span class="toc-sub">10.11.2</span> <a class="sidebar-nav-item" href="#U10112">OpenID</a></li>
  <li class="sct-sub"><span class="toc-sub">10.11.3</span> <a class="sidebar-nav-item" href="#U10113">MySQL VIEWs</a></li>
- <li class="sct"><span class="toc">10.12</span> <a class="sidebar-nav-item" href="#S10120">Mediendatenbank</a></li>
+ <li class="sct"><span class="toc">10.12</span> <a class="sidebar-nav-item" href="#S10120">Mediathek</a></li>
  <li class="sct"><span class="toc">10.13</span> <a class="sidebar-nav-item" href="#S10130">Importer</a></li>
  <li class="sct"><span class="toc">10.14</span> <a class="sidebar-nav-item" href="#S10140">Template Processor/Template API</a></li>
 </ul>

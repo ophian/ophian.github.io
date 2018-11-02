@@ -616,7 +616,7 @@ Scripts sofort zu beenden und Ressourcen zu sparen.</p>
 </span>
 </p>
 
-<p>Serendipity speichert bis auf die Dateien der Mediendatenbank alle Informationen
+<p>Serendipity speichert bis auf die Dateien der Mediathek alle Informationen
 in seiner Datenbank. Einträge speichert Serendipity beispielsweise in der
 Datenbanktabelle <code>serendipity_entries</code>, Kategorien in der Tabelle
 <code>serendipity_category</code> (eine vollständige Liste der Tabellen finden Sie ab
@@ -910,11 +910,11 @@ Monat sind, zu löschen:</p>
 </span>
 </p>
 
-<p>Im Dateisystem speichert Serendipity vor allem die Dateien der Mediendatenbank
+<p>Im Dateisystem speichert Serendipity vor allem die Dateien der Mediathek
 (im Verzeichnis <code>uploads</code>) und temporäre Dateien (kompilierte Templates,
 Caches).</p>
 
-<p>Während Sie die Mediendatenbank über das normale Serendipity-Backend verwalten
+<p>Während Sie die Mediathek über das normale Serendipity-Backend verwalten
 können (und sollten), müssen Sie sich um temporäre Dateien eigentlich selten
 kümmern. Diese werden im Verzeichnis <code>templates_c</code> gespeichert.</p>
 

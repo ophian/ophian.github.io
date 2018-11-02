@@ -1536,7 +1536,7 @@ zugegebenermaßen komplizierten Materie auskennt.</span>
 <code class="item file">style_fallback.css</code>
 <span class="desc-info">Die <code>templates/default/style_fallback.css</code>
 Datei enthält einige wenige zentrale CSS-Regeln über die jedes Theme verfügen muss.
-Inbesondere die Regeln für das Markup welches aus der Mediendatenbank eingefügt wird,
+Inbesondere die Regeln für das Markup welches aus der Mediathek eingefügt wird,
 werden hier ausgezeichnet. Diese Datei wird <span class="mbold">vor</span> der Theme
 eigenen <code>style.css</code> Datei einfügt, so dass die Regeln vom Theme, oder
 später von der <code>user.css</code> Datei überschrieben werden können. Es ist <span class="mbold">nicht</span>
@@ -1842,7 +1842,7 @@ Eine genaue Auflistung der neueren Backend Dateien und ihrer Variablen erfolgt i
 
 <p>Damit Sie jedoch dennoch Teile des Backends zu eigenen Zwecken und für eigene
 Templates anpassen können, sind das grundlegende Seitenlayout, die Oberfläche der
-Mediendatenbank sowie der Artikel-Editor von Serendipity über Template-Dateien
+Mediathek sowie der Artikel-Editor von Serendipity über Template-Dateien
 zugänglich. Zusammen mit der Stylesheet-Datei des Backends können so beinahe
 alle Aspekte des Backends verändert werden.</p>
 
@@ -1871,10 +1871,10 @@ Kategorieauswahl, die erweiterten Optionen und alle weiteren Felder beliebig pla
     <span class="inline-tag">Template-Dateien!admin/media_choose.tpl</span>
 </span>
 <code class="item file">admin/media_choose.tpl</code>
-<span class="desc-info">Enthält das Grundgerüst der Mediendatenbank-Oberfläche, die über ein Popup-Fenster
+<span class="desc-info">Enthält das Grundgerüst der Mediathek-Oberfläche, die über ein Popup-Fenster
 ausgegeben wird. Innerhalb dieser Datei werden mehrere Framesets verwaltet und
 die Inhalte des Verzeichnis-Frames ausgegeben. Somit dient die Datei als eine
-Art zentrale Anlaufstelle für alle Aktionen, die in der Mediendatenbank
+Art zentrale Anlaufstelle für alle Aktionen, die in der Mediathek
 ausgeführt werden können (Verzeichnisverwaltung, Rechteverwaltung, Darstellung
 der Übersicht, Darstellung einer einzelnen Datei, Auswahl einer Datei).</span>
 </p>
@@ -1886,7 +1886,7 @@ der Übersicht, Darstellung einer einzelnen Datei, Auswahl einer Datei).</span>
 <code class="item file">admin/media_gallery.tpl</code>
 <span class="desc-info">
     <span class="box">
-        Dieses Template gibt das Gerüst für die Galerie-Ansicht der Mediendatenbank aus.
+        Dieses Template gibt das Gerüst für die Galerie-Ansicht der Mediathek aus.
     </span>
 </span>
 </p>
@@ -1912,7 +1912,7 @@ der Übersicht, Darstellung einer einzelnen Datei, Auswahl einer Datei).</span>
 <code class="item file">admin/media_galleryitems.tpl</code>
 <span class="desc-info">
     <span class="box">
-        Diese Datei regelt die Darstellung der Galerie-Liste von Dateien in der Mediendatenbank.
+        Diese Datei regelt die Darstellung der Galerie-Liste von Dateien in der Mediathek.
         Sowohl die Übersicht als auch die Darstellung einer einzelnen Datei wird
         innerhalb dieses Templates ausgegeben.
     </span>
@@ -1926,7 +1926,7 @@ der Übersicht, Darstellung einer einzelnen Datei, Auswahl einer Datei).</span>
 <code class="item file">admin/media_pane.tpl</code>
 <span class="desc-info">
     <span class="box">
-        Dieses Template gibt das Gerüst für die Ansicht der Mediendatenbank aus und
+        Dieses Template gibt das Gerüst für die Ansicht der Mediathek aus und
         stellt den Kopf- und Fußbereich für die Verzeichnisinhalte dar (Filter,
         Blättern, Suche ...).
     </span>
@@ -1945,7 +1945,7 @@ der Übersicht, Darstellung einer einzelnen Datei, Auswahl einer Datei).</span>
 <code class="item file">admin/media_items.tpl</code>
 <span class="desc-info">
     <span class="box">
-        Diese Datei regelt die Darstellung der Liste von Dateien in der Mediendatenbank.
+        Diese Datei regelt die Darstellung der Liste von Dateien in der Mediathek.
         Sowohl die Übersicht als auch die Darstellung einer einzelnen Datei wird
         innerhalb dieses Templates ausgegeben.
     </span>
@@ -1963,7 +1963,7 @@ der Übersicht, Darstellung einer einzelnen Datei, Auswahl einer Datei).</span>
     <span class="inline-tag">Template-Dateien!admin/media_properties.tpl</span>
 </span>
 <code class="item file">admin/media_properties.tpl</code>
-<span class="desc-info">Stellt die Eigenschaften einer gewählten Datei der Mediendatenbank dar. Die
+<span class="desc-info">Stellt die Eigenschaften einer gewählten Datei der Mediathek dar. Die
 Datei <code>media_properties.tpl</code> regelt dabei den umgebenden Rahmen, die
 eigentlichen Detailinformationen werden über die Variable
 <code class="smarty">{$MEDIA_ITEMS}</code> aus der Datei <code>media_items.tpl</code> bezogen.</span>
@@ -1974,7 +1974,7 @@ eigentlichen Detailinformationen werden über die Variable
     <span class="inline-tag">Template-Dateien!admin/media_upload.tpl</span>
 </span>
 <code class="item file">admin/media_upload.tpl</code>
-<span class="desc-info">Dieses Template enthält das Formular zum Hochladen einer neuen Datei in die Mediendatenbank.</span>
+<span class="desc-info">Dieses Template enthält das Formular zum Hochladen einer neuen Datei in die Mediathek.</span>
 </p>
 
 <p class="desc citem-desc">
@@ -1982,10 +1982,10 @@ eigentlichen Detailinformationen werden über die Variable
     <span class="inline-tag">Template-Dateien!admin/media_showitem.tpl</span>
 </span>
 <code class="item file">admin/media_showitem.tpl</code>
-<span class="desc-info">Falls die Mediendatenbank benutzt wird, um im Frontend eine einzelne Datei
+<span class="desc-info">Falls die Mediathek benutzt wird, um im Frontend eine einzelne Datei
 darzustellen, dient das Template <code>media_showitem.tpl</code> dazu, das Grundgerüst
 zu den Informationen der Datei zu formatieren. Diese Datei kann somit unabhängig
-von der Backend-Darstellung der Mediendatenbank angepasst werden.</span>
+von der Backend-Darstellung der Mediathek angepasst werden.</span>
 </p>
 
 <p class="desc citem-desc">
@@ -2101,7 +2101,7 @@ und setzt sie in ein HTML output Feld (radio, password, text, select, ...).</spa
 </span>
 <code class="item file">admin/images.inc.tpl</code>
 <span class="desc-info">Smarty Pendant zu <code>/include/admin/images.inc.php</code>, <code>serendipity_admin_image_selector.php</code>.
-Diese Datei definiert und erhält alles Nötige, um den Content der "Backend Mediendatenbank Seitenleiste: Mediendatenbank" darzustellen.
+Diese Datei definiert und erhält alles Nötige, um den Content der "Backend Mediathek Seitenleiste: Mediathek" darzustellen.
 Sie fasst die Ausgaben verschiedender bereits erwähnter <code>media_*.tpl</code> Dateien für die Ausgabe zusammen.</span>
 </p>
 
@@ -2429,7 +2429,7 @@ Kalenders in der Seitenleiste eingebunden.</span>
 <code class="item file">img/rename.png</code>, 
 <code class="item file">img/scale.png</code>, 
 <code class="item file">img/zoom.png</code>
-<span class="desc-info">Enthält Symbole für Elemente der Mediendatenbank (Bild löschen, Bild umbenennen,
+<span class="desc-info">Enthält Symbole für Elemente der Mediathek (Bild löschen, Bild umbenennen,
 Beschneiden, Vergrößern).</span>
 </p>
 
@@ -2442,7 +2442,7 @@ Beschneiden, Vergrößern).</span>
 <code class="item file">img/img_align_left.png</code>, 
 <code class="item file">img/img_align_right.png</code>, 
 <code class="item file">img/img_align_top.png</code>
-<span class="desc-info">Wenn ein Redakteur in einem Blog-Artikel ein Bild aus der Mediendatenbank einbindet,
+<span class="desc-info">Wenn ein Redakteur in einem Blog-Artikel ein Bild aus der Mediathek einbindet,
 kann er in einem Auswahldialog bestimmen, wie diese Bilder ausgerichtet sein
 sollen. Dazu werden kleine Vorschaugrafiken zur Ausrichtung angezeigt, die der
 jeweiligen Grafikdatei wie <code>img_align_left.png</code> entsprechen. Wenn Sie das
@@ -2519,7 +2519,7 @@ geladen werden muss.</span>
 </span>
 <code class="item file">admin/img/mime_***.png</code>
 <span class="desc-info">Stellen verschiedene Ersetzungs-Icons für unterschiedliche
-Mime Typen in der Mediendatenbank dar, zB. für PDFs oder Videos.</span>
+Mime Typen in der Mediathek dar, zB. für PDFs oder Videos.</span>
 </p>
 
 <p class="desc citem-desc">
@@ -2527,7 +2527,7 @@ Mime Typen in der Mediendatenbank dar, zB. für PDFs oder Videos.</span>
     <span class="inline-tag">Template-Dateien!admin/img/mlgallery.png</span>
 </span>
 <code class="item file">admin/img/mlgallery.png</code>
-<span class="desc-info">Symbol für den Mediendatenbank Galerie Button in den Editor Toolbars.</span>
+<span class="desc-info">Symbol für den Mediathek Galerie Button in den Editor Toolbars.</span>
 </p>
 
 <p class="desc citem-desc">
@@ -2535,7 +2535,7 @@ Mime Typen in der Mediendatenbank dar, zB. für PDFs oder Videos.</span>
     <span class="inline-tag">Template-Dateien!admin/img/thumbnail.png</span>
 </span>
 <code class="item file">admin/img/thumbnail.png</code>
-<span class="desc-info">Symbol für die Voransicht einer Grafikdatei und Symbol der Mediendatenbank in den Editor Toolbars.</span>
+<span class="desc-info">Symbol für die Voransicht einer Grafikdatei und Symbol der Mediathek in den Editor Toolbars.</span>
 </p>
 
 <p class="desc citem-desc">
@@ -3067,10 +3067,10 @@ Konfigurationsoberfläche angezeigt wird.</span>
 
         <span class="box"><code class="sub-item">media</code>
             <span class="sub-box">Stellt ein Eingabefeld dar, das der Benutzer mit der URL einer Datei aus der
-            Serendipity-Mediendatenbank ausfüllen kann. Dies ist zB. sehr hilfreich, wenn für
-            ein Template eine Header-Grafik aus dem Pool der Mediendatenbank gewählt werden
+            Serendipity-Mediathek ausfüllen kann. Dies ist zB. sehr hilfreich, wenn für
+            ein Template eine Header-Grafik aus dem Pool der Mediathek gewählt werden
             soll, ohne dass der Benutzer eine URL eingeben muss. Ein Klick auf einen
-            zusätzlichen Button öffnet dabei die Mediendatenbank.</span>
+            zusätzlichen Button öffnet dabei die Mediathek.</span>
         </span>
 
         <span class="box">
@@ -6189,7 +6189,7 @@ der <code>index.tpl</code> aufgerufen.</p>
 </span>
 </p>
 
-<p>Die Template-Dateien für die Darstellung der Mediendatenbank [*]
+<p>Die Template-Dateien für die Darstellung der Mediathek [*]
 <span class="footnote"><i class="fa fa-info-circle"></i> <code>admin/media_choose.tpl</code>, <code>media_imgedit.tpl</code>,
 <code>media_imgedit_done.tpl</code>, <code>media_gallery.tpl</code>, <code>media_galleryinsert.tpl</code>, <code>media_galleryitems.tpl</code>, <code>media_pane.tpl</code>, <code>media_items.tpl</code>,
 <code>media_properties.tpl</code>, <code>media_upload.tpl</code>, <code>media_showitem.tpl</code></span><!-- footnote --> werden innerhalb
@@ -6210,7 +6210,7 @@ wird auf Seite <span class="pageref"><a href="#mediatemplates">mediatemplates</a
 
     <span class="box">
         Enthält die Liste ein oder mehrerer Medienobjekte bei Darstellung in der
-        Mediendatenbank-Übersicht. Die Ergebnisse der Template-Dateien
+        Mediathek-Übersicht. Die Ergebnisse der Template-Dateien
         <code>media_upload.tpl</code> oder <code>media_properties.tpl</code> werden über die
         Smarty-Variable <code class="smarty">{$MEDIA_ITEMS}</code> in den jeweiligen Kontext anderer
         Smarty-Templates eingebunden.
@@ -6226,7 +6226,7 @@ wird auf Seite <span class="pageref"><a href="#mediatemplates">mediatemplates</a
                 <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Boolean</code></span>
             </span>
             <span class="sub-box">
-                Gibt an, ob Symbole zum Bearbeiten einer Datei der Mediendatenbank (Bearbeiten,
+                Gibt an, ob Symbole zum Bearbeiten einer Datei der Mediathek (Bearbeiten,
                 Löschen, Drehen ...) angezeigt werden sollen. Enthält den Wert <code>true</code>,
                 falls aktiviert.
             </span>
@@ -6241,7 +6241,7 @@ wird auf Seite <span class="pageref"><a href="#mediatemplates">mediatemplates</a
             </span>
             <span class="sub-box">
                 Enthält die Anzahl der maximal pro Seite darzustellenden Dateien der
-                Mediendatenbank.
+                Mediathek.
             </span>
         </span>
 
@@ -6253,7 +6253,7 @@ wird auf Seite <span class="pageref"><a href="#mediatemplates">mediatemplates</a
                 <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Zahl</code></span>
             </span>
             <span class="sub-box">
-                Enthält die Seitennummer der aktuell dargestellen Übersichtsseite der Mediendatenbank.
+                Enthält die Seitennummer der aktuell dargestellen Übersichtsseite der Mediathek.
             </span>
         </span>
 
@@ -6265,7 +6265,7 @@ wird auf Seite <span class="pageref"><a href="#mediatemplates">mediatemplates</a
                 <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Zahl</code></span>
             </span>
             <span class="sub-box">
-                Enthält die Seitenanzahl der dargestellten Übersicht der Mediendatenbank.
+                Enthält die Seitenanzahl der dargestellten Übersicht der Mediathek.
             </span>
         </span>
 
@@ -6278,7 +6278,7 @@ wird auf Seite <span class="pageref"><a href="#mediatemplates">mediatemplates</a
                 <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Zeichenkette</code></span>
             </span>
             <span class="sub-box">
-                Enthält die URLs zum Zurück- und Weiterblättern der Mediendatenbank-Übersicht.
+                Enthält die URLs zum Zurück- und Weiterblättern der Mediathek-Übersicht.
             </span>
         </span>
 
@@ -6304,7 +6304,7 @@ wird auf Seite <span class="pageref"><a href="#mediatemplates">mediatemplates</a
             </span>
             <span class="sub-box">
                 Falls auf <code>true</code> gesetzt, soll die Einbindung der Oberfläche zum Hochladen
-                einer Datei in die Mediendatenbank mit angezeigt werden.
+                einer Datei in die Mediathek mit angezeigt werden.
             </span>
         </span>
 
@@ -6316,7 +6316,7 @@ wird auf Seite <span class="pageref"><a href="#mediatemplates">mediatemplates</a
                 <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Boolean</code></span>
             </span>
             <span class="sub-box">
-                Falls auf <code>true</code> gesetzt, werden nur die Dateien der Mediendatenbank angezeigt,
+                Falls auf <code>true</code> gesetzt, werden nur die Dateien der Mediathek angezeigt,
                 die sich im aktuellen Ordner befinden. Falls auf <code>false</code> gesetzt,
                 werden auch alle Dateien der Unterordner darstellt. Diese Option kann in den Sortierungs-Filter
                 Einstellungen gesetzt werden und ermöglicht eine bessere Strukturierung von Mediadaten.
@@ -6344,11 +6344,11 @@ wird auf Seite <span class="pageref"><a href="#mediatemplates">mediatemplates</a
                 <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Boolean</code></span>
             </span>
             <span class="sub-box">
-                Falls auf <code>true</code> gesetzt, werden die Dateien der Mediendatenbank mittels des
+                Falls auf <code>true</code> gesetzt, werden die Dateien der Mediathek mittels des
                 Templates <code>admin/media_pane.tpl</code> in einer Übersicht dargestellt. Falls auf
                 <code>false</code> gesetzt, wird das Template <code>admin/media_properties.tpl</code>
                 verwendet, das die Detaileigenschaften einer einzelnen Datei der
-                Mediendatenbank darstellen kann.
+                Mediathek darstellen kann.
             </span>
         </span>
 
@@ -6375,7 +6375,7 @@ wird auf Seite <span class="pageref"><a href="#mediatemplates">mediatemplates</a
             </span>
             <span class="sub-box">
                 Enthält den Pfad zur jeweiligen Datei mit den Symbolen zum Bearbeiten der
-                Dateien in der Mediendatenbank (Löschen, Umbenennen ...).
+                Dateien in der Mediathek (Löschen, Umbenennen ...).
             </span>
         </span>
 
@@ -6417,7 +6417,7 @@ wird auf Seite <span class="pageref"><a href="#mediatemplates">mediatemplates</a
                 <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Zeichenkette</code></span>
             </span>
             <span class="sub-box">
-                Falls die Ausgabe der Dateien der Mediendatenbank auf ein Verzeichnis
+                Falls die Ausgabe der Dateien der Mediathek auf ein Verzeichnis
                 eingeschränkt wird, enthält diese Variable den letzten übergeordneten
                 Verzeichnisnamen.
             </span>
@@ -6432,7 +6432,7 @@ wird auf Seite <span class="pageref"><a href="#mediatemplates">mediatemplates</a
                 <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Zeichenkette</code></span>
             </span>
             <span class="sub-box">
-                Falls die Ausgabe der Dateien der Mediendatenbank auf ein Verzeichnis
+                Falls die Ausgabe der Dateien der Mediathek auf ein Verzeichnis
                 eingeschränkt wird, enthält diese Variable den vollständigen Verzeichnisnamen.
             </span>
         </span>
@@ -6445,7 +6445,7 @@ wird auf Seite <span class="pageref"><a href="#mediatemplates">mediatemplates</a
                 <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Zeichenkette</code></span>
             </span>
             <span class="sub-box">
-                Falls die Ausgabe der Dateien der Mediendatenbank auf einen speziellen Dateinamen
+                Falls die Ausgabe der Dateien der Mediathek auf einen speziellen Dateinamen
                 eingeschränkt wird, enthält diese Variable den begrenzenden Dateinamen.
             </span>
         </span>
@@ -6458,7 +6458,7 @@ wird auf Seite <span class="pageref"><a href="#mediatemplates">mediatemplates</a
                 <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Eindimensionales Array</code></span>
             </span>
             <span class="sub-box">
-                Falls die Ausgabe der Dateien der Mediendatenbank mit einer vom Benutzer
+                Falls die Ausgabe der Dateien der Mediathek mit einer vom Benutzer
                 bestimmten Sortierungsreihenfolge erfolgt, enthält diese Variable die
                 Details zur Sortierung. Dazu werden die Unter-Array-Schlüssel <code>order</code>
                 (Datenbank-Spaltenname), <code>ordermode</code> (aufsteigende oder absteigende Sortierung,
@@ -6474,7 +6474,7 @@ wird auf Seite <span class="pageref"><a href="#mediatemplates">mediatemplates</a
                 <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Zeichenkette</code></span>
             </span>
             <span class="sub-box">
-                Falls die Ausgabe der Dateien der Mediendatenbank auf Dateien mit speziellem
+                Falls die Ausgabe der Dateien der Mediathek auf Dateien mit speziellem
                 Schlüsselwort eingeschränkt wird, enthält diese Variable die Liste der
                 Schlüsselwörter.
             </span>
@@ -6501,7 +6501,7 @@ wird auf Seite <span class="pageref"><a href="#mediatemplates">mediatemplates</a
                 <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Mehrdimensionales Array</code></span>
             </span>
             <span class="sub-box">
-                Falls die Ausgabe der Dateien der Mediendatenbank mit einer vom Benutzer
+                Falls die Ausgabe der Dateien der Mediathek mit einer vom Benutzer
                 bestimmten Filterung erfolgt, enthält diese Variable die jeweiligen
                 Filtermechanismen. Jeder Unter-Array-Schlüssel entspricht dem Namen eines
                 Datenbankfeldes, das jeweils weitere Array-Schlüssel enthalten kann. Jeder
@@ -6535,7 +6535,7 @@ wird auf Seite <span class="pageref"><a href="#mediatemplates">mediatemplates</a
                 <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Mehrdimensionales Array</code></span>
             </span>
             <span class="sub-box">
-                Enthält die Liste aller filterbaren Datenbankfelder der Mediendatenbank. Diese
+                Enthält die Liste aller filterbaren Datenbankfelder der Mediathek. Diese
                 Variable wird durch die Serendipity-Funktion
                 <code>serendipity_getImageFields()</code> (Datei <code>include/functions_images.inc.php</code>)
                 gefüllt und gibt Metadaten wie Typ und Beschreibung jedes Datenfeldes
@@ -6558,7 +6558,7 @@ wird auf Seite <span class="pageref"><a href="#mediatemplates">mediatemplates</a
             </span>
             <span class="sub-box">
                 Enthält ein Array aller verfügbaren Autoren des Blogs, so dass die Auswahl der
-                Dateien der Mediendatenbank auf einen gewünschten Eigentümer eingeschränkt
+                Dateien der Mediathek auf einen gewünschten Eigentümer eingeschränkt
                 werden kann. Die Liste der Autoren wird mittels der Serendipity-Funktion
                 <code>serendipity_fetchUsers()</code> (Datei <code>include/functions.inc.php</code>) bezogen.
                 Die verfügbaren Array-Schlüssel entsprechen den Datenbankspaltennamen der
@@ -6587,7 +6587,7 @@ wird auf Seite <span class="pageref"><a href="#mediatemplates">mediatemplates</a
                 <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Zahl</code></span>
             </span>
             <span class="sub-box">
-                Enthält die Anzahl der auf der Seite dargestellten Dateien der Mediendatenbank.
+                Enthält die Anzahl der auf der Seite dargestellten Dateien der Mediathek.
             </span>
         </span>
 
@@ -6599,7 +6599,7 @@ wird auf Seite <span class="pageref"><a href="#mediatemplates">mediatemplates</a
                 <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Mehrdimensionales Array</code></span>
             </span>
             <span class="sub-box">
-                Enthält ein Array aller darzustellenden Dateien der Mediendatenbank.
+                Enthält ein Array aller darzustellenden Dateien der Mediathek.
             </span>
         </span>
 
@@ -6611,7 +6611,7 @@ wird auf Seite <span class="pageref"><a href="#mediatemplates">mediatemplates</a
                 <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Mehrdimensionales Array</code></span>
             </span>
             <span class="sub-box">
-                Enthält ein Array aller eingerichteten Verzeichnisse der Mediendatenbank. Die
+                Enthält ein Array aller eingerichteten Verzeichnisse der Mediathek. Die
                 verfügbaren Array-Schlüssel sind identisch mit den auf Seite
                 <span class="pageref"><a href="#mediafolders">mediafolders</a></span> aufgeführten.
             </span>
@@ -6628,7 +6628,7 @@ wird auf Seite <span class="pageref"><a href="#mediatemplates">mediatemplates</a
             <span class="sub-box">
                 Ist <code>true</code> gesetzt, wenn das Formular der Template-Datei
                 <code>media_properties.tpl</code> zum Bearbeiten der Eigenschaften einer
-                Datei der Mediendatenbank angezeigt werden soll.
+                Datei der Mediathek angezeigt werden soll.
             </span>
         </span>
 
@@ -6642,7 +6642,7 @@ wird auf Seite <span class="pageref"><a href="#mediatemplates">mediatemplates</a
             </span>
             <span class="sub-box">
                 Enthält HTML-Code für versteckte Formularwerte, die zum Bearbeiten einer
-                Datei der Mediendatenbank benötigt werden.
+                Datei der Mediathek benötigt werden.
             </span>
         </span>
 
@@ -6656,7 +6656,7 @@ wird auf Seite <span class="pageref"><a href="#mediatemplates">mediatemplates</a
             </span>
             <span class="sub-box">
                 Gibt an, wie viele Schlüsselwörter beim Zuweisen zu einer Datei der
-                Mediendatenbank nebeneinander in einer Zeile dargestellt werden können
+                Mediathek nebeneinander in einer Zeile dargestellt werden können
                 (standardmäßig <code>3</code>).
             </span>
         </span>
@@ -6671,7 +6671,7 @@ wird auf Seite <span class="pageref"><a href="#mediatemplates">mediatemplates</a
             </span>
             <span class="sub-box">
                 Enthält ein Array mit den verfügbaren Eigenschaftsfeldern für eine Datei der
-                Mediendatenbank, wie im Blog konfiguriert (siehe Seite <span class="pageref"><a href="#entryproperties">entryproperties</a></span>).
+                Mediathek, wie im Blog konfiguriert (siehe Seite <span class="pageref"><a href="#entryproperties">entryproperties</a></span>).
             </span>
         </span>
 
@@ -6690,7 +6690,7 @@ wird auf Seite <span class="pageref"><a href="#mediatemplates">mediatemplates</a
     </span>
 
     <span class="box">
-        Enthält globale Eigenschaften der Mediendatenbank und deren vom Benutzer
+        Enthält globale Eigenschaften der Mediathek und deren vom Benutzer
         angelegte Verzeichnisse, die benötigt werden, um das Formular zum Hochladen einer
         Datei darzustellen.
     </span>
@@ -6736,7 +6736,7 @@ wird auf Seite <span class="pageref"><a href="#mediatemplates">mediatemplates</a
             </span>
             <span class="sub-box">
                 Enthält eine Liste aller Verzeichnisse und Unterverzeichnisse der
-                Mediendatenbank. Folgende Array-Schlüssel sind verfügbar:
+                Mediathek. Folgende Array-Schlüssel sind verfügbar:
             </span>
 
             <span class="sub-box mda-box">
@@ -6781,7 +6781,7 @@ wird auf Seite <span class="pageref"><a href="#mediatemplates">mediatemplates</a
                     <span class="sub-box">
                         Enthält den Wert <code>true</code>, wenn das Element ein Verzeichnis darstellt. Ein
                         Array derselben Struktur kann von einer internen Serendipity-Funktion auch
-                        erstellt werden, wenn eine Liste aller verfügbaren Dateien der Mediendatenbank
+                        erstellt werden, wenn eine Liste aller verfügbaren Dateien der Mediathek
                         ausgegeben werden soll. Nur in einem solchen Fall kann der Wert auch <code>false</code>
                         annehmen. Im Kontext der Template-Datei <code>media_upload.tpl</code> ist der Wert der
                         Variable <code class="item smarty">{$media.folders.X.directory}</code> jedoch erwartungsgemäß stets <code>true</code>.
@@ -6860,7 +6860,7 @@ wird auf Seite <span class="pageref"><a href="#mediatemplates">mediatemplates</a
             </span>
             <span class="sub-box">
                 Enthält eine Zeichenkette mit den benötigten URL-Variablen, die innerhalb des
-                Popups zur Auswahl einer Mediendatenbank-Datei an die Folgeseiten weitergereicht
+                Popups zur Auswahl einer Mediathek-Datei an die Folgeseiten weitergereicht
                 werden müssen.
             </span>
         </span>
@@ -6873,7 +6873,7 @@ wird auf Seite <span class="pageref"><a href="#mediatemplates">mediatemplates</a
                 <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Boolean</code></span>
             </span>
             <span class="sub-box">
-                Enthält den Wert <code>true</code>, wenn die erste Seite des Mediendatenbank-Popups
+                Enthält den Wert <code>true</code>, wenn die erste Seite des Mediathek-Popups
                 eingebunden wird. In diesem Fall stellt die Template-Datei
                 <code>media_choose.tpl</code> keine Inhalte dar, sondern nur das globale Frameset
                 (links Verzeichnisnavigation, rechts Inhalt).
@@ -6905,7 +6905,7 @@ wird auf Seite <span class="pageref"><a href="#mediatemplates">mediatemplates</a
             <span class="sub-box">
                 Enthält die URL zur <code>admin/style.css</code>-Datei für die Darstellung des
                 Serendipity-Backends. In diesem Stylesheet wird auch das Aussehen der
-                Mediendatenbank definiert.
+                Mediathek definiert.
             </span>
         </span>
 
@@ -6918,7 +6918,7 @@ wird auf Seite <span class="pageref"><a href="#mediatemplates">mediatemplates</a
             </span>
             <span class="sub-box">
                 Enthält die URL zur <code>treeview/tree.css</code>-Datei für die Darstellung der
-                Verzeichnisauswahl der Mediendatenbank.
+                Verzeichnisauswahl der Mediathek.
             </span>
         </span>
 
@@ -6957,14 +6957,14 @@ wird auf Seite <span class="pageref"><a href="#mediatemplates">mediatemplates</a
                 <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Zahl</code></span>
             </span>
             <span class="sub-box">
-                Falls nur eine einzelne Datei in der Oberfläche der Mediendatenbank angezeigt
+                Falls nur eine einzelne Datei in der Oberfläche der Mediathek angezeigt
                 werden soll, enthält diese Variable die ID für dieses Objekt. Diese
                 Variable entspricht der URL-GET-Variable
                 <span class="tag-box invisible">
                     <span class="inline-tag">Serendipity-Variablen!\$serendipity['GET']['image']</span>
                 </span>
                 <code>$serendipity['GET']['image']</code>. Wurde eine Datei gerade hochgeladen,
-                enthält diese Variable die neue ID dieser Datei in der Mediendatenbank.
+                enthält diese Variable die neue ID dieser Datei in der Mediathek.
             </span>
         </span>
 
@@ -6992,11 +6992,11 @@ wird auf Seite <span class="pageref"><a href="#mediatemplates">mediatemplates</a
             </span>
             <span class="sub-box">
                 An einigen Stellen bindet das Popup-Fenster der
-                Mediendatenbank Inhalte des Backends ein, die sonst über andere Menüpunkte
+                Mediathek Inhalte des Backends ein, die sonst über andere Menüpunkte
                 ereichbar sind. Diese werden extern eingebunden.
             </span>
             <span class="sub-box">
-                Wenn ein Bild über das Mediendatenbank-Popup-Fenster eingebunden wird, bestimmt
+                Wenn ein Bild über das Mediathek-Popup-Fenster eingebunden wird, bestimmt
                 der Benutzer über mehrere aufeinanderfolgende Schritte die Auswahl und
                 Platzierung des Bildes. Die Ausgabe erfolgt jeweils innerhalb desselben
                 Templates (<code>media_choose.tpl</code>). Um die Schritte voneinander unterscheiden zu
@@ -7010,7 +7010,7 @@ wird auf Seite <span class="pageref"><a href="#mediatemplates">mediatemplates</a
 
                 <code>external</code>
                 <span class="sub-box">
-                    bedeutet, dass Teile des Backends in der Mediendatenbank
+                    bedeutet, dass Teile des Backends in der Mediathek
                     eingebunden werden. Diese HTML-Ausgaben werden in der Variable
                     <code class="item smarty">{$media.external}</code> gespeichert.
                 </span>
@@ -7035,7 +7035,7 @@ wird auf Seite <span class="pageref"><a href="#mediatemplates">mediatemplates</a
                 </span>
                 <code>default</code>
                 <span class="sub-box">
-                    bedeutet, dass die Übersicht der Dateien der Mediendatenbank
+                    bedeutet, dass die Übersicht der Dateien der Mediathek
                     angezeigt wird.
                 </span>
 
@@ -7052,7 +7052,7 @@ wird auf Seite <span class="pageref"><a href="#mediatemplates">mediatemplates</a
             <span class="sub-box">
                 Enthält etwaige HTML-Ausgaben von Teilen des Backends (Formular zum
                 Datei-Upload, Verzeichnisse verwalten ...) zur Einbindung in das Popup der
-                Mediendatenbank.
+                Mediathek.
             </span>
         </span>
 
@@ -7065,7 +7065,7 @@ wird auf Seite <span class="pageref"><a href="#mediatemplates">mediatemplates</a
             </span>
             <span class="sub-box">
                 Ist auf den Wert <code>true</code> gesetzt, wenn gerade eine Datei in die
-                Mediendatenbank hochgeladen wurde. Mittels dieser Variable können dann
+                Mediathek hochgeladen wurde. Mittels dieser Variable können dann
                 entsprechende Meldungen über den Erfolg oder das Fehlschlagen des Vorgangs
                 ausgegeben werden.
             </span>
@@ -7080,7 +7080,7 @@ wird auf Seite <span class="pageref"><a href="#mediatemplates">mediatemplates</a
             </span>
             <span class="sub-box">
                 Ist auf den Wert <code>true</code> gesetzt, wenn gerade ein Verzeichnis in der
-                Mediendatenbank erstellt wurde. Mittels dieser Variable können dann
+                Mediathek erstellt wurde. Mittels dieser Variable können dann
                 entsprechende Meldungen über den Erfolg oder das Fehlschlagen des Vorgangs
                 ausgegeben werden.
             </span>
@@ -7095,7 +7095,7 @@ wird auf Seite <span class="pageref"><a href="#mediatemplates">mediatemplates</a
             </span>
             <span class="sub-box">
                 Ist auf den Wert <code>true</code> gesetzt, wenn gerade ein Verzeichnis oder eine Datei
-                in der Mediendatenbank gelöscht wurde. Mittels dieser Variable können dann
+                in der Mediathek gelöscht wurde. Mittels dieser Variable können dann
                 entsprechende Meldungen über den Erfolg oder das Fehlschlagen des Vorgangs
                 ausgegeben werden.
             </span>
@@ -7123,7 +7123,7 @@ wird auf Seite <span class="pageref"><a href="#mediatemplates">mediatemplates</a
                 <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Mehrdimensionales Array</code></span>
             </span>
             <span class="sub-box">
-                Enthält die Metadaten für eine gewählte Datei der Mediendatenbank. Die
+                Enthält die Metadaten für eine gewählte Datei der Mediathek. Die
                 Array-Schlüssel sind:
             </span>
 
@@ -7137,7 +7137,7 @@ wird auf Seite <span class="pageref"><a href="#mediatemplates">mediatemplates</a
                         <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Zahl</code></span>
                     </span>
                     <span class="sub-box">
-                        Enthält die ID des Mediendatenbank-Objekts.
+                        Enthält die ID des Mediathek-Objekts.
                     </span>
                 </span>
 
@@ -7149,7 +7149,7 @@ wird auf Seite <span class="pageref"><a href="#mediatemplates">mediatemplates</a
                         <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Zeichenkette</code></span>
                     </span>
                     <span class="sub-box">
-                        Enthält den Dateinamen des Mediendatenbank-Objekts (ohne Datei-Endung).
+                        Enthält den Dateinamen des Mediathek-Objekts (ohne Datei-Endung).
                     </span>
                 </span>
 
@@ -7161,7 +7161,7 @@ wird auf Seite <span class="pageref"><a href="#mediatemplates">mediatemplates</a
                         <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Zeichenkette</code></span>
                     </span>
                     <span class="sub-box">
-                        Enthält die Datei-Endung des Mediendatenbank-Objekts.
+                        Enthält die Datei-Endung des Mediathek-Objekts.
                     </span>
                 </span>
 
@@ -7182,7 +7182,7 @@ wird auf Seite <span class="pageref"><a href="#mediatemplates">mediatemplates</a
                         Bild, eine Videodatei oder anderes darstellt. Ein MIME-Type besteht aus einem
                         Basistypen, gefolgt von einem Schrägstrich und dann einem Detailwert.
                         <code>image/jpeg</code> wird beispielsweise für JPEG-Grafiken verwendet.</span><!-- footnote -->-Typ eines
-                        Mediendatenbank-Objekts.
+                        Mediathek-Objekts.
                     </span>
                 </span>
 
@@ -7194,7 +7194,7 @@ wird auf Seite <span class="pageref"><a href="#mediatemplates">mediatemplates</a
                         <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Zahl</code></span>
                     </span>
                     <span class="sub-box">
-                        Enthält die Dateigröße (in Bytes) des Mediendatenbank-Objekts.
+                        Enthält die Dateigröße (in Bytes) des Mediathek-Objekts.
                     </span>
                 </span>
 
@@ -7207,7 +7207,7 @@ wird auf Seite <span class="pageref"><a href="#mediatemplates">mediatemplates</a
                         <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Zahl</code></span>
                     </span>
                     <span class="sub-box">
-                        Falls das Mediendatenbank-Objekt eine Grafik ist, enthalten diese Variablen die
+                        Falls das Mediathek-Objekt eine Grafik ist, enthalten diese Variablen die
                         Breite und Höhe (in Pixeln). Bei anderen Dateitypen (Dokumente, Videos)
                         enthalten diese Variablen den Wert 0.
                     </span>
@@ -7234,7 +7234,7 @@ wird auf Seite <span class="pageref"><a href="#mediatemplates">mediatemplates</a
                         <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Zahl</code></span>
                     </span>
                     <span class="sub-box">
-                        Enthält Hochladedatum eines Mediendatenbank-Objekts (in Unix-Sekunden).
+                        Enthält Hochladedatum eines Mediathek-Objekts (in Unix-Sekunden).
                     </span>
                 </span>
 
@@ -7246,7 +7246,7 @@ wird auf Seite <span class="pageref"><a href="#mediatemplates">mediatemplates</a
                         <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Zeichenkette</code></span>
                     </span>
                     <span class="sub-box">
-                        Wurde ein Vorschaubild (<em>Thumbnail</em>) für ein Mediendatenbank-Objekt
+                        Wurde ein Vorschaubild (<em>Thumbnail</em>) für ein Mediathek-Objekt
                         erstellt, enthält diese Variable das Suffix für diese Dateien,
                         standardmäßig <code>serendipityThumb</code>. Dieses Suffix wird nach dem Dateinamen,
                         aber vor der Datei-Endung platziert, so dass eine Vorschaudatei dem Schema
@@ -7277,7 +7277,7 @@ wird auf Seite <span class="pageref"><a href="#mediatemplates">mediatemplates</a
                     </span>
                     <span class="sub-box">
                         Enthält den Namen des Verzeichnisses (relativ zum Stammverzeichnis der
-                        Mediendatenbank), in dem das Objekt gespeichert wurde.
+                        Mediathek), in dem das Objekt gespeichert wurde.
                     </span>
                 </span>
 
@@ -7289,7 +7289,7 @@ wird auf Seite <span class="pageref"><a href="#mediatemplates">mediatemplates</a
                         <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Zeichenkette</code></span>
                     </span>
                     <span class="sub-box">
-                        Enthält den vollständigen Pfad einer Datei der Mediendatenbank, wo sie auf dem
+                        Enthält den vollständigen Pfad einer Datei der Mediathek, wo sie auf dem
                         Server abgelegt wurde.
                     </span>
                 </span>
@@ -7302,7 +7302,7 @@ wird auf Seite <span class="pageref"><a href="#mediatemplates">mediatemplates</a
                         <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Zeichenkette</code></span>
                     </span>
                     <span class="sub-box">
-                        Wenn ein Objekt der Mediendatenbank nicht lokal gespeichert wurde, sondern von
+                        Wenn ein Objekt der Mediathek nicht lokal gespeichert wurde, sondern von
                         einem fremden Server geladen werden soll (<code>hotlinking</code>), enthält diese
                         Variable die URL, unter der die Datei verfügbar ist.
                     </span>
@@ -7316,7 +7316,7 @@ wird auf Seite <span class="pageref"><a href="#mediatemplates">mediatemplates</a
                         <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Zeichenkette</code></span>
                     </span>
                     <span class="sub-box">
-                        Falls das Objekt der Mediendatenbank von einem fremden Server geladen wird
+                        Falls das Objekt der Mediathek von einem fremden Server geladen wird
                         (<code>hotlinking</code>), enthält die Variable
                         die Ziel-URL, die jeweils nach 45 Zeichen automatisch umbrochen wird, so dass
                         man sie problemlos unterhalb eines Bildes anzeigen kann.
@@ -7347,7 +7347,7 @@ wird auf Seite <span class="pageref"><a href="#mediatemplates">mediatemplates</a
                     </span>
                     <span class="sub-box">
                         Enthält den vollständigen Pfad im Dateisystem zum Vorschaubild eines
-                        Mediendatenbank-Objekts.
+                        Mediathek-Objekts.
                     </span>
                 </span>
 
@@ -7361,7 +7361,7 @@ wird auf Seite <span class="pageref"><a href="#mediatemplates">mediatemplates</a
                     </span>
                     <span class="sub-box">
                         Enthält den vollständigen Pfad zum Vorschaubild eines
-                        Mediendatenbank-Objekts, über den das Bild mittels HTTP-URL aufgerufen werden kann.
+                        Mediathek-Objekts, über den das Bild mittels HTTP-URL aufgerufen werden kann.
                     </span>
                 </span>
 
@@ -7374,7 +7374,7 @@ wird auf Seite <span class="pageref"><a href="#mediatemplates">mediatemplates</a
                     </span>
                     <span class="sub-box">
                         Enthält den relativen Pfad (ab Serendipity-Stammverzeichnis) zum
-                        Vorschaubild eines Mediendatenbank-Objekts, über den das Bild mittels HTTP-URL
+                        Vorschaubild eines Mediathek-Objekts, über den das Bild mittels HTTP-URL
                         aufgerufen werden kann.
                     </span>
                 </span>
@@ -7387,7 +7387,7 @@ wird auf Seite <span class="pageref"><a href="#mediatemplates">mediatemplates</a
                         <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Zeichenkette</code></span>
                     </span>
                     <span class="sub-box">
-                        Enthält den vollständigen HTTP-Pfad zum Objekt der Mediendatenbank.
+                        Enthält den vollständigen HTTP-Pfad zum Objekt der Mediathek.
                     </span>
                 </span>
 
@@ -7399,7 +7399,7 @@ wird auf Seite <span class="pageref"><a href="#mediatemplates">mediatemplates</a
                         <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Zeichenkette</code></span>
                     </span>
                     <span class="sub-box">
-                        Enthält den vollen Dateinamen eines Objekts der Mediendatenbank, zusammengesetzt
+                        Enthält den vollen Dateinamen eines Objekts der Mediathek, zusammengesetzt
                         aus <code class="item smarty">{$media.file.name}</code> und <code class="item smarty">{$media.file.extension}</code>.
                     </span>
                 </span>
@@ -7412,9 +7412,9 @@ wird auf Seite <span class="pageref"><a href="#mediatemplates">mediatemplates</a
                         <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Eindimensionales Array</code></span>
                     </span>
                     <span class="sub-box">
-                        Enthält ein Array mit URLs, von denen auf das Objekt der Mediendatenbank
+                        Enthält ein Array mit URLs, von denen auf das Objekt der Mediathek
                         verwiesen wurde. Diese Linkliste kann nur dann automatisch ausgewertet werden,
-                        wenn die Objekte der Mediendatenbank mittels spezieller Methode ausgeliefert
+                        wenn die Objekte der Mediathek mittels spezieller Methode ausgeliefert
                         werden (siehe Seite <span class="pageref"><a href="#mdb-profi">mdb-profi</a></span>).
                     </span>
                 </span>
@@ -7441,7 +7441,7 @@ wird auf Seite <span class="pageref"><a href="#mediatemplates">mediatemplates</a
                         <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Boolean</code></span>
                     </span>
                     <span class="sub-box">
-                        Enthält den Wert <code>true</code>, wenn ein Objekt der Mediendatenbank eine Bilddatei
+                        Enthält den Wert <code>true</code>, wenn ein Objekt der Mediathek eine Bilddatei
                         ist. Bei Dokumenten und anderen Dateitypen enthält diese Variable den Wert <code>false</code>.
                     </span>
                 </span>
@@ -7454,7 +7454,7 @@ wird auf Seite <span class="pageref"><a href="#mediatemplates">mediatemplates</a
                         <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Zeichenkette</code></span>
                     </span>
                     <span class="sub-box">
-                        Enthält den genauen Typ eines Objektes der Mediendatenbank: <code>image</code>, <code>video</code>,
+                        Enthält den genauen Typ eines Objektes der Mediathek: <code>image</code>, <code>video</code>,
                         <code>audio</code>, <code>document</code>, <code>archive</code> (gepackte Dateiarchive) oder
                         <code>binary</code> (alle anderen Dateien).
                     </span>
@@ -7468,7 +7468,7 @@ wird auf Seite <span class="pageref"><a href="#mediatemplates">mediatemplates</a
                         <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Boolean</code></span>
                     </span>
                     <span class="sub-box">
-                        Falls der aktuelle Redakteur das Objekt der Mediendatenbank bearbeiten oder
+                        Falls der aktuelle Redakteur das Objekt der Mediathek bearbeiten oder
                         löschen darf (aufgrund seiner Benutzerrechte), enthält diese Variable den Wert <code>true</code>.
                     </span>
                 </span>
@@ -7481,7 +7481,7 @@ wird auf Seite <span class="pageref"><a href="#mediatemplates">mediatemplates</a
                         <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Zeichenkette</code></span>
                     </span>
                     <span class="sub-box">
-                        Enthält die URL, mit der das Bild mittels der Funktionen der Mediendatenbank
+                        Enthält die URL, mit der das Bild mittels der Funktionen der Mediathek
                         dargestellt werden kann.
                     </span>
                 </span>
@@ -7534,7 +7534,7 @@ wird auf Seite <span class="pageref"><a href="#mediatemplates">mediatemplates</a
                         <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Zeichenkette</code></span>
                     </span>
                     <span class="sub-box">
-                        Wenn ein Objekt der Mediendatenbank vom Benutzer zum Einfügen in einen Artikel
+                        Wenn ein Objekt der Mediathek vom Benutzer zum Einfügen in einen Artikel
                         ausgewählt wird, können externe Plugins die Darstellung des Dialogs zum
                         Einfügen verändern. Am Ende wird der zusammengestellte HTML-Code für die
                         Einbindung in den Artikel zurückgeliefert und über die
@@ -7555,7 +7555,7 @@ wird auf Seite <span class="pageref"><a href="#mediatemplates">mediatemplates</a
                     </span>
                     <span class="sub-box">
                         Diese Variable enthält den ursprünglichen JavaScript-Funktionsaufruf für die
-                        Einbindung eines Objekts der Mediendatenbank (siehe vorige Variable).
+                        Einbindung eines Objekts der Mediathek (siehe vorige Variable).
                     </span>
                 </span>
 
@@ -7567,7 +7567,7 @@ wird auf Seite <span class="pageref"><a href="#mediatemplates">mediatemplates</a
                         <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Boolean</code></span>
                     </span>
                     <span class="sub-box">
-                        Falls ein Redakteur ein Objekt der Mediendatenbank, das keine Grafik
+                        Falls ein Redakteur ein Objekt der Mediathek, das keine Grafik
                         darstellt, zum Einfügen in einen Artikel auswählt, kann ein vollständiger Link
                         zu dieser Datei ohne weitere Positionierungsdialoge zurückgeliefert werden. Die
                         Template-Datei <code>media_choose.tpl</code> kann in einem solchen Fall einige
@@ -7619,7 +7619,7 @@ wird auf Seite <span class="pageref"><a href="#mediatemplates">mediatemplates</a
                             <span class="box">
                                 Enthält interne Wertezuweisungen.
                                 <code class="item smarty">{$media.file.props.base_hidden.author}</code> enthält den Namen des Autors
-                                für das jeweilige Objekt der Mediendatenbank und
+                                für das jeweilige Objekt der Mediathek und
                                 <code class="item smarty">{$media.file.props.base_hidden.authorid}</code> die ID dieses Autors.
                             </span>
                         </span>
@@ -7634,7 +7634,7 @@ wird auf Seite <span class="pageref"><a href="#mediatemplates">mediatemplates</a
                             </span>
                             <span class="box">
                                 Enthält die vom Benutzer zugewiesenen Schlüsselwörter zu einem Objekt der
-                                Mediendatenbank (siehe Seite <span class="pageref"><a href="#Medien-Schluesselwoerter">Medien-Schluesselwoerter</a></span>).
+                                Mediathek (siehe Seite <span class="pageref"><a href="#Medien-Schluesselwoerter">Medien-Schluesselwoerter</a></span>).
                                 Der Array-Schlüssel entspricht dem gesetzten Schlüsselwort, als Wert
                                 wird immer <code>1</code> vergeben.
                             </span>
@@ -7682,7 +7682,7 @@ wird auf Seite <span class="pageref"><a href="#mediatemplates">mediatemplates</a
                 <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Mehrdimensionales Array</code></span>
             </span>
             <span class="sub-box">
-                Enthält ein Array aller eingerichteten Verzeichnisse der Mediendatenbank. Die
+                Enthält ein Array aller eingerichteten Verzeichnisse der Mediathek. Die
                 verfügbaren Array-Schlüssel sind identisch mit den auf Seite
                 <span class="pageref"><a href="#mediafolders">mediafolders</a></span> aufgeführten.
             </span>
@@ -10462,7 +10462,7 @@ wenn das Template nicht mehr mit Smarty2 Versionen kompiliert wird.
         HTML-Attributs aus, der zurückgeliefert wird.
     </span>
     <span class="box">
-        Diese Funktion wird vor allem für die Darstellung der Mediendatenbank-Übersicht
+        Diese Funktion wird vor allem für die Darstellung der Mediathek-Übersicht
         verwendet, um die Standardzustände von Auswahlfeldern und Ankreuzboxen festzulegen.
     </span>
 
@@ -10881,9 +10881,9 @@ trägt man in das Eingabefeld möglichst nur die Youtube-Video-ID (wie zB.
 (<code>http://www.youtube.com/watch?v=2BpLGASxt0Q</code>) entnehmen.</p>
 
 <p>Zusätzlich werden Sie sicher bemerken, dass neben dem Eingabefeld ein Link
-<span class="mbold">Mediendatenbank</span> eingebunden wird. Wenn Sie auf diesen Link klicken,
-öffnet sich das bekannte Popup zur Auswahl einer Datei in Ihrer Mediendatenbank
-(siehe Seite <span class="pageref"><a href="#Mediendatenbank-Popup">Mediendatenbank-Popup</a></span>).
+<span class="mbold">Mediathek</span> eingebunden wird. Wenn Sie auf diesen Link klicken,
+öffnet sich das bekannte Popup zur Auswahl einer Datei in Ihrer Mediathek
+(siehe Seite <span class="pageref"><a href="#Mediathek-Popup">Mediathek-Popup</a></span>).
 Dort können Sie eine Datei auswählen, die Sie einbinden möchten. Daraufhin
 erscheint der Dateiname der ausgewählten Datei innerhalb des Eingabefeldes und
 kann somit später im Template zB. als Downloadlink oder Bild ausgegeben werden,

@@ -3633,7 +3633,7 @@ mitzählen</span> zu setzen.</span>
     <li>Anzahl der Artikel vereilt auf einzelne Redakteure</li>
     <li>Anzahl vorhandener Kategorien</li>
     <li>Verteilung der Artikel auf die vorhandenen Kategorien</li>
-    <li>Anzahl der Dateien in der Mediendatenbank, Aufteilung nach Dateityp</li>
+    <li>Anzahl der Dateien in der Mediathek, Aufteilung nach Dateityp</li>
     <li>Anzahl der Kommentare, Verteilung der Kommentare zu den
         populärsten Artikeln, Namen der häufigsten Kommentatoren</li>
     <li>Anzahl der Abonennten von Blog-Artikeln, Verteilung der

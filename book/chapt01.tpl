@@ -291,12 +291,12 @@ kommerziell erhältlicher Systeme vor allem in folgenden Punkten ab:</p>
     <li>Texte pflegt man auf Wunsch mit übersichtlichen, einfach verständlichen und
         funktionalen WYSIWYG-Editoren ein (Seite <span class="pageref"><a href="#wysiwyg">wysiwyg</a></span>).</li>
 
-    <li>Die integrierte Mediendatenbank für Bilder, PDFs, MP3s etc. gestattet
+    <li>Die integrierte Mediathek für Bilder, PDFs, MP3s etc. gestattet
         Rechtemanagement, Stichwortsuche und automatische Vorschaugrafiken (Seite
-        <span class="pageref"><a href="#Mediendatenbank">Mediendatenbank</a></span>). Über einen gesonderten Dialog (Seite
-        <span class="pageref"><a href="#Mediendatenbank-Popup">Mediendatenbank-Popup</a></span>) bindet man die Dateien aus der Mediendatenbank
+        <span class="pageref"><a href="#Mediathek">Mediathek</a></span>). Über einen gesonderten Dialog (Seite
+        <span class="pageref"><a href="#Mediathek-Popup">Mediathek-Popup</a></span>) bindet man die Dateien aus der Mediathek
         mit wählbaren Layout-Optionen einfach in Blog-Artikel ein. Die Inhalte dieser
-        Mediendatenbank lassen sich dynamisch in einer Verzeichnisansicht darstellen, wie
+        Mediathek lassen sich dynamisch in einer Verzeichnisansicht darstellen, wie
         Sie es zB. vom Windows Explorer gewöhnt sind.</li>
 
     <li>Serendipitys gruppenbasiertes Rollenkonzept erlaubt das Anlegen unbegrenzt
@@ -596,7 +596,7 @@ Serendipity:</p>
         </span>
         <span class="label invisible" id="gd/imageMagick">gd/imageMagick</span>
         <span class="box">
-            Um die Mediendatenbank vernünftig nutzen zu können, benötigen Sie
+            Um die Mediathek vernünftig nutzen zu können, benötigen Sie
             entweder das PHP-Modul <code>gd</code> oder das Paket ImageMagick. Sollten Sie
             Letzteres benutzen, müssen die Dateien des Pakets für Ihren Web-Benutzer
             ausführbar sein.
@@ -1023,7 +1023,7 @@ legen fest, auf welche Verzeichnisse ein PHP-Skript Zugriff hat. Solange
 die Benutzerrechte (<em>Permissions</em>) und die Eigentumsverhältnisse
 (<em>Ownership</em>) auf dem Webserver für das
 Serendipity-Installationsverzeichnis korrekt gesetzt sind, lassen sich zB.
-Mediendatenbank-Dateien problemlos hochladen. Ein falsch
+Mediathek-Dateien problemlos hochladen. Ein falsch
 eingerichteter Safe Mode hat zur Folge, dass man mittels FTP oder
 Administrationsoberfläche keine Templates und andere Dateien hochladen und
 keine Bilder im Nachhinein löschen oder bearbeiten kann.</p>
