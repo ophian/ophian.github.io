@@ -2788,7 +2788,7 @@ so dass die eigentliche Umstellung nur manuell über die Wartungsseite angestoss
 Ein <span class="mbold">Backup</span> der Datenbank ist natürlich im Vorwege anzuraten; aber der Autor hat bereits einige
 Datenbanken erfolgreich konvertiert und ist nur selten auf Inkompatibilitäten mit der
 automatischen Migrationsprozedur gestossen. Solche traten meistens nur dann auf, wenn
-vorher schon etwas nicht mit UTF-8 in Ordnung war.</p>
+vorher schon etwas mit UTF-8 nicht in Ordnung war.</p>
 
 <section id="U1061" class="sub">
 <span class="u-toc">10.6.1 - Benutzer- und Rechtemanagement</span>
