@@ -287,6 +287,7 @@ Plugin aufzurufen.</p>
 </span>
 <span class="item-list">
     <span class="li"><code class="item sub-file">.htaccess</code> Steueranweisungen für den Webserver (<em>URL-Umformung</em> etc.)</span>
+    <span class="li"><code class="item sub-file">checksum.inc.php</code> enthält das Array der checksum Dateien einer veröffentlichten Release Version.</span>
     <span class="li"><code class="item sub-file">comment.php</code> stellt Kommentare/Trackbacks in einem Popup dar.</span>
     <span class="li"><code class="item sub-file">exit.php</code> leitet verfolgte URLs an das gewünschte Ziel weiter (bei Verwendung des Plugins <em>URL-Exits verfolgen</em>).</span>
     <span class="li"><code class="item sub-file">index.php</code> stellt den zentralen Anlaufpunkt für alle Frontend-Ausgaben dar.</span>
@@ -296,7 +297,6 @@ Plugin aufzurufen.</p>
     <span class="li"><code class="item sub-file">serendipity_admin_image_selector.php</code> stellt das Mediathek-Popup dar.</span>
     <span class="li"><code class="item sub-file">serendipity_config.inc.php</code> lädt das Serendipity Framework.</span>
     <span class="li"><code class="item sub-file">serendipity_config_local.inc.php</code> enthält zentrale Konfigurationswerte Serendipitys.</span>
-    <span class="li"><code class="item sub-file">serendipity_define.js.php</code> konvertiert einige PHP-Variablen, damit sie in JavaScripts zur Verfügung stehen.</span>
     <span class="li"><code class="item sub-file">serendipity_editor.js</code> stellt JavaScript-Funktionen der Mediathek bereit.</span>
     <span class="li"><code class="item sub-file">serendipity_xmlrpc.php</code> bindet die Anlaufstelle für die XML-RPC API ein.</span>
     <span class="li"><code class="item sub-file">wfwcomment.php</code> bindet eine Anlaufstelle für wfwComment-API-Aufrufe ein.</span>
@@ -385,6 +385,7 @@ Plugin aufzurufen.</p>
         <span class="li"><code class="item sub-file">functions_installer.inc.php</code> enthält Funktionen zur Installation Serendipitys.</span>
         <span class="li"><code class="item sub-file">functions_permalinks.inc.php</code> enthält Funktionen zur Bearbeitung von Permalinks/URL-Werten.</span>
         <span class="li"><code class="item sub-file">functions_plugins_admin.inc.php</code> enthält Funktionen zur Konfiguration von Plugins im Backend.</span>
+        <span class="li"><code class="item sub-file">functions_routing.inc.php</code> enthält Funktionen zur Umleitung von request Anfragen.</span>
         <span class="li"><code class="item sub-file">functions_rss.inc.php</code> enthält Funktionen zur Ausgabe von RSS-Feeds.</span>
         <span class="li"><code class="item sub-file">functions_smarty.inc.php</code> enthält Funktionen zur Interaktion mit der Smarty-Bibliothek.</span>
         <span class="li"><code class="item sub-file">functions_trackbacks.inc.php</code> enthält Funktionen zur Annahme und zum Versand von Trackbacks.</span>
@@ -413,11 +414,11 @@ Plugin aufzurufen.</p>
         <span class="li"><code class="item sub-file">configuration.inc.php</code> enthält die Maske zur Konfiguration Serendipitys.</span>
         <span class="li"><code class="item sub-file">entries.inc.php</code> enthält die Maske zum Bearbeiten/Erstellen von Blog-Artikeln.</span>
         <span class="li"><code class="item sub-file">entries_overview.inc.php</code> enthält die Maske für die Übersicht der Blog-Artikel.</span>
-        <span class="li"><code class="item sub-file">export.inc.php</code> enthält die Maske zum Exportieren von Blog-Artikeln.</span>
         <span class="li"><code class="item sub-file">groups.inc.php</code> enthält die Maske zur Bearbeitung von Benutzergruppen.</span>
         <span class="li"><code class="item sub-file">images.inc.php</code> enthält die Maske zum Verwalten der Mediathek.</span>
         <span class="li"><code class="item sub-file">import.inc.php</code> enthält die Maske zum Importieren von Blog-Artikeln.</span>
         <span class="li"><code class="item sub-file">installer.inc.php</code> enthält die Maske zur Installation Serendipitys.</span>
+        <span class="li"><code class="item sub-file">maintenance.inc.php</code> enthält die Maske zur Wartungsseite des Backends.</span>
         <span class="li"><code class="item sub-file">overview.inc.php</code> enthält die Maske zur Startseite des Backends.</span>
         <span class="li"><code class="item sub-file">personal.inc.php</code> enthält die Maske zu den persönlichen Einstellungen.</span>
         <span class="li"><code class="item sub-file">plugins.inc.php</code> enthält die Maske zur Verwaltung von Plugins.</span>
