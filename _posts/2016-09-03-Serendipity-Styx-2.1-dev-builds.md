@@ -1,6 +1,6 @@
 ﻿---
 layout: post
-title: Serendipity Serendipity Styx 2.1-dev migration builds
+title: Serendipity Styx 2.1-dev migration builds
 ---
 
 ### January 2017, 30th - Serendipity Styx 2.1rc1 was released.
