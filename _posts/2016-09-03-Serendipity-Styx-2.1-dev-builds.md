@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: Serendipity Serendipity Styx 2.1-dev migration builds
 ---
@@ -14,6 +14,8 @@ title: Serendipity Serendipity Styx 2.1-dev migration builds
 #### January 2016, 04th - Migration start
 
 The migration of Serendipity origin to Serendipity Styx took nearly one full year.
+
+**Epigraph:** _"Trouvez ce que vous avez attendez pas à regarder"_
 
 The main focus of Serendipity Styx 2.1 developer builds were rewrites in some older legacy parts of the core (URL routing, template fallback chain, experimental internal caching) as well as PHP7 compatibility in the API or external libs. Serendipity Styx had many month more time to develop and to mature, which made these development releases well-shaped bundles.
 
