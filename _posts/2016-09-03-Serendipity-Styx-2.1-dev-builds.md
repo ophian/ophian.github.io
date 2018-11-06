@@ -3,23 +3,21 @@ layout: post
 title: Serendipity Serendipity Styx 2.1-dev migration builds
 ---
 
-### January 2017, 30th - Serendipity Styx 2.1rc1 was released.
+#### January 2017, 30th - Serendipity Styx 2.1rc1 was released.
 
-### December 2016, 28th - Serendipity Styx 2.1-beta3 was released.
+#### December 2016, 28th - Serendipity Styx 2.1-beta3 was released.
 
-### September 2016, 26th - Serendipity Styx 2.1-beta2 was released.
+#### September 2016, 26th - Serendipity Styx 2.1-beta2 was released.
 
-### September 2016, 03th - Serendipity Styx 2.1-beta1 was released.
+#### September 2016, 03th - Serendipity Styx 2.1-beta1 was released.
 
-### January 2016, 04th - Migration start
+#### January 2016, 04th - Migration start
 
 The migration of Serendipity origin to Serendipity Styx took nearly one full year.
 
-**Epigraph:** _"Trouvez ce que vous avez attendez pas à regarder"_
-
 The main focus of Serendipity Styx 2.1 developer builds were rewrites in some older legacy parts of the core (URL routing, template fallback chain, experimental internal caching) as well as PHP7 compatibility in the API or external libs. Serendipity Styx had many month more time to develop and to mature, which made these development releases well-shaped bundles.
 
-## Other notable changes include (...some highlights)
+### Notable changes include (...some highlights)
 
   - Various fixes all over - even in themes [ Read the ChangeLog! ]
   - New bundled responsive themes "Timeline" and "Clean-Blog"
