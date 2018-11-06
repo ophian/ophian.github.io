@@ -1,6 +1,6 @@
 ﻿---
 layout: post
-title: Styx 2.6-beta1 release
+title: Serendipity Styx 2.6-beta1 release
 ---
 
 Styx 2018/3 - Serendipity Styx Edition 2.6-beta1 has lots of small improvements and/or fixes for the general workflow and extended Serendipity features. Check the [ChangeLog](https://github.com/ophian/styx/blob/2.6-beta1/docs/NEWS) for details!

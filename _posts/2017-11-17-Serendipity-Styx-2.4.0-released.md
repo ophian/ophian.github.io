@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Styx 2.4.0 was released
+title: Serendipity Styx 2.4.0 was released
 ---
 
 The Styx November 2.4.0 RELEASE brings exiting news for MySQLi users, "finally" fixes the MediaLibrary and adds some new widgets. And certainly much more. Check the [ChangeLog](https://github.com/ophian/styx/blob/2.4.0/docs/NEWS) for details!

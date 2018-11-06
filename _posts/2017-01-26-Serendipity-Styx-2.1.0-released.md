@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Styx 2.1.0 was released
+title: Serendipity Styx 2.1.0 was released
 ---
 
 #January 2017, 26th - Styx 2.1.0 was released.

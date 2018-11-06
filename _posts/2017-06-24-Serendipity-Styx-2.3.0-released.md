@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Styx 2.3.0 was released
+title: Serendipity Styx 2.3.0 was released
 ---
 
 The Styx September 2.3.0 release brings another bunch of fixes for the MediaLibrary and adds the new gallery widget. And much more. Check the [ChangeLog](https://github.com/ophian/styx/blob/2.3.0/docs/NEWS) for details!  

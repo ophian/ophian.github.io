@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Styx 2.2.0 was released
+title: Serendipity Styx 2.2.0 was released
 ---
 
 Styx 2.2.0 June release did not only finalise the 2.1.0 Snapshot, it also brought in some exiting new additions. Check the [ChangeLog](https://github.com/ophian/styx/blob/styx2.2/docs/NEWS)!

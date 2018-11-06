@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The new Styx website - finally
+title: The new Serendipity Styx website - finally
 ---
 
 This January I started my new years 2018 Styx revision of the Serendipity Book, which finally needed a handy place and mockup to be presented to the readers.

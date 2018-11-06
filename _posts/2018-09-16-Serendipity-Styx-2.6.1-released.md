@@ -1,6 +1,6 @@
 ﻿---
 layout: post
-title: Styx 2.6.1 - Bugfix Release
+title: Serendipity Styx 2.6.1 - Bugfix Release
 ---
 
 Styx 2018/5 - Short bugfix update for certain issues
