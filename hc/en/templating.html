@@ -244,9 +244,8 @@
 
 <ul>
   <li>First, check if the currently set theme (for example “my_custom_theme”) has the file ‘entries.tpl’. If yes: Use that file <code>templates/my_custom_theme/entries.tpl</code>.</li>
-  <li>Now check the theme’s ‘info.txt’ file and see if the theme defined an “Engine: XXX” which specifies the default fallback directory to use. If “Engine: bulletproof would be contained in the file, then <code>templates/bulletproof/entries.tpl</code> would be returned.</li>
-  <li>The next iterated theme to be processed as fallback would be “default/” and this file <code>templates/default/entries.tpl</code> be returned.
-  <li>If such a file would still not exist, the last fallback is to use is the standard Theme <code>templates/2k11/entries.tpl</code>.</li>
+  <li>Now check the theme’s ‘info.txt’ file and see if the theme defined an “Engine: XXX” which specifies the default fallback directory to use. If “Engine: 2k11 would be contained in the file, then <code>templates/2k11/entries.tpl</code> would be returned.</li>
+  <li>The next and last iterated theme to be processed as fallback would be “default/” and this file <code>templates/default/entries.tpl</code> be returned.
 </ul>
 
 <p>So for simple extended themes, an “Engine: 2k11” would suffice best!</p>
@@ -280,7 +279,7 @@ Engine: [ENGINE]</code></pre>
 
 <p id="template-fallback-cascade">An <strong> extended note</strong> about the Serendipity template fallback cascade:</p>
 
-<p>If ENGINE is not provided, a <strong>Frontend</strong> theme first falls back to the “default/” files and then back to <code>$serendipity['defaultTemplate']</code> (the standard template) “2k11/” pool. In the <strong>Backend</strong> (*) this is slightly different, since we do not have engines, but need to grab the Backend theme correctly. So the cascade iterates from "yourTheme/", to the chosen Backend theme, eg. "2styx/", followed by the standard Backend theme "2k11/" and at last falls to "default/".</p>
+<p>If ENGINE is not provided, a <strong>Frontend</strong> theme first falls back to the <code>$serendipity['defaultTemplate']</code> (the standard template) “2k11/” files and then back to “default/” template pool. In the <strong>Backend</strong> (*) this is slightly different, since we do not have engines, but need to grab the Backend theme correctly. So the cascade iterates from "yourTheme/", to the chosen Backend theme, eg. "2styx/", followed by the standard Backend theme in "default/".</p>
 
 <p>Needless to say, that the cascade iteration is being stopped, when the searched template file is found. <strong>First come, first serve!</strong></p>
 
@@ -1258,11 +1257,11 @@ It is not advised to create your own  style_fallback.css file.</p>
 
 <h3 id="docs-backend-themes">Backend themes</h3>
 
-<p>Serendipity provides its default Backend theme inside the “2k11/admin” directory. The template files in that directory specify the complete look of the whole admin interface, and also contains workflow and logic as well as javascript libraries.</p>
+<p>Serendipity provides its default Backend theme inside the “default/admin” directory. The template files in that directory specify the complete look of the whole admin interface, and also contains workflow and logic as well as javascript libraries.</p>
 
 <p>While you can completely build your own Backend and customize the look of it, the core development continues based on those files. So it is your own responsibility to keep up with Serendipity development to port bugfixes and new features into your own Backend theme, if you wish to change the Smarty templates.</p>
 
-<p>Thus we suggest to only modify the CSS portion of the Backend to adapt the look of it. An even better way to deal with a customized Backend theme is to simply put a “user.css” file into the “2k11/admin/” subdirectory. Inside that CSS file you can overwrite any CSS rules, and because this file is not part of our core distribution, it will be update-safe for future Serendipity versions.</p>
+<p>Thus we suggest to only modify the CSS portion of the Backend to adapt the look of it. An even better way to deal with a customized Backend theme is to simply put a “user.css” file into the “default/admin/” subdirectory. Inside that CSS file you can overwrite any CSS rules, and because this file is not part of our core distribution, it will be update-safe for future Serendipity versions.</p>
 
 <p>Having said this, here is a description of what each Backend template does. Note that the described template-fallback mechanism of the Frontend (see above) also applies to the Backend.</p>
 
@@ -1310,7 +1309,10 @@ It is not advised to create your own  style_fallback.css file.</p>
 
 <ul>
   <li>admin/category.inc.tpl</li>
+  <li>admin/comment_reply.tpl</li>
+  <li>admin/commentform.tpl</li>
   <li>admin/comments.inc.tpl</li>
+  <li>admin/comments.tpl</li>
   <li>admin/config_template.tpl</li>
   <li>admin/configuration.inc.tpl</li>
   <li>admin/entries.inc.tpl</li>
@@ -1323,9 +1325,13 @@ It is not advised to create your own  style_fallback.css file.</p>
   <li>admin/installer.inc.tpl</li>
   <li>admin/maintenance.inc.tpl</li>
   <li>admin/media_choose.tpl</li>
+  <li>admin/media_gallery.tpl</li>
+  <li>admin/media_galleryinsert.tpl</li>
+  <li>admin/media_galleryitems.tpl</li>
   <li>admin/media_items.tpl</li>
   <li>admin/media_pane.tpl</li>
   <li>admin/media_properties.tpl</li>
+  <li>admin/media_toolbar.tpl
   <li>admin/media_upload.tpl</li>
   <li>admin/oldie.css</li>
   <li>admin/overview.inc.tpl</li>
@@ -1333,6 +1339,9 @@ It is not advised to create your own  style_fallback.css file.</p>
   <li>admin/plugin_config.tpl</li>
   <li>admin/plugin_config_item.tpl</li>
   <li>admin/plugins.inc.tpl</li>
+  <li>admin/preview_iconizr.css</li>
+  <li>admin/serendipity_editor.js</li>
+  <li>admin/serendipity_editor.js.php</li>
   <li>admin/serendipity_editor.js.tpl</li>
   <li>admin/show_plugins.fnc.tpl</li>
   <li>admin/style.css</li>
@@ -1340,6 +1349,7 @@ It is not advised to create your own  style_fallback.css file.</p>
   <li>admin/upgrader.inc.tpl</li>
   <li>admin/users.inc.tpl</li>
   <li>admin/wysiwyg_init.tpl</li>
+  <li>admin/doc/</li>
   <li>admin/img/</li>
   <li>admin/font/</li>
   <li>admin/js</li>
