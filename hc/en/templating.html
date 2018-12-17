@@ -279,7 +279,7 @@ Engine: [ENGINE]</code></pre>
 
 <p id="template-fallback-cascade">An <strong> extended note</strong> about the Serendipity template fallback cascade:</p>
 
-<p>If ENGINE is not provided, a <strong>Frontend</strong> theme first falls back to the <code>$serendipity['defaultTemplate']</code> (the standard template) “2k11/” files and then back to “default/” template pool. In the <strong>Backend</strong> (*) this is slightly different, since we do not have engines, but need to grab the Backend theme correctly. So the cascade iterates from "yourTheme/", to the chosen Backend theme, eg. "2styx/", followed by the standard Backend theme in "default/".</p>
+<p>If ENGINE is not provided, a <strong>Frontend</strong> theme first falls back to the <code>$serendipity['defaultTemplate']</code> (the standard template) “2k11/” files and then back to “default/” template pool. In the <strong>Backend</strong> (*) this is slightly different, since we do not have engines, but need to grab the Backend theme correctly. So the cascade iterates from "yourTheme/", to the chosen Backend theme, eg. "2styx/", followed by the standard Backend theme in "default/". Both path the "plugins/" directory to get necessary template files not found in themes yet.</p>
 
 <p>Needless to say, that the cascade iteration is being stopped, when the searched template file is found. <strong>First come, first serve!</strong></p>
 
@@ -287,7 +287,7 @@ Engine: [ENGINE]</code></pre>
 
 <h4 id="docs-previewpng-preview_fullsizejpg">preview.png, preview_fullsize.jpg</h4>
 
-<p>These image files represent the thumbnails for the theme. “preview.png” is a small thumbnail (usually around 100-150px wide), while preview_fullsize.jpg is used for a large screenshot.</p>
+<p>These image files represent the thumbnails for the theme. “preview.png” is a small thumbnail (usually around 100-150px wide), while preview_fullsize.jpg is used for a large screenshot. Since Serendipity 2.0 and the default thumb width of 400px the latter is used per default.</p>
 
 <h4 id="docs-configincphp">config.inc.php</h4>
 
