@@ -279,7 +279,7 @@ Engine: [ENGINE]</code></pre>
 
 <p id="template-fallback-cascade">An <strong> extended note</strong> about the Serendipity template fallback cascade:</p>
 
-<p>If ENGINE is not provided, a <strong>Frontend</strong> theme first falls back to the <code>$serendipity['defaultTemplate']</code> (the standard template) “2k11/” files and then back to “default/” template pool. In the <strong>Backend</strong> (*) this is slightly different, since we do not have engines, but need to grab the Backend theme correctly. So the cascade iterates from "yourTheme/", to the chosen Backend theme, eg. "2styx/", followed by the standard Backend theme in "default/". Both path the "plugins/" directory to get necessary template files not found in themes yet.</p>
+<p>If ENGINE is not provided, a <strong>Frontend</strong> theme first falls back to the <code>$serendipity['defaultTemplate']</code> (the standard template) “2k11/” files and then back to “default/” template pool. In the <strong>Backend</strong> (*) this is slightly different, since we do not have engines, but need to grab the Backend theme correctly. So the cascade iterates from “yourTheme/”, to the chosen Backend theme, eg. “2styx/”, followed by the standard Backend theme in “default/”. Both path the “plugins/” directory to get necessary template files not found in themes yet.</p>
 
 <p>Needless to say, that the cascade iteration is being stopped, when the searched template file is found. <strong>First come, first serve!</strong></p>
 
