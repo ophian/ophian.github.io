@@ -2068,16 +2068,6 @@ Dies sind der Aktionen der Backend Einträge Anzeige.</span>
 
 <p class="desc citem-desc">
 <span class="tag-box invisible">
-    <span class="inline-tag">Template-Dateien!admin/entries_overview.inc.tpl</span>
-</span>
-<code class="item file">admin/entries_overview.inc.tpl</code>
-<span class="desc-info">Smarty Pendant zu <code>/include/admin/entries_overview.inc.php</code>.
-Diese Datei definiert und erhält alles Nötige um den Content der "Backend Inhalt Seitenleiste: Einträge bearbeiten" darzustellen.
-Dies sind der Paginationen, Entries Listen, Filtermöglichkeiten, etc. .</span>
-</p>
-
-<p class="desc citem-desc">
-<span class="tag-box invisible">
     <span class="inline-tag">Template-Dateien!admin/groups.inc.tpl</span>
 </span>
 <code class="item file">admin/groups.inc.tpl</code>

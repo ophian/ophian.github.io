@@ -413,7 +413,6 @@ Plugin aufzurufen.</p>
         <span class="li"><code class="item sub-file">comments.inc.php</code> enthält die Maske zur Bearbeitung von Kommentaren.</span>
         <span class="li"><code class="item sub-file">configuration.inc.php</code> enthält die Maske zur Konfiguration Serendipitys.</span>
         <span class="li"><code class="item sub-file">entries.inc.php</code> enthält die Maske zum Bearbeiten/Erstellen von Blog-Artikeln.</span>
-        <span class="li"><code class="item sub-file">entries_overview.inc.php</code> enthält die Maske für die Übersicht der Blog-Artikel.</span>
         <span class="li"><code class="item sub-file">groups.inc.php</code> enthält die Maske zur Bearbeitung von Benutzergruppen.</span>
         <span class="li"><code class="item sub-file">images.inc.php</code> enthält die Maske zum Verwalten der Mediathek.</span>
         <span class="li"><code class="item sub-file">import.inc.php</code> enthält die Maske zum Importieren von Blog-Artikeln.</span>
