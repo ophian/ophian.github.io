@@ -6335,12 +6335,12 @@ Text, der den Besucher über den Schutz der E-Mail-Adresse informiert.</span>
 <span class="tag-box invisible">
     <span class="inline-tag">Template-Variablen!\$plugin_guestbook_messagestack</span>
     <span class="inline-tag">Template-Variablen!\$is_guestbook_message</span>
-    <span class="inline-tag">Template-Variablen!\$error_occured</span>
+    <span class="inline-tag">Template-Variablen!\$error_occurred</span>
     <span class="inline-tag">Template-Variablen!\$guestbook_messages</span>
 </span>
 <code class="item smarty_var">$plugin_guestbook_messagestack</code>: Array, 
 <code class="item smarty_var">$is_guestbook_message</code>: Bool, 
-<code class="item smarty_var">$error_occured</code>: String, 
+<code class="item smarty_var">$error_occurred</code>: String, 
 <code class="item smarty_var">$guestbook_messages:</code> string<!-- codeitem -->
 <span class="desc-info"> enthält etwaige Fehlermeldungen.</span>
 </p>
