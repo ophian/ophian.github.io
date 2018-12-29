@@ -8312,7 +8312,7 @@ wieder löschen.</p>
         Wenn Sie die Option <span class="mbold">Füge den gesamten importierten Text in das
         einzelne Text-Feld ein</span> auf <span class="mbold">Ja</span> setzen, wird sämtlicher
         verfügbarer Inhalt in das Hauptfeld des Blog-Artikels übernommen.
-        Andernfalls versucht Serendpity, den Teaser-Text und vollständigen Text
+        Andernfalls versucht Serendipity, den Teaser-Text und vollständigen Text
         des RSS-Artikels sinnvoll aufzuteilen.
     </span>
 

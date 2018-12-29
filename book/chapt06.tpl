@@ -3303,9 +3303,9 @@ sein soll.</p>
 
 <section id="serendipity_event_autoupdate" class="sub">
 
-<span class="u-toc">6.3.3 - Serendpity Autoupdate: serendipity_event_autoupdate</span>
+<span class="u-toc">6.3.3 - Serendipity Autoupdate: serendipity_event_autoupdate</span>
 
-<h3 class="subsection" id="serendipity-autoupdateserendipity_event_autoupdate">Serendpity Autoupdate<br>serendipity_event_autoupdate</h3>
+<h3 class="subsection" id="susec-serendipity_event_autoupdate">Serendipity Autoupdate<br>serendipity_event_autoupdate</h3>
 
 <p class="tagging invisible">
 <span class="tag-box invisible">

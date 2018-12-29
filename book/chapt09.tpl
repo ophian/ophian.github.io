@@ -82,7 +82,7 @@ welches von nun an bis zum heutigen Tag als <em>“Referenz”</em> und <em>“F
 sprich <span class="mbold"><em>Standard</em></span>-Theme
 per default eingestellt und ausgeliefert wurde.</p>
 
-<p><span class="mbold">Serendpity Styx</span> legt Wert auf die Feststellung,
+<p><span class="mbold">Serendipity Styx</span> legt Wert auf die Feststellung,
 dass das <em>default</em> Theme (Template) maßgeblich für die interne <em>“Fallback”</em>
 Kaskade ist. Ein Standard Theme kann alle relevanten Daten natürlich vorhalten,
 ganz ersetzen kann es das <em>default</em> Theme aber nicht. Dies ist eine der wichtigen

@@ -7748,7 +7748,7 @@ entweder symbolisch vom <em>Core</em>-Verzeichnis in das jeweilige
     <h4 class="subarticle" id="5-installation-der-deployments-ausführen">5. Installation der Deployments ausführen</h4>
 </header>
 
-<p>Wenn Sie den internen WYSIWYG-Editor von Serendpity verwenden wollen, müssen Sie
+<p>Wenn Sie den internen WYSIWYG-Editor von Serendipity verwenden wollen, müssen Sie
 als Letztes auch das Verzeichnis <code>htmlarea</code> übernehmen.</p>
 
 <p>Nun sind alle Deployments entsprechend vorbereitet und können installiert
