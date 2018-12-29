@@ -7418,7 +7418,7 @@ auch selbstgeschriebene Plugins zugreifen können:</p>
 <span class="desc-info">
     <span class="box group-box">
         wird ausgeführt, wenn das
-        <code>serendpity_event_linklist</code>-Plugin installiert und ausgeführt wird.
+        <code>serendipity_event_linklist</code>-Plugin installiert und ausgeführt wird.
         <span class="subdesc">
             <code>$eventData</code>: (Array) Ausgabe der generate_output() Methode.
         </span>
@@ -7431,7 +7431,7 @@ auch selbstgeschriebene Plugins zugreifen können:</p>
 <span class="desc-info">
     <span class="box group-box">
         wird ausgeführt, wenn das
-        <code>serendpity_event_linklist</code>-Plugin installiert und konfiguriert wird.
+        <code>serendipity_event_linklist</code>-Plugin installiert und konfiguriert wird.
         <span class="subdesc">
             <code>$eventData</code>: (Array) Set data für die Linklist Konfiguration.
         </span>
@@ -7454,7 +7454,7 @@ auch selbstgeschriebene Plugins zugreifen können:</p>
 <span class="desc-info">
     <span class="box group-box">
         wird ausgeführt, wenn das
-        <code>serendpity_event_freetag</code>-Plugin installiert und ausgeführt wird
+        <code>serendipity_event_freetag</code>-Plugin installiert und ausgeführt wird
         und die Konfigurationsoption <em>Sortiere</em> (order_by) nach tags eingestellt ist.
         <span class="subdesc">
             <code>$eventData</code>: (Array) Gecachte Operation der Liste aller Tags.
@@ -7468,7 +7468,7 @@ auch selbstgeschriebene Plugins zugreifen können:</p>
 <span class="desc-info">
     <span class="box group-box">
         wird ausgeführt, wenn das
-        <code>serendpity_event_gravatar</code>-Plugin installiert und ausgeführt wird.
+        <code>serendipity_event_gravatar</code>-Plugin installiert und ausgeführt wird.
         Erlaubt anderen Plugins sich User Metadaten via dem <code>avatar_fetch_userinfos</code> hook zu holen.
         <span class="subdesc">
             <code>$eventData</code>: (Array) Ausgabe array an fetchTwitter() Methode.
@@ -7485,7 +7485,7 @@ auch selbstgeschriebene Plugins zugreifen können:</p>
 <span class="desc-info">
     <span class="box group-box">
         wird ausgeführt, wenn das
-        <code>serendpity_event_creativecommons</code>-Plugin installiert
+        <code>serendipity_event_creativecommons</code>-Plugin installiert
         und die <code>generate_content()</code> Methode ausgeführt wird.
         <span class="subdesc">
             <code>$eventData</code>: (Array) Ausgabe der Lizensierungsdaten.

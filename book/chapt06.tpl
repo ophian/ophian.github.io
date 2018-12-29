@@ -3305,7 +3305,7 @@ sein soll.</p>
 
 <span class="u-toc">6.3.3 - Serendpity Autoupdate: serendipity_event_autoupdate</span>
 
-<h3 class="subsection" id="serendpity-autoupdateserendipity_event_autoupdate">Serendpity Autoupdate<br>serendipity_event_autoupdate</h3>
+<h3 class="subsection" id="serendipity-autoupdateserendipity_event_autoupdate">Serendpity Autoupdate<br>serendipity_event_autoupdate</h3>
 
 <p class="tagging invisible">
 <span class="tag-box invisible">
@@ -3314,7 +3314,7 @@ sein soll.</p>
 </span>
 <span class="label invisible" id="autoupdate">autoupdate</span>
 <span class="tag-box invisible">
-    <span class="inline-tag">serendpity-autoupdate</span>
+    <span class="inline-tag">serendipity-autoupdate</span>
     <span class="inline-tag">Plugin!automatisches update</span>
 </span>
 </p>

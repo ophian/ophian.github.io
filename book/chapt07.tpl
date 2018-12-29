@@ -1615,7 +1615,7 @@ chronologischen Fluss der Blog-Artikel vermischen möchten.
 <p>Jede statische Seite lässt sich über eine eigene URL aufrufen, den
 <em>Permalink</em>. Dieser kann beliebig formatiert werden und
 muss nicht dem üblichen Blog-Artikel-Link wie
-<code>http://www.example.com/serendpity/archives/1-Mein-Impressum.html</code>
+<code>http://www.example.com/serendipity/archives/1-Mein-Impressum.html</code>
 entsprechen, sondern könnte auch
 <code>http://www.example.com/serendipity/seiten/Impressum.html</code> lauten.</p>
 

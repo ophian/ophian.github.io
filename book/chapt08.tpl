@@ -1610,10 +1610,10 @@ ausgewählt sind.</span>
 
     <span class="box">
         <span id="pre-style"><code class="sql">
-            INSERT INTO `serendpity_entries` (title, body, timestamp)<br>
+            INSERT INTO `serendipity_entries` (title, body, timestamp)<br>
             &nbsp;&nbsp;&nbsp;&nbsp; VALUES ('Henne', '...', '2007-11-11 11:11');<br>
             <br>
-            INSERT INTO `serendpity_entries` (title, body, timestamp)<br>
+            INSERT INTO `serendipity_entries` (title, body, timestamp)<br>
             &nbsp;&nbsp;&nbsp;&nbsp; VALUES ('Ei', '...', '2007-11-11 11:11');
         </code></span>
     </span>
