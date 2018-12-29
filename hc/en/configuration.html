@@ -123,21 +123,21 @@
                     <h4 id="docs-personal-details">Your personal user details</h4>
 
                     <ul>
-                      <li><strong>Your username</strong> [string] The username you use to log in to the Blog.</li>
-                      <li><strong>Your password</strong> [string] The password you wish to use to log in to the Blog. [Per default: hidden]</li>
-                      <li><strong>Old Password</strong> [string] If you change the password in the field above, you need to enter the current user password into this field.</li>
-                      <li><strong>Real name</strong> [string] The full name of the author. This is the name seen by readers.</li>
-                      <li><strong>Your e-mail address</strong> [string] Your personal e-mail address.</li>
-                      <li><strong>Language</strong> [list] Select the language for your Blog. This overrules the general configuration language setting.</li>
-                      <li><strong>Use WYSIWYG editor</strong> [boolean] Do you want to use the WYSIWYG editor? Yes/No.</li>
-                      <li><strong>Toolbar for WYSIWYG editor</strong> [list] Sets the list of available toolbar buttons for the WYSIWYG-Editor. If you need to further change those presets, you can create a file templates/XXX/admin/ckeditor_custom_config.js. For further details please check out the files htmlarea/ckeditor_s9y_config.js and htmlarea/ckeditor_s9y_plugin.js.</li>
-                      <li><strong>Send comment announcements?</strong> [boolean] Do you want to receive emails when comments are posted to your entries? Yes/No.</li>
-                      <li><strong>Send trackback announcements?</strong> [boolean] Do you want to receive emails when trackbacks are posted to your entries? Yes/No.</li>
-                      <li><strong>Default Dashboard widgets?</strong> [boolean] Show default and hardcoded Dashboard widgets, like draft entries and last comments. Yes/No.</li>
-                      <li><strong>Simplified filters</strong> [boolean] When enabled, search forms and filter functions are reduced to essential options. When disabled, you will see every possible filter option, i.e. in the media library or the entry editor, under condition of actual permission. Yes/No.</li>
-                      <li><strong>Enable use of popup windows for the Backend</strong> [boolean] Do you want to use popup windows for some Backend functionality? When disabled (default), inline modal dialogs will be used for e.g. the category selector and media library. On the other hand this popup-window option only works for some elements, like the media library and some plugins. Others, like categories, will show up embedded. Yes/No.</li>
-                      <li><strong>Force specific Backend popup behaviour</strong> [string] If you generally disable upper Backend popup option, you can specifically force using popups, respectively the embedded entryform mode for specific places by entering a comma separated list of places here. Available places are: [ images, comments, categories, tags, links ]. Defaults to [ categories,tags,links ].</li>
-                      <li><strong>Show toolbar within media selector popup?</strong> [boolean] Allow media/image administration toolbar within the entries image-button page popups. Yes/No.</li>
+                      <li><strong>Your username</strong> [<span class="vartype-str">string</span>] The username you use to log in to the Blog.</li>
+                      <li><strong>Your password</strong> [<span class="vartype-str">string</span>] The password you wish to use to log in to the Blog. [Per default: hidden]</li>
+                      <li><strong>Old Password</strong> [<span class="vartype-str">string</span>] If you change the password in the field above, you need to enter the current user password into this field.</li>
+                      <li><strong>Real name</strong> [<span class="vartype-str">string</span>] The full name of the author. This is the name seen by readers.</li>
+                      <li><strong>Your e-mail address</strong> [<span class="vartype-str">string</span>] Your personal e-mail address.</li>
+                      <li><strong>Language</strong> [<span class="vartype-array">list</span>] Select the language for your Blog. This overrules the general configuration language setting.</li>
+                      <li><strong>Use WYSIWYG editor</strong> [<span class="vartype-bool">boolean</span>] Do you want to use the WYSIWYG editor? Yes/No.</li>
+                      <li><strong>Toolbar for WYSIWYG editor</strong> [<span class="vartype-array">list</span>] Sets the list of available toolbar buttons for the WYSIWYG-Editor. If you need to further change those presets, you can create a file templates/XXX/admin/ckeditor_custom_config.js. For further details please check out the files htmlarea/ckeditor_s9y_config.js and htmlarea/ckeditor_s9y_plugin.js.</li>
+                      <li><strong>Send comment announcements?</strong> [<span class="vartype-bool">boolean</span>] Do you want to receive emails when comments are posted to your entries? Yes/No.</li>
+                      <li><strong>Send trackback announcements?</strong> [<span class="vartype-bool">boolean</span>] Do you want to receive emails when trackbacks are posted to your entries? Yes/No.</li>
+                      <li><strong>Default Dashboard widgets?</strong> [<span class="vartype-bool">boolean</span>] Show default and hardcoded Dashboard widgets, like draft entries and last comments. Yes/No.</li>
+                      <li><strong>Simplified filters</strong> [<span class="vartype-bool">boolean</span>] When enabled, search forms and filter functions are reduced to essential options. When disabled, you will see every possible filter option, i.e. in the media library or the entry editor, under condition of actual permission. Yes/No.</li>
+                      <li><strong>Enable use of popup windows for the Backend</strong> [<span class="vartype-bool">boolean</span>] Do you want to use popup windows for some Backend functionality? When disabled (default), inline modal dialogs will be used for e.g. the category selector and media library. On the other hand this popup-window option only works for some elements, like the media library and some plugins. Others, like categories, will show up embedded. Yes/No.</li>
+                      <li><strong>Force specific Backend popup behaviour</strong> [<span class="vartype-str">string</span>] If you generally disable upper Backend popup option, you can specifically force using popups, respectively the embedded entryform mode for specific places by entering a comma separated list of places here. Available places are: [ images, comments, categories, tags, links ]. Defaults to [ categories,tags,links ].</li>
+                      <li><strong>Show toolbar within media selector popup?</strong> [<span class="vartype-bool">boolean</span>] Allow media/image administration toolbar within the entries image-button page popups. Yes/No.</li>
                     </ul>
 
                     <h4 id="docs-personal-presets">Your personal user presets</h4>
@@ -145,11 +145,11 @@
                     <p>Default settings for new entries</p>
 
                     <ul>
-                      <li><strong>Comments & trackbacks to this entry requires moderation</strong> [boolean] Default settings for comment moderation. Yes/No.</li>
-                      <li><strong>Allow comments to this entry</strong> [boolean] Default settings for comments. Yes/No.</li>
-                      <li><strong>New Entry</strong> [list] Default settings for Publish or Draft</li>
-                      <li><strong>Category</strong> [list] Add a default category when posting entries.</li>
-                      <li><strong>Enable autosave-feature</strong> [boolean] When enabled, the text you enter into Blog entries will be periodically saved in your browser's session storage. If your browser crashes during writing, the next time you create a new entry, the text will be restored from this autosave. Yes/No.</li>
+                      <li><strong>Comments & trackbacks to this entry requires moderation</strong> [<span class="vartype-bool">boolean</span>] Default settings for comment moderation. Yes/No.</li>
+                      <li><strong>Allow comments to this entry</strong> [<span class="vartype-bool">boolean</span>] Default settings for comments. Yes/No.</li>
+                      <li><strong>New Entry</strong> [<span class="vartype-array">list</span>] Default settings for Publish or Draft</li>
+                      <li><strong>Category</strong> [<span class="vartype-array">list</span>] Add a default category when posting entries.</li>
+                      <li><strong>Enable autosave-feature</strong> [<span class="vartype-bool">boolean</span>] When enabled, the text you enter into Blog entries will be periodically saved in your browser's session storage. If your browser crashes during writing, the next time you create a new entry, the text will be restored from this autosave. Yes/No.</li>
                     </ul>
 
                     <h2 id="docs-personal-settings" class="hspace">Configuration</h2>
@@ -159,14 +159,14 @@
                     <p>Most configuration choices are saved in your database, however database settings are saved on the host server in a file named serendipity_config_local.inc.php. Serendipity cannot function without these key pieces of information.</p>
 
                     <ul>
-                      <li><strong>Database type</strong> [list] MySQLi, PostgreSQL, SQLite</li>
-                      <li><strong>Database host</strong> [string] The hostname for your database server.</li>
-                      <li><strong>Database user</strong> [string] The username used to connect to your database.</li>
-                      <li><strong>Database password</strong> [protected] The password matching the database username.</li>
-                      <li><strong>Database name</strong> [string] The name of your database.</li>
-                      <li><strong>Database table prefix</strong> [string] Prefix for the table names, i.e. serendipity_</li>
-                      <li><strong>Use persistent connections</strong> [boolean] Enable the usage of persistent database connections, read more <a href="http://us2.php.net/manual/en/features.persistent-connections.php">here</a>. This is normally not recommended.</li>
-                      <li><strong>Enable DB-charset conversion</strong> [boolean] Issues a MySQL “SET NAMES” query to indicate the required charset for the database. Turn this on or off, if you see weird characters in your Blog.</li>
+                      <li><strong>Database type</strong> [<span class="vartype-array">list</span>] MySQLi, PostgreSQL, SQLite</li>
+                      <li><strong>Database host</strong> [<span class="vartype-str">string</span>] The hostname for your database server.</li>
+                      <li><strong>Database user</strong> [<span class="vartype-str">string</span>] The username used to connect to your database.</li>
+                      <li><strong>Database password</strong> [<span class="vartype-mixed">protected</span>] The password matching the database username.</li>
+                      <li><strong>Database name</strong> [<span class="vartype-str">string</span>] The name of your database.</li>
+                      <li><strong>Database table prefix</strong> [<span class="vartype-str">string</span>] Prefix for the table names, i.e. serendipity_</li>
+                      <li><strong>Use persistent connections</strong> [<span class="vartype-bool">boolean</span>] Enable the usage of persistent database connections, read more <a href="http://us2.php.net/manual/en/features.persistent-connections.php">here</a>. This is normally not recommended.</li>
+                      <li><strong>Enable DB-charset conversion</strong> [<span class="vartype-bool">boolean</span>] Issues a MySQL “SET NAMES” query to indicate the required charset for the database. Turn this on or off, if you see weird characters in your Blog.</li>
                     </ul>
 
                     <h3 id="docs-paths">Paths</h3>
@@ -174,14 +174,14 @@
                     <p>Various paths to different essential folders and files. Don’t forget trailing slashes for directories!</p>
 
                     <ul>
-                      <li><strong>Full path</strong> [string] The full and absolute path to your Serendipity installation.</li>
-                      <li><strong>Upload path</strong> [string] All uploads will go here, relative to the ‘Full path’ - typically ‘uploads/’.</li>
-                      <li><strong>Relative path</strong> [string] Path to Serendipity for your browser, typically ‘/serendipity/’.</li>
-                      <li><strong>Relative template path</strong> [string] The path to the folder containing your templates - Relative to the ‘relative path’.</li>
-                      <li><strong>Relative upload path</strong> [string] Path to your uploads for browsers - Relative to the ‘relative path’.</li>
-                      <li><strong>URL to Blog</strong> [string] Base URL to your Serendipity installation.</li>
-                      <li><strong>Autodetect used HTTP-Host</strong> [boolean] If set to “true”, Serendipity will ensure that the HTTP Host which was used by your visitor is used as your BaseURL setting. Enabling this will let you be able to use multiple domain names for your Serendipity Blog, and use the domain for all follow-up links which the user used to access your Blog.</li>
-                      <li><strong>Index file</strong> [string] The name of your Serendipity index file.</li>
+                      <li><strong>Full path</strong> [<span class="vartype-str">string</span>] The full and absolute path to your Serendipity installation.</li>
+                      <li><strong>Upload path</strong> [<span class="vartype-str">string</span>] All uploads will go here, relative to the ‘Full path’ - typically ‘uploads/’.</li>
+                      <li><strong>Relative path</strong> [<span class="vartype-str">string</span>] Path to Serendipity for your browser, typically ‘/serendipity/’.</li>
+                      <li><strong>Relative template path</strong> [<span class="vartype-str">string</span>] The path to the folder containing your templates - Relative to the ‘relative path’.</li>
+                      <li><strong>Relative upload path</strong> [<span class="vartype-str">string</span>] Path to your uploads for browsers - Relative to the ‘relative path’.</li>
+                      <li><strong>URL to Blog</strong> [<span class="vartype-str">string</span>] Base URL to your Serendipity installation.</li>
+                      <li><strong>Autodetect used HTTP-Host</strong> [<span class="vartype-bool">boolean</span>] If set to “true”, Serendipity will ensure that the HTTP Host which was used by your visitor is used as your BaseURL setting. Enabling this will let you be able to use multiple domain names for your Serendipity Blog, and use the domain for all follow-up links which the user used to access your Blog.</li>
+                      <li><strong>Index file</strong> [<span class="vartype-str">string</span>] The name of your Serendipity index file.</li>
                     </ul>
 
                     <h3 id="docs-permalinks">Permalinks</h3>
@@ -189,23 +189,23 @@
                     <p>Defines various URL patterns to define permanent links in your Blog. It is suggested that you use the defaults; if not, you should try to use the %id% value where possible to prevent Serendipity from querying the database to lookup the target URL.</p>
 
                     <ul>
-                      <li><strong>Permalink Entry URL structure</strong> [string] Here you can define the relative URL structure beginning from your base URL to where entries may become available. You can use the variables %id%, %title%, %day%, %month%, %year% and any other characters.</li>
-                      <li><strong>Permalink Author URL structure</strong> [string] Here you can define the relative URL structure beginning from your base URL to where entries from certain authors may become available. You can use the variables %id%, %realname%, %username%, %email% and any other characters.</li>
-                      <li><strong>Permalink Category URL structure</strong> [string] Here you can define the relative URL structure beginning from your base URL to where entries from certain categories may become available. You can use the variables %id%, %name%, %parentname%, %description% and any other characters.</li>
-                      <li><strong>Permalink RSS-Feed Category URL structure</strong> [string] Here you can define the relative URL structure beginning from your base URL to where RSS-feeds from certain categories may become available. You can use the variables %id%, %name%, %description% and any other characters.</li>
-                      <li><strong>Permalink RSS-Feed Author URL structure</strong> [string] Permalink RSS-Feed Author URL structure.</li>
-                      <li><strong>Path to archives</strong> [string] Path to specific entries</li>
-                      <li><strong>Path to archive</strong> [string] Path to date range of entries, such as by month, year, etc.</li>
-                      <li><strong>Path to categories</strong> [string] Path to all entries by their assigned category.</li>
-                      <li><strong>Path to authors</strong> [string] Path to all entries by author.</li>
-                      <li><strong>Path to unsubscribe comments</strong> [string] Path for visitor to unsubscribe to all comments.</li>
-                      <li><strong>Path to delete comments</strong> [string] Path for author or admin to delete comments.</li>
-                      <li><strong>Path to approve comments</strong> [string] Path for author or admin to approve comments.</li>
-                      <li><strong>Path to RSS Feeds</strong> [string] Path to RSS syndication feeds.</li>
-                      <li><strong>Path to single plugin</strong> [string] Path to each specific plugin.</li>
-                      <li><strong>Path to admin</strong> [string] Path to Administration Suite.</li>
-                      <li><strong>Path to search</strong> [string] Path to search.</li>
-                      <li><strong>Path to comments</strong> [string] Path to comments.</li>
+                      <li><strong>Permalink Entry URL structure</strong> [<span class="vartype-str">string</span>] Here you can define the relative URL structure beginning from your base URL to where entries may become available. You can use the variables %id%, %title%, %day%, %month%, %year% and any other characters.</li>
+                      <li><strong>Permalink Author URL structure</strong> [<span class="vartype-str">string</span>] Here you can define the relative URL structure beginning from your base URL to where entries from certain authors may become available. You can use the variables %id%, %realname%, %username%, %email% and any other characters.</li>
+                      <li><strong>Permalink Category URL structure</strong> [<span class="vartype-str">string</span>] Here you can define the relative URL structure beginning from your base URL to where entries from certain categories may become available. You can use the variables %id%, %name%, %parentname%, %description% and any other characters.</li>
+                      <li><strong>Permalink RSS-Feed Category URL structure</strong> [<span class="vartype-str">string</span>] Here you can define the relative URL structure beginning from your base URL to where RSS-feeds from certain categories may become available. You can use the variables %id%, %name%, %description% and any other characters.</li>
+                      <li><strong>Permalink RSS-Feed Author URL structure</strong> [<span class="vartype-str">string</span>] Permalink RSS-Feed Author URL structure.</li>
+                      <li><strong>Path to archives</strong> [<span class="vartype-str">string</span>] Path to specific entries</li>
+                      <li><strong>Path to archive</strong> [<span class="vartype-str">string</span>] Path to date range of entries, such as by month, year, etc.</li>
+                      <li><strong>Path to categories</strong> [<span class="vartype-str">string</span>] Path to all entries by their assigned category.</li>
+                      <li><strong>Path to authors</strong> [<span class="vartype-str">string</span>] Path to all entries by author.</li>
+                      <li><strong>Path to unsubscribe comments</strong> [<span class="vartype-str">string</span>] Path for visitor to unsubscribe to all comments.</li>
+                      <li><strong>Path to delete comments</strong> [<span class="vartype-str">string</span>] Path for author or admin to delete comments.</li>
+                      <li><strong>Path to approve comments</strong> [<span class="vartype-str">string</span>] Path for author or admin to approve comments.</li>
+                      <li><strong>Path to RSS Feeds</strong> [<span class="vartype-str">string</span>] Path to RSS syndication feeds.</li>
+                      <li><strong>Path to single plugin</strong> [<span class="vartype-str">string</span>] Path to each specific plugin.</li>
+                      <li><strong>Path to admin</strong> [<span class="vartype-str">string</span>] Path to Administration Suite.</li>
+                      <li><strong>Path to search</strong> [<span class="vartype-str">string</span>] Path to search.</li>
+                      <li><strong>Path to comments</strong> [<span class="vartype-str">string</span>] Path to comments.</li>
                     </ul>
 
                     <h3 id="docs-general-settings">General settings</h3>
@@ -213,21 +213,21 @@
                     <p>Customize how Serendipity behaves</p>
 
                     <ul>
-                      <li><strong>Blog name</strong> [string] The title of your Blog.</li>
-                      <li><strong>Blog description</strong> [string] Description of your Blog.</li>
-                      <li><strong>Blog’s E-Mail address</strong> [string] This configures the E-Mail address that is used as the “From”-Part of outgoing mails. Be sure to set this to an address that is recognized by the mailserver used on your host - many mailservers reject messages that have unknown From-addresses.</li>
-                      <li><strong>Allow users to subscribe to entries?</strong> [list] Allow users to subscribe to an entry and thereby receive a mail when new comments are made to that entry. Yes No.</li>
-                      <li><strong>Use “Double-Opt In” for comment subscriptions?</strong> [boolean] If enabled, when a comment is made where the person wants to be notified via e-mail about new comments to the same entry, he must confirm his subscription to the entry. This “Double-Opt In” is required by German law, for example.</li>
-                      <li><strong>Use Tokens for Comment Moderation?</strong> [boolean] If tokens are used, comments can be approved and deleted by clicking the email links without requiring login access to the Blog. Note that this is a convenience feature, and if your mails get hijacked, those people can approve/delete the referenced comment without further authentication.</li>
-                      <li><strong>Language</strong> [list] Select the language for your Blog.</li>
-                      <li><strong>Charset selection</strong> [list] Here you can toggle UTF-8 or native (ISO, EUC, …) character sets. Some languages only have UTF-8 translations so that setting the charset to “Native” will have no effects. UTF-8 is suggested for new installations. Please read about <a href="./preparing-db.html">preparing a MariaDB/MySQL</a> database for installation here. Do not change this setting if you have already made entries with special characters - this may lead to corrupt characters. Be sure to read more on <a href="./i18n.html">Languages/i18n</a> about this issue.</li>
-                      <li><strong>Calendar Type</strong> [list] Choose your desired Calendar format.</li>
-                      <li><strong>Use visitor’s browser language as default</strong> [boolean] Use visitor’s browser language as default.</li>
-                      <li><strong>Enable Plugin ACL for usergroups?</strong> [boolean] If the option “Plugin ACL for usergroups” is enabled in the configuration, you can specify which usergroups are allowed to execute certain plugins/events.</li>
-                      <li><strong>Update notification</strong> [list] Shows the update notification in the Dashboard. “Beta”, “Stable” channel versions are available.</li>
-                      <li><strong>Update RELEASE-file URL</strong> [string] This is where Styx fetches the RELEASE file location for custom core downloads in combination with the “Serendipity Autoupdate” plugin. This URL points to a file containing the current released Serendipity stable and beta version numbers per line, eg. “stable:5.3.0”.</li>
-                      <li><strong>Log Level</strong> [list] At certain places in the Serendipity code we have placed debugging breakpoints. If this option is set to “Debug”, it will write this debug output to templates_c/logs/. You should only enable this option if you are experiencing bugs in those areas, or if you are a developer. Setting this option to "Error" will enable logging PHP errors, overwriting the PHP error_log setting.</li>
-                      <li><strong>Enable caching (EXPERIMENTAL)</strong> [boolean] Enables an internal cache to not repeat specific database queries. This reduces the load on servers with medium to high traffic and improves page load time.</li>
+                      <li><strong>Blog name</strong> [<span class="vartype-str">string</span>] The title of your Blog.</li>
+                      <li><strong>Blog description</strong> [<span class="vartype-str">string</span>] Description of your Blog.</li>
+                      <li><strong>Blog’s E-Mail address</strong> [<span class="vartype-str">string</span>] This configures the E-Mail address that is used as the “From”-Part of outgoing mails. Be sure to set this to an address that is recognized by the mailserver used on your host - many mailservers reject messages that have unknown From-addresses.</li>
+                      <li><strong>Allow users to subscribe to entries?</strong> [<span class="vartype-array">list</span>] Allow users to subscribe to an entry and thereby receive a mail when new comments are made to that entry. Yes No.</li>
+                      <li><strong>Use “Double-Opt In” for comment subscriptions?</strong> [<span class="vartype-bool">boolean</span>] If enabled, when a comment is made where the person wants to be notified via e-mail about new comments to the same entry, he must confirm his subscription to the entry. This “Double-Opt In” is required by German law, for example.</li>
+                      <li><strong>Use Tokens for Comment Moderation?</strong> [<span class="vartype-bool">boolean</span>] If tokens are used, comments can be approved and deleted by clicking the email links without requiring login access to the Blog. Note that this is a convenience feature, and if your mails get hijacked, those people can approve/delete the referenced comment without further authentication.</li>
+                      <li><strong>Language</strong> [<span class="vartype-array">list</span>] Select the language for your Blog.</li>
+                      <li><strong>Charset selection</strong> [<span class="vartype-array">list</span>] Here you can toggle UTF-8 or native (ISO, EUC, …) character sets. Some languages only have UTF-8 translations so that setting the charset to “Native” will have no effects. UTF-8 is suggested for new installations. Please read about <a href="./preparing-db.html">preparing a MariaDB/MySQL</a> database for installation here. Do not change this setting if you have already made entries with special characters - this may lead to corrupt characters. Be sure to read more on <a href="./i18n.html">Languages/i18n</a> about this issue.</li>
+                      <li><strong>Calendar Type</strong> [<span class="vartype-array">list</span>] Choose your desired Calendar format.</li>
+                      <li><strong>Use visitor’s browser language as default</strong> [<span class="vartype-bool">boolean</span>] Use visitor’s browser language as default.</li>
+                      <li><strong>Enable Plugin ACL for usergroups?</strong> [<span class="vartype-bool">boolean</span>] If the option “Plugin ACL for usergroups” is enabled in the configuration, you can specify which usergroups are allowed to execute certain plugins/events.</li>
+                      <li><strong>Update notification</strong> [<span class="vartype-array">list</span>] Shows the update notification in the Dashboard. “Beta”, “Stable” channel versions are available.</li>
+                      <li><strong>Update RELEASE-file URL</strong> [<span class="vartype-str">string</span>] This is where Styx fetches the RELEASE file location for custom core downloads in combination with the “Serendipity Autoupdate” plugin. This URL points to a file containing the current released Serendipity stable and beta version numbers per line, eg. “stable:5.3.0”.</li>
+                      <li><strong>Log Level</strong> [<span class="vartype-array">list</span>] At certain places in the Serendipity code we have placed debugging breakpoints. If this option is set to “Debug”, it will write this debug output to templates_c/logs/. You should only enable this option if you are experiencing bugs in those areas, or if you are a developer. Setting this option to "Error" will enable logging PHP errors, overwriting the PHP error_log setting.</li>
+                      <li><strong>Enable caching (EXPERIMENTAL)</strong> [<span class="vartype-bool">boolean</span>] Enables an internal cache to not repeat specific database queries. This reduces the load on servers with medium to high traffic and improves page load time.</li>
                     </ul>
 
                     <h3 id="docs-appearance-and-options">Appearance and options</h3>
@@ -235,22 +235,22 @@
                     <p>Customize how Serendipity looks and feels.</p>
 
                     <ul>
-                      <li><strong>Entries to display on frontpage</strong> [string] Number of entries to display for each page on the Frontend.</li>
-                      <li><strong>Entries to display in Feeds</strong> [string] Number of entries to display for each page on the RSS Feed.</li>
-                      <li><strong>Stable Archives </strong> [boolean] Sort the archive-pages descending, so they are stable and search-crawler do not have to reindex them.</li>
-                      <li><strong>How should search-results be sorted?</strong> [list] Choose by Date (most recent first) or Relevance (number of hits for the searched term in a single entry).</li>
-                      <li><strong>Activate strict RFC2616 RSS-Feed compliance</strong> [list] NOT Enforcing RFC2616 means that all Conditional GETs to Serendipity will return entries last modified since the time of the last request. With that setting to “false”, your visitors will get all articles since their last request, which is considered a good thing. However, some agents like Planet act weird, if that happens, as it also violates RFC2616. So if you set this option to “TRUE” you will comply with that RFC, but readers of your RSS feed might miss items in their holidays. So either way, either it hurts aggregators like Planet, or it hurts actual readers of your Blog. If you are facing complaints from either side, you can toggle this option.</li>
-                      <li><strong>Use gzip compressed pages</strong> [boolean] To speed up delivery of pages, we can compress the pages we send to the visitor, given that his browser supports this. This is recommended.</li>
-                      <li><strong>Enable use of popup windows</strong> [boolean] Do you want to use popup windows for comments, trackbacks et al? Yes/No.</li>
-                      <li><strong>Is Serendipity embedded?</strong> [boolean] If you want to embed Serendipity within a regular page, set to true to discard any headers and just print the contents. You can make use of the indexFile option to use a wrapper class where you put your normal webpage headers. See the README file for more information! Yes No.</li>
-                      <li><strong>Make external links clickable?</strong> [boolean] “no”: Unchecked external links (Top Exits, Top Referrers, User comments) are not shown/shown as plain text where applicable to prevent Google SPAM (recommended). “yes”: Unchecked external links are shown as hyperlinks. Can be overridden within sidebar plugin configuration! Yes No.</li>
-                      <li><strong>Enable referrer tracking?</strong> [boolean] Enabling the referrer tracking will show you which sites refer to your articles. Today this is often abused for spamming, so you can disable it if you want.</li>
-                      <li><strong>Blocked Referrers</strong> [string] Are there any special hosts you want not to show up in the referrers list? Separate the list of hostnames with ‘;’ and note that the host is blocked by substring matches!</li>
-                      <li><strong>URL Rewriting</strong> [list] pretty URLs for your Blog and make it better indexable for spiders like Google. The webserver needs to support either mod_rewrite or “<a href="http://httpd.apache.org/docs/1.3/mod/core.html#allowoverride">Allow Override</a> All” for your Serendipity dir. The default setting is auto-detected.</li>
-                      <li><strong>Base offset on server timezone?</strong> [boolean] Offset entry times on server timezone or not. Select “yes” to base offset on server timezone and “no” to offset on GMT.</li>
-                      <li><strong>Server time Offset</strong> [string] Enter the amount of hours between the date of your webserver and your desired time zone.</li>
-                      <li><strong>Show future entries</strong> [boolean] If enabled, this will show all entries in the future on your Blog. Default is to hide those entries and only show them if the publish date has arrived. Yes/No.</li>
-                      <li><strong>Apply read-permissions for categories</strong> [boolean] If enabled, the usergroup permission settings you setup for categories will be applied when logged-in users view your Blog. If disabled, the read-permissions of the categories are NOT applied, but the positive effect is a little speedup on your Blog. So if you don’t need multi-user read permissions for your Blog, disable this setting.</li>
+                      <li><strong>Entries to display on frontpage</strong> [<span class="vartype-str">string</span>] Number of entries to display for each page on the Frontend.</li>
+                      <li><strong>Entries to display in Feeds</strong> [<span class="vartype-str">string</span>] Number of entries to display for each page on the RSS Feed.</li>
+                      <li><strong>Stable Archives </strong> [<span class="vartype-bool">boolean</span>] Sort the archive-pages descending, so they are stable and search-crawler do not have to reindex them.</li>
+                      <li><strong>How should search-results be sorted?</strong> [<span class="vartype-array">list</span>] Choose by Date (most recent first) or Relevance (number of hits for the searched term in a single entry).</li>
+                      <li><strong>Activate strict RFC2616 RSS-Feed compliance</strong> [<span class="vartype-array">list</span>] NOT Enforcing RFC2616 means that all Conditional GETs to Serendipity will return entries last modified since the time of the last request. With that setting to “false”, your visitors will get all articles since their last request, which is considered a good thing. However, some agents like Planet act weird, if that happens, as it also violates RFC2616. So if you set this option to “TRUE” you will comply with that RFC, but readers of your RSS feed might miss items in their holidays. So either way, either it hurts aggregators like Planet, or it hurts actual readers of your Blog. If you are facing complaints from either side, you can toggle this option.</li>
+                      <li><strong>Use gzip compressed pages</strong> [<span class="vartype-bool">boolean</span>] To speed up delivery of pages, we can compress the pages we send to the visitor, given that his browser supports this. This is recommended.</li>
+                      <li><strong>Enable use of popup windows</strong> [<span class="vartype-bool">boolean</span>] Do you want to use popup windows for comments, trackbacks et al? Yes/No.</li>
+                      <li><strong>Is Serendipity embedded?</strong> [<span class="vartype-bool">boolean</span>] If you want to embed Serendipity within a regular page, set to true to discard any headers and just print the contents. You can make use of the indexFile option to use a wrapper class where you put your normal webpage headers. See the README file for more information! Yes No.</li>
+                      <li><strong>Make external links clickable?</strong> [<span class="vartype-bool">boolean</span>] “no”: Unchecked external links (Top Exits, Top Referrers, User comments) are not shown/shown as plain text where applicable to prevent Google SPAM (recommended). “yes”: Unchecked external links are shown as hyperlinks. Can be overridden within sidebar plugin configuration! Yes No.</li>
+                      <li><strong>Enable referrer tracking?</strong> [<span class="vartype-bool">boolean</span>] Enabling the referrer tracking will show you which sites refer to your articles. Today this is often abused for spamming, so you can disable it if you want.</li>
+                      <li><strong>Blocked Referrers</strong> [<span class="vartype-str">string</span>] Are there any special hosts you want not to show up in the referrers list? Separate the list of hostnames with ‘;’ and note that the host is blocked by substring matches!</li>
+                      <li><strong>URL Rewriting</strong> [<span class="vartype-array">list</span>] pretty URLs for your Blog and make it better indexable for spiders like Google. The webserver needs to support either mod_rewrite or “<a href="http://httpd.apache.org/docs/1.3/mod/core.html#allowoverride">Allow Override</a> All” for your Serendipity dir. The default setting is auto-detected.</li>
+                      <li><strong>Base offset on server timezone?</strong> [<span class="vartype-bool">boolean</span>] Offset entry times on server timezone or not. Select “yes” to base offset on server timezone and “no” to offset on GMT.</li>
+                      <li><strong>Server time Offset</strong> [<span class="vartype-str">string</span>] Enter the amount of hours between the date of your webserver and your desired time zone.</li>
+                      <li><strong>Show future entries</strong> [<span class="vartype-bool">boolean</span>] If enabled, this will show all entries in the future on your Blog. Default is to hide those entries and only show them if the publish date has arrived. Yes/No.</li>
+                      <li><strong>Apply read-permissions for categories</strong> [<span class="vartype-bool">boolean</span>] If enabled, the usergroup permission settings you setup for categories will be applied when logged-in users view your Blog. If disabled, the read-permissions of the categories are NOT applied, but the positive effect is a little speedup on your Blog. So if you don’t need multi-user read permissions for your Blog, disable this setting.</li>
                     </ul>
 
                     <h3 id="docs-feed-settings">Feed Settings</h3>
@@ -258,17 +258,17 @@
                     <p>Customize how Serendipity handles Feeds</p>
 
                     <ul>
-                      <li><strong>Show full articles with extended body inside RSS feed</strong> [list] Show the full entry: “no”, “yes”, per “client” selectable</li>
-                      <li><strong>Image for the RSS feed</strong> [string] URL of an image in GIF/JPEG/PNG format, if available. (empty field: serendipity-logo)</li>
-                      <li><strong>Image width</strong> [string] In pixels, max. 144px</li>
-                      <li><strong>Image height</strong> [string] In pixels, max. 400px</li>
-                      <li><strong>Show E-Mail addresses?</strong> [string] Yes/No.</li>
-                      <li><strong>Field “managingEditor”</strong> [string] E-Mail address of the managing editor, if available. (empty field: hidden) [RSS 2.0].</li>
-                      <li><strong>Field “webMaster”</strong> [string] E-Mail address of the webmaster, if available. (empty field: hidden) [RSS 2.0].</li>
-                      <li><strong>Field “ttl” (time-to-live)</strong> [string] Amount of minutes after which your Blog should not be cached any more by foreign sites/applications (empty field: hidden) [RSS 2.0].</li>
-                      <li><strong>Field “pubDate”</strong> [boolean] Should the “pubDate”-field be embedded for a RSS-channel, to show the date of the latest entry? Yes/No.</li>
-                      <li><strong>Custom feed URL</strong> [string] If set, a custom feed URL can be set to forward Feedreaders to a specific URL. Useful for statistical analyzers like Feedburner, in which case you would enter your Feedburner-URL here.</li>
-                      <li><strong>Force custom feed URL?</strong> [boolean] If enabled, the URL entered above will be mandatory for Feedreaders, and your usual feed cannot be accessed from clients. Yes/No.</li>
+                      <li><strong>Show full articles with extended body inside RSS feed</strong> [<span class="vartype-array">list</span>] Show the full entry: “no”, “yes”, per “client” selectable</li>
+                      <li><strong>Image for the RSS feed</strong> [<span class="vartype-str">string</span>] URL of an image in GIF/JPEG/PNG format, if available. (empty field: serendipity-logo)</li>
+                      <li><strong>Image width</strong> [<span class="vartype-str">string</span>] In pixels, max. 144px</li>
+                      <li><strong>Image height</strong> [<span class="vartype-str">string</span>] In pixels, max. 400px</li>
+                      <li><strong>Show E-Mail addresses?</strong> [<span class="vartype-str">string</span>] Yes/No.</li>
+                      <li><strong>Field “managingEditor”</strong> [<span class="vartype-str">string</span>] E-Mail address of the managing editor, if available. (empty field: hidden) [RSS 2.0].</li>
+                      <li><strong>Field “webMaster”</strong> [<span class="vartype-str">string</span>] E-Mail address of the webmaster, if available. (empty field: hidden) [RSS 2.0].</li>
+                      <li><strong>Field “ttl” (time-to-live)</strong> [<span class="vartype-str">string</span>] Amount of minutes after which your Blog should not be cached any more by foreign sites/applications (empty field: hidden) [RSS 2.0].</li>
+                      <li><strong>Field “pubDate”</strong> [<span class="vartype-bool">boolean</span>] Should the “pubDate”-field be embedded for a RSS-channel, to show the date of the latest entry? Yes/No.</li>
+                      <li><strong>Custom feed URL</strong> [<span class="vartype-str">string</span>] If set, a custom feed URL can be set to forward Feedreaders to a specific URL. Useful for statistical analyzers like Feedburner, in which case you would enter your Feedburner-URL here.</li>
+                      <li><strong>Force custom feed URL?</strong> [<span class="vartype-bool">boolean</span>] If enabled, the URL entered above will be mandatory for Feedreaders, and your usual feed cannot be accessed from clients. Yes/No.</li>
                     </ul>
 
                     <h3 id="docs-image-conversion-settings">Image Conversion Settings</h3>
@@ -276,21 +276,21 @@
                     <p>Enter general information about how Serendipity should handle Images</p>
 
                     <ul>
-                      <li><strong>Use ImageMagick</strong> [boolean] Do you have ImageMagick installed and want to use it to resize images? Yes/No.</li>
-                      <li><strong>Path to convert binary</strong> [string] Full path &amp; name of your ImageMagick convert binary.</li>
-                      <li><strong>Thumbnail suffix</strong> [string] Thumbnails will be named with the following format: original.[suffix].ext.</li>
-                      <li><strong>Thumbnail max size</strong> [string] Maximum size of thumbnail in constrained dimension.</li>
-                      <li><strong>Thumbnail constrained dimension</strong> [list] Dimension to be constrained to the thumbnail max size. The default “Largest” limits both dimensions, so neither can be greater than the max size; “Width” and “Height” only limit the chosen dimension, so the other could be larger than the max size.</li>
-                      <li><strong>Max. file upload size</strong> [string] Enter the maximum filesize for uploaded files in bytes. This setting can be overruled by server-side settings in PHP.ini: upload_max_filesize, post_max_size, max_input_time all take precedence over this option. An empty string means to only use the server-side limits.</li>
-                      <li><strong>Max. width of image files for upload</strong> [string] Enter the maximum image width in pixels for uploaded images.</li>
-                      <li><strong>Max. height of image files for upload</strong> [string] Enter the maximum image height in pixels for uploaded images.</li>
-                      <li><strong>Resize before Upload</strong> [boolean] Resize images according to configured maximum/minimum dimensions before the upload using Javascript. This will also change the uploader to use Ajax and thus remove the Property-Button. PLEASE NOTE: Setting this option true will prevent other options to behave like they should, in special, when the ‘imageselectorplus’ event plugin is used! Yes/No.</li>
-                      <li><strong>Enable on-the-fly media synchronization</strong> [boolean] If enabled, Serendipity will compare the media database with the files stored on your server and synchronize the database and directory contents.</li>
-                      <li><strong>Allow dynamic image resizing?</strong> [boolean] If enabled, the media selector can return images in any requested size via a GET variable. The results are cached, and thus can create a large filebase if you make intensive use of it.</li>
-                      <li><strong>Import EXIF/JPEG image data</strong> [boolean]If enabled, existing EXIF/JPEG metadata of images will be parsed and stored in the database for display in the media gallery.</li>
-                      <li><strong>Media properties</strong> [string] Enter a list of “;” separated property fields you want to define for each media file(You can append “:MULTI” after any item to indicate that this item will contain long text instead of just some characters).</li>
-                      <li><strong>Media keywords</strong> [string] Enter a list of “;” separated words that you want to use as pre-defined keywords for media items.</li>
-                      <li><strong>Allow to fetch data from local URLs</strong> [boolean] By default, it is forbidden due to security constrains to fetch data from local URLs to prevent Server Side Request Forgers (SSRF). If you use a local intranet, you can enable this option to allow fetching data. Yes/No.</li>
+                      <li><strong>Use ImageMagick</strong> [<span class="vartype-bool">boolean</span>] Do you have ImageMagick installed and want to use it to resize images? Yes/No.</li>
+                      <li><strong>Path to convert binary</strong> [<span class="vartype-str">string</span>] Full path &amp; name of your ImageMagick convert binary.</li>
+                      <li><strong>Thumbnail suffix</strong> [<span class="vartype-str">string</span>] Thumbnails will be named with the following format: original.[suffix].ext.</li>
+                      <li><strong>Thumbnail max size</strong> [<span class="vartype-str">string</span>] Maximum size of thumbnail in constrained dimension.</li>
+                      <li><strong>Thumbnail constrained dimension</strong> [<span class="vartype-array">list</span>] Dimension to be constrained to the thumbnail max size. The default “Largest” limits both dimensions, so neither can be greater than the max size; “Width” and “Height” only limit the chosen dimension, so the other could be larger than the max size.</li>
+                      <li><strong>Max. file upload size</strong> [<span class="vartype-str">string</span>] Enter the maximum filesize for uploaded files in bytes. This setting can be overruled by server-side settings in PHP.ini: upload_max_filesize, post_max_size, max_input_time all take precedence over this option. An empty string means to only use the server-side limits.</li>
+                      <li><strong>Max. width of image files for upload</strong> [<span class="vartype-str">string</span>] Enter the maximum image width in pixels for uploaded images.</li>
+                      <li><strong>Max. height of image files for upload</strong> [<span class="vartype-str">string</span>] Enter the maximum image height in pixels for uploaded images.</li>
+                      <li><strong>Resize before Upload</strong> [<span class="vartype-bool">boolean</span>] Resize images according to configured maximum/minimum dimensions before the upload using Javascript. This will also change the uploader to use Ajax and thus remove the Property-Button. PLEASE NOTE: Setting this option true will prevent other options to behave like they should, in special, when the ‘imageselectorplus’ event plugin is used! Yes/No.</li>
+                      <li><strong>Enable on-the-fly media synchronization</strong> [<span class="vartype-bool">boolean</span>] If enabled, Serendipity will compare the media database with the files stored on your server and synchronize the database and directory contents.</li>
+                      <li><strong>Allow dynamic image resizing?</strong> [<span class="vartype-bool">boolean</span>] If enabled, the media selector can return images in any requested size via a GET variable. The results are cached, and thus can create a large filebase if you make intensive use of it.</li>
+                      <li><strong>Import EXIF/JPEG image data</strong> [<span class="vartype-bool">boolean</span>]If enabled, existing EXIF/JPEG metadata of images will be parsed and stored in the database for display in the media gallery.</li>
+                      <li><strong>Media properties</strong> [<span class="vartype-str">string</span>] Enter a list of “;” separated property fields you want to define for each media file(You can append “:MULTI” after any item to indicate that this item will contain long text instead of just some characters).</li>
+                      <li><strong>Media keywords</strong> [<span class="vartype-str">string</span>] Enter a list of “;” separated words that you want to use as pre-defined keywords for media items.</li>
+                      <li><strong>Allow to fetch data from local URLs</strong> [<span class="vartype-bool">boolean</span>] By default, it is forbidden due to security constrains to fetch data from local URLs to prevent Server Side Request Forgers (SSRF). If you use a local intranet, you can enable this option to allow fetching data. Yes/No.</li>
                     </ul>
                 </div>
             </div>
