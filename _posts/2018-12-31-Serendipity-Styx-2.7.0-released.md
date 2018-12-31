@@ -3,8 +3,8 @@ layout: post
 title: Serendipity Styx 2.7.0 release
 ---
 
-Styx 2018/6 - The 2.7.0 **New Year's Eve Release Edition** is out!
-Serendipity Styx is PHP 7.3 READY and requires PHP from 5.5+!
+Styx 2018/6 - The 2.7.0 **New Year's Eve Release Edition** is out!  
+Serendipity Styx is PHP 7.3 READY and requires PHP from 5.5+!  
 Approximately this is the last edition supporting the old PHP 5 Series.
 
 ## Styx 2.7.0 runs (...some highlights)
