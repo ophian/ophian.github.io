@@ -3,8 +3,9 @@ layout: post
 title: Serendipity Styx 2.7.0 release
 ---
 
-Styx 2018/6 - The 2.7.0 **New Year's Eve Release Edition** is out! Check the [ChangeLog](https://github.com/ophian/styx/blob/2.7.0/docs/NEWS) for details!
-Serendipity Styx is PHP 7.3 READY and requires PHP from 5.5+! Approximately this is the last edition supporting the old PHP 5 Series.
+Styx 2018/6 - The 2.7.0 **New Year's Eve Release Edition** is out!
+Serendipity Styx is PHP 7.3 READY and requires PHP from 5.5+!
+Approximately this is the last edition supporting the old PHP 5 Series.
 
 ## Styx 2.7.0 runs (...some highlights)
 
@@ -22,4 +23,4 @@ Serendipity Styx is PHP 7.3 READY and requires PHP from 5.5+! Approximately this
 
 It might again be a good idea to take the advantage of starting a new copy template before adapting each single theme change to your old copy themes!
 
-Read the [ChangeLog](https://github.com/ophian/styx/blob/2.7.0/docs/NEWS) or the commit [history](https://github.com/ophian/styx/commits/2.7.0) for more. See [download](https://github.com/ophian/styx/releases/tag/2.7.0)
+Check out the [ChangeLog](https://github.com/ophian/styx/blob/2.7.0/docs/NEWS) for details or even read the commit [history](https://github.com/ophian/styx/commits/2.7.0) for more. See [download](https://github.com/ophian/styx/releases/tag/2.7.0)
