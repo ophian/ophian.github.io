@@ -15,8 +15,6 @@ author:
   url:               https://github.com/ophian/styx
   email:             just no - get me over github please
 
-gems:
-  - jekyll-sitemap
-
 plugins:
   - jekyll-seo-tag
+  - jekyll-sitemap
