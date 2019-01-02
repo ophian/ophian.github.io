@@ -17,3 +17,6 @@ author:
 
 gems:
   - jekyll-sitemap
+
+plugins:
+  - jekyll-seo-tag
