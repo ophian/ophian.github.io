@@ -18,7 +18,7 @@ Approximately this is the last edition supporting the old PHP 5 Series.
   - Improve the Maintenance widget page to display items column-ordered
   - Preparations to allow and replace hidden-category entries by the categorytemplates event plugin, which makes it possible to use categories/entries independently.
   - Various lang constant fixes and improvements, like finding a better name for the MediaLibrary in german [de] language files.
-  - Add a new "Zombie Plugin Manager" Clearance Maintenance Spot, to get rid of old, locally outdated and unsynchronized plugins, physically. This has a "dependency" twin in ZARATHUSTRA, an upgrade task, which makes (hidden) local plugins upgradeable via Spartacus for the case of being (re-)installed again in future.
+  - Add a new "Zombie Plugin Manager" Clearance Maintenance Spot, to get rid of old, locally outdated and unsynchronized plugins, physically. This has a "dependency" twin in ZARATHUSTRA, an upgrade task, which makes (unused) local plugins upgradeable via Spartacus for the case of being (re-)installed again in future.
   - Works on PHP 7.3 readiness
 
 It might again be a good idea to take the advantage of starting a new copy template before adapting each single theme change to your old copy themes!
