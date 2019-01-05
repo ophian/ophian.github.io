@@ -1,6 +1,7 @@
 ﻿---
 layout: post
 title: Serendipity Styx 2.6.0 - A Back-to-the-Roots Release
+last_modified_at: 2018-11-06T13:34:00+00:00
 ---
 
 Styx 2018/4 - Long years of activity and continuously deep development have finally brought this shiny new release up to your attention.

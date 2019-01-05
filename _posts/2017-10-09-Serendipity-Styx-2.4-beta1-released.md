@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Serendipity Styx 2.4-beta1 was released
+last_modified_at: 2018-11-06T13:33:00+00:00
 ---
 
 The Styx October 2.4-beta1 release brings exiting news for MySQLi users, "finally" fixes the MediaLibrary and adds some new widgets. And much more. Check the [ChangeLog](https://github.com/ophian/styx/blob/2.4-beta1/docs/NEWS) for details!

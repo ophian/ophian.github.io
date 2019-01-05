@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Serendipity Styx 2.5-beta1 release is on the road
+last_modified_at: 2018-11-06T13:33:00+00:00
 ---
 
 Styx 2018/1 - The 2.5-beta1 release is ready for attention! Check the [ChangeLog](https://github.com/ophian/styx/blob/2.5-beta1/docs/NEWS) for details!
