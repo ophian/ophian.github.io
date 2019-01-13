@@ -615,14 +615,14 @@ function serendipity_plugin_api_event_hook($event, &amp;$bag, &amp;$eventData, $
 
 <h5 id="docs-advanced-theme-options-theme-option-groups">Advanced theme options: Theme option groups</h5>
 
-<p>Theme options can also be put into specific groups. To do this, define an array like this in your <code>config.inc.php</code> file of the theme:</p>
+<p>Theme options can also be put into specific (collapsible) grouping blocks, eg. “bulletproof” theme. To do this, define an array like this in your <code>config.inc.php</code> file of the theme:</p>
 
 <pre><code>$template_config_groups = array(
     THEME_COLORSET  =&gt; array('colorset', 'layouttype', 'jscolumns'),
     THEME_HEADER    =&gt; array('custheader', 'headerimage', 'headertype')
 );</code></pre>
 
-<p>The array key defines the theme option group name which gets displayed for the user. The array value defines an array of defined theme options you want to have in that group. Those array values correlate with the name of the theme options that are defined in <code>$template_config</code>.</p>
+<p>The array key defines the theme option group name which gets displayed for the user. In this example case it is a lang constant. The array value defines an array of defined theme options you want to have in that group. Those array values correlate with the name of the theme options that are defined in <code>$template_config</code>.</p>
 
 <h5 id="docs-advanced-theme-options-central-navigation">Advanced theme options: Central navigation</h5>
 
