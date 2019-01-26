@@ -468,7 +468,7 @@ gesagt werden, die zB. in sidebarhider teils direkte Bezugnahmen in Plugins habe
 <pre><code class="smarty">{if $is_raw_mode != true}<br>
 &lt;div id="serendipity_banner"&gt;<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&lt;h1&gt;&lt;a class="homelink1" href="{$serendipityBaseURL}"&gt;{$head_title|default:$blogTitle}&lt;/a&gt;&lt;/h1&gt;<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&lt;h2&gt;&lt;a class="homelink2" href="{$serendipityBaseURL}"&gt;{$head_subtitle|default:$blogDescription}&lt;/a&gt;&lt;/h2&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;h2&gt;&lt;a class="homelink2" href="{$serendipityBaseURL}"&gt;{if $view == 'plugin'}{$blogDescription}{else}{$head_subtitle|default:$blogDescription}{/if}&lt;/a&gt;&lt;/h2&gt;<br>
 &lt;/div&gt;<br>
 <br>
 &lt;div id="mainpane"&gt;<br>
@@ -1504,7 +1504,7 @@ wäre folgende CSS-Anweisung korrekt:</p>
 
 <pre><code class="css">
     .banner {<br>
-    &nbsp; background-image: url({TEMPLATE_PATH}pic.jpg);<br>
+    &nbsp; background-image: url('{TEMPLATE_PATH}pic.jpg');<br>
 }
 </code></pre>
 
