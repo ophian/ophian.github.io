@@ -277,7 +277,7 @@ hierarchische Einordnung des HTML-Elements wiedergeben:</p>
 die gewünschte Formatierung ablesen:</p>
 
 <p>Der erste Block sorgt dafür, dass der <code>&lt;div
-id="Seite"&gt;...&lt;/div&gt;</code>=Container der HTML-Struktur mit einer weißen
+id="Seite"&gt;...&lt;/div&gt;</code> Container der HTML-Struktur mit einer weißen
 Hintergrundfarbe gestaltet werden soll. Jeder Stylesheet-Formatierungsblock kann
 über das Symbol <code>#</code> eine Formatierung direkt auf einen beliebigen Container
 anwenden, der in der HTML-Datei über das Attribut <code>id="..."</code> benannt
@@ -4480,8 +4480,8 @@ nicht direkt freigeschaltet wird.
     </span>
 
     <span class="box">
-        Falls ein Eintrag <em>dauerhaft</em> (siehe Plugin-Beschreibung Seite <span class="pageref"><a href="#stickyentries">stickyentries</a></span>)
-        ist, wird er im Array <code class="item smarty">{$entries.sticky}</code> abgelegt; für alle Einträge
+        Falls ein Eintrag als <em>dauerhaft</em> (siehe Plugin-Beschreibung Seite <span class="pageref"><a href="#stickyentries">stickyentries</a></span>)
+        markiert ist, wird er im Array <code class="item smarty">{$entries.sticky}</code> abgelegt; für alle Einträge
         dieser Gruppe ist <code class="item smarty">{$entries.sticky.is_sticky}</code> auf <code>true</code>
         gesetzt. Die Artikel anderer Datumsgruppen besitzen für diese Variable den Wert
         <code>false</code>.
@@ -10047,9 +10047,9 @@ im Funktionsaufruf wie <code>serendipity_funktion parameter1=wert1 parameter2=we
             </span>
             <span class="sub-box">
                 Wenn auf <code>true</code> gesetzt, werden sogenannte <em>Dauerhafte Einträge</em> (siehe
-                Seite <span class="pageref"><a href="#stickyentries">stickyentries</a></span>) nicht mit ausgelesen. Wenn aktuelle Einträge jedoch als
-                <em>Dauerhaft</em> markiert werden, sind sie trotzdem in der Liste vorhanden - lediglich ältere
-                dauerhafte Einträge werden nicht wie sonst üblich mit aufgenommen.
+                Seite <span class="pageref"><a href="#stickyentries">stickyentries</a></span>) nicht mit ausgelesen.
+                Wenn aktuelle Einträge jedoch als <em>Dauerhaft</em> markiert werden, sind sie trotzdem in der Liste
+                vorhanden - lediglich ältere dauerhafte Einträge werden nicht wie sonst üblich mit aufgenommen.
             </span>
         </span>
 
