@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Serendipity Styx 2.7.0 release
-last_modified_at: 2019-01-22T18:26:00+00:00
+last_modified_at: 2019-02-17T19:50:00+00:00
 ---
 
 Styx 2018/6 - The Serendipity Styx 2.7.0 **New Year's Eve Release Edition** is out!
@@ -11,7 +11,7 @@ Approximately this is the last edition supporting the old PHP 5 Series, since it
 ## Styx 2.7.0 runs (...some highlights)
 
   - Various old and some new bugs were fixed
-  - Various THEMES were improved again, either updated, or revisited for certain places, like the new "pcomments.tpl" file for paged comment shortcut pages. Read on in the ChangeLog. And, keep your copy themes up-to-date!
+  - Various THEMES were improved again, either updated, or revisited for certain places, like the new "pcomments.tpl" file for paged comment shortcut pages. Read on in the ChangeLog and keep your copy themes up-to-date!
   - Improve media directory list, adding the number of local media entries
   - Improve categories list, adding the number of associated entries
   - Multiple improvements for the MediaLibrary, like lowercase .ext conversion and adding possible missing media file extensions for image types.
