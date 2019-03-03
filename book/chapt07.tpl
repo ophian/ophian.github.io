@@ -2415,8 +2415,11 @@ keine Grafiken angezeigt werden könnten.</span>
 </p>
 
 <p>Jeder Seitentyp einer statischen Seite kann einer eigenen
-Smarty-Template-Datei zugeordnet werden. Standardmäßig stehen die Dateien
-<code>plugin_staticpage.tpl</code> und <code>plugin_staticpage_aboutpage.tpl</code>
+Smarty-Template-Datei zugeordnet werden. Standardmäßig stehen bereits die Dateien
+<code>plugin_staticpage.tpl</code> und <code>plugin_staticpage_aboutpage.tpl</code>,
+sowie<code>plugin_staticpage_includeentry.tpl</code>,<code>plugin_staticpage_related_category.tpl</code>,
+<code>staticpage-entries-listing.tpl</code>, <code>plugin_staticpage_searchresults.tpl</code>
+und für die Seitenleiste <code>plugin_staticpage_sidebar.tpl</code>
 zur Verfügung.</p>
 
 <p>Innerhalb dieser Datei kann eine Vielzahl von Smarty-Variablen und
