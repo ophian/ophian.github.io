@@ -692,7 +692,7 @@ sind, werden diese Klassen eingesetzt.</span>
     <span class="inline-tag">CSS-Variablen!.serendipity_entries_footer</span>
 </span>
 <code class="item css">.serendipity_entries_footer</code>
-<span class="desc-info">Enthält die Blätter-Anzeige für die Eintragsseiten des Blogs. (Siehe: .serendipity_pageFooter)</span>
+<span class="desc-info">Enthält die Blätter-Anzeige für die Eintragsseiten sowie der Archivseiten des Blogs.</span>
 </p>
 
 <p class="desc citem-desc">
@@ -768,14 +768,6 @@ diese CSS-Klasse eingebunden.</span>
 </span>
 <code class="item css">.serendipity_commentsValue</code>
 <span class="desc-info">Enthält die Eingabeboxen der jeweiligen Eingabebereiche des Kommentarformulars.</span>
-</p>
-
-<p class="desc citem-desc">
-<span class="tag-box invisible">
-    <span class="inline-tag">CSS-Variablen!.serendipity_pageFooter</span>
-</span>
-<code class="item css">.serendipity_pageFooter</code>
-<span class="desc-info">Enthält die Blätter-Anzeige für die Archivseiten der Blog-Übersichten. (Siehe: .serendipity_entries_footer.)</span>
 </p>
 
 <p class="desc citem-desc">
