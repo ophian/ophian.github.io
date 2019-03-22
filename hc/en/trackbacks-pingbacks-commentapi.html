@@ -190,13 +190,11 @@
                     <p>Don’t forget to get these ones, too:</p>
 
                     <pre><code>&lt;div class="serendipity_comments serendipity_section_trackbacks"&gt;
-  &lt;br /&gt;
   &lt;a id="trackbacks"&gt;&lt;/a&gt;
   &lt;div class="serendipity_commentsTitle"&gt;{$CONST.TRACKBACKS}&lt;/div&gt;
   &lt;div class="serendipity_center"&gt;
-    &lt;a rel="nofollow" style="font-weight: normal" href="{$entry.link_trackback}" onclick="alert('{$CONST.TRACKBACK_SPECIFIC_ON_CLICK|escape:htmlall}'); return false;" title="{$CONST.TRACKBACK_SPECIFIC_ON_CLICK|escape}"&gt;{$CONST.TRACKBACK_SPECIFIC}&lt;/a&gt;
+    &lt;a rel="nofollow" href="{$entry.link_trackback}" onclick="alert('{$CONST.TRACKBACK_SPECIFIC_ON_CLICK|escape:htmlall}'); return false;" title="{$CONST.TRACKBACK_SPECIFIC_ON_CLICK|escape}"&gt;{$CONST.TRACKBACK_SPECIFIC}&lt;/a&gt;
   &lt;/div&gt;
-  &lt;br /&gt;
   {serendipity_printTrackbacks entry=$entry.id}
 &lt;/div&gt;</code></pre>
 
