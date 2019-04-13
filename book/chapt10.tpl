@@ -8409,8 +8409,8 @@ und kann zahlreiche URL-Variablen enthalten, die für eine Übergabe wichtig sin
 <code class="item uri_param">serendipity[htmltarget]</code>
 <span class="desc-info">enthält die eindeutige ID eines
 HTML-Elementes, in den der Rückgabewert des Popups geschrieben werden soll. Wenn
-das CMS zB. ein Feld wie <code>&lt;input type='hidden'
-name='data[foreign_image]' id='id_foreign_image' value='' /&gt;</code> ausgibt, müssen
+das CMS zB. ein Feld wie <code>&lt;input type="hidden"
+name="data[foreign_image]" id="id_foreign_image" value="" /&gt;</code> ausgibt, müssen
 Sie der Mediathek die Variable
 <code>serendipity[htmltarget]=id_foreign_image</code> übergeben. Andernfalls kann das
 JavaScript keinen Rückgabewert an das CMS liefern.</span>

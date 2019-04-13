@@ -8598,7 +8598,7 @@ verfügbar:</p>
         <span class="box">
             Die Liste der zugewiesenen CSS-Klassen richtet sich nach den
             <code>properties</code> des Tages; diese können daher später in der Template-Datei direkt
-            innerhalb eines <code>class='...'</code>-Attributs eingesetzt werden.
+            innerhalb eines <code>class="..."</code>-Attributs eingesetzt werden.
         </span>
 
         <span class="box">
