@@ -1412,7 +1412,7 @@ Generellen-Einstellungen widmen zu können.</p>
         werden können.
     </span>
 
-    <span class="box"><span class="recommended">Empfohlene Einstellung</span>: <em>60</em></span>
+    <span class="box"><span class="recommended">Empfohlene Einstellung</span>: <em>30</em></span>
 </span>
 </p>
 
@@ -1796,10 +1796,10 @@ Generellen-Einstellungen widmen zu können.</p>
 <span class="desc-info">
     <span class="box">
         Ähnlich der Einstellung für Kommentare können auch Trackbacks nach einem
-        gewissen Zeitraum automatisch moderiert werden.
+        gewissen Zeitraum zunächst automatisch in die Moderations-Zustand versetzt werden.
     </span>
 
-    <span class="box"><span class="recommended">Empfohlene Einstellung</span>: <em>60</em></span>
+    <span class="box"><span class="recommended">Empfohlene Einstellung</span>: <em>30</em></span>
 </span>
 </p>
 
