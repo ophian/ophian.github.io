@@ -140,7 +140,7 @@ Nach erfolgreichem Update löschen Sie es anschließend wieder von dort.</p>
     $username = "YOURusername";<br>
     $password = "YOURpassword";<br>
     include 'serendipity_config.inc.php';<br>
-    echo serendipity_db_query("UPDATE {$serendipity['dbPrefix']}authors SET password = '" . serendipity_hash($password) . "', hashtype=1 WHERE username = '" . serendipity_db_escape_string($username) . "'");<br>
+    echo serendipity_db_query("UPDATE {$serendipity['dbPrefix']}authors SET password = '" . serendipity_hash($password) . "', hashtype=2 WHERE username = '" . serendipity_db_escape_string($username) . "'");<br>
     echo "Password changed."; 
 </code></pre>
 
@@ -148,6 +148,8 @@ Nach erfolgreichem Update löschen Sie es anschließend wieder von dort.</p>
 Diese Variablen müssen Sie auf Ihre Gegebenheiten anpassen. Tragen Sie
 in die Variable <code>$password</code> das neue Passwort (in Anführungszeichen gesetzt)
 ein. In die Variable <code>$username</code> müssen Sie logischerweise den Usernamen des Autors setzen.</p>
+
+<p>Versionen vor Serendipity Styx 2.5-beta1 müssen <code>hashtype=1</code> verwenden!</p>
 
 </section><!-- section.sub end -->
 
