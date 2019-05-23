@@ -5309,8 +5309,8 @@ Sprachauswahl die Artikel nicht automatisch übersetzen kann.</span>
 
     <span class="box">
         Wenn Sie also auf diese Flexibilität verzichten können, sollten Sie die
-        Option <span class="mbold">Sollen persönliche Plugin-Rechte für Benutzergruppen
-        aktiviert werden</span> weiterhin auf <span class="mbold">Nein</span> stellen.
+        Option <span class="mbold">Plugin-Rechte für Benutzergruppen aktivieren</span>
+        weiterhin auf <span class="mbold">Nein</span> stellen.
     </span>
 </span>
 </p>
