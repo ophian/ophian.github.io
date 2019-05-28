@@ -2860,7 +2860,7 @@ Unterverzeichnisse anwenden</span> aktivieren.</p>
 Um ein Verzeichnis zu löschen, klicken Sie auf das <span class="mbold">Mülleimer</span> Symbol. Sie
 gelangen danach auf eine Unterseite, die Sie nochmals fragt, ob Sie das
 Verzeichnis inklusive aller Dateien löschen (sowohl in der
-Mediendatenbank als auch im Dateisystem) wollen.
+Mediathek als auch im Dateisystem) wollen.
 <span class="tag-box invisible">
     <span class="inline-tag">Mediathek!FTP</span>
 </span>
@@ -7007,9 +7007,10 @@ Chefredakteur sieht hier nur noch andere Chefredakteure und normale
 Redakteure. Normale Redakteure wiederum sehen nur andere normale
 Redakteure.</p>
 
-<p>In der Benutzerübersicht wird dem Benutzerrang entsprechend ein kleines
-Symbol dem Namen vorangestellt. Es folgen der Benutzerrang und zwei
-Links zum <span class="mbold">Bearbeiten</span> und <span class="mbold">Löschen</span> eines Benutzers.</p>
+<p>In der Benutzerübersicht wird dem Benutzer ein kleines
+Symbol dem Namen vorangestellt. Es folgen der Benutzerrang und drei
+Links, als ein Button zur Ansicht der Frontend-<span class="mbold">Einträge</span> des Nutzers und zwei administrative
+zum <span class="mbold">Bearbeiten</span> und <span class="mbold">Löschen</span> eines Benutzers.</p>
 
 <p>Über den Button <span class="mbold">Einen neuen Benutzer anlegen</span> können Sie einen
 neuen Benutzer anlegen, die Oberfläche ähnelt dabei den Optionen bei
@@ -7067,10 +7068,11 @@ zusätzlich die folgenden Optionen aufgeführt:</p>
 
 <p class="desc">
 <span class="item mbold">Zugriffsrechte</span><!-- menuitem -->
-<span class="desc-info">Die <span class="mbold">Zugriffsrechte</span> entsprechen der groben Einordnung eines
+<span class="desc-info">
     <span class="box">
-        Benutzers in einen Benutzerrang. Wählen Sie aus dem Auswahlfeld,
-        welchem Rang der Benutzer am ehesten entspricht.
+        Die <span class="mbold">Zugriffsrechte</span> entsprechen der groben
+        Einordnung eines Benutzers in einen Benutzerrang. Wählen Sie aus dem
+        Auswahlfeld, welchem Rang der Benutzer am ehesten entspricht.
     </span>
 
     <span class="tag-box invisible">
@@ -7115,7 +7117,7 @@ zusätzlich die folgenden Optionen aufgeführt:</p>
     <span class="inline-tag">Fehler!keine Backend-Menüs</span>
 </span><!-- tagbox -->
 <span class="label invisible" id="no-create">no-create</span>
-<span class="item mbold">Benutzer deaktivieren/Rechte entziehen</span><!-- menuitem -->
+<span class="item mbold">Benutzer deaktivieren / Rechte entziehen</span><!-- menuitem -->
 <span class="desc-info">
     <span class="box">
         Eine globale Option, um einem Benutzer sämtliche Zugriffsrechte außer
@@ -7148,11 +7150,13 @@ zusätzlich die folgenden Optionen aufgeführt:</p>
     <span class="inline-tag">Fehler!Einträge können nicht veröffentlicht werden</span>
 </span><!-- tagbox -->
 <span class="item mbold">Rechte: Einträge veröffentlichen</span><!-- menuitem -->
-<span class="desc-info">Die Option <span class="mbold">Rechte: Einträge veröffentlichen</span> bestimmt, ob es einem
-Redakteur erlaubt ist, einen Artikel als <em>Veröffentlichung</em> zu
-speichern. Ist diese Option nicht aktiviert, kann ein Benutzer
-lediglich <em>Entwürfe</em> speichern. Diese Entwürfe müssen dann von
-einem höherrangigen Redakteur veröffentlicht werden.</span>
+<span class="desc-info">
+    Die Option <span class="mbold">Rechte: Einträge veröffentlichen</span> bestimmt,
+    ob es einem Redakteur erlaubt ist, einen Artikel als <em>Veröffentlichung</em> zu
+    speichern. Ist diese Option nicht aktiviert, kann ein Benutzer
+    lediglich <em>Entwürfe</em> speichern. Diese Entwürfe müssen dann von
+    einem höherrangigen Redakteur veröffentlicht werden.
+</span>
 </p>
 
 <p>&nbsp;</p><!-- separator -->
@@ -7458,35 +7462,47 @@ systemnaher Einstellungen.</span>
         <span class="mbold">personalConfigurationRightPublish</span> und
         <span class="mbold">personalConfigurationUserlevel</span> verfügt.
     </span>
+</span>
+</p>
 
-    <span class="tag-box invisible">
-        <span class="inline-tag">Rechte!siteConfiguration</span>
-    </span>
+<p class="desc">
+<span class="tag-box invisible">
+    <span class="inline-tag">Rechte!siteConfiguration</span>
+</span><!-- tagbox -->
+<span class="item mbold">siteConfiguration</span><!-- menuitem -->
+<span class="desc-info">
     <span class="box">
-        <span class="mbold">siteConfiguration</span><!-- menuitem -->
         Die systemweite Konfiguration (mit Einstellungen der Datenbank und
         anderer systemnaher Optionen) darf ein Redakteur nur verändern, wenn er
         über das Recht <span class="mbold">siteConfiguration</span> verfügt.
     </span>
+</span>
+</p>
 
-    <span class="tag-box invisible">
-        <span class="inline-tag">Rechte!userlevel</span>
-    </span>
+<p class="desc">
+<span class="tag-box invisible">
+    <span class="inline-tag">Rechte!userlevel</span>
+</span>
+<span class="item mbold">userlevel</span><!-- menuitem -->
+<span class="desc-info">
     <span class="box">
-        <span class="mbold">userlevel</span><!-- menuitem -->
         Die vordefinierten Gruppen von Serendipity können mit einem
         Benutzerrang verkettet werden. Dies ist nicht veränderbar und lediglich
         für die vordefinierten Gruppen von Interesse. Daher sehen Sie an dieser
         Stelle auch in allen Fällen nur ein <span class="mbold">Nein</span>.
     </span>
+</span>
+</p>
 
-    <span class="tag-box invisible">
-        <span class="inline-tag">Verbotene Plugins</span>
-        <span class="inline-tag">Rechte!verbotene Plugins</span>
-    </span>
+<p class="desc">
+<span class="tag-box invisible">
+    <span class="inline-tag">Verbotene Plugins</span>
+    <span class="inline-tag">Rechte!verbotene Plugins</span>
+</span>
+<span class="item mbold">Verbotene Plugins</span><!-- menuitem -->
+<span class="desc-info">
     <span class="box">
         <span class="label invisible" id="verboteneplugins">verboteneplugins</span>
-        <span class="mbold">Verbotene Plugins</span><!-- menuitem -->
         Ist die globale Option <span class="mbold">Sollen persönliche Plugin-Rechte für
         Benutzergruppen aktiviert werden?</span> in der <span class="mbold">Konfiguration</span> des Blogs
         (Abschnitt <span class="mbold">Generelle Einstellungen</span>) aktiviert, werden Sie an
@@ -7500,17 +7516,21 @@ systemnaher Einstellungen.</span>
         eine Benutzergrupe <em>keinen</em> Zugriff hat. So können Sie
         Redakteure von der Benutzung einiger Plugins gezielt ausnehmen.
     </span>
+</span>
+</p>
 
-    <span class="tag-box invisible">
-        <span class="inline-tag">Verbotene Ereignisse</span>
-        <span class="inline-tag">Rechte!verbotene Ereignisse</span>
-        <span class="inline-tag">Ereignisse</span>
-        <span class="inline-tag">Events</span>
-        <span class="inline-tag">Hooks</span>
-    </span>
-    <span class="label invisible" id="verboteneereignisse">verboteneereignisse</span>
+<p class="desc">
+<span class="tag-box invisible">
+    <span class="inline-tag">Verbotene Ereignisse</span>
+    <span class="inline-tag">Rechte!verbotene Ereignisse</span>
+    <span class="inline-tag">Ereignisse</span>
+    <span class="inline-tag">Events</span>
+    <span class="inline-tag">Hooks</span>
+</span>
+<span class="item mbold">Verbotene Ereignisse</span><!-- menuitem -->
+<span class="desc-info">
     <span class="box">
-        <span class="mbold">Verbotene Ereignisse</span><!-- menuitem -->
+        <span class="label invisible" id="verboteneereignisse">verboteneereignisse</span>
         Die Ereignis-Plugins von Serendipity werden an speziellen Stellen des
         Systems ausgeführt. Diese Stellen nennen sich <em>Ereignisse</em> und
         tragen alle einen individuellen Namen. Plugins können sich zu einem
