@@ -7481,6 +7481,34 @@ systemnaher Einstellungen.</span>
 
 <p class="desc">
 <span class="tag-box invisible">
+    <span class="inline-tag">Rechte!siteAutoUpgrades</span>
+</span><!-- tagbox -->
+<span class="item mbold">siteAutoUpgrades</span><!-- menuitem -->
+<span class="desc-info">
+    <span class="box">
+        Das "besondere" Recht <span class="mbold">siteAutoUpgrades</span> wurde
+        mit Serendipity Styx 2.8.0 eingeführt und ermöglicht, einem bestimmten
+        Benutzer, mit der Gruppeneigenschaft "Chefredakteur", die Erlaubnis zu
+        erteilen, das Serendipity Autoupdate über die Backend Startseite auszuführen,
+        sobald ein Upgrade vorliegt. Dieses Recht darf nur der Administrator vergeben
+        und entziehen und sollte nur auf Multiuser-Systemen mit diesem besonderen
+        Bedürfnis vergeben werden.
+    </span>
+
+    <span class="box">
+        Als empfohlenes Beispiel gehen Sie wie folgt vor:
+        Erstellen Sie als Administrator unter "Gruppe" eine neue Gruppe mit beliebigem Namen
+        und vergeben in dieser nur die Hauptkategorien, sowie das spezielle Feld <span class="mbold">siteAutoUpgrades</span>
+        und das - in diesem Fall - besonders wichtige Feld <span class="mbold">Hidden group / Non-Author</span>,
+        damit diese Gruppe für andere Benutzer verborgen bleibt.
+        Danach verbinden sie unter "Benutzer" den gewünschten Nutzer mit der Eigenschaft "Chefredakteur"
+        zusätzlich mit eben dieser neu estellten Gruppe.
+    </span>
+</span>
+</p>
+
+<p class="desc">
+<span class="tag-box invisible">
     <span class="inline-tag">Rechte!userlevel</span>
 </span>
 <span class="item mbold">userlevel</span><!-- menuitem -->
