@@ -7007,7 +7007,7 @@ Chefredakteur sieht hier nur noch andere Chefredakteure und normale
 Redakteure. Normale Redakteure wiederum sehen nur andere normale
 Redakteure.</p>
 
-<p>In der Benutzerübersicht wird dem Benutzer ein kleines
+<p>In der Benutzerübersicht wird dem Benutzerrang entsprechend ein kleines
 Symbol dem Namen vorangestellt. Es folgen der Benutzerrang und drei
 Links, als ein Button zur Ansicht der Frontend-<span class="mbold">Einträge</span> des Nutzers und zwei administrative
 zum <span class="mbold">Bearbeiten</span> und <span class="mbold">Löschen</span> eines Benutzers.</p>
