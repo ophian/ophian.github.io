@@ -1337,14 +1337,20 @@ Generellen-Einstellungen widmen zu können.</p>
     </span>
 
     <span class="box"><span class="recommended">Empfohlene Einstellung</span>: <em>Ja</em>.</span>
+
+    <span class="box">
+        Um Bild-Captchas ganz zu vermeiden, können Sie das erweiternde und sehr
+        empfehlenswerte Serendipity Spamblog Bee Plugin ausprobieren und es
+        an die erste Stelle ihrer Plugin Event Liste rücken.
+    </span>
 </span>
 </p>
 
 <p class="desc">
 <span class="tag-box invisible">
-    <span class="inline-tag">Plugins!Spamschutz!Generelle-Einstellungen!Captchas nach wie vielen Tagen erzwingen</span>
+    <span class="inline-tag">Plugins!Spamschutz!Generelle-Einstellungen!Captchas nach X Tagen erzwingen</span>
 </span><!-- tagbox -->
-<span class="item mbold">Captchas nach wie vielen Tagen erzwingen</span><!-- menuitem -->
+<span class="item mbold">Captchas nach X Tagen erzwingen</span><!-- menuitem -->
 <span class="desc-info">
     <span class="box">
         Da Captchas gerade für sehbehinderte Menschen große Probleme schaffen,
@@ -1384,18 +1390,50 @@ Generellen-Einstellungen widmen zu können.</p>
         Primärfarben jede andere vom Monitor darstellbare Farbe abbilden kann. Um
         diese Farbwerte leicht herauszufinden, können Sie kleine Tools wie etwa den Colorpicker [*]
         <span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://www.pagetutor.com/colorpicker/index.html" target="_blank">http://www.pagetutor.com/colorpicker/index.html</a></span><!-- footnote -->
-        benutzen.
+        benutzen. Heutzutage haben die großen Browser soetwas als Bordmittel ihrer Developer Konsole schon eingebaut.
     </span>
 
     <span class="box"><span class="recommended">Empfohlene Einstellung</span>: <em>255,255,255</em> (Weiß)</span>
 </span>
 </p>
 
+<span class="tag-box invisible">
+    <span class="inline-tag">Plugins!Spamschutz!Generelle-Einstellungen!Zeitfenster für Kommentare innerhalb von X Tagen</span>
+</span><!-- tagbox -->
+<span class="item mbold">Zeitfenster für Kommentare innerhalb von X Tagen</span><!-- menuitem -->
+<span class="desc-info">
+    <span class="box">
+        Die Formular-Kommentarfunktion eines Artikels kann global für einen begrenzten
+        Zeitraum von X Tagen seit dem Artikeldatum erlaubt werden, um zu vermeiden, dass
+        ältere Beiträge ihres Blogs mit Kommentaren geflutet werden. Der default Wert ist
+        "0" und erlaubt (User) Kommentare zu jedem vorhandenen Artikel ohne Altersbegrenzung
+        (sofern nicht anderweitig restringiert).
+    </span>
+
+    <span class="box"><span class="recommended">Default Einstellung</span>: <em>0</em></span>
+</span>
+</p>
+
+<span class="tag-box invisible">
+    <span class="inline-tag">Plugins!Spamschutz!Generelle-Einstellungen!Trackbacks nur im Zeitfenster erlauben?</span>
+</span><!-- tagbox -->
+<span class="item mbold">Trackbacks nur im Zeitfenster erlauben?</span><!-- menuitem -->
+<span class="desc-info">
+    <span class="box">
+        "Ja" wird valide Trackbacks/Pingbacks, die nach diesem Zeitfenster
+        für Blog Einträge eintreffen, blockieren und abweisen.
+        (Andere einstellbare Optionen können dies möglicherweise beeinflussen.)
+    </span>
+
+    <span class="box"><span class="recommended">Default Einstellung</span>: <em>Nein</em></span>
+</span>
+</p>
+
 <p class="desc">
 <span class="tag-box invisible">
-    <span class="inline-tag">Plugins!Spamschutz!Generelle-Einstellungen!Kommentarmoderation nach wievielen Tagen erzwingen</span>
+    <span class="inline-tag">Plugins!Spamschutz!Generelle-Einstellungen!Kommentarmoderation nach X Tagen erzwingen</span>
 </span><!-- tagbox -->
-<span class="item mbold">Kommentarmoderation nach wievielen Tagen erzwingen</span><!-- menuitem -->
+<span class="item mbold">Kommentarmoderation nach X Tagen erzwingen</span><!-- menuitem -->
 <span class="desc-info">
     <span class="box">
         Bei besonders alten Artikeln ist es sehr selten, dass Besucher noch
@@ -1424,7 +1462,7 @@ Generellen-Einstellungen widmen zu können.</p>
 <span class="desc-info">
     <span class="box">
         Üblicherweise werden Kommentare zu Artikeln, die Sie mit der Option
-        <span class="mbold">Kommentarmoderation nach wievielen Tagen erzwingen</span> gefiltert
+        <span class="mbold">Kommentarmoderation nach X Tagen erzwingen</span> gefiltert
         haben, in der Datenbank gespeichert, aber nicht freigeschaltet.
     </span>
 
