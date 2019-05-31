@@ -106,8 +106,9 @@
                                 <li><a href="#docs-emergency-comment-shutdown" id="toc-docs-emergency-comment-shutdown">Emergency comment shutdown</a></li>
                                 <li><a href="#docs-disable-spamblock-for-authors" id="toc-docs-disable-spamblock-for-authors">Disable spamblock for Authors</a></li>
                                 <li><a href="#docs-do-not-allow-duplicate-comments" id="toc-docs-do-not-allow-duplicate-comments">Do not allow duplicate comments</a></li>
-                                <li><a href="#docs-reject-comments-which-only-contain-the-entry-title" id="toc-docs-reject-comments-which-only-contain-the-entry-title">Reject comments which only contain the entry title</a></li>
+                                <li><a href="#docs-reject-comments-which-only-contain-known-text" id="toc-docs-reject-comments-which-only-contain-known-text">Reject comments which only contain known text</a></li>
                                 <li><a href="#docs-ip-block-interval" id="toc-docs-ip-block-interval">IP block interval</a></li>
+                                <li><a href="#docs-forbid-direct-comments-xsrf-protection" id="toc-docs-forbid-direct-comments-xsrf-protection">Forbid direct comments (XSRF protection)</a></li>
                                 <li><a href="#docs-enable-captchas" id="toc-docs-enable-captchas">Enable Captchas</a></li>
                                 <li><a href="#docs-force-captchas-after-x-days" id="toc-docs-force-captchas-after-x-days">Force Captchas after X days</a></li>
                                 <li><a href="#docs-background-color-of-the-captcha" id="toc-docs-background-color-of-the-captcha">Background color of the Captcha</a></li>
@@ -165,13 +166,17 @@
 
                     <p>If enabled, a comment that already exists in the database with the same body will be rejected. This option is very helpful to disallow mass-spam with the same contents.</p>
 
-                    <h4 id="docs-reject-comments-which-only-contain-the-entry-title">Reject comments which only contain the entry title</h4>
+                    <h4 id="docs-reject-comments-which-only-contain-known-text">Reject comments which only contain known text</h4>
 
                     <p>Sometimes comment SPAM used just the same content than your entry title contained. If you enable this option, SPAM like this will be rejected.</p>
 
                     <h4 id="docs-ip-block-interval">IP block interval</h4>
 
                     <p>This setting forbids comments from the same IP within a specific timespan. You should be aware that different users might have the same IP if they are using a proxy. AOL users, for instance, often are forced to use the same proxy and then could run into problems if other AOL users comment the same time on your Blog. For low-volume comment Blogs though, this option is helpful to prevent mass-attacks.</p>
+
+                    <h4 id="docs-forbid-direct-comments-xsrf-protection">Forbid direct comments (XSRF protection)</h4>
+
+                    <p>If enabled, visitors are not allowed to submit a comment when visiting your articles directly. This can block spambots, but also people who are commenting from their RSS readers or who have cookies disabled. This protection is implemented by setting a special hash field, which will only exist when a valid session was already started. This will also protect you from XSRF attacks that could trick you into submitting comments under false pretenses.</p>
 
                     <h4 id="docs-enable-captchas">Enable Captchas</h4>
 
