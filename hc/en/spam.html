@@ -109,13 +109,13 @@
                                 <li><a href="#docs-reject-comments-which-only-contain-the-entry-title" id="toc-docs-reject-comments-which-only-contain-the-entry-title">Reject comments which only contain the entry title</a></li>
                                 <li><a href="#docs-ip-block-interval" id="toc-docs-ip-block-interval">IP block interval</a></li>
                                 <li><a href="#docs-enable-captchas" id="toc-docs-enable-captchas">Enable Captchas</a></li>
-                                <li><a href="#docs-force-captchas-after-how-many-days" id="toc-docs-force-captchas-after-how-many-days">Force Captchas after how many days</a></li>
+                                <li><a href="#docs-force-captchas-after-x-days" id="toc-docs-force-captchas-after-x-days">Force Captchas after X days</a></li>
                                 <li><a href="#docs-background-color-of-the-captcha" id="toc-docs-background-color-of-the-captcha">Background color of the Captcha</a></li>
                                 <li><a href="#docs-time-frame-for-comments-within-x-days" id="toc-docs-time-frame-for-comments-within-x-days">Time frame for comments within X days</a></li>
-                                <li><a href="#docs-force-comment-moderation-after-how-many-days" id="toc-docs-force-comment-moderation-after-how-many-days">Force comment moderation after how many days</a></li>
-                                <li><a href="#docs-what-to-do-with-comments-when-being-auto-moderated" id="toc-docs-what-to-do-with-comments-when-being-auto-moderated">What to do with comments when being auto-moderated?</a></li>
-                                <li><a href="#docs-force-trackback-moderation-after-how-many-days" id="toc-docs-force-trackback-moderation-after-how-many-days">Force trackback moderation after how many days</a></li>
-                                <li><a href="#docs-what-to-do-with-trackbacks-when-being-auto-moderated" id="toc-docs-what-to-do-with-trackbacks-when-being-auto-moderated">What to do with trackbacks when being auto-moderated?</a></li>
+                                <li><a href="#docs-force-comment-moderation-after-x-days" id="toc-docs-force-comment-moderation-after-x-days">Force comment moderation after X days</a></li>
+                                <li><a href="#docs-comments-classification-after-being-auto-moderated" id="toc-docs-comments-classification-after-being-auto-moderated">Comments classification after being auto-moderated?</a></li>
+                                <li><a href="#docs-force-trackback-moderation-after-x-days" id="toc-docs-force-trackback-moderation-after-x-days">Force trackback moderation after X days</a></li>
+                                <li><a href="#docs-classification-after-being-auto-moderated" id="toc-docs-classification-after-being-auto-moderated">Classification after being auto-moderated?</a></li>
                                 <li><a href="#docs-how-to-treat-comments-made-via-apis" id="toc-docs-how-to-treat-comments-made-via-apis">How to treat comments made via APIs</a></li>
                                 <li><a href="#docs-check-trackback-urls" id="toc-docs-check-trackback-urls">Check Trackback URLs</a></li>
                                 <li><a href="#docs-how-many-links-before-a-comment-gets-moderated" id="toc-docs-how-many-links-before-a-comment-gets-moderated">How many links before a comment gets moderated</a></li>
@@ -187,7 +187,7 @@
 
                     <p>The option “scrambled captchas” will use a stronger Captcha implementation with varying pixels scattered within the Captcha to make them harder to read for automated bots.</p>
 
-                    <h4 id="docs-force-captchas-after-how-many-days">Force Captchas after how many days</h4>
+                    <h4 id="docs-force-captchas-after-x-days">Force Captchas after X days</h4>
 
                     <p>With this option you can enter the amount of days an article of you needs to age until Captchas are enabled there. Usually spambots catch up your new articles only after some days, which means that fresh articles on your Blog are less exposed to SPAM. Since the usual Blog comments only happen within a short time after publishing an article, it is a good idea to enforce Captchas when an article is, say 7 days old. This will then not annoy valid users commenting on your fresh articles, but later hinder spambots to drop their garbage.</p>
 
@@ -199,19 +199,19 @@
 
                     <p>With Serendipity Styx 2.6 and up the comment function of an article may only globally be allowed for a limited period of X days starting from the article date. This might be a valid request to make sure your Blog is not flooded with bogus comments for old entries. The default value is "0" and allows comments to any existing article without age limit. Under normal conditions your entries usually don't get very much valid comments after a certain amount of time.</p>
 
-                    <h4 id="docs-force-comment-moderation-after-how-many-days">Force comment moderation after how many days</h4>
+                    <h4 id="docs-force-comment-moderation-after-x-days">Force comment moderation after X days</h4>
 
                     <p>You can enable the comment moderation for each trackback and comment to an article here. Enter the amount of days after which an article will be put in “moderation” state.</p>
 
-                    <h4 id="docs-what-to-do-with-comments-when-being-auto-moderated">What to do with comments when being auto-moderated?</h4>
+                    <h4 id="docs-comments-classification-after-being-auto-moderated">Comments classification after being auto-moderated?</h4>
 
                     <p>Here you can set what happens to auto-moderated articles from the option above. Rejected comments will not be stored anywhere, and moderated comments you can later delete or toggle visible. You will only receive mails about moderated comments, and you will not be notified of rejected comments.</p>
 
-                    <h4 id="docs-force-trackback-moderation-after-how-many-days">Force trackback moderation after how many days</h4>
+                    <h4 id="docs-force-trackback-moderation-after-x-days">Force trackback moderation after X days</h4>
 
-                    <p>As a distinction to general comment moderatio, you can specifically only block trackbacks to older entries. This way you can leave normal (captcha’d) comments to pass through, while trackbacks could be generally dismissed.</p>
+                    <p>As a distinction to general comment moderation, you can specifically only block trackbacks to older entries. This way you can leave normal (captcha’d) comments to pass through, while trackbacks could be generally dismissed.</p>
 
-                    <h4 id="docs-what-to-do-with-trackbacks-when-being-auto-moderated">What to do with trackbacks when being auto-moderated?</h4>
+                    <h4 id="docs-classification-after-being-auto-moderated">Classification after being auto-moderated?</h4>
 
                     <p>Just like the global auto-moderation, you can specify what happens to auto-moderated trackbacks.</p>
 
@@ -219,7 +219,7 @@
 
                     <p>Here you can indicate what happens to all API-made comments (Trackbacks, wfwComment). You can either globally moderate them or reject them, or with the “none” option you can handle them not individually.</p>
 
-                    <h4 id="docs-check-trackback-urls">Check Trackback URLs</h4>
+                    <h4 id="docs-check-trackback-urls">Check trackback URLs</h4>
 
                     <p>This option will call the URLs that are given in a trackback and see if the URL of your entry that they refer to really shows up on their page. This option can significantly decrease trackback SPAM, but will also perform URL requests on your server to foreign servers, which both takes time and traffic.</p>
 
