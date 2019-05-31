@@ -1086,6 +1086,11 @@ Dies sind: Wortfilter-Einstellungen, Trackback-Einstellungen und Generelle-Einst
 Die beiden ersteren sind per default ein-/zugeklappt, um sich erst einmal den wichtigen
 Generellen-Einstellungen widmen zu können.</p>
 
+<p>Die Benennung unterscheidet sich intern als (User) Kommentare und (Blog) Trackbacks/Pingbacks.
+Allgemein wird hier das Wort "Kommentar(e)" für beide Erscheinungsformen verwendet,
+wenn nicht gesondert unterschieden (s.a. "Trackbacks") oder darauf hingewiesen wird,
+oder der Kontext eindeutig ist.</p>
+
 <h4 class="plugin-config-header">Spamblock: Generelle-Einstellungen</h4>
 
 <p class="desc">
@@ -1156,15 +1161,24 @@ Generellen-Einstellungen widmen zu können.</p>
         "super!" zu unterbinden.
     </span>
 
+    <span class="box">
+        Diese Option hat möglicherweise Auswirkungen auf Trackbacks.
+        Um die empfohlene Einstellung "<em>Ja</em>" beizubehalten, aber trotzdem
+        valide Trackbacks mit "gleichlautendem Kommentar" anzunehmen, zum Beispiel
+        in einem Blog Summary Artikel, der eine Trackback-URL von mehreren Artikeln
+        ihres Blogs beinhaltet, wurde mit Version 2.16 eine diesbezügliche Ausnahme
+        eingeführt.
+    </span>
+
     <span class="box"><span class="recommended">Empfohlene Einstellung</span>: <em>Ja</em></span>
 </span>
 </p>
 
 <p class="desc">
 <span class="tag-box invisible">
-    <span class="inline-tag">Plugins!Spamschutz!Generelle-Einstellungen!Kommentare abweisen, die als Text nur Bekanntes enthalten</span>
+    <span class="inline-tag">Plugins!Spamschutz!Generelle-Einstellungen!Kommentare abweisen, die Bekanntes enthalten</span>
 </span><!-- tagbox -->
-<span class="item mbold">Kommentare abweisen, die als Text nur Bekanntes enthalten</span><!-- menuitem -->
+<span class="item mbold">Kommentare abweisen, die Bekanntes enthalten</span><!-- menuitem -->
 <span class="desc-info">
     <span class="box">
         Eine beliebte Form des Kommentar-Spams stellte einmal die Methode dar, bei
@@ -1254,9 +1268,9 @@ Generellen-Einstellungen widmen zu können.</p>
 <span class="tag-box invisible">
     <span class="inline-tag">CSRF</span>
     <span class="inline-tag">XSRF</span>
-    <span class="inline-tag">Plugins!Spamschutz!Generelle-Einstellungen!CSRF-Schutz aktivieren</span>
+    <span class="inline-tag">Plugins!Spamschutz!Generelle-Einstellungen!Direktkommentare verbieten? (XSRF-Schutz)</span>
 </span><!-- tagbox -->
-<span class="item mbold">CSRF-Schutz aktivieren?</span><!-- menuitem -->
+<span class="item mbold">Direktkommentare verbieten? (XSRF-Schutz)</span><!-- menuitem -->
 <span class="desc-info">
     <span class="box">
         Die meisten Spam-Kommentare erfolgen, indem ein Spam-Roboter automatisch
@@ -1281,14 +1295,12 @@ Generellen-Einstellungen widmen zu können.</p>
     </span>
 
     <span class="box">
-        Weiterhin bringt diese Option einen Schutz vor
-        <em>CSRF</em> [*]
+        Weiterhin bringt diese Option einen Schutz vor <em>CSRF</em> [*]
         <span class="footnote"><i class="fa fa-info-circle"></i> <em>Cross Site Request Forgery</em> nennt man den
         Versuch eines fremden Benutzers, Ihren Browser fernzusteuern und damit
-        Aktionen auszulösen, die Sie selbst gar nicht
-        ausführen möchten.</span><!-- footnote -->. Dies führt zu Angriffen, bei denen ein böswilliger Benutzer
-        Sie dazu bringen könnte, ungewollt Kommentare zu verfassen oder sogar
-        freizuschalten.
+        Aktionen auszulösen, die Sie selbst gar nicht ausführen möchten.</span><!-- footnote -->.
+        Dies führt zu Angriffen, bei denen ein böswilliger Benutzer Sie dazu bringen
+        könnte, ungewollt Kommentare zu verfassen oder sogar freizuschalten.
     </span>
 
     <span class="box"><span class="recommended">Empfohlene Einstellung</span>: <em>Ja</em>.</span>
@@ -1646,7 +1658,7 @@ Generellen-Einstellungen widmen zu können.</p>
         vornehmen können.
     </span>
 
-    <span class="box"><span class="recommended">Empfohlene Einstellung</span>: <em>comment</em></span>
+    <span class="box"><span class="recommended">Empfohlene Einstellung</span>: <em>name, comment</em></span>
 </span>
 </p>
 
@@ -1828,9 +1840,9 @@ Generellen-Einstellungen widmen zu können.</p>
 
 <p class="desc">
 <span class="tag-box invisible">
-    <span class="inline-tag">Plugins!Spamschutz!Trackback-Einstellungen!Trackbackmoderation nach wievielen Tagen erzwingen</span>
+    <span class="inline-tag">Plugins!Spamschutz!Trackback-Einstellungen!Auto-Moderation nach X Tagen erzwingen</span>
 </span><!-- tagbox -->
-<span class="item mbold">Trackbackmoderation nach wievielen Tagen erzwingen</span><!-- menuitem -->
+<span class="item mbold">Auto-Moderation nach X Tagen erzwingen</span><!-- menuitem -->
 <span class="desc-info">
     <span class="box">
         Ähnlich der Einstellung für Kommentare können auch Trackbacks nach einem
@@ -1843,9 +1855,9 @@ Generellen-Einstellungen widmen zu können.</p>
 
 <p class="desc">
 <span class="tag-box invisible">
-    <span class="inline-tag">Plugins!Spamschutz!Trackback-Einstellungen!Was soll mit auto-moderierten Trackbacks passieren</span>
+    <span class="inline-tag">Plugins!Spamschutz!Trackback-Einstellungen!Zuweisung nach der Auto-Moderation?</span>
 </span><!-- tagbox -->
-<span class="item mbold">Was soll mit auto-moderierten Trackbacks passieren?</span><!-- menuitem -->
+<span class="item mbold">Zuweisung nach der Auto-Moderation?</span><!-- menuitem -->
 <span class="desc-info">
     <span class="box">
         Ähnlich der Einstellung für Kommentare können die durch automatische
@@ -1858,9 +1870,9 @@ Generellen-Einstellungen widmen zu können.</p>
 
 <p class="desc">
 <span class="tag-box invisible">
-    <span class="inline-tag">Plugins!Spamschutz!Trackback-Einstellungen!Trackback URLS@Trackback-URLS prüfen</span>
+    <span class="inline-tag">Plugins!Spamschutz!Trackback-Einstellungen!Trackback URLs@Trackback-URLs prüfen</span>
 </span><!-- tagbox -->
-<span class="item mbold">Trackback-URLS prüfen</span><!-- menuitem -->
+<span class="item mbold">Trackback-URLs prüfen</span><!-- menuitem -->
 <span class="desc-info">
     <span class="box">
         Der Sinn eines Trackbacks ist, dass ein fremdes Blog Sie darauf hinweisen
