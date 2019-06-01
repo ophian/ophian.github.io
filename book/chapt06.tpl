@@ -1410,9 +1410,9 @@ oder der Kontext eindeutig ist.</p>
 </p>
 
 <span class="tag-box invisible">
-    <span class="inline-tag">Plugins!Spamschutz!Generelle-Einstellungen!Zeitfenster für Kommentare innerhalb von X Tagen</span>
+    <span class="inline-tag">Plugins!Spamschutz!Generelle-Einstellungen!Zeitfenster für erlaubte Kommentare</span>
 </span><!-- tagbox -->
-<span class="item mbold">Zeitfenster für Kommentare innerhalb von X Tagen</span><!-- menuitem -->
+<span class="item mbold">Zeitfenster für erlaubte Kommentare</span><!-- menuitem -->
 <span class="desc-info">
     <span class="box">
         Die Formular-Kommentarfunktion eines Artikels kann global für einen begrenzten
