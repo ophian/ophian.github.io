@@ -1,16 +1,16 @@
 ---
 layout: post
 title: Serendipity Styx 2.9.0 release
-last_modified_at: 2019-06-01T11:19:00+00:00
+last_modified_at: 2019-06-02T07:30:00+00:00
 ---
 
-Styx 2019/3 - The Serendipity Styx 2.9.0 **"Give Peace a Chance" (1969)** release.
+Styx 2019/3 - The Serendipity Styx 2.9.0 release - 50 years Montreal „Bed-In“ **"Give Peace a Chance" (1969)** Edition.
 
 Since the more template focused Styx 2.8.0 version was somehow delayed in early April 2019 and then was overrun by a real flood of Core improvements and fixes, this version was abandoned in favor of 2.9.0.
 
 Serendipity Styx is PHP 7.3 READY and requires PHP from 5.5+!
-This is the LAST edition supporting the old PHP 5 Series and will only get security or important bugfixes as point release.
-Serendipity Styx NEXT will be 3.0, which will requires a modern PHP 7.x version.
+This is the LAST edition supporting the old PHP 5 Series and will only get security or important bugfixes as point releases.
+Serendipity Styx NEXT will be 3.0, which will require a modern PHP 7.x version.
 
 ## Styx 2.9.0 runs (...some highlights)
 
