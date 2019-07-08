@@ -2143,7 +2143,7 @@ die Sie bei der Entwicklung von Plugins und Ähnlichem häufig einsetzen werden.
 
 <p class="desc">
 <code class="item function">serendipity_scaleImg()</code>, 
-<code class="item function">serendipity_resize_image_gd()</code>, 
+<code class="item function">[serendipity_resize_image_gd() deprecated], serendipity_resizeImageGD()</code>,
 (<code class="item file">include/functions_images.inc.php</code>)
 <span class="desc-info">
     <span class="box">
@@ -2154,7 +2154,7 @@ die Sie bei der Entwicklung von Plugins und Ähnlichem häufig einsetzen werden.
 
 <p class="desc">
 <code class="item function">serendipity_rotateImg()</code>, 
-<code class="item function">serendipity_rotate_image_gd()</code>, 
+<code class="item function">[serendipity_rotate_image_gd() deprecated], serendipity_rotateImageGD()</code>,
 (<code class="item file">include/functions_images.inc.php</code>)
 <span class="desc-info">
     <span class="box">
