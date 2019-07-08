@@ -974,7 +974,7 @@ die Sie bei der Entwicklung von Plugins und Ähnlichem häufig einsetzen werden.
             (function_exists('serendipity_specialchars') ? serendipity_specialchars($string) : htmlspecialchars($string, ENT_COMPAT, LANG_CHARSET))
         </code></span>
     </span>
-</span>
+</span><br>
 </p>
 
 </section><!-- section.sub end -->
