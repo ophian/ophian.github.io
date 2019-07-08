@@ -2196,7 +2196,7 @@ die Sie bei der Entwicklung von Plugins und Ähnlichem häufig einsetzen werden.
 </p>
 
 <p class="desc">
-<code class="item function">serendipity_calculate_aspect_size()</code>, 
+<code class="item function">[serendipity_calculate_aspect_size() deprecated], serendipity_calculateAspectSize()</code>,
 (<code class="item file">include/functions_images.inc.php</code>)
 <span class="desc-info">
     <span class="box">
