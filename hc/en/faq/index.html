@@ -246,7 +246,9 @@
 <h4 id="docs-is-it-possible-to-have-two-versions-of-the-same-blog">Is it possible to have two versions of the same blog with the same content (new entries in one appear on both), but with different themes, plugins, etc?</h4>
 
 <div>
-    <p>Yes, this is possible. There are various options for this via Smarty, embeddded blogs, embedded entries, differences by categories and categorytemplates, staticpage categories, two independent blogs, etc. It all depends on you needs in special.</p>
+    <p>Yes, this is possible. There are various options for this via Smarty sys API method calls, embedded blogs, embedded entries, blog differences by categories and categorytemplates, staticpage categories, entryproperties, Concept of "Sticky Posts", two independent blogs side by side, etc. It all depends on you needs in special.</p>
+
+    <p>If you are skilled with PHP, it could be made easy so that you just embed entries of categories with a different template on the other section.</p>
 
     <span class="faq-up"><a class="navigator" href="#faq-top">top</a></span>
 </div>
@@ -256,7 +258,9 @@
 <div>
     <p>Yes, this is possible too. You just have to make sure to <b>not</b> use <b>nested</b> blogs, inside each other. This will not work and is not supported!</p>
 
-    <p>You can have as much blogs as you like as siblings, beside each other; Homesite :: Blog1, Homesite:: Blog2 etc.. In the database you would give them a different prefix like sb1_ and sb2, ... It all is a matter of making sense or not and which is the easiest approach for your system.</p>
+    <p>You can have as much blogs as you like as siblings, beside each other; Homesite :: Blog1, Homesite:: Blog2, etc.. In the database you would give them a different prefix like <code>sb1_</code> and <code>sb2_</code>, ... It all is a matter of making sense or not and which is the easiest approach for your system.</p>
+
+    <p>We think that most of the reasons for having more than one blog can be fulfilled with plugins or other separations, like embedded or shared blogs. See also the previous question. Cluttering the code with "multi blog" support enforces no clean separation of the blogs, but sometimes creates more confusion than it solves. So when someone really wants to have two blogs, we recommend to just install two independent blogs.</p>
 
     <span class="faq-up"><a class="navigator" href="#faq-top">top</a></span>
 </div>
