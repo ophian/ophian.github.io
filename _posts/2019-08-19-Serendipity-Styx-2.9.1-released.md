@@ -1,20 +1,16 @@
 ---
 layout: post
 title: Serendipity Styx 2.9.1 release
-last_modified_at: 2019-08-20T17:18:30+00:00
+last_modified_at: 2019-08-20T18:18:00+00:00
 ---
 
 Styx 2019/4 - The Serendipity Styx 2.9 branch 2.9.1 release.
 
 Since heavy development of upcoming Serendipity Styx 3.0 is making huge progress, several issues were found in the 2.9 branch too. This is a point BugFix release.
 
-Serendipity Styx is PHP 7.3 READY and requires PHP from 5.5+!
-This 2.9 branch is the LAST edition supporting the old PHP 5 Series and will only get security or important bugfixes as point releases.
-Serendipity Styx NEXT will be 3.0, which will require a modern PHP 7.x version.
-
 ## Branching your Autoupdate for 2.9.x
 
-Since having already noted that upcoming **Styx Next** is a major upgrade, which will require a modern PHP 7 version, we have to give some **Important Notes** about branches and future upgrades.
+Since having already noted that upcoming **Styx Next** is a major upgrade (see [2.9.1 post](https://ophian.github.io/2019/06/01/Serendipity-Styx-2.9.0-released/)), which will require a modern PHP 7 version, we have to give some **Important Notes** about branches and future upgrades.
 
 The current _alpha_ state of the masters branch NEXT Development already requires **PHP 7.1.3** as the absolute Minimum.
 This may even raise up to a required PHP 7.3.x version before (beta) release(s) in the next few months, in Autumn 2019.
