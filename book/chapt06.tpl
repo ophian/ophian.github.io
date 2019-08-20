@@ -3380,7 +3380,7 @@ Konfigurationsoptionen und ist damit nicht mehr ein Beispiel für ein sogenannte
 <p class="desc">
 <span class="item mbold">Benutzerdefinierte download URL</span><!-- menuitem -->
 <span class="desc-info">Definiert eine URL wie diese:
-<code>https://github.com/s9y/Serendipity/releases/download/</code>.
+<code>https://github.com/ophian/styx/releases/download/</code>.
 Das benutzerdefiniertes Verzeichnis/Datei-Schema muss mit <code>$version/serendipity-$version.zip</code>
 enden. Ersetzen Sie <code>$version</code> mit dem Versionnummern String aus ihrer benutzerdefinierten
 RELEASE-Datei, zB. <code>2.1.5/serendipity-2.1.5.zip</code>.
@@ -3392,7 +3392,7 @@ Default-URL für automatische Styx Upgrades hier unverändert stehen! <span clas
 <p class="desc">
 <span class="item mbold">Benutzerdefinierte release tag URL</span><!-- menuitem -->
 <span class="desc-info">Definiert eine URL wie diese:
-<code>https://github.com/s9y/Serendipity/releases/tag/</code>.
+<code>https://github.com/ophian/styx/releases/tag/</code>.
 Der Dateiname muss <code>$version</code> heißen.
 Ersetzen Sie <code>$version</code> mit dem Versionnummern String
 aus ihrer benutzerdefinierten RELEASE-Datei, zB. <code>2.1.5</code>.
