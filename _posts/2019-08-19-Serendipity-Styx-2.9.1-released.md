@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Serendipity Styx 2.9.1 release
-last_modified_at: 2019-08-20T18:18:00+00:00
+last_modified_at: 2019-08-20T18:18:03+00:00
 ---
 
 Styx 2019/4 - The Serendipity Styx 2.9 branch 2.9.1 release.
@@ -9,6 +9,7 @@ Styx 2019/4 - The Serendipity Styx 2.9 branch 2.9.1 release.
 Since heavy development of upcoming Serendipity Styx 3.0 is making huge progress, several issues were found in the 2.9 branch too. This is a point BugFix release.
 
 ## Branching your Autoupdate for 2.9.x
+
 
 Since having already noted that upcoming **Styx Next** is a major upgrade (see [2.9.1 post](https://ophian.github.io/2019/06/01/Serendipity-Styx-2.9.0-released/)), which will require a modern PHP 7 version, we have to give some **Important Notes** about branches and future upgrades.
 
