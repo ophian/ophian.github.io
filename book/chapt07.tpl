@@ -1556,7 +1556,7 @@ unterschiedlich priorisiert und auch Usergebunden sind, insbesondere, wenn noch 
 zusätzliche Spracheinstellung/-anforderung zb. über das Seitenleisten Plugin im Frontend dazu
 kommt. Dazu kommen noch Plugin eigene Einstellungsoptionen, die die "Haltbarkeit" der getroffenen
 Sprache für den Besucher betreffen. Auch die Serendipity Konfigurationsoption: "<em>Sprache des
-Browsers eines Besuchers verwenden</em>" hat entsprechenmde Auswirkungen. Sind Sie <b>eingeloggt</b>,
+Browsers eines Besuchers verwenden</em>" hat entsprechende Auswirkungen. Sind Sie <b>eingeloggt</b>,
 kann eine Spracheinstellung über das Frontend Auswirkungen auf ihr Backend haben, sowie umgekehrt.
 Es gelten dann verschiedene Level der Sprachpriorisierungen. Hier kann es sehr schnell zu grundlegenden
 <b>Missverständnissen</b> kommen, besonders dann, wenn Sie selbst versuchen ein Frontendverhalten zu
