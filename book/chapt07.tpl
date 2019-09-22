@@ -1551,6 +1551,20 @@ dafür die Variable
 </span>
 <code class="smarty">{$entry.multilingual_footer}</code>.</p>
 
+<p>Sie können sich also vorstellen, dass unterschiedliche Einstellungen sehr individuell,
+unterschiedlich priorisiert und auch Usergebunden sind, insbesondere, wenn noch eine dritte,
+zusätzliche Spracheinstellung/-anforderung zb. über das Seitenleisten Plugin im Frontend dazu
+kommt. Dazu kommen noch Plugin eigene Einstellungsoptionen, die die "Haltbarkeit" der getroffenen
+Sprache für den Besucher betreffen. Auch die Serendipity Konfigurationsoption: "<em>Sprache des
+Browsers eines Besuchers verwenden</em>" hat entsprechenmde Auswirkungen. Sind Sie <b>eingeloggt</b>,
+kann eine Spracheinstellung über das Frontend Auswirkungen auf ihr Backend haben, sowie umgekehrt.
+Es gelten dann verschiedene Level der Sprachpriorisierungen. Hier kann es sehr schnell zu grundlegenden
+<b>Missverständnissen</b> kommen, besonders dann, wenn Sie selbst versuchen ein Frontendverhalten zu
+überprüfen, das dann eventuell nicht ihren Erwartungen entspricht. Es ist daher dringend zu raten,
+niemals selbst mit demselben Browser solche Überprüfungen durchzuführen, sondern dafür immer <b>zwei
+eigenständige Browser</b> zu verwenden!<br>
+Lesen Sie die Dokumentation des multilingual Plugins sorgfältig durch.</p>
+
 </section><!-- section.sub end -->
 
 <section id="serendipity-event-staticpage" class="sub">
