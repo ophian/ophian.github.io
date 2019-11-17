@@ -438,6 +438,9 @@ Provider bieten zudem eigene Oberflächen zur Erstellung einer Datenbank an.</p>
 man kann also problemlos eine bereits bestehende Datenbank für die
 Installation benutzen.</p>
 
+<p>Im Falle von Styx und MariaDB/MySQL geben Sie der Datenbank am besten gleich
+die korrekte <code>utf8mb4_unicode_ci</code> Kollation mit auf den Weg.</p>
+
 <p>
 <span class="tag-box invisible">
     <span class="inline-tag">Datenbank!Rechte</span>
@@ -1361,7 +1364,7 @@ Locales, die Serendipity anwendet, finden Sie im Übrigen in der Datei
 
     <li>Eine leere Datenbank erstellen, falls noch nicht vorhanden. Sicherstellen, dass der Datenbankbenutzer die Rechte 
         <code>CREATE</code>, <code>INSERT</code>, <code>UPDATE</code>, <code>DELETE</code>, <code>ALTER</code>, <code>INDEX</code>, 
-        <code>SELECT</code> besitzt.</li>
+        <code>SELECT</code> besitzt. Im Falle von Styx und MariaDB/MySQL geben Sie der Datenbank am besten gleich eine <code>utf8mb4_unicode_ci</code> Kollation mit auf den Weg.</li>
 
     <li>Via HTTP die Installationsroutine aufrufen: <code>http://www.example.com/serendipity/</code></li>
 
