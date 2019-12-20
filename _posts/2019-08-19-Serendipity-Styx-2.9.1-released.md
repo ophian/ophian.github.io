@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Serendipity Styx 2.9.1 release
-last_modified_at: 2019-08-25T08:52:00+00:00
+last_modified_at: 2019-12-20T18:22:00+00:00
 ---
 
 Styx 2019/4 - The Serendipity Styx 2.9 branch 2.9.1 release.
@@ -18,11 +18,11 @@ Having laid in bed with Yoko, this is the Woodstock success Revision. No Chaos -
 <p>Since having already noted that upcoming <strong>Styx Next</strong> is a major upgrade (see <a href="https://ophian.github.io/2019/06/01/Serendipity-Styx-2.9.0-released/">2.9.0 post</a>), which will require a modern PHP 7 version, we have to give some <strong>Important Notes</strong> about branches and future upgrades.</p>
 
 <p>The current <em>alpha</em> state of the masters branch NEXT Development already requires <strong>PHP 7.1.3</strong> as the absolute Minimum.
-This may even raise up to a required PHP 7.3.x version before (beta) release(s) in the next few months, in Autumn 2019.
+This may even raise up to a required PHP 7.3.x version before (beta) release(s) in the next few months, in Winter 2019/20.
 If you still are on Debian 9 last stable <strong>Stretch</strong> for example, you actually have a PHP 7.0.x version running that will not change until a Debian 10 Buster upgrade is performed.
 Even though it is possible to upgrade such a system to a newer PHP version, even provided by its Maintainer, some of you <em>have</em> or <em>want to</em> stick to PHP 5.6 or PHP 7.0 a little longer.</p>
 
-<p>To not get in conflict with the upcoming major Autumn 3.0 upgrade(s), you <strong>have to</strong> set up a <strong>new</strong> Update-RELEASE-file <strong>URL</strong> in your Backend Configuration Panel.
+<p>To not get in conflict with the upcoming major Winter 3.0 upgrade(s), you <strong>have to</strong> set up a <strong>new</strong> Update-RELEASE-file <strong>URL</strong> in your Backend Configuration Panel.
 Open <strong>Configuration</strong> - <strong>General Settings</strong> - and see the option <strong>Update RELEASE-file URL</strong>. There you add this new URL, pointing to the branch RELEASE file and submit the form:
 <em>https://raw.githubusercontent.com/ophian/styx/styx2.9/docs/RELEASE</em></p>
 
