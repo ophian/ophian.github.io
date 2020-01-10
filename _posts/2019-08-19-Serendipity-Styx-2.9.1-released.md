@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Serendipity Styx 2.9.1 release
-last_modified_at: 2020-01-10T12:30:00+00:00
+last_modified_at: 2020-01-10T12:35:35+00:00
 ---
 
 Styx 2019/4 - The Serendipity Styx 2.9 branch 2.9.1 release.
@@ -22,7 +22,7 @@ This may even raise up to a required PHP 7.3.x version before (beta) release(s) 
 If you still are on Debian 9 last stable <strong>Stretch</strong> for example, you actually have a PHP 7.0.x version running that will not change until a Debian 10 Buster upgrade is performed.
 Even though it is possible to upgrade such a system to a newer PHP version, even provided by its Maintainer, some of you <em>have</em> or <em>want to</em> stick to PHP 5.6 or PHP 7.0 a little longer.</p>
 
-<p>Serendity Styx 3.0 does not only require an up-to-date PHP version, it also requires PHP/GD/ImageMagick with --webp support and an openSSL version which is at least a Debian Buster version like 1.1.1d for strongest login encryption! **DO NOT** use upcoming 3.0 on a system **less** than Debian Buster (10)!</p>
+<p><strong>Serendity Styx 3.0</strong> does not only require an up-to-date PHP version, it also requires PHP/GD/ImageMagick with --webp support and an openSSL version which is at least a Debian Buster version like 1.1.1d for strongest login encryption! <strong>DO NOT</strong> use upcoming 3.0 on a system <strong>less</strong> than Debian Buster (10)!</p>
 
 <p>To not get in conflict with the upcoming major Winter 3.0 upgrade(s), you <strong>have to</strong> set up a <strong>new</strong> Update-RELEASE-file <strong>URL</strong> in your Backend Configuration Panel.
 Open <strong>Configuration</strong> - <strong>General Settings</strong> - and see the option <strong>Update RELEASE-file URL</strong>. There you add this new URL, pointing to the branch RELEASE file and submit the form:
