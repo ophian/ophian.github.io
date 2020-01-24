@@ -104,6 +104,7 @@
 <h2 id="example-changing-the-default-character-set-to-utf-8">Example: Changing the default character set to UTF-8</h2>
 <p>To change the default character set from latin1 to UTF-8, the following settings should be specified in the my.cnf configuration file.</p>
 <p>Best use MariaDB 10.x ++ or MySQL with a minimum version of at least 5.5.3, to have support for the following examples UTF8MB4 character set with full unicode support.</p>
+<p>Added January 2020:<br>Better nowadays use utf8mb4_unicode_520_ci if available, since this relies to the newer Unicode Collation Algorithm (UCA).</p>
 <pre class="fixed">[client]
 ...
 default-character-set=utf8mb4
@@ -114,7 +115,7 @@ default-character-set=utf8mb4
 ...
 [mysqld]
 ...
-collation-server = utf8mb4_unicode_ci
+collation-server = utf8mb4_unicode_520_ci
 init-connect='SET NAMES utf8mb4'
 character-set-server = utf8mb4
 ...
