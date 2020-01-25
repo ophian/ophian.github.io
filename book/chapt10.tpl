@@ -2780,7 +2780,8 @@ aber im Einzelnen mehr Platz beanspruchen. Die in den einzelnen Tabellen unten a
 um dem zu genügen.</p>
 
 <p><span class="mbold">Kurzum</span>, auf neueren Systemen werden die Serendipity
-Tabellen der Datenbank unter MySQL gleich im benötigten Format für <span class="mbold">utf8mb4_general_ci</span> angelegt.
+Tabellen der Datenbank unter MySQL gleich im benötigten Format für <span class="mbold">utf8mb4_general_ci</span> bzw.
+der ausgewählten Zeichensatz/Kollation der MySQL-Verbindung wie <span class="mbold">utf8mb4_unicode_520_ci</span> angelegt.
 Die <span class="mbold">Migration</span> vorhandener Datenbanken bei Serendipity Upgrades ist dagegen nicht trivial,
 so dass die eigentliche Umstellung nur manuell über die Wartungsseite angestossen werden kann.
 Ein <span class="mbold">Backup</span> der Datenbank ist natürlich im Vorwege anzuraten; aber der Autor hat bereits einige
