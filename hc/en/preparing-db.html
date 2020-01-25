@@ -103,6 +103,7 @@
 <p><strong>Serendipity</strong> Styx recommends and <strong>favors</strong> the <strong>UTF-8</strong> mode, if nothing special is against that!</p>
 <h2 id="example-changing-the-default-character-set-to-utf-8">Example: Changing the default character set to UTF-8</h2>
 <p>To change the default character set from latin1 to UTF-8, the following settings should be specified in the my.cnf configuration file.</p>
+<p>If only having access to a tool like PhpMyAdmin, click the home/startpage button on the top left side and see the "General Settings" Box to select a Charset/Collation of MySQL-Connection. Choose from utf8mb4 like announced next.</p>
 <p>Best use MariaDB 10.x ++ or MySQL with a minimum version of at least 5.5.3, to have support for the following examples UTF8MB4 character set with full unicode support.</p>
 <p><u>Added January 2020:</u><br>Nowadays better use <em>utf8mb4_unicode_520_ci</em> if available, since this relies to the newer Unicode Collation Algorithm (UCA).</p>
 <pre class="fixed">[client]
