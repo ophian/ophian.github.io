@@ -2776,7 +2776,7 @@ Mit Verwendung von Emojis ist jedoch ein Bereich in Unicode dazugekommen, der me
 per "Buchstabe" benötigt. Damit wurde es nötig die sogenanntes Indizes (<em>im RAM enthaltene
 Caches</em>) anzupassen, da sie nur eine begrenzten Anzahl von Chars ermöglichen, die neuen Zeichen
 aber im Einzelnen mehr Platz beanspruchen. Die in den einzelnen Tabellen unten aufgeführten
-<em>varchar(255)</em> Längen von texbasierten Feldern mussten entsprechend verkürzt werden,
+<em>varchar(255)</em> Längen von textbasierten Feldern mussten entsprechend verkürzt werden,
 um dem zu genügen.</p>
 
 <p><span class="mbold">Kurzum</span>, auf neueren Systemen werden die Serendipity
