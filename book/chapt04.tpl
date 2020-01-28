@@ -469,7 +469,7 @@ da Ihr Browser das Feld <span class="mbold">Altes Passwort</span> nicht eingetra
     <span class="inline-tag">Eigene Einstellungen!WYSIWYG-Buttonleiste</span>
     <span class="inline-tag">Toolbar</span>
 </span><!-- tagbox -->
-<span class="item mbold">WYSIWYG-Buttonleiste</span><!-- menuitem -->
+<span class="item mbold">WYSIWYG-Buttonleiste [ Deprecated ]</span><!-- menuitem -->
 <span class="desc-info">
     <span class="box">
         Mit Serendipity 2.0+ können Sie hier die vorkonfigurierten Toolbar-Buttonleisten auswählen.
@@ -480,6 +480,23 @@ da Ihr Browser das Feld <span class="mbold">Altes Passwort</span> nicht eingetra
         im eigenen Theme erstellt hatte und nun wieder zu den Originalen Einstellungen zurück will.
         Lesen Sie dazu über die individuelle Konfiguration (mittels einer individuellen JavaScript-Konfigurationsdatei
         in templates/XXX/admin/ckeditor_custom_config.js) in CKEditor (siehe Seite <span class="pageref"><a href="#wysiwyg">wysiwyg</a></span> ).
+    </span>
+
+     <span class="box">
+       <span class="item mbold">Serendipity Styx 3.0</span> wird sich von diesem Konzept aus den
+       verschiedensten Gründen komplett verabschieden. Es wird nur noch ein vorkompiliertes und
+       auf dem Basic Editor basierendes Binary für einen Rich Text (WYSIWYG) Editor geben, der im
+       <code>templates</code> Ordner für alle Zugriffe angesiedelt ist. Es ist nicht vorgesehen,
+       und auch nicht ratsam, dieses einfachen Editor mit eigenen Uservarianten zu überschreiben
+       und, sollte dies doch geschehen, muss im Falle von Core Updates selber Sorge dafür getragen
+       werden. Dafür ist es jetzt auch möglich HTML Kommentare mit einem Editor im Kommentarfenster
+       zu erlauben. Im Ganzen stellte sich aber das Vorgehen des 2.x Zweiges als zu kompliziert und
+       an- und schwerfällig heraus, da für das Serendipity System wesentliche Änderungen, Vorhaltungen
+       und Vorkehrungen getroffen werden mussten, zB. Gegenmaßnahmen von Skript-Injektions, die kein
+       normaler User jemals durchblicken konnte.<br>
+       Der neue Rich Text Editor wird also nur ein einfaches Paket notwendiger Möglichkeiten mitbringen.
+       Sollten Sie im Alltag oder durch besondere Plugin-Kombinationen mehr benötigen, müssen Sie auf
+       die empfohlene Event Plugin Variante <span class="item mbold">CKEditor Plus</span> ausweichen.
     </span>
 </span>
 </p>
@@ -966,8 +983,8 @@ Artikel veröffentlichen.</span>
             Beschreibung des Icons anzeigen.
         </span>
         <span class="box">
-            Dabei wird ab Serendipity 2.0+ der im Kern bereits implementierte <em>CKEditor</em> verwendet
-            und die benötigte Toolbar kann per Auswahlbox in den <em>Eigenen Einstellungen</em> festgelegt
+            <span class="mbold">[ Deprecated ] </span>Dabei wird ab Serendipity 2.0+ der im Kern bereits implementierte <em>CKEditor</em> verwendet
+            und die benötigte Toolbar kann in allen 2.x Versionen per Auswahlbox in den <em>Eigenen Einstellungen</em> festgelegt
             werden. Die Default Buttons des Editors sind in in schwarzer Schrift/Icon auf grauem Grund gehalten,
             die per Serendipity Plugin dazu installierten Plugins haben ein farbiges Icon. Dazu gehört per Default auch das Mediathek-Icon.
             Weitere Hinweise zur individuellen Anpassung befinden sich in den Dateien <code>htmlarea/ckeditor_s9y_config.js</code> und <code>htmlarea/ckeditor_s9y_plugin.js</code>.
@@ -1148,12 +1165,12 @@ Artikel veröffentlichen.</span>
         <span class="tag-box invisible">
             <span class="inline-tag">Konfiguration!Individuelle WYSIWYG-Editor Konfiguration</span>
         </span>
-        <span class="item mbold">Individuelle WYSIWYG-Editor Komfiguration</span><!-- menuitem -->
+        <span class="item mbold">Individuelle WYSIWYG-Editor Komfiguration [ Deprecated ]</span><!-- menuitem -->
         <span class="box first">
-            In der Datei <code>/htmlarea/ckeditor_s9y_config.js</code> können Sie nachlesen,
+            <span class="mbold">[ Veraltet mit Styx 3.0 ] </span>In der Datei <code>/htmlarea/ckeditor_s9y_config.js</code> können Sie nachlesen,
             wie Sie sich einen eigenen individuellen CKEditor konfigurieren,
             und diesen updatesicher in ihrem Template sichern können.
-            Diese spezialisierte Expertenoption ist nicht generell zu empfehlen, da bereits umfangreiche Gestaltungsmöglich voreinstellbar sind.
+            Diese spezialisierte Expertenoption ist nicht generell zu empfehlen, da bereits umfangreiche Gestaltungsmöglichkeiten voreinstellbar sind.
         </span>
 
     </span><!-- box mda-box Konfiguration!Individuelle WYSIWYG-Editor Konfiguration end -->
