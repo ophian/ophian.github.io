@@ -413,7 +413,7 @@ da Ihr Browser das Feld <span class="mbold">Altes Passwort</span> nicht eingetra
     <span class="inline-tag">WYSIWYG</span>
     <span class="inline-tag">Eigene Einstellungen!WYSIWYG</span>
 </span><!-- tagbox -->
-<span class="item mbold">Grafischen WYSIWYG-Editor verwenden</span><!-- menuitem -->
+<span class="item mbold">Graphischen WYSIWYG-Editor verwenden</span><!-- menuitem -->
 <span class="desc-info">
     <span class="box">
         Serendipity liefert einen WYSIWYG-Editor (siehe Abschnitt <span class="reference">WYSIWYG</span>
@@ -424,8 +424,11 @@ da Ihr Browser das Feld <span class="mbold">Altes Passwort</span> nicht eingetra
     </span>
 
     <span class="box">
-        Wenn Sie dies wünschen, aktivieren Sie <span class="mbold">Grafischen
-        WYSIWYG-Editor verwenden</span>.
+        Wenn Sie dies wünschen, aktivieren Sie <span class="mbold">Graphischen
+        WYSIWYG-Editor verwenden</span>. Mit Serendipity Styx 3.0 wird im Kern nur noch die sparsame basic Variante ausgeliefert.
+        Sollten Sie mehr Komfort benötigen (zB. Einrückungen im der Quelltextansicht und vieles Weitere) sollten sie zusätzlich das
+        empfehlenswerte CKEditor Plus event Plugin installieren. Damit werden auch Updates des Rich-Text-Editors zeitnah zur Verfügung
+        gestellt.
     </span>
 
     <span class="box">
@@ -454,7 +457,7 @@ da Ihr Browser das Feld <span class="mbold">Altes Passwort</span> nicht eingetra
         CKEditor Plus[*]
         <span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://ckeditor.com/" target="_blank">http://ckeditor.com/</a></span><!-- footnote -->,
         zur Einbindung an, die in ihrem Funktionsumfang durchaus variieren. Auch diese externen
-        Editoren werden nur dann verwendet, wenn die Option <span class="mbold">Grafischen
+        Editoren werden nur dann verwendet, wenn die Option <span class="mbold">Graphischen
         WYSIWYG-Editor verwenden</span> aktiviert ist.
         Aufgrund der weiteren Entwicklung von graphischen Editoren in den folgenden Jahren bis Heute, kann aber nur das
         <code>CKEditor Plus</code>-Plugin und vielleicht noch das <code>TinyMCE</code>-Plugin empfohlen werden.
