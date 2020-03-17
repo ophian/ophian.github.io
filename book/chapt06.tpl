@@ -8936,7 +8936,7 @@ Sonderzeichen <code>&amp;#8226;</code> bzw. <code>&amp;bull;</code> eingebunden.
 
 <p class="desc">
 <span class="item mbold">Doppelte Anführungszeichen-Button aktivieren</span><!-- menuitem -->
-<span class="desc-info">Ein Wort kann in typografischen Anführungszeichen eingebunden werden,
+<span class="desc-info">Ein Wort kann in typographischen Anführungszeichen eingebunden werden,
 wenn Sie diesen Button aktivieren. Welche Anführungszeichen Sie verwenden
 möchten, können Sie mit der darunterstehenden Option festlegen. Abhängig
 von der Option <span class="mbold">Use Named Entities</span> werden später auch für diese

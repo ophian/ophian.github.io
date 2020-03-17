@@ -56,7 +56,7 @@ Seitenleiste ein, in der folgende Elemente dargestellt werden:</p>
 <span class="desc-info">Frühere Serendipity Versionen installierten
 hier zuallererst den Kalender. Inzwischen ist die Meinung gewachsen auf
 diese Art der Navigation und Darstellung per default verzichten zu können.
-Der Kalender stellt den aktuellen Monat in einer grafischen Übersicht dar.
+Der Kalender stellt den aktuellen Monat in einer graphischen Übersicht dar.
 Der aktuelle Tag wird hervorgehoben, und jeder Tag, an dem ein Artikel
 verfasst wurde, ist ebenfalls hervorgehoben. Bei einem Klick auf einen Tag
 oder auf die Navigationspfeile in der Kopfzeile des Kalenders kann man

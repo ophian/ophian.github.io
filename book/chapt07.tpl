@@ -2396,7 +2396,7 @@ dargestellt.</span>
 
 <p class="desc">
 <span class="item mbold">Grafiken für Baumstruktur aktivieren</span><!-- menuitem -->
-<span class="desc-info">Bei aktivierter <span class="mbold">Baumstruktur</span> können Sie die grafischen Symbole zu
+<span class="desc-info">Bei aktivierter <span class="mbold">Baumstruktur</span> können Sie die graphischen Symbole zu
 jeder statischen Seite optional deaktivieren.</span>
 </p>
 
@@ -2405,7 +2405,7 @@ jeder statischen Seite optional deaktivieren.</span>
     <span class="inline-tag">Fehler!statische Seiten ohne Grafiken</span>
 </span><!-- tagbox -->
 <span class="item mbold">Verzeichnis für Bilder dieses Plugins</span><!-- menuitem -->
-<span class="desc-info">Die grafischen Symbole des JavaScripts zur Darstellung einer
+<span class="desc-info">Die graphischen Symbole des JavaScripts zur Darstellung einer
 <span class="mbold">Baumstruktur</span> bezieht das Plugin über eine URL Ihres Blogs. Sie
 müssen Siese Option nur verändern, wenn Sie Ihr Plugin-Unterverzeichnis
 umbenannt oder unterschiedlich verschachtelt haben und Ihnen daher sonst

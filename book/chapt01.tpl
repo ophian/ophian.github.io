@@ -2377,7 +2377,7 @@ Protokolle von Belang:</p>
 
     <li>
         <span class="box">
-            Im Gegensatz zu grafischen Betriebssystemen wie Windows kann Unix
+            Im Gegensatz zu graphischen Betriebssystemen wie Windows kann Unix
             komplett mit textbasierten Befehlen gesteuert werden, was sich
             <span class="tag-box invisible">
                 <span class="inline-tag">SSH</span>
