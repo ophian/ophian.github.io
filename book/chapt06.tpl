@@ -2803,7 +2803,7 @@ wurden mit Serendipity 2.0+ in den Serendipity-Kern übernommen und sind in den
 als einstellbare Option verfügbar. Das Plugin wurde damit aus den Repository entfernt.</p>
 
 <p>Über die mitgelieferten Plugins hinaus finden Sie auch eine große Auswahl
-an Plugins über <code>http://spartacus.s9y.org/</code>. Eine Auswahl an häufig
+an Plugins über <code>https://ophian.github.io/plugins/</code>. Eine Auswahl an häufig
 genutzten Ereignis-Plugins finden Sie auf den folgenden Seiten.</p>
 
 <section id="serendipity_event_adminnotes" class="sub">

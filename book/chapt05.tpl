@@ -1650,7 +1650,7 @@ RSS-Feeds beeinflussen.</span>
 <h3 class="section" id="auswahl-externer-plugins">Auswahl externer Plugins</h3>
 
 <p>Über die mitgelieferten Plugins hinaus finden Sie auch eine große Auswahl
-an Plugins über <code>http://spartacus.s9y.org/</code>. Eine Auswahl an häufig
+an Plugins über <code>https://ophian.github.io/plugins/</code>. Eine Auswahl an häufig
 genutzten Seitenleisten-Plugins finden Sie auf den folgenden Seiten.</p>
 
 <p>&nbsp;</p>

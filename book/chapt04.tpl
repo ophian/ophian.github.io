@@ -4072,7 +4072,7 @@ werden können.
 <p>Serendipity wird mit einer kleinen Auswahl an verfübaren Plugins
 ausgeliefert, die nicht alle von Anfang an aktiviert sind. Sollten Sie
 weitere Plugins benötigen, können Sie diese entweder vom Server
-<code>http://spartacus.s9y.org/</code> manuell herunterladen, automatisch
+<code>https://ophian.github.io/plugins/</code> manuell herunterladen, automatisch
 mittels des <code>Spartacus</code>-Plugins installieren oder ein
 selbst entwickeltes Plugin auswählen. Siehe <span class="mbold">Serendipity Styx</span> und sein
 eigenes darauf abgestimmtes Plugin-Repository. Wenn Sie aus dem Internet ein
@@ -4168,7 +4168,7 @@ führt, dass keine PHP-Anwendung <em>nach draußen</em> zugreifen kann.
 Gerade bei großen Providern ist aus Sicherheitsgründen ein derartiger
 Zugriff nicht gestattet. In so einem Fall können Sie Spartacus also
 leider nicht einsetzen und müssen die Plugins manuell vom Server
-<code>http://spartacus.s9y.org/</code> beziehen. Seit langem
+<code>https://ophian.github.io/plugins/</code> bzw der Weiterleitung auf GitHub beziehen. Seit langem
 besteht auch behelfsweise die Möglichkeit, Dateien direkt über Ihren FTP-Zugang
 auf den Webserver hochzuladen - dadurch werden die
 PHP-Beschränkungen umgangen. Die Zugangsdaten müssen Sie in der Konfiguration
@@ -4314,7 +4314,7 @@ gelöscht. Auf Wunsch könnten Sie die Dateien natürlich auch mit einem
 FTP-Programm löschen.</p>
 
 <p>Alle Inhalte des Spartacus-Systems können Sie auch ohne Serendipity unter
-<code>http://spartacus.s9y.org/</code> ansehen und dort Plugins als ZIP-Datei
+<code>https://ophian.github.io/plugins/</code> ansehen und dort bzw auf GitHub Plugins als ZIP-Datei
 manuell herunterladen.</p>
 
 <p>Die Plugins von Spartacus werden, ebenso wie Serendipity selbst, öffentlich

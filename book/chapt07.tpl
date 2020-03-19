@@ -38,8 +38,8 @@ gezielt installieren.</p>
 <h3 class="section" id="auswahl-externer-plugins-2">Auswahl externer Plugins</h3>
 
 <p>Da zur Zeit keine mitgelieferten gekoppelten Plugins vorhanden sind, finden Sie eine
-große Zahl an Plugins über <code>http://spartacus.s9y.org/</code>, bzw. über den bereits
-fertig installierten Spartacus Repository Synchronizr über die Backend Plugin-Liste. Sehen Sie auch
+große Zahl an Plugins über <code>https://ophian.github.io/plugins/</code>, bzw. über den bereits
+fertig installierten Spartacus Repository Synchronizer über die Backend Plugin-Liste. Sehen Sie auch
 die wichtigen Anmerkungen zu Serendipity Styx und sein darauf abgestimmtes <code>additional_plugins</code>
 Repository. Eine Auswahl an wichtigen und häufig gekoppelten Ereignis-Plugins finden Sie auf
 den folgenden Seiten.</p>
