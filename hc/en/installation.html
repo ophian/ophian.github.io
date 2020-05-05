@@ -140,10 +140,10 @@
 
 <h4>Normal upgrade migration by named package (FTP or WGET like tools)</h4>
 <p>Did I already say: <strong><em>Back it up</em></strong>? No? Then fully backup your blog and your database!</p>
-<p>Get Styx 2.9.5 (serendipity-2.9.5.zip) and deflate it. It will unzip to a "<code>serendipity/</code>" directory (<em>Note, that GitHub source zips are DEV versions and have another parent directory</em>).</p>
+<p>Get Styx 2.9.5 (‘serendipity-2.9.5.zip’) and deflate it. It will unzip to a "<code>serendipity/</code>" directory (<em>Note, that GitHub source zips are DEV versions and have another parent directory</em>).</p>
 <ul>
     <li><strong><u>PREPARATIONS:</u></strong></li>
-    <li><strong>First</strong> of all, <strong>hide</strong> your normal blog site from the public by using a simple .htaccess restriction! (<a href="https://ophian.github.io/hc/en/faq/#docs-how-do-i-upgrade-serendipity" target="_new">see here</a>.)</li>
+    <li><strong>First</strong> of all, <strong>hide</strong> your normal blog site from the public by using a simple .htaccess restriction! (<a href="https://ophian.github.io/hc/en/faq/#docs-locking-the-blog-during-the-upgrade" target="_new">see about locking here</a>.)</li>
     <li><strong>Second</strong>, log-in to your old blog and remove all Plugins that you don't <u>essentially</u> need! You most probably have very old versions lying around, which are prone to error (in example, the "<em>browser compatibility event plugin</em>").<br>If you are not able to access your old blog because of too new PHP versions and regarding fatal errors, you have to do this step by hand.</li>
     <li><strong>Third</strong>, update the Plugins of essential need by deleting their directories and replacing them with a fresh version from <a href="https://github.com/ophian/additional_plugins" target="_new">Styx additional_plugins</a>. Do not just drop it over the old!</li>
     <li><strong>Fourth</strong>, check into templates and make sure you have a default theme installed. There is no <em>best of</em> use case, since that depends on the version you have. Beside of this "<em>Bulletproof</em>", or better "<em>default</em>", or the newer "<em>2k11</em>" is recommended at this point. Why is this necessary? Themes have changed a lot. Some even may carry old smarty API calls (<em>same as in plugins</em>), which then would fully halt your system on the upgrade. We want to avoid this as much we can.</li>
