@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Serendipity Styx Edition - Help Center [en] | Media migration tasks | ophian.github.io</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Serendipity Styx is a PHP-powered weblog engine giving users an easy way to maintain a blog and developers a framework with the power for professional applications.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:title" content="Serendipity Styx Edition - Help Center [en] | Media migration tasks | Styx is what Serendipity should be | ophian.github.io">
+    <meta property="og:site_name" content="Serendipity Styx Blog System">
+    <meta property="og:description" content="Serendipity Styx is a PHP-powered weblog engine giving users an easy way to maintain a blog and developers a framework with the power for professional applications.">
+    <meta property="og:image" content="https://ophian.github.io/i/styx-opengraph.jpg">
+    <meta property="og:url" content="https://ophian.github.io/hc/en/media-migration-tasks.html">
+    <link rel="canonical" href="https://ophian.github.io/hc/en/media-migration-tasks.html">
+    <link rel="apple-touch-icon" href="/i/apple-touch-icon.png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito|Nunito+Sans">
+    <link rel="stylesheet" href="/css/libs.min.css">
+    <link rel="stylesheet" href="/css/styx.min.css">
+</head>
+<body>
+<ul class="skip-link__list">
+    <li class="skip-link skip-link--main-nav">
+        <a href="#main-navigation" tabindex="1">Main navigation</a>
+    </li>
+    <li class="skip-link skip-link--main-repo"><a href="#main-repository" tabindex="1">Styx Repository</a></li>
+    <li class="skip-link skip-link--main-content"><a href="#main-content" tabindex="1">Styx Main content</a></li>
+</ul>
+<div class="menu menu--no-hero menu--tiny ">
+    <div class="menu__page-title">
+        <h1><a href="/hc/en">Serendipity Styx Edition - Documentation [en]</a></h1>
+    </div>
+    <div class="progress-bar" aria-hidden="true"><span class="progress-bar__fill"></span></div>
+</div>
+<div class="site-nav site-nav--no-hero menu--tiny">
+    <button class="site-nav__toggler" id="site-nav__toggler" aria-label="Show website navigation" aria-expanded="false" tabindex="1">
+        <span class="bar" aria-hidden="true"></span>
+        <span class="bar" aria-hidden="true"></span>
+        <span class="bar" aria-hidden="true"></span>
+    </button>
+</div>
+<div class="site-nav__panel" aria-hidden="true" aria-controls="site-nav__toggler">
+    <nav id="main-navigation" role="navigation" aria-label="main navigation">
+        <ul class="site-nav__menu">
+            <li class="site-nav__menu-item site-nav__menu-item--current"><a href="/hc/en" tabindex="-1" title="Serendipity Styx Help Center [en]">Documentation [en]</a></li>
+        </ul>
+        <p class="site-nav__menu-category">Main</p>
+        <ul class="site-nav__menu" aria-label="links to styx site main pages">
+            <li class="site-nav__menu-item"><a href="/" tabindex="-1" title="Serendipity Styx Home">Styx Home</a></li>
+            <li class="site-nav__menu-item"><a href="/blog/" tabindex="-1" title="Serendipity Styx Blog">Styx Blog</a></li>
+            <li class="site-nav__menu-item"><a href="/blog/archives/" tabindex="-1" title="Serendipity Styx Blog Archives">Styx Blog Archives</a></li>
+            <li class="site-nav__menu-item"><a href="/atom.xml" tabindex="-1" title="Serendipity Styx Blog Feed">Styx Blog Feed</a></li>
+            <li class="site-nav__menu-item"><a href="/about/" tabindex="-1" title="About Serendipity Styx">About Styx</a></li>
+        </ul>
+        <p class="site-nav__menu-category">Spartacus</p>
+        <ul class="site-nav__menu" aria-label="links to styx spartacus pages">
+            <li class="site-nav__menu-item"><a href="/plugins/" tabindex="-1" title="Serendipity Styx Spartacus Plugins">Styx Spartacus Plugins</a></li>
+            <li class="site-nav__menu-item"><a href="/themes/" tabindex="-1" title="Serendipity Styx Spartacus Themes">Styx Spartacus Themes</a></li>
+        </ul>
+        <p class="site-nav__menu-category">Repository</p>
+        <ul class="site-nav__menu" aria-label="links to styx repository pages">
+            <li class="site-nav__menu-item"><a class="icon icon--small" href="https://github.com/ophian/styx" target="_blank" rel="noopener" tabindex="-1" title="GitHub Serendipity Styx Code"><svg class="icon__body"><use xlink:href="#github"></use></svg> Styx Code</a></li>
+            <li class="site-nav__menu-item"><a class="icon icon--small" href="https://github.com/ophian/styx/releases" target="_blank" rel="noopener" tabindex="-1" title="GitHub Serendipity Styx Releases"><svg class="icon__body"><use xlink:href="#github"></use></svg> Styx Downloads</a></li>
+            <li class="site-nav__menu-item"><a class="icon icon--small" href="https://github.com/ophian/additional_plugins" target="_blank" rel="noopener" tabindex="-1" title="GitHub Serendipity Styx Plugins"><svg class="icon__body"><use xlink:href="#github"></use></svg> Styx Plugins</a></li>
+            <li class="site-nav__menu-item"><a class="icon icon--small" href="https://github.com/ophian/styx/issues" target="_blank" rel="noopener" tabindex="-1" title="GitHub Serendipity Styx Issues"><svg class="icon__body"><use xlink:href="#github"></use></svg> Styx Issues</a></li>
+        </ul>
+        <p class="site-nav__menu-category">Book</p>
+        <ul class="site-nav__menu" aria-label="link book page">
+            <li class="site-nav__menu-item"><a href="/book/" tabindex="-1" title="Documentation Serendipity Styx Book [de] page">Styx Book [de]</a></li>
+        </ul>
+        <p class="site-nav__menu-category">Connect & Help</p>
+        <ul class="site-nav__menu" aria-label="links connect and help pages">
+            <li class="site-nav__menu-item"><a href="/hc/" tabindex="-1" title="Serendipity Styx Help Center">Help center</a></li>
+            <li class="site-nav__menu-item"><a href="/hc/de/" tabindex="-1" title="Serendipity Styx Hilfeseiten">Hilfeseiten</a></li>
+            <li class="site-nav__menu-item"><a href="/hc/en/faq/" tabindex="-1" title="Serendipity Styx FAQ">Styx FAQ</a></li>
+            <li class="site-nav__menu-item"><a href="/contact/" tabindex="-1" title="Serendipity Styx Contact">Contact Styx</a></li>
+        </ul>
+    </nav>
+</div>
+<div class="site-cover"></div>
+<main class="site-content site-content--col site-content--no-hero site-content--simple" id="main-content" role="main">
+    <section class="section site-col" data-reading-progress="true">
+        <div class="col">
+            <div class="col-menu__wrapper">
+                <nav class="col-menu" role="navigation" aria-label="Help Center [en] documents navigation">
+                    <ul>
+                        <li><a href="/hc/"><img src="/i/info_icon-64.png" width="32" height="32"> Styx Help Center</a></li>
+                        <li><a href="/hc/en/">Documentation [en]</a></li>
+                        <li><a href="/hc/de/">Dokumentation [de]</a></li>
+                        <li><a href="/hc/en/faq/">Styx Help Center FAQ</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="col-document__wrapper col-document__wrapper-documents">
+                <div class="col-document">
+                    <h1><span class="hc-home"><a href="index.html" title="Styx Help Center [en] - Documentation">⌘</a></span> Styx - Media migration tasks</h1>
+                    <ul class="document-nav">
+                        <li class="document-prev"><a href="admin-interface.html"><span class="icon arrow-left">←</span>&nbsp;The Backend</a></li>
+                        <li class="document-current">«&nbsp;Media migration tasks&nbsp;»</li>
+                        <li class="document-next"><a href="posting-blog-entry.html">Posting Entries&nbsp;<span class="icon arrow-right">→</span></a></li>
+                    </ul>
+                    <h2 id="docs-maintenance-media-tasks">Maintenance Media tasks</h2>
+                    <p>This is available when you have managed to upgrade to Serendipity <code>Styx 3.0</code>.</p>
+                    <p>This page is about old blog migrations and odd snares of migrational task helpers or automated synchronisations of your media library.</p>
+                    <p>The recommended <a href="installation.html#user-content-the-important-upgraders-howto---step-by-step-guide">migration upgrade</a> uses the usual way of updating a blog. In short: Drop the new onto your old and install/upgrade. If you are going another - lets call it <em>free style</em> - way and you install a new Styx, filling it up with old data, you might get new configuration defaults that interfere with your old data, in special when using migrational tasks like descibed here. Two of these examples are the media <strong>thumbSize</strong> and the <strong>thumbName</strong>. They have changed over the years.</p>
+                    <p><u>WARNING</u>: <strong><em>Think before you do!</em></strong> and <strong><em>Do not change them both on the same time!</em></strong> expecting your Media Library or blog entry items of years to persist without flaws and consistently.</p>
+                    <h3>Media library: Rebuild Thumbs</h3>
+
+                    <ol>
+                        <li><strong><em>Keep all existing thumbnails</em></strong><br>
+                        Synchronises your database with anything allowed to live in the real directory "/uploads", in case you put anything in (or have deleted it) by hand. Specifically, these are:
+                        <ul>
+                            <li>Regenerate all (<em>*.</em>) thumbnails (<em>which don't exist yet)</em>,</li>
+                            <li>Resize thumbnails (<em>which don't exist yet by config set size)</em> and</li>
+                            <li>Synchronizes your database images table with Image directories.</li>
+                        </ul>
+                        </li>
+                        <li><strong><em>Keep existing thumbnails only if they are the correct size</em></strong><br>
+                        Underlies the configurations set thumb size.</li>
+                        <li><strong><em>Regenerate all (*.serendipityThumb) thumbnails</em></strong><br>
+                        Renews all thumbnails that are named in the parentheses, so just an "all" instead of "certain" (as in the second) action.</li>
+                        <li><strong><em>Convert old existing thumbnail names</em></strong><br>
+                        This option is not active, as long the thumbSuffix has not changed and you do not have at least one new existing media item with the new suffixed thumb name.<br>It converts existing thumbnails, which are not named by the current thumbSuffix-scheme: <em>fooThumb</em> (as example), in the database, the filesystem and already used in entries to the same suffix naming scheme. This can take long! <strong>It does not matter keeping them as is</strong>, but to include them for the "Regenerate all" option, you <strong>need</strong> to do this first!</li>
+                        <li><strong><em>Add/Purge all Image WebP-Format variations</em></strong><br>
+                        Is for upgraders, to take advantage of more compressed webp images for old media. Adding or purge depends on last action.</li>
+                    </ol>
+                    <p>Clicking on the second to fifth options may reach your Server and PHP limit settings easily and stop the task without having finished! Search for “PHP execution time” to set this up (maybe to an amount of images or entries x 0.5 seconds) if you are allowed to and request the task of choice. If you run into restrictions, just reload the page to proceed the task as long as needed. Once having requested such task, you <strong>need</strong> to finish it somehow <strong>or</strong> be able to survey the mess and repair it all by hand yourself!</p>
+                </div>
+            </div>
+        </div>
+        <div class="blog-post__footer">
+            <div class="blog-post__footer-author site-col__footer-author-container">
+                <div class="blog-post__author-avatar-container">
+                    <div class="blog-post__author-avatar blog-post__author-avatar--ophian"></div>
+                </div>
+                <div class="blog-post__author-description">
+                    <h3>Ian Styx (ophian)<span>Maintainer</span></h3>
+                    <p class="follow"><a href="https://github.com/ophian/styx/issues" title="Styx issues" target="_blank">@ophian</a></p>
+                    <p>John Ian Styx has more than 20 years of experience in the IT market as a developer and from 2003 as a Serendipity lover.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+<div class="addthis_float_share_toolbox"></div>
+<footer class="footer footer--blog" role="contentinfo">
+    <div class="section-container footer-site-map">
+        <div class="row footer-menu__row">
+            <div class="col-xs-12 col-sm-4 footer-menu__container">
+                <div class="footer-menu__wrapper" role="navigation" aria-labelledby="menu-category-1-0">
+                    <h2 id="menu-category-1-0">Repository</h2>
+                    <ul class="footer-menu">
+                        <li><a class="icon icon--small" href="https://github.com/ophian/styx/releases" target="_blank" rel="noopener"><svg class="icon__body"><use xlink:href="#github"></use></svg> Serendipity Styx Downloads</a></li>
+                        <li><a class="icon icon--small" href="https://github.com/ophian/styx" target="_blank" rel="noopener"><svg class="icon__body"><use xlink:href="#github"></use></svg> Serendipity Styx Code</a></li>
+                        <li><a class="icon icon--small" href="https://github.com/ophian/additional_plugins" target="_blank" rel="noopener"><svg class="icon__body"><use xlink:href="#github"></use></svg> Serendipity Styx Plugins</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-4 footer-menu__container">
+                <div class="footer-menu__wrapper" role="navigation" aria-labelledby="menu-category-1-1">
+                    <h2 id="menu-category-1-1">Site & Documentation</h2>
+                    <ul class="footer-menu">
+                        <li class="icon-site"><a href="/">Serendipity Styx Home</a></li>
+                        <li class="icon-site"><a href="/blog/">Serendipity Styx Blog</a></li>
+                        <li class="icon-site"><a href="/book/">Serendipity Styx Book [de]</a></li>
+                        <li class="icon-site"><a href="/plugins/">Serendipity Styx Plugins</a></li>
+                        <li class="icon-site"><a href="/themes/">Serendipity Styx Themes</a></li>
+                        <li class="icon-site"><a href="/hc/en/faq/">Serendipity Styx FAQ</a></li>
+                        <li><a class="icon icon--small" href="https://github.com/ophian/styx/issues" target="_blank" rel="noopener"><svg class="icon__body"><use xlink:href="#github"></use></svg> Serendipity Styx Issues</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-4 footer-menu__container">
+                <div class="footer-menu__wrapper" role="navigation" aria-labelledby="menu-category-1-2">
+                    <h2 id="menu-category-1-2">Connect with Styx</h2>
+                    <ul class="footer-menu">
+                        <li class="icon-site"><a href="/contact/">Contact us</a></li>
+                        <li class="icon-site"><a href="/hc/">Help center</a></li>
+                        <li class="icon-site"><a href="/about/">About Styx</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-mobile" role="navigation" aria-hidden="true" data-mobile="true">
+        <div class="section-container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 footer-mobile__column">
+                    <h2>Repository</h2>
+                    <ul class="footer-mobile__menu">
+                        <li><a class="icon icon--small" href="https://github.com/ophian/styx/releases" target="_blank" rel="noopener"><svg class="icon__body"><use xlink:href="#github"></use></svg> Serendipity Styx Downloads</a></li>
+                        <li><a class="icon icon--small" href="https://github.com/ophian/styx" target="_blank" rel="noopener"><svg class="icon__body"><use xlink:href="#github"></use></svg> Serendipity Styx Code</a></li>
+                        <li><a class="icon icon--small" href="https://github.com/ophian/additional_plugins" target="_blank" rel="noopener"><svg class="icon__body"><use xlink:href="#github"></use></svg> Serendipity Styx Plugins</a></li>
+                        <li><a class="icon icon--small" href="https://github.com/ophian/styx/issues" target="_blank" rel="noopener"><svg class="icon__body"><use xlink:href="#github"></use></svg> Serendipity Styx Issues</a></li>
+                    </ul>
+                </div>
+                <div class="col-xs-12 col-sm-6 footer-mobile__column">
+                    <h2>Connect with Styx</h2>
+                    <ul class="footer-mobile__menu">
+                        <li class="icon-site"><a href="/contact/">Contact us</a></li>
+                        <li class="icon-site"><a href="/about/">About Styx</a></li>
+                        <li class="icon-site"><a href="/hc/">Help center</a></li>
+                        <li class="icon-site"><a href="/">Serendipity Styx Home</a></li>
+                        <li class="icon-site"><a href="/blog/">Serendipity Styx Blog</a></li>
+                        <li class="icon-site"><a href="/book/">Serendipity Styx Book [de]</a></li>
+                        <li class="icon-site"><a href="/plugins/">Serendipity Styx Plugins</a></li>
+                        <li class="icon-site"><a href="/themes/">Serendipity Styx Themes</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section-container footer-policy">
+        <div class="row">
+            <div class="col-xs-12 col-md-6">
+                <p class="footer-policy__rights">© 2016 - 2020 Serendipity Styx Edition.</p>
+            </div>
+            <div class="col-xs-12 col-md-6">
+                <ul class="footer-policy__menu">
+                    <li class="footer-policy__menu-item"><a href="/legal/">Legal</a></li>
+                    <li class="footer-policy__menu-item"><a href="/legal/privacy/">Privacy policy</a></li>
+                    <li class="footer-policy__menu-item"><a href="https://opensource.org/docs/definition.php" target="_blank">Open Source</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+	<svg id="github" viewBox="0 0 24 24">
+		<title id="simpleicons-github-icon">GitHub</title><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"></path>
+	</svg>
+</svg>
+
+<script src="/js/styx.min.js"></script>
+</body></html>
