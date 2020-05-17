@@ -134,6 +134,7 @@
       <li><a href="#docs-locking-the-blog-during-the-upgrade" id="styx-toc-docs-locking-the-blog-during-the-upgrade">Locking the blog during the upgrade</a>
       <li><a href="#docs-my-upgrade-failed-or-i-cannot-change-permissions-of-my-files" id="styx-toc-docs-my-upgrade-failed-or-i-cannot-change-permissions-of-my-files">My upgrade failed! (or: I cannot change permissions of my files)</a></li>
       <li><a href="#docs-how-can-i-move-an-existing-serendipity-installation-to-a-different-place-server-or-path" id="styx-toc-docs-how-can-i-move-an-existing-serendipity-installation-to-a-different-place-server-or-path">How can I move an existing Serendipity installation to a different place (server or path)?</a></li>
+      <li><a href="#docs-strange-entry-date-issues-after-moving-to-another-server-with-differing-offset" id="styx-toc-docs-strange-entry-date-issues-after-moving-to-another-server-with-differing-offset">Strange entry date issues after moving to another server with differing offset</a></li>
     </ul>
   </li>
   <li class="sub-toc"><a href="#docs-operating-serendipity" id="styx-toc-docs-operating-serendipity">Operating Serendipity</a>
@@ -436,6 +437,44 @@ chmod('/path/to/your/serendipity/<code>serendipity_config_local.inc.php</code>',
     <p>If you had a lot entries or HTML nuggets where you manually used the path of Serendipity, and this has now changed, you need to manually edit the articles to insert the new URL!</p>
 
     <p>Then you should be done.</p>
+
+    <span class="faq-up"><a class="navigator" href="#faq-top">top</a></span>
+</div>
+
+<h4 id="docs-strange-entry-date-issues-after-moving-to-another-server-with-differing-offset">Strange entry date issues after moving to another server with differing offset</h4>
+
+<div>
+    <p>Serendipity stores the creation and modification time of your entries as an UTC (GMT) <strong>or</strong> server set and configured timestamp, acquired by your Servers time zone.</p>
+
+    <p>In (most) <strong>fetch</strong> cases for the frontend or backend it automatically adds the Servers Offset hour, in example +2:00, you have set up in the global Serendipity configuration. Additionally check up the differing <em>time</em> information of the “Server time Offset” info.</p>
+
+    <p>Migrating from an old Server with a Servers Offset hour of +1 to a new Server with Servers Offset hour of +2 will cause trouble. Not overall, since at most times of the day it does not really make a real difference if an entry was created on noon or 1 hour later for example.</p>
+
+    <p>Where this issue produces wrong or strange results, which you do not want to have for your old blog entries and archives, is the <strong>switch between days</strong>. An Entry created at <em>2013-11-30 11:15 pm</em>, which is <em>23:15</em> in a 24h format, now is an entry of next day in December, with an early time at <em>00:15 am</em>. The archives entries counter of Nov 13 seems to count wrong, which it does not, and the missing entry of November is displayed in December.</p>
+
+    <p>Now: Backup your entries SQL table and run this query in your database <code>phpMyAdmin SQL</code> tab, after having checked out the latest timestamp value (<em>as an example here used 1572732840</em>) of the last entry created on your old blog.</p>
+
+    <pre><code class="language-sql">UPDATE styx_entries AS T1,
+          (SELECT id, timestamp
+             FROM styx_entries 
+            WHERE timestamp &lt;= 1572732840) AS T2 
+      SET T1.timestamp = (T2.timestamp - 3600)
+    WHERE T1.id = T2.id;</code></pre>
+
+    <p>This will convert all entries <strong>back</strong> on more hour, to now display correctly with your new Servers Offset hour of <strong>+2</strong>.</p>
+
+    <p>If you only want to do this for the <em>day-switch</em> entries, use this query.</p>
+
+    <pre><code class="language-sql">UPDATE styx_entries AS T1,
+          (SELECT id, timestamp
+             FROM styx_entries 
+            WHERE timestamp &lt;= 1572732840 AND DATE_FORMAT( FROM_UNIXTIME( timestamp ) , '%H' ) = '23') AS T2 
+      SET T1.timestamp = (T2.timestamp - 3600)
+    WHERE T1.id = T2.id;</code></pre>
+
+    <p>The only possible insufficiency of the latter is that some last hour of day re-set entries could now <em>somehow</em> interfere with entries of the unchanged hour before, either in chronological order or in terms of content.</p>
+
+    <p>Do what you like.</p>
 
     <span class="faq-up"><a class="navigator" href="#faq-top">top</a></span>
 </div>
