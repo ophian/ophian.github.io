@@ -450,7 +450,7 @@ chmod('/path/to/your/serendipity/<code>serendipity_config_local.inc.php</code>',
 
     <p>Migrating from an old Server with a Servers Offset hour of +1 to a new Server with Servers Offset hour of +2 will cause trouble. Not overall, since at most times of the day it does not really make a real difference if an entry was created on noon or 1 hour later for example.</p>
 
-    <p>Where this issue produces wrong or strange results, which you do not want to have for your old blog entries and archives, is the <strong>switch between days</strong>. An Entry created at <em>2013-11-30 11:15 pm</em>, which is <em>23:15</em> in a 24h format, now is an entry of next day in December, with an early time at <em>00:15 am</em>. The archives entries counter of Nov 13 seems to count wrong, which it does not, and the missing entry of November is displayed in December.</p>
+    <p>Where this issue produces wrong or strange results, which you do not want to have for your old blog entries and archives, is the midnight <strong>switch between days</strong>. An Entry created at <em>2013-11-30 11:15 pm</em>, which is <em>23:15</em> in a 24h format, now is an entry of next day in December, with an early time at <em>00:15 am</em>. The archives entries counter of Nov 13 seems to count wrong, which it does not, and the missing entry of November is displayed in December.</p>
 
     <p>Now: Backup your entries SQL table and run this query in your database <code>phpMyAdmin SQL</code> tab, after having checked out the latest timestamp value (<em>as an example here used 1572732840</em>) of the last entry created on your old blog.</p>
 
@@ -463,7 +463,7 @@ chmod('/path/to/your/serendipity/<code>serendipity_config_local.inc.php</code>',
 
     <p>This will convert all entries <strong>back</strong> on more hour, to now display correctly with your new Servers Offset hour of <strong>+2</strong>.</p>
 
-    <p>If you only want to do this for the <em>day-switch</em> entries, use this query.</p>
+    <p>If you only want to do this for the <em>day-switch</em> entries, in case of 1 hour difference in the new offset, use this query.</p>
 
     <pre><code class="language-sql">UPDATE styx_entries AS T1,
           (SELECT id, timestamp
