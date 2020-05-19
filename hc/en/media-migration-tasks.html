@@ -99,14 +99,14 @@
                     </ul>
                     <h2 id="docs-maintenance-media-tasks">Maintenance Media tasks</h2>
                     <p>This is available when you have managed to upgrade to Serendipity <code>Styx 3.0</code>.</p>
-                    <p>This page is about old blog migrations and odd snares of migrational task helpers or automated synchronisations of your media library.</p>
+                    <p>This page is about old blog migrations and odd snares of migrational task helpers or automated synchronizations of your media library.</p>
                     <p>The recommended <a href="installation.html#user-content-the-important-upgraders-howto---step-by-step-guide">migration upgrade</a> uses the usual way of updating a blog. In short: Drop the new onto your old and install/upgrade. If you are going another - lets call it <em>free style</em> - way and you install a new Styx, filling it up with old data, you might get new configuration defaults that interfere with your old data, in special when using migrational tasks like descibed here. Two of these examples are the media <strong>thumbSize</strong> and the <strong>thumbName</strong>. They have changed over the years.</p>
                     <p><u>WARNING</u>: <strong><em>Think before you do!</em></strong> and <strong><em>Do not change them both on the same time!</em></strong> expecting your Media Library or blog entry items of years to persist without flaws and consistently.</p>
                     <h3>Media library: Rebuild Thumbs</h3>
 
                     <ol>
                         <li><strong><em>Keep all existing thumbnails</em></strong><br>
-                        Synchronises your database with anything allowed to live in the real directory "/uploads", in case you put anything in (or have deleted it) by hand. Specifically, these are:
+                        Synchronizes your database with anything allowed to live in the real directory "/uploads", in case you put anything in (or have deleted it) by hand. Specifically, these are:
                         <ul>
                             <li>Regenerate all (<em>*.</em>) thumbnails (<em>which don't exist yet)</em>,</li>
                             <li>Resize thumbnails (<em>which don't exist yet by config set size)</em> and</li>
@@ -122,7 +122,7 @@
                         <li><strong><em>Add/Purge all Image WebP-Format variations</em></strong><br>
                         Is for upgraders, to take advantage of more compressed webp images for old media. Adding or purge depends on last action.</li>
                     </ol>
-                    <p>Clicking on the second to fifth options may reach your Server and PHP limit settings easily and stop the task without having finished! Search for “PHP execution time” to set this up (maybe to an amount of images or entries x 0.5 seconds) if you are allowed to and request the task of choice. If you run into restrictions, just reload the page to proceed the task as long as needed. Once having requested such task, you <strong>need</strong> to finish it somehow <strong>or</strong> be able to survey the possible mess and repair it all by hand yourself!</p>
+                    <p>Clicking on the second to fifth options, in very special N°4, since introducing a complete rewrite of blog entries using such image items, may reach your Server and PHP limit settings easily and stop the task without having finished! Search for “PHP execution time” to set this up (maybe to an amount of images or entries x 0.5 seconds), if you are allowed to, and then request the task of choice. If you run into restrictions, just reload the page to proceed the task as long as needed. Once having requested such task, you <strong>need</strong> to finish it somehow <strong>or</strong> be able to survey the possible mess and repair it all by hand yourself!</p>
                 </div>
             </div>
         </div>
