@@ -1,16 +1,16 @@
 ---
 layout: post
 title: Serendipity Styx 3.0.0 release
-last_modified_at: 2020-05-28T19:39:00+00:00
+last_modified_at: 2020-05-28T19:47:00+00:00
 ---
 
 Styx 2020/4 - The new Serendipity Styx 3.0 mayor release.
 
-### Preamble:
+### Preamble
 
 Styx 3.0 breaks with longterm backward compatibility for upgraders. It cleans up various old workarounds, changed APIs for consistency, refactored the media API, removed polyfills and exceptions in special for Serendipity Series revisions that are older than 2.0. This is a very need to further improve code and code design in future. The 2.9 branch releases are recommended to do these steps for elder Serendipity versions first. One could say, the complete 2.9 branch is part of working on Styx 3.0. Read about it in blog posts down below.
 
-### Requirements:
+### Requirements
 
 Serendipity Styx 3.0 does not only require an up-to-date PHP version from PHP 7.3, it also requires PHP/GD/ImageMagick with --webp support and an openSSL version which is at least a Debian (10) Buster alike version of 1.1.1d for strongest GCM login encryption!
 
