@@ -10,7 +10,7 @@ last_modified_at: 2018-11-06T14:49:00+00:00
 
 ### September 2016, 26th - Serendipity Styx 2.1-beta2 was released.
 
-### September 2016, 03th - Serendipity Styx 2.1-beta1 was released.
+### September 2016, 03rd - Serendipity Styx 2.1-beta1 was released.
 
 ### January 2016, 04th - Migration start
 
