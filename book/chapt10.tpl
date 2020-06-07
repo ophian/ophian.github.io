@@ -6588,7 +6588,7 @@ auch selbstgeschriebene Plugins zugreifen können:</p>
     <span class="box">
         wird bei der Darstellung der Menüpunkte des
         Backends ausgeführt. Über dieses Ereignis können zusätzliche Menüpunkte im
-        Bereich <span class="mbold">Administration</span> hinzugefügt werden.
+        Bereich <span class="mbold">Administration/Einstellungen</span> hinzugefügt werden.
     </span>
 </span>
 </p>
