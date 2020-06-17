@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Serendipity Styx 3.0.1 release
-last_modified_at: 2020-06-17T12:16:00+00:00
+last_modified_at: 2020-06-17T12:57:00+00:00
 ---
 
 Styx 2020/5 - The Serendipity Styx 3.0.1 bugfix release.
@@ -16,5 +16,7 @@ Styx 2020/5 - The Serendipity Styx 3.0.1 bugfix release.
   - Allow RichTextEditor comment areas in the dude (theme), since also using CSS3 grid techniques
   - Improved some language constants and messages
   - Improved some (minor) backend styles
+  - . . .
+  - The improved autoupdate plugin does now allow to delete all previous zip update version files. Please enable this option first before performing your upgrade! This can free up lots of Megabytes on old blogs.
 
 Check out the [ChangeLog](https://github.com/ophian/styx/blob/3.0.1/docs/NEWS) for details or even read the commit [history](https://github.com/ophian/styx/commits/3.0.1) for more. See [download](https://github.com/ophian/styx/releases/tag/3.0.1)
