@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Serendipity Styx 3.0.3 release
-last_modified_at: 2020-06-28T16:28:00+00:00
+last_modified_at: 2020-06-28T16:32:00+00:00
 ---
 
 Styx 2020/7 - The Serendipity Styx 3.0.3 bugfix release.
@@ -13,4 +13,4 @@ Styx 2020/7 - The Serendipity Styx 3.0.3 bugfix release.
   - Fixup both "pure" themes mobile footer navigation showup for unconfigured explorations
   - Improve both "pure" themes mobile footer overlaying last sidebar items
 
-Check out the [ChangeLog](https://github.com/ophian/styx/blob/3.0.2/docs/NEWS) for details or even read the commit [history](https://github.com/ophian/styx/commits/3.0.2) for more. See [download](https://github.com/ophian/styx/releases/tag/3.0.2)
+Check out the [ChangeLog](https://github.com/ophian/styx/blob/3.0.3/docs/NEWS) for details or even read the commit [history](https://github.com/ophian/styx/commits/3.0.3) for more. See [download](https://github.com/ophian/styx/releases/tag/3.0.3)
