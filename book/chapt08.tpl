@@ -361,7 +361,7 @@ bekannteste Dienst ist
     <span class="inline-tag">Ranking</span>
 </span>
 Technorati [*]
-<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://www.technorati.com/" target="_blank">http://www.technorati.com/</a></span><!-- footnote -->,
+<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://www.technorati.com/" target="_blank" rel="noopener">http://www.technorati.com/</a></span><!-- footnote -->,
 das unter anderem auch die <em>Wichtigkeit</em> von Blogs auswerten kann, indem es
 Blogs hochrangig einstuft, die besonders häufig zitiert werden.</p>
 
@@ -568,11 +568,11 @@ der maximalen Zugriffe limitieren und etwaige IP-Adressbereiche bei
 mit Abschaltung ihres Servers reagieren, gibt es auch ernsthaft bemühte
 Provider, die hier gemeinsam mit Ihnen an einer Lösung arbeiten.
 Provider wie <em>Manitu</em> [*]
-<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://www.manitu.net/" target="_blank">http://www.manitu.net/</a></span><!-- footnote -->,
+<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://www.manitu.net/" target="_blank" rel="noopener">http://www.manitu.net/</a></span><!-- footnote -->,
 <em>TiggersWelt</em> [*]
-<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://www.tiggerswelt.net/" target="_blank">http://www.tiggerswelt.net/</a></span><!-- footnote --> und
+<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://www.tiggerswelt.net/" target="_blank" rel="noopener">http://www.tiggerswelt.net/</a></span><!-- footnote --> und
 <em>All-Inkl.com</em> [*]
-<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://www.all-inkl.com/" target="_blank">http://www.all-inkl.com/</a></span><!-- footnote --> sind bekannt
+<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://www.all-inkl.com/" target="_blank" rel="noopener">http://www.all-inkl.com/</a></span><!-- footnote --> sind bekannt
 dafür, hier individuelle Lösungsmöglichkeiten anzubieten.</p>
 
 <p>Abhilfe schafft hier auch die Spamschutz Biene (siehe Seite
@@ -640,7 +640,7 @@ zwischen verschiedenen Programmen.</p>
     <span class="inline-tag">phpMyAdmin</span>
 </span>
 <code>phpMyAdmin</code> [*]
-<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://www.phpmyadmin.net" target="_blank">http://www.phpmyadmin.net</a></span><!-- footnote --> sehr verbreitet.
+<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://www.phpmyadmin.net" target="_blank" rel="noopener">http://www.phpmyadmin.net</a></span><!-- footnote --> sehr verbreitet.
 Viele Provider bieten eine vorinstallierte Version für Sie an. Die Installation
 von phpMyAdmin ist zwar mit etwas Konfigurationsaufwand verbunden, aber auf der
 Homepage gut dokumentiert.</p>
@@ -650,7 +650,7 @@ Homepage gut dokumentiert.</p>
     <span class="inline-tag">phpPgAdmin</span>
 </span>
 <code>phpPgAdmin</code> [*]
-<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://phppgadmin.sourceforge.net" target="_blank">http://phppgadmin.sourceforge.net</a></span><!-- footnote -->
+<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://phppgadmin.sourceforge.net" target="_blank" rel="noopener">http://phppgadmin.sourceforge.net</a></span><!-- footnote -->
 zur Verfügung, das an phpMyAdmin angelehnt ist.</p>
 
 <p>Beim Einsatz von SQLite ist die Wahl etwas schwieriger, da dieser Datenbanktyp
@@ -659,7 +659,7 @@ weniger stark verbreitet ist.
     <span class="inline-tag">phpSQLiteAdmin</span>
 </span>
 <code>phpSQLiteAdmin</code> [*]
-<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://www.phpguru.org/static/phpSQLiteAdmin.html" target="_blank">http://www.phpguru.org/static/phpSQLiteAdmin.html</a></span><!-- footnote --> kann
+<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://www.phpguru.org/static/phpSQLiteAdmin.html" target="_blank" rel="noopener">http://www.phpguru.org/static/phpSQLiteAdmin.html</a></span><!-- footnote --> kann
 Ihnen möglicherweise gute Dienste leisten.</p>
 
 <p>Abgesehen von den Web-basierten Verwaltungsprogrammen gibt es auch eigenständige
@@ -1287,7 +1287,7 @@ Dateien des Pakets vorhanden sind.</span>
 <p>
 Weitere Fehlermeldungen sind in der Dokumentation Ihres Datenbanksystems [*]
 <span class="footnote"><i class="fa fa-info-circle"></i> Für MySQL zB.
-<a href="http://dev.mysql.com/doc/refman/5.0/en/error-messages-server.html" target="_blank">http://dev.mysql.com/doc/refman/5.0/en/error-messages-server.html</a></span><!-- footnote -->
+<a href="http://dev.mysql.com/doc/refman/5.0/en/error-messages-server.html" target="_blank" rel="noopener">http://dev.mysql.com/doc/refman/5.0/en/error-messages-server.html</a></span><!-- footnote -->
 aufgeführt. Im Zweifelsfall sollten Sie bei hier nicht aufgeführten
 Fehlermeldungen entweder Ihren Provider oder das Serendipity-Forum kontaktieren.</p>
 
@@ -1375,7 +1375,7 @@ die Datenbank. Diese müssen Sie mit einem separaten Programm wie
     <span class="inline-tag">phpMyAdmin</span>
 </span>
 <code>phpMyAdmin</code> [*]
-<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://www.phpmyadmin.net" target="_blank">http://www.phpmyadmin.net</a></span><!-- footnote -->
+<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://www.phpmyadmin.net" target="_blank" rel="noopener">http://www.phpmyadmin.net</a></span><!-- footnote -->
 (siehe auch Seite <span class="pageref"><a href="#datenbankwartung">datenbankwartung</a></span>) durchführen.</p>
 
 <p>
@@ -1894,21 +1894,21 @@ durch externe Anbieter ergänzt.</p>
         Auswertungen durchführen können. Diese Programme teilen sich in zwei Sparten:
         Serverseitige Tools wie
         <code>awStats</code> [*]
-        <span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://awstats.sourceforge.net/" target="_blank">http://awstats.sourceforge.net/</a></span><!-- footnote -->,
+        <span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://awstats.sourceforge.net/" target="_blank" rel="noopener">http://awstats.sourceforge.net/</a></span><!-- footnote -->,
         <code>modlogan</code> [*]
-        <span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://modlogan.org/" target="_blank">http://modlogan.org/</a></span><!-- footnote --> oder
+        <span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://modlogan.org/" target="_blank" rel="noopener">http://modlogan.org/</a></span><!-- footnote --> oder
         <code>webalizer</code> [*]
-        <span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://www.mrunix.net/webalizer/" target="_blank">http://www.mrunix.net/webalizer/</a></span><!-- footnote --> sowie
+        <span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://www.mrunix.net/webalizer/" target="_blank" rel="noopener">http://www.mrunix.net/webalizer/</a></span><!-- footnote --> sowie
         Anwendungsprogramme wie
         <code>WebSuxess</code> [*]
-        <span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://www.exody.net/ger/products/websuxess/websuxess.cfm?kat2=p1" target="_blank">http://www.exody.net/ger/products/websuxess/websuxess.cfm?kat2=p1</a></span><!-- footnote -->,
+        <span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://www.exody.net/ger/products/websuxess/websuxess.cfm?kat2=p1" target="_blank" rel="noopener">http://www.exody.net/ger/products/websuxess/websuxess.cfm?kat2=p1</a></span><!-- footnote -->,
         <code>WebTrends</code> und weitere.
     </span>
 
     <span class="box">
         Selbstinstallierte Tools mit eigenen Logfiles, wie
         <code>Piwik</code> [*],
-        <span class="footnote"><i class="fa fa-info-circle"></i> <a href="https://piwik.org/" target="_blank">https://piwik.org/</a></span><!-- footnote --> sind eine echte Alternative zu Google Analytics. Es ist gerade aus Datenschutzsicht besonders zu empfehlen.
+        <span class="footnote"><i class="fa fa-info-circle"></i> <a href="https://piwik.org/" target="_blank" rel="noopener">https://piwik.org/</a></span><!-- footnote --> sind eine echte Alternative zu Google Analytics. Es ist gerade aus Datenschutzsicht besonders zu empfehlen.
     </span>
 </span>
 </p>
@@ -1923,7 +1923,7 @@ durch externe Anbieter ergänzt.</p>
         Als sehr hilfreich haben sich auch externe Dienstleister zur
         Statistik-Verfolgung erwiesen, allen voran <code>Google
         Analytics</code> [*]
-        <span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://www.google.com/analytics/" target="_blank">http://www.google.com/analytics/</a></span><!-- footnote --> und freie Dienste wie
+        <span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://www.google.com/analytics/" target="_blank" rel="noopener">http://www.google.com/analytics/</a></span><!-- footnote --> und freie Dienste wie
         <code>blogcounter.de</code>, <code>blogstats.de</code> oder weitere.
     </span>
 
@@ -1962,9 +1962,9 @@ durch externe Anbieter ergänzt.</p>
         Wer Statistiken nicht bei externen Dienstleistern führen will, kann auch
         spezielle PHP-Tracking-Software auf seinem eigenen Server installieren. Dazu
         stehen Tools wie <code>Mint</code> [*]
-        <span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://haveamint.com/" target="_blank">http://haveamint.com/</a></span><!-- footnote --> oder
+        <span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://haveamint.com/" target="_blank" rel="noopener">http://haveamint.com/</a></span><!-- footnote --> oder
         <code>phpOpenTracker</code> [*]
-        <span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://www.phpopentracker.de/" target="_blank">http://www.phpopentracker.de/</a></span><!-- footnote --> zur Verfügung.
+        <span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://www.phpopentracker.de/" target="_blank" rel="noopener">http://www.phpopentracker.de/</a></span><!-- footnote --> zur Verfügung.
     </span>
 
     <span class="box">
@@ -2107,7 +2107,7 @@ Seite <span class="pageref"><a href="#backups">backups</a></span>).</span>
         Anstelle eines Passwortschutzes können Sie Ihr Blog auch über die
         <code>.htaccess</code>-Regeln wie <code>Deny/Allow</code> [*]
         <span class="footnote"><i class="fa fa-info-circle"></i> Siehe
-        <a href="http://de.selfhtml.org/servercgi/server/htaccess.htm" target="_blank">http://de.selfhtml.org/servercgi/server/htaccess.htm</a></span><!-- footnote --> sperren.
+        <a href="http://de.selfhtml.org/servercgi/server/htaccess.htm" target="_blank" rel="noopener">http://de.selfhtml.org/servercgi/server/htaccess.htm</a></span><!-- footnote --> sperren.
     </span>
 </span>
 </p>
@@ -2144,7 +2144,7 @@ Seite <span class="pageref"><a href="#backups">backups</a></span>).</span>
     <span class="box">
         Ansonsten laden Sie die neue Serendipity-Version von der Webseite herunter, [*]
         <span class="footnote"><i class="fa fa-info-circle"></i>
-        <a href="http://www.s9y.org" target="_blank">http://www.s9y.org</a></span><!-- footnote -->
+        <a href="http://www.s9y.org" target="_blank" rel="noopener">http://www.s9y.org</a></span><!-- footnote -->
         ähnlich wie Sie das für die Installation bereits getan haben.
         Entpacken Sie das Archiv nun und laden Sie <em>alle</em>
         Dateien wie üblich auf Ihren Webserver hoch (via FTP oder SSH).

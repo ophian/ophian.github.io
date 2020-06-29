@@ -113,7 +113,7 @@ Passwörter für Logins in der Datenbanktabelle <code>serendipity_authors</code>
 <p>Da aber die Mechanismen MD5-Hashes mit Rainbow-Tabellen zu knacken,
 oder sogar "Wörterbuch Hash" -lookups immer mehr zunahmen und immer populärer wurden,
 vollzog Serendipity schon im Jahre 2009 den Schritt [*]
-<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://blog.s9y.org/archives/205-hash.html" target="_blank">http://blog.s9y.org/archives/205-hash.html</a></span><!-- footnote -->
+<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://blog.s9y.org/archives/205-hash.html" target="_blank" rel="noopener">http://blog.s9y.org/archives/205-hash.html</a></span><!-- footnote -->
 , den Serendipity-Hashing-Mechanismus auf einen <em>gesalzenen</em> und sicheren <em>SHA1</em>-Hash zu erhöhen.
 Damit wurde es aber unmöglich per phpMyAdmin mal eben so ein Passwort in der Datenbanktabelle zu ersetzen.</p>
 
@@ -453,9 +453,9 @@ da Ihr Browser das Feld <span class="mbold">Altes Passwort</span> nicht eingetra
     <span class="box">
         Einige Plugins für Serendipity bieten zudem externe WYSIWYG-Editoren wie
         TinyMCE [*]
-        <span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://tinymce.moxiecode.com/" target="_blank">http://tinymce.moxiecode.com/</a></span><!-- footnote -->,
+        <span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://tinymce.moxiecode.com/" target="_blank" rel="noopener">http://tinymce.moxiecode.com/</a></span><!-- footnote -->,
         CKEditor Plus[*]
-        <span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://ckeditor.com/" target="_blank">http://ckeditor.com/</a></span><!-- footnote -->,
+        <span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://ckeditor.com/" target="_blank" rel="noopener">http://ckeditor.com/</a></span><!-- footnote -->,
         zur Einbindung an, die in ihrem Funktionsumfang durchaus variieren. Auch diese externen
         Editoren werden nur dann verwendet, wenn die Option <span class="mbold">Graphischen
         WYSIWYG-Editor verwenden</span> aktiviert ist.
@@ -3556,7 +3556,7 @@ Template-Datei (<code>*.tpl</code>) werden Platzhalter verwendet, die bei der
 Ausführung Serendipitys durch eigentliche Inhalte ersetzt werden. Für
 diese Platzhalter-Logik verwendet Serendipity eine Software-Bibliothek
 namens <em>Smarty</em> [*]
-<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://www.smarty.net/" target="_blank">http://www.smarty.net/</a></span><!-- footnote -->.
+<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://www.smarty.net/" target="_blank" rel="noopener">http://www.smarty.net/</a></span><!-- footnote -->.
 Smartys Aufgabe ist es, die Template-Dateien nach Platzhaltern zu durchsuchen, zu
 <em>kompilieren</em> (in PHP-Code umwandeln) und danach auszugeben. Dabei
 kann Smarty weitaus mehr, als nur Variablen zu ersetzen: Smarty bietet
@@ -4273,7 +4273,7 @@ Bugfixes oder kleinere neue Features. Da Plugin-Entwickler oft faule
 Leute sind, ist die Dokumentation der Updates jedoch meist dürftig,
 und Sie müssen sich die Aktualisierungen manuell in der
 Spartacus-Versionsverwaltung ansehen.[*]
-<span class="footnote"><i class="fa fa-info-circle"></i> <a href="https://github.com/ophian/additional_plugins" target="_blank">https://github.com/ophian/additional_plugins</a></span><!-- footnote -->
+<span class="footnote"><i class="fa fa-info-circle"></i> <a href="https://github.com/ophian/additional_plugins" target="_blank" rel="noopener">https://github.com/ophian/additional_plugins</a></span><!-- footnote -->
 Details zu dieser Webseite finden Sie im Kapitel
 <span class="reference">sourcecodeverwaltung</span> ab Seite <span class="pageref"><a href="#sourcecodeverwaltung">sourcecodeverwaltung</a></span>.</p>
 
@@ -4539,7 +4539,7 @@ selbständig aus.</span>
         Um etwas Zeit zu sparen, können PHP-Anwendungen sogenannte
         <em>Persistent Connections</em> (<em>Ständige Verbindungen</em>) nutzen.
         Diese Option wird in der PHP-Dokumentation [*]
-        <span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://php.net/manual/de/features.persistent-connections.php" target="_blank">http://php.net/manual/de/features.persistent-connections.php</a></span><!-- footnote -->
+        <span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://php.net/manual/de/features.persistent-connections.php" target="_blank" rel="noopener">http://php.net/manual/de/features.persistent-connections.php</a></span><!-- footnote -->
         ausführlicher beschrieben und bewirkt - kurz gesagt --, dass mehrere
         PHP-Aufrufe dieselbe Datenbankverbindung nutzen können, ohne diese
         ständig neu auf- und abzubauen.
@@ -5870,7 +5870,7 @@ für die Mediathek und die Vorschaubild-Erzeugung fest.</p>
     <span class="box">
         Wenn auf Ihrem Webserver die Software ImageMagick [*]
         <span class="footnote"><i class="fa fa-info-circle"></i>
-        <a href="http://www.imagemagick.org" target="_blank">http://www.imagemagick.org</a></span><!-- footnote -->
+        <a href="http://www.imagemagick.org" target="_blank" rel="noopener">http://www.imagemagick.org</a></span><!-- footnote -->
         installiert ist, können Sie diese Software zur Erstellung und Konvertierung von
         Vorschaubildern benutzen.
     </span>
@@ -6133,7 +6133,7 @@ Internet nicht geeignet sind.</span>
             <span class="inline-tag">EXIF</span>
         </span>
         sogenannte <code>EXIF</code>-Daten [*]
-        <span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://www.exif.org/" target="_blank">http://www.exif.org/</a></span><!-- footnote -->
+        <span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://www.exif.org/" target="_blank" rel="noopener">http://www.exif.org/</a></span><!-- footnote -->
         gespeichert werden, die zB. von Digitalkameras automatisch eingefügt
         werden und Informationen über Belichtungszeit und Aufnahmezeitpunkt
         enthalten.

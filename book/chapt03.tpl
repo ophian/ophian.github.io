@@ -679,7 +679,7 @@ zusätzlichen Metadaten aufführen. RSS steht für <em>Really Simple Syndication
     <span class="footnote"><i class="fa fa-info-circle"></i> Das W3C-Gremium entscheidet in einer großen Arbeitsgruppe
     über die Standardisierung von Internet-Formaten wie HTML und andere.</span><!-- footnote --> empfohlen wird.
     Das hat sich aber bis zum laufenden Jahr noch nicht wirklich bewahrheitet [*]
-    <span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://meiert.com/de/publications/translations/intertwingly.net/rss-2.0-and-atom-1.0/" target="_blank">http://meiert.com/de/publications/translations/intertwingly.net/rss-2.0-and-atom-1.0/</a></span><!-- footnote -->.
+    <span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://meiert.com/de/publications/translations/intertwingly.net/rss-2.0-and-atom-1.0/" target="_blank" rel="noopener">http://meiert.com/de/publications/translations/intertwingly.net/rss-2.0-and-atom-1.0/</a></span><!-- footnote -->.
     </span>
 </p>
 

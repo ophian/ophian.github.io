@@ -1401,7 +1401,7 @@ oder der Kontext eindeutig ist.</p>
         Wer sich an die Farbenlehre erinnern kann, weiß, dass man mit diesen drei
         Primärfarben jede andere vom Monitor darstellbare Farbe abbilden kann. Um
         diese Farbwerte leicht herauszufinden, können Sie kleine Tools wie etwa den Colorpicker [*]
-        <span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://www.pagetutor.com/colorpicker/index.html" target="_blank">http://www.pagetutor.com/colorpicker/index.html</a></span><!-- footnote -->
+        <span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://www.pagetutor.com/colorpicker/index.html" target="_blank" rel="noopener">http://www.pagetutor.com/colorpicker/index.html</a></span><!-- footnote -->
         benutzen. Heutzutage haben die großen Browser soetwas als Bordmittel ihrer Developer Konsole schon eingebaut.
     </span>
 
@@ -2003,7 +2003,7 @@ oder der Kontext eindeutig ist.</p>
     <span class="box">
         <span class="label invisible" id="regexp">regexp</span> Sämtliche Wortfilter werden als "reguläre
         Ausdrücke" [*]
-        <span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://de.wikipedia.org/wiki/Regul%C3%A4rer_Ausdruck" target="_blank">http://de.wikipedia.org/wiki/Regul%C3%A4rer_Ausdruck</a></span><!-- footnote -->
+        <span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://de.wikipedia.org/wiki/Regul%C3%A4rer_Ausdruck" target="_blank" rel="noopener">http://de.wikipedia.org/wiki/Regul%C3%A4rer_Ausdruck</a></span><!-- footnote -->
         interpretiert. Dies ist eine spezielle Syntax, in der Sie auch
         Platzhalter verwenden können. Reguläre Ausdrücke sind ein Thema
         für sich, aber hier ein Beispiel für einen Wortfilter-Ausdruck:
@@ -2085,7 +2085,7 @@ oder der Kontext eindeutig ist.</p>
     <span class="box">
         Wenn Sie den Akismet-Dienst benutzen wollen, benötigen Sie einen
         sogenannten API-Key, den Sie mit der Anmeldung [*]
-        <span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://akismet.com" target="_blank">http://akismet.com</a></span><!-- footnote --> erhalten. Sie müssen ihn dann im
+        <span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://akismet.com" target="_blank" rel="noopener">http://akismet.com</a></span><!-- footnote --> erhalten. Sie müssen ihn dann im
         Spamschutz-Plugin im Konfigurationsfeld <span class="mbold">Akismet API Key</span> eintragen.
     </span>
 
@@ -2543,7 +2543,7 @@ BBCode.</p>
 um eine HTML-Auflistung zu erstellen, ist wesentlich unkomplizierter als
 entsprechender HTML-Code.[*]
 <span class="footnote"><i class="fa fa-info-circle"></i> Eine Auflistung von BBCodes gibt
-<a href="http://de.wikipedia.org/wiki/BBcode" target="_blank">http://de.wikipedia.org/wiki/BBcode</a>.</span><!-- footnote --> BBCodes sind immer von eckigen
+<a href="http://de.wikipedia.org/wiki/BBcode" target="_blank" rel="noopener">http://de.wikipedia.org/wiki/BBcode</a>.</span><!-- footnote --> BBCodes sind immer von eckigen
 (statt bei HTML spitzen) Klammern umgeben. Um ein Wort zu fetten, würde man
 <code>[b]Wort[/b]</code> verwenden, Bilder kann man mittels
 <code>[img]http://www.example.com/bild.jpg[/img]</code> einbinden und Hyperlinks
@@ -3039,7 +3039,7 @@ Da es sich bei dem Filter um einen regulären Ausdruck handelt, müssen Sie
 etwaige Sonderzeichen <em>escapen</em>, also einen Backslash
 (\) voranstellen.[*]
 <span class="footnote"><i class="fa fa-info-circle"></i> Unter
-<a href="http://php.net/manual/de/reference.pcre.pattern.syntax.php" target="_blank">http://php.net/manual/de/reference.pcre.pattern.syntax.php</a> sind solche Sonderzeichen 
+<a href="http://php.net/manual/de/reference.pcre.pattern.syntax.php" target="_blank" rel="noopener">http://php.net/manual/de/reference.pcre.pattern.syntax.php</a> sind solche Sonderzeichen 
 aufgeführt.</span><!-- footnote --> Erweiterte Suchmuster wie
 <code>Messe(bericht|report|review)(s|e)?</code> können ebenfalls verwendet
 werden, damit Begriffe wie <em>Messeberichte</em> oder
@@ -3476,7 +3476,7 @@ Standardmäßig sind dies 3 Tage (10800 Sekunden).</span>
 <p>Sie können diesen RSS-Feed in der Admin-Oberfläche gut dazu benutzen,
 den RSS-Feed vom offiziellen
 Serendipity-Blog [*]
-<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://blog.s9y.org/rss.php" target="_blank">http://blog.s9y.org/rss.php</a></span><!-- footnote --> zu
+<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://blog.s9y.org/rss.php" target="_blank" rel="noopener">http://blog.s9y.org/rss.php</a></span><!-- footnote --> zu
 abonnieren. So können Sie direkt beim Login in Ihr Blog erkennen, ob
 es möglicherweise neue Versionen der Software gibt, in der zB.
 Sicherheitslücken behoben worden sind.</p>
@@ -3827,7 +3827,7 @@ einer eigenen Datenbanktabelle <code>serendipity_categorytemplates</code>:
 
 <p>Wie bereits mehrfach angesprochen ist der CKEditor [*]
 <span class="footnote"><i class="fa fa-info-circle"></i>
-<a href="http://ckeditor.com/about/features" target="_blank">http://ckeditor.com/about/features</a></span><!-- footnote -->
+<a href="http://ckeditor.com/about/features" target="_blank" rel="noopener">http://ckeditor.com/about/features</a></span><!-- footnote -->
 seit einigen Jahren der neue Serendipity-Standard-WYSIWYG-Editor.
 Das <code>CKEditor</code>-Plus-Plugin konnte schon mit der Serendipity
 1.7 Serie benutzt werden und wurde seitdem ständig weiterentwickelt.
@@ -3879,11 +3879,11 @@ erreichbare Toolbar-Button Popup-Dokumentation für die CKEditor Tastatursteueru
 
     <span class="box">
         Diese Option erlaubt die Einbindung des CKEditor-Plugins <code>codesnippet</code> [*]
-        <span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://ckeditor.com/addon/codesnippet" target="_blank">http://ckeditor.com/addon/codesnippet</a></span><!-- footnote -->
+        <span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://ckeditor.com/addon/codesnippet" target="_blank" rel="noopener">http://ckeditor.com/addon/codesnippet</a></span><!-- footnote -->
         in die Toolbar. Dann können auf elegant einfache Weise in jeder Textarea in der der CKEditor
         eingebunden ist, <em>Code</em>-Blöcke eingebunden werden, die intern zu geeignetem HTML-Markup
         verändert und zusätzlich per <code>highlightjs</code>-Widget [*]
-        <span class="footnote"><i class="fa fa-info-circle"></i> <a href="https://highlightjs.org/" target="_blank">https://highlightjs.org/</a></span><!-- footnote -->
+        <span class="footnote"><i class="fa fa-info-circle"></i> <a href="https://highlightjs.org/" target="_blank" rel="noopener">https://highlightjs.org/</a></span><!-- footnote -->
         farblich entsprechend der <code>Code</code>-Sprache dargestellt werden.
     </span>
 </span>
@@ -3913,7 +3913,7 @@ erreichbare Toolbar-Button Popup-Dokumentation für die CKEditor Tastatursteueru
 
     <span class="box">
         Der Advanced-Content-Filter (ACF) [*]
-        <span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://docs.ckeditor.com/#!/guide/dev_acf" target="_blank">http://docs.ckeditor.com/#!/guide/dev_acf</a></span><!-- footnote -->
+        <span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://docs.ckeditor.com/#!/guide/dev_acf" target="_blank" rel="noopener">http://docs.ckeditor.com/#!/guide/dev_acf</a></span><!-- footnote -->
         ist ein interner Schutzmechanismus des CKEditors, um
         sich selbst, die eigenen fein aufeinander abgestimmten Funktionen
         <span class="mbold">und</span> den User vor allzu manipulativem oder fehlerhaftem
@@ -4639,7 +4639,7 @@ der Stamm-URL von Serendipity (in unserem Beispiel <code>/serendipity/</code>)
 aufgeführt sind. Sie können beliebige gültige URL-Zeichen [*]
 <span class="footnote"><i class="fa fa-info-circle"></i> Sonderzeichen und
 Leerzeichen müssen entsprechend der RFC 1738
-(<a href="http://www.faqs.org/rfcs/rfc1738.html" target="_blank">http://www.faqs.org/rfcs/rfc1738.html</a>)
+(<a href="http://www.faqs.org/rfcs/rfc1738.html" target="_blank" rel="noopener">http://www.faqs.org/rfcs/rfc1738.html</a>)
 konvertiert werden. Das URL-Sonderzeichen <code>;</code> würde daher als
 <code>%3B</code> umgeschrieben werden. Da dies eher unschön aussieht,
 sollten Sie auf derartige Sonderzeichen in Permalinks besser verzichten.</span><!-- footnote --><br> 
@@ -4967,7 +4967,7 @@ Verweise zu den im Downloadmanager eingebundenen Dateien:
 In der Tabelle <code>serendipity_dma_downloadmanager_categories</code> werden die
 Kategorien des Downloadmanagers (in
 Nested-Set-Struktur [*]
-<span class="footnote"><i class="fa fa-info-circle"></i> Siehe <a href="http://www.dbazine.com/oracle/or-articles/tropashko4" target="_blank">http://www.dbazine.com/oracle/or-articles/tropashko4</a></span><!-- footnote -->) gespeichert:</p>
+<span class="footnote"><i class="fa fa-info-circle"></i> Siehe <a href="http://www.dbazine.com/oracle/or-articles/tropashko4" target="_blank" rel="noopener">http://www.dbazine.com/oracle/or-articles/tropashko4</a></span><!-- footnote -->) gespeichert:</p>
 
 <p class="desc sql-field-group">
     <code class="item sql-field">node_id</code> enthält die ID der Kategorie.
@@ -5473,7 +5473,7 @@ definieren.</span>
         installiert haben, müssen Sie dies nachholen.[*]
         <span class="footnote"><i class="fa fa-info-circle"></i> Die
         Installationsanweisungen finden Sie unter
-        <a href="http://www.phpbb.com/" target="_blank">http://www.phpbb.com/</a>.</span><!-- footnote -->
+        <a href="http://www.phpbb.com/" target="_blank" rel="noopener">http://www.phpbb.com/</a>.</span><!-- footnote -->
     </span>
 
     <span class="box">
@@ -5904,7 +5904,7 @@ Weitere Informationen hierzu finden Sie auf
 
 <p>Eine Sitemap-Datei muss dabei im XML-Format [*]
 <span class="footnote"><i class="fa fa-info-circle"></i> Die vollständige
-Spezifikation des Formates können Sie auf <a href="http://www.sitemaps.org/" target="_blank">http://www.sitemaps.org/</a>
+Spezifikation des Formates können Sie auf <a href="http://www.sitemaps.org/" target="_blank" rel="noopener">http://www.sitemaps.org/</a>
 nachschlagen.</span><!-- footnote --> abgespeichert werden und alle gültigen URLs enthalten.
 Jede URL kann mehrere Eigenschaften enthalten: das Datum der letzten
 Änderung, eine Aktualisierungspriorität (Gewichtung) und eine Angabe,
@@ -6167,7 +6167,7 @@ Captcha-Schutz (siehe Seite <span class="pageref"><a href="#spamblock">spamblock
 Gästebucheinträge formatiert werden soll. Zur Verfügung stehen die
 Platzhalter, die in der
 PHP-Dokumentation [*]
-<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://de.php.net/strftime" target="_blank">http://de.php.net/strftime</a></span><!-- footnote --> beschrieben
+<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://de.php.net/strftime" target="_blank" rel="noopener">http://de.php.net/strftime</a></span><!-- footnote --> beschrieben
 werden.</span>
 </p>
 
@@ -6855,7 +6855,7 @@ wird.</span>
         Um die Bildgröße eines Videos herauszufinden, muss die
         <code>getid3</code>-Bibliothek installiert sein.[*]
         <span class="footnote"><i class="fa fa-info-circle"></i> Diese können Sie von
-        <a href="http://www.getid3.org" target="_blank">http://www.getid3.org</a> herunterladen und in ein Unterverzeichnis
+        <a href="http://www.getid3.org" target="_blank" rel="noopener">http://www.getid3.org</a> herunterladen und in ein Unterverzeichnis
         namens <code>getid3</code> in das Serendipity-Verzeichnis <code>bundled-libs</code>
         entpacken.</span><!-- footnote --> Dieser Automatismus kann möglicherweise die Geschwindigkeit
         des Plugins spürbar verlangsamen, daher ist eine feste Player-Größe
@@ -8290,7 +8290,7 @@ Darüber hinaus bietet Textile eine weitaus höhere Abstraktion als BBCode. Wäh
 BBCode so einfach wie möglich gehalten ist, bietet Textile eine
 Flexibilität, mit der man fast ganz auf HTML verzichten kann.[*]
 <span class="footnote"><i class="fa fa-info-circle"></i> Unter
-<a href="http://thresholdstate.com/articles/4312/the-textile-reference-manual" target="_blank">http://thresholdstate.com/articles/4312/the-textile-reference-manual</a> finden Sie die vollständige Textile-Syntax.</span><!-- footnote -->
+<a href="http://thresholdstate.com/articles/4312/the-textile-reference-manual" target="_blank" rel="noopener">http://thresholdstate.com/articles/4312/the-textile-reference-manual</a> finden Sie die vollständige Textile-Syntax.</span><!-- footnote -->
 </p>
 
 <p>Textile ist eine relativ komplexe Bibliothek, die auch mehr Ressourcen
@@ -8376,7 +8376,7 @@ Umwandlungsvarianten flexibel ein- oder ausschalten.</p>
 <p class="text">Serendipity wird seit <em>Serendipity 2.0+</em>
 standardmäßig mit dem WYSIWYG-Editor <em>CKEditor</em> [*]
 <span class="footnote"><i class="fa fa-info-circle"></i>
-<a href="http://ckeditor.com/" target="_blank">http://ckeditor.com/</a></span><!-- footnote -->,
+<a href="http://ckeditor.com/" target="_blank" rel="noopener">http://ckeditor.com/</a></span><!-- footnote -->,
 dem überaus erfolgreichen Nachfolger des <em>FCKeditor</em> ausgeliefert.
 Dieser Editor läuft problemlos mit allen aktuellen Browsern (Chrome,
 Firefox, Internet Explorer, Firefox, Safari, etc) und wird professionell
@@ -8411,9 +8411,9 @@ die Dinge ändern sich und manche davon werden auch besser!</p>
 <p>Serendipity geht daher grundsätzlich den Weg, dass alternative
 WYSIWYG-Editoren eingebunden werden können. Dazu zählen
 TinyMCE [*]
-<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://tinymce.moxiecode.com/" target="_blank">http://tinymce.moxiecode.com/</a></span><!-- footnote --> und
+<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://tinymce.moxiecode.com/" target="_blank" rel="noopener">http://tinymce.moxiecode.com/</a></span><!-- footnote --> und
 CKEditor [*]
-<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://www.ckeditor.net/" target="_blank">http://www.ckeditor.net/</a></span><!-- footnote -->.
+<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://www.ckeditor.net/" target="_blank" rel="noopener">http://www.ckeditor.net/</a></span><!-- footnote -->.
 Für alle Editoren sind externe Plugins verfügbar. Aufgrund der weiteren Entwicklungen in den Jahren können aber nur das
 <code>CKEditor</code>-Plugin und vielleicht noch das <code>TinyMCE</code>-Plugin empfohlen werden.</p>
 
@@ -8437,7 +8437,7 @@ Rahmen eines Serendipity-Plugins sprengen würden.</p>
 <p>Sobald Sie das TinyMCE-Plugin heruntergeladen haben, ist dieses im
 Verzeichnis <code>/plugins/serendipity_event_tinymce/</code> vorhanden.
 Besuchen Sie nun die TinyMCE-Downloadseite.[*]
-<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://tinymce.moxiecode.com/download.php" target="_blank">http://tinymce.moxiecode.com/download.php</a></span><!-- footnote --> Laden Sie dort die
+<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://tinymce.moxiecode.com/download.php" target="_blank" rel="noopener">http://tinymce.moxiecode.com/download.php</a></span><!-- footnote --> Laden Sie dort die
 aktuelle Version von TinyMCE herunter. Entpacken Sie danach die ZIP-Datei
 und laden Sie das entstandene Verzeichnis <code>tinymce</code> in Ihr
 Plugin-Verzeichnis auf dem Serendipity-Server.</p>
@@ -8823,7 +8823,7 @@ zurückgreifen. Diese Methode ist ein ähnliches Vorgehen, wie von der
     <span class="inline-tag">NoFollow-Initiative</span>
 </span>
 NoFollow-Initiative [*]
-<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://de.wikipedia.org/wiki/Nofollow" target="_blank">http://de.wikipedia.org/wiki/Nofollow</a></span><!-- footnote --> gefordert --
+<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://de.wikipedia.org/wiki/Nofollow" target="_blank" rel="noopener">http://de.wikipedia.org/wiki/Nofollow</a></span><!-- footnote --> gefordert --
 man verbietet so den Kommentatoren, vom Suchmaschinen-Wert (dem <em>Google PageRank</em>)
 zu profitieren. Die berechtigte Kritik an diesem Vorgehen ist jedoch, dass man
 aufrichtige Kommentatoren ruhig durch die Verlinkung auf ihre Seiten belohnen
@@ -9705,7 +9705,7 @@ von Pings, zB. der Dienst Ping-o-matic. Wenn Sie diesen benutzen, können
 Sie sich das Pingen anderer Dienstleister sparen, allerdings ist
 Ping-o-matic nicht immer vollständig funktionstüchtig [*]
 <span class="footnote"><i class="fa fa-info-circle"></i> Siehe
-<a href="http://pingomatic.com/" target="_blank">http://pingomatic.com/</a></span><!-- footnote -->. Das Plugin wird automatisch die
+<a href="http://pingomatic.com/" target="_blank" rel="noopener">http://pingomatic.com/</a></span><!-- footnote -->. Das Plugin wird automatisch die
 Webservices in der Liste abwählen, die bereits von einem solchen Meta-Service
 verwaltet werden.</p>
 
@@ -9905,13 +9905,13 @@ die Bedienung der browserbasierten Oberfläche Serendipitys.</p>
 </span>
 Abhängig von Ihrem Betriebssystem gibt es mehrere Editoren:
 Blogdesk [*]
-<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://www.blogdesk.org/" target="_blank">http://www.blogdesk.org/</a></span><!-- footnote -->,
+<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://www.blogdesk.org/" target="_blank" rel="noopener">http://www.blogdesk.org/</a></span><!-- footnote -->,
 BlogJet [*]
-<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://www.codingrobots.com/blogjet/" target="_blank">http://www.codingrobots.com/blogjet/</a></span><!-- footnote -->,
+<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://www.codingrobots.com/blogjet/" target="_blank" rel="noopener">http://www.codingrobots.com/blogjet/</a></span><!-- footnote -->,
 Ecto [*]
-<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://ecto.kung-foo.tv" target="_blank">http://ecto.kung-foo.tv</a></span><!-- footnote --> oder auch
+<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://ecto.kung-foo.tv" target="_blank" rel="noopener">http://ecto.kung-foo.tv</a></span><!-- footnote --> oder auch
 w.bloggar [*]
-<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://wbloggar.com" target="_blank">http://wbloggar.com</a></span><!-- footnote -->.</p>
+<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://wbloggar.com" target="_blank" rel="noopener">http://wbloggar.com</a></span><!-- footnote -->.</p>
 
 <p>Als technische Spezifikation (die API) unterstützen viele der erwähnten
 Clients unterschiedliche Methoden. Auch wenn Serendipity nicht in jeder
@@ -10388,13 +10388,13 @@ so komfortabel möglich.</p>
 
 <p>Mittlerweile gibt es viele JavaScripts, die diese Technik einsetzen:
 Lightbox [*]
-<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://www.huddletogether.com/projects/lightbox2/" target="_blank">http://www.huddletogether.com/projects/lightbox2/</a></span><!-- footnote -->,
+<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://www.huddletogether.com/projects/lightbox2/" target="_blank" rel="noopener">http://www.huddletogether.com/projects/lightbox2/</a></span><!-- footnote -->,
 Lightbox plus [*]
-<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://serennz.sakura.ne.jp/toybox/lightbox/" target="_blank">http://serennz.sakura.ne.jp/toybox/lightbox/</a></span><!-- footnote -->,
+<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://serennz.sakura.ne.jp/toybox/lightbox/" target="_blank" rel="noopener">http://serennz.sakura.ne.jp/toybox/lightbox/</a></span><!-- footnote -->,
 Thickbox [*]
-<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://jquery.com/demo/thickbox/" target="_blank">http://jquery.com/demo/thickbox/</a></span><!-- footnote --> und
+<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://jquery.com/demo/thickbox/" target="_blank" rel="noopener">http://jquery.com/demo/thickbox/</a></span><!-- footnote --> und
 Greybox [*]
-<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://orangoo.com/labs/GreyBox/" target="_blank">http://orangoo.com/labs/GreyBox/</a></span><!-- footnote -->. Alle diese
+<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://orangoo.com/labs/GreyBox/" target="_blank" rel="noopener">http://orangoo.com/labs/GreyBox/</a></span><!-- footnote -->. Alle diese
 Bibliotheken bieten unterschiedliche Features und eine unterschiedliche
 Syntax. Sie sollten sich daher alle Varianten und Demos ansehen, um sich
 auf die für Sie beste zu beschränken. Da dies großteils Geschmackssache
@@ -10404,13 +10404,13 @@ ist, kann man leider keines der Scripts pauschal empfehlen.</p>
 wurden einige der verwendeten Bibliotheken ausgetauscht und durch solche ersetzt, die sich,
 auch in ihrer Entwicklung, am Markt bisher durchgesetzt hatten.
 ColorBox [*]
-<span class="footnote"><i class="fa fa-info-circle"></i> <a href="https://github.com/jackmoore/colorbox" target="_blank">https://github.com/jackmoore/colorbox</a></span><!-- footnote -->,
+<span class="footnote"><i class="fa fa-info-circle"></i> <a href="https://github.com/jackmoore/colorbox" target="_blank" rel="noopener">https://github.com/jackmoore/colorbox</a></span><!-- footnote -->,
 LightBox2 [*] jQuery based
-<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://lokeshdhakar.com/projects/lightbox2/" target="_blank">http://lokeshdhakar.com/projects/lightbox2/</a></span><!-- footnote -->,
+<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://lokeshdhakar.com/projects/lightbox2/" target="_blank" rel="noopener">http://lokeshdhakar.com/projects/lightbox2/</a></span><!-- footnote -->,
 Magnific-Popup [*]
-<span class="footnote"><i class="fa fa-info-circle"></i> <a href="https://github.com/dimsemenov/Magnific-Popup" target="_blank">https://github.com/dimsemenov/Magnific-Popup</a></span><!-- footnote -->,
+<span class="footnote"><i class="fa fa-info-circle"></i> <a href="https://github.com/dimsemenov/Magnific-Popup" target="_blank" rel="noopener">https://github.com/dimsemenov/Magnific-Popup</a></span><!-- footnote -->,
 PrettyPhoto [*]
-<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://www.no-margin-for-errors.com/projects/prettyPhoto" target="_blank">http://www.no-margin-for-errors.com/projects/prettyPhoto</a></span><!-- footnote -->.
+<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://www.no-margin-for-errors.com/projects/prettyPhoto" target="_blank" rel="noopener">http://www.no-margin-for-errors.com/projects/prettyPhoto</a></span><!-- footnote -->.
 Das <code>serendipity_plugin_imagessidebar</code> Plugin und das nachfolgend beschriebene <code>serendipity_event_usergallery</code> Ereignis-Plugin
 unterstützen das <em>lightbox</em> Plugin per Option oder sogar nativ.</p>
 
@@ -11103,7 +11103,7 @@ die Formatierung des Datums. Standardmäßig wird das
 Format <code>Y-m-d</code> (Jahr-Monat-Tag) benutzt. Gültige Platzhalter finden
 Sie in der PHP-Dokumentation zum
 <code>date()</code>-Befehl [*]
-<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://www.php.net/date" target="_blank">http://www.php.net/date</a></span><!-- footnote -->.
+<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://www.php.net/date" target="_blank" rel="noopener">http://www.php.net/date</a></span><!-- footnote -->.
 </span>
 </p>
 
@@ -11346,9 +11346,9 @@ Produkt später eindeutig zu identifizieren, um eine in der Community
 einheitliche Zuordnung herzustellen. Das Plugin schlägt daher
 standardmäßig die Wertungsmöglichkeiten bei der IMDb [*]
 <span class="footnote"><i class="fa fa-info-circle"></i> Internet
-Movie Database, <a href="http://imdb.com/" target="_blank">http://imdb.com/</a></span><!-- footnote --> und von Produkten bei
+Movie Database, <a href="http://imdb.com/" target="_blank" rel="noopener">http://imdb.com/</a></span><!-- footnote --> und von Produkten bei
 Amazon [*]
-<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://www.amazon.de/" target="_blank">http://www.amazon.de/</a></span><!-- footnote --> vor. Sie können hier
+<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://www.amazon.de/" target="_blank" rel="noopener">http://www.amazon.de/</a></span><!-- footnote --> vor. Sie können hier
 grundsätzlich jeden Bewertungstyp eintragen, benötigen aber später eine
 zugehörige Webseite mit einer eindeutigen ID des bewerteten Produkts. Ein
 Bewertungstyp darf keine Sonderzeichen (Umlaute oder Leerzeichen) enthalten.</p>

@@ -3474,7 +3474,7 @@ offen und transparent zu verwalten.</p>
 
 <p>Dazu hat sich seit geraumer Zeit der Service von GitHub [*]
 <span class="footnote"><i class="fa fa-info-circle"></i>
-<a href="https://github.com/" target="_blank">https://github.com/</a></span><!-- footnote -->
+<a href="https://github.com/" target="_blank" rel="noopener">https://github.com/</a></span><!-- footnote -->
 als Standard in der Open Source Welt fest etabliert, der OpenSource-Projekten
 und praktisch Jedermann kostenlos Verwaltungsdienste und Speicherplatz anbietet.
 Finanziert wird dieses Erfolgsmodell vom Verkauf der Enterprise und Privat Repository Lösungen.
@@ -3682,8 +3682,8 @@ sinnvollen Code zur Community beisteuern wollen, hilft dieses
 <em>DIFF-Format</em>, Ihre Änderungen allen zur Verfügung zu stellen.</p>
 
 <p>Mit <span class="mbold">GitHub</span> [*]
-<span class="footnote"><i class="fa fa-info-circle"></i> <a href="https://pages.github.com/" target="_blank">https://pages.github.com/</a></span><!-- footnote -->
-<span class="footnote"><i class="fa fa-info-circle"></i> <a href="https://git-scm.com/doc" target="_blank">https://git-scm.com/doc</a></span><!-- footnote -->,
+<span class="footnote"><i class="fa fa-info-circle"></i> <a href="https://pages.github.com/" target="_blank" rel="noopener">https://pages.github.com/</a></span><!-- footnote -->
+<span class="footnote"><i class="fa fa-info-circle"></i> <a href="https://git-scm.com/doc" target="_blank" rel="noopener">https://git-scm.com/doc</a></span><!-- footnote -->,
 unserem hauptsächlichen Kollaborations- und Versionsverteilungssystem sieht das Ganze so aus:</p>
 
 <p><span class="item mbold">Klonen</span> des Serendipity Repositories:</p>
@@ -3744,11 +3744,11 @@ Generell gilt es einfach <em>schnell</em> zu sein und unmittelbar vor dem
 erst ein <em>pull</em> zu ziehen.</p>
 
 <p>Mittels einer GUI oder der Konsole können nun die mit einem geeignetem Editor[*] gemachten Änderungen
-<span class="footnote"><i class="fa fa-info-circle"></i> <a href="https://www.nano-editor.org/" target="_blank">https://www.nano-editor.org/</a></span><!-- footnote -->
-<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://www.vim.org/" target="_blank">http://www.vim.org/</a></span><!-- footnote -->
-<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://www.scintilla.org/" target="_blank">http://www.scintilla.org/</a></span><!-- footnote -->
-<span class="footnote"><i class="fa fa-info-circle"></i> <a href="https://notepad-plus-plus.org/" target="_blank">https://notepad-plus-plus.org/</a></span><!-- footnote -->
-<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://itsfoss.com/best-modern-open-source-code-editors-for-linux/" target="_blank">http://itsfoss.com/best-modern-open-source-code-editors-for-linux/</a></span><!-- footnote -->
+<span class="footnote"><i class="fa fa-info-circle"></i> <a href="https://www.nano-editor.org/" target="_blank" rel="noopener">https://www.nano-editor.org/</a></span><!-- footnote -->
+<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://www.vim.org/" target="_blank" rel="noopener">http://www.vim.org/</a></span><!-- footnote -->
+<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://www.scintilla.org/" target="_blank" rel="noopener">http://www.scintilla.org/</a></span><!-- footnote -->
+<span class="footnote"><i class="fa fa-info-circle"></i> <a href="https://notepad-plus-plus.org/" target="_blank" rel="noopener">https://notepad-plus-plus.org/</a></span><!-- footnote -->
+<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://itsfoss.com/best-modern-open-source-code-editors-for-linux/" target="_blank" rel="noopener">http://itsfoss.com/best-modern-open-source-code-editors-for-linux/</a></span><!-- footnote -->
 
 <figure id="fig-real_programmers" style="display: flex; width: 68%; margin-top: -8em; margin-left: 0em;">
     <img src="img/real_programmers.png" title="Abbildung xkcd: © xkcd.com, Randall Munroe, CC-ANC 2.5 license">
@@ -8153,7 +8153,7 @@ der Serendipity-S9y-Projektseite unter <code>https://docs.s9y.org/docs/users/hos
 sondern bei sehr vielen Web-2.0-Anwendungen. Daher hat sich ein Konsortium
 gegründet, das sich mit der <em>OpenID</em>-Initiative [*]
 <span class="footnote"><i class="fa fa-info-circle"></i>
-<a href="http://www.openid.net" target="_blank">http://www.openid.net</a></span><!-- footnote -->
+<a href="http://www.openid.net" target="_blank" rel="noopener">http://www.openid.net</a></span><!-- footnote -->
 das Ziel gesetzt hat, eine einheitliche und
 dezentrale Benutzerauthentifizierung zur Verfügung zu stellen.</p>
 
@@ -8292,7 +8292,7 @@ durch.</p>
 Tatsächlich werden Sie später jedoch sicher komplexere SQL-Statements wie
 <em>String Functions</em> oder <em>Control Flow Functions</em> [*]
 <span class="footnote"><i class="fa fa-info-circle"></i>
-<a href="http://dev.mysql.com/doc/refman/5.1/en/functions.html" target="_blank">http://dev.mysql.com/doc/refman/5.1/en/functions.html</a></span><!-- footnote -->
+<a href="http://dev.mysql.com/doc/refman/5.1/en/functions.html" target="_blank" rel="noopener">http://dev.mysql.com/doc/refman/5.1/en/functions.html</a></span><!-- footnote -->
 einsetzen. Damit können Sie beispielsweise <em>IF-Weichen</em> in einer Abfrage einführen, um
 verschiedene Datentypen und Tabellenspalten miteinander zu verketten.</p>
 

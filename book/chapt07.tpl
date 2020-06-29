@@ -267,7 +267,7 @@ aufrufen.</span>
         Option nicht nur Spam-Kommentare reduziert, sondern auch weniger gültige
         Kommentare zur Folge hat. Blogs mit einem hohen
         <em>Troll-Faktor</em> [*]
-        <span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://de.wikipedia.org/wiki/Troll_%28Netzkultur%29" target="_blank">http://de.wikipedia.org/wiki/Troll_(Netzkultur)</a></span><!-- footnote -->
+        <span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://de.wikipedia.org/wiki/Troll_%28Netzkultur%29" target="_blank" rel="noopener">http://de.wikipedia.org/wiki/Troll_(Netzkultur)</a></span><!-- footnote -->
         wissen es jedoch sicher zu schätzen, nur noch wirklich ernsthafte
         Kommentare zu erhalten.
     </span>
@@ -486,7 +486,7 @@ unterscheiden, gibt es spezielle Lizenzen, die sich auf Texte und eigene
 Bilder spezialisiert haben. Die wohl verbreitetste und bekannteste ist
 die sogenannte <em>Creative
 Commons</em>-Lizenz [*]
-<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://de.creativecommons.org/" target="_blank">http://de.creativecommons.org/</a></span><!-- footnote -->. Diese
+<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://de.creativecommons.org/" target="_blank" rel="noopener">http://de.creativecommons.org/</a></span><!-- footnote -->. Diese
 bietet ein bausatzartiges Modell, bei dem Sie sich Ihre Lizenz aus
 einigen Komponenten zusammenstellen können. Sie können auswählen, ob Ihr
 Text kommerziell eingesetzt werden darf, ob Ihr Urheberrecht jederzeit
@@ -1329,7 +1329,7 @@ wurde das Serendipity-Plugin <code>Geotag</code> erfunden. Wenn Sie dieses
 Plugin installieren, können Sie in den <em>Erweiterten Optionen</em> jeden
 Blog-Artikels mittels einer
 Google-Map [*]
-<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://maps.google.com/" target="_blank">http://maps.google.com/</a></span><!-- footnote --> einem
+<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://maps.google.com/" target="_blank" rel="noopener">http://maps.google.com/</a></span><!-- footnote --> einem
 Punkt auf der Welt zuordnen. Die geographischen Daten bindet das Plugin daraufhin in
 Ihrem RSS-Feed und auf der Webseite ein, von wo sie von Suchmaschinen
 indiziert werden können.</p>
@@ -3543,18 +3543,18 @@ Abgesehen von diesem internen Plugin macht es durchaus Sinn, weitere
 Möglichkeiten der Statistikerhebung auf dem Webserver zu benutzen, allen
 voran die Analyse von Webserver-Logfiles mittels Programmen wie
 awStats [*]
-<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://awstats.sourceforge.net/" target="_blank">http://awstats.sourceforge.net/</a></span><!-- footnote -->,
+<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://awstats.sourceforge.net/" target="_blank" rel="noopener">http://awstats.sourceforge.net/</a></span><!-- footnote -->,
 webalizer [*]
-<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://www.mrunix.net/webalizer/" target="_blank">http://www.mrunix.net/webalizer/</a></span><!-- footnote --> oder
+<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://www.mrunix.net/webalizer/" target="_blank" rel="noopener">http://www.mrunix.net/webalizer/</a></span><!-- footnote --> oder
 Modlogan [*]
-<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://modlogan.org/" target="_blank">http://modlogan.org/</a></span><!-- footnote -->. Auch das Google
+<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://modlogan.org/" target="_blank" rel="noopener">http://modlogan.org/</a></span><!-- footnote -->. Auch das Google
 Analytics [*]
-<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://www.google.com/analytics/" target="_blank">http://www.google.com/analytics/</a></span><!-- footnote --> Widget hat
+<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://www.google.com/analytics/" target="_blank" rel="noopener">http://www.google.com/analytics/</a></span><!-- footnote --> Widget hat
 sich als extrem detailreich erwiesen (und es lässt sich einfach via
 JavaScript oder eigenständigem Serendipity-Plugin einbinden).
 Eine mehr private Alternative zu letztgenanntem Werkzeug ist
 Piwik [*]
-<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://piwik.org/" target="_blank">http://piwik.org/</a></span><!-- footnote -->,
+<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://piwik.org/" target="_blank" rel="noopener">http://piwik.org/</a></span><!-- footnote -->,
 dass gerade aus Datenschutzsicht eher zu empfehlen ist.
 </p>
 

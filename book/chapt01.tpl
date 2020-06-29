@@ -59,12 +59,12 @@ nutzen.</p>
 aus der Taufe: Jannis Hermanns, Sterling Hughes, George Schlossnagle,
 Wez Furlong, Joyce Park und Joseph Tate (Letzterer ist auch Autor der
 Cracklib [*]
-<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://www.cracklib.net/" target="_blank">http://www.cracklib.net/</a></span><!-- footnote --> und von
+<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://www.cracklib.net/" target="_blank" rel="noopener">http://www.cracklib.net/</a></span><!-- footnote --> und von
 <code>mod-pubsub</code> [*]
-<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://sourceforge.net/projects/mod-pubsub" target="_blank">http://sourceforge.net/projects/mod-pubsub</a></span><!-- footnote -->)
+<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://sourceforge.net/projects/mod-pubsub" target="_blank" rel="noopener">http://sourceforge.net/projects/mod-pubsub</a></span><!-- footnote -->)
 sowie Sebastian Bergmann vom phpUnit-Projekt.[*]
 <span class="footnote"><i class="fa fa-info-circle"></i> Die
-PHP-Testsuite ist unter <a href="http://www.phpunit.de/" target="_blank">http://www.phpunit.de/</a> erhältlich.</span><!-- footnote -->
+PHP-Testsuite ist unter <a href="http://www.phpunit.de/" target="_blank" rel="noopener">http://www.phpunit.de/</a> erhältlich.</span><!-- footnote -->
 Mit den Jahren entwickelten wechselnde Programmierer das System stetig
 und konsequent weiter. Seit 2003 ist der Autor des ursprünglichen Buchtextes, Garvin Hicking, leitender
 Entwickler.</p>
@@ -207,7 +207,7 @@ stellte Serendipity frühzeitig Schutzmechanismen bereit.</p>
     <span class="inline-tag">Smarty</span>
 </span>
 <em>Smarty</em>, [*] <span class="footnote"><i class="fa fa-info-circle"></i>
-<a href="http://www.smarty.net/" target="_blank">http://www.smarty.net/</a></span><!-- footnote -->
+<a href="http://www.smarty.net/" target="_blank" rel="noopener">http://www.smarty.net/</a></span><!-- footnote -->
 einem De-facto-Standard unter PHP, entwickelt. Zahlreiche Entwickler
 schwören auf dessen einfache Syntax, die es selbst Anfängern
 ermöglicht, die HTML-Ausgabe anzupassen, ohne PHP lernen zu müssen.</p>
@@ -219,7 +219,7 @@ ermöglicht, die HTML-Ausgabe anzupassen, ohne PHP lernen zu müssen.</p>
     <span class="inline-tag">Template-Archiv|see{Spartacus}</span>
 </span>
 <em>Spartacus</em> [*] <span class="footnote"><i class="fa fa-info-circle"></i>
-<a href="http://spartacus.s9y.org/" target="_blank">http://spartacus.s9y.org/</a><br>
+<a href="http://spartacus.s9y.org/" target="_blank" rel="noopener">http://spartacus.s9y.org/</a><br>
 <i class="fa fa-info-circle"></i>
 <a href="https://ophian.github.io/plugins/">Spartacus auf Styx</a></span><!-- footnote -->
 bietet derzeit mehr als 160 Plugins und knapp 100 Templates an. Diese können
@@ -373,15 +373,15 @@ ausgeführt, sondern läuft im Internet auf einem Webserver.
 </span>
 Einen solchen mietet man meistens bei Providern wie
 Manitu [*]
-<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://www.manitu.de/" target="_blank">http://www.manitu.de/</a></span><!-- footnote -->,
+<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://www.manitu.de/" target="_blank" rel="noopener">http://www.manitu.de/</a></span><!-- footnote -->,
 1&amp;1 [*]
-<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://www.einsundeins.de/" target="_blank">http://www.einsundeins.de/</a></span><!-- footnote -->,
+<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://www.einsundeins.de/" target="_blank" rel="noopener">http://www.einsundeins.de/</a></span><!-- footnote -->,
 Strato [*]
-<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://www.strato.de/" target="_blank">http://www.strato.de/</a></span><!-- footnote -->,
+<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://www.strato.de/" target="_blank" rel="noopener">http://www.strato.de/</a></span><!-- footnote -->,
 tiggerswelt [*]
-<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://www.tiggerswelt.net/" target="_blank">http://www.tiggerswelt.net/</a></span><!-- footnote --> oder
+<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://www.tiggerswelt.net/" target="_blank" rel="noopener">http://www.tiggerswelt.net/</a></span><!-- footnote --> oder
 anderen [*]
-<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://www.webhostlist.de/" target="_blank">http://www.webhostlist.de/</a></span><!-- footnote -->;
+<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://www.webhostlist.de/" target="_blank" rel="noopener">http://www.webhostlist.de/</a></span><!-- footnote -->;
 die Dienstleistung, die diese erbringen, nennt man <em>Webhosting</em>.
 <span class="tag-box invisible">
     <span class="inline-tag">Webhosting</span>
@@ -408,7 +408,7 @@ keine Änderungen an Templates vornehmen oder eigene Plugins einspielen.
 Um das System erst einmal nur zu testen oder als einfaches
 Kommunikationsmittel einzusetzen, ist dies sicher eine gute Alternative. Eine Liste
 dieser Provider finden Sie auf der Serendipity-Webseite.[*]
-<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://www.s9y.org/61.html" target="_blank">http://www.s9y.org/61.html</a></span><!-- footnote -->
+<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://www.s9y.org/61.html" target="_blank" rel="noopener">http://www.s9y.org/61.html</a></span><!-- footnote -->
 </p>
 
 <p>
@@ -835,7 +835,7 @@ Webserver wie Microsoft IIS oder lighttpd bieten diese Möglichkeiten leider
 nicht, daher ist dort keine URL-Umformung möglich [*]
 <span class="footnote"><i class="fa fa-info-circle"></i> Mit etwas manuellem
 Aufwand und Kenntnis der Webserver lassen sich die benötigten Umformungsregeln
-jedoch auch nachrüsten, mehr dazu unter <a href="http://s9y.org/119.html" target="_blank">http://s9y.org/119.html</a></span><!-- footnote -->.</p>
+jedoch auch nachrüsten, mehr dazu unter <a href="http://s9y.org/119.html" target="_blank" rel="noopener">http://s9y.org/119.html</a></span><!-- footnote -->.</p>
 
 <p>Bei der Installation wird Serendipity versuchen, automatisch die
 passendste Methode für Sie herauszufinden. Abhängig
@@ -1349,7 +1349,7 @@ Aufmerksamkeit. Da diese auch im Zusammenhang mit
 Serendipity wichtig sind, gehen wir darauf im Folgenden gezielt und knapp
 ein. Detaillierte Definitionen liefert zB.
 die deutsche Wikipedia.[*]
-<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://de.wikipedia.org/" target="_blank">http://de.wikipedia.org/</a></span><!-- footnote -->
+<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://de.wikipedia.org/" target="_blank" rel="noopener">http://de.wikipedia.org/</a></span><!-- footnote -->
 </p>
 
 <section id="U141" class="sub">
@@ -1367,7 +1367,7 @@ die deutsche Wikipedia.[*]
 </p>
 
 <p>HTML [*]
-<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://meiert.com/de/publications/indices/html-elements/" target="_blank">http://meiert.com/de/publications/indices/html-elements/</a></span><!-- footnote -->
+<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://meiert.com/de/publications/indices/html-elements/" target="_blank" rel="noopener">http://meiert.com/de/publications/indices/html-elements/</a></span><!-- footnote -->
 stellte ursprünglich eine einfache Syntax zur Formatierung
 von Dokumenten im Web bereit. Während es anfangs nur sehr primitive
 Auszeichnungselemente gab (Überschriften, Fettungen, Tabellen), sorgten
@@ -1396,9 +1396,9 @@ wieder aufleben zu lassen, ist ein Vorteil von XHTML unumstritten:
 Weiterverwendbarkeit.</p>
 
 <p>Inzwischen sind wir bei dem universalen HTML 5 [*]
-<span class="footnote"><i class="fa fa-info-circle"></i> <a href="https://www.w3.org/TR/html5/" target="_blank">https://www.w3.org/TR/html5/</a></span><!-- footnote -->
+<span class="footnote"><i class="fa fa-info-circle"></i> <a href="https://www.w3.org/TR/html5/" target="_blank" rel="noopener">https://www.w3.org/TR/html5/</a></span><!-- footnote -->
 und gar HTML 5.1 [*]
-<span class="footnote"><i class="fa fa-info-circle"></i> <a href="https://w3c.github.io/html/" target="_blank">https://w3c.github.io/html/</a></span><!-- footnote -->
+<span class="footnote"><i class="fa fa-info-circle"></i> <a href="https://w3c.github.io/html/" target="_blank" rel="noopener">https://w3c.github.io/html/</a></span><!-- footnote -->
 gelandet.</p>
 
 </section><!-- section.sub end -->
@@ -1798,12 +1798,12 @@ Standards, darunter
     <span class="inline-tag">BBCode</span>
 </span>
 BBCode [*]
-<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://www.phpbb.com/community/faq.php?mode=bbcode" target="_blank">http://www.phpbb.com/community/faq.php?mode=bbcode</a></span><!-- footnote -->
+<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://www.phpbb.com/community/faq.php?mode=bbcode" target="_blank" rel="noopener">http://www.phpbb.com/community/faq.php?mode=bbcode</a></span><!-- footnote -->
 <span class="tag-box invisible">
     <span class="inline-tag">Textile</span>
 </span>
 oder Textile [*]
-<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://txstyle.org/" target="_blank">http://txstyle.org/</a></span><!-- footnote --> bieten
+<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://txstyle.org/" target="_blank" rel="noopener">http://txstyle.org/</a></span><!-- footnote --> bieten
 <span class="tag-box invisible">
     <span class="inline-tag">Tags</span>
 </span>
@@ -1854,7 +1854,7 @@ Bilder zu verschieben oder Tabellen einzufügen.</p>
 <p class="text">Serendipity wird seit <em>Serendipity 2.0+</em>
 standardmäßig mit dem WYSIWYG-Editor <em>CKEditor</em> [*]
 <span class="footnote"><i class="fa fa-info-circle"></i>
-<a href="http://ckeditor.com/" target="_blank">http://ckeditor.com/</a></span><!-- footnote -->,
+<a href="http://ckeditor.com/" target="_blank" rel="noopener">http://ckeditor.com/</a></span><!-- footnote -->,
 dem überaus erfolgreichen Nachfolger des <em>FCKeditor</em> ausgeliefert.
 Dieser Editor läuft problemlos mit allen aktuellen Browsern (Chrome,
 Firefox, Internet Explorer, Firefox, Safari, etc) und wird professionell

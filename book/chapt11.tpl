@@ -66,7 +66,7 @@ bei deren Verwirklichung helfen möchte, ist herzlich eingeladen:</p>
 </header>
 
 <p>Mittels PHPUnit [*] <span class="footnote"><i class="fa fa-info-circle"></i>
-<a href="http://www.phpunit.de/" target="_blank">http://www.phpunit.de/</a></span><!-- footnote -->
+<a href="http://www.phpunit.de/" target="_blank" rel="noopener">http://www.phpunit.de/</a></span><!-- footnote -->
 können die einzelnen Methoden der Serendipity-Plugin-API und auch einzelne
 Funktionen des Serendipity-Frameworks durch sogenannte Test-Cases auf
 Funktionstüchtigkeit geprüft werden.</p>
@@ -244,7 +244,7 @@ Dinge beachten:</p>
 <p>Serendipity wird über öffentlich zugängliche Server gewartet. 
 Der gesamte Code liegt seit Herbst 2011 auf Github [*]
 <span class="footnote"><i class="fa fa-info-circle"></i>
-<a href="https://github.com/s9y" target="_blank">https://github.com/s9y</a></span><!-- footnote -->
+<a href="https://github.com/s9y" target="_blank" rel="noopener">https://github.com/s9y</a></span><!-- footnote -->
 und wird zentral dort verwaltet. Sourceforce dient nur noch aus Kompatibilitätsgründen
 als SVN/CSV Verteiler und die Mirrors sind auch nur noch für eventuelle Ausfälle von GitHub relevant.
 (Siehe <span class="reference">sourcecodeverwaltung</span> auf Seite
@@ -306,7 +306,7 @@ Tabulatoren) vorgenommen werden.</p>
 <p>Optionale Einrückungen für IF-Abfragen und Schleifen sollten immer genutzt
 werden. Grundsätzlich sollten Sie sich bei der Programmierung an die
 PEAR-Coding-Standards [*] <span class="footnote"><i class="fa fa-info-circle"></i>
-<a href="http://pear.php.net/manual/en/standards.php" target="_blank">http://pear.php.net/manual/en/standards.php</a></span><!-- footnote -->
+<a href="http://pear.php.net/manual/en/standards.php" target="_blank" rel="noopener">http://pear.php.net/manual/en/standards.php</a></span><!-- footnote -->
 halten.</p>
 
 <p>Versuchen Sie Ihren Code schlank zu halten. Redundante Codeteile sollten Sie

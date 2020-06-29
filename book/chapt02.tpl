@@ -40,7 +40,7 @@ kleiner Dateien beschleunigt. Für Windows ist
     <span class="inline-tag">SmartFTP</span>
 </span>
 SmartFTP [*]
-<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://www.smartftp.com/" target="_blank">http://www.smartftp.com/</a></span><!-- footnote --> für solche Zwecke
+<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://www.smartftp.com/" target="_blank" rel="noopener">http://www.smartftp.com/</a></span><!-- footnote --> für solche Zwecke
 empfehlenswert. Weiterhin sollte das FTP-Programm auch ermöglichen,
 Dateirechte mit dem Befehl <code>chmod</code> zu ändern.</p>
 
@@ -62,9 +62,9 @@ Um später leicht Änderungen an Ihrem Layout durchzuführen, empfiehlt der
 Autor
 den Einsatz von Mozilla Firefox und die Installation der Extensions
 "Firebug" [*]
-<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://www.getfirebug.com/" target="_blank">http://www.getfirebug.com/</a></span><!-- footnote --> und
+<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://www.getfirebug.com/" target="_blank" rel="noopener">http://www.getfirebug.com/</a></span><!-- footnote --> und
 "Web-Developer" [*]
-<span class="footnote"><i class="fa fa-info-circle"></i> <a href="https://addons.mozilla.org/de/firefox/addon/60" target="_blank">https://addons.mozilla.org/de/firefox/addon/60</a></span><!-- footnote -->.
+<span class="footnote"><i class="fa fa-info-circle"></i> <a href="https://addons.mozilla.org/de/firefox/addon/60" target="_blank" rel="noopener">https://addons.mozilla.org/de/firefox/addon/60</a></span><!-- footnote -->.
 Mittels dieser beiden Erweiterungen können Sie Designänderungen direkt in der
 Browser-Ansicht testen. Dies erleichtert die
 Template-Erstellung ungemein.</p>
@@ -77,8 +77,8 @@ sind solche Erweiterungen über die Jahre eigentlich unnötig geworden, da heutz
 <span class="footnote"><i class="fa fa-info-circle"></i> Das ist natürlich spezifisch in verschiedenen Browsern auf verschiedenen Betriebssystemen.
 Zum Beispiel wäre das gleiche auf OS X in Chrome so [<code>⌥ + ⌘ + J</code>] zu erreichen.</span>) mitbringen,
 die die genannten Änderungen spielerisch einfach <em>“am lebenden Objekt”</em> einer Webseite ermöglichen. [*]
-<span class="footnote"><i class="fa fa-info-circle"></i> <a href="https://developer.mozilla.org/en-US/docs/Tools" target="_blank">https://developer.mozilla.org/en-US/docs/Tools</a></span><!-- footnote -->
-<span class="footnote"><i class="fa fa-info-circle"></i> <a href="https://developer.chrome.com/devtools" target="_blank">https://developer.chrome.com/devtools</a></span><!-- footnote --></p>
+<span class="footnote"><i class="fa fa-info-circle"></i> <a href="https://developer.mozilla.org/en-US/docs/Tools" target="_blank" rel="noopener">https://developer.mozilla.org/en-US/docs/Tools</a></span><!-- footnote -->
+<span class="footnote"><i class="fa fa-info-circle"></i> <a href="https://developer.chrome.com/devtools" target="_blank" rel="noopener">https://developer.chrome.com/devtools</a></span><!-- footnote --></p>
 
 <p>Zur Verwaltung von Datenbanken und Tabellen gibt es zahlreiche
 SQL-Anwendungen. Bei der Benutzung von MySQL ist das Web-basierte
@@ -87,7 +87,7 @@ SQL-Anwendungen. Bei der Benutzung von MySQL ist das Web-basierte
     <span class="inline-tag">phpMyAdmin</span>
 </span>
 phpMyAdmin [*]
-<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://www.phpmyadmin.net/" target="_blank">http://www.phpmyadmin.net/</a></span><!-- footnote --> sehr zu empfehlen,
+<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://www.phpmyadmin.net/" target="_blank" rel="noopener">http://www.phpmyadmin.net/</a></span><!-- footnote --> sehr zu empfehlen,
 <span class="tag-box invisible">
     <span class="inline-tag">PostgreSQL</span>
 </span>
@@ -96,14 +96,14 @@ für PostgreSQL gibt es analog
     <span class="inline-tag">phpPgAdmin</span>
 </span>
 phpPgAdmin [*]
-<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://phppgadmin.sourceforge.net/" target="_blank">http://phppgadmin.sourceforge.net/</a></span><!-- footnote --> und für
+<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://phppgadmin.sourceforge.net/" target="_blank" rel="noopener">http://phppgadmin.sourceforge.net/</a></span><!-- footnote --> und für
 SQLite
 <span class="tag-box invisible">
     <span class="inline-tag">SQLite</span>
     <span class="inline-tag">phpSQLiteAdmin</span>
 </span>
 phpSQLiteAdmin.[*]
-<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://www.phpguru.org/static/phpSQLiteAdmin.html" target="_blank">http://www.phpguru.org/static/phpSQLiteAdmin.html</a></span><!-- footnote -->
+<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://www.phpguru.org/static/phpSQLiteAdmin.html" target="_blank" rel="noopener">http://www.phpguru.org/static/phpSQLiteAdmin.html</a></span><!-- footnote -->
 Die Installationsanleitung für diese Web-Anwendungen schlagen Sie bitte auf den
 jeweiligen Projekt-Webseiten nach.
 <span class="tag-box invisible">
@@ -174,14 +174,14 @@ Seitenausgabe auffasst.</p>
 
 <p>
 <span class="mbold">Serendipity Styx</span> sollten Sie natürlich direkt auf der GitHub-Projektseite.[*]
-<span class="footnote"><i class="fa fa-info-circle"></i> <a href="https://github.com/ophian/styx/releases" target="_blank">https://github.com/ophian/styx/releases</a></span><!-- footnote -->
+<span class="footnote"><i class="fa fa-info-circle"></i> <a href="https://github.com/ophian/styx/releases" target="_blank" rel="noopener">https://github.com/ophian/styx/releases</a></span><!-- footnote -->
 unter Releases herunterladen.
 </p>
 
 <p>Das Serendipity-Paket bekommen Sie entweder von der
 Projekt-Webseite <code>http://www.s9y.org/</code> im Bereich
 <span class="mbold">Downloads</span> oder direkt von der SourceForge-Projektseite.[*]
-<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://sourceforge.net/project/showfiles.php?group_id=75065" target="_blank">http://sourceforge.net/project/showfiles.php?group_id=75065</a></span><!-- footnote -->
+<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://sourceforge.net/project/showfiles.php?group_id=75065" target="_blank" rel="noopener">http://sourceforge.net/project/showfiles.php?group_id=75065</a></span><!-- footnote -->
 </p>
 
 <p>

@@ -26,7 +26,7 @@ falls Ihr Lieblings-Plugin nicht beschrieben wird.
 Die meisten Plugins sind trotz kurzer Beschreibung leicht zu benutzen
 und zu konfigurieren. Sollte es darüber hinaus Fragen zu der Benutzung
 eines Plugins geben, wird man Ihnen im Serendipity-Forum [*]
-<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://board.s9y.org/" target="_blank">http://board.s9y.org/</a></span><!-- footnote --> sicherlich helfen.</p>
+<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://board.s9y.org/" target="_blank" rel="noopener">http://board.s9y.org/</a></span><!-- footnote --> sicherlich helfen.</p>
 
 <p>
 <span class="tag-box invisible">
@@ -1442,7 +1442,7 @@ also beispielsweise <code>http://www.example.com/serendipity/rss.php?version=2.0
         Namen des Feldes angeben, das Serendipity in der Seitenleiste darstellen
         soll. Die Liste der verfügbaren Felder können Sie in der Spezifikation
         des jeweiligen RSS-Formats nachlesen [*]
-        <span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://www.rssboard.org/rss-2-0" target="_blank">http://www.rssboard.org/rss-2-0</a> für RSS 2.0; weitere Links finden
+        <span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://www.rssboard.org/rss-2-0" target="_blank" rel="noopener">http://www.rssboard.org/rss-2-0</a> für RSS 2.0; weitere Links finden
         Sie auf <code>http://de.wikipedia.org/wiki/RSS</code></span><!-- footnote -->. Sie können beliebig
         viele Feldinhalte anzeigen lassen, indem Sie mehrere Felder mittels
         <code>,</code> voneinander trennen.
@@ -1683,7 +1683,7 @@ Dateimanagern gewohnt, Kategorien platzsparend ein- und ausklappen.</p>
 Diese müssen Sie entweder als zentrale PEAR-Bibliothek über
 den Server-Provider installieren oder manuell installieren. Dazu
 müssen Sie das PEAR-Paket herunterladen [*]
-<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://pear.php.net/package/HTML_TreeMenu" target="_blank">http://pear.php.net/package/HTML_TreeMenu</a></span><!-- footnote --> und
+<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://pear.php.net/package/HTML_TreeMenu" target="_blank" rel="noopener">http://pear.php.net/package/HTML_TreeMenu</a></span><!-- footnote --> und
 entpacken. Laden Sie die Datei <code>HTML_TreeMenu-1.2.0/TreeMenu.php</code>
 anschließend ins Serendipity-Verzeichnis <code>bundled-libs/HTML/</code> hoch.
 Kopieren Sie dann noch die Datei <code>TreeMenu.js</code> und das ganze
@@ -1818,7 +1818,7 @@ Webserver benötigt und sonst keine weiteren Voraussetzungen besitzt.</p>
 <p>Das <em>FLICKR Sidebar-Plugin</em> ist auch auf PHP4-Webservern benutzbar,
 dafür müssen Sie aber selbständig eine fremde Bibliothek herunterladen.
 Diese Bibliothek nennt sich <code>PEAR::Flickr_API</code> [*]
-<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://code.iamcal.com/php/flickr/readme.htm" target="_blank">http://code.iamcal.com/php/flickr/readme.htm</a></span><!-- footnote -->. Laden
+<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://code.iamcal.com/php/flickr/readme.htm" target="_blank" rel="noopener">http://code.iamcal.com/php/flickr/readme.htm</a></span><!-- footnote -->. Laden
 Sie sich das ZIP-Paket der Bibliothek herunter, entpacken Sie die Datei
 <code>API.php</code> aus dem Unterverzeichnis <code>pear/Flickr/</code> und laden Sie sie in
 Ihr Serendipity-Verzeichnis <code>bundled-libs</code> hoch. Danach muss sich
@@ -1884,7 +1884,7 @@ finden Sie auf der Flickr-Seite unter
 </p>
 
 <p><em>Google AdSense</em> [*]
-<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://www.google.com/adsense" target="_blank">http://www.google.com/adsense</a></span><!-- footnote --> ist ein
+<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://www.google.com/adsense" target="_blank" rel="noopener">http://www.google.com/adsense</a></span><!-- footnote --> ist ein
 Angebot von Google, mit dem Sie Werbeanzeigen von Googles Werbepartnern
 auf Ihrer eigenen Seite einbinden können.</p>
 
@@ -1966,11 +1966,11 @@ verschiedenen Plugins unter einem Dach zu vereinen. Anstatt für jede
 einzelne Galerie-Software ein eigenständiges Plugin zu installieren,
 können Sie mit diesem Plugin direkt mehrere mögliche Bildquellen
 auswählen: <em>Menalto Gallery</em> [*]
-<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://gallery.menalto.com" target="_blank">http://gallery.menalto.com</a></span><!-- footnote -->,
+<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://gallery.menalto.com" target="_blank" rel="noopener">http://gallery.menalto.com</a></span><!-- footnote -->,
 <em>Coppermine Gallery</em> [*]
-<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://coppermine-gallery.net" target="_blank">http://coppermine-gallery.net</a></span><!-- footnote -->,
+<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://coppermine-gallery.net" target="_blank" rel="noopener">http://coppermine-gallery.net</a></span><!-- footnote -->,
 <em>Zooomr</em> [*]
-<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://www.zooomr.com" target="_blank">http://www.zooomr.com</a></span><!-- footnote -->, aber auch die integrierte
+<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://www.zooomr.com" target="_blank" rel="noopener">http://www.zooomr.com</a></span><!-- footnote -->, aber auch die integrierte
 <em>Serendipity-Mediathek</em>.</p>
 
 <p>Bitte beachten Sie, dass für die gerade genannten Galerie-Anwendungen
