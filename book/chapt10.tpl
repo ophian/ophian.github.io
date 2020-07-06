@@ -297,7 +297,7 @@ Plugin aufzurufen.</p>
     <span class="li"><code class="item sub-file">serendipity_admin_image_selector.php</code> stellt das Mediathek-Popup dar.</span>
     <span class="li"><code class="item sub-file">serendipity_config.inc.php</code> lädt das Serendipity Framework.</span>
     <span class="li"><code class="item sub-file">serendipity_config_local.inc.php</code> enthält zentrale Konfigurationswerte Serendipitys.</span>
-    <span class="li"><code class="item sub-file">serendipity_editor.js</code> stellt JavaScript-Funktionen der Mediathek bereit.</span>
+    <span class="li"><code class="item sub-file">serendipity_editor.js</code>, <code class="item sub-file">serendipity_styx.js</code> stellt JavaScript-Funktionen im Backend bereit.</span>
     <span class="li"><code class="item sub-file">serendipity_xmlrpc.php</code> bindet die Anlaufstelle für die XML-RPC API ein.</span>
     <span class="li"><code class="item sub-file">wfwcomment.php</code> bindet eine Anlaufstelle für wfwComment-API-Aufrufe ein.</span>
 </span>
@@ -7617,8 +7617,9 @@ keine Zugangsdaten zu einer Datenbank oder Weiteres.</p>
 <p>Nun müssen wir die <em>Deployments</em> einrichten. Serendipity verfügt über
 eine kleine Sammlung an Basisdateien, die wir benötigen.</p>
 
-<p>Dazu erstellen wir vorerst ein leeres Blog-Verzeichnis in jedem der
-Zielverzeichnisse:</p>
+<p>Dazu erstellen wir vorerst ein leeres Blog-Verzeichnis in jedem der Zielverzeichnisse:</p>
+
+<p>Bitte beachten Sie: “serendipity_editor.js” muss ab Serendipity Styx 3.1 “serendipity_styx.js” heißen.</p>
 
 <pre><code class="txt">
     /home/www/seniorgamer.de/htdocs/shooter/<br>
@@ -8325,7 +8326,7 @@ Plugins oder dem Kernsystem unterstützt wird.</p>
 
 <p>Wenn ein Bild über das Mediathek-Popup in einen Blog-Artikel eingebunden
 wird (siehe Seite <span class="pageref"><a href="#mediathek-popup">Mediathek-Popup</a></span>),
-sorgt ein JavaScript (aus der Datei <code>serendipity_editor.js</code>, Funktion
+sorgt ein JavaScript (aus der Datei <code>serendipity_editor.js</code>, bzw- <code>serendipity_styx.js</code>, Funktion
 <code>serendipity_admin_imageselector_done()</code>) dafür, dass die URL dieses
 Bildes gemeinsam mit dem entsprechenden HTML-Code in den Beitrag eingebunden
 wird.</p>
@@ -8421,7 +8422,7 @@ wird, gibt das Popup-Fenster lediglich einen Dateinamen zurück. Ansonsten
 liefert das Popup den vollständigen HTML-Code zur Darstellung eines Bildes.</p>
 
 <p>Weiterhin muss das fremde CMS dafür sorgen, dass die Datei
-<code>serendipity_editor.js</code> via JavaScript eingebunden wird, damit das Popup
+<code>serendipity_editor.js</code> bzw. <code>serendipity_styx.js</code> via JavaScript eingebunden wird, damit das Popup
 auf die öffnende Seite (<code>parent.window.opener...</code>) zugreifen kann. Alle
 zurückgelieferten Werte und angesprochenen JavaScript-Funktionen
 können Sie nach Belieben über die Template-Dateien <code>admin/media_choose.tpl</code>
