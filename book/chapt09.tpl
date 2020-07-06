@@ -2175,8 +2175,9 @@ Diese Datei definiert die Aktionen der Persönlichen Einstellungen, wie "Neues P
 <p class="desc citem-desc">
 <span class="tag-box invisible">
     <span class="inline-tag">Template-Dateien!admin/serendipity_editor.js.tpl</span>
+    <span class="inline-tag">Template-Dateien!admin/serendipity_styx.js.tpl</span>
 </span>
-<code class="item file">admin/serendipity_editor.js.tpl</code>
+<code class="item file">admin/serendipity_editor.js.tpl</code>, <code class="item file">admin/serendipity_styx.js.tpl</code>
 <span class="desc-info">Die templatisierte ehemalige <code class="item js">serendipity_editor.js</code> Datei.</span>
 </p>
 
@@ -2571,17 +2572,19 @@ Dies ist die systemweite <code class="item file">/templates/jquery.js</code> Dat
 <p class="desc citem-desc">
 <span class="tag-box invisible">
     <span class="inline-tag">Template-Dateien!admin/serendipity_editor.js</span>
+    <span class="inline-tag">Template-Dateien!admin/serendipity_styx.js</span>
 </span>
-<code class="item file">admin/serendipity_editor.js</code>
-<span class="desc-info">JavaScript Template für die Backend-Funktionalitäten in Serendipity, beispielsweise
-bei der Plugin-Verwaltung. Dies ist eine rudimentäre Backup für die unten erwähnte (default) Smarty Template Datei.</span>
+<code class="item file">admin/serendipity_editor.js</code>, <code class="item file">admin/serendipity_styx.js</code>
+<span class="desc-info">Vorgeneriertes JavaScript Fallback für die Backend-Funktionalitäten in Serendipity, beispielsweise
+bei der Plugin-Verwaltung. Dies ist ein rudimentäres Backup für die unten erwähnte (default) Smarty Template Datei.</span>
 </p>
 
 <p class="desc citem-desc">
 <span class="tag-box invisible">
     <span class="inline-tag">Template-Dateien!admin/serendipity_editor.js.php</span>
+    <span class="inline-tag">Template-Dateien!admin/serendipity_styx.js.php</span>
 </span>
-<code class="item file">admin/serendipity_editor.js.php</code>
+<code class="item file">admin/serendipity_editor.js.php</code>, <code class="item file">admin/serendipity_styx.js.php</code>
 <span class="desc-info">JavaScript PHP-Template für die Backend-Funktionalitäten in Serendipity, siehe
 das default-php Theme.</span>
 </p>
@@ -2589,16 +2592,17 @@ das default-php Theme.</span>
 <p class="desc citem-desc">
 <span class="tag-box invisible">
     <span class="inline-tag">Template-Dateien!admin/serendipity_editor.js.tpl</span>
+    <span class="inline-tag">Template-Dateien!admin/serendipity_styx.js.tpl</span>
 </span>
-<code class="item file">admin/serendipity_editor.js.tpl</code>
+<code class="item file">admin/serendipity_editor.js.tpl</code>, <code class="item file">admin/serendipity_styx.js.tpl</code>
 <span class="desc-info">Das default JavaScript Smarty-Template zur Generierung der virtuellen
-<code class="item file">serendipity_editor.js</code> Datei.</span>
+<code class="item file">serendipity_editor.js</code>, <code class="item file">serendipity_styx.js</code> Datei.</span>
 </p>
 
 <p class="desc citem-desc">
 <span class="desc-info">Für Serendipity 2.0+ ist nur noch die bereits erwähnte,
-virtuelle <code class="item file">serendipity_editor.js</code> und die ebenfalls virtualisierte
-<code class="item file">serendipity_admin.js</code> relevant. Während die erste der beiden Dateien
+virtuelle <code class="item file">serendipity_editor.js</code>, <code class="item file">serendipity_styx.js</code> und die ebenfalls virtualisierte
+<code class="item file">serendipity_admin.js</code> relevant. Während die erste der beiden Dateien (je nach Ausgangsversion)
 eine Zusammenfassung aller Javascript Funktionen für das Serendipity Backend darstellt,
 sorgt Letztere dafür, dass Plugins sich in diesen Ausgabe Hook <code>'js_backend'</code>,
 siehe <a href="#ereignis-hooks">Ereignis-Hooks</a>, einklinken können.</span>
