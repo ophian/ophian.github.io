@@ -6287,7 +6287,7 @@ Internet nicht geeignet sind.</span>
 <span class="desc-info">
     <span class="box">
         Standardmäßig ist es aus Sicherheitsgründen verboten, Daten über
-        lokale URLs abzurufen, um Server Side Request Forgers (SSRF) zu
+        lokale URLs abzurufen, um Server-Side Request Forgery (SSRF) zu
         vermeiden. Wenn Sie ein lokales Intranet verwenden, können sie
         die Datenabfrage über diese Option explizit erlauben.
     </span>
