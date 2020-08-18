@@ -1735,7 +1735,7 @@ verschachtelt werden, um Unterkategorien zu ermöglichen.</p>
 <p>Pro Zeile gibt es die bekannten zwei Buttons zum
 <span class="mbold">Bearbeiten</span> und <span class="mbold">Löschen</span>
 einer Kategorie. In ihrer Mitte befindet sich ein <span class="mbold">Plus</span>-Symbol
-für die Erstellung einer Unterkategorie der jeweilen Kategorie.
+für die Erstellung einer Unterkategorie der jeweiligen Kategorie.
 Unter dem Namen einer Kategorie liegen, versteckt in einer Klappbox,
 die über das kleine rechtsweisende Dreiecks-Symbol aktiviert wird,
 weitere Angaben zur Beschreibung einer Kategorie, und abschließend
