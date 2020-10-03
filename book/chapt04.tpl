@@ -3615,14 +3615,19 @@ oder sonstwie als herausragend angesehen werden. Darunter sind alle anderen,
 wie auch einige Besondere, wie ein default-php oder auch default-xml Template,
 oder Beispiele für Engine Templates.</p>
 
-<p>Die Serendpity Styx 3.x Series hat dieses Konzept der empfohlenen Themes
+<p>Die Serendipity Styx 3.x Series hat dieses Konzept der empfohlenen Themes
 wieder verworfen und vereinfacht. Die mitgelieferten Themes heißen nun einfach
-"Kern Themes"; die per Spartacus hinzugefügten "Verfügbare Themes".
-Diese mitgelieferten Kern Themes bestehen zumeist aus den Standard Themes
-(der verschiedenen Jahre und Revisionen, wie das "pure" 2020, das "2k11" aus
-2013, usw.), verschiedenen anderen Themes, Besonderheiten und auch interessanten
-Engine Themes, die als Beispiele gelten können. Ihnen gemein ist, dass sie mit
-den Styx Revisionen kontinuierlich gepflegt wurden.</p>
+"Kern Themes"; die per Spartacus hinzugefügten "Verfügbare Themes".</p>
+
+<p>Diese mitgelieferten Kern Themes bestehen zum Teil aus den Standard Themes
+der verschiedenen Jahre und Revisionen, wie das "pure" Theme 2020, das "2k11" aus
+2011/13, usw., bis hin zum originären "default" Theme das für die
+Zugriffs-Kaskade in der Datei-/Template-Suche einen besonderen Platz als Endpunkt
+einnimmt. Zum anderen Teil aus möglichen Standard Derivaten (wie "Next"),
+verschiedenen Framework-Themes ("bootstrap4" oder "skeleton"), Besonderheiten,
+wie dem PHP-Template Beispiel Theme, und weiteren interessanten Engine Themes,
+die als Beispiele für eigene Versuche gelten können. Ihnen gemein ist, dass sie
+mit den Styx Revisionen kontinuierlich gepflegt wurden.</p>
 
 <p>Weitere Themes werden nur geladen und angezeigt, wenn Sie Spartacus
 dazu verwenden und die erweiterte Theme Option in dessen Konfiguration
