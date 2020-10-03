@@ -3643,8 +3643,8 @@ Vertrautheit mit den Gegebenheiten erlangt hat.</p>
 erheblichen Reduzierung der Datei Größe, gilt obige Warnung heute nur noch
 bedingt. Ebenso wurden all diese alten Themes auf Funktionalität und
 Kompatibilität getestet und soweit generalüberholt bzw. ergänzt, dass sie
-unter neuen Styx Versionen wenigstens funktionieren. Als tauglich für heutige
-Mobilgeräte sind, und/oder ein vollständiges Responsives Verhalten verfügen,
+unter neuen Styx Versionen wenigstens funktionieren. Tauglich für heutige
+Mobilgeräte sind, und/oder über ein vollständiges Responsives Verhalten verfügen,
 dennoch nur wenige!</p>
 
 </section><!-- section.sub end -->
