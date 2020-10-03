@@ -3641,7 +3641,11 @@ Vertrautheit mit den Gegebenheiten erlangt hat.</p>
 
 <p>Durch das Konzept der webP Bild-Variationen mit Styx 3.0 und der zum Teil
 erheblichen Reduzierung der Datei Größe, gilt obige Warnung heute nur noch
-bedingt.</p>
+bedingt. Ebenso wurden all diese alten Themes auf Funktionalität und
+Kompatibilität getestet und soweit generalüberholt bzw. ergänzt, dass sie
+unter neuen Styx Versionen wenigstens funktionieren. Als tauglich für heutige
+Mobilgeräte sind, und/oder ein vollständiges Responsives Verhalten verfügen,
+dennoch nur wenige!</p>
 
 </section><!-- section.sub end -->
 
