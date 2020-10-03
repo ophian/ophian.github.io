@@ -3608,12 +3608,21 @@ der eingestellten Sprache auszugeben, soweit diese schon übersetzt wurde.
 Siehe: <code>lang_info_en.inc.php</code> und analog für Deutsch <code>lang_info_de.inc.php</code> etc. ebenso wie im UTF-8 Verzeichnis des Themes.</p>
 
 <p>Die mitgelieferten Themes sind in drei Kategorien eingeteilt.
-Die ersten beiden beschreiben die aktuell eingestellen Standard
-Themes für das Frontend und das Backend. Darunter befindet sich die
-Sektion der empfohlenen Themes, die heutigen Erfordernissen entsprechen
+Die ersten beiden beschreiben die aktuell ausgewählten Themes für das
+Frontend und das Backend. Darunter befindet sich die Sektion der
+empfohlenen Themes, die in ihrer Mehrheit heutigen Erfordernissen entsprechen
 oder sonstwie als herausragend angesehen werden. Darunter sind alle anderen,
 wie auch einige Besondere, wie ein default-php oder auch default-xml Template,
 oder Beispiele für Engine Templates.</p>
+
+<p>Die Serendpity Styx 3.x Series hat dieses Konzept der empfohlenen Themes
+wieder verworfen und vereinfacht. Die mitgelieferten Themes heißen nun einfach
+"Kern Themes"; die per Spartacus hinzugefügten "Verfügbare Themes".
+Diese mitgelieferten Kern Themes bestehen zumeist aus den Standard Themes
+(der verschiedenen Jahre und Revisionen, wie das "pure" 2020, das "2k11" aus
+2013, usw.), verschiedenen anderen Themes, Besonderheiten und auch interessanten
+Engine Themes, die als Beispiele gelten können. Ihnen gemein ist, dass sie mit
+den Styx Revisionen kontinuierlich gepflegt wurden.</p>
 
 <p>Weitere Themes werden nur geladen und angezeigt, wenn Sie Spartacus
 dazu verwenden und die erweiterte Theme Option in dessen Konfiguration
@@ -3624,6 +3633,10 @@ auf Grund der Menge der zu verarbeitenden Information beim ersten Laden
 dieser Seite, durchaus kurz außer Gefecht setzen. Die Empfehlung lautet
 daher, sich erst einmal an die empfohlenen Themes zu halten, bis man genügend
 Vertrautheit mit den Gegebenheiten erlangt hat.</p>
+
+<p>Durch das Konzept der webP Bild-Variationen mit Styx 3.0 und der zum Teil
+erheblichen Reduzierung der Datei Größe, gilt obige Warnung heute nur noch
+bedingt.</p>
 
 </section><!-- section.sub end -->
 
