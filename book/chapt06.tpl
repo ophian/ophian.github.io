@@ -10875,9 +10875,9 @@ Klick als Popup oder innerhalb derselben Seite angezeigt werden soll.</span>
 
 <p class="desc citem-desc">
 <span class="tag-box invisible">
-    <span class="inline-tag">Template-Variablen!\$plugin_usergallery_gallery_breadcrumb</span>
+    <span class="inline-tag">Template-Variablen!\$plugin_usergallery_gallery_bcrumb</span>
 </span>
-<code class="item smarty">{$plugin_usergallery_gallery_breadcrumb</code> (Array)
+<code class="item smarty">{$plugin_usergallery_gallery_bcrumb</code> (Array)
 <span class="desc-info">Enthält ein Array mit allen übergeordneten Pfaden des aktuellen Verzeichnisses
 der Mediathek, so dass diese gezielt angesprungen werden können. Pro
 Array-Schlüssel enthält der Array-Wert den jeweiligen Verzeichnisnamen.</span>
