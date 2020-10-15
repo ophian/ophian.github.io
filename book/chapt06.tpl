@@ -8383,7 +8383,8 @@ Firefox, Internet Explorer, Firefox, Safari, etc) und wird professionell
 und aktiv weiterentwickelt. Er hat sich mittlerweile zum quasi-Standard
 der HTML Editoren am Markt entwickelt. In Serendipity ist er als Core-Editor
 aus Kompatibilitätsgründen ebenfalls im <code class="dir">/htmlarea</code>
-Ordner angesiedelt. Außerdem existiert noch das <code>CKEditor Plus</code>-Plugin,
+Ordner angesiedelt. Diese Kompatibilität wurde mit Serendipity Styx 3.0+ zugunsten
+eines besseren Ansatzes aufgegeben. Außerdem existiert noch das <code>CKEditor Plus</code>-Plugin,
 das immer die neueste Version mit leichter Zeitverzögerung mitbringt und so zB.
 auch über ein eingebautes Codesnippet Tool verfügt, mit dem sehr leicht und
 einfach Code Beispiele in den Eintrags Text gegossen und schon gleich farblich
@@ -8408,14 +8409,15 @@ Verschieben von Bildern Abstürze hervorriefen.</p>
 <p>Dies gilt nicht mehr für den heute benutzten Editor. Ja,
 die Dinge ändern sich und manche davon werden auch besser!</p>
 
-<p>Serendipity geht daher grundsätzlich den Weg, dass alternative
-WYSIWYG-Editoren eingebunden werden können. Dazu zählen
+<p>Serendipity Styx ging bis Ende der 2er Serie wie Serendipity daher grundsätzlich den Weg, dass alternative
+WYSIWYG-Editoren eingebunden werden konnten. Dazu zählen
 TinyMCE [*]
 <span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://tinymce.moxiecode.com/" target="_blank" rel="noopener">http://tinymce.moxiecode.com/</a></span><!-- footnote --> und
 CKEditor [*]
 <span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://www.ckeditor.net/" target="_blank" rel="noopener">http://www.ckeditor.net/</a></span><!-- footnote -->.
-Für alle Editoren sind externe Plugins verfügbar. Aufgrund der weiteren Entwicklungen in den Jahren können aber nur das
-<code>CKEditor</code>-Plugin und vielleicht noch das <code>TinyMCE</code>-Plugin empfohlen werden.</p>
+Für alle Editoren sind externe Plugins verfügbar. Aufgrund der weiteren Entwicklungen in den Jahren konnten aber sowieso nur das
+<code>CKEditor</code>-Plugin und vielleicht noch das <code>TinyMCE</code>-Plugin dafür empfohlen werden.
+Sollten Sie auf Serendipity Styx setzen, können Sie also gleich weiterblättern!</p>
 
 <p>Das schwierigste Unterfangen bei der Verwendung externer
 WYSIWYG-Editor-Plugins bei Serendipity ist, dass einigen die Unterstützung

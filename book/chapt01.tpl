@@ -1865,7 +1865,8 @@ Firefox, Internet Explorer, Firefox, Safari, etc) und wird professionell
 und aktiv weiterentwickelt. Er hat sich mittlerweile zum quasi-Standard
 der HTML Editoren am Markt entwickelt. In Serendipity ist er als Core-Editor
 aus Kompatibilitätsgründen ebenfalls im <code class="dir">/htmlarea</code>
-Ordner angesiedelt. Außerdem existiert noch das <code>CKEditor Plus</code>-Plugin,
+Ordner angesiedelt. Diese Kompatibilität wurde mit Serendipity Styx 3.0+ zugunsten
+eines besseren Ansatzes aufgegeben. Außerdem existiert noch das <code>CKEditor Plus</code>-Plugin,
 das immer die neueste Version mit leichter Zeitverzögerung mitbringt und so zB.
 auch über ein eingebautes Codesnippet Tool verfügt, mit dem sehr leicht und
 einfach Code Beispiele in den Eintrags Text gegossen und schon gleich farblich
