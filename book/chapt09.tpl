@@ -1684,9 +1684,11 @@ auszugeben.</span>
 <span class="tag-box invisible">
     <span class="inline-tag">Template-Dateien!comments.tpl</span>
     <span class="inline-tag">Template-Dateien!trackbacks.tpl</span>
+    <span class="inline-tag">Template-Dateien!pcomments.inc.tpl</span>
 </span>
-<code class="item file">comments.tpl</code>, <code class="item file">trackbacks.tpl</code>
-<span class="desc-info">Stellt eine Liste von Kommentaren oder Trackbacks dar.</span>
+<code class="item file">comments.tpl</code>, <code class="item file">trackbacks.tpl</code>, <code class="item file">pcomments.tpl</code>
+<span class="desc-info">Stellt eine Liste von Kommentaren oder Trackbacks in Einträgen dar, während die <code>pcomments.tpl</code> Datei
+für die Listung der comments by authors Kommentar summary Seiten zuständig ist.</span>
 </p>
 
 <p class="desc citem-desc">
