@@ -10372,17 +10372,16 @@ eingesetzt werden.</p>
 </span>
 </p>
 
-<p>In Blog-Artikeln von Serendipity können Sie dank der Mediathek
-relativ einfach ein Bild einfügen (siehe Seite
-<span class="pageref"><a href="#mediathek-popup">Mediathek-Popup</a></span>). Ein solches Bild wird
-entweder in der vollen Größe oder als kleines Vorschaubild eingebettet,
+<p>In Blog-Artikeln von Serendipity können Sie dank der Mediathek relativ einfach
+ein Bild einfügen (siehe Seite <span class="pageref"><a href="#mediathek-popup">Mediathek-Popup</a></span>).
+Ein solches Bild wird entweder in der vollen Größe oder als kleines Vorschaubild eingebettet,
 und ein Klick auf das Bild öffnet es meist in einem neuen Browserfenster.</p>
 
 <p>Diese Art der Einbindung ist relativ unspektakulär. Daher wurden in
 letzter Zeit zahlreiche JavaScripts entwickelt, die Bildervorschauen und
--galerien mit hübschen Überblendungseffekten einbinden lassen. Ein Klick
-auf ein Bild dunkelt dann den Hintergrund ab, das Bild öffnet sich in einem
-eigenständigen Bereich und passt sich in der Größe automatisch an.
+-galerien mit hübschen Überblendungseffekten, sogenannten Leuchtkästen einbinden
+lassen. Ein Klick auf ein Bild dunkelt dann den Hintergrund ab, das Bild öffnet
+sich in einem eigenständigen Bereich und passt sich in der Größe automatisch an.
 Auch ein Hin- und Herblättern zwischen mehreren zusammengehörigen Bildern ist
 so komfortabel möglich.</p>
 
@@ -10537,8 +10536,9 @@ den Galerie-Feed anlegen, indem Sie
 Template-Datei <code>feed_gallery.tpl</code> anlegen.
 <span class="tag-box invisible">
     <span class="inline-tag">Template-Dateien!feed_gallery.tpl</span>
-</span>
-Folgende Konfigurationsoptionen bietet das Plugin:</p>
+</span></p>
+
+<p>Folgende Konfigurationsoptionen bietet das Plugin:</p>
 
 <p class="desc">
 <span class="item mbold">Display name</span><!-- menuitem -->
