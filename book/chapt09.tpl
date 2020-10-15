@@ -1688,7 +1688,7 @@ auszugeben.</span>
 </span>
 <code class="item file">comments.tpl</code>, <code class="item file">trackbacks.tpl</code>, <code class="item file">pcomments.tpl</code>
 <span class="desc-info">Stellt eine Liste von Kommentaren oder Trackbacks in Einträgen dar, während die <code>pcomments.tpl</code> Datei
-für die Listung der comments by authors Kommentar summary Seiten zuständig ist.</span>
+für die etwas unterschiedliche Listung der folgenden comments_by_authors Kommentar summary Seiten zuständig ist.</span>
 </p>
 
 <p class="desc citem-desc">
