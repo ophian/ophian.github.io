@@ -82,10 +82,10 @@ welches von nun an bis zum heutigen Tag als <em>“Referenz”</em> und <em>“F
 sprich <span class="mbold"><em>Standard</em></span>-Theme
 per default eingestellt und ausgeliefert wurde.</p>
 
-<p>Dieser heutige Tag ist heute natürlich auch schon wieder vorüber. Inzwischen hat
+<p>Dieser eben noch <em>heutige Tag</em> ist <span class="mbold">heute</span> natürlich auch schon wieder längst vorüber. Inzwischen hat
 mit <span class="mbold">Serendipity Styx 3.0</span> ein neues Standard Theme namens <span class="mbold">pure</span> Einzug gehalten.
 Allerdings zeigt die lange Zeit der Verwendung von 2k11, wie gut diese Theme zur
-damaligen Zeit designed war, so dass viele ältere Seendipity Versionen heute noch
+damaligen Zeit designed war, so dass viele ältere Serendipity Versionen heute noch
 Derivate oder es gar selbst einsetzen.</p>
 
 <p><span class="mbold">Serendipity Styx</span> legt Wert auf die Feststellung,
