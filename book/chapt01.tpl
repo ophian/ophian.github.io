@@ -460,17 +460,21 @@ beschreiben werden.</p>
 <span class="tag-box invisible">
     <span class="inline-tag">Voraussetzungen</span>
 </span>
-Um ein aktuelles Serendipity einzusetzen, benötigen Sie FTP-Zugriff auf
-einen Webserver, auf dem eine aktuelle PHP-Version (mindestens PHP 5.4,
-PHP 7 empfohlen) installiert ist <em>und</em> auf dem der Webhoster Zugriff
-auf eine Datenbank (MySQL, PostgreSQL, SQLite) gewährt. Als Webserver-Software
-eignen sich <em>Apache</em>, <em>Nginx</em>, <em>Lighttpd</em> und
-<em>Microsoft IIS</em>. Das Blogsystem lässt sich somit sowohl auf Windows-
-als auch auf Unix-Derivaten einsetzen.</p>
+Um ein aktuelles Serendipity Styx einzusetzen, benötigen Sie SSH oder FTP-Zugriff auf
+einen Webserver, auf dem eine aktuelle PHP-Version (mindestens PHP 7.3) installiert ist
+<em>und</em> auf dem der Webhoster Zugriff auf eine Datenbank (MySQL (bevorzugt),
+PostgreSQL, SQLite) gewährt. Als Webserver-Software eignen sich <em>Apache</em> (bevorzugt),
+<em>Nginx</em>, <em>Lighttpd</em> und <em>Microsoft IIS</em>. Das Blogsystem lässt sich
+somit sowohl auf Windows- als auch auf Unix-Derivaten einsetzen.</p>
 
-<p>Mit der Serendipity 1.7.x Serie stieg die interne
-Voraussetzung auf PHP 5.2 und mit dem Erscheinen von Serendipity 2.1 auf mindestens PHP 5.3, besser min 5.4+.
-Heutzutage ist eher PHP 7.x Voraussetzung, um in den Genuss der sprachlichen Modellpflege außerhalb gravierender Sicherheitsfixes zu kommen.</p>
+<p>Mit der Serendipity 1.7.x Serie stieg die interne Voraussetzung auf PHP 5.2 und mit dem
+Erscheinen von Serendipity 2.1 auf mindestens PHP 5.3, besser min 5.4+. Die letzte aktuelle
+Version der 2er Serie, Serendipity Styx 2.9.5 vom 2. Mai 2020, hat bereits PHP 5.6 als
+minimale Vorraussetzung. Heutzutage ist eher PHP 7.4+ Voraussetzung, um in den erweiterten
+Genuss der sprachlichen Modellpflege außerhalb gravierender Sicherheitsfixes zu kommen.
+Vor allen Dingen, weil der Support für alle alten Versionen abgelaufen ist und die Supportzeiten
+immer kürzer wurden. Wie früher, lange Jahre auf alten PHP Versionen zu hocken kann schwerwiegende
+Sicherheitslücken eröffnen. Treten Sie ihren Providern also auf die Füße!</p>
 
 <p>Damit Serendipity auf dem eigenen Webserver laufen kann, muss man einige
 PHP-Einstellungen berücksichtigen. Üblicherweise sind sie passend
