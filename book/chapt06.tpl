@@ -5097,26 +5097,30 @@ verlinken.</p>
 
 </section><!-- section.sub end -->
 
-<section id="serendipity_event_findmore" class="sub">
-<span class="u-toc">6.3.13 - Show links to services like<br>Digg, Technorati, del.icio.us etc.<br>related to your entry: serendipity_event_findmore</span>
+<section id="serendipity_event_social" class="sub">
+<span class="u-toc">6.3.13 - Show links to services like<br>Facebook, Twitter, Whatsapp etc.<br>related to your entry: serendipity_event_social</span>
 
-<h3 class="subsection" id="show-links-to-services-like-digg-technorati-del-icio-us-etc-rela">Show links to services like Digg, Technorati, del.icio.us etc. related to your entry<br>serendipity_event_findmore</h3>
+<h3 class="subsection" id="show-links-to-services-like-facebook-twitter-whatsapp-etc-rela">Show links to services like Facebook, Twitter, Whatsapp etc. related to your entry<br>serendipity_event_social</h3>
 
 <p class="tagging invisible">
 <span class="tag-box invisible">
-    <span class="inline-tag">Plugins!Show links to services like Digg, Technorati, del.icio.us etc.</span>
-    <span class="inline-tag">Plugins!serendipity_event_findmore</span>
+    <span class="inline-tag">Plugins!Show links to services like Facebook, Twitter, Whatsapp etc.</span>
+    <span class="inline-tag">Plugins!serendipity_event_social</span>
 </span>
-<span class="label invisible" id="findmore">findmore</span>
+<span class="label invisible" id="social">social</span>
 <span class="tag-box invisible">
-    <span class="inline-tag">Social Web</span>
-    <span class="inline-tag">Digg</span>
-    <span class="inline-tag">Technorati</span>
-    <span class="inline-tag">del.icio.us</span>
+    <span class="inline-tag">Social Media</span>
+    <span class="inline-tag">Facebook</span>
+    <span class="inline-tag">Messenger</span>
+    <span class="inline-tag">Twitter</span>
+    <span class="inline-tag">Whatsapp</span>
     <span class="inline-tag">Webservices</span>
     <span class="inline-tag">Community</span>
 </span>
 </p>
+
+<p>Dies ist das Nachfolge-Plugin des alten <code>srendipity_event_findmore</code> Plugins
+und nimmt hier dessen Platz ein.</p>
 
 <p>Ein ganz wesentlicher Faktor von Blogs ist deren Popularität und
 Vernetzung untereinander. Durch die gegenseitige Verlinkung werden Blogs
@@ -5158,7 +5162,7 @@ willige Besucher auf sich aufmerksam gemacht haben, müssen Sie diesen nun
 eine Möglichkeit bieten, Ihren Blog-Artikel in der jeweiligen
 Web-Community zu bewerten.</p>
 
-<p>An dieser Stelle kommt das Plugin <em>Show links to services like Digg
+<p>An dieser Stelle kommt das Plugin <em>Show links to services like Facebook
 etc.</em> zum Tragen. Dieses bietet eine Einbindung fast aller verfügbaren
 Link-Services, so dass Sie unterhalb jedes Blog-Artikels einen kleinen
 Button des jeweiligen Services finden, der Ihre Besucher dorthin führt
@@ -5167,16 +5171,30 @@ meisten aktiven Besucher zwar ihre eigenen Browser-Tools zu diesem Zweck,
 aber durch Ihre Einbindung zu diesen Services motivieren Sie einen
 Besucher stärker, sich in der Community zu beteiligen.</p>
 
+<p>Damit sind wir bei dem Begriff <span class="mbold">Soziale Netzwerke</span> angelangt.
+Dieser Begriff und seine ihn begleitenden Services bzw. Geschäftsmodelle geben Anlass zu großen Diskussionen.
+Deshalb hier ein neutrales Zitat aus der Wikipedia:</p>
+
+<blockquote style="margin: 0 auto 1rem; padding: .5rem 2rem; ">Ein soziales Netzwerk ist ein Onlinedienst, der die Möglichkeit zu
+Informationsaustausch und Beziehungsaufbau bietet. Eine dadurch entstehende Online-Community
+kommuniziert und interagiert entsprechend den Möglichkeiten der jeweiligen Plattform
+im virtuellen Raum. Auf der technischen Grundlage eines sozialen Mediums (Social Media),
+das als Plattform zum wechselseitigen Austausch von Meinungen, Erfahrungen und Informationen
+eingesetzt wird, ergibt sich ein abgrenzbares soziales Netzwerk von Nutzern mit von ihnen
+erzeugten Inhalten.</blockquote>
+
+<p>Es ist also an Ihnen sich über die Konsequenzen einer Teilnahme wirklich Gedanken zu machen.</p>
+
 <p>Da es mittlerweile eine fast unüberschaubare Anzahl an Link-Communities
 gibt, bietet das Plugin für jeden Dienst einen einzelnen Button an.
-Folgende Services sind dabei standardmäßig enthalten: Del.icio.us, Digg,
-Bloglines, Technorati, Fark, MyWeb2, Furl, Reddit, BLinklist, Spurl,
-Newsvine, Simpy, Blogmarks, Wists, ma.gnolia, Mister Wong, addthis.</p>
+Folgende Services sind dabei standardmäßig enthalten:
+twitter, facebook, googleplus, linkedin, pinterest, xing, whatsapp, mail,
+info, addthis, tumblr, flattr, diaspora, reddit, stumbleupon, threema,
+weibo, tencent-weibo, qzone, print, telegram, vk, flipboard.</p>
 
 <p>Es ist empfehlenswert, dass Sie in dieser großen Liste eine eigene
 Einschränkung bzw. Gewichtung vornehmen, um so nur die Link-Communities
-einzubinden, die für Ihre Zwecke Sinn machen. Bei deutschen Blogs sind
-beispielsweise Mister Wong, Digg und Del.icio.us sehr populär.
+einzubinden, die für Ihre Zwecke Sinn machen.
 Überwältigen Sie Ihre Besucher daher nicht unbedingt mit einer riesigen Liste von
 Verlinkungsmöglichkeiten, sondern überzeugen Sie durch eine sinnvolle
 Einschränkung. Schauen Sie sich ruhig jeden Link-Service an, damit Sie
@@ -5188,141 +5206,63 @@ ruft dabei die jeweilige Community auf und fügt dort einen Link zu Ihrem
 ursprünglichen Blog-Artikel mitsamt dem Titel des Beitrags hinzu.</p>
 
 <p>Die eingebundenen Linkservices werden in einem HTML-Container mit der
-CSS-Klasse <code>.serendipity_findmore</code> ausgegeben. Der Inhalt der Leiste
-richtet sich nach der Template-Datei
-<span class="tag-box invisible">
-    <span class="inline-tag">Template-Dateien!plugin_findmore.tpl</span>
-</span>
-<code>plugin_findmore.tpl</code>, die sich innerhalb des
-Plugin-Verzeichnisses <code>plugins/serendipity_event_findmore/</code> befindet.</p>
-
-<p>In dieser Template-Datei sind sämtliche Link-Services übersichtlich
-untereinander aufgeführt. Jeder Linkservice lässt sich meist gleichartig
-einbinden und unterscheidet sich nur in der Benennung von Variablen.
-Diese Variablen werden mithilfe der Smarty-Platzhalter
-<span class="tag-box invisible">
-    <span class="inline-tag">Template-Variablen!\$entrydata</span>
-</span>
-<code class="smarty">{$entrydata.*}</code> später durch die Inhalte Ihres jeweiligen
-Blog-Artikels ersetzt. Folgende Smarty-Variablen stehen zur Verfügung:</p>
-
-<p class="desc citem-desc">
-<span class="tag-box invisible">
-    <span class="inline-tag">Template-Variablen!\$entrydata.url</span>
-</span>
-<code class="item smarty">{$entrydata.url}</code>
-<span class="desc-info">Enthält die vollständige URL des Blog-Artikels. Wenn eine URL an einen
-Linkservice übermittelt wird, müssen etwaige Sonderzeichen in der URL
-über einen Zusatz wie <code class="smarty">{$entrydata.title|escape:url}</code> eingebunden
-werden (siehe Kapitel <span class="reference">Smarty-Templates</span> ab Seite
-<span class="pageref"><a href="#Smarty-Templates">Smarty-Templates</a></span>).</span>
+CSS-Klasse <code>.shariff</code> ausgegeben. Der Inhalt der Leiste
+richtet sich nach den eingestellten Services und ist per <code>.shariff-button.twitter</code>,
+<code>.shariff-button.facebook</code> einzeln ansteuerbar.
 </p>
-
-<p class="desc citem-desc">
-<span class="tag-box invisible">
-    <span class="inline-tag">Template-Variablen!\$entrydata.title</span>
-</span>
-<code class="item smarty">{$entrydata.title}</code>
-<span class="desc-info">Enthält den Titel des Blog-Artikels. Diese Variable wird im Template
-meist über den Befehl <code class="smarty">{$entrydata.title|escape}</code> eingebunden. Das
-zusätzliche <code>|escape</code> sorgt dafür, dass Sonderzeichen im Artikeltitel
-durch HTML-Sonderzeichen ersetzt werden. <code>|escape:url</code> sorgt im
-Unterschied dazu dafür, dass Sonderzeichen durch URL-Sonderzeichen ersetzt
-werden.</span>
-</p>
-
-<p class="desc citem-desc">
-<span class="tag-box invisible">
-    <span class="inline-tag">Template-Variablen!\$entrydata.path</span>
-</span>
-<code class="item smarty">{$entrydata.path}</code>
-<span class="desc-info">Enthält den HTTP-Pfad zu dem Bildverzeichnis des Plugins. Dort liegen für
-fast alle Link-Communities die jeweiligen Logos, damit sie in der
-Linkleiste grafisch eingebunden werden können.</span>
-</p>
-
-<p>Die Datei <code>plugin_findmore.tpl</code> können Sie nach Belieben anpassen,
-um beispielsweise überflüssige Services zu entfernen oder auch neue
-hinzuzufügen. Eine geänderte Template-Datei sollten Sie dabei möglichst
-in das Verzeichnis Ihres gewählten Templates kopieren, damit Sie bei
-einem Update des Plugins Ihre Anpassungen nicht verlieren.</p>
 
 <p>Über die Konfiguration des Plugins können Sie komfortabel einstellen, welche
-Links zu welchen Services Sie darstellen möchten, falls das Bearbeiten der
-Template-Option für Sie zu umständlich ist.</p>
+Links zu welchen Services Sie darstellen möchten.</p>
 
 <p>Weiterhin bietet das Plugin folgende Konfigurationsoptionen:</p>
 
 <p class="desc">
-<span class="item mbold">Relative path to Findmore images</span><!-- menuitem -->
-<span class="desc-info">In diesem Eingabefeld müssen Sie den vollen HTTP-Pfad eintragen, aus dem
-das Plugin die Logo-Grafiken für den jeweiligen Linkservice über die
-Template-Datei <code>plugin_findmore.tpl</code> bezieht. Standardmäßig sollte
-dieser Pfad bereits korrekt auf Ihr Plugin-Verzeichnis zeigen.</span>
+<span class="item mbold">Unterstützte Netzwerke</span><!-- menuitem -->
+<span class="desc-info">In diesem Mehrfach-Auswahlfeld müssen Sie die Services anklicken,
+die sie darstellen wollen. <code>[Strg/Apfel]</code>-Taste  erlaubt mehrfach Auswahl.</span>
 </p>
 
 <p class="desc">
-<span class="item mbold">Display DiggCount badge</span><!-- menuitem -->
-<span class="desc-info">
-    <span class="box">
-        Der Link-Dienst <code>Digg</code> bietet ein kleines JavaScript an, mit dem Ihre
-        Besucher direkt sehen können, wie oft die Links in Ihrem Blog-Artikel von
-        Teilnehmern der Digg-Community positiv bewertet wurden. Diese kleine
-        Anzeige mit einer Zahl für den jeweils bewerteten Link nennt sich
-        <span class="tag-box invisible">
-            <span class="inline-tag">DiggCount badge</span>
-        </span>
-        <em>DiggCount badge</em>.
-    </span>
-
-    <span class="box">
-        Das Plugin analysiert bei aktivierter Option <em>DiggCount badge</em>
-        sämtliche Links zu Beiträgen auf <code>digg.com</code>, die Sie in Ihrem Artikel
-        platziert haben. Sollten Sie die <em>Diggs</em> zu Ihrem eigenen Artikel
-        anzeigen wollen, müssen Sie manuell Ihren eigenen Blog-Artikel im
-        Artikeltext verlinken, damit das Plugin diesen in die Ausgabe einbeziehen
-        kann. Für jeden Link, der in Ihrem Blog-Artikel zu <code>digg.com</code> zeigt,
-        stellt das Plugin eine eigenständige Zählergrafik dar.
-    </span>
-
-    <span class="box">
-        Wenn Sie die Option aktivieren, werden die Digg-Grafiken und das
-        JavaScript in einem eigenständigen HTML-Container mit der CSS-Klasse
-        <code>.serendipity_diggcount</code> angezeigt.
-    </span>
-</span>
+<span class="item mbold">Farbschema</span><!-- menuitem -->
+<span class="desc-info">Wählen Sie ein Farbschema für die Sharebuttons.</span>
 </p>
 
 <p class="desc">
-<span class="item mbold">DiggCount placement</span><!-- menuitem -->
-<span class="desc-info">Wenn Sie <em>DiggCount badge</em> aktiviert haben, bestimmen Sie mit
-der Option <span class="mbold">DiggCount placement</span>, wo dieser Zähler angezeigt werden
-soll. <span class="mbold">Before entry</span> bindet den Zähler direkt am Anfang Ihres
-Blog-Artikels ein, <span class="mbold">After entry</span> am Ende des Artikels und <span class="mbold">After
-findmore links</span> nach der Linkleiste des Plugins.</span>
+<span class="item mbold">Auf Übersichtsseiten anzeigen</span><!-- menuitem -->
+<span class="desc-info">Zeige die Sharebuttons auch auf Übersichtsseiten (wie z.B. der Startseite).</span>
 </p>
 
-<p>&nbsp;</p><!-- separator -->
+<p class="desc">
+<span class="item mbold">Twittererwähnung</span><!-- menuitem -->
+<span class="desc-info">Twittername, der am Ende des Tweets angehängt werden soll ("none" deaktiviert dies).</span>
+</p>
 
-<p>Template-Profis haben möglicherweise bereits bemerkt, dass die Linkleiste
-der <code>plugin_findmore.tpl</code>-Template-Datei recht simpel gestrickt ist
-und lediglich die URL und den Titel eines Artikels enthalten muss. Diese
-Informationen können Sie daher auch ganz einfach in die Template-Datei
-<code>entries.tpl</code> einfügen und benötigen dieses Plugin höchstens noch
-für die Einbindung der <em>DiggCount badge</em>.</p>
+<p class="desc">
+<span class="item mbold">Fallback-Bild</span><!-- menuitem -->
+<span class="desc-info">Ein Bild, das auf Twitter und Facebook angezeigt wird,
+wenn der Eintrag kein eigenes Bild erhält. "none" deaktiviert es.</span>
+</p>
 
-<p>Der Vorteil der Einbindung in die <code>entries.tpl</code>-Datei besteht in
-einer höheren Ausführungsgeschwindigkeit der Templates, da nicht noch
-eine eigenständige Datei analysiert werden muss. Der Einfachkeit halber
-können Sie den Inhalt der <code>plugin_findmore.tpl</code>-Datei per Kopieren &amp; Einfügen
-in die <code>entries.tpl</code>-Datei übernehmen und den
-HTML-Container <code>&lt;div class="serendipity_findmore"&gt;</code> beliebig
-innerhalb der Smarty-Foreach-Schleife platzieren, in der ein Eintrag
-dargestellt wird. Sie müssen danach nur noch die Variable
-<code>$entrydata.url</code> mit <code>$entry.rdf_ident</code> ersetzen,
-<code>$entrydata.title</code> mit <code>$entry.title</code> und anstelle von
-<code>$entry.path</code> einen gültigen HTTP-Pfad zu den Linkservice-Bildern
-einsetzen.</p>
+<p class="desc">
+<span class="item mbold">Sprache</span><!-- menuitem -->
+<span class="desc-info">Sprache der Sharebuttons.</span>
+</p>
+
+<p class="desc">
+<span class="item mbold">Backend für Zähler</span><!-- menuitem -->
+<span class="desc-info">URL für ein Shariff-Backend, mit dem einige der Buttons (u.a. Facebook)
+anzeigen, wie oft der Artikel geteilt wurde. "none" [Standard] deaktiviert den Zähler.
+Backend: "https://onli2.uber.space/s9y_shariff".</span>
+</p>
+
+<p>Der Pfiff an diesem Plugin ist, dass es ein OpenSource javascript mit dem Namen
+<span class="mbold">Shariff</span> benutzt. <code>Shariff</code> ermöglicht es Website-Benutzern, ihre Lieblingsinhalte zu
+teilen, ohne ihre Privatsphäre zu gefährden. Genauer gesagt, es hilft, die Privatsphäre ihrer Besucher
+gegenüber den Social-Media-Netzwerken zu bewahren. Der Code der offiziellen Buttons
+beispielsweise von Facebook überträgt von jedem Besucher kennzeichnende Daten an die
+Social-Media-Netzwerke. Shariff erzeugt hingegen Share-Buttons, die mit einem Klick
+teilen, die Anzahl der Likes und Plus-Ones für die aktuelle Seite anzeigen und trotzdem
+keine unnötigen Daten übertragen.</p>
 
 </section><!-- section.sub end -->
 
