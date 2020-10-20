@@ -188,7 +188,7 @@
  <li class="sct-sub"><span class="toc-sub">6.3.10</span> <a class="sidebar-nav-item" href="#serendipity_event_custom_permalinks">Frei definierbare Permalinks zu Einträgen serendipity_event_custom_permalinks</a></li>
  <li class="sct-sub"><span class="toc-sub">6.3.11</span> <a class="sidebar-nav-item" href="#serendipity_event_downloadmanager">Downloadmanager serendipity_event_downloadmanager</a></li>
  <li class="sct-sub"><span class="toc-sub">6.3.12</span> <a class="sidebar-nav-item" href="#serendipity_event_externalphp">Externe PHP-Anwendung serendipity_event_externalphp</a></li>
- <li class="sct-sub"><span class="toc-sub">6.3.13</span> <a class="sidebar-nav-item" href="#serendipity_event_findmore">Show links to services like Digg, Technorati, del.icio.us etc related to your entry serendipity_event_findmore</a></li>
+ <li class="sct-sub"><span class="toc-sub">6.3.13</span> <a class="sidebar-nav-item" href="#serendipity_event_social">Zeige Sharebuttons für Netzwerke wie Facebook, Twitter, Whatsapp, etc. (nutzt shariff) serendipity_event_social</a></li>
  <li class="sct-sub"><span class="toc-sub">6.3.14</span> <a class="sidebar-nav-item" href="#serendipity_event_forum">Diskussionsforum/phpBB-Kommentare serendipity_event_forum</a></li>
  <li class="sct-sub"><span class="toc-sub">6.3.15</span> <a class="sidebar-nav-item" href="#serendipity_event_google_sitemap">Suchmaschinen-Sitemap Generator serendipity_event_google_sitemap</a></li>
  <li class="sct-sub"><span class="toc-sub">6.3.16</span> <a class="sidebar-nav-item" href="#serendipity_event_guestbook">Gästebuch serendipity_event_guestbook</a></li>
