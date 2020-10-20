@@ -5208,7 +5208,7 @@ ursprünglichen Blog-Artikel mitsamt dem Titel des Beitrags hinzu.</p>
 <p>Die eingebundenen Linkservices werden in einem HTML-Container mit der
 CSS-Klasse <code>.shariff</code> ausgegeben. Der Inhalt der Leiste
 richtet sich nach den eingestellten Services und ist per <code>.shariff-button.twitter</code>,
-<code>.shariff-button.facebook</code> einzeln ansteuerbar.
+<code>.shariff-button.xyz</code> usw. einzeln ansteuerbar.
 </p>
 
 <p>Über die Konfiguration des Plugins können Sie komfortabel einstellen, welche
@@ -5255,13 +5255,14 @@ anzeigen, wie oft der Artikel geteilt wurde. "none" [Standard] deaktiviert den Z
 Backend: "https://onli2.uber.space/s9y_shariff".</span>
 </p>
 
-<p>Der Pfiff an diesem Plugin ist, dass es ein OpenSource javascript mit dem Namen
-<span class="mbold">Shariff</span> benutzt. <code>Shariff</code> ermöglicht es Website-Benutzern, ihre Lieblingsinhalte zu
-teilen, ohne ihre Privatsphäre zu gefährden. Genauer gesagt, es hilft, die Privatsphäre ihrer Besucher
-gegenüber den Social-Media-Netzwerken zu bewahren. Der Code der offiziellen Buttons
-beispielsweise von Facebook überträgt von jedem Besucher kennzeichnende Daten an die
-Social-Media-Netzwerke. Shariff erzeugt hingegen Share-Buttons, die mit einem Klick
-teilen, die Anzahl der Likes und Plus-Ones für die aktuelle Seite anzeigen und trotzdem
+<p>Der Pfiff an diesem Plugin ist, dass es ein OpenSource javascript mit dem Namen <span class="mbold">Shariff</span> benutzt.
+<code>Shariff</code>, wahrscheinlich ein Synonym für <em>Share</em> und <em>Sheriff</em>, ermöglicht es
+Website-Benutzern, ihre Lieblingsinhalte zu teilen, ohne ihre Privatsphäre zu gefährden.
+Genauer gesagt, es hilft, die Privatsphäre ihrer Besucher gegenüber den Social-Media-Netzwerken
+zu bewahren. Der Code der offiziellen Buttons - beispielsweise von Facebook - überträgt
+von jedem Besucher kennzeichnende Daten an die Social-Media-Netzwerke.
+Shariff erzeugt hingegen Share-Buttons, die mit einem Klick teilen, die Anzahl
+der Likes und Plus-Ones für die aktuelle Seite anzeigen und trotzdem
 keine unnötigen Daten übertragen.</p>
 
 </section><!-- section.sub end -->
