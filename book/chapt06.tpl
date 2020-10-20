@@ -10712,29 +10712,36 @@ folgende Smarty-Variablen zugreifen:</p>
 
 <p class="desc citem-desc">
 <code class="item smarty">{$staticpage_pagetitle}</code> (Zeichenkette)
-<span class="desc-info">Enthält den Kurztitel der Galerieseite. Dies wird zB. dazu benutzt, bestimmte
-HTML-Klassen mit einem eindeutigen Namen zu belegen, um sie individuell per
-CSS-Anweisungen formatieren zu können.</span>
+<span class="desc-info">Enthält den gewählten Hauptordnernamen der Galerieseite.
+Dies kann zB. dazu benutzt werden, um die Benutzer Galerie Seite in Smarty Templates über die
+<code>{$head_title}</code> Variable zu identifizieren oder bestimmte HTML-Klassen-Selektoren
+mit einem eindeutigen Namen zu belegen, um sie individuell per CSS-Anweisung formatieren zu können.</span>
 </p>
 
 <p class="desc citem-desc">
-<code class="item smarty">{$const}</code> (Array)
-<span class="desc-info">Enthält ein Array mit zusätzlichen Sprachvariablen der Galerie.</span>
+<code class="item smarty">{$plugin_usergallery_uselightbox}</code> (Boolean)
+<span class="desc-info">Enthält den Wert <code>true</code>, wenn eine der Leuchtkästen siehe Seite
+<span class="pageref"><a href="#serendipity_event_lightbox">serendipity_event_lightbox</a></span>) zur Ausgabe
+der großen Bilder aus der Galerie verwendet werden soll. Sie erlaubt die erforderlichen Lighbox
+Instanzierungs-Skripte entweder durch die Template Datei <code>plugin_usergallery.tpl</code>, oder
+die normalen <code>frontend_header</code> und <code>frontend_footer</code> <span class="pageref"><a href="#serendipity-hookPlugin">hooks</a></span> auszugeben.<br>
+Es muss darauf geachtet werden, dass das jQuery Plugin vorher geladen ist und das lightbox event
+Plugin wenigstens installiert wurde.</span>
 </p>
 
 <p class="desc citem-desc">
 <span class="tag-box invisible">
-    <span class="inline-tag">Template-Variablen!\$plugin_usergallery_httppath</span>
+    <span class="inline-tag">Template-Variablen!\$plugin_usergallery_url</span>
 </span>
-<code class="item smarty">{$plugin_usergallery_httppath}</code> (Zeichenkette)
-<span class="desc-info">Enthält den URL-Pfad zur aktuellen Seite der Galerie.</span>
+<code class="item smarty">{$plugin_usergallery_url}</code> (Zeichenkette)
+<span class="desc-info">Enthält den URL-Pfad zur aktuellen Seite der Galerie. Typischerweise verwendet, um den <code>href</code> eines Links auszufüllen.</span>
 </p>
 
 <p class="desc citem-desc">
 <span class="tag-box invisible">
-    <span class="inline-tag">Template-Variablen!\$plugin_usergallery_httppath_extend</span>
+    <span class="inline-tag">Template-Variablen!\$plugin_usergallery_urlplus</span>
 </span>
-<code class="item smarty">{$plugin_usergalleryhttppath_extend}</code> (Zeichenkette)
+<code class="item smarty">{$plugin_usergallery_urlplus}</code> (Zeichenkette)
 <span class="desc-info">Enthält den URL-Pfad zur aktuellen Seite der Galerie. Diese Variable kann zum
 Anhängen von weiteren URL-GET-Variablen verwendet werden, da sie mit einem
 <code>?</code> oder <code>&amp;</code> endet (je nach konfigurierter URL-Umformungsoption des
