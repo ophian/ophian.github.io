@@ -5098,13 +5098,13 @@ verlinken.</p>
 </section><!-- section.sub end -->
 
 <section id="serendipity_event_social" class="sub">
-<span class="u-toc">6.3.13 - Show links to services like<br>Facebook, Twitter, Whatsapp etc.<br>related to your entry: serendipity_event_social</span>
+<span class="u-toc">6.3.13 - Show links to services like<br>Facebook, Twitter,etc.<br>related to your entry: serendipity_event_social</span>
 
-<h3 class="subsection" id="show-links-to-services-like-facebook-twitter-whatsapp-etc-rela">Show links to services like Facebook, Twitter, Whatsapp etc. related to your entry<br>serendipity_event_social</h3>
+<h3 class="subsection" id="show-links-to-services-like-facebook-twitter-etc-rela">Show links to services like Facebook, Twitter, etc. related to your entry<br>serendipity_event_social</h3>
 
 <p class="tagging invisible">
 <span class="tag-box invisible">
-    <span class="inline-tag">Plugins!Show links to services like Facebook, Twitter, Whatsapp etc.</span>
+    <span class="inline-tag">Plugins!Show links to services like Facebook, Twitter, etc.</span>
     <span class="inline-tag">Plugins!serendipity_event_social</span>
 </span>
 <span class="label invisible" id="social">social</span>
@@ -5119,7 +5119,7 @@ verlinken.</p>
 </span>
 </p>
 
-<p>Dies ist das Nachfolge-Plugin des alten <code>srendipity_event_findmore</code> Plugins
+<p>Dies ist das Nachfolge-Plugin des alten <code>serendipity_event_findmore</code> Plugins
 und nimmt hier dessen Platz ein.</p>
 
 <p>Ein ganz wesentlicher Faktor von Blogs ist deren Popularität und
