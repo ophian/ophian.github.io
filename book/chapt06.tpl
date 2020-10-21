@@ -10428,6 +10428,8 @@ können Sie über</p>
     http://www.example.com/rss.php?version=2.0&amp;gallery=true&amp;limit=A&amp;picdir=B&amp;feed_width=C&amp;head_title=D
 </code></pre>
 
+<p>erreichen (<em>A, B, C, D als Platzhalter für ihre benötigten Werte</em>).</p>
+
 <p>Die einzelnen URL-Variablen sind:</p>
 
 <p class="desc">
