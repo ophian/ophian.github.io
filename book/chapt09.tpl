@@ -7311,21 +7311,6 @@ wird auf Seite <span class="pageref"><a href="#mediatemplates">mediatemplates</a
                 </span>
 
                 <span class="tag-box invisible">
-                    <span class="inline-tag">Template-Variablen!\$media.file.nice_hotlink</span>
-                </span>
-                <span class="box"><code class="sub-item smarty">{$media.file.nice_hotlink}</code>
-                    <span class="sub-box">
-                        <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Zeichenkette</code></span>
-                    </span>
-                    <span class="sub-box">
-                        Falls das Objekt der Mediathek von einem fremden Server geladen wird
-                        (<code>hotlinking</code>), enthält die Variable
-                        die Ziel-URL, die jeweils nach 45 Zeichen automatisch umbrochen wird, so dass
-                        man sie problemlos unterhalb eines Bildes anzeigen kann.
-                    </span>
-                </span>
-
-                <span class="tag-box invisible">
                     <span class="inline-tag">Template-Variablen!\$media.file.realname</span>
                 </span>
                 <span class="box"><code class="sub-item smarty">{$media.file.realname}</code>
