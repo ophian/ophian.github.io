@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Serendipity Styx 3.2.0 release
-last_modified_at: 2020-12-17T14:06:00+00:00
+last_modified_at: 2020-12-17T14:12:00+00:00
 ---
 
 Styx 2020/9 - The Serendipity Styx 3.2.0 release - <img class="php8" src="/i/b/logo_php8.svg" alt="php8" width="96" height="22">
@@ -13,7 +13,7 @@ You can start right off using the latest PHP. It does not say the PHP 8 fixes ar
 ## Styx 3.2.0 applies
 
   - Once more Styx continued its work to clean up old occurrences for the Series 3 branch.
-  - Styx 3.2 has improved for the database storage. Since MySQL by ourselves was and is used as a synonym for MariaDB, which is our recommended database, Styx 3.2 now uses the **ARIA** storage engine format. Multibyte UTF-8 INDEX key length tweaks are done by the differing versions available, which are old MyISAM or InnoDB engines, or MariaDB 10.3, 10.4, 10.5 releases. The best one available is MariaDB 10.5 which allows us to not touch any INDEX key. For upgraders this means that we will wait until this latter version has landed in Mainstream befor we start touching old database installs on UPGRADE.
+  - Styx 3.2 has improved for the database storage. Since MySQL by ourselves was and is used as a synonym for MariaDB, which is our recommended database, Styx 3.2 now uses the **ARIA** storage engine format. Multibyte UTF-8 INDEX key length tweaks are done by the differing versions available, which are old MyISAM or InnoDB engines, or MariaDB 10.3, 10.4, 10.5 releases. The best one available is MariaDB 10.5 which allows us to not touch any INDEX keys for length limits. For Styx upgraders this means that we will wait until this latter version has landed in Mainstream before we start touching old database installs on UPGRADE.
   - Improved "pure" theme for some special cases
   - Added the new "**B46 [Black Edition]**" bootstrap theme for latest 4.5.3 release. The expected bootstrap 4.6.0 version did not make it in time.
   - Added the new "**PSG**" theme example, for a theme based start grid page.
