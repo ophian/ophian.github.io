@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Serendipity Styx 3.2.0 release
-last_modified_at: 2020-12-17T14:30:00+00:00
+last_modified_at: 2020-12-17T14:55:00+00:00
 ---
 
 Styx 2020/9 - The Serendipity Styx 3.2.0 release <img class="php8" src="/i/b/logo_php8.svg" alt="php8" width="96" height="22">
@@ -12,15 +12,15 @@ You can start right off using the latest PHP. It does not say the PHP 8 fixes ar
 
 ## Styx 3.2.0 applies
 
-  - Once more Styx continued its work to clean up old occurrences for the Series 3 branch.
-  - Styx 3.2 has improved for the database storage. Since MySQL by ourselves was and is used as a synonym for MariaDB, which is our recommended database, Styx 3.2 now uses the **ARIA** storage engine format. Multibyte UTF-8 INDEX key length tweaks are done by the differing versions available, which are old MyISAM or InnoDB engines, or MariaDB 10.3, 10.4, 10.5 releases. The best one available is MariaDB 10.5 which allows us to not touch any INDEX keys for length limits. For Styx upgraders this means that we will wait until this latter version has landed in Mainstream before we start touching old database installs on UPGRADE.
+  - Once more Styx continued its work to clean up old occurrences for the new Series 3 branch.
+  - Styx 3.2 has improved for database storage. Since MySQL by ourselves was and is used as a synonym for MariaDB, which is our recommended database, Styx 3.2 now uses the **ARIA** storage engine format. Multibyte UTF-8 INDEX key length tweaks are done by the differing versions available, which are old MyISAM or InnoDB engines, or MariaDB 10.3, 10.4, 10.5 releases. The best one available is MariaDB 10.5 which allows us to not touch any INDEX keys for length limits. For Styx upgraders this means that we will have to wait until this latter version has landed in Mainstream before we start touching old database installs on UPGRADE.
   - Improved "pure" theme for some special cases
   - Added the new "**B46 [Black Edition]**" bootstrap theme for latest 4.5.3 release. The expected bootstrap 4.6.0 version did not make it in time.
   - Added the new "**PSG**" theme example, for a theme based start grid page.
-  - Fixed some WebP variation image cases which might have hit you playing around (read the changelog)
+  - Fixed some buggy WebP variation image cases which might have hit you playing around (read the changelog on how to react)
   - Improved the media grid in filter(ed) lists, and to remember per User Cookie
   - Iconize several backend instances for viewability, **like**: MediaLibrary filtered status in the media toolbar, **and** stackable Plugins by their status, **and** for hotlink media shares to ML backend media properties, **and** for "has hidden suboption(s)" plugins option placeholders
-  - Added lots of fixes for PHP methods, language constants, core plugins, and/or other internal methods. Ask for help on language system!
+  - Added lots of improvements and bug fixes for PHP methods, language constants, core plugins, and/or other internal methods. Ask for help on language system!
   - Upgrade some libraries, like the basic Rich Text Editor, etc.
   - and more!
 
