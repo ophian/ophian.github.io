@@ -1,10 +1,10 @@
 ---
 layout: post
 title: Serendipity Styx 3.2.0 release
-last_modified_at: 2020-12-17T14:12:00+00:00
+last_modified_at: 2020-12-17T14:25:00+00:00
 ---
 
-Styx 2020/9 - The Serendipity Styx 3.2.0 release - <img class="php8" src="/i/b/logo_php8.svg" alt="php8" width="96" height="22">
+Styx 2020/9 - The Serendipity Styx 3.2.0 release <img class="php8" src="/i/b/logo_php8.svg" alt="php8" width="96" height="22">
 
 Serendipity Styx 3.2.0 was delayed a little bit, heading to next 3.3, since the new **PHP 8.0.0** release just dropped in when it was quite ready to look out of the door. 
 So I added 3 more weeks to make it a **PHP 8 ready** release!
