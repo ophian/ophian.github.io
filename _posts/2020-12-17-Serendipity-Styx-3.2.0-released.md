@@ -1,12 +1,12 @@
 ---
 layout: post
 title: Serendipity Styx 3.2.0 release
-last_modified_at: 2020-12-17T13:42:00+00:00
+last_modified_at: 2020-12-17T13:52:00+00:00
 ---
 
-Styx 2020/9 - The Serendipity Styx 3.2.0 release - near 3.3 5/8 - <img class="php8" src="/i/b/logo_php8.svg" alt="php8" width="60" height="22">
+Styx 2020/9 - The Serendipity Styx 3.2.0 release - <img class="php8" src="/i/b/logo_php8.svg" alt="php8" width="96" height="22">
 
-Serendipity Styx 3.2.0 was delayed a little bit, since the new **PHP 8.0.0** release just dropped in when it was quite ready to look out of the door. 
+Serendipity Styx 3.2.0 was delayed a little bit, heading to next 3.3, since the new **PHP 8.0.0** release just dropped in when it was quite ready to look out of the door. 
 So I added 3 more weeks to make it a **PHP 8 ready** release!
 You can start right off using the latest PHP. It does not say the PHP 8 fixes are already complete, but all main functions just for starting a new blog without complains are done. Time will tell for extended features off the wider Mainstream.
 
