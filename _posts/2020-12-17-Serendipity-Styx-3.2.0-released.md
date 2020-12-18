@@ -1,14 +1,14 @@
 ---
 layout: post
 title: Serendipity Styx 3.2.0 release
-last_modified_at: 2020-12-17T14:55:00+00:00
+last_modified_at: 2020-12-18T11:03:00+00:00
 ---
 
-Styx 2020/9 - The Serendipity Styx 3.2.0 release <img class="php8" src="/i/b/logo_php8.svg" alt="php8" width="96" height="22">
+Styx 2020/9 - The Serendipity Styx 3.2.0 release <img class="php8" src="/i/b/logo_php8.svg" alt="php8" width="160" height="48">
 
 Serendipity Styx 3.2.0 was delayed a little bit, heading to next 3.3, since the new **PHP 8.0.0** release just dropped in when it was quite ready to look out of the door. 
 So I spend 3 more weeks to make it a **PHP 8 ready** release!
-You can start right off using the latest PHP. It does not say the PHP 8 fixes are already complete, but all main functions just for starting a new blog without complains are done. Time will tell for extended features off the wider Mainstream.
+Now you can start right off using the latest PHP. It does not say the PHP 8 fixes are already complete, but all main functions just for starting a new blog without complains are done. Time will tell for extended features off the wider Mainstream.
 
 ## Styx 3.2.0 applies
 
@@ -17,10 +17,10 @@ You can start right off using the latest PHP. It does not say the PHP 8 fixes ar
   - Improved "pure" theme for some special cases
   - Added the new "**B46 [Black Edition]**" bootstrap theme for latest 4.5.3 release. The expected bootstrap 4.6.0 version did not make it in time.
   - Added the new "**PSG**" theme example, for a theme based start grid page.
-  - Fixed some buggy WebP variation image cases which might have hit you playing around (read the changelog on how to react)
+  - Fixed some buggy WebP variation image edge cases which might have hit you playing around (read the ChangeLog on how to react)
   - Improved the media grid in filter(ed) lists, and to remember per User Cookie
-  - Iconize several backend instances for viewability, **like**: MediaLibrary filtered status in the media toolbar, **and** stackable Plugins by their status, **and** for hotlink media shares to ML backend media properties, **and** for "has hidden suboption(s)" plugins option placeholders
-  - Added lots of improvements and bug fixes for PHP methods, language constants, core plugins, and/or other internal methods. Ask for help on language system!
+  - Iconized several backend instances for viewability, **like**: MediaLibrary filtered status in the media toolbar, **and** stackable Plugins by their status, **and** for hotlink media shares to ML backend media properties, **and** for "has hidden suboption(s)" plugins option placeholders
+  - Added lots of improvements and bug fixes for PHP methods, language constants, core plugins, and/or other internal methods. Ask for help on future language system changes!
   - Upgrade some libraries, like the basic Rich Text Editor, etc.
   - and more!
 
