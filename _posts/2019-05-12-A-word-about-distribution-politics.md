@@ -4,7 +4,7 @@ title: A word about distribution politics
 last_modified_at: 2019-05-12T16:06:00+00:00
 ---
 
-Styx 2019/2
+N° 2019/2
 
 <div markdown="1">
  <div>

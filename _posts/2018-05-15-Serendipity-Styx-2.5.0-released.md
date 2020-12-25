@@ -4,7 +4,7 @@ title: Serendipity Styx 2.5.0 release
 last_modified_at: 2018-11-06T13:26:00+00:00
 ---
 
-Styx 2018/2 - The 2.5.0 release is out! Check the [ChangeLog](https://github.com/ophian/styx/blob/2.5.0/docs/NEWS) for details!
+N° 2018/2 - The 2.5.0 release is out! Check the [ChangeLog](https://github.com/ophian/styx/blob/2.5.0/docs/NEWS) for details!
 Serendipity Styx is PHP 7.2 ready and requires PHP from 5.5+!
 
 ## Styx 2.5.0 runs (...some highlights)

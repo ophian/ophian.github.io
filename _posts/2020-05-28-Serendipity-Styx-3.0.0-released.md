@@ -4,7 +4,7 @@ title: Serendipity Styx 3.0.0 release
 last_modified_at: 2020-06-05T10:33:00+00:00
 ---
 
-Styx 2020/4 - The new Serendipity Styx 3.0 mayor release.
+N° 2020/4 - The new Serendipity Styx 3.0 mayor release.
 
 ### Preamble
 

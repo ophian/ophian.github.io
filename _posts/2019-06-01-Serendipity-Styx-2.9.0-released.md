@@ -4,7 +4,7 @@ title: Serendipity Styx 2.9.0 release
 last_modified_at: 2019-06-02T07:30:00+00:00
 ---
 
-Styx 2019/3 - The Serendipity Styx 2.9.0 release - 50 years Montreal "Bed-In" **"Give Peace a Chance" (1969)** Edition.
+N° 2019/3 - The Serendipity Styx 2.9.0 release - 50 years Montreal "Bed-In" **"Give Peace a Chance" (1969)** Edition.
 
 Since the more template focused Styx 2.8.0 version was somehow delayed in early April 2019 and then was overrun by a real flood of Core improvements and fixes, this version was abandoned in favor of 2.9.0.
 

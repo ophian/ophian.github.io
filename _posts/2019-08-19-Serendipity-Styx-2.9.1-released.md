@@ -4,7 +4,7 @@ title: Serendipity Styx 2.9.1 release
 last_modified_at: 2020-04-26T10:12:15+00:00
 ---
 
-Styx 2019/4 - The Serendipity Styx 2.9 branch 2.9.1 release.
+N° 2019/4 - The Serendipity Styx 2.9 branch 2.9.1 release.
 
 While heavy development of upcoming Serendipity Styx 3.0 is making huge progress, several issues were found in the 2.9 branch too. This is a point BugFix release.
 

@@ -4,7 +4,7 @@ title: Serendipity Styx 2.9.3 release
 last_modified_at: 2020-01-10T12:19:30+00:00
 ---
 
-Styx 2020/1 - The Serendipity Styx 2.9 branch 2.9.3 release.
+N° 2020/1 - The Serendipity Styx 2.9 branch 2.9.3 release.
 
 ## Styx 2.9.3 applies
 

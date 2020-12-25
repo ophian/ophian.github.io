@@ -4,7 +4,7 @@ title: Serendipity Styx 2.6-beta1 release
 last_modified_at: 2018-11-06T13:34:00+00:00
 ---
 
-Styx 2018/3 - Serendipity Styx Edition 2.6-beta1 has lots of small improvements and/or fixes for the general workflow and extended Serendipity features. Check the [ChangeLog](https://github.com/ophian/styx/blob/2.6-beta1/docs/NEWS) for details!
+N° 2018/3 - Serendipity Styx Edition 2.6-beta1 has lots of small improvements and/or fixes for the general workflow and extended Serendipity features. Check the [ChangeLog](https://github.com/ophian/styx/blob/2.6-beta1/docs/NEWS) for details!
 
   - Two of them - regarding comments - are the emergency spamblock killswitch-option to also hide the frontend **commentforms** and the new timeframe-option to disable comments after X days, i.e. when you don't want to allow old entries comments, which usually don't get very much valid comments after a certain amount of time.
   - The NL2BR-plugins P-option part was reworked, since the old code - not very ambitious - did not catch more advanced markups. This still is not absolutely bulletproof and you should always check what it produces in the frontend. The Styx recommendation for easy and extended use is to allow the WYSIWYG-Editor, in special the advanced CKEplus Plugin Edition.

@@ -4,7 +4,7 @@ title: Serendipity Styx 3.1.0 release
 last_modified_at: 2020-08-29T12:25:00+00:00
 ---
 
-Styx 2020/8 - The Serendipity Styx 3.1.0 release - Jules edition.
+N° 2020/8 - The Serendipity Styx 3.1.0 release - Jules edition.
 
 ## Styx 3.1.0 applies
 

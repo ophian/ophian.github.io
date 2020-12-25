@@ -4,7 +4,7 @@ title: Serendipity Styx 3.0.1 release
 last_modified_at: 2020-06-17T12:57:00+00:00
 ---
 
-Styx 2020/5 - The Serendipity Styx 3.0.1 bugfix release.
+N° 2020/5 - The Serendipity Styx 3.0.1 bugfix release.
 
 ## Styx 3.0.1 applies
 
