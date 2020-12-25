@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Serendipity Styx 2.5.0 release
-last_modified_at: 2018-11-06T13:26:00+00:00
+last_modified_at: 2020-12-25T10:54:00+00:00
 ---
 
 N° 2018/2 - The 2.5.0 release is out! Check the [ChangeLog](https://github.com/ophian/styx/blob/2.5.0/docs/NEWS) for details!

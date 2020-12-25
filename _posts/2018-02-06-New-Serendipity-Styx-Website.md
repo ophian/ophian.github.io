@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The new Serendipity Styx website - finally
-last_modified_at: 2018-11-06T13:34:00+00:00
+last_modified_at: 2020-12-25T10:54:00+00:00
 ---
 
 This January I started my new years 2018 Styx revision of the Serendipity Book, which finally needed a handy place and mockup to be presented to the readers.

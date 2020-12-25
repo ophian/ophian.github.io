@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Serendipity Styx 2.6.1 - Bugfix Release
-last_modified_at: 2018-11-05T13:32:00+00:00
+last_modified_at: 2020-12-25T10:54:00+00:00
 ---
 
 N° 2018/5 - Short bugfix update for certain issues

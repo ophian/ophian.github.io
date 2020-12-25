@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Serendipity Styx 3.0.3 release
-last_modified_at: 2020-06-28T16:32:00+00:00
+last_modified_at: 2020-12-25T10:54:00+00:00
 ---
 
 N° 2020/7 - The Serendipity Styx 3.0.3 bugfix release.

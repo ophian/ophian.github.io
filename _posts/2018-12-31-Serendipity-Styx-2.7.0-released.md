@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Serendipity Styx 2.7.0 release
-last_modified_at: 2019-02-17T19:50:00+00:00
+last_modified_at: 2020-12-25T10:54:00+00:00
 ---
 
 N° 2018/6 - The Serendipity Styx 2.7.0 **New Year's Eve Release Edition** is out!

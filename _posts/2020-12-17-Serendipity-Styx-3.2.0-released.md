@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Serendipity Styx 3.2.0 release
-last_modified_at: 2020-12-18T11:03:00+00:00
+last_modified_at: 2020-12-25T10:54:00+00:00
 ---
 
 N° 2020/9 - The Serendipity Styx 3.2.0 release <img class="php8" src="/i/b/logo_php8.svg" alt="php8" width="160" height="48">

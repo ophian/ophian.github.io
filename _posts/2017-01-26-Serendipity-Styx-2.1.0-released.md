@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Serendipity Styx 2.1.0 was released
-last_modified_at: 2018-11-06T13:32:00+00:00
+last_modified_at: 2020-12-25T10:54:00+00:00
 ---
 
 #January 2017, 26th - Styx 2.1.0 was released.
