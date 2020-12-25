@@ -4,7 +4,7 @@ title: Serendipity Styx 2.5-beta1 release is on the road
 last_modified_at: 2018-11-06T13:33:00+00:00
 ---
 
-N° 2018/1 - The 2.5-beta1 release is ready for attention! Check the [ChangeLog](https://github.com/ophian/styx/blob/2.5-beta1/docs/NEWS) for details!
+NÂ° 2018/1 - The 2.5-beta1 release is ready for attention! Check the [ChangeLog](https://github.com/ophian/styx/blob/2.5-beta1/docs/NEWS) for details!
 Styx should now be PHP 7.2.x ready and requires PHP from 5.5+!
 
 ## Styx 2.5-beta1 runs (...some highlights)
