@@ -605,8 +605,7 @@ E-Mail-Adresse des technisch Verantwortlichen enthalten.</span>
         Der <span class="mbold">ttl</span>-Wert wird in Minuten angegeben, wenn Sie also
         üblicherweise nur einen Artikel pro Tag online stellen, können Sie ihn auf 1440
         stellen (entspricht 24 Stunden). Damit können Sie dann möglicherweise einiges an
-        Traffic auf Ihrem Webserver sparen, wenn sich die RSS-Reader daran
-        halten.
+        Traffic auf Ihrem Webserver sparen, wenn sich die RSS-Reader daran halten.
     </span>
 </span>
 </p>
@@ -2685,8 +2684,7 @@ dieser "mehr"-Link eingebettet.</span>
 
     <span class="box">
         <span class="mbold">Populärste Lesezeichen der letzten 24 Stunden</span> ist daher meist
-        sinnvoller, wenn Sie neue, beliebte Lesezeichen aller
-        Benutzer des Webservices anzeigen wollen.
+        sinnvoller, wenn Sie neue, beliebte Lesezeichen aller Benutzer des Webservices anzeigen wollen.
     </span>
 
     <span class="box">
@@ -2694,9 +2692,8 @@ dieser "mehr"-Link eingebettet.</span>
         Tagcloud</span>. Dabei wird anstelle der Liste der Lesezeichen nur eine Liste
         aller vergebenen Schlagwörter angezeigt. Die Schlagwörter sind dabei in
         ihrer Schriftgröße proportional zur Häufigkeit, mit der Sie sie
-        eingesetzt haben. Besonders groß formatierte Schlagwörter
-        vergeben Sie also sehr häufig, die sehr klein geschriebenen Schlagwörter
-        nur selten.
+        eingesetzt haben. Besonders groß formatierte Schlagwörter vergeben Sie also sehr häufig,
+        die sehr klein geschriebenen Schlagwörter nur selten.
     </span>
 </span>
 </p>
