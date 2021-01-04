@@ -150,9 +150,8 @@ steht hier entweder <span class="mbold">Zum Login</span> oder <span class="mbold
 <span class="desc-info">Zuletzt befindet sich in diesem Block eine kleine Werbung für Serendipity.
 Besucher Ihres Blogs finden die Technik dahinter womöglich faszinierend,
 so dass sie dieser Hinweis über das eingesetzte System interessiert.
-Da ein Open-Source-System von seinen Benutzern und seiner Verbreitung
-lebt, freuen sich die Entwickler immer sehr, wenn diese Werbung
-nicht entfernt wird.</span>
+Da ein Open-Source-System von seinen Benutzern und seiner Verbreitung lebt,
+freuen sich die Entwickler immer sehr, wenn dieser Hinweis nicht entfernt wird.</span>
 </p>
 
 </section><!-- section.index end -->
