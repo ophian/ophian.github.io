@@ -178,7 +178,7 @@ Seitenausgabe auffasst.</p>
 unter Releases herunterladen.
 </p>
 
-<p>Das Serendipity-Paket bekommen Sie entweder von der
+<p>Das alte Serendipity-Paket bekommen Sie entweder von der
 Projekt-Webseite <code>http://www.s9y.org/</code> im Bereich
 <span class="mbold">Downloads</span> oder direkt von der SourceForge-Projektseite.[*]
 <span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://sourceforge.net/project/showfiles.php?group_id=75065" target="_blank" rel="noopener">http://sourceforge.net/project/showfiles.php?group_id=75065</a></span><!-- footnote -->
