@@ -4325,10 +4325,10 @@ Fall von Zugriffsproblemen die Schreibrechte zu prüfen.</p>
 <p>Die XML-Dateien, die Spartacus herunterlädt, werden in dem temporären
 Verzeichnis <code>templates_c</code> gespeichert. Damit das Plugin
 nicht bei jedem Zugriff auf Ihre Plugin-Verwaltung diese Dateien neu lädt,
-wird Spartacus die Dateien zwischenspeichern und nur alle 24 Stunden auf
+wird Spartacus die Dateien zwischenspeichern und nur alle 12 Stunden auf
 Aktualisierung prüfen. Aufgrund dieser Zwischenspeicherung kann es also
 passieren, dass neue Plugins im Spartacus-Archiv erst mit maximal
-24 Stunden Verzögerung dargestellt werden. Wenn Sie unbedingt forcieren
+12 Stunden Verzögerung dargestellt werden. Wenn Sie unbedingt forcieren
 wollen, dass Spartacus den Zwischenspeicher leert, dann können Sie über
 die Plugin-Konfiguration von Spartacus einfach auf den Button
 <span class="mbold">Speichern</span> klicken. Dadurch werden die temporären Dateien alle
