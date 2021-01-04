@@ -212,9 +212,9 @@ mit einem Kommandozeilen-Programm:</p>
 
 <pre><code class="bash">
     user@server:~# cd /var/www/example.com/<br>
-    user@server:~# wget "http://downloads.sourceforge.net/php-blog/serendipity-1.3.tar.gz?use_mirror=mesh"<br>
+    user@server:~# wget "https://github.com/ophian/styx/releases/download/3.2.0/serendipity-3.2.0.tar.xz"<br>
     [...]<br>
-    user@server:~# tar -xvzf serendipity-1.3.tar.gz<br>
+    user@server:~# tar -xvf serendipity-3.2.0.tar.xz<br>
     [...]
 </code></pre>
 
@@ -415,7 +415,7 @@ Serendipity einrichten.</p>
 <p>Je nachdem, welche Datenbanksoftware auf Ihrem Webserver zur Verfügung
 steht, kann dieser Vorgang unterschiedlich ausfallen.</p>
 
-<p>Verwendet Ihr Webserver PHP5, ist die
+<p>Verwendet Ihr Webserver mindestens PHP5, ist die
 <span class="tag-box invisible">
     <span class="inline-tag">SQLite!einrichten</span>
 </span>
@@ -439,7 +439,13 @@ man kann also problemlos eine bereits bestehende Datenbank für die
 Installation benutzen.</p>
 
 <p>Im Falle von Styx und MariaDB/MySQL geben Sie der Datenbank am besten gleich
-die korrekte <code>utf8mb4_unicode_ci</code>, bzw. noch besser die neuere <code>utf8mb4_unicode_520_ci</code> Kollation mit auf den Weg.</p>
+die korrekte <code>utf8mb4_unicode_ci</code>, bzw. noch besser die neuere
+<code>utf8mb4_unicode_520_ci</code> Kollation mit auf den Weg.</p>
+
+<p>Wie auch an anderer Stelle erwähnt, wird der Name <em>MySQL</em> hier als Synonym
+für MariaDB/MySQL Datenbanken benutzt. Empfohlen ist auf <strong>MariaDB</strong> zu setzen,
+ein Unternehmen, das vom MySQL-Gründer Michael "Monty" Widenius betrieben wird,
+und das in wesentliches Details gegenüber Oracles MySQL zu empfehlen ist.<p>
 
 <p>
 <span class="tag-box invisible">
