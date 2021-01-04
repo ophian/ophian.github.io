@@ -445,7 +445,7 @@ die korrekte <code>utf8mb4_unicode_ci</code>, bzw. noch besser die neuere
 <p>Wie auch an anderer Stelle erwähnt, wird der Name <em>MySQL</em> hier als Synonym
 für MariaDB/MySQL Datenbanken benutzt. Empfohlen ist auf <strong>MariaDB</strong> zu setzen,
 ein Unternehmen, das vom MySQL-Gründer Michael "Monty" Widenius betrieben wird,
-und das in wesentliches Details gegenüber Oracles MySQL zu empfehlen ist.<p>
+und das in wesentliches Details gegenüber Oracles MySQL zu empfehlen ist.</p>
 
 <p>
 <span class="tag-box invisible">
