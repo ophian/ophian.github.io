@@ -20,7 +20,7 @@ Darstellung anpassen kann, werden Sie in späteren Kapiteln ab Seite
 <section id="S310" class="index">
 <span class="s-toc">3.1 - Übersicht</span>
 
-<h3 class="section" id="übersicht">Übersicht</h3>
+<h3 class="section" id="uebersicht">Übersicht</h3>
 
 <p class="tagging invisible">
 <span class="tag-box invisible">
@@ -159,7 +159,7 @@ freuen sich die Entwickler immer sehr, wenn dieser Hinweis nicht entfernt wird.<
 <section id="S320" class="index">
 <span class="s-toc">3.2 - Beiträge</span>
 
-<h3 class="section" id="beiträge">Beiträge</h3>
+<h3 class="section" id="beitraege">Beiträge</h3>
 
 <p class="tagging invisible">
 <span class="tag-box invisible">
