@@ -197,18 +197,18 @@ Letzteren um die tagesaktuellen Entwicklerversionen handelt, sind diese bei
 Serendipity gewöhnlich sehr stabil.</p>
 
 <p>Außerdem können Sie die Pakete in mehreren Archivformaten
-herunterladen: als <code>zip</code>-Datei sowie als <code>bzip2</code>
-(Dateinamensendung <code>tar.bz2</code>) oder
+herunterladen: als <code>zip</code>-Datei, sowie als <code>xz</code>
+(Dateinamensendung <code>tar.xz</code>) oder
 <code>gzip</code> (Dateinamensendung <code>tar.gz</code>) gepackten
 <em>Tarball</em>. Alle drei Varianten enthalten die gepackten
 PHP-Dateien, die Sie auf Ihren Webserver hochladen müssen. Für
 Windows-Benutzer ist das <code>zip</code>-Archiv am einfachsten zu handhaben,
-unter Unix empfiehlt sich der Tarball.</p>
+unter Unix empfiehlt sich der Tarball. Am besten schauen Sie vorher kurz
+einmal nach welches Format tatsächlich angeboten wird.</p>
 
 <p>Falls Sie via <code>ssh</code> direkten Shellzugriff auf Ihren Webserver haben,
 laden Sie das Paket mittels <code>wget</code> ohne Umwege direkt auf den Server
-und entpacken es
-mit einem Kommandozeilen-Programm:</p>
+und entpacken es mit einem Kommandozeilen-Programm:</p>
 
 <pre><code class="bash">
     user@server:~# cd /var/www/example.com/<br>
