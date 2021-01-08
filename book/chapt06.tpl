@@ -1415,11 +1415,11 @@ oder der Kontext eindeutig ist.</p>
 <span class="item mbold">Zeitfenster für erlaubte Kommentare</span><!-- menuitem -->
 <span class="desc-info">
     <span class="box">
-        Die Formular-Kommentarfunktion eines Artikels kann global für einen begrenzten
-        Zeitraum von X Tagen seit dem Artikeldatum erlaubt werden, um zu vermeiden, dass
-        ältere Beiträge ihres Blogs mit Kommentaren geflutet werden. Der default Wert ist
+        Um zu vermeiden, dass ältere Beiträge ihres Blogs mit Kommentaren geflutet werden,
+        kann die Formular-Kommentarfunktion eines Artikels generell nur für einen begrenzten
+        Zeitraum von X Tagen seit dem Artikeldatum erlaubt werden. Der default Wert ist
         "0" und erlaubt (User) Kommentare zu jedem vorhandenen Artikel ohne Altersbegrenzung
-        (sofern nicht anderweitig restringiert).
+        (sofern nicht anderweitig beschränkt).
     </span>
 
     <span class="box"><span class="recommended">Default Einstellung</span>: <em>0</em></span>
