@@ -9535,8 +9535,12 @@ im Funktionsaufruf wie <code>serendipity_funktion parameter1=wert1 parameter2=we
                 <span class="smarty-type"><em>Variablentyp:</em> <code class="type"></code></span>
             </span>
             <span class="sub-box">
-                Legt fest, ob die Artikel hierarchisch (<code>$CONST.VIEWMODE_THREADED</code>) oder
-                chronologisch ((<code>$CONST.VIEWMODE_LINEAR</code>) dargestellt werden sollen.
+                Legt fest, ob die Artikel hierarchisch (<code>$CONST.VIEWMODE_THREADED</code> also "threaded") oder
+                chronologisch (<code>$CONST.VIEWMODE_LINEAR</code> also "linear") dargestellt werden sollen.
+                Verwirrend kann aber sein, dass für Letzteres beispielsweise trotz einer Gesamtzahl von 10 Kommentaren
+                ein gegebenes limit=5 in der Ausgabe durchaus weniger Kommentare anzeigen kann, je nachdem,
+                wie die Kommentare in den eventuellen Kommentarsträngen verteilt sind. Ein " mode=linear" ist hier
+                also vorzuziehen.
             </span>
         </span>
 
