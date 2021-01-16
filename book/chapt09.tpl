@@ -9551,6 +9551,8 @@ im Funktionsaufruf wie <code>serendipity_funktion parameter1=wert1 parameter2=we
             <span class="sub-box">
                 Legt die Reihenfolge fest, mit der die Kommentare ausgegeben werden (<code>ASC</code>
                 für aufsteigende Sortierung, <code>DESC</code> für absteigende).
+                Auch hier kann es verwirrend sein, dass die (gegenteilige) Sortierung gegebenfalls
+                andere Kommentare ausgibt, wenn ein begrenzendes limit mit einem linear mode geordert wird.
             </span>
         </span>
 
