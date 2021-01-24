@@ -5725,9 +5725,9 @@ auch selbstgeschriebene Plugins zugreifen können:</p>
 <span class="tag-box invisible">
     <span class="inline-tag">Plugin-API!Events!frontend_display:*</span>
 </span>
-<code class="item event">frontend_display:opml-1.0:namespace</code>, <code class="item event">frontend_display:rss-0.91:namespace</code>,
-<code class="item event">frontend_display:rss-1.0:namespace</code>, <code class="item event">frontend_display:rss-2.0:namespace</code>,
-<code class="item event">frontend_display:atom-1.0:namespace</code>, <code class="item event">frontend_display:atom-0.3:namespace</code>
+<code class="item event">frontend_display:opml-1.0:namespace</code>,
+<code class="item event">frontend_display:rss-2.0:namespace</code>,
+<code class="item event">frontend_display:atom-1.0:namespace</code>
 <span class="desc-info">
     <span class="box group-box">
         wird bei der Darstellung von RSS-Feeds
@@ -5752,26 +5752,14 @@ auch selbstgeschriebene Plugins zugreifen können:</p>
 </p>
 
 <p class="desc">
-<code class="item event">frontend_display:opml-1.0:per_entry</code>, <code class="item event">frontend_display:rss-0.91:per_entry</code>,
-<code class="item event">frontend_display:rss-1.0:per_entry</code>, <code class="item event">frontend_display:rss-2.0:per_entry</code>,
-<code class="item event">frontend_display:atom-1.0:per_entry</code>, <code class="item event">frontend_display:atom-0.3:per_entry</code>
+<code class="item event">frontend_display:opml-1.0:per_entry</code>
+<code class="item event">frontend_display:rss-2.0:per_entry</code>,
+<code class="item event">frontend_display:atom-1.0:per_entry</code>
 <span class="desc-info">
     <span class="box group-box">
         wird bei der Darstellung eines Blog-Artikels in einem Feed ausgeführt.
         <span class="subdesc">
             <code>eventData</code>: Array mit einzelnem Artikel des Feeds.
-        </span>
-    </span>
-</span>
-</p>
-
-<p class="desc">
-<code class="item event">frontend_display:rss-1.0:once</code>
-<span class="desc-info">
-    <span class="box group-box">
-        wird bei der Darstellung eines Blog-Artikels in einem Feed ausgeführt.
-        <span class="subdesc">
-            <code>eventData</code>: Array mit (String) Lizenz Quellen. ???
         </span>
     </span>
 </span>
