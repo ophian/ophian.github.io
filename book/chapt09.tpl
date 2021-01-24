@@ -1720,17 +1720,11 @@ dar.</span>
 <p class="desc citem-desc">
 <span class="label invisible" id="customfeeds">customfeeds</span>
 <span class="tag-box invisible">
-    <span class="inline-tag">Template-Dateien!feed_0.91.tpl</span>
-    <span class="inline-tag">Template-Dateien!feed_1.0.tpl</span>
     <span class="inline-tag">Template-Dateien!feed_2.0.tpl</span>
-    <span class="inline-tag">Template-Dateien!feed_atom0.3.tpl</span>
     <span class="inline-tag">Template-Dateien!feed_atom1.0.tpl</span>
     <span class="inline-tag">Template-Dateien!feed_opml1.0.tpl</span>
 </span>
-<code class="item file">feed_0.91.tpl</code>, 
-<code class="item file">feed_1.0.tpl</code>, 
 <code class="item file">feed_2.0.tpl</code>, 
-<code class="item file">feed_atom0.3.tpl</code>, 
 <code class="item file">feed_atom1.0.tpl</code>, 
 <code class="item file">feed_opml1.0.tpl</code>
 <span class="desc-info">
