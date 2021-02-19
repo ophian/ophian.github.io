@@ -796,7 +796,7 @@ die Sie bei der Entwicklung von Plugins und Ähnlichem häufig einsetzen werden.
 (<code class="item file">include/functions_config.inc.php</code>)
 <span class="desc-info">
     <span class="box">
-        Führt den Logout eines Benutzers durch.
+        Führt das Logout eines Benutzers durch.
     </span>
 </span>
 </p>
@@ -818,7 +818,7 @@ die Sie bei der Entwicklung von Plugins und Ähnlichem häufig einsetzen werden.
 (<code class="item file">include/functions_config.inc.php</code>)
 <span class="desc-info">
     <span class="box">
-        Wertet den Login eines Redakteurs aus und initalisiert dessen Konfigurationswerte.
+        Wertet den Login eines Benutzers aus und initalisiert dessen Konfigurationswerte.
     </span>
 </span>
 </p>
@@ -829,7 +829,7 @@ die Sie bei der Entwicklung von Plugins und Ähnlichem häufig einsetzen werden.
 (<code class="item file">include/functions_config.inc.php</code>)
 <span class="desc-info">
     <span class="box">
-        Setzt ein Login-Cookie, damit ein Redakteur automatisch bei den folgenden Seitenaufrufen
+        Setzt ein Login-Cookie, damit ein Benutzer automatisch bei den folgenden Seitenaufrufen
         eingeloggt werden kann.
     </span>
 </span>
@@ -840,7 +840,7 @@ die Sie bei der Entwicklung von Plugins und Ähnlichem häufig einsetzen werden.
 (<code class="item file">include/functions_config.inc.php</code>)
 <span class="desc-info">
     <span class="box">
-        Wertet ein automatisches Login-Cookie eines Redakteurs aus.
+        Wertet ein automatisches Login-Cookie eines Benutzers aus.
     </span>
 </span>
 </p>
@@ -850,7 +850,7 @@ die Sie bei der Entwicklung von Plugins und Ähnlichem häufig einsetzen werden.
 (<code class="item file">include/functions_config.inc.php</code>)
 <span class="desc-info">
     <span class="box">
-        Liefert zurück, ob ein Redakteur momentan eingeloggt ist.
+        Liefert zurück, ob ein Benutzer momentan eingeloggt ist.
     </span>
 </span>
 </p>
