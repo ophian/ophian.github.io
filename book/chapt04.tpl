@@ -4241,7 +4241,7 @@ Plugins.</p>
 <p>Wenn Sie ein älteres Plugin nutzen, das sich nicht von der im
 Trackback-Plugin konfigurierten Proxy-Einstellung beeindrucken lässt,
 können Sie notfalls auch manuell in der Datei
-<code>bundled-libs/HTTP/Request.php</code> in Zeile 150 folgende Variablen
+<code>bundled-libs/HTTP/Request2.php</code> in Zeile 136 folgende Variablen
 setzen:</p>
 
 <pre><code class="php">
