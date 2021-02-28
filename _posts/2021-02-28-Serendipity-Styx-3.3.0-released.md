@@ -1,12 +1,12 @@
 ---
 layout: post
 title: Serendipity Styx 3.3.0 release
-last_modified_at: 2021-02-28T17:24:00+00:00
+last_modified_at: 2021-02-28T18:04:00+00:00
 ---
 
 N° 2021/1 - The Serendipity Styx 3.3.0 release <img class="php8" src="/i/b/logo_php8.svg" alt="php8" width="160" height="48">
 
-Due to PHP 8 and its stricter error reporting many flaws have been ironed out.
+Due to PHP 8 and its stricter error reporting many hidden flaws have been ironed out.
 
 ## Styx 3.3.0 applies
 
