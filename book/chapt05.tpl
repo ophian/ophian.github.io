@@ -85,10 +85,7 @@ dort beliebige Inhalte darstellen oder einbinden. Im Gegensatz zu Ereignis-Plugi
 kann ein Seitenleisten-Plugin ausschließlich Ausgaben in der Seitenleiste vornehmen
 und keine weitere Kernfunktionalität zur Verfügung stellen.
 Die folgenden Seitenleisten-Plugins werden bei Serendipity mitgeliefert und sind
-standardmäßig aktiviert. Einige besitzen keine eigene
-Plugin-Datei im Unterverzeichnis <code>plugins</code>, sondern sind aus Performancegründen
-in <code>include/plugin_internal.inc.php</code> zusammengefasst Seit den Serendipity 2.0
-Versionen gilt letzteres nicht mehr!</p>
+standardmäßig aktiviert.</p>
 
 <section id="serendipity_plugin_archives" class="sub">
 <span class="u-toc">5.1.1 - Archive: serendipity_plugin_archives</span>
