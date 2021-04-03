@@ -4256,7 +4256,7 @@ setzen:</p>
 die <em>feine englische Art</em> ist, da die lokale Bibliothek auf einigen
 Servern durch eine zentrale PEAR-Bibliothek übergangen werden könnte.</p>
 
-<p>In älteren Serendipity Releases war das Spartacus-Plugin sufgrund der aufgeführten potenziellen Probleme
+<p>In älteren Serendipity Releases war das Spartacus-Plugin aufgrund der aufgeführten potenziellen Probleme
 standardmäßig nach der Installation nicht aktiviert. Sie mussten es daher
 über den Menüpunkt <span class="mbold">Klicken Sie hier, um Ereignis-Plugin zu
 installieren</span> erst auswählen und aktivieren. In der Konfiguration des
