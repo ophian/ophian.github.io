@@ -533,7 +533,8 @@ da diese mit Serendipity 2.0 eingeführten Schnellwerkzeugblöcke für Kommentar
 Entwurfs-Einträge nicht Jedermanns Sache sind, oft unnötig viel Platz und Ressourcen
 verschwenden und die eigentlichen Arbeiten viel effektiver auf ihren eigentlich
 vorgesehenen Seiten erledigt werden können. Ein "Nein" reduziert das Ganze auf eine Zeile
-und die reine Information, so dass Platz für weitere nützliche Dashboard Blöcke zB. über Plugins bleibt.</span>
+und die reine Information, so dass Platz für weitere nützliche Dashboard Blöcke zB. über Plugins bleibt.
+Diese Option und auch die Standard Dashboard widgets wurden mit Serendipity Styx 3.3.0 entfernt.</span>
 </p>
 
 <p class="desc">
