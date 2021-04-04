@@ -897,23 +897,6 @@ URL-Umformung deaktiviert wird.
 
 <p>
 <span class="tag-box invisible">
-    <span class="inline-tag">phpini@php.ini!magic_quotes_gpc</span>
-    <span class="inline-tag">phpini@php.ini!magic_quotes_runtime</span>
-</span>
-<code class="item">php_value magic_quotes_gpc
-php_value magic_quotes_runtime</code>
-setzbar in <code>.htaccess</code>, <code>php.ini</code> oder in der Webserverkonfiguration;</p>
-
-<p>Diese Variablen bestimmen, ob PHP Sonderzeichen in URL-Variablen (<code>GET</code>,
-<code>POST</code>, <code>COOKIE</code>) automatisch in ein sicheres Format
-umwandelt. Serendipity benötigt diesen Service nicht, da es
-die entsprechende Umformung selber vornimmt. Steht eine dieser Optionen auf
-<code>true</code>, macht Serendipity die entsprechende Konvertierung
-rückgängig. Daher empfiehlt es sich aus Performancegründen, die beiden
-Einstellungen auf <code>false</code> zu setzen und damit zu deaktivieren.</p>
-
-<p>
-<span class="tag-box invisible">
     <span class="inline-tag">phpini@php.ini!session.use_cookies</span>
 </span>
 <code class="item">php_value session.use_cookies</code>
