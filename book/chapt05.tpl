@@ -656,7 +656,7 @@ liegt, tragen Sie im Konfigurationsfeld <code>bilder/MeinRSS.gif</code> ein.</sp
         Die letzten vier Konfigurationsoptionen betreffen Sie nur, wenn Sie den
         oben erwähnten FeedBurner-Service benutzen. Als <span class="mbold">ID</span> müssen Sie die
         im FeedBurner dargestellte ID Ihres Feeds eintragen, sie entspricht dem
-        Namen, den Sie in der URL <code>http://feeds.feedburner.com/ID</code>
+        Namen, den Sie in der URL <code>https://feeds.feedburner.com/ID</code>
         sehen.
     </span>
 
@@ -666,7 +666,7 @@ liegt, tragen Sie im Konfigurationsfeld <code>bilder/MeinRSS.gif</code> ein.</sp
         und einem Linktitel. Im Feld <span class="mbold">FeedBurner Titel</span> können Sie
         diesen Titel vergeben, der neben der Grafik dargestellt wird. Die Grafikdatei
         müssen Sie mit einer vollständigen URL wie
-        <code>http://www.example.com/feedburner.jpg</code> eintragen. Wenn Sie dieses
+        <code>https://www.example.com/feedburner.jpg</code> eintragen. Wenn Sie dieses
         Feld leer lassen, sehen Sie eine Standardgrafik, die den Besucherzähler
         darstellt. Im Feld <span class="mbold">FeedBurner Bild-Unterschrift</span> können Sie einen
         Text hinterlegen, der angezeigt wird, wenn Sie mit der Maus über die
