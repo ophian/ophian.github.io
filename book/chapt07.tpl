@@ -1664,7 +1664,7 @@ individuelle Gestaltung anwenden können. Das Plugin wird mit mehreren Standard-
         <li><code>plugin_staticpage.tpl</code> (<span class="mbold">für einen Artikel</span>),</li>
         <li><code>plugin_staticpage_aboutpage.tpl</code> (<span class="mbold">Für eine Übersichtsseite</span>),</li>
         <li><code>staticpage-entries-listing.tpl</code> (<span class="mbold">Für eine Eintragsliste</span>, als Beispiel für eine Expertenoption),</li>
-        <li><code>plugin_staticpage_includeentry.tpl</code> (<span class="mbold">Für eine inkludierten Eintrag</span>, als Beispiel für eine Expertenoption),</li>
+        <li><code>plugin_staticpage_includeentry.tpl</code> (<span class="mbold">Für einen inkludierten Eintrag</span>, als Beispiel für eine Expertenoption),</li>
         <li><code>plugin_staticpage_related_category.tpl</code> (<span class="mbold">Für eine statische Seite mit zugeordneter Kategorie</span>),</li>
         <li><code>plugin_staticpage_searchresults.tpl</code> (<span class="mbold">für Suchresultate</span>),</li>
         <li><code>plugin_staticpage_sidebar.tpl</code> (<span class="mbold">für die Seitenleistenausgabe</span>).</li>
