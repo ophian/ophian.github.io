@@ -1699,11 +1699,18 @@ Klick auf <em>Los!</em> bearbeiten oder über einen Klick auf
 Seiten, zu denen er als Eigentümer eingetragen ist. Weiterhin sieht auch
 jeder Redakteur alle Seiten von Benutzern, die einen niedrigeren
 Benutzerrang haben. Administratoren sehen daher alle Seiten,
-Chefredakteure sehen Seiten von normalen Redakteuren. Eine weitergehende
+Chefredakteure sehen Seiten von normalen Redakteuren, so wie es das Rechtesystem
+in Serendipity es für Artikel vorsieht. Eine weitergehende
 Kontrolle der Zugriffsrechte bietet das Plugin in seiner jetzigen
-Version noch nicht, für die Zukunft denkt der fleißige Entwickler des
-Plugins (Falk Döring) jedoch daran, eine Rechteverwaltung mit individuellen
+Version noch nicht. Für die Zukunft dachte der einstige Entwickler des
+Plugins jedoch daran, eine Rechteverwaltung mit individuellen
 Zugriffsrechten für Benutzergruppen (anstelle von Benutzerrängen) einzubinden.
+Bevor diese nun bedacht und dezídiert ausgearbeitet ist, wurde eine Benutzung
+für Benutzergruppen unterhalb von Chefredakteuren, also einfachen Redakteuren
+vorerst abgeriegelt, da es zu viele Möglichkeiten an starken Veränderungen
+des Webseiten-Auftrittes erlaubt, die für die meisten Redakteure eher ein administratives
+Rechteupgrade darstellen würden. So sind manche Optionen nur als Hinweis
+auf eine möglicherweise später folgende erweiterte Rechteverwaltung zu verstehen.
 Wenn bestimmte Benutzergruppen keinen Zugriff auf statische Seiten haben
 sollen, so können Sie das Plugin global für diese Gruppe(n) deaktivieren
 (siehe Seite <span class="pageref"><a href="#verboteneplugins">verboteneplugins</a></span>).</p>
@@ -1875,7 +1882,9 @@ hier beispielsweise die Überschrift der statischen Seite einbetten.</span>
 Eigentümer dieser Seite ist. Abhängig davon können später nur
 der Eigentümer und alle höherrangigen Redakteure diese statische Seite
 bearbeiten. Zudem wird der Eigentümer einer statischen Seite
-standardmäßig im Layout der Seite angezeigt.</span>
+standardmäßig im Layout der Seite angezeigt. Aus Gründen der Vereinfachung
+ist es einem Chefredakteur auch erlaubt statische Seiten des Administrators
+bzw der Administratorengruppe zu bearbeiten.</span>
 </p>
 
 <p class="desc">
