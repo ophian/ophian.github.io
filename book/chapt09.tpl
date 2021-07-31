@@ -10550,7 +10550,7 @@ schreitet erst ab Zeile 33 fort.</p>
 Variable <code class="item smarty">{$is_xhtml}</code> geprüft und abhängig davon der entsprechende
 HTML <code>&lt;!DOCTYPE&gt;</code>-Tag ausgegeben.</p>
 
-<p>Nach dem doctype header begint der <code>&lt;html&gt;</code>- und <code>&lt;head&gt;</code>-Bereich der Seite,
+<p>Nach dem doctype header beginnt der <code>&lt;html&gt;</code>- und <code>&lt;head&gt;</code>-Bereich der Seite,
 der einige Metadaten wie Seitentitel, Sprache und Links zu den Stylesheets
 enthält.</p>
 

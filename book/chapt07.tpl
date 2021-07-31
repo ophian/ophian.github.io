@@ -567,7 +567,7 @@ Ohren geschlagen hat, wie man seine Artikel kategorisiert, findet man
 nach einigen Monaten des Schreibens heraus, dass eine Kategorie mit einer
 Fülle an Artikeln überschwemmt wird und andere, liebevoll angelegte
 Kategorien nur mit einem oder gar keinem Artikel aufwarten können. Nun
-begint für den Redakteur also das Ausmisten: Kategorien vereinen oder
+beginnt für den Redakteur also das Ausmisten: Kategorien vereinen oder
 aufteilen und danach alle Artikel neu kategorisieren.</p>
 
 <p>Verständlicherweise kann dies Redakteure zum Verzweifeln bringen. Nicht
@@ -2282,7 +2282,7 @@ erneut in der Datenbank einträgt.</p>
 kann abseits von den angelegten statischen Seiten auch die Ausgabeseiten
 einiger Plugins mit einbinden.
 Zu diesen Plugins zählen der <em>Downloadmanager</em>, das <em>Gästebuch</em>,
-<em>Kontaktformular</em>, <em>Forum</em>, die <em>FAQs</em> sowie die
+<em>Kontaktformular</em>, <em>Forum</em>, die <em>FAQs</em>, sowie die
 <em>Bildergalerie</em>.</p>
 
 <p>Links zu derartigen Plugins müssten Sie andernfalls immer manuell über
