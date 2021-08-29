@@ -9104,15 +9104,7 @@ standardmäßig hervorgehoben ist. Direkt darunter befinden sich die
 jeweiligen Profilfelder wie <em>Voller Name</em>, <em>Homepage</em>,
 <em>Hobbies</em> und so weiter. Dort kann der jeweilige Redakteur
 sämtliche Felder seiner Datei ausfüllen und auf
-<span class="mbold">Speichern</span> klicken. Bitte beachten Sie,
-dass aus technischen Gründen Geburtstage vor dem 01.01.1970 [*]
-<span class="footnote"><i class="fa fa-info-circle"></i>
-Dieses Datum markiert Sekunde 1 der Unix-Zeitrechnung. Alle
-Unix-Server arbeiten intern mit sogenannten Timestamps, daher werden auch
-in vielen Datenbanken Timestamps zur Formatierung von Zeitpunkten
-verwendet, da damit leichter zu rechnen ist und sie sich einfacher in
-beliebige Zeitzonen umrechnen lassen.</span><!-- footnote --> von dem
-Plugin leider nicht korrekt ausgewertet werden können.</p>
+<span class="mbold">Speichern</span> klicken.</p>
 
 <p>Zusätzlich bindet das Plugin dieselbe Oberfläche auch unter dem
 eigenständigen Menüpunkt <span class="mbold">Administration
