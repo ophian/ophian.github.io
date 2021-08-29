@@ -596,7 +596,7 @@ Mediathek-Popup anzeigen</span> aktivieren.</span></p>
     <span class="inline-tag">Eigene Einstellungen!Kommentare und Trackbacks dieses Eintrags werden moderiert</span>
     <span class="inline-tag">Kommentarmoderation</span>
 </span><!-- tagbox -->
-<span class="item mbold">Kommentare und Trackbacks dieses Eintrags werden moderiert.</span><!-- menuitem -->
+<span class="item mbold">Kommentare und Trackbacks benötigen Moderation</span><!-- menuitem -->
 <span class="desc-info">Diese Option stellt ein, ob bei einem neu erstellten Artikel
 standardmäßig Kommentare und Trackbacks moderiert werden sollen. Im Falle
 einer Moderation muss ein neuer Kommentar oder ein Trackback erst
