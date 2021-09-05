@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Serendipity Styx 3.5.0 release
-last_modified_at: 2021-09-05T16:29:00+00:00
+last_modified_at: 2021-09-05T16:45:00+00:00
 ---
 
 N° 2021/5 - The Serendipity Styx 3.5.0 release <img class="php8" src="/i/b/logo_php8.svg" alt="php8" width="160" height="48">
@@ -17,7 +17,7 @@ Its not the length of changelog descriptions that makes the value or the headlin
   - Improve backend entry preview array for empty categories and certain themes
   - Improve fetching image meta data for exif data readable file format check
   - Added some missing lang constants
-  - Again removed a last occurence of Series 0/1 workarounds
+  - Again removed a last occurrence of Series 0/1 workarounds
   - Fixed an amount of old bugs and regressions losses
   - Improved and fixed user handling and permissives
   - Fixed themes (check out new dates)
