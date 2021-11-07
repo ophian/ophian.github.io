@@ -6596,6 +6596,17 @@ auch selbstgeschriebene Plugins zugreifen können:</p>
 </p>
 
 <p class="desc">
+<code class="item event">backend_sidebar_users</code>
+<span class="desc-info">
+    <span class="box">
+        wird bei der Darstellung der Menüpunkte des
+        Backends ausgeführt. Über dieses Ereignis können zusätzliche Menüpunkte im
+        Bereich <span class="mbold">Administration/Benutzerverwaltung</span> hinzugefügt werden.
+    </span>
+</span>
+</p>
+
+<p class="desc">
 <code class="item event">backend_frontpage_display</code>
 <span class="desc-info">
     <span class="box group-box">
