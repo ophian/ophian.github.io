@@ -566,12 +566,18 @@ z.b. für die Mediathek und die Kategorieauswahl verwendet.</span>
 </span><!-- tagbox -->
 <span class="item mbold">Popups in speziellen Bereichen erzwingen</span><!-- menuitem -->
 <span class="desc-info">Wenn Popups generell deaktiviert wurden,
-kann an speziellen Stellen dennoch der Einsatz von Popups forciert werden,
-indem die Liste jener Stellen hier aufgeführt wird (kommasepariert).
-Die vollständige Liste lautet: <code>images</code>, <code>comments</code>,
+kann an speziellen Stellen der Einsatz von Popups überschrieben werden.
+Dies gilt für echte Fenster-Popups (für <em>"images"</em> über das Eintragsformular
+und <em>"comments"</em> in der Kommentarliste über Antwort),
+bzw. genau <u>umgekehrt</u> im Verhalten, für modale "Popups"
+(<em>categories, tags, links</em>) als (Standard) Einstellung
+im Eintragsformular (bzw Administrations Startseite), indem sie
+hier für die beiden Ersteren geschrieben und für die drei Letzteren
+eben genau <b>nicht</b> aufgeführt werden. Die vollständige (kommaseparierte)
+Liste lautet: <code>images</code>, <code>comments</code>,
 <code>categories</code>, <code>tags</code>, <code>links</code>.
 Ebenso vice versa: Wenn Popups generell erlaubt sind, kann ein Eintrag diesen hier speziell zurücksetzen, zb. für "tags".
-Für <span class="mbold">Serendipity Styx</span> lautet die default Empfehlung: <code>categories</code>, <code>tags</code>, <code>links</code>.</span>
+Für <span class="mbold">Serendipity Styx</span> lautet die Standard Empfehlung: <code>categories</code>, <code>tags</code>, <code>links</code>.</span>
 </p>
 
 <p class="desc">
