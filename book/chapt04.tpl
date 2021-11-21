@@ -302,7 +302,7 @@ User-Einstellungen der "Eigenen Einstellungen" wieder zu reduzieren.
 Die eigentliche Administration von Kommentaren bzw. Entwurfs-Einträgen
 erfolgt sowieso immer besser über deren vorgesehene Hauptseiten!</p>
 
-<p>Das Seitenleisten-Menü selbst ist in mehrere Hauptblöcke unterteilt:</p>
+<p>Das Seitenleisten-Menü selbst ist in mehrere Hauptblöcke unterteilt und hat sich in den verschiedenen Versionen der Serendipity Historie immer wieder auch leicht verändert (¹):</p>
 
 <ul class="simpleList">
     <li><span class="mbold">Inhalt</span> bietet Möglichkeiten zum Bearbeiten von Artikeln und aller Arten von inhaltsbezogenen Funktionen/Plugins.</li>
@@ -311,7 +311,11 @@ erfolgt sowieso immer besser über deren vorgesehene Hauptseiten!</p>
     des Blogs, soweit sie nicht streng artikelbezogen, eine solche Aktivität oder sonstiges sind.</li>
     <li><span class="mbold">Einstellungen</span> umfasst alle Funktionen, die den Zugriff auf
     das Blog und dessen Daten regulieren. Darunter fallen auch das Template/Theme und die Plugin Administration.</li>
+    <li><span class="mbold">Benutzerverwaltung</span> umfasst alle Funktionen, die den Zugriff auf Benutzer und das Gruppenmanagement
+     beinhalten. Darunter fallen auch zusätzliche Benutzerprofile durch erweiternde Plugins. (¹)</li>
 </ul>
+
+<p>¹) Dies ist ein Beispiel einer Veränderung über die Zeit, da die Benutzerverwaltung als eigenständiger Block aus der Einstellungen Block ab Styx 3.6 aus Gründen der Übersichtlichkeit wieder ausgeliedert wurde.</p>
 
 <p>Einige Plugins geben an einigen Stellen des Seitenleisten-Menüs ihre eigenen
 Menüpunkte aus. Diese zusätzlichen Menüpunkte führen dann zur jeweiligen
