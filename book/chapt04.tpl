@@ -7720,7 +7720,7 @@ Hook hier einhaken.</p>
         Natürlicherweise können nur Dateien verglichen werden, die auf ihrem
         augenblicklichen System, wie auch in einem Release Zip zu finden sind.
         Veränderte Dateien, und seien es nur veränderte Speicherzeiten, werden
-        Ihnen angemahnt. Dies muss nicht immer einen Fremdzugriff bedeuten. Ob
+        Ihnen angemahnt. Dies muss nicht immer einen Fremdzugriff bedeuten, denn oft
         war man es selbst, der eine Datei geöffnet und neu gespeichert hat.
     </span>
 </p>
