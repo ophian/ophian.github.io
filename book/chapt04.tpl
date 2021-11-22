@@ -8636,6 +8636,14 @@ wieder löschen.</p>
     </span>
 </p>
 
+<p class="desc-info">
+    <span class="box">
+        Die grüne Erfolgsmeldung über ihre Systemvoraussetzung ist natürlich, oder
+        spätestens nach einiger Zeit, überflüssig zu behalten und kann seit
+        Serendipity Styx 3 über das eingefügte icon permanent weggeklickt werden.
+    </span>
+</p>
+
 </section><!-- section.sub end -->
 
 </section><!-- section.index end -->
