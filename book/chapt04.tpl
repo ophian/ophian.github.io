@@ -8537,7 +8537,7 @@ wieder löschen.</p>
 
     <span class="box">
         Ansonsten können Sie ihr Blog frei im Backend und im Frontend bedienen
-        und anschauen. Ist der Vorgang der Wartung, zB ein Serendiputy Upgrade,
+        und anschauen. Ist der Vorgang der Wartung, zB ein Serendipity Upgrade,
         abgeschlossen, deaktvieren Sie dem Modus wieder.
     </span>
 
