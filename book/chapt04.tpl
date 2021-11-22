@@ -7555,7 +7555,7 @@ systemnaher Einstellungen.</span>
         und das - in diesem Fall - besonders wichtige Feld <span class="mbold">Hidden group / Non-Author</span>,
         damit diese Gruppe für andere Benutzer verborgen bleibt.
         Danach verbinden sie unter "Benutzer" den gewünschten Nutzer mit der Eigenschaft "Chefredakteur"
-        zusätzlich mit eben dieser neu estellten Gruppe.
+        zusätzlich mit eben dieser neu erstellten Gruppe.
     </span>
 </span>
 </p>
