@@ -8524,7 +8524,7 @@ wieder löschen.</p>
         <em>“503 - Service Temporarily Unavailable”</em> Modus (einen
         temporären 503 Wartungsmodus) versetzt werden.
         Die <span class="mbold">Bedingung</span> dafür ist, dass sie sich
-        mit der LogIn speichern Methode angemeldet haben und sich während
+        mit der LogIn <span class="mbold">Daten speichern</span> Methode angemeldet haben und sich während
         des Vorganges weder ausloggen, noch ihr Browserfenster schließen.
     </span>
 
