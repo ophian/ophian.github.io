@@ -1,12 +1,12 @@
 ---
 layout: post
 title: Serendipity Styx AV1 Image File support
-last_modified_at: 2021-11-26T14:07:00+00:00
+last_modified_at: 2021-11-26T14:33:00+00:00
 ---
 
 N° 2021/7 - PHP 8.1 & Serendipity Styx AV1 Image File support <img class="php8" src="/i/b/logo_php8_1.svg" alt="php8" width="160" height="48">
 
-## AV1 Image File  format
+## The AV1 Image File format
 
 <div markdown="1">
  <div>
