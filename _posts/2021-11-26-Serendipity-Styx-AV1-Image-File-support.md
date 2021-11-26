@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Serendipity Styx AV1 Image File support
-last_modified_at: 2021-11-26T12:17:00+00:00
+last_modified_at: 2021-11-26T12:24:00+00:00
 ---
 
 N° 2021/7 - PHP 8.1 & Serendipity Styx AV1 Image File support <img class="php8" src="/i/b/logo_php8_1.svg" alt="php8" width="160" height="48">
@@ -41,10 +41,10 @@ N° 2021/7 - PHP 8.1 & Serendipity Styx AV1 Image File support <img class="php8" 
     with the WebP Variation and always delivers the smaller in filesize.
     If it is enclosed by the picture element container, the sourceset (srcset)
     order will always be AVIF first, then WebP and for last as the &lt; img &gt;
-    element the origin file expression.<br/>
+    element the origin file expression.<br>
     In case the <strong>WebP</strong> srcset image expression is smaller in filesize than the
     <strong>AVIF</strong> one, the AVIF srcset is suppressed. This ensures that always the
-    smallest in size is delivered.<br/>
+    smallest in size is delivered.<br>
     Sending this prepared HTML markup to the client, the users browser and
     environment decides which image it is able to load and to display.</p>
 
@@ -73,7 +73,7 @@ N° 2021/7 - PHP 8.1 & Serendipity Styx AV1 Image File support <img class="php8" 
     does not work for AVIF image sizes yet in PHP 8.1 out of the box (see LIMITATIONS).</p>
 
     <p>We have to strongly remind you - when testing - to not upload more than one
-    image at time (!) to not crash your given server resources.<br/>
+    image at time (!) to not crash your given server resources.<br>
     The time of encoding is depending on the origins file size. Sizes under
     1 MB won't matter as much as when using images with several Megabytes.</p>
 
@@ -110,8 +110,8 @@ N° 2021/7 - PHP 8.1 & Serendipity Styx AV1 Image File support <img class="php8" 
     with 0 bytes, or AVIF images with 252 bytes (0.25 KB) or 3389 bytes (3.4 KB)
     or 34165 bytes (34 KB) are considered broken and conditionally excluded from
     usage. Time will tell if this needs a review for different file systems or
-    just were rare issues on my machine while experimental development only.<br/>
-    <strong>FOR ANY TESTERS:</strong><br/>
+    just were rare issues on my machine while experimental development only.<br>
+    <strong>FOR ANY TESTERS:</strong><br>
     If you see outlined files with webp or avif extension not being displayed by
     link or by picture container, please file an issue with extended information.</p>
 
@@ -119,7 +119,7 @@ N° 2021/7 - PHP 8.1 & Serendipity Styx AV1 Image File support <img class="php8" 
 
     <p>PLEASE NOTE, that ALL current PHP versions - including the just now released
     PHP 8.1 - are not able to thumbsize an image by <strong>readable</strong> image sizes,
-    when you have an AVIF image format.<br/>
+    when you have an AVIF image format.<br>
     The PHP 8.1 standard image format conversions in current Styx 3.6 and 3.7-beta1
     state are only able to do so, since they take the same values as the WebP
     expression as a "stolen" value copy. This is a current Styx PHP workaround
