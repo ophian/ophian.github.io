@@ -1,10 +1,10 @@
 ---
 layout: post
 title: Serendipity Styx AV1 Image File support
-last_modified_at: 2021-11-26T12:24:00+00:00
+last_modified_at: 2021-11-26T13:41:00+00:00
 ---
 
-N° 2021/7 - PHP 8.1 & Serendipity Styx AV1 Image File support <img class="php8" src="/i/b/logo_php8_1.svg" alt="php8" width="160" height="48">
+N° 2021/7 - PHP 8.1 and Serendipity Styx AV1 Image File support <img class="php8" src="/i/b/logo_php8_1.svg" alt="php8" width="160" height="48">
 
 <div markdown="1">
  <div>
@@ -27,7 +27,7 @@ N° 2021/7 - PHP 8.1 & Serendipity Styx AV1 Image File support <img class="php8" 
 
     <p>Chrome 85+ and Firefox up from 93+ already support the AVIF format by default.
     The latest status for browsers supporting AVIF can be found here:
-    <a href="https://caniuse.com/avif">[&lt;&lt; Can I use &gt;&gt;]</a>.
+    <a href="https://caniuse.com/avif">&lt;&lt; Can I use &gt;&gt;</a>.
     Sadly the Safari browser and Apple OS environments are behind, while Android
     should already work.</p>
 
@@ -35,7 +35,7 @@ N° 2021/7 - PHP 8.1 & Serendipity Styx AV1 Image File support <img class="php8" 
 
     <p>As you know already by working with Styx WebP Variations, uploaded files in
     standard image formats are additionally stored as new format Variations.
-    So AVIF is yet another Variation stored in the MediaLibrary .v/ directories.</p>
+    So AVIF is yet another Variation stored in the MediaLibrary .v\/ directories.</p>
 
     <p>The Styx OUTPUT instrumentarium checks the image AVIF Variation compared
     with the WebP Variation and always delivers the smaller in filesize.
@@ -51,8 +51,8 @@ N° 2021/7 - PHP 8.1 & Serendipity Styx AV1 Image File support <img class="php8" 
     <h2>CURRENT IMPORTANT DRAWBACKS of using AVIF format</h2>
 
     <p>While most of the things about AVIF are very promising and it is likely to
-    become the standard for media delivery in the future, there are some short-
-    comings that we should be aware of before migrating to AVIF.</p>
+    become the standard for media delivery in the future, there are some shortcomings
+    that we should be aware of before migrating to AVIF.</p>
 
     <p>The <strong>ABSOLUTE MAJOR BOTTLENECK</strong> is the encoding performance of AVIF images,
     which can be <strong>VERY SLOW</strong> compared to JPEG or WebP images. While the majority of
@@ -86,7 +86,7 @@ N° 2021/7 - PHP 8.1 & Serendipity Styx AV1 Image File support <img class="php8" 
     there are third-party service providers like ImageKit with extensive image
     processing networks to provide decent AVIF encoding performance in real-time
     for your images. Or using the fascinating tool and conversion privacy of
-    <a href="https://avif.io/">[&lt;&lt; avif.io &gt;&gt;]</a> which uses Rav1e, Rust and WASM to convert your
+    <a href="https://avif.io/">&lt;&lt; avif.io &gt;&gt;</a> which uses Rav1e, Rust and WASM to convert your
     images clientside.</p>
 
     <p>Styx 3.6 has not yet enabled AVIF support by default. It just states to be
@@ -100,8 +100,8 @@ N° 2021/7 - PHP 8.1 & Serendipity Styx AV1 Image File support <img class="php8" 
     which had much more time landing in mainstream</em>).</p>
 
     <p>Also see some interesting external comparison pages (out of others) for the new format:
-    <a href="https://www.gumlet.com/learn/avif-for-image-coding-everything-you-need-to-know/">[&lt;&lt; everything you need to know &gt;&gt;]</a>
-    <a href="https://jakearchibald.com/2020/avif-has-landed/">[&lt;&lt; avif has landed (2020) &gt;&gt;]</a>.</p>
+    <a href="https://www.gumlet.com/learn/avif-for-image-coding-everything-you-need-to-know/">&lt;&lt; everything you need to know &gt;&gt;</a>
+    <a href="https://jakearchibald.com/2020/avif-has-landed/">&lt;&lt; avif has landed (2020) &gt;&gt;</a>.</p>
 
     <h2>POSSIBLE FAILURES</h2>
 
