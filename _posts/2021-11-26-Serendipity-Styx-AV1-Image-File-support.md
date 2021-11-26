@@ -1,15 +1,17 @@
 ---
 layout: post
 title: Serendipity Styx AV1 Image File support
-last_modified_at: 2021-11-26T13:41:00+00:00
+last_modified_at: 2021-11-26T13:45:00+00:00
 ---
 
 N° 2021/7 - PHP 8.1 and Serendipity Styx AV1 Image File support <img class="php8" src="/i/b/logo_php8_1.svg" alt="php8" width="160" height="48">
 
+## AV1 Image Files
+
 <div markdown="1">
  <div>
 
-    <h2>Serendipity Styx AV1 Image File format groundwork</h2>
+    <h3>Serendipity Styx AV1 Image File format groundwork</h3>
 
     <p>As already stated when developing the Styx 3.0 Series for WebP there was
     another image format on the horizon.</p>
@@ -23,7 +25,7 @@ N° 2021/7 - PHP 8.1 and Serendipity Styx AV1 Image File support <img class="php8
     much faster than the WebP format, which took almost ten years from launch
     before being supported in Firefox.</p>
 
-    <h2>AV1 Image File support in browsers and apps</h2>
+    <h3>AV1 Image File support in browsers and apps</h3>
 
     <p>Chrome 85+ and Firefox up from 93+ already support the AVIF format by default.
     The latest status for browsers supporting AVIF can be found here:
@@ -31,7 +33,7 @@ N° 2021/7 - PHP 8.1 and Serendipity Styx AV1 Image File support <img class="php8
     Sadly the Safari browser and Apple OS environments are behind, while Android
     should already work.</p>
 
-    <h2>AVIF image format delivery</h2>
+    <h3>AVIF image format delivery</h3>
 
     <p>As you know already by working with Styx WebP Variations, uploaded files in
     standard image formats are additionally stored as new format Variations.
@@ -48,7 +50,7 @@ N° 2021/7 - PHP 8.1 and Serendipity Styx AV1 Image File support <img class="php8
     Sending this prepared HTML markup to the client, the users browser and
     environment decides which image it is able to load and to display.</p>
 
-    <h2>CURRENT IMPORTANT DRAWBACKS of using AVIF format</h2>
+    <h3>CURRENT IMPORTANT DRAWBACKS of using AVIF format</h3>
 
     <p>While most of the things about AVIF are very promising and it is likely to
     become the standard for media delivery in the future, there are some shortcomings
@@ -62,7 +64,7 @@ N° 2021/7 - PHP 8.1 and Serendipity Styx AV1 Image File support <img class="php8
     <p>As the format evolves, the encoding performance is likely to improve in
     future.</p>
 
-    <h2>ENVIRONMENTAL ENCODING SUPPORT</h2>
+    <h3>ENVIRONMENTAL ENCODING SUPPORT</h3>
 
     <p>Encoding support starts with PHP 8.1 by GD library with release at the end
     of November 2021 and with ImageMagick up from 7.0.25+ versions.</p>
@@ -80,7 +82,7 @@ N° 2021/7 - PHP 8.1 and Serendipity Styx AV1 Image File support <img class="php8
     <p>PHP GD and ImageMagick encoding compression are slightly different and their
     results often surprising comparing all formats.</p>
 
-    <h2>TEST INFORMATIONS</h2>
+    <h3>TEST INFORMATIONS</h3>
 
     <p>If you want to get known to AVIF without touching your current blog system,
     there are third-party service providers like ImageKit with extensive image
@@ -103,7 +105,7 @@ N° 2021/7 - PHP 8.1 and Serendipity Styx AV1 Image File support <img class="php8
     <a href="https://www.gumlet.com/learn/avif-for-image-coding-everything-you-need-to-know/">&lt;&lt; everything you need to know &gt;&gt;</a>
     <a href="https://jakearchibald.com/2020/avif-has-landed/">&lt;&lt; avif has landed (2020) &gt;&gt;</a>.</p>
 
-    <h2>POSSIBLE FAILURES</h2>
+    <h3>POSSIBLE FAILURES</h3>
 
     <p>This base implementation is known to fail with certain Variation builds, in
     special with ImageMagick conversions while developing. So any WebP images
@@ -115,7 +117,7 @@ N° 2021/7 - PHP 8.1 and Serendipity Styx AV1 Image File support <img class="php8
     If you see outlined files with webp or avif extension not being displayed by
     link or by picture container, please file an issue with extended information.</p>
 
-    <h2>LIMITATIONS</h2>
+    <h3>LIMITATIONS</h3>
 
     <p>PLEASE NOTE, that ALL current PHP versions - including the just now released
     PHP 8.1 - are not able to thumbsize an image by <strong>readable</strong> image sizes,
@@ -123,7 +125,7 @@ N° 2021/7 - PHP 8.1 and Serendipity Styx AV1 Image File support <img class="php8
     The PHP 8.1 standard image format conversions in current Styx 3.6 and 3.7-beta1
     state are only able to do so, since they take the same values as the WebP
     expression as a "stolen" value copy. This is a current Styx PHP workaround
-    and upload limitation as long this isn't implemented to PHP without having
+    and upload limitation as long this isn\'t implemented to PHP without having
     to use additional libraries.</p>
 
     <p>Some Developers already have already stiched together a promising <strong>libavifinfo</strong> file
