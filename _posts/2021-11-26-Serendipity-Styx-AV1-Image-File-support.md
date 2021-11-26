@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Serendipity Styx AV1 Image File support
-last_modified_at: 2021-11-26T14:54:00+00:00
+last_modified_at: 2021-11-26T15:01:00+00:00
 ---
 
 N° 2021/7 - PHP 8.1 & Serendipity Styx AV1 Image File support <img class="php8" src="/i/b/logo_php8_1.svg" alt="php8" width="160" height="48">
@@ -29,7 +29,7 @@ N° 2021/7 - PHP 8.1 & Serendipity Styx AV1 Image File support <img class="php8"
 
     <p>Chrome 85+ and Firefox up from 93+ already support the AVIF format by default.
     The latest status for browsers supporting AVIF can be found here:
-    <a href="https://caniuse.com/avif">[&lt;&lt; Can I use &gt;&gt;]</a>.
+    <a href="https://caniuse.com/avif" target="_blank" rel="noopener">[&lt;&lt; Can I use &gt;&gt;]</a>.
     Sadly the Safari browser and Apple OS environments are behind, while Android
     should already work.</p>
 
@@ -87,7 +87,7 @@ N° 2021/7 - PHP 8.1 & Serendipity Styx AV1 Image File support <img class="php8"
     there are third-party service providers like ImageKit with extensive image
     processing networks to provide decent AVIF encoding performance in real-time
     for your images. Or using the fascinating tool and conversion privacy of
-    <a href="https://avif.io/">[&lt;&lt; avif.io &gt;&gt;]</a> which uses Rav1e, Rust and WASM to convert your
+    <a href="https://avif.io/" target="_blank" rel="noopener">[&lt;&lt; avif.io &gt;&gt;]</a> which uses Rav1e, Rust and WASM to convert your
     images clientside.</p>
 
     <p>Styx 3.6 has not yet enabled AVIF support by default. It just states to be
@@ -101,8 +101,8 @@ N° 2021/7 - PHP 8.1 & Serendipity Styx AV1 Image File support <img class="php8"
     which had much more time landing in mainstream</em>).</p>
 
     <p>Also see some interesting external comparison pages (out of others) for the new format:
-    <a href="https://www.gumlet.com/learn/avif-for-image-coding-everything-you-need-to-know/">[&lt;&lt; everything you need to know &gt;&gt;]</a>
-    and <a href="https://jakearchibald.com/2020/avif-has-landed/">[&lt;&lt; 2020 avif has landed &gt;&gt;]</a>.</p>
+    <a href="https://www.gumlet.com/learn/avif-for-image-coding-everything-you-need-to-know/" target="_blank" rel="noopener">[&lt;&lt; everything you need to know &gt;&gt;]</a>
+    and <a href="https://jakearchibald.com/2020/avif-has-landed/" target="_blank" rel="noopener">[&lt;&lt; 2020 avif has landed &gt;&gt;]</a>.</p>
 
     <h3>POSSIBLE FAILURES</h3>
 
