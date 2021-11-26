@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Serendipity Styx AV1 Image File support
-last_modified_at: 2021-11-26T13:45:00+00:00
+last_modified_at: 2021-11-26T13:52:00+00:00
 ---
 
 N° 2021/7 - PHP 8.1 and Serendipity Styx AV1 Image File support <img class="php8" src="/i/b/logo_php8_1.svg" alt="php8" width="160" height="48">
@@ -37,7 +37,7 @@ N° 2021/7 - PHP 8.1 and Serendipity Styx AV1 Image File support <img class="php8
 
     <p>As you know already by working with Styx WebP Variations, uploaded files in
     standard image formats are additionally stored as new format Variations.
-    So AVIF is yet another Variation stored in the MediaLibrary .v\/ directories.</p>
+    So AVIF is yet another Variation stored in the MediaLibrary .v&#47; directories.</p>
 
     <p>The Styx OUTPUT instrumentarium checks the image AVIF Variation compared
     with the WebP Variation and always delivers the smaller in filesize.
@@ -125,7 +125,7 @@ N° 2021/7 - PHP 8.1 and Serendipity Styx AV1 Image File support <img class="php8
     The PHP 8.1 standard image format conversions in current Styx 3.6 and 3.7-beta1
     state are only able to do so, since they take the same values as the WebP
     expression as a "stolen" value copy. This is a current Styx PHP workaround
-    and upload limitation as long this isn\'t implemented to PHP without having
+    and upload limitation as long this is not implemented to PHP without having
     to use additional libraries.</p>
 
     <p>Some Developers already have already stiched together a promising <strong>libavifinfo</strong> file
