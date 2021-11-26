@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Serendipity Styx AV1 Image File support
-last_modified_at: 2021-11-26T14:33:00+00:00
+last_modified_at: 2021-11-26T14:59:00+00:00
 ---
 
 N° 2021/7 - PHP 8.1 & Serendipity Styx AV1 Image File support <img class="php8" src="/i/b/logo_php8_1.svg" alt="php8" width="160" height="48">
@@ -94,9 +94,9 @@ N° 2021/7 - PHP 8.1 & Serendipity Styx AV1 Image File support <img class="php8"
     groundwork ready for extreme testers and other Developers.</p>
 
     <p>For daring testers I push out a <strong>Serendipity Styx 3.7-beta1</strong> soon which will
-    be able to enable AVIF variations per option (<em>temporarily</em>). Maybe we will
-    not be able to use AVIF variations per Styx default, als long the requirements
-    are given, for some years, since performances and other issues like the ones
+    be able to enable AVIF variations per option (<em>temporarily</em>). Keep in mind, that we maybe
+    will not be able to just use AVIF variations per Styx default, as long the requirements
+    are given, for some more years, since performance and other issues like the ones
     already mentioned were not proofed over several years (<em>as they were for WebP
     which had much more time landing in mainstream</em>).</p>
 
