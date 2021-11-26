@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Serendipity Styx AV1 Image File support
-last_modified_at: 2021-11-26T15:01:00+00:00
+last_modified_at: 2021-11-26T17:00:00+00:00
 ---
 
 N° 2021/7 - PHP 8.1 & Serendipity Styx AV1 Image File support <img class="php8" src="/i/b/logo_php8_1.svg" alt="php8" width="160" height="48">
@@ -127,13 +127,13 @@ N° 2021/7 - PHP 8.1 & Serendipity Styx AV1 Image File support <img class="php8"
     and upload limitation as long this is not implemented to PHP without having
     to use additional libraries.</p>
 
-    <p>Some Developers already have already stiched together a promising <strong>libavifinfo</strong> file
+    <p>Some Developers already have stiched together a promising <strong>libavifinfo</strong> C-file
     that still needs some final thoughts and reviews but is near to come included
     to PHP, so we probably will get readable support for AVIF info containers hidden
     inside the AVIF file. If this is going to be added to PHP 8.1 is a question and
     may as well find its way very much later to PHP 8.2 next year.</p>
 
-    <p>This also implies to image scaling and rotate actions. So if an AVIF image
+    <p>This also implies to Styx image scaling and rotate actions. So if an AVIF image
     file or image AVIF Variation file exists - and/or is known broken by filesize
     image scaling/rotating is prohibited for all formats as long this PHP
     implementation loss is a matter. Rotate won't throw a message in this case.</p>
