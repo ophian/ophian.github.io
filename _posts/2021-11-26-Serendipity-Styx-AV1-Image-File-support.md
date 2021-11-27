@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Serendipity Styx AV1 Image File support
-last_modified_at: 2021-11-26T17:00:00+00:00
+last_modified_at: 2021-11-27T12:17:00+00:00
 ---
 
 N° 2021/7 - PHP 8.1 & Serendipity Styx AV1 Image File support <img class="php8" src="/i/b/logo_php8_1.svg" alt="php8" width="160" height="48">
@@ -79,7 +79,10 @@ N° 2021/7 - PHP 8.1 & Serendipity Styx AV1 Image File support <img class="php8"
     1 MB won't matter as much as when using images with several Megabytes.</p>
 
     <p>PHP GD and ImageMagick encoding compression are slightly different and their
-    results often surprising comparing all formats.</p>
+    results often surprising comparing all formats.
+    See an example result with 4 images on ImageMagick (IM) and GD:</p>
+
+    <figcaption><img src="/i/b/lib-variation-comparison.png" alt="lib-variation-comparison image"></figcaption>
 
     <h3>TEST INFORMATIONS</h3>
 
