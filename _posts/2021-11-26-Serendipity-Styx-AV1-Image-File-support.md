@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Serendipity Styx AV1 Image File support
-last_modified_at: 2021-11-27T13:21:00+00:00
+last_modified_at: 2021-11-28T10:32:00+00:00
 ---
 
 N° 2021/7 - PHP 8.1 & Serendipity Styx AV1 Image File support <img class="php8" src="/i/b/logo_php8_1.svg" alt="php8" width="160" height="48">
@@ -52,7 +52,7 @@ N° 2021/7 - PHP 8.1 & Serendipity Styx AV1 Image File support <img class="php8"
 
     <h3>CURRENT IMPORTANT DRAWBACKS of using AVIF format</h3>
 
-    <p>While most of the things about AVIF are very promising and it is likely to
+    <p>While most of the things about AVIF are VERY promising and it is likely to
     become the standard for media delivery in the future, there are some shortcomings
     that we should be aware of before migrating to AVIF.</p>
 
@@ -79,10 +79,16 @@ N° 2021/7 - PHP 8.1 & Serendipity Styx AV1 Image File support <img class="php8"
     1 MB won't matter as much as when using images with several Megabytes.</p>
 
     <p>PHP GD and ImageMagick encoding compression are slightly different and their
-    results often surprising comparing all formats.
-    See an example result with 4 images on ImageMagick (IM) and GD:</p>
+    results often surprising comparing all formats. See an example result:</p>
 
-    <figcaption><img src="/i/b/lib-variation-comparison.png" alt="lib-variation-comparison image"></figcaption>
+    <figure>
+        <img src="/i/b/lib-variation-comparison.png" alt="lib-variation-comparison image">
+        <figcaption>A series of 4 images, concurrently encoded with either ImageMagick (IM) vs PHP GD.
+        Encoding time and results - apart from size - can depend on usage of high dynamic range,
+        lossless or lossy compression, color planes, profiles, wide color gamut, chroma
+        subsampling and bit depths of 8, 10, or 12. This is where the differences gain
+        and of course the images motiv type. The new AVIF is the better format.</figcaption>
+    </figure>
 
     <h3>TEST INFORMATIONS</h3>
 
