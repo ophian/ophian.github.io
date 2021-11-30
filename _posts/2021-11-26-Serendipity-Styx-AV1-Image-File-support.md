@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Serendipity Styx AV1 Image File support
-last_modified_at: 2021-11-28T11:00:00+00:00
+last_modified_at: 2021-11-30T14:11:00+00:00
 ---
 
 N° 2021/7 - PHP 8.1 & Serendipity Styx AV1 Image File support <img class="php8" src="/i/b/logo_php8_1.svg" alt="php8" width="160" height="48">
@@ -116,7 +116,7 @@ N° 2021/7 - PHP 8.1 & Serendipity Styx AV1 Image File support <img class="php8"
     <h3>POSSIBLE FAILURES</h3>
 
     <p>This base implementation is known to fail with certain Variation builds, in
-    special with ImageMagick conversions while developing. So any WebP images
+    special with ImageMagick conversions while developing. So any Variation files
     with 0 bytes, or AVIF images with 252 bytes (0.25 KB) or 3389 bytes (3.4 KB)
     or 34165 bytes (34 KB) are considered broken and conditionally excluded from
     usage. Time will tell if this needs a review for different file systems or
@@ -124,6 +124,21 @@ N° 2021/7 - PHP 8.1 & Serendipity Styx AV1 Image File support <img class="php8"
     <strong>FOR ANY TESTERS:</strong><br>
     If you see outlined files with webp or avif extension not being displayed by
     link or by picture container, please file an issue with extended information.</p>
+
+    <p>For having discovered certain issues with bigger image sizes, there is a
+    14MB upload limitation set which avoids running AVIF variation conversions.</p>
+
+    <p>Also I discovered the failures I had (at least the 0 bytes with GD and 252 bytes
+    with ImageMagick) delegated to some images while developing to be related to
+    certain <b>.jpeg</b> files for the upmost, while others (jpeg/jpg) did work
+    without problems. There seems to be something included to those images which
+    breaks with an "error/heic.c/IsHeifSuccess/135" error, which seems to be a missing
+    something using libde265 for reading and x265 for writing in HEIC.</p>
+
+    <p>As you see this is still a process and is further on bound to HEIC/AVIF support
+    compiles on different servers. If you discover failures, don't throw with tables
+    and just note them to be one of those issues which will hopefully get ironed out
+    over time.</p>
 
     <h3>LIMITATIONS</h3>
 
