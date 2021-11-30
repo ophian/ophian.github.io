@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Serendipity Styx AV1 Image File support
-last_modified_at: 2021-11-30T14:42:00+00:00
+last_modified_at: 2021-11-30T15:33:00+00:00
 ---
 
 N° 2021/7 - PHP 8.1 & Serendipity Styx AV1 Image File support <img class="php8" src="/i/b/logo_php8_1.svg" alt="php8" width="160" height="48">
@@ -108,6 +108,8 @@ N° 2021/7 - PHP 8.1 & Serendipity Styx AV1 Image File support <img class="php8"
     are given, for some more years, since performance and other issues like the ones
     already mentioned were not proofed over several years (<em>as they were for WebP
     which had much more time landing in mainstream</em>).</p>
+
+    <p>That said, enable in « Configuration » - « Image Conversion Settings » - « Enable use of AVIF Variations? ».</p>
 
     <p>Also see some interesting external comparison pages (out of others) for the new format:
     <a href="https://www.gumlet.com/learn/avif-for-image-coding-everything-you-need-to-know/" target="_blank" rel="noopener">[&lt;&lt; everything you need to know &gt;&gt;]</a>
