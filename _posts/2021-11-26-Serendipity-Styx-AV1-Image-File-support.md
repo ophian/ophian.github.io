@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Serendipity Styx AV1 Image File support
-last_modified_at: 2021-11-30T14:11:00+00:00
+last_modified_at: 2021-11-30T14:291:00+00:00
 ---
 
 N° 2021/7 - PHP 8.1 & Serendipity Styx AV1 Image File support <img class="php8" src="/i/b/logo_php8_1.svg" alt="php8" width="160" height="48">
@@ -128,12 +128,12 @@ N° 2021/7 - PHP 8.1 & Serendipity Styx AV1 Image File support <img class="php8"
     <p>For having discovered certain issues with bigger image sizes, there is a
     14MB upload limitation set which avoids running AVIF variation conversions.</p>
 
-    <p>Also I discovered the failures I had (at least the 0 bytes with GD and 252 bytes
-    with ImageMagick) delegated to some images while developing to be related to
-    certain <b>.jpeg</b> files for the upmost, while others (jpeg/jpg) did work
-    without problems. There seems to be something included to those images which
-    breaks with an "error/heic.c/IsHeifSuccess/135" error, which seems to be a missing
-    something using libde265 for reading and x265 for writing in HEIC.</p>
+    <p>Some of the encountered failures I found while development (at least the 0
+    bytes ones with GD and the 252 bytes with ImageMagick) were connected to some
+    images of certain <b>.jpeg</b> files for the most, while others (jpeg/jpg) did
+    success without problems. There seems to be something included to those images
+    which breaks with an "error/heic.c/IsHeifSuccess/135" error, that seems to be
+    a missing something using libde265 for reading and x265 for writing in HEIC.</p>
 
     <p>As you see this is still a process and is further on bound to HEIC/AVIF support
     compiles on different servers. If you discover failures, don't throw with tables
