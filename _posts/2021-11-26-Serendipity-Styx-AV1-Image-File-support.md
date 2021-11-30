@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Serendipity Styx AV1 Image File support
-last_modified_at: 2021-11-30T17:47:00+00:00
+last_modified_at: 2021-11-30T18:04:00+00:00
 ---
 
 N° 2021/7 - PHP 8.1 & Serendipity Styx AV1 Image File support <img class="php8" src="/i/b/logo_php8_1.svg" alt="php8" width="160" height="48">
@@ -39,10 +39,10 @@ N° 2021/7 - PHP 8.1 & Serendipity Styx AV1 Image File support <img class="php8"
     standard image formats are additionally stored as new format Variations.
     So AVIF is yet another Variation stored in the MediaLibrary .v/ directories.</p>
 
-    <p>The Styx OUTPUT instrumentarium checks the image AVIF Variation compared
-    with the WebP Variation and always delivers the smaller in filesize.
-    If it is enclosed by the <code>picture</code> element container, the sourceset (srcset)
-    order will always be AVIF first, then WebP and for last as the <code>&lt;img..&gt;</code>
+    <p>The Styx OUTPUT toolset checks the image AVIF Variation compared with the
+    WebP Variation and always delivers the smaller in filesize. If it is enclosed
+    by the <code>picture</code> element container, the sourceset (srcset) order
+    will always be AVIF first, then WebP and for last as the <code>&lt;img..&gt;</code>
     element the origin file expression.<br>
     In case the <strong>WebP</strong> srcset image expression is smaller in filesize than the
     <strong>AVIF</strong> one, the AVIF srcset is suppressed. This ensures that always the
@@ -60,6 +60,10 @@ N° 2021/7 - PHP 8.1 & Serendipity Styx AV1 Image File support <img class="php8"
     which can be <strong>VERY SLOW</strong> compared to JPEG or WebP images. While the majority of
     user devices should have no problem decoding AVIF images for display, it
     can at times take over a minute or two to encode an image to AVIF.</p>
+
+    <p>The time and resources required for encoding benefits some images with impressive
+    extreme compression ratios. I had all over from ~30 up to extreme 96,6 percent of image
+    compression ratios without loss.</p>
 
     <p>As the format evolves, the encoding performance is likely to improve in future.</p>
 
