@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Serendipity Styx AV1 Image File support
-last_modified_at: 2021-11-30T14:35:00+00:00
+last_modified_at: 2021-11-30T14:405:00+00:00
 ---
 
 N° 2021/7 - PHP 8.1 & Serendipity Styx AV1 Image File support <img class="php8" src="/i/b/logo_php8_1.svg" alt="php8" width="160" height="48">
@@ -131,7 +131,7 @@ N° 2021/7 - PHP 8.1 & Serendipity Styx AV1 Image File support <img class="php8"
     <p>Some of the encountered failures I found while development (at least the 0
     bytes ones with GD and the 252 bytes with ImageMagick) were connected to some
     images of certain <b>.jpeg</b> files for the most, while others (jpeg/jpg) did
-    success without problems. There seems to be something included to those images
+    succeed without problems. There seems to be something included to those images
     which breaks with an "error/heic.c/IsHeifSuccess/135" error, that seems to be
     a missing something using libde265 for reading and x265 for writing in HEIC.</p>
 
