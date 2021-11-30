@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Serendipity Styx AV1 Image File support
-last_modified_at: 2021-11-30T15:39:00+00:00
+last_modified_at: 2021-11-30T17:41:00+00:00
 ---
 
 N° 2021/7 - PHP 8.1 & Serendipity Styx AV1 Image File support <img class="php8" src="/i/b/logo_php8_1.svg" alt="php8" width="160" height="48">
@@ -37,12 +37,12 @@ N° 2021/7 - PHP 8.1 & Serendipity Styx AV1 Image File support <img class="php8"
 
     <p>As you know already by working with Styx WebP Variations, uploaded files in
     standard image formats are additionally stored as new format Variations.
-    So AVIF is yet another Variation stored in the MediaLibrary .v&#47; directories.</p>
+    So AVIF is yet another Variation stored in the MediaLibrary .v/ directories.</p>
 
     <p>The Styx OUTPUT instrumentarium checks the image AVIF Variation compared
     with the WebP Variation and always delivers the smaller in filesize.
     If it is enclosed by the picture element container, the sourceset (srcset)
-    order will always be AVIF first, then WebP and for last as the &lt; img &gt;
+    order will always be AVIF first, then WebP and for last as the <code>&lt;img..&gt;</code>
     element the origin file expression.<br>
     In case the <strong>WebP</strong> srcset image expression is smaller in filesize than the
     <strong>AVIF</strong> one, the AVIF srcset is suppressed. This ensures that always the
