@@ -1,17 +1,17 @@
 ---
 layout: post
 title: Serendipity Styx 3.7-beta1 release
-last_modified_at: 2021-12-06T19:05:00+00:00
+last_modified_at: 2021-12-06T19:10:00+00:00
 ---
 
-N° 2021/8 - The Serendipity Styx .7-beta1 release <img class="php8" src="/i/b/logo_php8_1.svg" alt="php8" width="160" height="48">
+N° 2021/8 - The Serendipity Styx 3.7-beta1 release <img class="php8" src="/i/b/logo_php8_1.svg" alt="php8" width="160" height="48">
 
 Nikolaus-Edition
 
-„Regnet es an Nikolaus,
-wird der Winter streng, ein Graus.
-Trockener St. Nikolaus,
-milder Winter rund ums Haus.“
+  Regnet es an Nikolaus,
+  wird der Winter streng, ein Graus.
+  Trockener St. Nikolaus,
+  milder Winter rund ums Haus.
 
 ## Styx .7-beta1 applies
 
