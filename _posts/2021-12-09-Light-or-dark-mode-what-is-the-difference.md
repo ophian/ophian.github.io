@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Light or dark mode what is the difference
-last_modified_at: 2021-12-09T13:32:00+00:00
+last_modified_at: 2021-12-09T13:53:00+00:00
 ---
 
 N° 2021/9
@@ -20,11 +20,11 @@ N° 2021/9
     <p>Therefore we need to clear some things out, since we have too many players:</p>
 
     <ol>
-        <li>At first it started with very single webpages and apps giving a dark mode or dark theme to enable.<br />
-        This is good, since you decide which you prefer. And in some cases, like developed for the pure theme with upcoming Serendipity Styx 3.7, you can easily switch it by a button.<br />
+        <li>At first it started with very single webpages and apps giving a dark mode or dark theme to enable or to live with.<br />
+        The first case is good, since you decide which you prefer. And in some cases, like developed for the pure theme with upcoming Serendipity Styx 3.7, you can easily switch it by a button where it makes sense to you.<br />
         &nbsp;</li>
-        <li>Then it dropped over to systems, like android for example, which allowed to set a dark or light mode preference. The more that came into play, the more the system developers thought of generally turning everything dark.<br />
-        But this shaky, since a machine even with good algorithms cannot really decide what looks good or not. Down to the bottom they just turn light into the opposite dark color and vice versa. That only works good as simple as that on pages which are designed as simple as that!<br />
+        <li>Then it dropped over to systems, like android for example, which allowed to set a dark or light mode preference. The more that came into play, the more the system and other developers thought of generally turning everything dark.<br />
+        But this is shaky, since a machine or program - even with good algorithms - cannot really decide what looks good or not, or suits you best. Down to the bottom they just turn light into the opposite dark color and vice versa. That only works good as simple as that on pages which are designed as simple as that!<br />
         <br />
         So we have apps and the system.<br />
         &nbsp;</li>
