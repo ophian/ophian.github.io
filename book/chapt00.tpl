@@ -21,13 +21,14 @@ oder mit Erscheinen von Serendipity 2.0/2.1 bzw. <strong>Serendipity Styx</stron
 hoffnungslos überholt war.</p>
 
 <p>Des Weiteren wurden außer der Einrückung verschiedene Farben verwendet, um
-bestimmte Einheiten klarer herauszustellen. <span class="desc">Das helle Blau
+bestimmte Einheiten klarer herauszustellen. <span class="desc dm-blue">Das helle Blau
 dient der Anzeige von bestimmten Listendarstellungen und Konfigurations-Optionen,
-insbesondere bei Plugins und überhaupt in Beziehung zum Backend. Ebenso wurde es
-als Grundlage bei der Aufzählung von Datenbanktabellenfeldern gewählt.</span>
-<span class="citem-desc">Das helle Gelb wurde dann angewendet, wenn es um Smarty,
+insbesondere bei Plugins und überhaupt in Beziehung zum Backend.</span> Ebenso wurde es
+(<em>im light mode</em>) als Grundlage bei der Aufzählung von Datenbanktabellenfeldern gewählt.
+<span class="citem-desc dm-jaune">Das helle Gelb wurde dann angewendet, wenn es um Smarty,
 oder klare Frontend / Template (Theme) -Eigenschaften, -Aufzählungen, CSS, Werte
-und Variablen ging.</span> Zwischen diesem Gelb und Blau konnte aber nicht immer
+und Variablen ging.</span> (<em>Im dark mode allerdings etwas anders gelöst.</em>)
+Zwischen diesem Gelb und Blau konnte aber nicht immer
 eine konsequente Unterscheidung vorgenommen werden; so dass mitunter die eine
 Farbe auch die andere sein könnte. Bestimmte Eigenschaften von gekennzeichneten
 Hervorhebungen, wie Smarty-Variablen, Datei-Namen, Verzeichnissen, Datenbankfeld-Namen,
