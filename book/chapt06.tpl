@@ -1409,6 +1409,7 @@ oder der Kontext eindeutig ist.</p>
 </span>
 </p>
 
+<p class="desc">
 <span class="tag-box invisible">
     <span class="inline-tag">Plugins!Spamschutz!Generelle-Einstellungen!Zeitfenster für erlaubte Kommentare</span>
 </span><!-- tagbox -->
@@ -1426,6 +1427,7 @@ oder der Kontext eindeutig ist.</p>
 </span>
 </p>
 
+<p class="desc">
 <span class="tag-box invisible">
     <span class="inline-tag">Plugins!Spamschutz!Generelle-Einstellungen!Trackbacks nur im Zeitfenster erlauben?</span>
 </span><!-- tagbox -->
