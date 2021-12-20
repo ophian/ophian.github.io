@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Serendipity Styx 2.5.0 release
-last_modified_at: 2020-12-25T10:54:00+00:00
+last_modified_at: 2021-12-20T12:25:00+00:00
 ---
 
 N° 2018/2 - The 2.5.0 release is out! Check the [ChangeLog](https://github.com/ophian/styx/blob/2.5.0/docs/NEWS) for details!
@@ -26,9 +26,9 @@ Serendipity Styx is PHP 7.2 ready and requires PHP from 5.5+!
 It might be a good idea to take the advantage of starting a new copy template before adapting each single theme change to your old copy themes!
 
 <picture>
-    <source srcset="../i/b/improved-comments.avif" type="image/avif" />
-    <source srcset="../i/b/improved-comments.webp" type="image/webp" />
-    <img src="../i/b/improved-comments.png" alt="example of improved comments changes" width="540" height="540" loading="lazy" />
+    <source srcset="/i/b/improved-comments.avif" type="image/avif" />
+    <source srcset="/i/b/improved-comments.webp" type="image/webp" />
+    <img src="/i/b/improved-comments.png" alt="example of improved comments changes" width="540" height="540" loading="lazy" />
 </picture>
 
 
