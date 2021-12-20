@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Serendipity Styx AV1 Image File support
-last_modified_at: 2021-11-30T18:33:00+00:00
+last_modified_at: 2021-12-20T12:31:00+00:00
 ---
 
 N° 2021/7 - PHP 8.1 & Serendipity Styx AV1 Image File support <img class="php8" src="/i/b/logo_php8_1.svg" alt="php8" width="160" height="48">
@@ -86,7 +86,11 @@ N° 2021/7 - PHP 8.1 & Serendipity Styx AV1 Image File support <img class="php8"
     results often surprising comparing all formats. See an example result:</p>
 
     <figure>
-        <img src="/i/b/lib-variation-comparison.png" alt="lib-variation-comparison image">
+        <picture>
+            <source srcset="/i/b/lib-variation-comparison.avif" type="image/avif" />
+            <source srcset="/i/b/lib-variation-comparison.webp" type="image/webp" />
+            <img src="/i/b/lib-variation-comparison.png" alt="lib-variation-comparison.png" loading="lazy" height="760" width="1120" />
+        </picture>
         <figcaption>A series of 4 images, concurrently encoded with either ImageMagick (IM) vs PHP GD.
         Generally image encoding time and results - apart from size - can depend on usage of high dynamic range,
         lossless or lossy compression, color planes, profiles, wide color gamut, chroma subsampling and
