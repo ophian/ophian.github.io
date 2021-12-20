@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Serendipity Styx AV1 Image File support
-last_modified_at: 2021-12-20T13:26:00+00:00
+last_modified_at: 2021-12-20T14:53:00+00:00
 ---
 
 N° 2021/7 - PHP 8.1 & Serendipity Styx AV1 Image File support <img class="php8" src="/i/b/logo_php8_1.svg" alt="php8" width="160" height="48">
@@ -86,7 +86,7 @@ N° 2021/7 - PHP 8.1 & Serendipity Styx AV1 Image File support <img class="php8"
     results often surprising comparing all formats. See an example result:</p>
 
     <figure>
-        <a class="lightbox" href="/i/b/lib-variation-comparison.avif" lg-uid="lg1" data-fallback="/i/b/lib-variation-comparison.webp">
+        <a class="lightbox" rel="lightbox" href="/i/b/lib-variation-comparison.avif" lg-uid="lg1" data-fallback="/i/b/lib-variation-comparison.webp">
           <picture>
             <source srcset="/i/b/lib-variation-comparison.avif" type="image/avif" />
             <source srcset="/i/b/lib-variation-comparison.webp" type="image/webp" />
