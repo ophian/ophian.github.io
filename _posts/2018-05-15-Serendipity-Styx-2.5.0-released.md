@@ -25,6 +25,11 @@ Serendipity Styx is PHP 7.2 ready and requires PHP from 5.5+!
 
 It might be a good idea to take the advantage of starting a new copy template before adapting each single theme change to your old copy themes!
 
-<img src="/i/b/improved-comments.png" alt="example of improved comments changes" width="540" height="540">
+<picture>
+    <source srcset="../i/b/improved-comments.avif" type="image/avif" />
+    <source srcset="../i/b/improved-comments.webp" type="image/webp" />
+    <img src="../i/b/improved-comments.png" alt="example of improved comments changes" width="540" height="540" loading="lazy" />
+</picture>
+
 
 See [download](https://github.com/ophian/styx/releases/tag/2.5.0)
