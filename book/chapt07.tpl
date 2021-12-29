@@ -1024,7 +1024,7 @@ darf.</span>
     <span class="inline-tag">Meta-Tags</span>
     <span class="inline-tag">SEO</span>
 </span><!-- tagbox -->
-<span class="item mbold">Anzahl der Stichwörter, die in die Meta-Angaben des HTML-Codes eingesetzt werden sollen</span><!-- menuitem -->
+<span class="item mbold">Anzahl der Schlagwörter, die in die Meta-Angaben des HTML-Codes eingesetzt werden sollen</span><!-- menuitem -->
 <span class="desc-info">
     <span class="box">
         Das Tagging-Plugin kann beim Aufrufen einer Artikeldetailseite die
