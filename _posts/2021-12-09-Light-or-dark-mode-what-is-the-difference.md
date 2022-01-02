@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Light or dark mode what is the difference
-last_modified_at: 2022-01-02T17:43:00+00:00
+last_modified_at: 2021-12-09T14:04:00+00:00
 ---
 
 N° 2021/9
@@ -13,7 +13,7 @@ N° 2021/9
     <p>The more you look on devices, the more you are affected by shining or flashing lightning, hurting your eyes, reducing the battery wastage, having burn affects, show too many blue pixel lights not good for your eyesight, etc.</p>
 
     <p>This is why developers like dark modes.<br>
-    It helps reducing the noise of light your eyes have to blend out.</p>
+    It helps reducing the noise of light your eyes has to blend out.</p>
 
     <p>So we have a populating ambition to create dark modes on apps, by webpages and by browsers, all over.</p>
 
