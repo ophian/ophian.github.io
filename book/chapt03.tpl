@@ -314,6 +314,11 @@ Beispiele für die Kombinationsmöglichkeiten:</p>
 </p>
 
 <p class="desc">
+<code class="item">/archives/2007/12/P2.html</code>
+<span class="desc-info">stellt die zweite Seite der offenen Artikelübersicht aller Artikel im Dezember 2007 dar.</span>
+</p>
+
+<p class="desc">
 <code class="item">/archives/W52/A1.html</code>
 <span class="desc-info">stellt alle Artikel des ersten Autors der 52. Kalenderwoche des aktuellen Jahres dar.</span>
 </p>
