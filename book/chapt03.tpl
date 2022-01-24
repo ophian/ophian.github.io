@@ -309,8 +309,8 @@ Beispiele für die Kombinationsmöglichkeiten:</p>
 </p>
 
 <p class="desc">
-<code class="item">/archives/2007/12/P2/summary.html</code>
-<span class="desc-info">stellt die zweite Seite der Artikelübersicht (nur Datum und Titel) aller Artikel im Dezember 2007 dar.</span>
+<code class="item">/archives/2007/12/summary.html</code>
+<span class="desc-info">stellt die Seite der Artikelübersicht (nur Datum und Titel) aller Artikel im Dezember 2007 dar.</span>
 </p>
 
 <p class="desc">
