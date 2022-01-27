@@ -537,7 +537,7 @@ suchen, müssen Sie ein + anstelle des Leerzeichens einfügen, zB. <code>/commen
 
 <p class="desc">
 <code class="item">/comments/last_5/</code>
-<span class="desc-info">stellt die letzten fünf Kommentare zu allen Artikeln des aktuellen Monats ab Uhrzeit dar.
+<span class="desc-info">stellt die Übersicht der Kommentare der letzten fünf Tage zu allen Artikeln des aktuellen Monats ab Uhrzeit dar.
 Ohne Angabe eines solchen Wertes werden alle Kommentare angezeigt.</span>
 </p>
 
@@ -583,7 +583,7 @@ kombinieren, um besondere Ansichten zu erhalten:</p>
 
 <p class="desc">
 <code class="item">/comments/garvin/last_5</code>
-<span class="desc-info">stellt die Übersicht der letzten fünf Kommentare des Benutzers <code>garvin</code> dar.</span>
+<span class="desc-info">stellt die Übersicht der Kommentare der letzten fünf Tage des Benutzers <code>garvin</code> dar.</span>
 </p>
 
 <p class="desc">
