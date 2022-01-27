@@ -117,6 +117,8 @@ vollzog Serendipity schon im Jahre 2009 den Schritt [*]
 , den Serendipity-Hashing-Mechanismus auf einen <em>gesalzenen</em> und sicheren <em>SHA1</em>-Hash zu erhöhen.
 Damit wurde es aber unmöglich per phpMyAdmin mal eben so ein Passwort in der Datenbanktabelle zu ersetzen.</p>
 
+<p>Später, in 2018/Q1, wurde der Hashing-Mechanismus noch einmal erhöht und benutzt jetzt BCRYPT.</p>
+
 <p>Serendipity, mit seinem Anspruch höchster Rückwärts-Kompatibilität,
 nutzte für diese Modernisierung einen "weichen" Upgrade Ansatz.
 Neue Serendipity Versionen akzeptierten die alten MD5 Logins einmalig, um dann das vom Benutzer
