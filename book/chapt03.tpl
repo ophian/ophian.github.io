@@ -432,12 +432,20 @@ Kommentaren chronologisch geordnet angezeigt. Ein Trackback ist ein
 Artikel eines fremden Blogs, der sich auf Ihren geschriebenen Beitrag
 bezieht. Dabei führt der Link des Trackbacks zu diesem fremden Beitrag,
 und zur Orientierung werden die ersten Absätze des fremden Beitrags mit
-angezeigt. Damit ein fremdes Blog sich auf Ihren Artikel beziehen kann,
-ist der Link <span class="mbold">Trackback für spezifische URI dieses Eintrags</span>
-vorgesehen. Ein Klick darauf verrät Ihnen, dass dieser Link nicht für die
-Ansicht im Browser gedacht ist, sondern für fremde Blogsysteme übernommen
-werden muss. Besucher sollten diesen Link also verwenden, um ein
-Trackback zu Ihnen zu senden.</p>
+angezeigt. Damit ein fremdes Blog sich auf Ihren Artikel beziehen konnte,
+war der Link <span class="mbold">Trackback für spezifische URI dieses Eintrags</span>
+vorgesehen. Ein Klick darauf, oder das Überfahren mit der Maus verriet,
+dass dieser Link nicht für die Ansicht im Browser gedacht war, sondern für
+fremde Blogsysteme übernommen werden sollte. Besucher mussten diesen Link verwenden,
+um ein Trackback zu Ihnen zu senden. Heutzutage ist dies aber viel einfacher gelöst,
+denn sollte ihr Theme bereits über einen "link rel" tag im Seitenkopf verfügen
+<code>&lt;link rel="trackback" type="application/x-www-form-urlencoded"
+href="https://ihrBlog.de/styx/comment.php?type=trackback&entry_id=28"&gt;</code>
+(als beispielhaften Eintrag), was heutzutage die Regel ist, ist die genannte URL
+für alte Systeme obsolet, denn ihr System "lauscht" bereits automatisch
+auf eventuell gesetzte Trackbacks, wenn jemand die eigentliche URL ihres
+Artikels <code>https://ihrBlog.de/styx/archives/28-titel.html</code> im
+eigenen Blog verlinkt.</p>
 
 <p>Nach den Trackbacks folgt die Auflistung der Kommentare. Standardmäßig
 werden diese <em>thread-basiert</em> aufgelistet. Dabei startet die
