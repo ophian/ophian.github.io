@@ -1243,7 +1243,7 @@ Interesse sein, und in diesem Fall müssen Sie den Inhalt ebenfalls einer
     {/foreach}
 </code></pre>
 
-<p>Neu hinzugekommen ist das Attribt <code>key='...'</code>, das den Titel der Variable
+<p>Neu hinzugekommen ist das Attribut <code>key='...'</code>, das den Titel der Variable
 enthält. Beachten Sie hier, niemals Sonderzeichen wie Umlaute zu benutzen.
 Innerhalb der Foreach-Schleife können Sie nun <code class="item smarty">{$schluessel}</code> an
 beliebiger Stelle ausgeben. In unserem Beispiel würde dann
