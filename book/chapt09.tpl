@@ -2668,7 +2668,12 @@ so dass es folgend zu unnötigen workarounds in der Entwicklung kam.
 im Frontend und das <code>styx</code>-theme für das Backend gesetzt; und ständig weiterentwickelt.</p>
 
 <p>Dieses Baukasten-Prinzip wird mittels Template-Optionen umgesetzt.
-Sobald das <em>Bulletproof</em>-Template aktiviert ist, können Sie im
+Um nicht alle paar Jahre dieses Kapitel komplett neu schreiben zu müssen,
+verbleiben wir mit der Beschreibung beim alten <code>Bulletproof</code>-theme,
+obwohl es ja selbst völlig aus der Zeit gefallen ist. Und doch zeigt es die
+Möglichkeiten, die auch heute noch ihre vollständige Gültigkeit haben.</p>
+
+<p>Sobald das <em>Bulletproof</em>-Template aktiviert ist, können Sie im
 Backend im Menüpunkt <span class="mbold">Einstellungen
 <span class="icon arrow-right">→</span> Themes</span> die einzelnen
 Optionen einstellen. Diese werden ähnlich wie Konfigurationsoptionen
