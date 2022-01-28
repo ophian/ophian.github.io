@@ -402,7 +402,7 @@ da Ihr Browser das Feld <span class="mbold">Altes Passwort</span> nicht eingetra
 
     <span class="box">
         Die hier eingestellte Sprache gibt lediglich an, welche Übersetzung
-        Serendipitys aktiviert wird. Sie sind durch die Festlegung dieser Option
+        von Serendipity aktiviert wird. Sie sind durch die Festlegung dieser Option
         nicht daran gebunden, Ihre Artikel auch in der gesetzten Sprache zu
         verfassen.
     </span>
@@ -1304,7 +1304,7 @@ der Plugins in den folgenden Kapiteln entnehmen.</span>
 <span class="desc-info">
     <span class="box">
         Das Mediathek-Popup ist ein Fenster, das sich an mehreren Stellen
-        Serendipitys öffnen lässt, vor allem beim Einfügen von Bildern bei der
+        von Serendipity öffnen lässt, vor allem beim Einfügen von Bildern bei der
         Artikel-Erstellung.
     </span>
 
@@ -1434,7 +1434,7 @@ der Plugins in den folgenden Kapiteln entnehmen.</span>
 
     <span class="box">
         Wenn Sie abschließend auf <span class="mbold">Fertig</span> klicken, wird das Bild, bzw. die Galerie an die
-        aufrufende Stelle (textarea) Serendipitys zurückgeliefert und mittels HTML-Code
+        aufrufende Stelle (textarea) von Serendipity zurückgeliefert und mittels HTML-Code
         eingebunden. Dort können Sie es gegebenenfalls auch noch innerhalb des
         Eintrages verschieben und anpassen.
     </span>
@@ -3566,7 +3566,7 @@ diese Verzeichnisse zugreifen.</p>
 Eine Template-Datei stellt dabei bestimmte Elemente (Einträge, Übersichten,
 Kommentare ...) in einfachem HTML-Format dar. Innerhalb der
 Template-Datei (<code>*.tpl</code>) werden Platzhalter verwendet, die bei der
-Ausführung Serendipitys durch eigentliche Inhalte ersetzt werden. Für
+Ausführung von Serendipity durch eigentliche Inhalte ersetzt werden. Für
 diese Platzhalter-Logik verwendet Serendipity eine Software-Bibliothek
 namens <em>Smarty</em> [*]
 <span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://www.smarty.net/" target="_blank" rel="noopener">http://www.smarty.net/</a></span><!-- footnote -->.
@@ -4489,7 +4489,7 @@ Backend einloggen können.</p>
 
     <span class="box">
         Am besten getestet ist Serendipity bei Verwendung der MySQL-Datenbank.
-        Die Kernfunktionen Serendipitys laufen auch problemlos mit allen
+        Die Kernfunktionen von Serendipity laufen auch problemlos mit allen
         anderen Datenbanktypen, aber einige Plugins könnten spezielle
         MySQL-Funktionen einsetzen.
     </span>
@@ -5596,7 +5596,7 @@ Startseite</span> können Sie diese Anzahl kontrollieren, die auch für alle
 <span class="desc-info">
     <span class="box">
         Wenn Sie Serendipity in eine andere Anwendung einbetten wollen, können
-        Sie die Ausgaben Serendipitys zentral speichern und in der
+        Sie die Ausgaben von Serendipity zentral speichern und in der
         PHP-Anwendung weiterverarbeiten. Damit diese Einbindung gelingt, darf
         Serendipity dann keine HTML-Kopf- und -Fußzeilen senden.
     </span>
@@ -7014,7 +7014,7 @@ vorgenommen wurden) behält Serendipity bei einem Update bei.</p>
 </span>
 </p>
 
-<p>In der Benutzerverwaltung Serendipitys können Sie die Redakteure und
+<p>In der Benutzerverwaltung von Serendipity können Sie die Redakteure und
 ihre Zugriffsmöglichkeiten verwalten.</p>
 
 <p>Auf dieser Übersichtsseite sehen Sie eine Liste aller Redakteure, auf die
