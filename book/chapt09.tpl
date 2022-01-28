@@ -931,7 +931,7 @@ Siehe Anmerkungen zu den Developer-Tools der heutigen Browser unter
 
 <p>Nachdem Sie nun gelernt haben, wie Sie CSS-Anweisungen überarbeiten können,
 wundern Sie sich möglicherweise bereits, wo Sie denn Einfluss auf die
-HTML-Ausgabe Serendipitys nehmen können.</p>
+HTML-Ausgabe von Serendipity nehmen können.</p>
 
 <p>Da Serendipity ein dynamisches System ist, das auf verschiedenen Seiten
 unterschiedliche Inhalte, Plugins und Artikellisten darstellen kann, muss auch
@@ -1583,7 +1583,7 @@ jedem Serendipity Upgrade.</span>
     <span class="inline-tag">Template-Dateien!wysiwyg-style.css</span>
 </span>
 <code class="item file">wysiwyg-style.css</code>
-<span class="desc-info">Enthält CSS-Regeln für Serendipitys integrierten WYSIWYG-Editor.
+<span class="desc-info">Enthält CSS-Regeln für den integrierten WYSIWYG-Editor von Serendipity.
 Diese liegt normalerweise in dem <code class="item dir">/htmlarea</code> Ordner, kann aber
 in das Template/Theme kopiert werden (siehe Regeln für ein eigenes Ckeditor-Wysiwyg-Widget).</span>
 </p>
@@ -3283,7 +3283,7 @@ größtenteils bereits selbsterklärend.</p>
 <span class="label invisible" id="customsidebars">customsidebars</span>
 </p>
 
-<p>In der Plugin-Verwaltung Serendipitys sehen Sie standardmäßig Bereiche für eine
+<p>In der Plugin-Verwaltung von Serendipity sehen Sie standardmäßig Bereiche für eine
 linke, eine rechte und eine <em>versteckte</em> Seitenleiste. Die meisten
 Serendipity-Templates unterstützen diese drei Seitenleisten, einige Templates
 stellen die linke und rechte Seitenleiste jedoch direkt untereinander dar.</p>
@@ -3595,7 +3595,7 @@ die Variable <code class="smarty">{$ENTRIES}</code> mittels der Datei <code>entr
 		    </span>
             <span class="sub-box">
                 Enthält den Wert <code>true</code>, wenn Serendipity bereits installiert wurde. Ist
-                dieser Wert nicht gesetzt, wird die Installationsroutine Serendipitys aufgerufen.
+                dieser Wert nicht gesetzt, wird die Installationsroutine von Serendipity aufgerufen.
 			</span>
         </span>
 
