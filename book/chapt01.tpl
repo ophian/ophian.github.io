@@ -231,7 +231,7 @@ Funktionalität, die den Benutzer vor die Qual der Wahl stellen, findet
 man hier nicht, und auch auf Kompatibilität zu allen verfügbaren
 Serendipity-Versionen wird geachtet.</p>
 
-<p>Da Serendipitys Kernentwickler aus Deutschland kommen, haben gerade
+<p>Da die Kernentwickler von Serendipity derzeit aus Deutschland kommen, haben gerade
 deutsche Anwender den Vorteil einer stets aktuellen deutschen
 Übersetzung der Benutzeroberfläche. Zudem sorgen eine engagierte
 Community und ein großes Supportforum mit bislang über hundertausend
@@ -1154,9 +1154,9 @@ Fehler-Logfiles des Webservers prüfen.</p>
 </section><!-- section.sub end -->
 
 <section id="U133" class="sub">
-<span class="u-toc">1.3.3 - Serendipitys .htaccess-Datei</span>
+<span class="u-toc">1.3.3 - Die Serendipity .htaccess-Datei</span>
 
-<h3 class="subsection" id="serendipitys-htaccess-datei">Serendipitys .htaccess-Datei</h3>
+<h3 class="subsection" id="serendipitys-htaccess-datei">Die Serendipity .htaccess-Datei</h3>
 
 <p class="tagging invisible">
 <span class="label invisible" id="htaccess">htaccess</span>
