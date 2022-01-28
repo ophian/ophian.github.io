@@ -109,7 +109,7 @@ erweiterten Features von Serendipity nicht weit genug.</p>
 </header>
 
 <p>Das Buch in Ihren Händen stellt einen großen Fortschritt bei der Dokumentation
-Serendipitys dar. Jedoch ist dies erst der Anfang, eine detaillierte
+von Serendipity dar. Jedoch ist dies erst der Anfang, eine detaillierte
 und aktuelle Dokumentation jedes einzelnen Plugins sollte online zur Verfügung stehen.</p>
 
 <p>Darüber hinaus hat auch die Übersetzung der Plugins von und ins Deutsche eine hohe Priorität.</p>
