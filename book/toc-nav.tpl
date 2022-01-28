@@ -10,7 +10,7 @@
  <li class="sct"><span class="toc">1.3</span> <a class="sidebar-nav-item" href="#S130">Voraussetzungen</a>&nbsp;<a data-toggle="collapse" data-target="#collapse_S-1.3" href="#collapse_S-1.3"><i class="fa fa-caret-down"></i></a></li>
  <li class="sct-sub"><span class="toc-sub">1.3.1</span> <a class="sidebar-nav-item" href="#U131">Systemseitige Einstellungen</a></li>
  <li class="sct-sub"><span class="toc-sub">1.3.2</span> <a class="sidebar-nav-item" href="#U132">Für Serendipity relevante PHP-Konfigurationsoptionen</a></li>
- <li class="sct-sub"><span class="toc-sub">1.3.3</span> <a class="sidebar-nav-item" href="#U133">Serendipitys htaccess-Datei</a></li>
+ <li class="sct-sub"><span class="toc-sub">1.3.3</span> <a class="sidebar-nav-item" href="#U133">Die Serendipity htaccess-Datei</a></li>
  <li class="sct-sub"><span class="toc-sub">1.3.4</span> <a class="sidebar-nav-item" href="#U134">PEAR</a></li>
  <li class="sct"><span class="toc">1.4</span> <a class="sidebar-nav-item" href="#S140">Terminologie</a>&nbsp;<a data-toggle="collapse" data-target="#collapse_S-1.4" href="#collapse_S-1.4"><i class="fa fa-caret-down"></i></a></li>
  <li class="sct-sub"><span class="toc-sub">1.4.1</span> <a class="sidebar-nav-item" href="#U141">XHTML, XML und CSs</a></li>
