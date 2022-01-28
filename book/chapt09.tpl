@@ -1838,11 +1838,19 @@ Zudem ist die Darstellung mit Verzicht auf Smarty etwas schneller, und da der
 Backend-Bereich selten von Benutzern angepasst wird, ist dieser Kompromiss meist
 problemlos.</p>
 
-<p>Mit Serendipity 2.0 wurde nach 2-jähriger Entwicklungszeit
+<p>Mit Serendipity 2.0 wurde nach zweijähriger Entwicklungszeit
 das Serendipity Backend vollständig auf Smarty umgeschrieben, so dass es nun vollständig per Theme
 bearbeitet werden kann. Dazu wurde das 2k11 (Standard) Theme um einen eigenen Backend Bereich erweitert,
 in dem auch einige der alten, hier genannten *.tpl Dateien des Backends zu finden sind.
 Eine genaue Auflistung der neueren Backend Dateien und ihrer Variablen erfolgt innerhalb dieser Unter-Sektionen (9.4.3, 9.4.6, 9.4.7) jeweils am Ende.</p>
+
+<p>Dies stellte sich aber als Sackgasse heraus, denn damit übernahm das <code>2k11</code>-theme vollständig die Kontrolle,
+beraubte Serendipity aber seiner Flexibilität und Modularität für die Fallback Kaskade und für ein einfach austauschbares Standardtheme.
+Styx wechselte deshalb schon 2018 zurück auf die ehemalige Implementation, die das <code>default</code>-theme als Endpunkt
+der Fallback Kaskade und als originären Platz für das Backend ansah. Damit war die Modularität wieder hergestellt
+und das Standard (Auslieferungs) Theme konnte mit den Jahren gewechselt werden, so wie es mit Styx 3.0 und dem <code>pure</code>-theme geschah.
+Mit der Zeit wurde sogar das Backend modular und das neue <code>styx</code> backend theme übernahm mehr und mehr
+die Ausgestaltung der Ansicht, die sich bis zum heutigen Tag weiter fortentwickelt, zb. durch den vorzüglichen Dark Mode.</p>
 
 <p>Damit Sie jedoch dennoch Teile des Backends zu eigenen Zwecken und für eigene
 Templates anpassen können, sind das grundlegende Seitenlayout, die Oberfläche der
