@@ -2665,6 +2665,9 @@ so dass es folgend zu unnötigen workarounds in der Entwicklung kam.
 <span class="mbold">Serendipity Styx</span> ist diesem
 <span class="mbold">Prinzip</span> wieder treu!</p>
 
+<p>Seit Serendipity Styx 3.0 in 2020 sind das <code>pure</code>-theme als neues Standard Template/Theme
+im Frontend und das <code>styx</code>-theme für das Backend gesetzt; und ständig weiterentwickelt.</p>
+
 <p>Dieses Baukasten-Prinzip wird mittels Template-Optionen umgesetzt.
 Sobald das <em>Bulletproof</em>-Template aktiviert ist, können Sie im
 Backend im Menüpunkt <span class="mbold">Einstellungen
