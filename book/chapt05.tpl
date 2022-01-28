@@ -987,7 +987,7 @@ aufweicht.</p>
 
 <p>Eigentlich ist es ausschließlich Seitenleisten-Plugins möglich, eine
 Ausgabe in der Seitenleiste vorzunehmen. Ereignis-Plugins können nur auf
-andere Bereiche und Funktionalitäten Serendipitys Einfluss nehmen, was
+andere Bereiche und Funktionalitäten von Serendipity Einfluss nehmen, was
 wiederum Seitenleisten-Plugins nicht erlaubt ist.</p>
 
 <p>
@@ -997,7 +997,7 @@ wiederum Seitenleisten-Plugins nicht erlaubt ist.</p>
 </span><!-- tagbox -->
 Seltene Fälle von Ereignis-Plugins bieten jedoch auch die Möglichkeit an,
 eine spezielle Ausgabe in der Seitenleiste vorzunehmen. Diese Möglichkeit
-wurde eher in frühen Versionen Serendipitys benutzt (zB. vom Plugin
+wurde eher in frühen Versionen von Serendipity benutzt (zB. vom Plugin
 "Link List" oder "Worte ersetzen"). Inzwischen nutzen fast alle Plugins
 die einfachere Möglichkeit, ein zugehöriges Seitenleisten-Plugin
 (siehe <span class="reference">Gekoppelte Plugins</span> ab Seite
