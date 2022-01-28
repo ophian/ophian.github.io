@@ -48,7 +48,7 @@ Problem lösen.</p>
 </span>
 </p>
 
-<p>Die Entwicklung Serendipitys läuft sehr transparent ab, Beiträge neuer
+<p>Die Entwicklung von Serendipity läuft sehr transparent ab, Beiträge neuer
 Entwickler werden gerne gesehen. Dabei ist es ganz egal, wobei Sie helfen wollen
 -- Hauptsache, Sie haben Spaß daran und sind motiviert. Sie müssen also kein
 PHP-Profi sein und können schon mit einfachen Dingen Serendipity verbessern:
