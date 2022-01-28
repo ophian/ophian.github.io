@@ -74,7 +74,7 @@ Zugangsparameter zur Datenbank enthalten. Wenn diese Zugangsparameter korrekt
 gelesen wurden, kann eine Verbindung zur Datenbank hergestellt werden.</p>
 
 <p>Die Einbindung der <code>include/functions.inc.php</code> sorgt dafür, dass sämtliche
-PHP-Kernfunktionen Serendipitys geladen werden. Dazu werden weitere Dateien wie
+PHP-Kernfunktionen von Serendipity geladen werden. Dazu werden weitere Dateien wie
 <code>include/functions_config.inc.php</code> eingebunden, die diese Funktionen
 jeweils themenspezifisch bündeln (siehe auch Seite <span class="pageref"><a href="#s9yfiles">s9yfiles</a></span>).</p>
 
@@ -524,7 +524,7 @@ Plugin aufzurufen.</p>
 <span class="desc-info">
     <span class="box">
         Enthält Dateien mit SQL-Anweisungen. Die Datei <code>db.sql</code> enthält alle
-        Anweisungen, die bei der Installation Serendipitys ausgeführt werden. Diese
+        Anweisungen, die bei der Installation von Serendipity ausgeführt werden. Diese
         Datei enthält einige Variablen (eingefasst in geschweiften Klammern), die bei der
         Installation automatisch entsprechend des Datenbank-Zielsystems in den korrekten
         SQL-Dialekt übersetzt werden.
@@ -627,7 +627,7 @@ die Sie bei der Entwicklung von Plugins und Ähnlichem häufig einsetzen werden.
 <span class="label invisible" id="zentralefunktionen">zentralefunktionen</span>
 </p>
 
-<p>Zentrale Funktionen können an mehreren Stellen Serendipitys eingesetzt werden.</p>
+<p>Zentrale Funktionen können an mehreren Stellen von Serendipity eingesetzt werden.</p>
 
 <p class="desc">
 <code class="item function">serendipity_die()</code>, 
@@ -3814,7 +3814,7 @@ ebenfalls per <code>cvs update</code> eingespielt werden.</p>
 </span>
 </p>
 
-<p><em>Spartacus</em> ist Serendipitys zentrales Plugin-Archiv. Es besteht aus zwei
+<p><em>Spartacus</em> ist das zentrales Plugin-Archiv von Serendipity. Es besteht aus zwei
 Komponenten: einem Server und einem Client. Der Server (GitHub) bietet die
 Plugins an, der Client (das Spartacus-Plugin Ihres Blogs) lädt ein Plugin herunter.</p>
 
@@ -8314,7 +8314,7 @@ verschiedene Datentypen und Tabellenspalten miteinander zu verketten.</p>
 Sie von Interesse sein. Wenn bestimmte Aktionen von einer Fremdanwendung an
 deren Datenbanktabellen ausgeführt werden (Löschen von Gruppen etc.) können Sie
 mittels eines <em>Triggers</em> dafür sorgen, dass eine ähnliche Funktion auch auf
-die Datenbanktabellen Serendipitys angewendet wird.</p>
+die Datenbanktabellen von Serendipity angewendet wird.</p>
 
 </section><!-- section.sub end -->
 
@@ -8637,7 +8637,7 @@ Verbreitung.</p>
 <p>Dennoch besteht gerade bei PHP-Entwicklern oft der Wunsch, ohne Umwege eines
 Template-Frameworks Inhalte ausgeben zu wollen. Daher bietet Serendipity die
 Möglichkeit an, Templates mit beliebigen eigenen Ausgabestrukturen einzusetzen.
-An diese Personen richtet sich Serendipitys Template API - Sie sollten PHP
+An diese Personen richtet sich die Template API von Serendipity - Sie sollten PHP
 gut beherrschen, wenn Sie diese API einsetzen möchten.</p>
 
 <p>Dabei bedient sich Serendipity einer Art <em>Connector-API</em>. Dank dem Einsatz
