@@ -1830,16 +1830,15 @@ Performance zu steigern.</span>
 </span>
 </p>
 
-<p>Der HTML-Code des Serendipity-Backends ist größtenteils fest im Quellcode von
-Serendipity verdrahtet. Dies geschieht, damit neue Serendipity-Versionen
-problemlos neue Features einbauen können, für die andernfalls jedes Mal eine
-Anpassung Ihres Templates notwendig wäre.
-Zudem ist die Darstellung mit Verzicht auf Smarty etwas schneller, und da der
-Backend-Bereich selten von Benutzern angepasst wird, ist dieser Kompromiss meist
-problemlos.</p>
+<p>Der HTML-Code des Serendipity-Backends war früher größtenteils fest im Quellcode von
+Serendipity verdrahtet. Dies geschah, damit neue Serendipity-Versionen
+problemlos neue Features einbauen konnten, für die andernfalls jedes Mal eine
+Anpassung Ihres Templates notwendig gewesen wäre.
+Zudem war die Darstellung mit Verzicht auf Smarty etwas schneller, und da der
+Backend-Bereich selten von Benutzern angepasst wurde, war dieser Kompromiss ein gangbarer Weg.</p>
 
 <p>Mit Serendipity 2.0 wurde nach zweijähriger Entwicklungszeit
-das Serendipity Backend vollständig auf Smarty umgeschrieben, so dass es nun vollständig per Theme
+das Serendipity Backend dann doch vollständig auf Smarty umgeschrieben, so dass es nun vollständig per Theme
 bearbeitet werden kann. Dazu wurde das 2k11 (Standard) Theme um einen eigenen Backend Bereich erweitert,
 in dem auch einige der alten, hier genannten *.tpl Dateien des Backends zu finden sind.
 Eine genaue Auflistung der neueren Backend Dateien und ihrer Variablen erfolgt innerhalb dieser Unter-Sektionen (9.4.3, 9.4.6, 9.4.7) jeweils am Ende.</p>
