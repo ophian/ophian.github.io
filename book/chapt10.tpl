@@ -210,7 +210,7 @@ Kommentarfeld aufrufen zu müssen. Serendipity nimmt derartige Kommentare über 
 
 <h3 class="subsection" id="exit-nachverfolgung">Exit-Nachverfolgung</h3>
 
-<p>Serendipitys Plugin zum <code>Externe Links zählen</code> (siehe Seite
+<p>Das Serendipity Plugin zum <code>Externe Links zählen</code> (siehe Seite
 <span class="pageref"><a href="#trackexits">trackexits</a></span>)
 dient zur statistischen Erfassung, auf welche Links Ihre Besucher klicken. Dabei
 leitet Serendipity den Besucher auf die eigentlich gewünschte URL weiter. Damit
@@ -7907,7 +7907,7 @@ Einsatz von Frames durcheinander geraten.</p>
 
 <p>Bevor Serendipity mit Smarty-Templates umgehen konnte, wurde der <em>Embed
 Mode</em> aus der Taufe gehoben. Diesen Modus können Sie über die Konfiguration
-Serendipitys aktivieren (Abschnitt <span class="mbold">Konfiguration
+von Serendipity aktivieren (Abschnitt <span class="mbold">Konfiguration
 <span class="icon arrow-right">→</span> Design und Optionen
 <span class="icon arrow-right">→</span> Eingebettete Nutzung von
 Serendipity aktivieren</span>). Er sorgt dafür, dass die Seiten von
@@ -8075,7 +8075,7 @@ Seite <span class="pageref"><a href="#zentralefunktionen">zentralefunktionen</a>
 </span>
 </p>
 
-<p>Serendipitys Framework ist darauf ausgelegt, auf seine eigenen Datenbanktabellen
+<p>Das Serendipity Framework ist darauf ausgelegt, auf seine eigenen Datenbanktabellen
 zugreifen zu können. Daher ist eine Integration einer fremden Benutzerdatenbank
 oder Rechteverwaltung nicht ohne Weiteres möglich.</p>
 
