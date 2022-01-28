@@ -1494,7 +1494,7 @@ Einträge ohne Verwendung des multilingualen Plugins erstellen.</p>
 <p>Ein gekoppeltes Seitenleisten-Plugin ermöglicht es Ihren Besuchern, ihre
 bevorzugte Sprache auszuwählen. Die Besucher sehen daraufhin alle
 Einträge in dieser gewählten Sprache, und auch die restlichen Ausgaben
-Serendipitys erscheinen in dieser Sprache. Sie können in der
+von Serendipity erscheinen in dieser Sprache. Sie können in der
 Konfiguration des Seitenleisten-Plugins gezielt festlegen, welche Sprachen
 Sie zur Auswahl anbieten wollen.</p>
 
