@@ -2977,7 +2977,7 @@ RSS-Feeds (siehe Seite <span class="pageref"><a href="#RSS">RSS</a></span>) zusa
 RSS-Feeds sind die fundamentale Basis für <em>Content Syndication</em>,
 also den Vertrieb von Inhalten.</p>
 
-<p>Serendipitys <em>RSS Aggregator</em>-Plugin kümmert sich darum, dass die
+<p>Das Serendipity <em>RSS Aggregator</em>-Plugin kümmert sich darum, dass die
 Meldungen von beliebigen RSS-Feeds in Ihr Blog importiert werden
 können. Gewissermaßen lässt sich ein Aggregator mit den Borg
 vergleichen: Er assimiliert sämtliche Datenquellen und fügt sie einem
@@ -8751,7 +8751,7 @@ URL er landet.</p>
 
 <p>Überlegen Sie sich also beim Einsatz dieses Plugins gut, ob der
 statistische Nutzen für Sie ausschlaggebend ist. In älteren Versionen
-Serendipitys war dieses Plugin noch ein Standard-Plugin, wurde aber
+von Serendipity war dieses Plugin noch ein Standard-Plugin, wurde aber
 aufgrund der Kritik von Blog-Besuchern aus der Standardinstallation
 entfernt.</p>
 
