@@ -1080,7 +1080,7 @@ unter mehreren URLs aufrufen können.</p>
 sowohl unter <code>http://example.com/serendipity/</code> als auch
 <code>http://www.example.com/serendipity/</code> verfügbar sein soll.
 Damit Serendipity die jeweils genutzte URL als Standard für Folgeseiten
-übernimmt, müssen Sie lediglich in der Konfiguration Serendipitys die
+übernimmt, müssen Sie lediglich in der Konfiguration desselben die
 Option <span class="mbold">HTTP-Hostname</span> (siehe Kapitel <span class="reference">HTTP-Hostname</span> ab Seite
 <span class="pageref"><a href="#HTTP-Hostname">HTTP-Hostname</a></span>) aktivieren.</p>
 
