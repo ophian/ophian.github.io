@@ -149,8 +149,7 @@ Unterverzeichnis ebenfalls <code>serendipity</code> nennen, bleibt Ihnen
 überlassen - es darf auch
 <code>blog</code>, <code>tagebuch</code> oä. heißen. Sie sollten jedoch Sonderzeichen
 wie den Unterstrich (<code>_</code>) sowie Zahlen am Anfang oder Ende des
-Verzeichnisnamens vermeiden, da dies zu Problemen mit
-Serendipitys dynamisch generierten URLs führen kann.</p>
+Verzeichnisnamens vermeiden, da dies zu Problemen mit dynamisch generierten URLs führen kann.</p>
 
 <p>Sie können Serendipity natürlich auch direkt ins Stammverzeichnis selbst
 installieren. Beachten Sie jedoch dabei, dass dadurch
