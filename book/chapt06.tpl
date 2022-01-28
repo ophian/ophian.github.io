@@ -5305,7 +5305,7 @@ separate Anwendung setzen.</p>
 <p>Wenn Sie aber nur ein kleines Forum betreiben und dafür
 keine zweite Anwendung installieren und warten möchten, bietet sich jedoch das
 Foren-Plugin an. Dieses Plugin integriert sich in Serendipity und
-kann auch die Benutzerdatenbank Serendipitys weiterverwenden, um den
+kann auch die Benutzerdatenbank von Serendipity weiterverwenden, um den
 Zugang gegebenenfalls nur auf registrierte Benutzer zu beschränken.</p>
 
 <p>Das Forum lässt sich nach der Installation über
@@ -5996,7 +5996,7 @@ dort nach der Angabe Ihrer Sitemap. Dazu müssen Sie die Zeile
 
 <p>Mit dem <em>Gästebuch</em>-Plugin können Sie in Ihrem Blog einen Bereich
 einbinden, in dem Besucher sich in ein Gästebuch eintragen können. Die
-Kommentarfunktionen Serendipitys beziehen sich immer auf die jeweiligen
+Kommentarfunktionen von Serendipity beziehen sich immer auf die jeweiligen
 Artikel, daher sind generelle Kommentare Ihrer Besucher besser in einem
 Gästebuch aufgehoben.</p>
 
