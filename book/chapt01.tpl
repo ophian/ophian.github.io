@@ -299,7 +299,7 @@ kommerziell erhältlicher Systeme vor allem in folgenden Punkten ab:</p>
         Mediathek lassen sich dynamisch in einer Verzeichnisansicht darstellen, wie
         Sie es zB. vom Windows Explorer gewöhnt sind.</li>
 
-    <li>Serendipitys gruppenbasiertes Rollenkonzept erlaubt das Anlegen unbegrenzt
+    <li>Das gruppenbasiertes Rollenkonzept von Serendipity erlaubt das Anlegen unbegrenzt
         vieler Autorengruppen und das Vergeben individueller Rechte (Seite
         <span class="pageref"><a href="#Benutzerverwaltung">Benutzerverwaltung</a></span> und <span class="pageref"><a href="#Gruppenverwaltung">Gruppenverwaltung</a></span>).</li>
 
@@ -445,7 +445,7 @@ wie MovableType. Dort speichert der Server (vereinfacht gesagt) nur
 HTML-Dateien, in die sich dynamische Komponenten wie die neuesten Kommentare
 oder die aktuelle Server-Uhrzeit nicht ohne Weiteres einbinden lassen.</p>
 
-<p>Serendipitys Vorgehensweise hat zahlreiche Vorteile: Ein Besucher
+<p>Diese Vorgehensweise von Serendipity hat zahlreiche Vorteile: Ein Besucher
 kann, abhängig von seinen Zugriffsrechten, Artikel sehen, die andere nicht
 zu Gesicht bekommen. Ein Besucher kann das Design der Webseite
 selbständig durch Wahl einer Designvorlage verändern. Die Sprache der
@@ -1753,7 +1753,7 @@ die die Inhalte Ihrer Seite vorgelesen bekommen müssen: Wenn Sie die
 Navigation nicht speziell hervorheben, kann es sein, dass dem Benutzer
 diese beim Vorlesen vorenthalten wird.</p>
 
-<p>Serendipitys Standard-Templates versuchen so barrierefrei wie
+<p>Serendipity Standard-Templates versuchen so barrierefrei wie
 möglich zu sein und bei der Usability auf klare Strukturen zu achten.
 Erfahrungsgemäß ist dies bei einem Open-Source-Projekt recht schwer, da
 meist nur Programmierer und erfahrene Benutzer am Werk sind, die keinen
