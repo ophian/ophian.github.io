@@ -2205,7 +2205,7 @@ Seite <span class="pageref"><a href="#backups">backups</a></span>).</span>
         Aktualisierungsoberfläche <em>nicht</em> angezeigt bekommen, wurden
         möglicherweise nicht alle Dateien korrekt hochgeladen, oder das Update wurde
         bereits ausgeführt. Wurde das Update bereits ausgeführt, sehen Sie dies daran,
-        dass die Versionsnummer Serendipitys in Ihrem Backend bereits die neue Version
+        dass die Versionsnummer von Serendipity in Ihrem Backend bereits die neue Version
         anzeigt.
     </span>
 
