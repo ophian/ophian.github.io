@@ -181,8 +181,6 @@ print_r($entries);
   <li><code>$serendipity['max_last_modified']</code>: Amount of seconds how fresh an article must be, so that a comment to an entry will modify its LastModified-timestamp (default: 7 days)</li>
   <li><code>$serendipity['max_fetch_limit']</code>: In RSS-Feeds, how many entries can be fetched (default 50)</li>
   <li><code>$serendipity['trackback_filelimit']</code>: How large may an URL be to check for incoming trackback links (default 150kb)</li>
-  <li><code>$serendipity['fetchLimit']</code>: How many entries to display (default 15)</li>
-  <li><code>$serendipity['RSSfetchLimit']</code>: How many entries to display within RSS feed (default 15)</li>
   <li><code>$serendipity['CBAfetchLimit']</code>: [Styx 2.6.dev+] How many comments to display within comments_by_author shortcut pages (default 10). Recommended set: 20</li>
   <li><code>$serendipity['use_PEAR']</code>: By default, Serendipity will use externally provided PEAR files (if existing). To force using the PEAR libraries bundled with Serendipity, set this variable to FALSE.</li>
   <li><code>$serendipity['useHTTP-Auth']</code>: If enabled (on by default, requires mod_php), users can log in to the Blog by specifying user/password in the URL like <strong>http://user:password@example.com/serendipity_admin.php</strong> (default true)</li>
@@ -202,7 +200,6 @@ print_r($entries);
   <li><code>$serendipity['use_autosave']</code>: Whether to use local-browser autosaving feature (default true)</li>
   <li><code>$serendipity['imagemagick_nobang']</code>: When enabled, ImageMagick image resizing operates with comma values, which can change the given image w/h setting by 1px by rounding differences (default false)</li>
   <li><code>$serendipity['imagemagick_thumb_parameters']</code>: Optional parameters passed to ImageMagick when creating thumbnails (default empty)</li>
-  <li><code>$serendipity['logLevel']</code>: If set, enables using the Katzgrau KLogger (writes to “templates_c/logs/”). If set to “debug”, be extra verbose (default: ‘Off’)</li>
 </ul>
 
 <h4 id="docs-htaccess">.htaccess</h4>
