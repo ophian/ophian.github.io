@@ -504,16 +504,20 @@ print_r($entries);
 <ul class="plainList">
   <li><code>$serendipity['wysiwyg']</code>: Whether to use the WYSIWYG editor</li>
   <li><code>$serendipity['wysiwygToolbar']</code>: Defines the toolbar palette of the WYSIWYG editor. [Removed with Styx 3.0]</li>
+  <li><code>$serendipity['dark_mode']</code>: Boolean whether to use the backends dark mode by styx backend theme</li>
   <li><code>$serendipity['mail_comments']</code>: Boolean whether a user receives comments to his entries via mail</li>
   <li><code>$serendipity['mail_trackbacks']</code>: Boolean whether a user receives trackbacks to his entries via mail</li>
-  <li><code>$serendipity['no_create']</code>: If set, the author has no write permissions to anything in the Backend</li>
-  <li><code>$serendipity['right_publish']</code>: Boolean to indicate if an author may publish entries (or only drafts)</li>
   <li><code>$serendipity['simpleFilters']</code>: Boolean whether simplified media and entry filter toolbars are shown</li>
   <li><code>$serendipity['enableBackendPopup']</code>: Boolean whether popups in the Backend are shown inline or as “real” popups</li>
+  <li><code>$serendipity['enableBackendPopupGranular']</code>: Bypass enableBackendPopup option at certain places</li>
+  <li><code>$serendipity['showMediaToolbar']</code>: Boolean whether to show toolbars for media library even in “picker” mode</li>
+  <li><strong>Additional administrative variables are:</strong></li>
+  <li><code>$serendipity['no_create']</code>: If set, the author has no write permissions to anything in the Backend</li>
+  <li><code>$serendipity['right_publish']</code>: Boolean to indicate if an author may publish entries (or only drafts)</li>
+  <li><strong>Personal grouped presets for new entries:</strong></li>
   <li><code>$serendipity['moderateCommentsDefault']</code>: Boolean to indicate if new entries are moderated by default</li>
   <li><code>$serendipity['allowCommentsDefault']</code>: Boolean to indicate if new entries are able to be commented by default</li>
   <li><code>$serendipity['publishDefault']</code>: Indicates if new entries are saved as drafts or publish</li>
-  <li><code>$serendipity['showMediaToolbar']</code>: Boolean whether to show toolbars for media library even in “picker” mode</li>
   <li><code>$serendipity['use_autosave']</code>: Boolean to indicate if browser’s autosave feature is used for entries</li>
 </ul>
 
