@@ -6865,6 +6865,51 @@ sinnvoll, die streng auf <em>ehrliche</em> Zeitangaben setzen.</span>
 </p>
 
 <p class="desc">
+<span class="label invisible" id="fetchlimit">fetchLimit</span>
+<span class="tag-box invisible">
+    <span class="inline-tag">Serendipity-Variablen!\$serendipity['fetchLimit']</span>
+    <span class="inline-tag">Serendipity-Variablen!\$serendipity['RSSfetchLimit']</span>
+    <span class="inline-tag">Serendipity-Variablen!\$serendipity['CBAfetchLimit']</span>
+    <span class="inline-tag">Ausgaben!von Artikeln verändern</span>
+</span>
+<code class="item var">$serendipity['fetchLimit']</code>
+<code class="item var">$serendipity['RSSfetchLimit']</code>
+<code class="item var">$serendipity['CBAfetchLimit']</code>
+<span class="desc-info">
+    <span class="box">
+        Diese drei <code>limit</code> Variablen beziehen sich auf den Datenbank Auszüge, in etwa:
+        "Suche xxx in TABELLE limit 0, 15" für die Eintragsnavigationen.
+        Ihre Verschiedenheit beruht auf unterschiedlichen Ausgabe Anforderungen.
+        Dies sind Blog Einträge, RSS Feed Ausgaben und Kommentar Ausgaben.
+    </span>
+
+    <span class="box">
+        Die <code>$serendipity['fetchLimit']</code>, sowie die <code>$serendipity['RSSfetchLimit']</code>
+        Variablen können natürlich unter <span class="mbold">Konfiguration</span> - <span class="mbold">Design und Optionen</span>
+        per Konfigurationsoption eingestellt werden.
+        Die Zahl 15 stammt übrigens aus frühen Zeiten des Internets als RSS Feeds generell
+        mit <code>15</code> limitiert wurden. Deshalb wurde diese Zahl damals auch für
+        die Einstellung der Blog "fetchLimit" Variable übernommen, obwohl sicherlich,
+        je nachdem wie Sie ihr Blog nutzen und wie lang ihre Blogeinträge werden,
+        eine engere Limitierung des Ausgabefensters besser passt.
+    </span>
+
+    <span class="box">
+        Die <code>$serendipity['CBAfetchLimit']</code> Variable allerdings ist eine
+        dieser "versteckten" Variablen, die nur per Hand überschrieben werden können
+        und behandelt die Anzahl der zugleich dargestellten Kommentare auf den comments_by_author
+        <code>/comments/</code> Zusammenfassungsseiten (siehe Seiten <span class="pageref">
+        <a href="#Permalinks-Frontend">Permalinks-Frontend</a> und <span class="pageref">
+        <a href="#U342">Kommentarübersichten</a></span>).
+        Ihr ungesetzter default Wert sind <code>10</code> Kommentare per Seite.
+        Erfahrungsgemäß ist hier aber etwa <code>20</code> die bessere Einstellung,
+        da ja jemand diese Kommentar Archiv Seiten nur aufruft, um schnell einen
+        Überblick der letzten Kommentare zu erhalten.
+    </span>
+</span>
+</p>
+
+<p class="desc">
 <span class="tag-box invisible">
     <span class="inline-tag">iframe</span>
     <span class="inline-tag">Fehler!iframes</span>
