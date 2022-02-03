@@ -173,7 +173,7 @@ print_r($entries);
   <li><code>$serendipity['dbPersistent']</code>: Whether to use persistent connections</li>
 </ul>
 
-<p>On top of that, certain variables that are not included in the Serendipity Configuration panel can be configured in this file; If they are not present, the Serendipity defaults will be used. Such variables are:</p>
+<p>On top of that (or below), certain variables that are not included in the Serendipity Configuration panel can be configured in this file; If they are not present, the Serendipity defaults will be used, though not all of them are really meant to to be touched. Such variables are:</p>
 
 <ul class="plainList">
   <li><code>$serendipity['production']</code>: If set to “false” you can evoke extra debugging output when errors occur. If set to “debug”, it will be extra-verbose. (default: based on version, RC and alpha/betas default to false)</li>
@@ -189,8 +189,8 @@ print_r($entries);
   <li><code>$serendipity['forceBase64']</code>: When enabled, mails are encoded with base64 instead of imap_8bit (default false)</li>
   <li><code>$serendipity['use_iframe']</code>: When enabled, uses an IFRAME to save entries in the Backend to prevent timeouts (default true)</li>
   <li><code>$serendipity['autolang']</code>: Default language, when autodetection fails (default “en”)</li>
-  <li><code>$serendipity['defaultTemplate']</code>: Which template directory to use for fallback chaining (see below) (default “2k11”)</li>
-  <li><code>$serendipity['template_backend']</code>: Which Backend template to use when none is configured (default “2k11”)</li>
+  <li><code>$serendipity['defaultTemplate']</code>: Which template directory to use for fallback chaining (see below) (default “default”)</li>
+  <li><code>$serendipity['template_backend']</code>: Which Backend template to use when none is configured (default “styx”)</li>
   <li><code>$serendipity['backendBlogtitleFirst']</code>: If true, the page titles of Backend pages will have the form “Blog title | Backend section name” instead of “Backend section name | Blog title” (default false). <strong>Serendipity Styx</strong> has this order “section | admin | Blog title” (eg. “Plugins | Serendipity Administration Suite | John Doe Blog”) set as default.</li>
   <li><code>$serendipity['dashboardCommentsLimit']</code>: How many comments to show in the dashboard overview (default 5)</li>
   <li><code>$serendipity['dashboardEntriesLimit']</code>: How many future entries and drafts to show in the dashboard overview (default 5)</li>
