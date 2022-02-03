@@ -6885,8 +6885,8 @@ sinnvoll, die streng auf <em>ehrliche</em> Zeitangaben setzen.</span>
 
     <span class="box">
         Die <code>$serendipity['fetchLimit']</code>, sowie die <code>$serendipity['RSSfetchLimit']</code>
-        Variablen können natürlich unter <span class="mbold">Konfiguration</span> - <span class="mbold">Design und Optionen</span>
-        per Konfigurationsoption eingestellt werden.
+        Variablen können und sollen natürlich unter <span class="mbold">Konfiguration</span>
+        - <span class="mbold">Design und Optionen</span> per Konfigurationsoption eingestellt werden.
         Die Zahl 15 stammt übrigens aus frühen Zeiten des Internets als RSS Feeds generell
         mit <code>15</code> limitiert wurden. Deshalb wurde diese Zahl damals auch für
         die Einstellung der Blog "fetchLimit" Variable übernommen, obwohl sicherlich,
