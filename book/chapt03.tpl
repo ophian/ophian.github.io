@@ -319,6 +319,21 @@ Beispiele für die Kombinationsmöglichkeiten:</p>
 </p>
 
 <p class="desc">
+<code class="item">/archives/summary/P2.html</code>
+<span class="desc-info">stellt die zweite Seite der zusammenfassenden Artikelübersicht (nur Datum und Titel) aller Artikel dar.</span>
+</p>
+
+<p class="desc">
+<code class="item">/archives/2020/summary.html</code>
+<span class="desc-info">stellt die Artikelübersicht (nur Datum und Titel) aller Artikel im Jahr 2020 dar.</span>
+</p>
+
+<p class="desc">
+<code class="item">/archives/2020/summary/P2.html</code>
+<span class="desc-info">stellt die zweite Seite der Artikelübersicht (nur Datum und Titel) aller Artikel im Jahr 2020 dar.</span>
+</p>
+
+<p class="desc">
 <code class="item">/archives/2007/12/P2.html</code>
 <span class="desc-info">stellt die zweite Seite der offenen Artikelübersicht aller Artikel im Dezember 2007 dar.</span>
 </p>
