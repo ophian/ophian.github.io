@@ -904,7 +904,7 @@ Variablen ein:</p>
 Tags, wenn die Eintragsübersicht durch den Besucher auf alle
 Artikel mit einem speziellen Tag eingeschränkt wurde. Da dieser
 Wert als Konstante vom Plugin gesetzt wird (wie auch das Array
-<code>$serendipity['plugin_vars']['tag']</code>), können Sie auch innerhalb
+<code class="nobreak">$serendipity['plugin_vars']['tag']</code>), können Sie auch innerhalb
 anderer Plugins (mit PHP-Code) auf die Ansicht des Tagging-Plugins
 zugreifen.</span>
 </p>
