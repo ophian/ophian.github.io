@@ -335,7 +335,7 @@ Seite bei der Plugin-Beschreibung nach.</p>
     <span class="inline-tag">Trackbacks!deaktivieren</span>
 </span>
 Sie können Trackbacks zentral deaktivieren, indem Sie die Variable
-<code>$serendipity['noautodiscovery']</code> in der Serendipity-Konfigurationsdatei
+<code class="nobreak">$serendipity['noautodiscovery']</code> in der Serendipity-Konfigurationsdatei
 <code>serendipity_config_local.inc.php</code> auf <code>true</code> setzen (siehe Seite <span class="pageref"><a href="#noautodiscovery">noautodiscovery</a></span>).</p>
 
 </section><!-- section.sub end -->
@@ -1780,7 +1780,7 @@ noch eine Kleinigkeit anpassen. Da Sie beim Test-Import den Tabellen-Präfix von
 <code>serendipity_</code> in <code>serendipity2_</code> verändert haben, müssen Sie
 zusätzlich in einem solchen Fall auch die Datei
 <code>serendipity_config_local.inc.php</code> anpassen und dort die Variable
-<code>$serendipity['dbPrefix']</code> auf den Wert <code>'serendipity2_'</code> ändern.</p>
+<code class="nobreak">$serendipity['dbPrefix']</code> auf den Wert <code>'serendipity2_'</code> ändern.</p>
 
 <p>Die <span class="mbold">Serendipity Styx</span> Standardeinstellung für das dbPrefix
 ist <code>styx_</code>.</p>
@@ -2257,7 +2257,7 @@ Seite <span class="pageref"><a href="#backups">backups</a></span>).</span>
         <span class="pageref"><a href="#fixperm">fixperm</a></span>) einrichten lassen.
         Wenn Sie die Konfigurationsdatei <code>serendipity_config_local.inc.php</code>
         in einem Editor öffnen, werden Sie mehrere Variablen sehen. Beim Update ist
-        vor allem der Inhalt der Variable <code>$serendipity['versionInstalled']</code>
+        vor allem der Inhalt der Variable <code class="nobreak">$serendipity['versionInstalled']</code>
         von Interesse. Hierin speichert Serendipity die aktuell konfigurierte Version
         und kann diese mit der auf dem Server installierten Versionsnummer vergleichen.
         Weichen die beiden Nummern voneinander ab, wird beim Aufruf des Blogs
