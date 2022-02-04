@@ -257,7 +257,7 @@ Aktion <em>nicht</em> abbrechen, damit der Betrieb von Serendipity auch mit
 derartig konfigurierten Browsern funktionieren kann. Wenn Sie in Ihrem
 Browser die Übermittlung des HTTP-Referrers zulassen, können Sie als
 weitere Sicherheitsoption die globale Variable
-<code>$serendipity['referrerXSRF']</code> aktivieren - in so einem Fall wird
+<code class="nobreak">$serendipity['referrerXSRF']</code> aktivieren - in so einem Fall wird
 eine Aktion im Backend abgebrochen, wenn der HTTP-Referrer fehlt (siehe
 Seite <span class="pageref"><a href="#referrerXSRF">referrerXSRF</a></span>).</p>
 
@@ -6428,7 +6428,7 @@ zugreifen können.</span>
 <code class="item var">$serendipity['noautodiscovery']</code>
 <span class="desc-info">Wenn Serendipity nicht versuchen soll, automatische Trackbacks an URLs zu
 schicken, die Sie in Ihren Artikeln angegeben haben, können Sie die
-Variable <code>$serendipity['noautodiscovery']</code> auf <code>true</code> setzen.
+Variable <code class="nobreak">$serendipity['noautodiscovery']</code> auf <code>true</code> setzen.
 Standardmäßig ist die Variable überhaupt nicht gesetzt und daher
 deaktiviert (<code>false</code>).</span>
 </p>
@@ -6459,7 +6459,7 @@ deaktiviert (<code>false</code>).</span>
     <span class="box">
         Um Textauszüge zu beziehen, kann Serendipity die fremde URL öffnen und
         dort die ersten Zeichen des Textes mit einbinden. Damit dies erfolgen
-        kann, muss die Variable <code>$serendipity['pingbackFetchPage']</code> auf
+        kann, muss die Variable <code class="nobreak">$serendipity['pingbackFetchPage']</code> auf
         <code>true</code> gesetzt werden.
     </span>
 
@@ -6488,11 +6488,10 @@ deaktiviert (<code>false</code>).</span>
 </span>
 <code class="item var">$serendipity['pingbackFetchPageMaxLength']</code>
 <span class="desc-info">Bei empfangenen Pingbacks wird standardmäßig nur eine beschränkte Anzahl an
-Zeichen der sendenden Blog-Seite abgerufen. Diese Zeichen werden später
-verwendet, um den Inhalt des Pingbacks zu füllen. Die Anzahl der Zeichen, die
-ausgelesen werden, können Sie über die Variable
-<code>$serendipity['pingbackFetchPageMaxLength']</code> steuern, standardmäßig sind
-dies 200 Zeichen.</span>
+Zeichen der sendenden Blog-Seite abgerufen. Diese Zeichen werden später verwendet,
+um den Inhalt des Pingbacks zu füllen. Die Anzahl der Zeichen, die ausgelesen werden,
+können Sie über die Variable <code class="nobreak">$serendipity['pingbackFetchPageMaxLength']</code>
+steuern, standardmäßig sind dies 200 Zeichen.</span>
 </p>
 
 <p class="desc">
@@ -6509,7 +6508,7 @@ dies 200 Zeichen.</span>
     <span class="box">
         Serendipity verfügt über zwei Methoden zur Sicherung des Blogs gegen
         <em>XSRF-Angriffe</em> (siehe Seite <span class="pageref"><a href="#XSRF">XSRF</a></span>). Wenn Sie die Variable
-        <code>$serendipity['referrerXSRF']</code> auf <code>true</code> setzen, wird
+        <code class="nobreak">$serendipity['referrerXSRF']</code> auf <code>true</code> setzen, wird
         Serendipity bei einer fehlenden HTTP-Referrer-Kopfzeile (vom
         Browser übermittelt) eine angeforderte Aktion nicht ausführen. Diese
         Option können Sie aktivieren, wenn Sie Ihr Blog gegen zusätzliche
@@ -6619,7 +6618,7 @@ auf <code>false</code> setzen.
         Login in das Backend verwenden. Daher müssten die Benutzernamen, die Sie
         zum HTTP-Auth-Login verwenden, identisch sein mit den Zugangsdaten der
         Serendipity-Benutzerdatenbank. Sollte dies nicht der Fall sein, müssen
-        Sie die Variable <code>$serendipity['useHTTP-Auth']</code> auf <code>false</code>
+        Sie die Variable <code class="nobreak">$serendipity['useHTTP-Auth']</code> auf <code>false</code>
         setzen und damit die HTTP-Authentifikation im Backend unterbinden.
     </span>
 
@@ -6674,7 +6673,7 @@ auf <code>false</code> setzen.
     <span class="box">
         Dies kann jedoch möglicherweise zu Problemen führen, wenn Ihr Server ganz
         alte PEAR-Bibliotheken anbietet oder es zu Zugriffsrechtsproblemen kommt.
-        In so einem Fall können Sie die Variable <code>$serendipity['use_PEAR']</code>
+        In so einem Fall können Sie die Variable <code class="nobreak">$serendipity['use_PEAR']</code>
         auf <code>false</code> setzen und damit erzwingen, dass Serendipity seine
         eigenen Bibliotheken benutzt.
     </span>
@@ -6716,7 +6715,7 @@ auf <code>false</code> setzen.
     <span class="inline-tag">Update</span>
 </span>
 <code class="item var">$serendipity['version']</code>
-<span class="desc-info">Im Gegensatz zu <code>$serendipity['versionInstalled']</code> gibt
+<span class="desc-info">Im Gegensatz zu <code class="nobreak">$serendipity['versionInstalled']</code> gibt
 diese Variable nicht an, welche Version gerade
 <em>aktiviert</em> ist, sondern welcher Version die Dateien auf dem Server
 entsprechen. Dieser minimale Unterschied ist dann wichtig, wenn Sie
@@ -6800,7 +6799,7 @@ sinnvoll, die streng auf <em>ehrliche</em> Zeitangaben setzen.</span>
     </span>
 
     <span class="box">
-        Die Variable <code>$serendipity['max_last_modified']</code> legt nur fest,
+        Die Variable <code class="nobreak">$serendipity['max_last_modified']</code> legt nur fest,
         wie alt ein Artikel maximal (relativ zum aktuellen Zeitpunkt) sein darf,
         damit Änderungen am Artikel in RSS-Feeds als <em>neu</em> angesehen werden.
         Schließlich interessiert es einen Leser Ihres RSS-Feeds sicher nicht,
@@ -6809,7 +6808,7 @@ sinnvoll, die streng auf <em>ehrliche</em> Zeitangaben setzen.</span>
         Sekunden, die der Abstand zwischen Veröffentlichungsdatum und aktuellem
         Zeitpunkt maximal betragen darf. Ist ein Artikel älter als diese
         Zeitangabe, wird er nicht als <em>aktualisiert</em> markiert. Standardmäßig
-        ist <code>$serendipity['max_last_modified']</code> auf 604800 Sekunden [*]
+        ist <code class="nobreak">$serendipity['max_last_modified']</code> auf 604800 Sekunden [*]
         <span class="footnote"><i class="fa fa-info-circle"></i> Das entspricht sieben Tagen. Für Programme ist es einfacher,
         einheitlich mit Sekunden zu arbeiten, auch wenn die Angabe fürs
         menschliche Auge etwas merkwürdig wirken mag.</span><!-- footnote --> gesetzt.
@@ -6819,7 +6818,7 @@ sinnvoll, die streng auf <em>ehrliche</em> Zeitangaben setzen.</span>
         <span class="inline-tag">Traffic</span>
     </span>
     <span class="box">
-        Die zweite Variable <code>$serendipity['max_fetch_limit']</code> legt fest,
+        Die zweite Variable <code class="nobreak">$serendipity['max_fetch_limit']</code> legt fest,
         wie viele Artikel ein Benutzer, der Ihren RSS-Feed seit langem nicht mehr
         aufgerufen hat, maximal empfangen darf. Standardmäßig ist der Wert auf
         <code>50</code> Artikel gesetzt, um nicht zu viel Bandbreite zu verschwenden und
@@ -6852,7 +6851,7 @@ sinnvoll, die streng auf <em>ehrliche</em> Zeitangaben setzen.</span>
     <span class="box">
         Sollten Sie Trackbacks aber nicht pauschal deaktivieren wollen (siehe Seite
         <span class="pageref"><a href="#noautodiscovery">noautodiscovery</a></span>), können Sie die maximale Dateigröße
-        (in Bytes) in der Variable <code>$serendipity['trackback_filelimit']</code>
+        (in Bytes) in der Variable <code class="nobreak">$serendipity['trackback_filelimit']</code>
         eintragen. Das Standardlimit steht derzeit auf <code>150</code>kb. Bitte
         beachten Sie, dass Serendipity nicht immer von vornherein beim Besuch
         einer URL weiß, wie groß der Inhalt sein wird. Daher kann es auch passieren, dass
@@ -6928,7 +6927,7 @@ sinnvoll, die streng auf <em>ehrliche</em> Zeitangaben setzen.</span>
     <span class="box">
         Bei Browsern auf Handys und PDAs könnte diese Technik jedoch
         möglicherweise Probleme machen, daher können Sie die Variable
-        <code>$serendipity['use_iframe']</code> auf <code>false</code> setzen, um Serendipity
+        <code class="nobreak">$serendipity['use_iframe']</code> auf <code>false</code> setzen, um Serendipity
         ohne diese Technik nutzen zu können.
     </span>
 
@@ -6977,9 +6976,9 @@ sinnvoll, die streng auf <em>ehrliche</em> Zeitangaben setzen.</span>
 <code class="item var">$serendipity['autolang']</code>
 <span class="desc-info">Die Sprache, die Serendipity standardmäßig bei der Installation benutzt
 (wenn keine andere Sprache vom Browser präferiert wurde), wird in der
-Variable <code>$serendipity['autolang']</code> gespeichert. Das dort
+Variable <code class="nobreak">$serendipity['autolang']</code> gespeichert. Das dort
 eingetragene Kürzel (standardmäßig <code>en</code> für <code>englisch</code>) muss in
-der Liste der Variable <code>$serendipity['languages']</code> enthalten sein.</span>
+der Liste der Variable <code class="nobreak">$serendipity['languages']</code> enthalten sein.</span>
 </p>
 
 <p class="desc">
@@ -6998,7 +6997,7 @@ der Liste der Variable <code>$serendipity['languages']</code> enthalten sein.</s
     <span class="box">
         Wenn eine Template-Datei eines Themes nicht vorhanden ist, wird die Datei
         im Standard-Theme benutzt. Eben jenes Standard-Theme definieren Sie in
-        der Variable <code>$serendipity['defaultTemplate']</code> (standardmäßig
+        der Variable <code class="nobreak">$serendipity['defaultTemplate']</code> (standardmäßig
         <code>2k11</code>, <em>2k11</em>).
     </span>
 
@@ -7027,7 +7026,7 @@ Seite <span class="pageref"><a href="#serendipity-hookPlugin">serendipity-hookPl
 </span>
 <code class="item var">$serendipity['skip_smarty_hook']</code>
 <span class="desc-info">Statt den Aufruf aller Ereignis-Plugins mittels
-<code>$serendipity['skip_smarty_hooks']</code> zu verbieten, kann dieses Array eine
+<code class="nobreak">$serendipity['skip_smarty_hooks']</code> zu verbieten, kann dieses Array eine
 Liste von Ereignissen (<code>Hooks</code>) enthalten, die ein Smarty-Funktionsaufruf
 innerhalb der Template-Dateien <em>nicht</em> aufrufen darf. Jeder Array-Schlüssel
 muss hierbei dem Namen des zu verbietenden Hooks enthalten.</span>
