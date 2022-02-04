@@ -294,7 +294,12 @@ Die Pfadkomponente <code>W</code> (für <em>Week</em>) wird gefolgt von der Woch
 <p class="desc">
 <code class="item">/archives/summary.html</code>
 <span class="desc-info">legt fest, dass die Artikelübersicht ausschließlich
-Datum und Artikeltitel (also ohne jeglichen Inhalt) darstellt.</span>
+Datum und Artikeltitel (also ohne jeglichen Inhalt) darstellt. Diese Ansicht - wie
+fast alle weiteren summary Seiten - hat eine festeingestellte, optionslose und spezifische Limitierung
+von 25 Artikeln pro Seite (bzw. 24, wenn die normale fetchLimit Selektion schon auf
+diese Zahl eingestellt ist), kann aber über eine manuell gesetzte
+<code class="nobreak">$serendipity['summaryFetchLimit']</code> Variable zB. in der
+serendipity_config_local.inc von Hand überschrieben werden.</span>
 </p>
 
 <p>Wichtig ist dabei, dass die Pfadkomponenten (bis auf die für eine
