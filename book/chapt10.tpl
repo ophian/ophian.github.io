@@ -5944,7 +5944,7 @@ auch selbstgeschriebene Plugins zugreifen können:</p>
             <code>eventData</code> enthält die URL der aktuellen Serendipity-Seite. Über
             die globale Variable
             <span class="sub-box">
-                <code>$serendipity['plugindata']['smartyvars']</code> kann ein
+                <code class="nobreak">$serendipity['plugindata']['smartyvars']</code> kann ein
                 Plugin weitere beliebige Variablen an das Smarty-Framework weitergeben,
             </span>
         </span>
@@ -8002,7 +8002,7 @@ Webseite zugreifen.</p>
 
 <p>Bedingung für die Fremdeinbindung von PHP-Code ist, dass Sie in der Datei
 <code>config.inc.php</code> (siehe auch Seite <span class="pageref"><a href="#configinc">configinc</a></span>)
-die Zeile <code>$serendipity['smarty']-&gt;security = false;</code> einbinden. Damit wird
+die Zeile <code class="nobreak">$serendipity['smarty']-&gt;security = false;</code> einbinden. Damit wird
 die Ausführungssicherheit deaktiviert, und Ihnen stehen alle PHP-Funktionen zur
 Verfügung.</p>
 
@@ -8665,7 +8665,7 @@ PHP-Datei muss die jeweilige Emulator-Klasse laden.
 
 <p>In der ersten Zeile wird die Serendipity-Emulationsklasse geladen, in der
 zweiten und dritten die Klasse als Ersatz des
-<code>$serendipity['smarty']</code>-Objekts.</p>
+<code class="nobreak">$serendipity['smarty']</code>-Objekts.</p>
 
 <p>Für alle Serendipity-Funktionen bleibt dabei der Zugriff auf das
 Template-Framework so erhalten, als käme Smarty zum Einsatz. In Wirklichkeit
