@@ -551,6 +551,13 @@ Personen kommentiert haben. Die Seite zeigt dabei wie üblich seitenweise
 blätterbar die Überschrift eines Artikels an, und darunter die getätigten
 Kommentare.</p>
 
+<p>Diese <code>/comments/</code> Ansichten haben eine fest eingestellte, optionslose und
+spezifische Limitierung von 10 Kommentaren pro Seite, können aber über die
+manuell gesetzte <code class="nobreak">$serendipity['CBAfetchLimit']</code> Variable
+zB. in der serendipity_config_local.inc von Hand überschrieben werden. Als ein gutes
+Maß haben sich 20 Kommentare per Seite herausgestellt, deshalb ist es zu empfehlen
+diese Variable zu setzen, wenn Sie solcherlei Übersichten anbieten.</p>
+
 <p>Diese Übersichtsseite ist bisher in wenigen Templates eingebaut und wird
 daher von Besuchern auch seltener genutzt.</p>
 
