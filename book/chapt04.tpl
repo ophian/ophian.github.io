@@ -6884,7 +6884,7 @@ sinnvoll, die streng auf <em>ehrliche</em> Zeitangaben setzen.</span>
     </span>
 
     <span class="box">
-        Die <code>$serendipity['fetchLimit']</code>, sowie die <code>$serendipity['RSSfetchLimit']</code>
+        Die <code class="nobreak">$serendipity['fetchLimit']</code>, sowie die <code class="nobreak">$serendipity['RSSfetchLimit']</code>
         Variablen können und sollen natürlich unter <span class="mbold">Konfiguration</span>
         - <span class="mbold">Design und Optionen</span> per Konfigurationsoption eingestellt werden.
         Die Zahl 15 stammt übrigens aus frühen Zeiten des Internets als RSS Feeds generell
@@ -6895,7 +6895,7 @@ sinnvoll, die streng auf <em>ehrliche</em> Zeitangaben setzen.</span>
     </span>
 
     <span class="box">
-        Die <code>$serendipity['CBAfetchLimit']</code> Variable allerdings ist eine
+        Die <code class="nobreak">$serendipity['CBAfetchLimit']</code> Variable allerdings ist eine
         dieser "versteckten" Variablen, die nur per Hand überschrieben werden können
         und behandelt die Anzahl der zugleich dargestellten Kommentare auf den comments_by_author
         <code>/comments/</code> Zusammenfassungsseiten (siehe Seiten <span class="pageref">
