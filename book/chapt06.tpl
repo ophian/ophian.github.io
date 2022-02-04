@@ -375,7 +375,7 @@ einzubinden.</p>
         auskennen, können Sie auch Smileys mit solchen Ausdrücken definieren.
         Damit ist es leichter, diverse Plugin-Alternativen zu beschreiben, zB.
         dass sowohl :-) als auch :) zur selben Grafik umgewandelt werden. Damit
-        das Array <code>$serendipity['custom_emoticons']</code> diese regulären
+        das Array <code class="nobreak">$serendipity['custom_emoticons']</code> diese regulären
         Ausdrücke nutzen kann, müssen Sie eine weitere Variable
     </span>
 
@@ -820,7 +820,7 @@ Siehe: <span class="pageref"><a href="#U497">Wartung: Service Wartungs Modus</a>
     <span class="box">
         Wenn Sie sich jemals ausloggen, ohne den 503 Maintenance Mode zurückgestellt
         zu haben, ihr Login Cookie beschädigt oder gelöscht wurde, müssen Sie die
-        <code>$serendipity['maintenance']</code> Variable in der
+        <code class="nobreak">$serendipity['maintenance']</code> Variable in der
         <span class="mbold">serendipity_config_local.inc.php</span> Datei manuell auf 'false' stellen,
         um sich und der Öffentlichkeit wieder Zugang zu ihrem Blog zu ermöglichen!
     </span>
@@ -3774,7 +3774,7 @@ dort sehen:</p>
         Da Detailseiten eines Artikels standardmäßig niemals eine Kategorie setzen, wären
         in so einem Fall bei deaktivierter Option die Seitenleisten ebenfalls ohne
         feste Kategorieabhängigkeit. Erst durch Aktivierung der Option sorgt das Plugin
-        dafür, die globale Kategorievariable (<code>$serendipity['GET']['category']</code>) zu
+        dafür, die globale Kategorievariable (<code class="nobreak">$serendipity['GET']['category']</code>) zu
         füllen.
     </span>
 </span>
@@ -8582,7 +8582,7 @@ global in Ihrem Blog zu deaktivieren. Dann sendet Serendipity beim Speichern
 Ihrer Artikel keinerlei Trackbacks, dies empfiehlt sich also besonders bei
 versteckten Blogs oder Intranet-Blogs, die mit der Außenwelt nicht in Kontakt
 treten sollen. Abgesehen von diesem Plugin regelt auch die Variable
-<code>$serendipity['noautodiscovery']</code> der Datei
+<code class="nobreak">$serendipity['noautodiscovery']</code> der Datei
 <code>serendipity_config_local.inc.php</code> die globale Deaktivierung von
 Trackbacks, wie auf Seite <span class="pageref"><a href="#noautodiscovery">noautodiscovery</a></span>
 beschrieben.</p>
