@@ -2267,7 +2267,7 @@ Die Seite erlaubt User zu erstellen und zu administrieren.</span>
         Diese Datei wird stets geladen, wenn Serendipity eine Seite im Frontend
         einbindet. Kurz nach Initialisierung des Smarty-Frameworks wird die
         <code>config.inc.php</code> aufgerufen, so dass Sie innerhalb dieser Datei bereits auf
-        das Objekt <code>$serendipity['smarty']</code> zugreifen können,
+        das Objekt <code class="nobreak">$serendipity['smarty']</code> zugreifen können,
         beispielsweise um eigene Modifiers oder Functions zu registrieren.
     </span>
 
@@ -3574,7 +3574,7 @@ die Variable <code class="smarty">{$ENTRIES}</code> mittels der Datei <code>entr
 				<span class="smarty-type"><em>Variablentyp:</em> <code class="type">Zeichenkette</code></span>
 		    </span>
             <span class="sub-box">
-                Enthält die URL-Variable <code>$serendipity['POST']['action']</code>, um dessen Inhalt
+                Enthält die URL-Variable <code class="nobreak">$serendipity['POST']['action']</code>, um dessen Inhalt
                 innerhalb des Templates prüfen zu können. Diese Variable enthält Anweisungen,
                 welche Aktion im Backend gerade ausgeführt wird.
 			</span>
@@ -4066,7 +4066,7 @@ die Variable <code class="smarty">{$ENTRIES}</code> mittels der Datei <code>entr
     </span>
 
     <span class="box">
-        Enthält den Wert der <code>$serendipity['range]</code>-Variable. Diese legt den
+        Enthält den Wert der <code class="nobreak">$serendipity['range]</code>-Variable. Diese legt den
         Zeitraum fest, der für die Auswahl der dargestellten Artikel ausgewertet wird.
     </span>
 </span>
@@ -5741,7 +5741,7 @@ der Oberfläche zum Erstellen eines Blog-Artikels.</p>
             <span class="sub-box">
                 Ist auf <code>true</code> gesetzt, wenn in der Blog-Konfiguration die
                 Vor-/Rückdatierung von Einträgen erlaubt wird
-                (<code>$serendipity['allowDateManipulation']</code>, siehe Seite <span class="pageref"><a href="#allowdatemanipulation">allowdatemanipulation</a></span>).
+                (<code class="nobreak">$serendipity['allowDateManipulation']</code>, siehe Seite <span class="pageref"><a href="#allowdatemanipulation">allowdatemanipulation</a></span>).
 			</span>
         </span>
 
@@ -6976,7 +6976,7 @@ wird auf Seite <span class="pageref"><a href="#mediatemplates">mediatemplates</a
                 <span class="tag-box invisible">
                     <span class="inline-tag">Serendipity-Variablen!\$serendipity['GET']['image']</span>
                 </span>
-                <code>$serendipity['GET']['image']</code>. Wurde eine Datei gerade hochgeladen,
+                <code class="nobreak">$serendipity['GET']['image']</code>. Wurde eine Datei gerade hochgeladen,
                 enthält diese Variable die neue ID dieser Datei in der Mediathek.
             </span>
         </span>
@@ -6991,7 +6991,7 @@ wird auf Seite <span class="pageref"><a href="#mediatemplates">mediatemplates</a
             <span class="sub-box">
                 Enthält den Wert der URL-GET-Variable
                 <span class="inline-tag">Serendipity-Variablen!\$serendipity['GET']['from']</span>
-                <code>$serendipity['GET']['from']</code>, der die Verweisquelle für
+                <code class="nobreak">$serendipity['GET']['from']</code>, der die Verweisquelle für
                 ein Bild (<code class="item smarty">{$media.imgID}</code>) angibt, von der aus ein Bild eingebunden wurde.
             </span>
         </span>
@@ -10149,7 +10149,7 @@ im Funktionsaufruf wie <code>serendipity_funktion parameter1=wert1 parameter2=we
                 Um den Aufruf weiterer Ereignis-Plugins bei der Darstellung der Artikel zu
                 unterbinden, kann dieser Parameter auf <code>true</code> gesetzt werden. Dieser
                 Parameter beeinflusst die globale Variable
-                <code>$serendipity['skip_smarty_hooks']</code> (siehe Seite <span class="pageref"><a href="#smartyhooks">smartyhooks</a></span>)
+                <code class="nobreak">$serendipity['skip_smarty_hooks']</code> (siehe Seite <span class="pageref"><a href="#smartyhooks">smartyhooks</a></span>)
                 temporär und wird nach dem Aufruf der Smarty-Funktion
                 <code>serendipity_fetchPrintEntries</code> wieder auf den
                 ursprünglichen Wert zurückgesetzt.
@@ -10334,7 +10334,7 @@ nacheinander anzuwenden. Einige Modifier können Parameter festlegen, die mittel
 Doppelpunkt vom Namen des Modifiers getrennt werden.</p>
 
 <p>Wenn die Smarty-Sicherheit ausgeschaltet ist
-(<code>$serendipity['smarty']-&gt;security</code>, siehe Seite <span class="pageref"><a href="#smartysecurity">smartysecurity</a></span>),
+(<code class="nobreak">$serendipity['smarty']-&gt;security</code>, siehe Seite <span class="pageref"><a href="#smartysecurity">smartysecurity</a></span>),
 können auch alle PHP-Funktionen als Modifier eingesetzt werden. Der erste
 Parameter einer derart aufgerufenen PHP-Funktion entspricht dabei immer dem
 Wert, der links vom Modifier angegeben wurde. Mit aktivierter Smarty-Sicherheit
@@ -11264,7 +11264,7 @@ Pro Konfigurationsfeld wird ein Array mit folgenden Array-Schlüsseln festgelegt
 <span class="desc-info">
     <span class="box">
         Legt den Variablennamen fest. Mit diesem Namen ist die Konfigurationsoption
-        später über <code>$serendipity['Variablenname']</code> zugänglich und wird
+        später über <code class="nobreak">$serendipity['Variablenname']</code> zugänglich und wird
         mit demselben Namen in der Datenbanktabelle <code>serendipity_config</code>
         abgespeichert. Der Variablenname darf keine Sonderzeichen oder Umlaute
         enthalten.
