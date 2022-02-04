@@ -8334,7 +8334,7 @@ einfach Code Beispiele in den Eintrags Text gegossen und schon gleich farblich
 herausgehoben dargestellt werden können. Im Grunde ist es damit unnötig geworden
 irgendein anderes <em>WYSIWYG</em>-Editor-Plugin einzusetzen, wenn nicht absolut
 wichtige persönliche Präferenzen dafür sprechen.
-(Siehe <span class="pageref"><a href="#WYSIWYG">WYSIWYG</a></span>)</p>
+(Siehe <span class="pageref"><a href="#wysiwyg">WYSIWYG</a></span>)</p>
 
 <p>An der Qualität verschiedener WYSIWYG-Editoren schieden sich
 die Geister - grundsätzlich schien es ein beinahe unmögliches Ziel,

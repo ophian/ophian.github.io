@@ -423,7 +423,7 @@ da Ihr Browser das Feld <span class="mbold">Altes Passwort</span> nicht eingetra
 <span class="desc-info">
     <span class="box">
         Serendipity liefert einen WYSIWYG-Editor (siehe Abschnitt <span class="reference">WYSIWYG</span>
-        auf Seite <span class="pageref"><a href="#WYSIWYG">WYSIWYG</a></span>). Dieser Editor stellt beim Erstellen eines
+        auf Seite <span class="pageref"><a href="#wysiwyg">WYSIWYG</a></span>). Dieser Editor stellt beim Erstellen eines
         Artikels für Ihr Blog erweiterte, einfache Textformatierungen zur
         Verfügung. So können Sie einen Blog-Artikel wie in einem Office-Programm
         erstellen und formatieren.
