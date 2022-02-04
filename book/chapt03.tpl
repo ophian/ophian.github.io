@@ -323,6 +323,11 @@ Beispiele für die Kombinationsmöglichkeiten:</p>
 <span class="desc-info">stellt alle Artikel des ersten Autors der 52. Kalenderwoche des aktuellen Jahres dar.</span>
 </p>
 
+<p class="desc">
+<code class="item">/archives/2018/W52.html</code>
+<span class="desc-info">stellt alle Artikel der 52. Kalenderwoche im Jahr 2018 dar.</span>
+</p>
+
 <p>Die URL muss immer auf <code>.html</code> enden, die letzte
 Pfadkomponente darf somit keinen abschließenden <em>/</em> enthalten.</p>
 
