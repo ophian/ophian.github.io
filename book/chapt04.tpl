@@ -834,7 +834,7 @@ Artikel veröffentlichen.</span>
         </span><!-- tagbox -->
         <span class="item mbold">Eintrag mit deaktiviertem WYSIWYG-Editor</span><!-- menuitem -->
         <span class="box">
-            Bei deaktiviertem <em>WYSIWYG</em>-Editor sehen Sie ein Feld, in das direkt
+            Bei deaktiviertem <em>WYSIWYG</em>-Editor (siehe obige Abbildung 4.4) sehen Sie ein Feld, in das direkt
             HTML-Code eingetragen wird. Wenn Sie einfachen, unformatierten Text
             schreiben wollen, können Sie diesen hier einfach einfügen. In HTML werden
             Umbrüche nicht durch einen üblichen Zeilenumbruch mittels
@@ -942,25 +942,9 @@ Artikel veröffentlichen.</span>
         <span class="label invisible" id="wysiwyg">wysiwyg</span>
         <span class="item mbold">Eintrag mit aktiviertem WYSIWYG-Editor</span><!-- menuitem -->
         <span class="box" id="fig-toolbar-cs">
-            <img src="img/toolbar-standard-ckecore.png">
-            <span class="asfigcaption">Abbildung 4.4a: Inhalt: Neuer Eintrag (aktivierter Kern WYSIWYG-Editor - Standard Toolbar)</span>
+            <img src="img/toolbar-standard-ckecore.bl.png">
+            <span class="asfigcaption">Abbildung 4.4a: Inhalt: Neuer Eintrag (aktivierter Kern WYSIWYG-Editor - Basic Toolbar im Dark Mode, Spracheinstellung: EN)</span>
         </span>
-
-        <span class="box" id="fig-toolbar-ca">
-            <img src="img/toolbar-alternate-ckecore.png">
-            <span class="asfigcaption">Abbildung 4.4b: Inhalt: Neuer Eintrag (aktivierter Kern WYSIWYG-Editor - Alternative Anordnung der Standard Toolbar)</span>
-        </span>
-
-        <span class="box" id="fig-toolbar-cf">
-            <img src="img/toolbar-full-ckecore.png">
-            <span class="asfigcaption">Abbildung 4.4c: Inhalt: Neuer Eintrag (aktivierter Kern WYSIWYG-Editor - Vollständige Toolbar)</span>
-        </span>
-
-        <span class="box">
-            Dies sind Beispiele. Zusätzlich gibt es eine ganz simple Toolbar und die CKEditor Vorgabe einer Vollansicht,
-            ebenso wie die Auswahl für die erzwungenen Ansichten, wenn ein Custom Toolbar Template überschrieben werden muss.
-        </span>
-
         <span class="box">
             Alternativ hier noch einmal die Standard Toolbar des <span class="mbold">CKEditor Plus</span>
             Plugins in der CKEditor Version 4.8 aus dem Dezember 2017.
@@ -998,12 +982,12 @@ Artikel veröffentlichen.</span>
             darüberfahren und etwas warten, wird ein Info-Popup die jeweilige
             Beschreibung des Icons anzeigen.
         </span>
+
         <span class="box">
-            <span class="mbold">[ Deprecated ] </span>Dabei wird ab Serendipity 2.0+ der im Kern bereits implementierte <em>CKEditor</em> verwendet
-            und die benötigte Toolbar kann in allen 2.x Versionen per Auswahlbox in den <em>Eigenen Einstellungen</em> festgelegt
-            werden. Die Default Buttons des Editors sind in in schwarzer Schrift/Icon auf grauem Grund gehalten,
-            die per Serendipity Plugin dazu installierten Plugins haben ein farbiges Icon. Dazu gehört per Default auch das Mediathek-Icon.
-            Weitere Hinweise zur individuellen Anpassung befinden sich in den Dateien <code>htmlarea/ckeditor_s9y_config.js</code> und <code>htmlarea/ckeditor_s9y_plugin.js</code>.
+            Dabei wird ab Serendipity 2.0+ der im Kern bereits implementierte <em>CKEditor</em> verwendet.
+            Die Default Buttons des Editors sind in in schwarzer Schrift/Icon auf grauem Grund gehalten,
+            die per Serendipity Plugin dazu installierten Plugins haben ein farbiges Icon. Dazu gehört per Default auch das Mediathek- und das Galerie-Icon.
+            Weitere Hinweise zur individuellen Anpassung befinden sich in den Dateien <code>templates/_assets/ckebasic/config.js</code> und <code>templates/_assets/ckebasic_plugin.js</code>.
             Im Einzelnen bedeuten die Buttons und Gruppen Folgendes (Auswahl):
         </span>
 
@@ -1170,26 +1154,11 @@ Artikel veröffentlichen.</span>
             Sie es mithilfe des Plugins <em>Erweiterte Eigenschaften von
             Artikeln</em> (siehe Seite <span class="pageref"><a href="#entryproperties">entryproperties</a></span>) in den
             <span class="mbold">Erweiterten Optionen</span> des jeweiligen Artikels aus der Liste
-            auswählen. Ab Serendipity 2.0 sorgt das mitgelieferte <code>entryproperties</code>-Plugin automatisch dafür,
-            dass die Nutzung des WYSIYWG Editors selbstständig erkannt wird und die Nutzung von NL2BR per Eintrag ausgeschaltet wird.
+            auswählen. Ab <span class="item mbold">Serendipity 2.0</span> sorgt das mitgelieferte <code>entryproperties</code>-Plugin aber automatisch dafür,
+            dass die Nutzung des WYSIYWG Editors selbstständig erkannt und die Nutzung von NL2BR per Eintrag ausgeschaltet wird.
         </span>
 
     </span><!-- box mda-box Eintrag!Fehler!doppelte Zeilenumbrüche end -->
-
-    <span class="box mda-box">
-
-        <span class="tag-box invisible">
-            <span class="inline-tag">Konfiguration!Individuelle WYSIWYG-Editor Konfiguration</span>
-        </span>
-        <span class="item mbold">Individuelle WYSIWYG-Editor Komfiguration [ Deprecated ]</span><!-- menuitem -->
-        <span class="box first">
-            <span class="mbold">[ Veraltet mit Styx 3.0 ] </span>In der Datei <code>/htmlarea/ckeditor_s9y_config.js</code> können Sie nachlesen,
-            wie Sie sich einen eigenen individuellen CKEditor konfigurieren,
-            und diesen updatesicher in ihrem Template sichern können.
-            Diese spezialisierte Expertenoption ist nicht generell zu empfehlen, da bereits umfangreiche Gestaltungsmöglichkeiten voreinstellbar sind.
-        </span>
-
-    </span><!-- box mda-box Konfiguration!Individuelle WYSIWYG-Editor Konfiguration end -->
 
 </span>
 </p>
