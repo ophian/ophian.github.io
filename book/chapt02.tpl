@@ -162,17 +162,13 @@ unten und <span class="pageref"><a href="#U133">.htaccess</a> im Allgemeinen</sp
 </span>
 </p>
 
-<p>
-<span class="mbold">Serendipity Styx</span> sollten Sie natürlich direkt auf der GitHub-Projektseite.[*]
-<span class="footnote"><i class="fa fa-info-circle"></i> <a href="https://github.com/ophian/styx/releases" target="_blank" rel="noopener">https://github.com/ophian/styx/releases</a></span><!-- footnote -->
-unter Releases herunterladen.
-</p>
-
-<p>Das alte Serendipity-Paket bekommen Sie entweder von der
-Projekt-Webseite <code>http://www.s9y.org/</code> im Bereich
-<span class="mbold">Downloads</span> oder direkt von der SourceForge-Projektseite.[*]
-<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://sourceforge.net/project/showfiles.php?group_id=75065" target="_blank" rel="noopener">http://sourceforge.net/project/showfiles.php?group_id=75065</a></span><!-- footnote -->
-</p>
+<p><span class="mbold">Serendipity Styx</span> sollten Sie natürlich direkt auf der GitHub-Projektseite.[*]
+<span class="footnote"><i class="fa fa-info-circle"></i> <a href="https://github.com/ophian/styx/releases"
+target="_blank" rel="noopener">https://github.com/ophian/styx/releases</a></span><!-- footnote -->
+unter Releases herunterladen. Es ist ratsam mit den namentlich ausgezeichneten Downloads zu beginnen,
+denn die Source code (zip) und Source code (tar.gz) Dateien sind reine Developer snapshots, während die
+namentlichen Serendipity Archive über eine interne Bereinigung und mehrere Sicherheitsmaßnahmen
+wie Berechtigungen etc. verfügen.</p>
 
 <p>
 <span class="tag-box invisible">
