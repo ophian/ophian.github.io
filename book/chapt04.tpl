@@ -461,7 +461,7 @@ da Ihr Browser das Feld <span class="mbold">Altes Passwort</span> nicht eingetra
         TinyMCE [*]
         <span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://tinymce.moxiecode.com/" target="_blank" rel="noopener">http://tinymce.moxiecode.com/</a></span><!-- footnote -->,
         CKEditor Plus[*]
-        <span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://ckeditor.com/" target="_blank" rel="noopener">http://ckeditor.com/</a></span><!-- footnote -->,
+        <span class="footnote"><i class="fa fa-info-circle"></i> <a href="https://ckeditor.com/" target="_blank" rel="noopener">https://ckeditor.com/</a></span><!-- footnote -->,
         zur Einbindung an, die in ihrem Funktionsumfang durchaus variieren. Auch diese externen
         Editoren werden nur dann verwendet, wenn die Option <span class="mbold">Graphischen
         WYSIWYG-Editor verwenden</span> aktiviert ist.

@@ -3829,7 +3829,7 @@ einer eigenen Datenbanktabelle <code>serendipity_categorytemplates</code>:
 
 <p>Wie bereits mehrfach angesprochen ist der CKEditor [*]
 <span class="footnote"><i class="fa fa-info-circle"></i>
-<a href="http://ckeditor.com/about/features" target="_blank" rel="noopener">http://ckeditor.com/about/features</a></span><!-- footnote -->
+<a href="https://ckeditor.com/about/features" target="_blank" rel="noopener">https://ckeditor.com/about/features</a></span><!-- footnote -->
 seit einigen Jahren der neue Serendipity-Standard-WYSIWYG-Editor.
 Das <code>CKEditor</code>-Plus-Plugin konnte schon mit der Serendipity
 1.7 Serie benutzt werden und wurde seitdem ständig weiterentwickelt.
@@ -3881,7 +3881,7 @@ erreichbare Toolbar-Button Popup-Dokumentation für die CKEditor Tastatursteueru
 
     <span class="box">
         Diese Option erlaubt die Einbindung des CKEditor-Plugins <code>codesnippet</code> [*]
-        <span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://ckeditor.com/addon/codesnippet" target="_blank" rel="noopener">http://ckeditor.com/addon/codesnippet</a></span><!-- footnote -->
+        <span class="footnote"><i class="fa fa-info-circle"></i> <a href="https://ckeditor.com/addon/codesnippet" target="_blank" rel="noopener">https://ckeditor.com/addon/codesnippet</a></span><!-- footnote -->
         in die Toolbar. Dann können auf elegant einfache Weise in jeder Textarea in der der CKEditor
         eingebunden ist, <em>Code</em>-Blöcke eingebunden werden, die intern zu geeignetem HTML-Markup
         verändert und zusätzlich per <code>highlightjs</code>-Widget [*]
@@ -8319,7 +8319,7 @@ Umwandlungsvarianten flexibel ein- oder ausschalten.</p>
 <p class="text">Serendipity wird seit <em>Serendipity 2.0+</em>
 standardmäßig mit dem WYSIWYG-Editor <em>CKEditor</em> [*]
 <span class="footnote"><i class="fa fa-info-circle"></i>
-<a href="http://ckeditor.com/" target="_blank" rel="noopener">http://ckeditor.com/</a></span><!-- footnote -->,
+<a href="https://ckeditor.com/" target="_blank" rel="noopener">https://ckeditor.com/</a></span><!-- footnote -->,
 dem überaus erfolgreichen Nachfolger des <em>FCKeditor</em> ausgeliefert.
 Dieser Editor läuft problemlos mit allen aktuellen Browsern (Chrome,
 Firefox, Internet Explorer, Firefox, Safari, etc) und wird professionell
