@@ -700,9 +700,8 @@ gewählten Login-Daten auf das Backend zugreifen.</p>
 </span>
 </p>
 
-<p>Alle grundlegenden
-Konfigurationsvariablen wie die Daten für den Datenbankzugang und die aktuelle
-Versionsnummer speichert Serendipity in der Datei
+<p>Alle grundlegenden Konfigurationsvariablen wie die Daten für den Datenbankzugang
+und die aktuelle Versionsnummer speichert Serendipity in der Datei
 <code>serendipity_config_local.inc.php</code> im Stammverzeichnis.
 Diese Datei sieht ungefähr wie folgt aus:</p>
 
