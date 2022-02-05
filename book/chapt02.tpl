@@ -279,14 +279,13 @@ richtet diese keinen Schaden an.</p>
 im Verzeichnis <code>serendipity</code>
 einige Dateien mit <code>.php</code>-Endung (<code>index.php</code>,
 <code>comment.php</code>, <code>serendipity_admin.php</code> ...) sowie einige
-Unterverzeichnisse (<code>bundled-libs</code>, <code>docs</code>, <code>htmlarea</code>,
-<code>include</code>, <code>lang</code> ...).</p>
+Unterverzeichnisse (<code>bundled-libs</code>, <code>docs</code>,
+<code>include</code>, <code>lang</code>, <code>plugins</code>, ...).</p>
 
 <p>Um Zugriffsrechte auf einem Server zu verwalten, bedienen sich sowohl
-Windows- als auch Linux-Systeme sogenannter Eigentümer- und
-Gruppenrechte. Jeder Benutzer des Systems kann Dateieigentümer
-und jeder Eigentümer kann Mitglied einer oder mehrerer
-Benutzergruppen sein.</p>
+Windows- als auch Linux-Systeme sogenannter Eigentümer- und Gruppenrechte.
+Jeder Benutzer des Systems kann Dateieigentümer und jeder Eigentümer kann
+Mitglied einer oder mehrerer Benutzergruppen sein.</p>
 
 <p>
 <span class="tag-box invisible">
