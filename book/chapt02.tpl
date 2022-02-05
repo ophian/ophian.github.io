@@ -1321,6 +1321,10 @@ Locales, die Serendipity anwendet, finden Sie im Übrigen in der Datei
     @define('DATE_LOCALES', 'de_DE.ISO-8859-1, de_DE.ISO8859-1, german, de_DE, de_DE@euro, de');
 </code></pre>
 
+<p>Die definitive Nutzung der korrekten <em>locales</em> wird sich in Zukunft noch verschärfen,
+da PHP spätestens mit Version 9 aus Sicherheitsgründen auf diesen besteht. Ansonsten werden Ihrem
+Zeit und Datumsangaben nur im englischen Format zur Vefügung stehen.</p>
+
 </article>
 
 </section><!-- section.sub end -->
