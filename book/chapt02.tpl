@@ -415,7 +415,7 @@ Viele Provider bieten zudem eigene Oberflächen zur Erstellung einer Datenbank a
 man kann also problemlos eine bereits bestehende Datenbank für die
 Installation benutzen.</p>
 
-<p>Im Falle von Styx und MariaDB/MySQL geben Sie der Datenbank am besten gleich
+<p>Für Styx und MariaDB/MySQL geben Sie der Datenbank am besten gleich
 die korrekte <code>utf8mb4_unicode_ci</code>, bzw. noch besser die neuere und erweiterte
 <code>utf8mb4_unicode_520_ci</code> Kollation mit auf den Weg.</p>
 
@@ -551,7 +551,7 @@ Installationsoptionen in Gruppen unterteilt dar.</p>
 <article id="XU" class="subsub">
 
 <header>
-    <h4 class="subarticle" id="der-abschnitt-datenbankeinstellungen">Der Abschnitt <span class="mbold">Datenbankeinstellungen</span></h4>
+    <h4 class="subarticle" id="der-abschnitt-datenbankeinstellungen">Der Abschnitt: <span class="mbold">Datenbankeinstellungen</span></h4>
 </header>
 
 <p class="tagging invisible">
@@ -563,12 +563,7 @@ Installationsoptionen in Gruppen unterteilt dar.</p>
 
 <p>In diesem Bereich stellen Sie die Zugangsdaten für die gewünschte
 Datenbank ein. Im Feld <span class="mbold">Datenbanktyp</span> können Sie zwischen allen im
-PHP-Kern verfügbaren Datenbanktypen wählen. Beim Einsatz
-<span class="tag-box invisible">
-    <span class="inline-tag">SQLite</span>
-</span>
-von PHP4 wird der Datenbanktyp <span class="mbold">SQLite</span> also gar nicht
-erst angezeigt.</p>
+PHP-Kern verfügbaren Datenbanktypen wählen.</p>
 
 <p>Den <span class="mbold">Servernamen</span> (meist <code>localhost</code> oder ein Name wie
 <code>db1231231.puretec.de</code>) tragen Sie genauso wie den Namen und das
@@ -591,7 +586,7 @@ Serendipity-Instanzen auf einem Server installieren.</p>
 <article id="XU" class="subsub">
 
 <header>
-    <h4 class="subarticle" id="der-abschnitt-generelle-einstellungen">Der Abschnitt <span class="mbold">Generelle Einstellungen</span></h4>
+    <h4 class="subarticle" id="der-abschnitt-generelle-einstellungen">Der Abschnitt: <span class="mbold">Generelle Einstellungen</span></h4>
 </header>
 
 <p class="tagging invisible">
@@ -648,7 +643,7 @@ einstellen (siehe Seite <span class="pageref"><a href="#eigeneeinstellungen-spra
 <article id="XU" class="subsub">
 
 <header>
-    <h4 class="subarticle" id="der-abschnitt-design-und-optionen">Der Abschnitt <span class="mbold">Design und Optionen</span></h4>
+    <h4 class="subarticle" id="der-abschnitt-design-und-optionen">Der Abschnitt: <span class="mbold">Design und Optionen</span></h4>
 </header>
 
 <p class="label invisible">
