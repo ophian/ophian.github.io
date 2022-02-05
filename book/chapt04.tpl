@@ -284,8 +284,8 @@ Seite <span class="pageref"><a href="#referrerXSRF">referrerXSRF</a></span>).</p
     <figcaption>Abbildung 4.2: Verwaltungsoberfläche</figcaption>
 </figure>
 
-<p>Die Top-Leiste dient als Navigationsleiste für die Backend Startseite,
-die Eigenen Einstellungen, den Weg zum Frontend und für das Logout.</p>
+<p>Die Top-Leiste dient als Navigationsleiste für die <span class="mbold">Backend Startseite</span>,
+die <span class="mbold">Eigenen Einstellungen</span>, den Weg <span class="mbold">zum Frontend</span> und für <span class="mbold">das Logout</span>.</p>
 
 <p>Im Menü der linken Seite sehen Sie als Administrator alle
 Untermenüpunkte, mit denen sich Serendipity bedienen lässt.</p>
