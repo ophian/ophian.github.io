@@ -136,18 +136,19 @@ Sie werden Serendipity in einem Unterverzeichnis dieses Stammpfads
 installieren, so dass Sie das Blogsystem später über die URL
 <code>http://www.example.com/serendipity/</code> aufrufen können. Ob Sie dieses
 Unterverzeichnis ebenfalls <code>serendipity</code> nennen, bleibt Ihnen
-überlassen - es darf auch
-<code>blog</code>, <code>tagebuch</code> oä. heißen. Sie sollten jedoch Sonderzeichen
-wie den Unterstrich (<code>_</code>) sowie Zahlen am Anfang oder Ende des
-Verzeichnisnamens vermeiden, da dies zu Problemen mit dynamisch generierten URLs führen kann.</p>
+überlassen - es darf auch <code>blog</code>, <code>tagebuch</code> oä. heißen.
+Sie sollten jedoch Sonderzeichen wie den Unterstrich (<code>_</code>) sowie Zahlen
+am Anfang oder Ende des Verzeichnisnamens vermeiden, da dies zu Problemen mit
+dynamisch generierten URLs führen kann.</p>
 
 <p>Sie können Serendipity natürlich auch direkt ins Stammverzeichnis selbst
-installieren. Beachten Sie jedoch dabei, dass dadurch
-die Installation anderer Software, etwa eines Forums oder eines
-Statistikprogramms,
-schwieriger werden könnte, wenn die URL-Umformung aktiviert wurde und
-Serendipity direkte Zugriffe auf Unterverzeichnisse möglicherweise als eigene
-Seitenausgabe auffasst.</p>
+installieren. Beachten Sie jedoch dabei, dass dadurch die Installation anderer
+Software, etwa eines Forums oder eines Statistikprogramms, schwieriger werden
+könnte, wenn die URL-Umformung aktiviert wurde und Serendipity direkte Zugriffe
+auf Unterverzeichnisse möglicherweise als eigene Seitenausgabe auffasst
+(siehe Seite <span class="pageref"><a href="#sprechende-urls">mod_rewrite</a> ganz
+unten und <span class="pageref"><a href="#U133">.htaccess</a> im Allgemeinen</span>).
+</p>
 
 <section id="U221" class="sub">
 <span class="u-toc">2.2.1 - Upload der Dateien</span>
