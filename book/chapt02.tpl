@@ -243,35 +243,30 @@ Installation geschützt, um zufällige andere Gäste aus dem Installationsprozes
 Dazu dient eine temporäre <code>install_token.php</code> Datei, die man schnell per FTP
 heraufladen und im Root Verzeichnis von Serendipity platzieren muss.
 Um eine abgesicherte Installation auszuführen, müssen Sie diese Datei namens
-<code>install_token.php</code> mit dem String (Beispiel Token)
-</p>
+<code>install_token.php</code> mit dem String (Beispiel Token)</p>
 
 <pre><code>&lt;?php $install_token = 'ea032be371d64ec77009257f6f0f9b424b182519'; ?&gt;</code></pre>
 
 <p>in diesem Wurzelverzeichnis erstellen. Achten Sie darauf keine zusätzlichen Leerzeichen
 oder Zeilen am Anfang oder Ende der Datei einzufügen. Dieser Token ist einzigartig
-und fixiert die Autorisierungs-Beziehung zwischen Ihnen und dem Installer.
-</p>
+und fixiert die Autorisierungs-Beziehung zwischen Ihnen und dem Installer.</p>
 
 <p>Sobald diese Datei existiert, müssen Sie die Installation innerhalb der nächsten
-X Minuten ausführen und dürfen ihren Browser nicht schließen. Sie müssen Cookies erlauben.
-</p>
+XX Minuten ausführen und dürfen ihren Browser währenddessen nicht schließen.
+Sie müssen Cookies erlauben.</p>
 
 <p>Fügen Sie also nun den Sicherheits Install Token ein, der Ihnen auf der Seite angegeben wird,
-laden Sie die Datei hoch und reloaden Sie die Browserseite.
-</p>
+laden Sie die Datei hoch und reloaden Sie die Browserseite.</p>
 
 <p>Sie sind nicht autorisiert die Installation auszuführen, wenn Ihr vorgegebener
 Install-Token nicht demjenigen aus der hochgeladenen Datei <code>install_token.php</code>
 entspricht. Stellen Sie sicher, dass Sie die Datei mit dem korrekten Inhalt erstellt haben.
-Sie können einen neuen Token erstellen, in dem Sie die Datei löschen.
-</p>
+Sie können einen neuen Token erstellen, in dem Sie die Datei löschen.</p>
 
-<p>Ist ihr sicherer Install-Token gültig, können Sie Serendipity wie gehabt installieren.
-</p>
+<p>Ist ihr sicherer Install-Token gültig, können Sie Serendipity wie gehabt installieren.</p>
 
-<p>Selbst wenn Sie vergessen sollten die Datei nach getanem Werk wieder zu löschen, richtet diese keinen Schaden an.
-</p>
+<p>Selbst wenn Sie vergessen sollten die Datei nach getanem Werk wieder zu löschen,
+richtet diese keinen Schaden an.</p>
 
 </section><!-- section.sub end -->
 
