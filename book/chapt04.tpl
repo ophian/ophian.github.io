@@ -648,6 +648,7 @@ vorselektiert einzustellen, nutzen Sie diese Auswahloption.</span>
 
 <p class="desc">
 <span class="tag-box invisible">
+    <span class="label invisible" id="automatic-backup">automatic-backup</span>
     <span class="inline-tag">Eigene Einstellungen!Automatische Speicherung</span>
 </span><!-- tagbox -->
 <span class="item mbold">Automatische Speicherung aktivieren</span><!-- menuitem -->
