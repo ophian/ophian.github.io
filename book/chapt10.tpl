@@ -361,7 +361,7 @@ Plugin aufzurufen.</p>
     <span class="box">
         Enthält den Sourcecode des <code>CKEditor</code>-WYSIWYG-Editors zur
         Darstellung einer Office-ähnlichen Oberfläche beim
-        Bearbeiten von Artikeln (siehe Seite <span class="pageref"><a href="#wysiwyg">wysiwyg</a></span>).
+        Bearbeiten von Artikeln (siehe Seite <span class="pageref"><a href="#wysiwyg">WYSIWYG</a></span>).
     </span>
 </span>
 </p>

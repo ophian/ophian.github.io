@@ -5754,7 +5754,7 @@ der Oberfläche zum Erstellen eines Blog-Artikels.</p>
 		    </span>
             <span class="sub-box">
                 Ist auf <code>true</code> gesetzt, wenn der Redakteur die Benutzung des WYSIWYG-Editors
-                aktiviert hat (siehe Seite <span class="pageref"><a href="#wysiwyg">wysiwyg</a></span>).
+                aktiviert hat (siehe Seite <span class="pageref"><a href="#wysiwyg">WYSIWYG</a></span>).
 			</span>
         </span>
 

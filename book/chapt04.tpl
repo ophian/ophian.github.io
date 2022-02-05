@@ -488,7 +488,7 @@ da Ihr Browser das Feld <span class="mbold">Altes Passwort</span> nicht eingetra
         Desweiteren kann man dieselben auch noch erzwingen, wenn man sich einmal eine eigene Toolbar
         im eigenen Theme erstellt hatte und nun wieder zu den Originalen Einstellungen zurück will.
         Lesen Sie dazu über die individuelle Konfiguration (mittels einer individuellen JavaScript-Konfigurationsdatei
-        in templates/XXX/admin/ckeditor_custom_config.js) in CKEditor (siehe Seite <span class="pageref"><a href="#wysiwyg">wysiwyg</a></span> ).
+        in templates/XXX/admin/ckeditor_custom_config.js) in CKEditor (siehe Seite <span class="pageref"><a href="#wysiwyg">WYSIWYG</a></span> ).
     </span>
 
      <span class="box">

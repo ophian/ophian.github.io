@@ -1809,7 +1809,7 @@ Artikel sind für Besucher im Frontend sichtbar.</span>
     </span>
 
     <span class="box">
-        Wenn Sie den WYSIWYG-Editor (siehe Seite <span class="pageref"><a href="#wysiwyg">wysiwyg</a></span>)
+        Wenn Sie den WYSIWYG-Editor (siehe Seite <span class="pageref"><a href="#wysiwyg">WYSIWYG</a></span>)
         aktiviert haben, können Sie an dieser Stelle dessen Fähigkeiten
         einsetzen. Sämtliche Buttons oberhalb dieses Eingabefelds entsprechen
         denen bei der Erstellung eines Blog-Artikels.

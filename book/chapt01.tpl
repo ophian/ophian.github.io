@@ -289,7 +289,7 @@ kommerziell erhältlicher Systeme vor allem in folgenden Punkten ab:</p>
         <span class="pageref"><a href="#s9yupdate">s9yupdate</a></span>).</li>
 
     <li>Texte pflegt man auf Wunsch mit übersichtlichen, einfach verständlichen und
-        funktionalen WYSIWYG-Editoren ein (Seite <span class="pageref"><a href="#wysiwyg">wysiwyg</a></span>).</li>
+        funktionalen WYSIWYG-Editoren ein (Seite <span class="pageref"><a href="#wysiwyg">WYSIWYG</a></span>).</li>
 
     <li>Die integrierte Mediathek für Bilder, PDFs, MP3s etc. gestattet
         Rechtemanagement, Stichwortsuche und automatische Vorschaugrafiken (Seite
