@@ -389,42 +389,39 @@ beschreibbar sein (und bleiben).</p>
 </p>
 
 <p>Nachdem nun also alle notwendigen Dateien hochgeladen wurden und Sie die
-Zugriffsrechte konfiguriert haben, müssen Sie eine Datenbank für
-Serendipity einrichten.</p>
+Zugriffsrechte konfiguriert haben, müssen Sie eine Datenbank für Serendipity einrichten.</p>
 
-<p>Je nachdem, welche Datenbanksoftware auf Ihrem Webserver zur Verfügung
-steht, kann dieser Vorgang unterschiedlich ausfallen.</p>
+<p>Je nachdem, welche Datenbanksoftware auf Ihrem Webserver zur Verfügung steht,
+kann dieser Vorgang unterschiedlich ausfallen.</p>
 
 <p>Verwendet Ihr Webserver mindestens PHP5, ist die
 <span class="tag-box invisible">
     <span class="inline-tag">SQLite!einrichten</span>
 </span>
-Datenbank SQLite automatisch verfügbar. Dieses Datenbanksystem
-speichert alle seine Datenbanken und Tabellen in einer einzigen Datei.
-Diese wird im Serendipity-Verzeichnis abgelegt und während der
-Installation ohne Ihr Zutun automatisch erstellt, es sind
-daher keine vorbereitenden Eingriffe notwendig.</p>
+Datenbank SQLite automatisch verfügbar. Dieses Datenbanksystem speichert alle
+seine Datenbanken und Tabellen in einer einzigen Datei. Diese wird im
+Serendipity-Verzeichnis abgelegt und während der Installation ohne Ihr Zutun
+automatisch erstellt, es sind daher keine vorbereitenden Eingriffe notwendig.</p>
 
 <p>Beim Einsatz von MySQL und PostgreSQL geht Serendipity davon aus, einen
-Datenbankbenutzer und eine leere Datenbank vorzufinden. Üblicherweise
-erhält man die Zugangsdaten von seinem Provider,
-da der Benutzeraccount bereits besteht. Manche Provider gestehen
-Ihnen nur eine einzelne Datenbank zu, so dass Sie keine neuen erstellen
-können. Das ist nicht weiter tragisch, da sich Serendipity problemlos mit anderen
-Anwendungen innerhalb derselben Datenbank betreiben lässt. Viele
-Provider bieten zudem eigene Oberflächen zur Erstellung einer Datenbank an.</p>
+Datenbankbenutzer und eine leere Datenbank vorzufinden. Üblicherweise erhält
+man die Zugangsdaten von seinem Provider, da der Benutzeraccount bereits besteht.
+Manche Provider gestehen Ihnen nur eine einzelne Datenbank zu, so dass Sie keine
+neuen erstellen können. Das ist nicht weiter tragisch, da sich Serendipity
+problemlos mit anderen Anwendungen innerhalb derselben Datenbank betreiben lässt.
+Viele Provider bieten zudem eigene Oberflächen zur Erstellung einer Datenbank an.</p>
 
 <p>Serendipity benötigt lediglich irgendeine Datenbank für seine Tabellen --
 man kann also problemlos eine bereits bestehende Datenbank für die
 Installation benutzen.</p>
 
 <p>Im Falle von Styx und MariaDB/MySQL geben Sie der Datenbank am besten gleich
-die korrekte <code>utf8mb4_unicode_ci</code>, bzw. noch besser die neuere
+die korrekte <code>utf8mb4_unicode_ci</code>, bzw. noch besser die neuere und erweiterte
 <code>utf8mb4_unicode_520_ci</code> Kollation mit auf den Weg.</p>
 
 <p>Wie auch an anderer Stelle erwähnt, wird der Name <em>MySQL</em> hier als Synonym
 für MariaDB/MySQL Datenbanken benutzt. Empfohlen ist auf <strong>MariaDB</strong> zu setzen,
-ein Unternehmen, das vom MySQL-Gründer Michael "Monty" Widenius betrieben wird,
+ein Unternehmen das vom MySQL-Gründer Michael "Monty" Widenius betrieben wird,
 und das in wesentliches Details gegenüber Oracles MySQL zu empfehlen ist.</p>
 
 <p>
@@ -433,10 +430,10 @@ und das in wesentliches Details gegenüber Oracles MySQL zu empfehlen ist.</p>
     <span class="inline-tag">Privileges</span>
 </span>
 Sollte noch kein Datenbankbenutzeraccount bestehen, müssen Sie ihn anlegen.
-Dabei ist wichtig, dass der Benutzer über alle Rechte verfügt,
-die Serendipity später im Betrieb benötigt. Konkret heißt das, dass er
-Tabellen anlegen (<code>CREATE</code>), aktualisieren (<code>ALTER</code>) und
-indizieren (<code>INDEX</code>) sowie Datensätze anlegen (<code>INSERT</code>),
+Dabei ist wichtig, dass der Benutzer über alle Rechte verfügt, die Serendipity
+später im Betrieb benötigt. Konkret heißt das, dass er Tabellen anlegen
+(<code>CREATE</code>), aktualisieren (<code>ALTER</code>) und indizieren
+(<code>INDEX</code>) sowie Datensätze anlegen (<code>INSERT</code>),
 aktualisieren (<code>UPDATE</code>), lesen (<code>SELECT</code>) und löschen
 (<code>DELETE</code>) darf.</p>
 
