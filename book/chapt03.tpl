@@ -8,7 +8,7 @@ Man kann Einträge lesen und kommentieren, in älteren
 Archiven stöbern, eine Suche durchführen und auch etliche
 Plugin-Funktionalitäten (Umfrage, Flickr-Fotos ...) ansehen.</p>
 
-<p>Im Folgenden gehen wir von dem standardmäßig genutzten Theme (siehe
+<p>Im Folgenden gehen wir von dem lange standardmäßig genutzten Theme (siehe
 Seite <span class="pageref"><a href="#theme">theme</a></span>) <em>2k11</em> aus. Die
 meisten anderen Themes richten sich in der Darstellung der Seitenelemente nach
 demselben Schema, können aber in Details davon abweichen. Wie man die
@@ -153,6 +153,9 @@ so dass sie dieser Hinweis über das eingesetzte System interessiert.
 Da ein Open-Source-System von seinen Benutzern und seiner Verbreitung lebt,
 freuen sich die Entwickler immer sehr, wenn dieser Hinweis nicht entfernt wird.</span>
 </p>
+
+<p>Fast alle der genannten Plugins lassen sich in ihrer Pluginkonfiguration
+genauer auf Ihre Wünsche einstellen.</p>
 
 </section><!-- section.index end -->
 
