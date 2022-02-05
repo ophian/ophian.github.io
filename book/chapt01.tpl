@@ -1838,23 +1838,34 @@ Formatierungsbuttons ähnlich wie bei OpenOffice bzw. Microsoft Word, die es erl
 die Farbe oder den Schriftstil zu ändern, per Drag&amp;Drop Texte und eingebundene
 Bilder zu verschieben oder Tabellen einzufügen.</p>
 
-<p class="text">Serendipity wird seit <em>Serendipity 2.0+</em>
-standardmäßig mit dem WYSIWYG-Editor <em>CKEditor</em> [*]
+<p>Im Folgenden wird also zwischen dem PLAIN TEXT Editor, also dem einfachen Textfeld
+mit oder ohne BB-Code artige Formatierungshilfen, und dem Rich Text Format (WYSIWYG-Modus)
+unterschieden.</p>
+
+<p>Artikel die mit dem PLAIN TEXT Editor erstellt und gespeichert wurden, werden zur Laufzeit
+des Abrufes in HTML umgewandelt. Dazu dienen verschiedenste Plugins. Benutzen Sie die
+fortschrittlicheren markdown oder textile Formatierungen, geschieht das gleiche.
+Auch diese wandeln als vereinfachte Auszeichnungssprachen bestimmte Formatierungshilfen
+in HTML zur Ausgabe um.</p>
+
+<p>Das Rich Text Editor Format (WYSIWYG-Modus) speichert derweil gleich das komplette HTML fertig
+zur Ausgabe. Dies ist insbesondere wichtig zu wissen, damit man sein System konsistent halten kann.</p>
+
+<p>Wenn Sie allerdings um die Tücken wissen, macht es nichts aus ein altes Blog von beispielsweise
+markdown auf den CKEditor umzustellen. Es ist heutzutage einfach das zu präferierende Format.</p>
+
+<p class="text">Serendipity wird standardmäßig mit dem WYSIWYG-Editor <em>CKEditor</em> [*]
 <span class="footnote"><i class="fa fa-info-circle"></i>
-<a href="http://ckeditor.com/" target="_blank" rel="noopener">http://ckeditor.com/</a></span><!-- footnote -->,
-dem überaus erfolgreichen Nachfolger des <em>FCKeditor</em> ausgeliefert.
+<a href="https://ckeditor.com/" target="_blank" rel="noopener">https://ckeditor.com/</a></span><!-- footnote --> ausgeliefert.
 Dieser Editor läuft problemlos mit allen aktuellen Browsern (Chrome,
 Firefox, Internet Explorer, Firefox, Safari, etc) und wird professionell
 und aktiv weiterentwickelt. Er hat sich mittlerweile zum quasi-Standard
-der HTML Editoren am Markt entwickelt. In Serendipity ist er als Core-Editor
-aus Kompatibilitätsgründen ebenfalls im <code class="dir">/htmlarea</code>
-Ordner angesiedelt. Diese Kompatibilität wurde mit Serendipity Styx 3.0+ zugunsten
-eines besseren Ansatzes aufgegeben. Außerdem existiert noch das <code>CKEditor Plus</code>-Plugin,
-das immer die neueste Version mit leichter Zeitverzögerung mitbringt und so zB.
-auch über ein eingebautes Codesnippet Tool verfügt, mit dem sehr leicht und
-einfach Code Beispiele in den Eintrags Text gegossen und schon gleich farblich
-herausgehoben dargestellt werden können. Im Grunde ist es damit unnötig geworden
-irgendein anderes <em>WYSIWYG</em>-Editor-Plugin einzusetzen, wenn nicht absolut
+der HTML Editoren am Markt entwickelt. In Serendipity ist er als Core-BASIC-Editor
+im <code class="dir">/templates/_assets</code> Ordner angesiedelt.
+Außerdem existiert noch das <code>CKEditor Plus</code>-Plugin,
+das immer die neueste Version mit leichter Zeitverzögerung mitbringt und per Plugin Konfiguration sehr leicht
+verschiedenste Ausbaustufen de Editors zulässt. Im Grunde ist es damit unnötig geworden
+irgendein anderes <em>WYSIWYG</em>-Editor-Plugin wie Tiny-MCE einzusetzen, wenn nicht absolut
 wichtige persönliche Präferenzen dafür sprechen.
 (Siehe <span class="pageref"><a href="#wysiwyg">WYSIWYG</a></span>)</p>
 
