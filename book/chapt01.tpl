@@ -1865,7 +1865,7 @@ im <code class="dir">/templates/_assets</code> Ordner angesiedelt.
 Außerdem existiert noch das <code>CKEditor Plus</code>-Plugin,
 das immer die neueste Version mit leichter Zeitverzögerung mitbringt und per Plugin Konfiguration sehr leicht
 verschiedenste Ausbaustufen de Editors zulässt. Im Grunde ist es damit unnötig geworden
-irgendein anderes <em>WYSIWYG</em>-Editor-Plugin wie Tiny-MCE einzusetzen, wenn nicht absolut
+irgendein anderes <em>WYSIWYG</em>-Editor-Plugin wie TinyMCE einzusetzen, wenn nicht absolut
 wichtige persönliche Präferenzen dafür sprechen.
 (Siehe <span class="pageref"><a href="#wysiwyg">WYSIWYG</a></span>)</p>
 
