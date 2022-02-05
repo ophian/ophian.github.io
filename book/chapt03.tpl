@@ -774,7 +774,7 @@ und kann einige optionale Parameter aufnehmen. Ein kleiner Teil dieser Optionen
 wird durch Einstellungen des Seitenleisten-Plugins "Blog abonnieren"
 beeinflusst, die ab Seite <span class="pageref"><a href="#syndication">syndication</a></span> aufgeführt sind.</p>
 
-<p><code>rss.php</code> kann somit auch direkt von einem Browser
+<p>Die <code>rss.php</code> Datei kann somit auch direkt von einem Browser
 aufgerufen werden, da sie übersichtlichere Paramter ermöglicht. Diese
 Parameter können jeweils miteinander verbunden werden. Um mehrere
 Parameter anzugeben, ruft man die URL mittels
