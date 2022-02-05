@@ -20,35 +20,34 @@ im Abschnitt <span class="reference"><a href="#S230">Schnelle Installation</a></
 </span>
 </p>
 
-<p>Um Serendipity voll auszunutzen, benötigt
-man einiges an Zusatzsoftware, als Erstes
-ein Programm, um Dateien (und auch
-Serendipity selbst) auf den eigenen Server hochzuladen. Üblicherweise
-geschieht dies mittels eines FTP-Programmes, in manchen Fällen aber auch
+<p>Um Serendipity voll auszunutzen, benötigt man einiges an Zusatzsoftware, als erstes
+ein Programm um Dateien (und auch Serendipity selbst) auf den eigenen Server hochzuladen.
+Üblicherweise geschieht dies mittels eines FTP-Programmes, in manchen Fällen aber auch
 per SSH bzw. SFTP [*]
 <span class="footnote"><i class="fa fa-info-circle"></i> siehe Abschnitt <span class="reference">Protokolle</span> auf Seite
-<span class="pageref"><a href="#Protokolle">Protokolle</a></span></span><!-- footnote -->. Sollten Sie FTP einsetzen, empfiehlt sich ein
-Programm, das mit <em>Threads</em> [*]
+<span class="pageref"><a href="#Protokolle">Protokolle</a></span></span><!-- footnote -->.
+Sollten Sie FTP einsetzen, empfiehlt sich ein Programm, das mit <em>Threads</em> [*]
 <span class="footnote"><i class="fa fa-info-circle"></i> <em>Threading</em>
 <span class="tag-box invisible">
     <span class="inline-tag">Threading (FTP)</span>
 </span>
 wird von FTP-Programmen benutzt, um mehrere gleichzeitige Verbindungen zu
-einem Server aufzubauen.</span><!-- footnote --> umgehen kann, was den Upload vieler
-kleiner Dateien beschleunigt. Für Windows ist
+einem Server aufzubauen.</span><!-- footnote -->
+umgehen kann, was den Upload vieler kleiner Dateien beschleunigt. Für Windows sind
 <span class="tag-box invisible">
     <span class="inline-tag">SmartFTP</span>
+    <span class="inline-tag">FileZilla</span>
 </span>
-SmartFTP [*]
-<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://www.smartftp.com/" target="_blank" rel="noopener">http://www.smartftp.com/</a></span><!-- footnote --> für solche Zwecke
-empfehlenswert. Weiterhin sollte das FTP-Programm auch ermöglichen,
+SmartFTP oder FileZilla [*]
+<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://www.smartftp.com/" target="_blank" rel="noopener">https://www.smartftp.com/</a></span><!-- footnote -->
+<span class="footnote"><i class="fa fa-info-circle"></i> <a href="https://filezilla-project.org/" target="_blank" rel="noopener">https://filezilla-project.org/</a></span><!-- footnote -->
+für solche Zwecke empfehlenswert. Weiterhin sollte das FTP-Programm auch ermöglichen,
 Dateirechte mit dem Befehl <code>chmod</code> zu ändern.</p>
 
 <p>Zum Entpacken von Serendipity benötigen Sie ein Programm wie 7-Zip oder
-Winzip oder entsprechende Kommandozeilen-Tools in einer
-Linux-Umgebung.</p>
+Winzip oder entsprechende Kommandozeilen-Tools in einer Linux-Umgebung.</p>
 
-<p>Um das Blogsystem zu bedienen, benötigen Sie selbstverständlich einen
+<p>Um das Blogsystem zu bedienen, benötigen Sie selbstverständlich einen aktuellen
 Webbrowser. Serendipity läuft mit allen gängigen Webbrowsern (Mozilla
 <span class="tag-box invisible">
     <span class="inline-tag">Webbrowser!Anforderungen</span>
@@ -56,26 +55,17 @@ Webbrowser. Serendipity läuft mit allen gängigen Webbrowsern (Mozilla
     <span class="inline-tag">Browser|Webbrowser</span>
     <span class="inline-tag">Browser|Developer-Tools</span>
 </span>
-Firefox, Google Chrome / Chromium, Internet Explorer, Opera, Safari) auch älterer Generation, da
-JavaScript/Ajax nur im Bedarfsfall verwendet (aber nicht benötigt) wird.
-Um später leicht Änderungen an Ihrem Layout durchzuführen, empfiehlt der
-Autor
-den Einsatz von Mozilla Firefox und die Installation der Extensions
-"Firebug" [*]
-<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://www.getfirebug.com/" target="_blank" rel="noopener">http://www.getfirebug.com/</a></span><!-- footnote --> und
-"Web-Developer" [*]
-<span class="footnote"><i class="fa fa-info-circle"></i> <a href="https://addons.mozilla.org/de/firefox/addon/60" target="_blank" rel="noopener">https://addons.mozilla.org/de/firefox/addon/60</a></span><!-- footnote -->.
-Mittels dieser beiden Erweiterungen können Sie Designänderungen direkt in der
-Browser-Ansicht testen. Dies erleichtert die
+Firefox, Google Chrome / Chromium, Edge, Vivaldi, Opera, Safari, und Weitere).
+Um später leicht Änderungen an Ihrem Layout durchzuführen, empfiehlt der Autor
+den Einsatz von Mozilla Firefox oder Chromium Variationen, um im Bedarfsfall
+Designänderungen direkt in der Browser-Ansicht testen. Dies erleichtert die
 Template-Erstellung ungemein.</p>
 
-<p>Mit den, seit dem Erscheinen dieses Buches, stark vorangetriebenen Entwicklungen der gängisten Browser,
-(Mozilla Firefox, Google Chrome, Apple Safari, und MS Internet Explorer IE),
-sind solche Erweiterungen über die Jahre eigentlich unnötig geworden, da heutzutage alle großen Browser von Hause aus geeignete Developer-Tools
+<p>Alle großen Browser verfügen über geeignete Developer-Tools
 (meist unter der Tastatur-Taste [<code>F12</code>] erreichbar [*]
 <span class="label invisible" id="Developer-Tools">Developer-Tools</span>
 <span class="footnote"><i class="fa fa-info-circle"></i> Das ist natürlich spezifisch in verschiedenen Browsern auf verschiedenen Betriebssystemen.
-Zum Beispiel wäre das gleiche auf OS X in Chrome so [<code>⌥ + ⌘ + J</code>] zu erreichen.</span>) mitbringen,
+Zum Beispiel wäre das gleiche auf OS X in Chrome so [<code>⌥ + ⌘ + J</code>] zu erreichen.</span>),
 die die genannten Änderungen spielerisch einfach <em>“am lebenden Objekt”</em> einer Webseite ermöglichen. [*]
 <span class="footnote"><i class="fa fa-info-circle"></i> <a href="https://developer.mozilla.org/en-US/docs/Tools" target="_blank" rel="noopener">https://developer.mozilla.org/en-US/docs/Tools</a></span><!-- footnote -->
 <span class="footnote"><i class="fa fa-info-circle"></i> <a href="https://developer.chrome.com/devtools" target="_blank" rel="noopener">https://developer.chrome.com/devtools</a></span><!-- footnote --></p>
