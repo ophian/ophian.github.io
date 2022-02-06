@@ -2141,6 +2141,27 @@ Image Datei nutzen können.</span><!-- footnote -->
 auf diese Möglichkeit zu verzichten, und lieber die geschilderten Variations Formate für
 ihr Ausgabeformat zu benutzen.</p>
 
+<p>Die PHP GD- und ImageMagick-Kodierungskomprimierung sind leicht unterschiedlich und ihre
+Ergebnisse oft überraschend, wenn man die Dateigrößen aller Formate miteinander vergleicht.
+Sehen Sie hier ein Beispielergebnis:</p>
+
+<figure>
+    <a class="lightbox" rel="lightbox" href="img/lib-variation-comparison.avif" lg-uid="lg1" data-fallback="img/lib-variation-comparison.webp">
+      <picture>
+        <source srcset="img/lib-variation-comparison.avif" type="image/avif">
+        <source srcset="img/lib-variation-comparison.webp" type="image/webp">
+        <img src="img/lib-variation-comparison.png" alt="lib-variation-comparison.png" loading="lazy" width="1120" height="760">
+      </picture>
+    </a>
+    <figcaption>Eine Serie von 4 Bildern, die konkurrierend mit ImageMagick (IM) und PHP GD
+    kodiert wurden. Im Allgemeinen können Dauer und Resultat der Bildkodierung - abgesehen
+    von der Größe - von der Verwendung von hohen Dynamikbereichen, verlustfreier oder
+    verlustbehafteter Kompression, Farbebenen, Profilen, großem Farbumfang,
+    Chroma-Sub-Sampling und Bittiefen von 8, 10 oder 12 abhängen. Hier liegen die wesentlichen
+    Unterschiede und natürlich in der Art, der Ruhe oder Unruhe des Bildmotives selbst.<br>
+    <div>Alles, was wir also wissen müssen, ist: Das neue AVIF ist meist das bessere Format und wird sich sicherlich in Zukunft durchsetzen.</div></figcaption>
+</figure>
+
 <p class="tagging invisible">
 <span class="label invisible" id="Medien hinzufuegen">Medien hinzufuegen</span>
 <span class="tag-box invisible">
