@@ -2060,15 +2060,17 @@ das nach etwa neunjähriger Entwicklungszeit Anfang 2020 das Licht der Welt
 erblickte. Die verbesserten Komprimierungsraten gegenüber den bekannten Formaten
 belaufen sich im Mittel auf etwa 30%, können aber auch wesentlich größer
 ausfallen, je nach Ausgangsqualität und Ausgangsmaterial des Original Bildes.
-Mit Styx 3.6/3.7 kam im Herbst bzw Ende 2021 ein weiteres Format hinzu, das
-<strong>AVIF</strong> (AV Image Format) genannt wird und von einem Konsortium
-vieler großer Firmen als <strong>die</strong> neue freie Videokompressionsoftware
-<strong>AV1</strong> entwickelt wurde. AVIF ist also ein Ableger derselben.
-Noch einmal konnte die Kompression damit wiederum im Mittel um weitere ~30%
-gesteigert werden, so dass heute Bilder (Variationen) nur noch etwa 10 bis
-30 Prozent der Originalgröße beanspruchen und Sie es an der Qualität nicht
-bemerken werden. Alle großen Browser sind heutzutage in der Lage mit ihnen
-umzugehen und durch die Möglichkeit eines wunderbaren neuen Ausgabeformates
+Mit Styx 3.6/3.7 kam im Herbst bzw Ende 2021 ein weiteres vielversprechendes
+Format hinzu, das <strong>AVIF</strong> (AV Image Format) genannt wird und von
+einem Konsortium vieler großer Firmen als <strong>DIE</strong> neue und freie
+Videokompressionsoftware <strong>AV1</strong> entwickelt wurde. AVIF ist also
+ein Ableger derselben.</p>
+
+<p><strong>Noch einmal</strong> konnte die Kompression damit um weitere ~30%
+( wiederum im Mittel) gesteigert werden, so dass heute Bilder (Variationen)
+nur noch etwa 10 bis 30 Prozent der Originalgröße beanspruchen und Sie es an der
+Qualität nicht bemerken werden. Alle großen Browser sind heutzutage in der Lage
+mit ihnen umzugehen und durch die Möglichkeit eines wunderbaren neuen Ausgabeformates
 ist HTML und damit auch Styx in der Lage diese so auszuliefern, dass auch weniger
 ausgefeilte Browser damit umgehen können.</p>
 
