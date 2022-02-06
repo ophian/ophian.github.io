@@ -2162,6 +2162,14 @@ Sehen Sie hier ein Beispielergebnis:</p>
     <div>Alles, was wir also wissen müssen, ist: Das neue AVIF ist meist das bessere Format und wird sich sicherlich in Zukunft durchsetzen.</div></figcaption>
 </figure>
 
+<p>Was beim Vergleich auffällt, ist, dass es aber durchaus vorkommen kann, dass das umgewandelte
+AVIF Format (Datei) größentechnisch nicht unbedingt immer besser - sprich kleiner - als das WebP
+Format ist. Serendipity Styx sorgt aber dafür, dass durch das neue &lt; <em>picture</em> &gt; Ausgabeformat
+die Reihenfolge der Ausgabe an der Dateigröße gemessen wird und somit immer das kleinste der vorhandenen
+Variationen geliefert wird. Am Browser des Clients, also des Besuchers, liegt es dann zu entscheiden,
+welches davon er wirklich laden und darstellen kann. Eine Win-win Situation, die dazu führt ihren
+Webauftritt erheblich zu beschleunigen!</p>
+
 <p class="tagging invisible">
 <span class="label invisible" id="Medien hinzufuegen">Medien hinzufuegen</span>
 <span class="tag-box invisible">
