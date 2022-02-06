@@ -2107,6 +2107,21 @@ solcherlei Änderungen vorerst zu unterbinden.</p>
 <span class="icon arrow-right">→</span> Nutzung von AVIF Variationen
 aktivieren?</strong> zuschaltbar zur Verfügung.</p>
 
+<p>Eine weitere zu beachtende Einschränkung besteht darin, dass die unglaublich gute AV1
+Kompression ein schweres Stück Arbeit ist und deshalb viel <strong>ZEIT</strong> entsprechend
+der zur Verfügung stehenden GPU/CPU Kerne und mindestens ebenso anspruchsvoll viel RAM
+bis in den GBit Bereich beansprucht [*]
+<span class="footnote"><i class="fa fa-info-circle"></i> Dies bezieht sich insbesondere auf
+größere Bilder, also zB. mit 13 MB im Ausgangsformat. Mit kleineren Bildern bis 2,
+höchstens 3 MB, ist AVIF durchaus nutzbar und verursacht nicht allzugroße Schmerzen
+beim Upload.</span><!-- footnote -->.
+Aus diesem Grunde ist <em>bis dato</em> davon abzuraten, mehr als ein Bild zur Zeit hochzuladen
+und konvertieren zu lassen. So wie WebP mit seiner langen Entwicklungszeit viel Raum
+hatte diesem Anpruch mit schnelleren Algorithmen und verbesserter Hardware auf
+Anwenderseite zu begegnen, wird es sicherlich auch AVIF ergehen. Die Leistungsfähigkeit
+und Schnelligkeit wird mit der Zeit also bestimmt besser werden, ist aber zur Zeit
+hardwareseitig noch gewissen Einschränkungen unterworfen.</p>
+
 <p class="tagging invisible">
 <span class="label invisible" id="Medien hinzufuegen">Medien hinzufuegen</span>
 <span class="tag-box invisible">
