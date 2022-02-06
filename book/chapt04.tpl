@@ -2090,6 +2090,18 @@ Bereich von AVIF Dateien, das normalerweise über die PHP Funktion
 wenn Formatwechsel oder Dateigrößenwechsel der Ausmaße anstehen, also für
 Serendipity gesprochen ein sehr häufig benutztes Kernstück.</p>
 
+<p>Dieses Kernstück wird für AVIF erst ab <strong>PHP 8.2</strong> Ende des Jahres 2022
+zur Verfügung stehen. Bis dahin kann AVIF nur etwas eingeschränkt benutzt werden.
+Diese Einschränkung beinhaltet alles, was über die Konvertierung eines hochgeladenen
+Bildes (in das Serendipity <em>Thumbnails</em> Vorschaubild) hinausgeht, also zB. spätere
+Skaldierungen des vorliegenden Bildformates "Dateiausmaße ändern", sowie Änderungen
+des Bildformates selber und ebenso Rotationen des Bildes "(<em>Bild um 90 Grad
+gegen den/im Uhrzeigersinn drehen</em>)". Da es unter der Prämisse der genutzten AVIF
+Option dann immer alle Dateiformate beträfe, denn für eine Rotation beispielsweise muss
+das Orginalbild, sein Thumbnail, ebenso wie diese, die WebP Variationen, dann eben auch
+die AVIF Variationen gedreht werden, wurden zum Teil bereits Vorkehrungen getroffen,
+solcherlei Änderungen vorerst zu unterbinden.</p>
+
 <p class="tagging invisible">
 <span class="label invisible" id="Medien hinzufuegen">Medien hinzufuegen</span>
 <span class="tag-box invisible">
