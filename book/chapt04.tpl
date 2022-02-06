@@ -2042,6 +2042,18 @@ eines hochgeladenen Bildes</strong> bereits Rechnung, mittels derer man ein fest
 für den Upload festsetzen kann und das intern beim Upload größere Bilder bereits herunterrechnet.
 Hier ist ImageMagick als Toolkit für die graphische Voraussetzung sehr zu empfehlen.</p> 
 
+<p>Mit Serendipity Styx 3.0 begann eine neue Ära für die Mediathek,
+die um sogenannte <strong>Variationen</strong> erweitert wurde.
+Dabei handelt es sich um neue Dateiformate, die wesentliche Verbesserungen
+für die Kompressionsgrößen eines Bildes erzeugen, ohne dabei wesentlich an
+Bildqualität zu verlieren. Solche Formate sind natürlich jeweils neu und
+werden nur langsam im Web und den heimatlichen Computern bzw dessen Programmen
+und Möglichkeiten adaptiert. Serendipity Styx hat sich daher entschieden vorerst
+weiterhin auf die bekannten Image Formate wie <strong>jpg</strong> oder <strong>png</strong>
+als image Upload Formate zu setzen, sie aber direkt beim Upload soweit möglich
+in versteckte Variationen zu duplizieren, die die weitere Nutzung drastisch
+erweitern.</p>
+
 <p class="tagging invisible">
 <span class="label invisible" id="Medien hinzufuegen">Medien hinzufuegen</span>
 <span class="tag-box invisible">
@@ -2225,7 +2237,7 @@ einer Datei überarbeiten können.</p>
 Als Erstes wird dabei entweder das Vorschaubild einer Grafikdatei oder
 ein Dateityp-Icon von Nicht-Grafikdateien angezeigt.</p>
 
-<p>Unterhalb dieses Icons sehen Sie den Namen und den Typ der gewählten
+<p>Unterhalb dieses Icons bzw Vorschaubildes sehen Sie den Namen und den Typ der gewählten
 Datei. Direkt darunter wird aufgeführt, wer die Datei zu welchem Datum
 hochgeladen hat und wie groß die Datei ist. Im Falle einer Grafikdatei
 wird hier zudem die Auflösung der Grafik und die Auflösung des kleineren
@@ -2791,8 +2803,8 @@ Mediathek-Dateien verwaltet werden.</p>
 </figure>
 
 <p>Neben allen Verzeichnissen, die jeweils wie im Dateisystem verschachtelt
-untereinander angezeigt sind, sehen Sie zwei Buttons zum
-<span class="mbold">Bearbeiten</span> und <span class="mbold">Löschen</span> eines Verzeichnisses.</p>
+untereinander angezeigt sind, sehen Sie drei Buttons zum
+<span class="mbold">Bearbeiten</span>, <span class="mbold">Duplizieren</span>
 
 <p>Ein Klick auf den Button <span class="mbold">Neues Verzeichnis anlegen</span> öffnet eine
 Seite, in der Sie den <span class="mbold">Namen</span> eines neuen Verzeichnisses sowie
