@@ -2162,11 +2162,13 @@ Sehen Sie hier ein Beispielergebnis:</p>
     <div>Alles, was wir also wissen müssen, ist: Das neue AVIF ist meist das bessere Format und wird sich sicherlich in Zukunft durchsetzen.</div></figcaption>
 </figure>
 
+<p>&nbsp;</p>
+
 <p>Was beim Vergleich auffällt, ist, dass es aber durchaus vorkommen kann, dass das umgewandelte
-AVIF Format (Datei) größentechnisch nicht unbedingt immer besser - sprich kleiner - als das WebP
+AVIF Format (Datei) größentechnisch nicht <strong><em>per se</em></strong> immer besser - sprich kleiner - als das WebP
 Format ist. Serendipity Styx sorgt aber dafür, dass durch das neue &lt; <strong><em>picture</em></strong> &gt;
 container Ausgabeformat die Reihenfolge der Ausgabe an der Dateigröße gemessen wird und somit immer
-das kleinste der vorhandenen Bild Variationen geliefert wird. Am Browser des Clients, also des
+das Kleinste der vorhandenen Bild Variationen geliefert wird. Am Browser des Clients, also des
 Besuchers, liegt es dann zu entscheiden, welches davon er wirklich laden und darstellen kann.
 Eine Win-win Situation, die dazu führt ihren Webauftritt erheblich zu beschleunigen!</p>
 
