@@ -2170,6 +2170,21 @@ das kleinste der vorhandenen Bild Variationen geliefert wird. Am Browser des Cli
 Besuchers, liegt es dann zu entscheiden, welches davon er wirklich laden und darstellen kann.
 Eine Win-win Situation, die dazu führt ihren Webauftritt erheblich zu beschleunigen!</p>
 
+<p>In Ausgabecode gegossen sähe das dann in etwa so aus:</p>
+
+<pre>
+<code class="language-html">
+&lt;a class="lightbox" rel="lightbox" href="img/lib-variation-comparison.avif" lg-uid="lg1" data-fallback="img/lib-variation-comparison.webp"&gt;<br>
+&nbsp;&nbsp;&lt;picture&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;source srcset="img/lib-variation-comparison.avif" type="image/avif"&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;source srcset="img/lib-variation-comparison.webp" type="image/webp"&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;img&nbsp;src="img/lib-variation-comparison.png" alt="lib-variation-comparison.png" loading="lazy" width="1120" height="760"&gt;<br>
+&nbsp;&nbsp;&lt;/picture&gt;<br>
+&lt;/a&gt;<br>
+</code></pre>
+
+<p>&nbsp;</p>
+
 <p class="tagging invisible">
 <span class="label invisible" id="Medien hinzufuegen">Medien hinzufuegen</span>
 <span class="tag-box invisible">
