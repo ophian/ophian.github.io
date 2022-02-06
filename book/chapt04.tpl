@@ -2128,6 +2128,19 @@ Ihres Browser bestimmen, ob Sie diese als Bilder auch tatsächlich angezeigt bek
 was ja die großen, wie Mozilla Firefox oder Chrome mit all seinen Chromium Variationen,
 wie bereits gesagt, seit Sommer 2021 gut beherrschen.</p>
 
+<p>Allein die Ausgabe im Frontend, zB. in einem Eintrag als normales image Format, wird
+eventuell schwierig, denn Sie können ja nicht wissen, welche Voraussetzungen die Besucher
+Ihres Blogs diesbezüglich mitbringen. Aus diesem Grunde ist es vorerst durchaus ratsam in
+der überwiegenden Masse [*]
+<span class="footnote"><i class="fa fa-info-circle"></i> Für einzelne Bild-Solitäre ist
+die Nutzung aber bereits durchaus ein willkommenes Feature. Hervorragend gut gemachte Seiten
+wie <a href="https://avif.io/" target="_blank">https://avif.io/</a> machen es Ihnen einfach,
+lokal vorhandene Bilder nach AVIF zu konvertieren ("<em>Convert to AVIF"</em>) damit Sie
+diese dann in Serendipity hochladen oder etwa auch zB in ihrem Theme als solitäre Header
+Image Datei nutzen können.</span><!-- footnote -->
+auf diese Möglichkeit zu verzichten, und lieber die geschilderten Variations Formate für
+ihr Ausgabeformat zu benutzen.</p>
+
 <p class="tagging invisible">
 <span class="label invisible" id="Medien hinzufuegen">Medien hinzufuegen</span>
 <span class="tag-box invisible">
