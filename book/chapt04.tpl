@@ -2122,6 +2122,12 @@ Anwenderseite zu begegnen, wird es sicherlich auch AVIF ergehen. Die Leistungsf�
 und Schnelligkeit wird mit der Zeit also bestimmt besser werden, ist aber zur Zeit
 hardwareseitig noch gewissen Einschränkungen unterworfen.</p>
 
+<p>Um es kurz zu sagen, <strong>natürlich</strong> können Sie auch gleich WebP oder AVIF
+Format Dateien auf Ihr Blog hochladen. Dies ist ohne weiteres möglich. Allein die Möglichkeiten
+Ihres Browser bestimmen, ob Sie diese als Bilder auch tatsächlich angezeigt bekommen,
+was ja die großen, wie Mozilla Firefox oder Chrome mit all seinen Chromium Variationen,
+wie bereits gesagt, seit Sommer 2021 gut beherrschen.</p>
+
 <p class="tagging invisible">
 <span class="label invisible" id="Medien hinzufuegen">Medien hinzufuegen</span>
 <span class="tag-box invisible">
