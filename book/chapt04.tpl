@@ -2102,6 +2102,11 @@ das Orginalbild, sein Thumbnail, ebenso wie diese, die WebP Variationen, dann eb
 die AVIF Variationen gedreht werden, wurden zum Teil bereits Vorkehrungen getroffen,
 solcherlei Änderungen vorerst zu unterbinden.</p>
 
+<p>Aus diesem Grunde steht AVIF bislang nur als Option in <strong>Konfiguration
+<span class="icon arrow-right">→</span> Bildkonvertierung
+<span class="icon arrow-right">→</span> Nutzung von AVIF Variationen
+aktivieren?</strong> zuschaltbar zur Verfügung.</p>
+
 <p class="tagging invisible">
 <span class="label invisible" id="Medien hinzufuegen">Medien hinzufuegen</span>
 <span class="tag-box invisible">
