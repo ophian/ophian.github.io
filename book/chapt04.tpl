@@ -2072,6 +2072,22 @@ umzugehen und durch die Möglichkeit eines wunderbaren neuen Ausgabeformates
 ist HTML und damit auch Styx in der Lage diese so auszuliefern, dass auch weniger
 ausgefeilte Browser damit umgehen können.</p>
 
+<p>Das WebP Format ist also schon gut abgehangen und es sind keine größeren
+Probleme in der Herstellung, also Konvertierung über die GDlib bzw ImageMagick
+zu erwarten und die WebP Nutzung als Variation hat sich in den letzten zwei
+Jahren schon als sehr stabil erwiesen. Mit AVIF ist dies etwas anders. Obwohl
+annonciert mit Erscheinen von <strong>PHP 8.1</strong> [*]
+<span class="footnote"><i class="fa fa-info-circle"></i> Dies bezieht sich auf
+die darin enthaltene GDlib Bibliothek. Mit ImageMagick benötigen Sie mindestens
+die Version 7.0.25 um überhaupt mit AVIF arbeiten zu können.</span><!-- footnote -->
+im Herbst 2021 voll kompatibel zu sein. fehlt dennoch ein wichtiges Puzzlestück
+um praktisch damit arbeiten zu können, so wie es für WebP möglich ist. Dies
+betrifft die Auslesung von Metadaten, inbesondere von Größenangaben im Meta
+Bereich von AVIF Dateien, das normalerweise über die PHP Funktion
+<strong>getimagesize()</strong> geschieht, und immer dann genutzt wird,
+wenn Formatwechsel oder Dateigrößenwechsel der Ausmaße anstehen, also für
+Serendipity gesprochen ein sehr häufig benutztes Kernstück.</p>
+
 <p class="tagging invisible">
 <span class="label invisible" id="Medien hinzufuegen">Medien hinzufuegen</span>
 <span class="tag-box invisible">
