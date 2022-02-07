@@ -2198,10 +2198,10 @@ Eine Win-win Situation, die dazu führt ihren Webauftritt erheblich zu beschleun
 
 <pre>
 <code class="html">
-&lt;a href="img/pippi-longstocking.avif" data-fallback="img/pippi-longstocking.webp"&gt;<br>
+&lt;a href="img/.v/pippi-longstocking.avif" data-fallback="img/.v/pippi-longstocking.webp"&gt;<br>
 &nbsp;&nbsp;&lt;picture&gt;<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&lt;source srcset="img/pippi-longstocking.styxThumb.avif" type="image/avif"&gt;<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&lt;source srcset="img/pippi-longstocking.styxThumb.webp" type="image/webp"&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;source srcset="img/.v/pippi-longstocking.styxThumb.avif" type="image/avif"&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;source srcset="img/.v/pippi-longstocking.styxThumb.webp" type="image/webp"&gt;<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&lt;img&nbsp;src="img/pippi-longstocking.styxThumb.png" alt="pippi-longstocking.styxThumb.png" loading="lazy" width="1120" height="760"&gt;<br>
 &nbsp;&nbsp;&lt;/picture&gt;<br>
 &lt;/a&gt;<br>
