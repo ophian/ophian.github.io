@@ -1446,6 +1446,27 @@ der Plugins in den folgenden Kapiteln entnehmen.</span>
 <span class="label invisible" id="Eintrag-speichern">Eintrag-speichern</span>
 <span class="item mbold">Speichern eines Eintrags</span><!-- menuitem -->
 <span class="desc-info">
+    <span class="tag-box invisible">
+        <span class="inline-tag">picture-container</span>
+        <span class="inline-tag">medien-speichern</span>
+    </span>
+    <span class="box">
+        Je nachdem, ob Sie nun ein einzelnes Bild mit fest definiertem Format als einfaches
+        &lt;img...&gt; in ihren Blogeintrag einfügen wollen, oder ob dies über das
+        fortschrittlichere &lt;picture...&gt; container HTML Format erfolgen soll, müssen
+        Sie nun selbst im <em>Speichern Dialog</em> entscheiden.
+        Im Kapitel Mediathek auf Seite <span class="pageref"><a href="#mediathek">4.5 - Mediathek</a></span>,
+        lernen Sie was Letzteres vom Ersten unterscheidet.
+        Um es kurz zu machen, schicken Sie mit dem container Format mehrere Bilder
+        zur Auswahl an denjenigen Browser, der es später auf Besucherseite laden und
+        darstellen soll.
+        Dieser wird immer das kleinste Format wählen, das die &lt;source... srcset...&gt;
+        Zeilen bereitstellen und damit die Ladezeit ihres Blogs erheblich beschleunigen.
+        Je weniger groß (MB / KB) eine zu ladende Datei ist, desto schneller wird sie
+        natürlich auch übertragen. Ihre Besucher (ebenso wie Suchmaschinen) werden es
+        Ihnen danken!
+    </span>
+
     <span class="box" id="fig-ml_popup2-end.png">
 		<img src="img/ml_popup2-end.png">
 		<span class="asfigcaption">Abbildung 4.6e: Mediathek-Popup zum Einfügen von Bildern als &lt;img...&gt; oder über &lt;picture...&gt; container HTML tags</span>
