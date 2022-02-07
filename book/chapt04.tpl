@@ -2155,7 +2155,7 @@ Sehen Sie hier ein Beispielergebnis:</p>
     </a>
     <figcaption>Eine Serie von 4 Bildern, die vergleichend mit ImageMagick (IM) und PHP GD
     kodiert wurden. Im Allgemeinen können Dauer und Resultat der Bildkodierung - abgesehen
-    von der Größe - von der Verwendung von hohen Dynamikbereichen, verlustfreier oder
+    von der Größe - von der Verwendung von hohen Dynamikbereichen (HDR), verlustfreier oder
     verlustbehafteter Kompression, Farbebenen, Profilen, großem Farbumfang,
     Chroma-Sub-Sampling und Bittiefen von 8, 10 oder 12 abhängen. Hier liegen die wesentlichen
     Unterschiede und natürlich in der Art, der Ruhe oder Unruhe des Bildmotives selbst.<br>
