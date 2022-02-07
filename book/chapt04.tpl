@@ -2259,7 +2259,9 @@ Eine Win-win Situation, die dazu führt ihren Webauftritt erheblich zu beschleun
 
 <p>Wie Sie sehen, beinhaltet das Beispiel bereits die versteckenden Mediatheks "<strong>.v/</strong>"
 Ordner, relativ zum Bildverzeichnis, in denen die Bildvariationen (webp/avif) als interne Erweiterung
-der Mediathek gespeichert sind.</p>
+der Mediathek gespeichert sind. (Siehe <span class="reference">medien-speichern</span> auf Seite
+<span class="pageref"><a href="#Eintrag-speichern">Eintrag-speichern als Picture Element Container</a></span>)
+</p>
 
 <p class="tagging invisible">
 <span class="label invisible" id="Medien hinzufuegen">Medien hinzufuegen</span>
