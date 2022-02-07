@@ -2146,7 +2146,7 @@ Ergebnisse oft überraschend, wenn man die Dateigrößen aller Formate miteinand
 Sehen Sie hier ein Beispielergebnis:</p>
 
 <figure>
-    <a class="lightbox" rel="lightbox" href="img/lib-variation-comparison.avif" lg-uid="lg1" data-fallback="img/lib-variation-comparison.webp">
+    <a href="img/lib-variation-comparison.avif" data-fallback="img/lib-variation-comparison.webp">
       <picture>
         <source srcset="img/lib-variation-comparison.avif" type="image/avif">
         <source srcset="img/lib-variation-comparison.webp" type="image/webp">
