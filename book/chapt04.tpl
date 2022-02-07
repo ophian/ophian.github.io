@@ -2149,7 +2149,7 @@ nicht ganz so effizient ist. Dies liegt daran, dass AVIF sich darauf konzentrier
 Komprimierungsformat überlegen zu sein. PNG hat (noch) eine bessere Unterstützung in allen Browsern
 und eine schnellere Kodierungs-/Dekodierungsleistung (insbesondere bei der Dekodierung).
 Aus diesem Grunde werden sie bei PNG Dateien auch relativ häufiger eine bessere Komprimierung
-erleben. Gerade der unten gezeigte Vergleichs-Screenshot ist dafür ein Beispiel. </span><!-- footnote -->
+erleben.</span><!-- footnote -->
 Es basiert auf vier verschiedenen Technologien. AVIF verwendet Basiselemente des ISO BMFF Byte Stream
 Formats, kombiniert es mit IFF/HEIF für bildspezifische und codec-agnostische Funktionen, verwendet
 MIAF für zusätzliche strukturelle Einschränkungen von ISOBMFF und benutzt die Abbildung des AV1 KeyFrame.
