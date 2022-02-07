@@ -2139,7 +2139,20 @@ lokal vorhandene Bilder nach AVIF zu konvertieren ("<em>Convert to AVIF"</em>) d
 diese dann in Serendipity hochladen oder etwa auch zB in ihrem Theme als solitäre Header
 Image Datei nutzen können.</span><!-- footnote -->
 auf diese Möglichkeit zu verzichten, und lieber die geschilderten Variations Formate für
-ihr Ausgabeformat zu benutzen.</p>
+ihr Ausgabeformat zu benutzen.<br>
+<br>
+AVIF wurde also entwickelt, um PNG, JPEG und WebP bei allen Bildern, Fotos und Grafiken zu
+ersetzen, das heißt, um lizenzfreie Bilder mit einer besseren Komprimierungseffizienz bereitzustellen.
+Es basiert auf vier verschiedenen Technologien. AVIF verwendet Basiselemente des ISO BMFF Byte Stream
+Formats, kombiniert es mit IFF/HEIF für bildspezifische und codec-agnostische Funktionen, verwendet
+MIAF für zusätzliche strukturelle Einschränkungen von ISOBMFF und benutzt die Abbildung des AV1 KeyFrame.
+Als Ergebnis der Bemühungen des Konsortiums wurden lizenzfreie, offene Videocodecs für bewegte
+Bilder und das AV1 Image File Format (AVIF) für Bilder entwickelt. Es kombiniert
+AV1-Kompressionsalgorithmen mit der HEIF-Containertechnologie, die Apple seit vielen Jahren verwendet.
+HEIF bietet eine einheitliche und standardisierte Methode für den Austausch, die Speicherung (zB. von
+Metadaten) und die Übertragung von mit AV1 kodierten Bildinhalten. In diesem Sinne überschneiden sich
+AVIF und HEIF. AVIF und HEIF kodieren Bilddaten mit unterschiedlichen Kompressionsmethoden. Anstelle
+der AV1-Kompression verwendet das HEIF-Format das HEVC-Videoformat.</p>
 
 <p>Die PHP GD- und ImageMagick-Kodierungskomprimierung sind leicht unterschiedlich und ihre
 Ergebnisse oft überraschend, wenn man die Dateigrößen aller Formate miteinander vergleicht.
