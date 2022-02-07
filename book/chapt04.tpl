@@ -2188,7 +2188,8 @@ lokal vorhandene Bilder nach AVIF zu konvertieren ("<em>Convert to AVIF"</em>) d
 diese dann in Serendipity hochladen oder etwa auch zB in ihrem Theme als solitäre Header
 Image Datei nutzen können.</span><!-- footnote -->
 auf diese Möglichkeit zu verzichten, und lieber die geschilderten Variations Formate für
-ihr Ausgabeformat zu benutzen.<br>
+ihr Ausgabeformat zu benutzen. (siehe <span class="reference">Picture Container</span>
+auf Seite <span class="pageref"><a href="#Eintrag-speichern">Eintrag-speichern als Picture Element Container</a></span>)<br>
 <br>
 AVIF wurde also entwickelt, um PNG, JPEG und WebP bei allen Bildern, Fotos und Grafiken zu
 ersetzen, das heißt, um lizenzfreie Bilder mit einer besseren Komprimierungseffizienz bereitzustellen. [*]
