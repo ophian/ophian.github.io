@@ -2207,6 +2207,10 @@ Eine Win-win Situation, die dazu führt ihren Webauftritt erheblich zu beschleun
 &lt;/a&gt;<br>
 </code></pre>
 
+<p>Wie Sie sehen, beinhaltet das Beispiel bereits die versteckenden Mediatheks "<strong>.v/</strong>"
+Ordner, relativ zum Bildverzeichnis, in denen die Bildvariationen (webp/avif) als interne Erweiterung
+der Mediathek gespeichert sind.</p>
+
 <p class="tagging invisible">
 <span class="label invisible" id="Medien hinzufuegen">Medien hinzufuegen</span>
 <span class="tag-box invisible">
