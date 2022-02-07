@@ -2174,15 +2174,15 @@ Am Browser des Clients, also des Besuchers, liegt es dann zu entscheiden, welche
 laden und darstellen kann.
 Eine Win-win Situation, die dazu führt ihren Webauftritt erheblich zu beschleunigen!</p>
 
-<p>In Ausgabecode gegossen sähe das dann in etwa so aus:</p>
+<p>In Ausgabecode gegossen und als Link zum großen Bild sähe das dann in etwa so aus:</p>
 
 <pre>
 <code class="html">
-&lt;a href="img/lib-variation-comparison.avif" data-fallback="img/lib-variation-comparison.webp"&gt;<br>
+&lt;a href="img/pippi-longstocking.avif" data-fallback="img/pippi-longstocking.webp"&gt;<br>
 &nbsp;&nbsp;&lt;picture&gt;<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&lt;source srcset="img/lib-variation-comparison.avif" type="image/avif"&gt;<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&lt;source srcset="img/lib-variation-comparison.webp" type="image/webp"&gt;<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&lt;img&nbsp;src="img/lib-variation-comparison.png" alt="lib-variation-comparison.png" loading="lazy" width="1120" height="760"&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;source srcset="img/pippi-longstocking.styxThumb.avif" type="image/avif"&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;source srcset="img/pippi-longstocking.styxThumb.webp" type="image/webp"&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;img&nbsp;src="img/pippi-longstocking.styxThumb.png" alt="pippi-longstocking.styxThumb.png" loading="lazy" width="1120" height="760"&gt;<br>
 &nbsp;&nbsp;&lt;/picture&gt;<br>
 &lt;/a&gt;<br>
 </code></pre>
