@@ -2164,12 +2164,14 @@ Sehen Sie hier ein Beispielergebnis:</p>
 
 <p>&nbsp;</p>
 
-<p>Was beim Vergleich auffällt, ist, dass es aber durchaus vorkommen kann, dass das umgewandelte
-AVIF Format (Datei) größentechnisch nicht <strong><em>per se</em></strong> immer besser - sprich kleiner - als das WebP
-Format ist. Serendipity Styx sorgt aber dafür, dass durch das neue &lt; <strong><em>picture</em></strong> &gt;
-container Ausgabeformat die Reihenfolge der Ausgabe an der Dateigröße gemessen wird und somit immer
-das Kleinste der vorhandenen Bild Variationen geliefert wird. Am Browser des Clients, also des
-Besuchers, liegt es dann zu entscheiden, welches davon er wirklich laden und darstellen kann.
+<p>Was beim WebP - AVIF Vergleich auffällt, ist, dass es aber durchaus vorkommen kann, dass das umgewandelte
+AVIF Format (Datei) größentechnisch nicht <strong><em>per se</em></strong> immer besser - sprich kleiner - als
+das WebP Format ist. Serendipity Styx sorgt aber bereits im Vorfeld dafür, dass durch das neue &lt; <strong><em>picture</em></strong> &gt;
+container Ausgabeformat, welches ansonsten streng nach dem fallback-Prinzip von oben nach unten arbeitet,
+die Reihenfolge der Ausgabe an der Dateigröße gemessen wird und somit immer das Kleinste der vorhandenen
+Bild Variationen geliefert wird. Das heißt, im Falle einer kleineren WebP Variation bleibt das AVIF &lt;source&gt; srcset leer.
+Am Browser des Clients, also des Besuchers, liegt es dann zu entscheiden, welches von den angebotenen wirklich er
+laden und darstellen kann.
 Eine Win-win Situation, die dazu führt ihren Webauftritt erheblich zu beschleunigen!</p>
 
 <p>In Ausgabecode gegossen sähe das dann in etwa so aus:</p>
