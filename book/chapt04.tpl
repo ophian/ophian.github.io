@@ -2190,8 +2190,8 @@ das WebP Format ist. Serendipity Styx sorgt aber bereits im Vorfeld dafür, dass
 container Ausgabeformat, welches ansonsten streng nach dem fallback-Prinzip von oben nach unten arbeitet,
 die Reihenfolge der Ausgabe an der Dateigröße gemessen wird und somit immer das Kleinste der vorhandenen
 Bild Variationen geliefert wird. Das heißt, im Falle einer kleineren WebP Variation bleibt das AVIF &lt;source&gt; srcset leer.
-Am Browser des Clients, also des Besuchers, liegt es dann zu entscheiden, welches von den angebotenen wirklich er
-laden und darstellen kann.
+Am Browser des Clients, also des Besuchers, liegt es dann zu entscheiden, welches von den angebotenen Bildern/Variationen
+er wirklich laden und darstellen kann.
 Eine Win-win Situation, die dazu führt ihren Webauftritt erheblich zu beschleunigen!</p>
 
 <p>In Ausgabecode gegossen und als Link zum großen Bild sähe das dann in etwa so aus:</p>
