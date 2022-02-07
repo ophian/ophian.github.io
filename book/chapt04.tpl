@@ -2113,11 +2113,13 @@ einem Konsortium vieler großer Firmen als <strong>DIE</strong> neue und freie
 Videokompressionsoftware <strong>AV1</strong> entwickelt wurde. AVIF ist also
 ein Ableger derselben.</p>
 
-<p><strong>Noch einmal</strong> konnte die Kompression damit um weitere ~30%
+<p><strong>Noch einmal</strong> konnte die Kompression damit um weitere 30%
 ( wiederum im Mittel) gesteigert werden, so dass heute Bilder (Variationen)
 nur noch etwa 10 bis 30 Prozent der Originalgröße beanspruchen und Sie es an der
 Qualität nicht bemerken werden. Alle großen Browser sind heutzutage in der Lage
 mit ihnen umzugehen und durch die Möglichkeit eines wunderbaren neuen Ausgabeformates
+(siehe <span class="reference">Picture Container</span> auf Seite
+<span class="pageref"><a href="#Eintrag-speichern">Eintrag-speichern als Picture Element Container</a></span>)
 ist HTML und damit auch Styx in der Lage diese so auszuliefern, dass auch weniger
 ausgefeilte Browser damit umgehen können.</p>
 
