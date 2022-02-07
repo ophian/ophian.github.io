@@ -1446,6 +1446,11 @@ der Plugins in den folgenden Kapiteln entnehmen.</span>
 <span class="label invisible" id="Eintrag-speichern">Eintrag-speichern</span>
 <span class="item mbold">Speichern eines Eintrags</span><!-- menuitem -->
 <span class="desc-info">
+    <span class="box" id="fig-ml_popup2-end.png">
+		<img src="img/ml_popup2-end.png">
+		<span class="asfigcaption">Abbildung 4.6e: Mediathek-Popup zum Einfügen von Bildern als &lt;img...&gt; oder über &lt;picture...&gt; container HTML tags</span>
+    </span>
+
     <span class="box">
         Wenn Sie einen Beitrag speichern, wird Serendipity in einem eigenen Bereich
         einige Aktionen durchführen.
