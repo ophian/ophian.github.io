@@ -1473,6 +1473,27 @@ der Plugins in den folgenden Kapiteln entnehmen.</span>
     </span>
 
     <span class="box">
+        Woher kommen aber nun diese unterschiedlichen Größen und Formate? Sie werden beim
+        <span class="mbold">upload</span> der Bilder automatisch vom System erzeugt und in
+        relativen Unterverzeichnissen "<span class="mbold">.v/</span>" des aktuellen Bildes
+        in der Mediathek "<span class="mbold">versteckt</span>" gespeichert. Dies sind WebP
+        (<span class="mbold">webp</span>) Format Dateien und die brandneuen AV Image File
+        (<span class="mbold">avif</span>) Dateien, wenn Sie Letztere über die Image
+        Konfiguration selbst zur Nutzung erlaubt haben.
+        Solche Dateien sind also nur als "interne Erweiterung" der Mediathek zu verstehen.
+        Sie selbst, als Backenduser, greifen nur indirekt auf diese zu, obwohl sie, woweit
+        vorhanden, überall wo ein Bild der Mediathek [*]
+        <span class="footnote"><i class="fa fa-info-circle"></i> Auch die Template(s) Vorschau
+        Bilder gehorchen bereits diesem neuen Prinzip.</span><!-- footnote --> im Backend
+        angezeigt wird, wie auch der Mediathek selbst, auch schon eifrig benutzt werden.
+        Dies geschieht über die genannten &lt;picture...&gt; container, so dass auch das
+        Backend schon sehr eindeutig vom schnelleren Ladeverhalten durch dieses HTML Container
+        Format profitiert.
+        Das Kapitel Mediathek auf Seite <span class="pageref"><a href="#mediathek">4.5 - Mediathek</a></span>
+        und folgend, bringt Sie diesbezüglich auf den letzten Stand.
+    </span>
+
+    <span class="box">
         Wenn Sie einen Beitrag speichern, wird Serendipity in einem eigenen Bereich
         einige Aktionen durchführen.
         Zuerst wird der Artikel vollständig in der Datenbank gespeichert. Danach
