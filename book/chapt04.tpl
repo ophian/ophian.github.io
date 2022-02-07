@@ -2142,7 +2142,14 @@ auf diese Möglichkeit zu verzichten, und lieber die geschilderten Variations Fo
 ihr Ausgabeformat zu benutzen.<br>
 <br>
 AVIF wurde also entwickelt, um PNG, JPEG und WebP bei allen Bildern, Fotos und Grafiken zu
-ersetzen, das heißt, um lizenzfreie Bilder mit einer besseren Komprimierungseffizienz bereitzustellen.
+ersetzen, das heißt, um lizenzfreie Bilder mit einer besseren Komprimierungseffizienz bereitzustellen. [*]
+<span class="footnote"><i class="fa fa-info-circle"></i> Für PNG muß gesagt werden, dass
+AVIF bei der Komprimierungseffizienz, der Dateigröße und der Kodierungs-/Dekodierungszeit
+nicht ganz so effizient ist. Dies liegt daran, dass AVIF sich darauf konzentriert, als verlustbehaftetes
+Komprimierungsformat überlegen zu sein. PNG hat (noch) eine bessere Unterstützung in allen Browsern
+und eine schnellere Kodierungs-/Dekodierungsleistung (insbesondere bei der Dekodierung).
+Aus diesem Grunde werden sie bei PNG Dateien auch relativ häufiger eine bessere Komprimierung
+erleben. Gerade der unten gezeigte Vergleichs-Screenshot ist dafür ein Beispiel. </span><!-- footnote -->
 Es basiert auf vier verschiedenen Technologien. AVIF verwendet Basiselemente des ISO BMFF Byte Stream
 Formats, kombiniert es mit IFF/HEIF für bildspezifische und codec-agnostische Funktionen, verwendet
 MIAF für zusätzliche strukturelle Einschränkungen von ISOBMFF und benutzt die Abbildung des AV1 KeyFrame.
