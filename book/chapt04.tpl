@@ -1434,8 +1434,8 @@ der Plugins in den folgenden Kapiteln entnehmen.</span>
 
     <span class="box">
         Details zum Hochladen von Dateien finden Sie im Kapitel <span class="reference">Medien
-        hinzufuegen</span> auf Seite <span class="pageref"><a href="#Medien hinzufuegen">Medien hinzufuegen</a></span>, die auch für das
-        Mediathek-Popup gelten.
+        hinzufuegen</span> auf Seite <span class="pageref"><a href="#Medien hinzufuegen">Medien hinzufügen</a></span>,
+        die auch für das Mediathek-Popup gelten.
     </span>
 </span>
 </p>
