@@ -3059,6 +3059,7 @@ Mediathek-Dateien verwaltet werden.</p>
 <p>Neben allen Verzeichnissen, die jeweils wie im Dateisystem verschachtelt
 untereinander angezeigt sind, sehen Sie drei Buttons zum
 <span class="mbold">Bearbeiten</span>, <span class="mbold">Duplizieren</span>
+und zum <span class="mbold">Löschen</span> eines Verzeichnisses.</p>
 
 <p>Ein Klick auf den Button <span class="mbold">Neues Verzeichnis anlegen</span> öffnet eine
 Seite, in der Sie den <span class="mbold">Namen</span> eines neuen Verzeichnisses sowie
