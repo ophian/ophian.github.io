@@ -946,10 +946,11 @@ Artikel veröffentlichen.</span>
             <img src="img/toolbar-standard-ckecore.bl.png">
             <span class="asfigcaption">Abbildung 4.4a: Inhalt: Neuer Eintrag (aktivierter Kern WYSIWYG-Editor - Basic Toolbar im Dark Mode, Spracheinstellung: EN)</span>
         </span>
+
         <span class="box">
             Alternativ hier noch einmal die Standard Toolbar des <span class="mbold">CKEditor Plus</span>
             Plugins in der CKEditor Version 4.8 aus dem Dezember 2017.
-            Das CKEditor Plus Plugin bietet nur 3 Auswahlmöglichkeiten für die Toolbar: Standard, Full oder Basic.
+            Das CKEditor Plus Plugin bietet 3 Auswahlmöglichkeiten für die Toolbar: Standard, Full oder Basic.
         </span>
 
         <span class="box" id="fig-toolbar-ps">
