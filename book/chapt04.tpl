@@ -1280,8 +1280,8 @@ der Plugins in den folgenden Kapiteln entnehmen.</span>
     </span>
 
     <span class="box" id="fig-ml_popup">
-		<img src="img/ml_popup.png">
-		<span class="asfigcaption">Abbildung 4.5: Mediathek-Popup zum Einfügen einer Datei</span>
+        <img src="img/ml_popup.png">
+        <span class="asfigcaption">Abbildung 4.5: Mediathek-Popup zum Einfügen einer Datei</span>
     </span>
 
     <span class="box">
@@ -1380,8 +1380,8 @@ der Plugins in den folgenden Kapiteln entnehmen.</span>
     </span>
 
     <span class="box" id="fig-ml_galpopup">
-		<img src="img/ml_galpopup.png">
-		<span class="asfigcaption">Abbildung 4.7: Mediathek-Popup zum Einfügen einer Galerie</span>
+        <img src="img/ml_galpopup.png">
+        <span class="asfigcaption">Abbildung 4.7: Mediathek-Popup zum Einfügen einer Galerie</span>
     </span>
 
     <span class="box">
@@ -1469,8 +1469,8 @@ der Plugins in den folgenden Kapiteln entnehmen.</span>
     </span>
 
     <span class="box" id="fig-ml_popup2-end.png">
-		<img src="img/ml_popup2-end.png">
-		<span class="asfigcaption">Abbildung 4.6e: Mediathek-Popup zum Einfügen von Bildern als &lt;img...&gt; oder über &lt;picture...&gt; container HTML tags</span>
+        <img src="img/ml_popup2-end.png">
+        <span class="asfigcaption">Abbildung 4.6e: Mediathek-Popup zum Einfügen von Bildern als &lt;img...&gt; oder über &lt;picture...&gt; container HTML tags</span>
     </span>
 
     <span class="box">
