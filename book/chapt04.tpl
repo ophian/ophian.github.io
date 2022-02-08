@@ -2644,8 +2644,8 @@ aller in der Mediathek eingetragenen Dateien aufgerufen.</p>
 <span class="reference">Mediathek-Popup</span> auf Seite <span class="pageref"><a href="#mediathek-popup">Mediathek-Popup</a></span>
 gesehen, dort jedoch noch ohne Bearbeitungsoptionen für jede Datei.</p>
 
-<p>Die Übersicht besteht aus einem Kopfbereich zur Suche in der
-Mediathek und darunter einer zweispaltigen Ansicht aller von Ihnen
+<p>Die Übersicht besteht aus einem Kopfbereich verschiedenster Einstellungen für die
+Mediathek und darunter einer mehrspaltigen Ansicht aller von Ihnen
 hochgeladenen Dateien, oder eines einzelnen Ordners.</p>
 
 <figure id="fig-ml_directory">
