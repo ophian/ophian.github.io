@@ -2369,7 +2369,10 @@ einem Schritt hochladen sollten. Je nach Einstellung des Webservers
 dürfen Sie ein gewisses Limit (meist 4MB) nicht überschreiten.</p>
 
 <p>Inzwischen gibt es aber die Möglichkeit beim Durchsuchen gleich mehrere Bilder <em>“In-Once”</em> zugleich emporzuladen,
-die, durch ein kleines Javascript Programm gesteuert, automatisch abgearbeitet werden.</p>
+die, durch ein kleines Javascript Programm gesteuert, automatisch abgearbeitet werden. Im Zuge der in Kapitel 5.0 erklärten
+Veränderungen (siehe oben) mit den AVIF Variation Dateien und der mitunter erheblich Kodierungszeit,
+sollten sie von mehrfachen Uploads vorerst absehen, wenn Sie dies Feature nutzen, auch wenn das hier genannte Javascript
+nur eines zur Zeit bearbeitet.</p>
 
 <p>Nachdem Sie also die Dateien ausgewählt haben, haben Sie zwei
 Möglichkeiten der Speicherung. Ein Klick auf <span class="mbold">Los!</span> speichert die
