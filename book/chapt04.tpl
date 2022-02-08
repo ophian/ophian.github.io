@@ -2676,9 +2676,8 @@ Tool, um damit schnell einen Überblick zu gewinnen, oder ein gesuchtes Bild zu 
     <figcaption>Abbildung 4.14a: Mediathek: Symbolleiste</figcaption>
 </figure>
 
-<p>In dem zweispaltigen Bereich wird pro Box ein Objekt aus der
-Mediathek dargestellt, mit den jeweiligen Informationen und
-Optionen dieses Objekts:</p>
+<p>In dem mehrpaltigen Bereich wird pro Box ein Objekt aus der Mediathek dargestellt,
+mit den jeweiligen Informationen und Optionen dieses Objekts:</p>
 
 <p class="desc">
 <span class="tag-box invisible">
