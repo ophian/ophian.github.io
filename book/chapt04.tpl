@@ -2528,31 +2528,52 @@ wird, falls das Bild aus irgendwelchen Gründen nicht im Frontend angezeigt werd
 <span class="tag-box invisible">
     <span class="inline-tag">Medieneigenschaften@Medien-Eigenschaften!Verzeichnis</span>
 </span><!-- tagbox -->
-<span class="item mbold">Verzeichnis</span><!-- menuitem -->
+<span class="item mbold">Verzeichnis oder Bildformat</span><!-- menuitem -->
 <span class="desc-info">
+
+    <span class="box">
+        Wenn eine Dateiveränderung erforderlich ist, verwenden Sie <span class="mbold">entweder</span> die Änderung
+        des Verzeichnisses <span class="mbold">oder</span> die Änderung der Bildformatauswahl per Übertragung. Sie
+        können beide <span class="mbold">nicht</span> gleichzeitig verändern! Dies funktioniert ebenfalls nicht, wenn
+        bereits ein Dateiname mit diesem neuen Format existiert und sollte deshalb vorher überprüft werden!
+    </span>
+
     <span class="box">
         Das Auswahlfeld <span class="mbold">Verzeichnis</span> bestimmt, in welchem Verzeichnis eine
         Datei gespeichert wird. Wenn Sie später eine Datei verschieben wollen,
         können Sie das zugeordnete Verzeichnis an dieser Stelle ändern.
     </span>
 
+    <span class="box">
+        Das Auswahlfeld <span class="mbold">Bildformat</span> bestimmt,
+        in welches andere Bildformat das Bild konvertiert werden soll.
+    </span>
+
     <span class="tag-box invisible">
         <span class="inline-tag">Medien!verschieben</span>
     </span>
     <span class="box">
-        Bei der Änderung werden die Datei sowie das Vorschaubild in das
-        gewünschte Verzeichnis auf dem Server physikalisch verschoben, der
-        alte Speicherort existiert dann also nicht mehr. Serendipity versucht
-        automatisch alle Ihre Artikel anzupassen, die das verschobene Bild
-        referenziert haben.[*]
-        <span class="footnote"><i class="fa fa-info-circle"></i> Dies funktioniert nur bei Einsatz des
-        MySQL-Datenbanksystems und nicht bei PostgreSQL oder SQLite, da
-        dafür reguläre Ausdrücke zur Datenbankabfrage eingesetzt werden
-        müssen, die nur bei MySQL verfügbar sind.</span><!-- footnote --> Prüfen Sie also bitte
-        sicherheitshalber, ob alle Ihnen bekannten Verweise auf die Datei nach
-        dem Verschieben noch stimmen. Generell empfiehlt es sich, nachdem Sie
-        eine Datei bereits eingebunden haben, den Speicherort der Datei nicht
-        mehr zu verändern. Folgerichtig ist eine gut durchdachte Planung des Dateiverzeichnisses durchaus etwas wert!
+        Bei beiden Veränderung werden die Original Datei, sowie das Vorschaubild in das
+        gewünschte Verzeichnis auf dem Server physikalisch verschoben, oder eben konvertiert und
+        der alte Speicherort bzw. der komplette Name existiert dann also nicht mehr. Serendipity
+        versucht nun automatisch alle Ihre Artikel anzupassen, die das verschobene oder veränderte
+        Bild referenziert haben. Prüfen Sie also bitte sicherheitshalber, ob alle Ihnen bekannten
+        Verweise auf die Datei nach dem Verschieben bzw der Konvertierung noch stimmen. Generell
+        empfiehlt es sich, nachdem Sie eine Datei bereits eingebunden haben, den Speicherort der
+        Datei als auch ihre Extension, alöso das Bildformat nicht mehr zu verändern.
+        Folgerichtig ist eine gut durchdachte Planung ihrer Mediathek, des Dateiverzeichnisses und
+        des Bilduploads durchaus etwas Wert!
+    </span>
+
+    <span class="tag-box invisible">
+        <span class="inline-tag">Medien!konvertieren</span>
+    </span>
+    <span class="box">
+        Bei dieser Konvertierung wird die Datei mit all ihren Formaten und Variationen
+        physikalisch, als auch in der Mediendatenbank verändert. Natürlich werden entsprechende
+        Blogeinträge auf nötige Veränderunegn untersucht.
+        WEBP / AVIF Formatvariationen von Originaldateien existieren wahrscheinlich bereits
+        und sind von dieser Änderung nicht betroffen.
     </span>
 </span>
 </p>
