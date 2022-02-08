@@ -2428,7 +2428,7 @@ lieber mittels FTP-Programm auf den Server laden.</p>
 <h3 class="subsection" id="mediendaten-eigenschaften-angeben">Mediendaten: Eigenschaften angeben</h3>
 
 <p class="tagging invisible">
-<span class="label invisible" id="Mediendaten-Eigenschaften hinzufuegen">Mediendaten-Eigenschaften hinzufuegen</span>
+<span class="label invisible" id="Mediendaten-Eigenschaften hinzufuegen">Mediendaten-Eigenschaften hinzufügen</span>
 <span class="tag-box invisible">
     <span class="inline-tag">Mediendaten!Eigenschaften hinzufügen|see{Backend, Mediendaten: Eigenschaften hinzufügen}</span>
     <span class="inline-tag">Backend!Mediendaten!Eigenschaften hinzufügen</span>
