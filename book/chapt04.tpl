@@ -2781,18 +2781,15 @@ mit den jeweiligen Informationen und Optionen dieses Objekts:</p>
 
 <p class="desc">
 <span class="item mbold">Vorschaubild/Icon</span><!-- menuitem -->
-<span class="desc-info">Bei Bildern sehen Sie in der Mitte der Übersichtsbox ein Vorschaubild.
+<span class="desc-info">Bei Bildern sehen Sie oben das Vorschaubild.
 Bei anderen Dateien kann hier ein Symbol für das jeweilige Dateiformat stehen.</span>
 </p>
 
 <p class="desc">
 <span class="item mbold">Datei-Informationen</span><!-- menuitem -->
-<span class="desc-info">Ehemals direkt sichtbare Dateinformationen,
-wie Dateiname, Eigentümer und Dateigröße wurden mit Serendipity 2.0
-in den Info Layer der Symbolleiste beordert, welcher sich bei Klick
-auf das <span class="mbold">Informations</span>-Icon-Symbol über dem
-Vorschaubild öffnet und schließt. (<em>Siehe vorhergehende Abbildung 4.14a.</em>)
-Auf den Eigentümer als relevante Informationsausgabe wurde verzichtet,
+<span class="desc-info">Relevante und vorhandene Dateinformationen,
+werden direkt darunter angezeigt.
+Auf einen Eigentümer Informationsausgabe wurde verzichtet,
 da seit vielen Serendipity Versionen keine Eigentümer Struktur für
 Medieninhalte mehr vergeben wird.</span>
 </p>
