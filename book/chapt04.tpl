@@ -3085,7 +3085,7 @@ Auswahlfelder für die <span class="mbold">Leserechte</span> und die <span class
 </figure>
 
 <p>Diese Zugriffsrechte bestimmen ausschließlich die Zugriffsmöglichkeiten
-innerhalb Serendipitys. Wenn Ihre Redakteure auch per FTP Zugriff auf die
+innerhalb Serendipitys. Wenn Ihre Redakteure allerdings auch per FTP Zugriff auf die
 Dateien der Mediathek haben, entzieht sich dies Serendipitys
 Zugriffsmöglichkeiten.</p>
 
@@ -3122,6 +3122,12 @@ bestehenden Verzeichnisstruktur Rechte vergeben, möchten Sie vielleicht
 gerne diese Rechte auch für alle Unterverzeichnisse identisch vergeben.
 Dafür müssen Sie das Ankreuzfeld <span class="mbold">Identische Rechte auch auf alle
 Unterverzeichnisse anwenden</span> aktivieren.</p>
+
+<p>Standardmäßig stehen die Lese- / Schreibrechte auf "0", das heißt "Alle Autoren".
+Setzen Sie sie aber als Administrator beispielsweise auf Redakteur, gleich "1", können
+Sie anschließend nicht mehr zurück wechseln, da Sie sich selbst das Recht entzogen haben.
+Achten Sie also darauf, <span class="mbold">höherrangige Usergruppen</span> immer mit zu <span class="mbold">inkludieren</span>, wenn Sie
+selbst weiterhin darauf Zugriff haben sollen. <span class="mbold">Und das wollen Sie!</span></p>
 
 <p>
 <span class="tag-box invisible">
