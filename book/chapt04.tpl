@@ -2714,17 +2714,19 @@ mit den jeweiligen Informationen und Optionen dieses Objekts:</p>
     </span>
 
     <span class="box">
-        Bei Bilddateien sehen Sie nun drei weitere Buttons: Das Symbol der <span class="mbold">Zwei Pfeile</span>
-        ermöglicht es, ein Bild zu vergrößern oder zu verkleinern. Bei einem Klick
-        darauf öffnet sich eine Seite, die das Originalbild und dessen
-        Originalauflösung darstellt, und Sie können in einer Texteingabebox die
-        neue Auflösung eintragen.
+        Bei Bilddateien sehen Sie nun drei weitere Buttons: Das <span class="mbold">Diagonale Pfeile</span> Symbol
+        ermöglicht es, ein Bild zu vergrößern oder zu verkleinern. Bei einem Klick darauf
+        öffnet sich eine Seite, die das Originalbild und dessen Originalauflösung darstellt,
+        sie aber skaldiert (d.h. Seitengerecht verkleinert) anzeigt,
+        und Sie können in einer Texteingabebox die neue Auflösung eintragen.
     </span>
 
     <span class="box">
         <span class="sub-box indent">Die Auswahlbox <span class="mbold">Proportionen beibehalten</span>
-        kann hier aktiviert werden und bewirkt, dass das Seitenverhältnis
-        einer Datei bei der Verkleinerung beibehalten wird. Siehe nachfolgend: Abbildung 4.14b.</span>
+        sollte hier aktiviert sein und bewirkt, dass das Seitenverhältnis einer Datei bei der
+        Verkleinerung beibehalten wird. Die Auswahlbox <span class="mbold">Variationsformat ändern</span>,
+        sollte nur aktiviert sein, wenn Sie das eigentliche Proportionsverhältnis des Bildes verändern.
+        Näheres wird in den Info Boxen der Seite selbst erläutert. Siehe nachfolgend: Abbildung 4.14b.</span>
     </span>
 
     <span class="box">
@@ -2732,17 +2734,18 @@ mit den jeweiligen Informationen und Optionen dieses Objekts:</p>
         (<span class="mbold">Rotation nach links</span>, <span class="mbold">Rotation
         nach rechts</span>) drehen ein Bild im oder gegen den Uhrzeigersinn jeweils um
         90 Grad. Sie können daher ein im Querformat hochgeladenes Bild ins Hochformat
-        umwandeln und umgekehrt.
+        umwandeln und umgekehrt. Achten Sie auf die gemachten Einschränkungen bezüglich
+        der Nutzung von AVIF Variations Dateien.
     </span>
 
     <span class="box">
-        Der vorletzte Button ist nun wieder für jeden Dateityp identisch.
+        Der nächste Button ist nun wieder für jeden Dateityp identisch.
         Das <span class="mbold">Picture-Symbol</span> öffnet die Medien-Eigenschaften einer Datei
-        (siehe Seite <span class="pageref"><a href="#Mediendaten-Eigenschaften hinzufuegen">Mediendaten-Eigenschaften hinzufuegen</a> und übernächste Abbildung 4.14c</span>).
+        (siehe Seite <span class="pageref"><a href="#Mediendaten-Eigenschaften hinzufuegen">Mediendaten-Eigenschaften hinzufügen</a> und übernächste Abbildung 4.14c</span>).
     </span>
 
     <span class="box">
-        Das Löschen eines einzelnen Bildes kann mit dem letzten Button dieser Reihe,
+        Das Löschen eines einzelnen Bildes kann mit dem (vor-)letzten Button dieser Reihe,
         über das allseits verwendete <span class="mbold">Mülleimer</span>-Symbol,
         oder global für mehrere Bilder über die Löschung mittels Checkbox und des Button
         <span class="tag-box invisible">
@@ -2750,6 +2753,18 @@ mit den jeweiligen Informationen und Optionen dieses Objekts:</p>
         </span>
         <span class="mbold">Auswahl umkehren</span> und <span class="mbold">Löschen</span>
         am Seitenende geschehen. Siehe vorhergehende Abbildung 4.14a.
+    </span>
+
+    <span class="box">
+        Bilddateien mit einer Bild-Variation (WebP/AVIF)) zeigen einen weiteren Button, der auf
+        Klick das größere Bild in der Variation anzeigt. Das macht zwar auch der Klick auf das
+        gezeigte Vorschau Bild selbst auch, doch ist es dort mit seinem Originalnamen ausgezeichnet.
+        Da aber, wie bereits erwähnt, das Styx Backend vollends auf die Ansichts Möglichkeiten
+        von &lt;picture&gt; Containern setzt, wird auch hier schon das kleinstmögliche der
+        möglichen Variationen geladen und angezeigt. Der Name allerdings orientert sich am
+        Originalbild, so dass Sie in etwa das sehen: "Vollbild: Blumenkohl.jpeg (AVIF)".
+        Nur die Auszeichnung in der Klammer deutet auf die Variation hin. Drücken Sie aber
+        den Variations Button, so sehen Sie: "Bild Variation: Blumenkohl.avif, 2500x1666px".
     </span>
 </span>
 </p>
