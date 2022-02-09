@@ -3258,11 +3258,16 @@ behinderten. Es ist einfach ein komplizierter Prozess und jede weitere Neuerung 
 es noch komplizierter. Und so finden sich in den Randbereichen bis heute Prozesse,
 die weiter und immer weiter optimiert werden müssen.</p>
 
-<p>Auch wurde ein neuer Menüpunkt <span class="mbold">Konvertiere alte
-Vorschaubild-Namen</span> hinzugefügt, der es ermöglicht, einen Abgleich und Umschrieb
-der Mediendaten auf eine veränderte Vorschaubild-Endung durchzuführen,
-falls Sie sich mittendrin entscheiden sollten, die Serendipity <code>.serendipityThumb</code>
-oder Styx <code>.styxThumb</code> Standardeinstellung des Vorschaubild-"Präfixes" zu verändern.</p>
+<p>Auch wurde ein neuer Menüpunkt <span class="mbold">Konvertiere alte Vorschaubild-Namen</span>
+hinzugefügt, der es ermöglicht, einen Abgleich und Umschrieb der Mediendaten auf eine veränderte
+Vorschaubild-Endung durchzuführen, falls Sie sich mittendrin entscheiden sollten, die Serendipity
+<code>.serendipityThumb</code> oder Styx <code>.styxThumb</code> Standardeinstellung des
+Vorschaubild-"Präfixes" zu verändern.
+Diese Option ist solange nicht zu sehen, wie das bisherige <em>thumbSuffix</em> nicht geändert
+wurde und schon mindestens eine neue Mediatheksdatei neu damit erstellt wurde. Sie konvertiert
+bestehende Thumbnails, die nicht nach dem aktuellen thumbSuffix-Schema benannt sind: <em>fooThumb</em>
+(als Beispiel), in der Datenbank, im Dateisystem und bereits in Einträgen verwendet, in das gleiche
+Suffix-Benennungsschema.</p>
 
 <p>Das sollten Sie aber nicht unbedarft tun, denn die Möglichkeiten eines riesigen Kuddelmuddels
 sind groß. Ein wenig Erfahrung und vielleicht das eine oder andere Backup der Mediathek, sowohl
