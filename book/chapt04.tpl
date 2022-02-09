@@ -3265,7 +3265,7 @@ Vorschaubild-Endung durchzuführen, falls Sie sich mittendrin entscheiden sollte
 Vorschaubild-"Präfixes" zu verändern.
 Diese Option ist solange nicht zu sehen, wie das bisherige <em>thumbSuffix</em> nicht geändert
 wurde. Wenn es geändert wurde, muss schon mindestens eine neue Mediatheksdatei neu damit erstellt
-worden sein damit sie in der Wartung und der Bildersynchronisationsaufgaben auftaucht. Sie konvertiert
+worden sein damit sie in der Wartung und den Optionen der Bildersynchronisation auftaucht. Sie konvertiert
 bestehende Thumbnails, die nicht nach dem aktuellen thumbSuffix-Schema benannt sind: <em>fooThumb</em>
 (als Beispiel), in der Datenbank, im Dateisystem und bereits in Einträgen verwendet, in das gleiche
 Suffix-Benennungsschema.</p>
