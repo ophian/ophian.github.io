@@ -3273,7 +3273,7 @@ Dann müssen Sie die Thumbname Präfix Auszeichnung überall gleich haben! Anson
 und Replace Anweisungen in ihren Blogeinträgen möglicherweise Amok.</p>
 
 <p>Der Punkt "<em>Erstelle/Lösche alle zusätzlichen Picture-Format Variationen</em>" ist die Aufgabe
-gedacht, wenn Sie alle Bild Variationen auf ein mal löschen und danach neu erstellen lassen wollen.
+gedacht, wenn Sie alle Bild Variationen auf einmal löschen und danach neu erstellen lassen wollen.
 Je nach Zustand (haben oder nicht haben) wird aus diesem Punkt ein "Löschen" oder "Erstellen".
 Für das Erstellen gelten natürlich alle bisher gemachten Einschränkungen und Bedachtsamkeitem
 bezüglich Auslastung und Fehlerquellen, insbesondere wenn Sie die AVIF Option aktiv gesetzt haben.
