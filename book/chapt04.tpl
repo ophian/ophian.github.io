@@ -3264,7 +3264,8 @@ Vorschaubild-Endung durchzuführen, falls Sie sich mittendrin entscheiden sollte
 <code>.serendipityThumb</code> oder Styx <code>.styxThumb</code> Standardeinstellung des
 Vorschaubild-"Präfixes" zu verändern.
 Diese Option ist solange nicht zu sehen, wie das bisherige <em>thumbSuffix</em> nicht geändert
-wurde und schon mindestens eine neue Mediatheksdatei neu damit erstellt wurde. Sie konvertiert
+wurde. Wenn es geändert wurde, muss schon mindestens eine neue Mediatheksdatei neu damit erstellt
+worden sein damit sie in der Wartung und der Bildersynchronisationsaufgaben auftaucht. Sie konvertiert
 bestehende Thumbnails, die nicht nach dem aktuellen thumbSuffix-Schema benannt sind: <em>fooThumb</em>
 (als Beispiel), in der Datenbank, im Dateisystem und bereits in Einträgen verwendet, in das gleiche
 Suffix-Benennungsschema.</p>
