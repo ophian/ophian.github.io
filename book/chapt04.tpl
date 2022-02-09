@@ -3221,18 +3221,19 @@ oder verändern müssen.</p>
 <span class="tag-box invisible">
     <span class="inline-tag">Performance</span>
 </span>
-Wenn Sie besonders viele Dateien und Verzeichnisse in der Mediathek
-gespeichert haben, kann die Ausführung dieser Funktion möglicherweise
-sehr lange dauern oder gar zu Server/PHP-Timeouts führen. Wenn dies
-passiert, sollten Sie entweder überlegen, alte Dateien in der
-Mediathek zu löschen, oder Sie können alternativ in der
-Serendipity-Konfiguration die automatische Synchronisierung der
-Mediathek aktivieren (siehe Seite <span class="pageref"><a href="#MDB-Synchronisation">MDB-Synchronisation</a></span>).
-Sobald die automatische Synchronisierung aktiviert ist, werden extern
-hochgeladene Dateien beim Betrachten der Mediathek automatisch
-importiert. Dies beansprucht weniger Zeit, da bei einem etwaigen
-Verbindungsabbruch an der Stelle fortgefahren werden kann, bei der zuletzt
-abgebrochen wurde.</p>
+Wenn Sie besonders viele Dateien und Verzeichnisse in der Mediathek gespeichert haben,
+kann die Ausführung dieser Funktion möglicherweise sehr lange dauern oder gar zu
+Server/PHP-Timeouts führen. Wenn dies passiert, sollten Sie entweder überlegen, alte
+Dateien in der Mediathek zu löschen, oder Sie können alternativ in der
+Serendipity-Konfiguration die automatische Synchronisierung der Mediathek aktivieren
+(siehe Seite <span class="pageref"><a href="#MDB-Synchronisation">MDB-Synchronisation</a></span>).
+Sobald die automatische Synchronisierung aktiviert ist, werden extern hochgeladene
+Dateien beim Betrachten der Mediathek automatisch importiert. Dies beansprucht
+weniger Zeit, da bei einem etwaigen Verbindungsabbruch an der Stelle fortgefahren
+werden kann, bei der zuletzt abgebrochen wurde. Ein Löschen von bereits in Artikeln
+benutzten Mediendateien ist nur bedingt anzuraten, denn diese bedingt ein sauberes System.
+Die Fehlerquellen - gerade in alten Blogs - mit alten Fehlern und weiteren Ungereimtheiten
+machen dies zu einem gewagten Spiel.</p>
 
 <p>Ein weiteres Feature der Funktion <span class="mbold">Vorschauen erneuern</span>
 ist, dass alle Vorschaugrafiken von Bildern überprüft und ggf. neu erstellt werden.
