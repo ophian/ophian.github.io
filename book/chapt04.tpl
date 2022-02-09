@@ -3257,7 +3257,7 @@ es noch komplizierter. Und so finden sich in den Randbereichen bis heute Prozess
 die weiter und immer weiter optimiert werden müssen.</p>
 
 <p>Auch wurde ein neuer Menüpunkt <span class="mbold">Konvertiere alte
-Vorschaubild-Namen</span> hinzugefügt, der es ermöglicht, einen Abgleich
+Vorschaubild-Namen</span> hinzugefügt, der es ermöglicht, einen Abgleich und Umschrieb
 der Mediendaten auf eine veränderte Vorschaubild-Endung durchzuführen,
 falls Sie sich mittendrin entscheiden sollten, die Serendipity <code>.serendipityThumb</code>
 oder Styx <code>.styxThumb</code> Standardeinstellung des Vorschaubild-"Präfixes" zu verändern.</p>
