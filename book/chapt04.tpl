@@ -3242,12 +3242,13 @@ der Serendipity-Konfiguration (siehe Seite <span class="pageref"><a href="#Thumb
 die Auflösung der Vorschaugrafiken einmal verändert haben (standardmäßig 400 Pixel),
 könnten sämtliche Vorschaubilder mit der neuen Auflösung neu berechnet werden.</p>
 
-<p>Die automatische Synchronisierung kann Änderungen in der
-Vorschaubild-Auflösung nicht automatisch durchführen. Wenn also Ihre
-Mediathek zu groß geworden ist, um die Ausführung der Funktion
-<span class="mbold">Vorschauen erneuern</span> erfolgreich zu beenden,
-müssen Sie die Vorschaubilder leider manuell mittels anderer
-Bildverwaltungsprogramme verkleinern.</p>
+<p>Die automatische Synchronisierung kann Änderungen in der Vorschaubild-Auflösung
+nicht automatisch durchführen. Wenn also Ihre Mediathek zu groß geworden ist, um die
+Ausführung der Funktion <span class="mbold">Vorschauen erneuern</span> erfolgreich zu beenden,
+müssen Sie die Vorschaubilder leider manuell mittels anderer Bildverwaltungsprogramme verkleinern.
+Allerdings kann die genannte Funktion durchaus mehrfach aktualisiert werden wenn eventuelle Fehler
+auftreten oder es gar einen Abruch aus Zeitüberschreitung gab, denn es werden ja jeweils nur die
+neueren oder fehlenden Bilder synchronisiert.</p>
 
 <p>Mit <span class="mbold">Serendipity Styx</span> wurden schon allerlei Bugs und
 Ungereimtheiten gefixt, die die fehlerfreie Funktion der Mediendaten-Synchronisation,
