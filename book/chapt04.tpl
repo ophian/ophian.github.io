@@ -3249,15 +3249,12 @@ Mediathek zu groß geworden ist, um die Ausführung der Funktion
 müssen Sie die Vorschaubilder leider manuell mittels anderer
 Bildverwaltungsprogramme verkleinern.</p>
 
-<p>Mit <span class="mbold">Serendipity Styx</span> in den Versionen 2.1 bis 2.4
-wurden allerlei Bugs und Ungereimtheiten gefixt, die die fehlerfreie Funktion
-der Mediendaten-Synchronisation, und/oder die korrekte Konvertierung der Einträge
-die bereits Mediendaten enthielten, behinderten.
-Auch wurde ein neuer Menüpunkt <span class="mbold">Konvertiere alte
-Vorschaubild-Namen</span> hinzugefügt, der es ermöglicht, einen Abgleich
-der Mediendaten auf eine veränderte Vorschaubild-Endung durchzuführen,
-falls Sie sich mittendrin entscheiden, die Serendipity <code>.serendipityThumb</code>
-oder Styx <code>.styxThumb</code> Standardeinstellung zu verändern.</p>
+<p>Mit <span class="mbold">Serendipity Styx</span> wurden schon allerlei Bugs und
+Ungereimtheiten gefixt, die die fehlerfreie Funktion der Mediendaten-Synchronisation,
+und/oder die korrekte Konvertierung der Einträge die bereits Mediendaten enthielten,
+behinderten. Es ist einfach ein komplizierter Prozess und jede weitere Neuerung macht
+es noch komplizierter. Und so finden sich in den Randbereichen bis heute Prozesse,
+die weiter und immer weiter optimiert werden müssen.</p>
 
 <p>Auch wurde ein neuer Menüpunkt <span class="mbold">Konvertiere alte
 Vorschaubild-Namen</span> hinzugefügt, der es ermöglicht, einen Abgleich
