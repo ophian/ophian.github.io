@@ -3259,6 +3259,12 @@ der Mediendaten auf eine veränderte Vorschaubild-Endung durchzuführen,
 falls Sie sich mittendrin entscheiden, die Serendipity <code>.serendipityThumb</code>
 oder Styx <code>.styxThumb</code> Standardeinstellung zu verändern.</p>
 
+<p>Auch wurde ein neuer Menüpunkt <span class="mbold">Konvertiere alte
+Vorschaubild-Namen</span> hinzugefügt, der es ermöglicht, einen Abgleich
+der Mediendaten auf eine veränderte Vorschaubild-Endung durchzuführen,
+falls Sie sich mittendrin entscheiden sollten, die Serendipity <code>.serendipityThumb</code>
+oder Styx <code>.styxThumb</code> Standardeinstellung des Vorschaubild-"Präfixes" zu verändern.</p>
+
 </section><!-- section.sub end -->
 
 </section><!-- section.index end -->
