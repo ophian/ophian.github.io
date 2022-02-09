@@ -2760,7 +2760,7 @@ mit den jeweiligen Informationen und Optionen dieses Objekts:</p>
     </span>
 
     <span class="box">
-        Bilddateien mit einer Bild-Variation (WebP/AVIF)) zeigen einen weiteren Button, der auf
+        Bilddateien mit einer Bild-Variation (WebP/AVIF) zeigen einen weiteren Button, der auf
         Klick das größere Bild in der Variation anzeigt. Das macht zwar auch der Klick auf das
         gezeigte Vorschau Bild selbst auch, doch ist es dort mit seinem Originalnamen ausgezeichnet.
         Da aber, wie bereits erwähnt, das Styx Backend vollends auf die Ansichts Möglichkeiten
