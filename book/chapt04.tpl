@@ -3265,9 +3265,9 @@ oder Styx <code>.styxThumb</code> Standardeinstellung des Vorschaubild-"Präfixe
 <p>Das sollten Sie aber nicht unbedarft tun, denn die Möglichkeiten eines riesigen Kuddelmuddels
 sind groß. Ein wenig Erfahrung und vielleicht das eine oder andere Backup der Mediathek, sowohl
 real im Filesystem als auch der Datenbank, können nicht schaden, um eventuelle Schäden zu verhindern.
-Sie können ohne weiteres mit zwei verschiedenen Thumbnail Auszeichnungen leben, wenn es sich durch
-ein Update eines alten Blogs so ergeben hat. Nur in einem Fall ist die Synchronizität im Vorwege
-wirklich erforderlich, wenn Sie die "<em>Erneuere alle [...]</em>" Option laufen lassen wollen.
+Sie können <strong>ohne weiteres</strong> mit zwei verschiedenen Thumbnail Auszeichnungen leben,
+wenn es sich durch ein Update eines alten Blogs so ergeben hat. Nur in einem Fall ist die Synchronizität
+im Vorwege wirklich erforderlich, wenn Sie die "<em>Erneuere alle [...]</em>" Option laufen lassen wollen.
 Dann müssen Sie die Thumbname Präfix Auszeichnung überall gleich haben! Ansonsten laufen die Find
 und Replace Anweisungen in ihren Blogeinträgen möglicherweise Amok.</p>
 
