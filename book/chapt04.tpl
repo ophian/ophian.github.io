@@ -3274,6 +3274,11 @@ wirklich erforderlich, wenn Sie die "<em>Erneuere alle [...]</em>" Option laufen
 Dann müssen Sie die Thumbname Präfix Auszeichnung überall gleich haben! Ansonsten laufen die Find
 und Replace Anweisungen in ihren Blogeinträgen möglicherweise Amok.</p>
 
+<p>Der Punkt "<em>Erstelle/Lösche alle zusätzlichen Picture-Format Variationen</em>" ist für
+folgende Aufgabe gedacht, wenn Sie alle Bild Variationen löschen und danach neu erstellen lassen
+wollen. Je nach Zustand (haben oder nicht haben) wird aus diesem Punkt ein "Löschen" oder "Erstellen".
+Löschen Sie ein Bild werden natürlich auch die Variationen gelöscht. Das ist also hier <strong>nicht</strong> gemeint!</p>
+
 </section><!-- section.sub end -->
 
 </section><!-- section.index end -->
