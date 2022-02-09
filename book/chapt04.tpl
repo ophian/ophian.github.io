@@ -3200,6 +3200,14 @@ prüfen, ob die Datei bereits (oder noch) in der Mediendatenbank vorhanden
 ist. Etwaige gelöschte Dateien auf dem Server werden daraufhin aus der
 Mediathek entfernt und neue Dateien importiert.</p>
 
+<p>Auch schon der normale Aufruf der Mediathek selbst kann ihre Daten automatisch
+synchronisieren (siehe Seite <span class="pageref"><a href="#MDB-Synchronisation">MDB-Synchronisation</a></span>),
+ist aber mit der genannten Option nicht zu hundert Prozent identisch.
+Es kann daher ratsam sein, dann und wann die erste Option der Mediathek
+Wartungsaufgaben ("<em>Behalte alle vorhandenen Vorschaubilder</em>") laufen zu
+lassen, damit auch kleinste Unebenheiten bereinigt werden und Sie über diese auch
+informiert werden.</p>
+
 <p>Für jede gelöschte oder neu hinzugefügte Datei wird daraufhin ein
 Hinweis auf die durchgeführte Aktion ausgegeben. Die Meldung <code>Fertig
 (xx Bilder synchronisiert)</code> am Ende des Vorgangs gibt genaue Information
