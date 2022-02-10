@@ -2682,8 +2682,14 @@ erhalten können, ohne Löcher in der Dateienansicht zu erzeugen. Ein sehr prakt
 Tool, um damit schnell einen Überblick zu gewinnen, oder ein gesuchtes Bild zu finden.</p>
 
 <figure id="fig-ml_imageinfo">
-    <img src="img/ml_imageinfo.png">
+  <a class="lightbox" rel="lightbox" href="media/ml_imageinfo_dm_de.avif" lg-uid="lg4542" data-fallback="media/ml_imageinfo_dm_de.webp">
+    <picture>
+      <source srcset="media/ml_imageinfo_dm_de.avif" type="image/avif">
+      <source srcset="media/ml_imageinfo_dm_de.webp" type="image/webp">
+      <img src="media/ml_imageinfo_dm_de.png" alt="ml_imageinfo_dm_de.png" loading="lazy" width="1385" height="820">
+    </picture>
     <figcaption>Abbildung 4.14a: Mediathek: Symbolleiste</figcaption>
+  </a>
 </figure>
 
 <p>In dem mehrpaltigen Bereich wird pro Box ein Objekt aus der Mediathek dargestellt,
