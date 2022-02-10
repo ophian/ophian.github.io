@@ -3675,9 +3675,15 @@ Seite mit dargestellten Kommentaren durch einen Klick auf
 
 <h4 class="plugin-config-header">Die Serendipity Styx Kommentarliste:</h4>
 
-<figure id="fig-comments3">
-    <img src="img/comments3.png">
-    <figcaption>Abbildung 4.9-sx: Aktivität: Kommentarliste - Detailansicht Styx</figcaption>
+<figure id="fig-comments-snip">
+  <a class="lightbox" rel="lightbox" href="media/comments_snip_dm_de.avif" lg-uid="lg4614" data-fallback="media/comments_snip_dm_de.webp">
+    <picture>
+      <source srcset="media/comments_snip_dm_de.avif" type="image/avif">
+      <source srcset="media/comments_snip_dm_de.webp" type="image/webp">
+      <img src="media/comments_snip_dm_de.png" alt="comments_snip_dm_de.png" loading="lazy" width="969" height="966">
+    </picture>
+    <figcaption>Abbildung 4.9-sx: Aktivität: Kommentarliste - Detailansicht</figcaption>
+  </a>
 </figure>
 
 <p>Ob die einzelne Kommentar-Box einen Trackback, einen Pingback oder einen
