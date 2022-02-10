@@ -2825,8 +2825,14 @@ Medieninhalte mehr vergeben wird.</span>
 <p>&nbsp;</p><!-- separator -->
 
 <figure id="fig-ml_filter_sort">
-    <img src="img/ml_filter_sort.png">
+  <a class="lightbox" rel="lightbox" href="media/ml_filter_sort_dm_de.avif" lg-uid="lg4545" data-fallback="media/ml_filter_sort_dm_de.webp">
+    <picture>
+      <source srcset="media/ml_filter_sort_dm_de.avif" type="image/avif">
+      <source srcset="media/ml_filter_sort_dm_de.webp" type="image/webp">
+      <img src="media/ml_filter_sort_dm_de.png" alt="ml_filter_sort_dm_de.png" loading="lazy" width="1377" height="1700">
+    </picture>
     <figcaption>Abbildung 4.15: Mediathek: Filtern und Sortieren</figcaption>
+  </a>
 </figure>
 
 <p>Üblicherweise richten sich die dargestellten Dateien nach deren
