@@ -3086,8 +3086,14 @@ Mediathek-Dateien verwaltet werden.</p>
 (<code>uploads</code>-Verzeichnis im Serendipity-Stammverzeichnis).</p>
 
 <figure id="fig-ml_directories">
-    <img src="img/ml_directories.png">
+  <a class="lightbox" rel="lightbox" href="media/ml_directories_dm_de.avif" lg-uid="lg4551" data-fallback="media/ml_directories_dm_de.webp">
+    <picture>
+      <source srcset="media/ml_directories_dm_de.avif" type="image/avif">
+      <source srcset="media/ml_directories_dm_de.webp" type="image/webp">
+      <img src="media/ml_directories_dm_de.png" alt="ml_directories_dm_de.png" loading="lazy" width="1385" height="1033">
+    </picture>
     <figcaption>Abbildung 4.16: Mediathek: Verzeichnisse verwalten: Neues Verzeichnis anlegen</figcaption>
+  </a>
 </figure>
 
 <p>Neben allen Verzeichnissen, die jeweils wie im Dateisystem verschachtelt
