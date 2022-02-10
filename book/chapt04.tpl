@@ -3660,6 +3660,17 @@ auf. Jede Kommentarbox enthält folgende Angaben:</p>
         betreffenden Kommentar vorausgefüllt, ebenso Ihr Name und Ihre E-Mail-Adresse.
     </span>
 
+    <span class="box" id="fig-edit-comment-html">
+      <a class="lightbox" rel="lightbox" href="media/edit_comment_html_dm_de.avif" lg-uid="lg4613" data-fallback="media/edit_comment_html_dm_de.webp">
+        <picture>
+          <source srcset="media/edit_comment_html_dm_de.avif" type="image/avif">
+          <source srcset="media/edit_comment_html_dm_de.webp" type="image/webp">
+          <img src="media/edit_comment_html_dm_de.png" alt="edit_comment_html_dm_de.png" loading="lazy" width="1420" height="830">
+        </picture>
+        <span class="asfigcaption">Abbildung 4.9b: Aktivität: Kommentar bearbeiten mit HTML Editor</span>
+      </a>
+    </span>
+
 </span>
 </p>
 
