@@ -96,6 +96,7 @@
  <li class="sct"><span class="toc">4.6</span> <a class="sidebar-nav-item" href="#S460">Aktivität</a>&nbsp;<a data-toggle="collapse" data-target="#collapse_S-4.6" href="#collapse_S-4.6"><i class="fa fa-caret-down"></i></a></li>
  <li class="sct-sub"><span class="toc-sub">4.6.1</span> <a class="sidebar-nav-item" href="#U461">Kommentare</a></li>
  <li class="sct-sub"><span class="toc-sub">4.6.2</span> <a class="sidebar-nav-item" href="#U462">Spamschutz</a></li>
+ <li class="sct-sub"><span class="toc-sub">4.6.3</span> <a class="sidebar-nav-item" href="#U463">Option ein-/ausblenden</a></li>
  <li class="sct"><span class="toc">4.7</span> <a class="sidebar-nav-item" href="#S470">Einstellungen</a>&nbsp;<a data-toggle="collapse" data-target="#collapse_S-4.7" href="#collapse_S-4.7"><i class="fa fa-caret-down"></i></a></li>
  <li class="sct-sub"><span class="toc-sub">4.7.1</span> <a class="sidebar-nav-item" href="#U471">Themes verwalten</a></li>
  <li class="sct-sub"><span class="toc-sub">4.7.2</span> <a class="sidebar-nav-item" href="#U472">Template-Optionen</a></li>
