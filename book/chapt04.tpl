@@ -2653,8 +2653,14 @@ Mediathek und darunter einer mehrspaltigen Ansicht aller von Ihnen
 hochgeladenen Dateien, oder eines einzelnen Ordners.</p>
 
 <figure id="fig-ml_directory">
-    <img src="img/ml_directory.png">
+  <a class="lightbox" rel="lightbox" href="media/ml_directory_dm_de.avif" lg-uid="lg4541" data-fallback="media/ml_directory_dm_de.webp">
+    <picture>
+      <source srcset="media/ml_directory_dm_de.avif" type="image/avif">
+      <source srcset="media/ml_directory_dm_de.webp" type="image/webp">
+      <img src="media/ml_directory_dm_de.png" alt="ml_directory_dm_de.png" loading="lazy" width="1385" height="920">
+    </picture>
     <figcaption>Abbildung 4.14: Mediathek: Übersicht</figcaption>
+  </a>
 </figure>
 
 <p>Die Seite stellt standardmäßig jeweils acht Dateien pro Seite dar und kann über die Buttons
