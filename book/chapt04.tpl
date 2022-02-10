@@ -2796,9 +2796,15 @@ mit den jeweiligen Informationen und Optionen dieses Objekts:</p>
   </a>
 </figure>
 
-<figure id="fig-ml_imagepoperties">
-    <img src="img/ml_imagepoperties.png">
+<figure id="fig-ml_imageproperties">
+  <a class="lightbox" rel="lightbox" href="media/ml_imageproperties_dm_de.avif" lg-uid="lg4544" data-fallback="media/ml_imageproperties_dm_de.webp">
+    <picture>
+      <source srcset="media/ml_imageproperties_dm_de.avif" type="image/avif">
+      <source srcset="media/ml_imageproperties_dm_de.webp" type="image/webp">
+      <img src="media/ml_imageproperties_dm_de.png" alt="ml_imageproperties_dm_de.png" loading="lazy" width="1377" height="1848">
+    </picture>
     <figcaption>Abbildung 4.14c: Mediathek: Symbolleiste: Medien Eigenschaften</figcaption>
+  </a>
 </figure>
 
 <p class="desc">
