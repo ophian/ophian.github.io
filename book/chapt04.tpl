@@ -3637,6 +3637,13 @@ auf. Jede Kommentarbox enthält folgende Angaben:</p>
         wenn Sie entweder darauf hinweisen oder es unabdingbar ist.
     </span>
 
+    <span class="box">
+        HTML Kommentare - bzw den Rich-Text-Editor - können Sie für das Frontend und das Backend in der
+        <span class="mbold">Konfiguration</span> - <span class="mbold">Generelle Einstellungen</span>
+        per Konfigurationsoption erlauben. Die notwendigen Sicherheitsmaßnahmen sind getroffen, um
+        dies als eine wählbare Alternative für größere Nutzerfreundlichkeit zu erlauben.
+    </span>
+
     <span class="tag-box invisible">
         <span class="inline-tag">Kommentare!löschen</span>
     </span>
