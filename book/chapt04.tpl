@@ -3110,8 +3110,14 @@ erfolgreich durchgeführt werden kann, müssen die Zugriffsrechte (siehe
 Seite <span class="pageref"><a href="#Zugriffsrechte">Zugriffsrechte</a></span>) korrekt eingerichtet sein.</p>
 
 <figure id="fig-ml_directories_new">
-    <img src="img/ml_directories_new.png">
+  <a class="lightbox" rel="lightbox" href="media/ml_directories_new_dm_de.avif" lg-uid="lg4552" data-fallback="media/ml_directories_new_dm_de.webp">
+    <picture>
+      <source srcset="media/ml_directories_new_dm_de.avif" type="image/avif">
+      <source srcset="media/ml_directories_new_dm_de.webp" type="image/webp">
+      <img src="media/ml_directories_new_dm_de.png" alt="ml_directories_new_dm_de.png" loading="lazy" width="1420" height="800">
+    </picture>
     <figcaption>Abbildung 4.16a: Mediathek: Verzeichnisse verwalten: Neues Verzeichnis anlegen</figcaption>
+  </a>
 </figure>
 
 <p><span class="label invisible" id="mdb-zugriffsrechte">mdb-zugriffsrechte</span> Ein erstelltes Verzeichnis kann bearbeitet werden, indem Sie auf das
