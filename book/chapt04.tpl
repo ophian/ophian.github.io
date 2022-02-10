@@ -3637,6 +3637,17 @@ auf. Jede Kommentarbox enthält folgende Angaben:</p>
         wenn Sie entweder darauf hinweisen oder es unabdingbar ist.
     </span>
 
+    <span class="box" id="fig-edit-comment-html">
+      <a class="lightbox" rel="lightbox" href="media/edit_comment_html_dm_de.avif" lg-uid="lg4613" data-fallback="media/edit_comment_html_dm_de.webp">
+        <picture>
+          <source srcset="media/edit_comment_html_dm_de.avif" type="image/avif">
+          <source srcset="media/edit_comment_html_dm_de.webp" type="image/webp">
+          <img src="media/edit_comment_html_dm_de.png" alt="edit_comment_html_dm_de.png" loading="lazy" width="1420" height="830">
+        </picture>
+        <span class="asfigcaption">Abbildung 4.9b: Aktivität: Kommentar bearbeiten mit HTML Editor</span>
+      </a>
+    </span>
+
     <span class="box">
         HTML Kommentare - bzw den Rich-Text-Editor - können Sie für das Frontend und das Backend in der
         <span class="mbold">Konfiguration</span> - <span class="mbold">Generelle Einstellungen</span>
@@ -3665,17 +3676,6 @@ auf. Jede Kommentarbox enthält folgende Angaben:</p>
         springen, um den betreffenden Text direkt mit einer Antwort kommentieren
         zu können. Das Eingabefeld <span class="mbold">Antwort zu</span> ist dabei korrekt mit dem
         betreffenden Kommentar vorausgefüllt, ebenso Ihr Name und Ihre E-Mail-Adresse.
-    </span>
-
-    <span class="box" id="fig-edit-comment-html">
-      <a class="lightbox" rel="lightbox" href="media/edit_comment_html_dm_de.avif" lg-uid="lg4613" data-fallback="media/edit_comment_html_dm_de.webp">
-        <picture>
-          <source srcset="media/edit_comment_html_dm_de.avif" type="image/avif">
-          <source srcset="media/edit_comment_html_dm_de.webp" type="image/webp">
-          <img src="media/edit_comment_html_dm_de.png" alt="edit_comment_html_dm_de.png" loading="lazy" width="1420" height="830">
-        </picture>
-        <span class="asfigcaption">Abbildung 4.9b: Aktivität: Kommentar bearbeiten mit HTML Editor</span>
-      </a>
     </span>
 
 </span>
