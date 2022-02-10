@@ -3407,9 +3407,15 @@ Die Möglichkeit zum Blättern mittels <span class="mbold">Weiter</span> und
 Listendarstellungen üblich, sowohl oberhalb  als auch unterhalb der
 Kommentarauflistung, wenn genügend Listeneinträge vorhanden sind.</p>
 
-<figure id="fig-comments">
-    <img src="img/comments.png">
+<figure id="fig-comments-fill">
+  <a class="lightbox" rel="lightbox" href="media/comments_fill_dm_de.avif" lg-uid="lg4611" data-fallback="media/comments_fill_dm_de.webp">
+    <picture>
+      <source srcset="media/comments_fill_dm_de.avif" type="image/avif">
+      <source srcset="media/comments_fill_dm_de.webp" type="image/webp">
+      <img src="media/comments_fill_dm_de.png" alt="comments_fill_dm_de.png" loading="lazy" width="1424" height="80">
+    </picture>
     <figcaption>Abbildung 4.8: Aktivität: Kommentare (<em>siehe auch übernächste Abbildung 4.9-sx für Serendipity Styx</em>)</figcaption>
+  </a>
 </figure>
 
 <p>Die erste Zeile jeder Box zeigt Informationen über den Autor,
