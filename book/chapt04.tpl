@@ -3616,9 +3616,15 @@ auf. Jede Kommentarbox enthält folgende Angaben:</p>
         werden kann.
     </span>
 
-    <span class="box" id="fig-comments2">
-        <img src="img/comments2.png">
-        <span class="asfigcaption">Abbildung 4.9: Aktivität: Kommentar bearbeiten</span>
+    <span class="box" id="fig-edit-comment-plain">
+      <a class="lightbox" rel="lightbox" href="media/edit_comment_plain_dm_de.avif" lg-uid="lg4612" data-fallback="media/edit_comment_plain_dm_de.webp">
+        <picture>
+          <source srcset="media/edit_comment_plain_dm_de.avif" type="image/avif">
+          <source srcset="media/edit_comment_plain_dm_de.webp" type="image/webp">
+          <img src="media/edit_comment_plain_dm_de.png" alt="edit_comment_plain_dm_de.png" loading="lazy" width="1420" height="830">
+        </picture>
+        <span class="asfigcaption">Abbildung 4.9: Aktivität: Kommentar bearbeiten mit PLAIN TEXT Editor</span>
+      </a>
     </span>
 
     <span class="box">
