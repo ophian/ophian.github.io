@@ -2786,8 +2786,14 @@ mit den jeweiligen Informationen und Optionen dieses Objekts:</p>
 </p>
 
 <figure id="fig-ml_imagesize">
-    <img src="img/ml_imagesize.png">
+  <a class="lightbox" rel="lightbox" href="media/ml_imagesize_dm_de.avif" lg-uid="lg4543" data-fallback="media/ml_imagesize_dm_de.webp">
+    <picture>
+      <source srcset="media/ml_imagesize_dm_de.avif" type="image/avif">
+      <source srcset="media/ml_imagesize_dm_de.webp" type="image/webp">
+      <img src="media/ml_imagesize_dm_de.png" alt="ml_imagesize_dm_de.png" loading="lazy" width="1385" height="920">
+    </picture>
     <figcaption>Abbildung 4.14b: Mediathek: Symbolleiste: Proportionen ändern</figcaption>
+  </a>
 </figure>
 
 <figure id="fig-ml_imagepoperties">
