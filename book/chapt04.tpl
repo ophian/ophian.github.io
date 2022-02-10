@@ -3126,8 +3126,14 @@ Seite <span class="pageref"><a href="#Zugriffsrechte">Zugriffsrechte</a></span>)
 Auswahlfelder für die <span class="mbold">Leserechte</span> und die <span class="mbold">Schreibrechte</span>.</p>
 
 <figure id="fig-ml_directories_edit">
-    <img src="img/ml_directories_edit.png">
+  <a class="lightbox" rel="lightbox" href="media/ml_directories_edit_dm_de.avif" lg-uid="lg4553" data-fallback="media/ml_directories_edit_dm_de.webp">
+    <picture>
+      <source srcset="media/ml_directories_edit_dm_de.avif" type="image/avif">
+      <source srcset="media/ml_directories_edit_dm_de.webp" type="image/webp">
+      <img src="media/ml_directories_edit_dm_de.png" alt="ml_directories_edit_dm_de.png" loading="lazy" width="1420" height="1010">
+    </picture>
     <figcaption>Abbildung 4.17: Mediathek: Verzeichnisse verwalten: Verzeichnis bearbeiten</figcaption>
+  </a>
 </figure>
 
 <p>Diese Zugriffsrechte bestimmen ausschließlich die Zugriffsmöglichkeiten
