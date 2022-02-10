@@ -3203,8 +3203,14 @@ zu löschen versuchen. Auch hier gilt wieder, dass Serendipity nur Dateien
 löschen kann, auf die es auch Schreibzugriff hat.</p>
 
 <figure id="fig-ml_directories_del">
-    <img src="img/ml_directories_del.png">
+  <a class="lightbox" rel="lightbox" href="media/ml_directories_del_dm_de.avif" lg-uid="lg4554" data-fallback="media/ml_directories_del_dm_de.webp">
+    <picture>
+      <source srcset="media/ml_directories_del_dm_de.avif" type="image/avif">
+      <source srcset="media/ml_directories_del_dm_de.webp" type="image/webp">
+      <img src="media/ml_directories_del_dm_de.png" alt="ml_directories_del_dm_de.png" loading="lazy" width="1420" height="1010">
+    </picture>
     <figcaption>Abbildung 4.18: Mediathek: Verzeichnisse verwalten: Verzeichnis löschen</figcaption>
+  </a>
 </figure>
 
 </section><!-- section.sub end -->
