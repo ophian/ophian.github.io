@@ -3600,6 +3600,15 @@ auf. Jede Kommentarbox enthält folgende Angaben:</p>
     </span>
 
     <span class="box">
+        Da es manchmal vorkommen kann, dass man einen Kommentar gerne behalten,
+        aber eben auch nicht anzeigen lassen möchte, und Wert darauf legt, dass ein
+        solcher nicht die Liste der unbewilligten und zu bearbeitenden Kommentare
+        unnötig aufbläht, wurde der "<em>Bewilligen, aber versteckt</em>" Button
+        (siehe Abbildung 9c) über das <span class="mbold">Auge</span>-"Inaktiv/Aktiv setzen"-Symbol
+        eingeführt.
+    </span>
+
+    <span class="box">
         Bei Beiträgen, die länger als ~72 Zeichen sind, wird der Button <span class="mbold">ganz
         anzeigen</span> als nach rechts weisender kleiner Dreieckspfeil eingeblendet.
         Per Klick wird der vollständige Kommentartext angezeigt, ein erneuter Klick
