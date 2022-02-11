@@ -4244,6 +4244,17 @@ festgesetzten Stelle im Frontend, während ein Ereignis-Plugin eher
 <em>im Hintergrund</em> arbeitet, dafür aber umso mächtiger ist und meist
 wichtige neue Backendaufgaben bereitstellt.</p>
 
+<figure id="fig-plugins">
+  <a class="lightbox" rel="lightbox" href="media/plugins_ev_dm_de.avif" lg-uid="lg4742" data-fallback="media/plugins_ev_dm_de.webp">
+    <picture>
+      <source srcset="media/plugins_ev_dm_de.avif" type="image/avif">
+      <source srcset="media/plugins_ev_dm_de.webp" type="image/webp">
+      <img src="media/plugins_ev_dm_de.png" alt="plugins_ev_dm_de.png" loading="lazy" width="1416" height="1960">
+    </picture>
+    <figcaption>Abbildung 4.21b: Einstellungen: Plugins verwalten (Ereignis)</figcaption>
+  </a>
+</figure>
+
 <p>Nach einem Klick auf <span class="mbold">Einstellungen: Plugins</span> sehen
 Sie die Liste der Seitenleisten- oder Ereignis-Plugins, je nachdem,
 welche sie zuletzt genutzt haben. Pro Plugin gibt es eine einzelne Inhaltsbox.
