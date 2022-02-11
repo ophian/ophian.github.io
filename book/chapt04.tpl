@@ -4221,9 +4221,9 @@ also nicht direkt das ganze Blogsystem aktualisieren.</p>
     <picture>
       <source srcset="media/plugins_sb_dm_de.avif" type="image/avif">
       <source srcset="media/plugins_sb_dm_de.webp" type="image/webp">
-      <img src="media/plugins_sb_dm_de.png" alt="plugins_sb_dm_de.png" loading="lazy" width="1412" height="1218">
+      <img src="media/plugins_sb_dm_de.png" alt="plugins_sb_dm_de.png" loading="lazy" width="1416" height="1218">
     </picture>
-    <figcaption>Abbildung 4.21: Einstellungen: Plugins verwalten</figcaption>
+    <figcaption>Abbildung 4.21a: Einstellungen: Plugins verwalten (Seitenleisten)</figcaption>
   </a>
 </figure>
 
