@@ -3991,8 +3991,14 @@ Vorschaubilder zu den Themes untereinander angezeigt, die einen Eindruck
 vermitteln, wie Ihr Frontend später aussehen könnte.</p>
 
 <figure id="fig-themes">
-    <img src="img/themes.jpg">
+  <a class="lightbox" rel="lightbox" href="media/themes_core_dm_de.avif" lg-uid="lg4711" data-fallback="media/themes_core_dm_de.webp">
+    <picture>
+      <source srcset="media/themes_core_dm_de.avif" type="image/avif">
+      <source srcset="media/themes_core_dm_de.webp" type="image/webp">
+      <img src="media/themes_core_dm_de.png" alt="themes_core_dm_de.png" loading="lazy" width="1416" height="2540">
+    </picture>
     <figcaption>Abbildung 4.19: Einstellungen: Themes verwalten</figcaption>
+  </a>
 </figure>
 
 <p>Jede Template-Box enthält dabei als Überschrift den Namen des Templates
