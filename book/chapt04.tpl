@@ -4346,7 +4346,7 @@ auf das Zahnrad-Symbol bearbeiten.</span>
 <p class="desc">
 <span class="item mbold">Plugin-Beschreibung</span><!-- menuitem -->
 <span class="desc-info">In der Plugin-Beschreibung, die sich nach einen Klick auf den angezeigten
-Pluginnamen entfaltet, wird die Funktionalität eines Plugins kurz
+Pluginnamen als details-HTML Box entfaltet, wird die Funktionalität eines Plugins kurz
 beschrieben. Dies ist auch diejenige Beschreibung, die auf Spartacus angezeigt wird.</span>
 </p>
 
@@ -4357,7 +4357,7 @@ beschrieben. Dies ist auch diejenige Beschreibung, die auf Spartacus angezeigt w
 <span class="item mbold">Plugin-Version</span><!-- menuitem -->
 <span class="desc-info">Da Plugins öfter aktualisiert werden und mit neuen Versionen Fehler
 behoben oder neue Funktionen angeboten werden, ist es ab und zu
-interessant zu erfahren, welche Version eines Plugins man gerade
+interessant zu erfahren, welche Version eines Plugins man gerade wirklich
 einsetzt. Diese Versionsnummer wird unterhalb der Plugin-Beschreibung
 angezeigt.</span>
 </p>
