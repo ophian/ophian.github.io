@@ -4216,14 +4216,14 @@ können auch kleine Bestandteile des Blogs einzeln aktualisiert werden.
 Wenn eine neue Version einer Komponente veröffentlicht wird, müssen Sie
 also nicht direkt das ganze Blogsystem aktualisieren.</p>
 
-<figure id="fig-plugins">
-  <a class="lightbox" rel="lightbox" href="media/plugins_sb_dm_de.avif" lg-uid="lg4741" data-fallback="media/plugins_sb_dm_de.webp">
+<figure id="fig-plugins-ev">
+  <a class="lightbox" rel="lightbox" href="media/plugins_ev_dm_de.avif" lg-uid="lg4741" data-fallback="media/plugins_ev_dm_de.webp">
     <picture>
-      <source srcset="media/plugins_sb_dm_de.avif" type="image/avif">
-      <source srcset="media/plugins_sb_dm_de.webp" type="image/webp">
-      <img src="media/plugins_sb_dm_de.png" alt="plugins_sb_dm_de.png" loading="lazy" width="1416" height="1218">
+      <source srcset="media/plugins_ev_dm_de.avif" type="image/avif">
+      <source srcset="media/plugins_ev_dm_de.webp" type="image/webp">
+      <img src="media/plugins_ev_dm_de.png" alt="plugins_ev_dm_de.png" loading="lazy" width="1416" height="1960">
     </picture>
-    <figcaption>Abbildung 4.21a: Einstellungen: Plugins verwalten (Seitenleisten)</figcaption>
+    <figcaption>Abbildung 4.21a: Einstellungen: Plugins verwalten (Ereignis)</figcaption>
   </a>
 </figure>
 
@@ -4244,14 +4244,14 @@ festgesetzten Stelle im Frontend, während ein Ereignis-Plugin eher
 <em>im Hintergrund</em> arbeitet, dafür aber umso mächtiger ist und meist
 wichtige neue Backendaufgaben bereitstellt.</p>
 
-<figure id="fig-plugins">
-  <a class="lightbox" rel="lightbox" href="media/plugins_ev_dm_de.avif" lg-uid="lg4742" data-fallback="media/plugins_ev_dm_de.webp">
+<figure id="fig-plugins-sb">
+  <a class="lightbox" rel="lightbox" href="media/plugins_sb_dm_de.avif" lg-uid="lg4742" data-fallback="media/plugins_sb_dm_de.webp">
     <picture>
-      <source srcset="media/plugins_ev_dm_de.avif" type="image/avif">
-      <source srcset="media/plugins_ev_dm_de.webp" type="image/webp">
-      <img src="media/plugins_ev_dm_de.png" alt="plugins_ev_dm_de.png" loading="lazy" width="1416" height="1960">
+      <source srcset="media/plugins_sb_dm_de.avif" type="image/avif">
+      <source srcset="media/plugins_sb_dm_de.webp" type="image/webp">
+      <img src="media/plugins_sb_dm_de.png" alt="plugins_sb_dm_de.png" loading="lazy" width="1416" height="1218">
     </picture>
-    <figcaption>Abbildung 4.21b: Einstellungen: Plugins verwalten (Ereignis)</figcaption>
+    <figcaption>Abbildung 4.21b: Einstellungen: Plugins verwalten (Seitenleisten)</figcaption>
   </a>
 </figure>
 
