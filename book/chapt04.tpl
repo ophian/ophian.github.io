@@ -4255,17 +4255,17 @@ wichtige neue Backendaufgaben bereitstellt.</p>
   </a>
 </figure>
 
-<p>Nach einem Klick auf <span class="mbold">Einstellungen: Plugins</span> sehen
+<p>Nach einem Klick auf <span class="mbold">Einstellungen: Plugins</span> in der Backend Seitenleiste, sehen
 Sie die Liste der Seitenleisten- oder Ereignis-Plugins, je nachdem,
-welche sie zuletzt genutzt haben. Pro Plugin gibt es eine einzelne Inhaltsbox.
+welche sie zuletzt genutzt haben. Pro Plugin gibt es eine einzelne "schwebende" Inhaltsbox.
 Die Seitenleisten-Plugins sind in verschiedene Bereiche unterteilt:
 <em>links</em>, <em>rechts</em> und <em>versteckt</em>. Diese Bereiche
 entsprechen also der Positionierung des Seitenleisten-Plugins im Frontend,
-auf der linken oder rechten Seite. Dabei
-gilt es zu beachten, dass einige Templates möglicherweise nur eine
-Seitenleiste anbieten, und manchmal sind beide Seitenleisten auch rechts
-oder links angegliedert. Abhängig vom Template kann es auch sein, dass
-hier noch weitere Plugin-Bereiche dargestellt werden.</p>
+auf der linken oder rechten Seite. Dabei gilt es zu beachten, dass einige
+Templates möglicherweise nur eine Seitenleiste anbieten, und manchmal sind
+beide Seitenleisten auch rechts oder links angegliedert. Abhängig vom Template
+und seinen konfigurierbaren Eigenschaften kann es auch sein, dass hier noch
+weitere Plugin-Bereiche dargestellt werden, zB. in Sliver.</p>
 
 <p>Der Bereich <em>versteckt</em> ist dabei ein Sonderbereich. Alle Plugins,
 die dort aufgeführt sind, sind <em>inaktiv</em> gesetzt und werden später
