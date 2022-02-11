@@ -3587,7 +3587,7 @@ auf. Jede Kommentarbox enthält folgende Angaben:</p>
     <span class="box">
         Unterhalb jedes Kommentars befindet sich eine Symbolleiste mit Buttons.
         Die Buttons richten sich dabei danach, ob das Objekt ein Kommentar oder
-        ein Trackback ist, ob es freigeschaltet oder moderiert ist und ob der
+        ein Trackback ist, ob es freigeschaltet, versteckt oder moderiert ist und ob der
         Text länger als ~72 Zeichen ist oder nicht.
     </span>
 
