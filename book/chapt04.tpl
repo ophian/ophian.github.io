@@ -4091,14 +4091,20 @@ entscheiden kann, was für zusätzliche Möglichkeiten und Darstellungsarten
 Sie gerne aktivieren möchten.</p>
 
 <figure id="fig-themes_standard">
-    <img src="img/themes_standard.png">
-    <figcaption>Abbildung 4.20: Einstellungen: Template-Optionen des Standard Themes 2k11</figcaption>
+  <a class="lightbox" rel="lightbox" href="media/theme_config_pure_dm_de.avif" lg-uid="lg4712" data-fallback="media/theme_config_pure_dm_de.webp">
+    <picture>
+      <source srcset="media/theme_config_pure_dm_de.avif" type="image/avif">
+      <source srcset="media/theme_config_pure_dm_de.webp" type="image/webp">
+      <img src="media/theme_config_pure_dm_de.png" alt="theme_config_pure_dm_de.png" loading="lazy" width="1411" height="1154">
+    </picture>
+    <figcaption>Abbildung 4.20: Einstellungen: Template-Optionen des Standard Themes pure</figcaption>
+  </a>
 </figure>
 
 <p>Wenn Sie ein Template ausgewählt haben, das diese Optionen bereitstellt,
 sehen Sie einen zusätzlichen Bereich im ersten Abschnitt des <span class="mbold">Styles
 verwalten</span>-Menüpunktes. Nur wenige der von Serendipity mitgelieferten
-Templates unterstützen diese Optionen. Das Serendipity (2k11) Standard-Template
+Templates unterstützen diese Optionen. Das Serendipity (pure) Standard-Template
 bietet z. B. diese Template-Optionen an, um den Inhalt der
 zusätzlichen Navigations-Links im Frontend einstellen zu können.</p>
 
