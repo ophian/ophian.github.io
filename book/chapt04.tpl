@@ -4217,8 +4217,14 @@ Wenn eine neue Version einer Komponente veröffentlicht wird, müssen Sie
 also nicht direkt das ganze Blogsystem aktualisieren.</p>
 
 <figure id="fig-plugins">
-    <img src="img/plugins.png">
+  <a class="lightbox" rel="lightbox" href="media/plugins_sb_dm_de.avif" lg-uid="lg4741" data-fallback="media/plugins_sb_dm_de.webp">
+    <picture>
+      <source srcset="media/plugins_sb_dm_de.avif" type="image/avif">
+      <source srcset="media/plugins_sb_dm_de.webp" type="image/webp">
+      <img src="media/plugins_sb_dm_de.png" alt="plugins_sb_dm_de.png" loading="lazy" width="1412" height="1218">
+    </picture>
     <figcaption>Abbildung 4.21: Einstellungen: Plugins verwalten</figcaption>
+  </a>
 </figure>
 
 <p>Bei Serendipity gibt es zwei verschiedene Arten von Plugins.
