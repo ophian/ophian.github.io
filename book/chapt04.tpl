@@ -4164,7 +4164,7 @@ nur in Sonderfällen aktivieren sollten. Dies sind:</p>
 <code class="item name">Newspaper Blog</code>
 <span class="desc-info">
     <span class="box">
-        Dieses Template wird eher aus historischen Gründen mitgeliefert und stammt aus einer Zeit, in der
+        Dieses Template existiert eher nur noch aus historischen Gründen und stammt aus einer Zeit, in der
         Serendipity-Templates noch nicht mittels Smarty-Syntax erstellt wurden. Dementsprechend erhalten Sie die Warnung:
         <em>Hinweis: Das aktuelle Template verwendet eine ältere Methode der HTML-Erzeugung. Falls möglich,
         bitte das Template auf die Nutzung von Smarty optimieren.</em> wenn das Template aktiviert wurde. 
