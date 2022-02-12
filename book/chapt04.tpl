@@ -4573,7 +4573,7 @@ hochgeladene Plugin für Serendipity über die Plugin-Verwaltung
 <em>aktiviert</em> werden.</p>
 
 <figure id="fig-plugins-sb-new">
-  <a class="lightbox" rel="lightbox" href="media/plugin_sb_new_dm_de.avif" lg-uid="lg4742" data-fallback="media/plugin_sb_new_dm_de.webp">
+  <a class="lightbox" rel="lightbox" href="media/plugin_sb_new_dm_de.avif" lg-uid="lg4761" data-fallback="media/plugin_sb_new_dm_de.webp">
     <picture>
       <source srcset="media/plugin_sb_new_dm_de.avif" type="image/avif">
       <source srcset="media/plugin_sb_new_dm_de.webp" type="image/webp">
