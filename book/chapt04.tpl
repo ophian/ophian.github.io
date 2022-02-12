@@ -5426,6 +5426,17 @@ Verwendung von <code>%id%</code> einen großen Performancevorteil. Denn
 sobald diese ID enthalten ist, kann Serendipity ohne weitere
 Datenbankabfrage herausfinden, welche Inhalte es anzeigen muss.</p>
 
+<figure id="fig-configuration-permalinks">
+  <a class="lightbox" rel="lightbox" href="media/configuration_pl_dm_de.avif" lg-uid="lg4813" data-fallback="media/configuration_pl_dm_de.webp">
+    <picture>
+      <source srcset="media/configuration_pl_dm_de.avif" type="image/avif">
+      <source srcset="media/configuration_pl_dm_de.webp" type="image/webp">
+      <img src="media/configuration_pl_dm_de.png" alt="configuration_pl_dm_de.png" loading="lazy" width="1416" height="1529">
+    </picture>
+    <figcaption>Abbildung 4.23c: Einstellungen: Konfiguration - Permalinks</figcaption>
+  </a>
+</figure>
+
 <p>Bei der Umstellung von Permalinks ist darauf zu achten, dass dadurch
 die vorher gültigen URLs nicht mehr aktiv sind! Sollte eine
 Suchmaschine Ihre Seiten also bereits indiziert haben, kann eine
