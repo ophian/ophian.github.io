@@ -5666,6 +5666,17 @@ Administrationsoberfläche) hervorzubringen.</span>
 <p>Weitere globale Einstellungen befinden sich im Bereich <span class="mbold">Generelle
 Einstellungen</span>.</p>
 
+<figure id="fig-configuration-gs">
+  <a class="lightbox" rel="lightbox" href="media/configuration_gs_dm_de.avif" lg-uid="lg4814" data-fallback="media/configuration_gs_dm_de.webp">
+    <picture>
+      <source srcset="media/configuration_gs_dm_de.avif" type="image/avif">
+      <source srcset="media/configuration_gs_dm_de.webp" type="image/webp">
+      <img src="media/configuration_gs_dm_de.png" alt="configuration_gs_dm_de.png" loading="lazy" width="1416" height="1424">
+    </picture>
+    <figcaption>Abbildung 4.23d: Einstellungen: Konfiguration - Generelle Enstellungen</figcaption>
+  </a>
+</figure>
+
 <p class="desc">
 <span class="label invisible" id="config-subscriptions">config-subscriptions</span>
 <span class="tag-box invisible">
