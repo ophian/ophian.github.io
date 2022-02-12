@@ -4467,6 +4467,10 @@ müssen Sie also Ereignis-Plugins löschen oder Ihren Provider bitten, den
 Arbeitsspeicher (siehe Kapitel <span class="reference">memory-limit</span> auf Seite
 <span class="pageref"><a href="#memory-limit">memory-limit</a></span>) zu vergrößern.</p>
 
+<p>Im Zuge der heutzutage üblichen und flexiblen Kontigent-Containerisierung ist
+dies dieser Zustand wohl nur noch dann zu erreichen, wenn man es praktisch übertreibt.
+Deshalb: Nutzen Sie nur so viel Plugins wie unbedingt nötig!</p>
+
 <p>Sollten Sie nicht mehr auf die Plugin-Verwaltungsoberfläche gelangen,
 können Sie ein Plugin auch entfernen, indem Sie das entsprechende
 Verzeichnis im <code>plugins</code>-Unterverzeichnis löschen. Sobald Serendipity
