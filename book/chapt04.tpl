@@ -5099,6 +5099,17 @@ URLs ein. Bitte beachten Sie, dass Sie an dieser Stelle die derzeit
 gültigen Pfade eintragen müssen, die mit Ihrer Installation
 übereinstimmen.</p>
 
+<figure id="fig-configuration-path">
+  <a class="lightbox" rel="lightbox" href="media/configuration_path_dm_de.avif" lg-uid="lg4812" data-fallback="media/configuration_path_dm_de.webp">
+    <picture>
+      <source srcset="media/configuration_path_dm_de.avif" type="image/avif">
+      <source srcset="media/configuration_path_dm_de.webp" type="image/webp">
+      <img src="media/configuration_path_dm_de.png" alt="configuration_path_dm_de.png" loading="lazy" width="1424" height="1008">
+    </picture>
+    <figcaption>Abbildung 4.23b: Einstellungen: Konfiguration - Pfade</figcaption>
+  </a>
+</figure>
+
 <p>Wenn Sie eine Serendipity-Installation auf dem Server verschieben
 wollen, müssen Sie dies vorher manuell (mittels FTP-Programm oder
 Ähnlichem) erledigen und nachträglich die geänderten Pfade an dieser
