@@ -4572,10 +4572,16 @@ Plugin überhaupt sehen kann. Im zweiten Schritt muss dann das
 hochgeladene Plugin für Serendipity über die Plugin-Verwaltung
 <em>aktiviert</em> werden.</p>
 
-<figure id="fig-plugin_new">
-    <img src="img/plugin_new.png">
+<figure id="fig-plugins-sb-new">
+  <a class="lightbox" rel="lightbox" href="media/plugin_sb_new_dm_de.avif" lg-uid="lg4742" data-fallback="media/plugin_sb_new_dm_de.webp">
+    <picture>
+      <source srcset="media/plugin_sb_new_dm_de.avif" type="image/avif">
+      <source srcset="media/plugin_sb_new_dm_de.webp" type="image/webp">
+      <img src="media/plugin_sb_new_dm_de.png" alt="plugin_sb_new_dm_de.png" loading="lazy" width="1007" height="1213">
+    </picture>
     <div class="shape-separator"></div>
     <figcaption>Abbildung 4.22: Einstellungen: Plugins verwalten: Neues Plugin installieren (Ausschnitt)</figcaption>
+  </a>
 </figure>
 
 <p>In der Plugin-Übersicht für die Installation sehen Sie pro Zeile jeweils
