@@ -4751,7 +4751,8 @@ Versionen zu suchen, können Sie über die Plugin-Verwaltung den Button
 updatefähigen Seitenleisten- und Ereignis-Plugins zu durchsuchen.
 Dort werden dann alle aktualisierbaren Plugins aufgelistet und können auf den
 einzeln oder oder automatisch eingespielt werden. Das <span class="mbold">CKEditor Plus</span>
-Plugin sollte als einziges immer nur einzeln aktualisiert werden, wenn es ein neues und aktualisiertes Zip mitbringt.</p>
+Plugin sollte als bisher einziges Plugin immer nur einzeln aktualisiert werden,
+wenn es ein neues und aktualisiertes Zip mitbringt.</p>
 
 <p>Leider gibt es bei einem Upgrade in der Plugin-Oberfläche nicht immer einen
 Hinweis, welche Dinge sich bei einem Plugin verändert haben. Als
