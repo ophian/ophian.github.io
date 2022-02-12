@@ -4827,12 +4827,11 @@ werden darin protokolliert. Details finden Sie in Kapitel
 </span>
 </p>
 
-<p>Im Menübereich <span class="mbold">Einstellungen</span> (hier
-<em>Administration</em> genannt) befinden sich alle Möglichkeiten,
-die Optionen und Benutzer Ihres Blogs zu bearbeiten. Auch kommen Sie
-über diesen Bereich in die verschiedlich schon erwähnte
-<span class="mbold">Wartung</span>-Sektion, deren Teil, unter anderem,
-der Export und der Import von Blog-Artikeln sind.</p>
+<p>Im Menübereich <span class="mbold">Einstellungen</span> (hier <em>Administration</em> genannt)
+befinden sich alle Möglichkeiten, die generellen Optionen Ihres Blogs zu bearbeiten.
+Für die Benutzerverwaltung gibt es einen eigenen Seitenleisten Bereich, ebenso wie für
+die schon verschiedentlich erwähnte <span class="mbold">Wartung</span>-Sektion, deren Teil,
+unter anderem, der Export und der Import von Blog-Artikeln sind.</p>
 
 <p>&nbsp;</p>
 
