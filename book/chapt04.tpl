@@ -4515,7 +4515,9 @@ und müssen daher unbedingt gelöscht werden. Auch ganze Kopien eines
 Verzeichnisses unter einem zweiten Namen dürfen niemals im
 <code>plugins</code>-Unterverzeichnis gespeichert werden, verschieben Sie
 derartige Sicherheitskopien immer an einen von Serendipity unabhängigen
-Speicherort!</p>
+Speicherort! Es ist aber alles eine Frage der Reihenfolge. Ein vorangestelltes
+<code>_</code> zum Beispiel, erlaubt es aber dennoch ein Plugin vorübergehend
+aus der Liste und der Bearbeitung zu nehmen.</p>
 
 </section><!-- section.sub end -->
 
