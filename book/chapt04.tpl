@@ -4804,7 +4804,7 @@ FTP-Programm löschen.</p>
 
 <p>Alle Inhalte des Spartacus-Systems können Sie auch ohne Serendipity unter
 <code>https://ophian.github.io/plugins/</code> ansehen und dort bzw auf GitHub Plugins als ZIP-Datei
-manuell herunterladen.</p>
+manuell herunterladen (siehe vorherige Fußnote).</p>
 
 <p>Die Plugins von Spartacus werden, ebenso wie Serendipity selbst, öffentlich
 über ein Versionskontrollsystem gepflegt. Alle vorgenommenen Änderungen
