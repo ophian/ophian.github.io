@@ -4882,9 +4882,15 @@ sein, dass Sie manuell zuerst diese Datei (siehe auch Kapitel
 <span class="pageref"><a href="#Installation erneut ausfuehren">Installation erneut ausführen</a></span>) überarbeiten müssen, bevor Sie sich wieder ins
 Backend einloggen können.</p>
 
-<figure id="fig-configuration">
-    <img src="img/configuration.png">
-    <figcaption>Abbildung 4.23: Einstellungen: Konfiguration</figcaption>
+<figure id="fig-configuration-db">
+  <a class="lightbox" rel="lightbox" href="media/configuration_db_dm_de.avif" lg-uid="lg4811" data-fallback="media/configuration_db_dm_de.webp">
+    <picture>
+      <source srcset="media/configuration_db_dm_de.avif" type="image/avif">
+      <source srcset="media/configuration_db_dm_de.webp" type="image/webp">
+      <img src="media/configuration_db_dm_de.png" alt="configuration_db_dm_de.png" loading="lazy" width="1424" height="1000">
+    </picture>
+    <figcaption>Abbildung 4.23a: Einstellungen: Konfiguration - Datenbank</figcaption>
+  </a>
 </figure>
 
 <p>&nbsp;</p><!-- separator -->
