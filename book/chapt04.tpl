@@ -4548,8 +4548,14 @@ werden können.
 <p>Serendipity wird mit einer kleinen Auswahl an verfübaren Plugins
 ausgeliefert, die nicht alle von Anfang an aktiviert sind. Sollten Sie
 weitere Plugins benötigen, können Sie diese entweder vom Server
-<code>https://ophian.github.io/plugins/</code> manuell herunterladen, automatisch
-mittels des <code>Spartacus</code>-Plugins installieren oder ein
+<code>https://ophian.github.io/plugins/</code> manuell herunterladen [*]
+<span class="footnote"><i class="fa fa-info-circle"></i> Github kann momentan
+keine Plugins einzeln als ZIP verpackt bereitstellen. Sie sind aber sehr einfach
+über diese URL <a href="https://github.com/ophian/additional_plugins" target="_blank"
+rel="noopener">https://github.com/ophian/additional_plugins</a> aufrufbar und können
+entweder komplett als ZIP Datei heruntergeladen oder in Einzelteilen per einzelner
+RAW Datei gespeichert werden.</span><!-- footnote -->,
+automatisch mittels des <code>Spartacus</code>-Plugins installieren oder ein
 selbst entwickeltes Plugin auswählen. Siehe <span class="mbold">Serendipity Styx</span> und sein
 eigenes darauf abgestimmtes Plugin-Repository. Wenn Sie aus dem Internet ein
 Serendipity-Plugin als ZIP-Datei heruntergeladen haben, müssen Sie
