@@ -6748,13 +6748,14 @@ bei der Vorschaubild-Erzeugung auftreten.</span>
 </p>
 
 <p class="desc">
-<span class="label invisible" id="thumbnailendung">thumbnailendung</span>
+<span class="label invisible" id="vorschaubildendung">Vorschaubildendung</span>
 <span class="tag-box invisible">
-    <span class="inline-tag">Konfiguration!Thumbnail-Endung</span>
+    <span class="inline-tag">Konfiguration!Vorschaubild-Endung</span>
     <span class="inline-tag">Thumbnails</span>
+    <span class="inline-tag">serendipity-Thumb@styxThumb</span>
     <span class="inline-tag">serendipity-Thumb@serendipityThumb</span>
 </span><!-- tagbox -->
-<span class="item mbold">Thumbnail-Endung</span><!-- menuitem -->
+<span class="item mbold">Vorschaubild-Endung</span><!-- menuitem -->
 <span class="desc-info">
     <span class="box">
         Als Thumbnail bezeichnet man die Vorschaugrafiken, die Serendipity von
@@ -6763,13 +6764,13 @@ bei der Vorschaubild-Erzeugung auftreten.</span>
 
     <span class="box">
         Jede dieser Vorschaugrafiken enthält standardmäßig den Namenszusatz
-        <code>serendipityThumb</code>. Die Vorschaudatei zum Bild <code>logo.jpg</code> wird
-        also <code>logo.serendipityThumb.jpg</code> heißen und im selben Verzeichnis
+        <code>styxThumb</code>. Die Vorschaudatei zum Bild <code>logo.jpg</code> wird
+        also <code>logo.styxThumb.jpg</code> heißen und im selben Verzeichnis
         angelegt werden.
     </span>
 
     <span class="box">
-        Diesen Dateinamen können Sie über die Option <span class="mbold">Thumbnail-Endung</span>
+        Diesen Dateinamen können Sie über die Option <span class="mbold">Vorschaubild-Endung</span>
         selber festlegen. Wenn Sie den Dateinamen ändern und bereits Dateien
         in der Mediathek vorhanden sind, müssen Sie im Menü
         <span class="mbold">Mediathek</span> auf <span class="mbold">Vorschauen erneuern</span> klicken.
