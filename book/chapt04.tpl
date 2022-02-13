@@ -6396,6 +6396,17 @@ Referrer-Statistik übernommen.</span>
 <p>Der letzte Bereich, <span class="mbold">Bildkonvertierung</span>, legt einige Optionen
 für die Mediathek und die Vorschaubild-Erzeugung fest.</p>
 
+<figure id="fig-configuration-img">
+  <a class="lightbox" rel="lightbox" href="media/configuration_img_dm_de.avif" lg-uid="lg4817" data-fallback="media/configuration_img_dm_de.webp">
+    <picture>
+      <source srcset="media/configuration_img_dm_de.avif" type="image/avif">
+      <source srcset="media/configuration_img_dm_de.webp" type="image/webp">
+      <img src="media/configuration_img_dm_de.png" alt="configuration_img_dm_de.png" loading="lazy" width="1416" height="1473">
+    </picture>
+    <figcaption>Abbildung 4.23g: Einstellungen: Konfiguration - Bildkonvertierung</figcaption>
+  </a>
+</figure>
+
 <p class="desc">
 <span class="tag-box invisible">
     <span class="inline-tag">Fehler!Erstellung von Vorschaubildern</span>
