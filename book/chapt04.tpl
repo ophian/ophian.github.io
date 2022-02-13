@@ -5659,7 +5659,7 @@ Administrationsoberfläche) hervorzubringen.</span>
 
 <p class="tagging invisible">
 <span class="tag-box invisible">
-    <span class="inline-tag">Konfiguration!generelle Einstellungen</span>
+    <span class="inline-tag">Konfiguration!Generelle Einstellungen</span>
 </span>
 </p>
 
