@@ -6781,10 +6781,10 @@ bei der Vorschaubild-Erzeugung auftreten.</span>
 <p class="desc">
 <span class="label invisible" id="vorschaubildgroesse">Vorschaubildgröße</span>
 <span class="tag-box invisible">
-    <span class="inline-tag">Konfiguration!Thumbnailgröße</span>
+    <span class="inline-tag">Konfiguration!Vorschaubildgröße</span>
     <span class="inline-tag">Thumbnails!Größe</span>
 </span><!-- tagbox -->
-<span class="item mbold">Thumbnailgröße</span><!-- menuitem -->
+<span class="item mbold">Vorschaubildgröße</span><!-- menuitem -->
 <span class="desc-info">
     <span class="box">
         Jede Grafikdatei wird standardmäßig auf maximal 400 Pixel Breite oder
@@ -6798,7 +6798,7 @@ bei der Vorschaubild-Erzeugung auftreten.</span>
         Serendipity zeigt die Vorschaubilder in der Mediathek stets in der
         hier konfigurierten Größe an. Wenn Sie also größere (oder kleinere)
         Vorschaubilder bevorzugen, können Sie die maximale Größe unter
-        <span class="mbold">Thumbnailgröße</span> einstellen. Auch hier müssen Sie auf
+        <span class="mbold">Vorschaubildgröße</span> einstellen. Auch hier müssen Sie auf
         <span class="mbold">Vorschauen erneuern</span> klicken, wenn Sie diesen Wert ändern, obwohl
         Sie schon Dateien in die Mediathek eingestellt haben.
     </span>
@@ -6808,7 +6808,7 @@ bei der Vorschaubild-Erzeugung auftreten.</span>
 <p class="desc">
 <span class="label invisible" id="Bestimmung der maximalen Vorschaubildgröße">Bestimmung der maximalen Vorschaubildgröße</span>
 <span class="tag-box invisible">
-    <span class="inline-tag">Konfiguration!Thumbnailgröße</span>
+    <span class="inline-tag">Konfiguration!Vorschaubildgröße</span>
     <span class="inline-tag">Thumbnails!Größe</span>
     <span class="inline-tag">Thumbnails!Bestimmung</span>
 </span><!-- tagbox -->
@@ -6867,7 +6867,7 @@ Internet nicht geeignet sind.</span>
 <p class="desc">
 <span class="label invisible" id="Vor dem Upload Größe anpassen">Vor dem Upload Größe anpassen</span>
 <span class="tag-box invisible">
-    <span class="inline-tag">Konfiguration!Thumbnailgröße</span>
+    <span class="inline-tag">Konfiguration!Vorschaubildgröße</span>
     <span class="inline-tag">Thumbnails!Größe</span>
     <span class="inline-tag">Thumbnails!Upload</span>
     <span class="inline-tag">Thumbnails!Automatik</span>
@@ -6965,7 +6965,7 @@ Internet nicht geeignet sind.</span>
             <span class="inline-tag">EXIF</span>
         </span>
         sogenannte <code>EXIF</code>-Daten [*]
-        <span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://www.exif.org/" target="_blank" rel="noopener">http://www.exif.org/</a></span><!-- footnote -->
+        <span class="footnote"><i class="fa fa-info-circle"></i> <a href="https://www.exif.org/" target="_blank" rel="noopener">https://www.exif.org/</a></span><!-- footnote -->
         gespeichert werden, die zB. von Digitalkameras automatisch eingefügt
         werden und Informationen über Belichtungszeit und Aufnahmezeitpunkt
         enthalten.
