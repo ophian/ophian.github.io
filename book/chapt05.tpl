@@ -2322,7 +2322,7 @@ lang dasselbe Zufallsbild angezeigt wird.</span>
 <span class="desc-info">
     <span class="box">
         Serendipity erzeugt Vorschaubilder in der konfigurierten Breite/Höhe
-        (siehe Serendipity-Konfiguration auf Seite <span class="pageref"><a href="#Thumbnailgroesse">Thumbnailgroesse</a></span>). Daher
+        (siehe Serendipity-Konfiguration auf Seite <span class="pageref"><a href="#vorschaubildgroesse">Vorschaubildgröße</a></span>). Daher
         zeigt auch das Seitenleisten-Plugin standardmäßig die Bilder in genau dieser Breite an.
     </span>
 
