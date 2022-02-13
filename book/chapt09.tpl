@@ -8372,7 +8372,7 @@ sowohl innerhalb der Template-Datei <code>entries.tpl</code> als auch in
     <span class="box">
         Enhält den Wert <code>true</code>, wenn <span class="mbold">Bei Aktualisierung dieser Kommentare benachrichtigen</span>
         angezeigt werden soll. Diese Einstellung kann über die globale
-        Serendipity-Konfiguration (siehe Seite <span class="pageref"><a href="#config-subscriptions">config-subscriptions</a></span>)
+        Serendipity-Konfiguration (siehe Seite <span class="pageref"><a href="#eintrags-abonnement">Eintrags-Abonnement</a></span>)
         vorgenommen werden.
     </span>
 </span>
