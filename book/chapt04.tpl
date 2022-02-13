@@ -5739,6 +5739,33 @@ angezeigt. Auch hier können Sie Sonderzeichen einfügen, aber keinen HTML-Code.
 </p>
 
 <p class="desc">
+<span class="tag-box invisible">
+    <span class="inline-tag">Konfiguration!HTML Kommentare</span>
+</span><!-- tagbox -->
+<span class="item mbold">HTML Kommentare</span><!-- menuitem -->
+<span class="desc-info">
+    <span class="box">
+        Mit dieser Einstellung erlauben Sie den Rich-Text-Editor für Kommentarfelder,
+        sowohl im Frontend als auch im Backend.
+    </span>
+
+    <span class="box">
+        Es wirde das Möglichste getan um dieses Feature so sicher wie möglich zu machen.
+        Wenn die Rich-Text-Editor (WYSIWYG)-Option in den "Eigenen Einstellungen" erlaubt
+        ist, können Sie hier also zusätzlich "tag"-beschränkte HTML-Kommentare und "pre/code"
+        HTML-Auszeichnungs-Bestandteile zulassen, die in Backend- und Frontend-Seiten als
+        HTML verarbeitet, aber vom Editor nur im Backend bearbeitet werden. Bitte beachten
+        Sie: Diese Option gibt auch alte Kommentare frei, um ihren eventuellen Markup Inhalt
+        als HTML anzuzeigen. Überprüfen Sie diese also besser vor der Erlaubnis (!), damit
+        Sie keine versehentlich genehmigten, aber unsichere (javascript oder links, etc)
+        Kommentar Inhalte in Ihrer Datenbank gespeichert haben. Ansonsten eignen sich
+        Rich-Text-Editor-Kommentare auch hervorragend, um lästige Bot-Programm-Spammer
+        loszuwerden.
+    </span>
+</span>
+</p>
+
+<p class="desc">
 <span class="label invisible" id="eintrags-abonnement">Eintrags-Abonnement</span>
 <span class="tag-box invisible">
     <span class="inline-tag">Konfiguration!Abonnieren von Einträgen erlauben</span>
