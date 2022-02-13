@@ -5779,6 +5779,31 @@ Beitrag kommentiert hat.</span>
 </p>
 
 <p class="desc">
+<span class="label invisible" id="double-opt-in-fuer-kommentar-abonnementmail">Double-Opt In für Kommentar-Abonnementmails</span>
+<span class="tag-box invisible">
+    <span class="inline-tag">Konfiguration!Double-Opt In für Kommentar-Abonnementmails</span>
+    <span class="inline-tag">E-Mail!Double-Opt In für Benachrichtigungen</span>
+</span><!-- tagbox -->
+<span class="item mbold">Double-Opt In für Kommentar-Abonnementmails?</span><!-- menuitem -->
+<span class="desc-info">Falls aktiviert, wird einem Besucher Kommentator, der E-Mail-Benachrichtigungen
+zu neuen Kommentaren abonnieren möchte, eine E-Mail zugeschickt. Diese enthält einen
+Bestätigungslink nach dem z.B. für Deutsche Gesetze erforderlichen <span class="mbold">Opt-In-Schema</span>.</span>
+</p>
+
+<p class="desc">
+<span class="label invisible" id="token-kommentar-moderation">Schnelle Kommentar-Moderation verwenden</span>
+<span class="tag-box invisible">
+    <span class="inline-tag">Konfiguration!Schnelle Kommentar-Moderation verwenden</span>
+    <span class="inline-tag">E-Mail!Token für Benachrichtigungen</span>
+</span><!-- tagbox -->
+<span class="item mbold">Schnelle Kommentar-Moderation verwenden?</span><!-- menuitem -->
+<span class="desc-info">Diese Methode setzt Tokens ein, damit Kommentare direkt aus der Hinweis-E-Mail
+heraus gelöscht oder akzeptiert, also administriert werden können. Diese Funktion ist für höheren
+Komfort gedacht, geht aber zu Lasten der Sicherheit: Wenn jemand die E-Mail abfängt, kann diese
+Person entsprechende Kommentare ohne weitere Authentifikation löschen oder freischalten.</span>
+</p>
+
+<p class="desc">
 <span class="tag-box invisible">
     <span class="inline-tag">Konfiguration!Sprache</span>
 </span><!-- tagbox -->
