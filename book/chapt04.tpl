@@ -5678,19 +5678,6 @@ Einstellungen</span>.</p>
 </figure>
 
 <p class="desc">
-<span class="label invisible" id="config-subscriptions">config-subscriptions</span>
-<span class="tag-box invisible">
-    <span class="inline-tag">Konfiguration!Abonnieren von Einträgen erlauben</span>
-    <span class="inline-tag">E-Mail!Benachrichtigungen</span>
-</span><!-- tagbox -->
-<span class="item mbold">Abonnieren von Einträgen erlauben?</span><!-- menuitem -->
-<span class="desc-info">Wenn Sie es Ihren Besuchern erlauben wollen, dass sie per E-Mail über
-Kommentare benachrichtigt werden, muss diese Option aktiviert sein. Ein
-Benutzer kann Kommentare jedoch nur abonnieren, wenn er selber zu einem
-Beitrag kommentiert hat.</span>
-</p>
-
-<p class="desc">
 <span class="tag-box invisible">
     <span class="inline-tag">Konfiguration!Blog-Titel</span>
 </span><!-- tagbox -->
@@ -5749,6 +5736,19 @@ angezeigt. Auch hier können Sie Sonderzeichen einfügen, aber keinen HTML-Code.
     </span>
 
 </span>
+</p>
+
+<p class="desc">
+<span class="label invisible" id="config-subscriptions">config-subscriptions</span>
+<span class="tag-box invisible">
+    <span class="inline-tag">Konfiguration!Abonnieren von Einträgen erlauben</span>
+    <span class="inline-tag">E-Mail!Benachrichtigungen</span>
+</span><!-- tagbox -->
+<span class="item mbold">Abonnieren von Einträgen erlauben?</span><!-- menuitem -->
+<span class="desc-info">Wenn Sie es Ihren Besuchern erlauben wollen, dass sie per E-Mail über
+Kommentare benachrichtigt werden, muss diese Option aktiviert sein. Ein
+Benutzer kann Kommentare jedoch nur abonnieren, wenn er selber zu einem
+Beitrag kommentiert hat.</span>
 </p>
 
 <p class="desc">
