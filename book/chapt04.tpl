@@ -4923,17 +4923,17 @@ Backend einloggen können.</p>
 
     <span class="tag-box invisible">
         <span class="inline-tag">MySQL</span>
+        <span class="inline-tag">mysqli</span>
         <span class="inline-tag">sqlite</span>
         <span class="inline-tag">postgres</span>
         <span class="inline-tag">sqlite3</span>
         <span class="inline-tag">PDO postgres</span>
-         <span class="inline-tag">mysqli</span>
+        <span class="inline-tag">PDO-sqlite3</span>
     </span>
     <span class="box">
-        Serendipity kann auf folgende Client-Libraries zugreifen: <code>mysql</code>
-        (MySQL 3, eingeschränkt auch 4 und 5), <code>mysqli</code> (ab MySQL 4),
+        Serendipity kann auf folgende Client-Libraries zugreifen: <code>mysqli</code> (ab MySQL 4),
         <code>postgres</code> (PostgreSQL), <code>PDO postgres</code> (spezielle PHP5-Variante
-        der PostgreSQL-Library), <code>sqlite</code> und <code>sqlite3</code>.
+        der PostgreSQL-Library), <code>sqlite</code>, <code>sqlite3</code> und <code>PDO-sqlite3</code>.
     </span>
 
     <span class="box">
