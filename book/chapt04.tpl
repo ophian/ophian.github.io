@@ -6384,6 +6384,225 @@ Referrer-Statistik übernommen.</span>
 <article id="XU" class="subsub">
 
 <header>
+    <h4 class="subarticle" id="feedeinstellungen">Feed-Einstellungen</h4>
+</header>
+
+<p class="tagging invisible">
+<span class="tag-box invisible">
+    <span class="inline-tag">Konfiguration!Feed-Einstellungen</span>
+</span>
+</p>
+
+<p>Der vorletzte Bereich, <span class="mbold">Feed-Einstellungen</span>, legt einige Optionen
+für die Blog Feeds fest.</p>
+
+<p class="desc">
+<span class="label invisible" id="xxx">Einträge mit erweitertem Text im RSS-Feed einbinden</span>
+<span class="tag-box invisible">
+    <span class="inline-tag">Feeds!Einträge mit erweitertem Text im RSS-Feed einbinden</span>
+    <span class="inline-tag">Feeds!YYY</span>
+</span><!-- tagbox -->
+<span class="item mbold">Einträge mit erweitertem Text im RSS-Feed einbinden</span><!-- menuitem -->
+<span class="desc-info">
+    <span class="box">
+        Erweiterte <code>Ja</code> - <code>Nein</code> - <code>Client</code> Abfrage. Voreinstellung: <strong>Nein</strong>.
+    </span>
+
+    <span class="box">
+        Ein RSS-Feed enthält üblicherweise nur den Text eines Artikels, den Sie
+        im Feld <em>Eintrag</em> erfasst haben. Der <em>Erweiterte Eintrag</em> ist
+        nicht Bestandteil der RSS-Feeds, und somit muss ein Benutzer Ihr Blog
+        besuchen, um den vollständigen Artikel lesen zu können. Dies ist häufig
+        gewünscht, um mehr Besucher auf die Webseite zu "locken". Um Ihren
+        Besuchern mehr Komfort zu bieten, können Sie aber auch den vollständigen
+        Artikel im RSS-Feed eintragen.
+    </span>
+
+    <span class="box">
+        Mit dieser Konfigurationsoption können Sie dieses Verhalten beeinflussen.
+        Wenn Sie die Option <span class="mbold">Client</span> aktivieren, kann, wie im Abschnitt
+        <span class="reference">FullFeed</span> auf Seite <span class="pageref"><a href="#FullFeed">FullFeed</a></span> erwähnt, der Leser selbst
+        bestimmen, ob er einen vollständigen RSS-Feed haben will oder nicht. Dazu
+        muss er Ihren RSS-Feed über die Datei <code>rss.php?fullFeed=true</code>
+        abonnieren. Dies ist natürlich relativ versteckt, so dass Sie Ihre Besucher
+        über diese mögliche Variante informieren müssten.
+    </span>
+</span>
+</p>
+
+<p class="desc">
+<span class="label invisible" id="xxx">Bild für den RSS-Feed</span>
+<span class="tag-box invisible">
+    <span class="inline-tag">Feeds!Bild für den RSS-Feed</span>
+    <span class="inline-tag">Feeds!YYY</span>
+</span><!-- tagbox -->
+<span class="item mbold">Bild für den RSS-Feed</span><!-- menuitem -->
+<span class="desc-info">
+    <span class="box">
+         Ein (<code>string</code>) input Feld. Voreinstellung: <strong>Leer</strong> (leer heißt: Binde das Serendipity-Logo ein).
+    </span>
+
+    <span class="box">
+        URL für ein Bild im GIF/JPEG/PNG Format, falls vorhanden.
+    </span>
+</span>
+</p>
+
+<p class="desc">
+<span class="label invisible" id="xxx">Breite des Bildes</span>
+<span class="tag-box invisible">
+    <span class="inline-tag">Feeds!Breite des Bildes</span>
+    <span class="inline-tag">Feeds!YYY</span>
+</span><!-- tagbox -->
+<span class="item mbold">Breite des Bildes</span><!-- menuitem -->
+<span class="desc-info">
+    <span class="box">
+         Ein (<code>string</code>) input Feld. Voreinstellung: <strong>Leer</strong> (in Pixeln, max. 144).
+    </span>
+</span>
+</p>
+
+<p class="desc">
+<span class="label invisible" id="xxx">Höhe des Bildes</span>
+<span class="tag-box invisible">
+    <span class="inline-tag">Feeds!Höhe des Bildes</span>
+    <span class="inline-tag">Feeds!YYY</span>
+</span><!-- tagbox -->
+<span class="item mbold">Höhe des Bildes</span><!-- menuitem -->
+<span class="desc-info">
+    <span class="box">
+         Ein (<code>string</code>) input Feld. Voreinstellung: <strong>Leer</strong> (in Pixeln, max. 400).
+    </span>
+</span>
+</p>
+
+<p class="desc">
+<span class="label invisible" id="xxx">E-Mail-Adressen einbinden?</span>
+<span class="tag-box invisible">
+    <span class="inline-tag">Feeds!E-Mail-Adressen einbinden</span>
+    <span class="inline-tag">Feeds!YYY</span>
+</span><!-- tagbox -->
+<span class="item mbold">E-Mail-Adressen einbinden</span><!-- menuitem -->
+<span class="desc-info">
+    <span class="box">
+        Einfache <code>Ja</code> - <code>Nein</code> Abfrage. Voreinstellung: <strong>Nein</strong>.
+    </span>
+</span>
+</p>
+
+<p class="desc">
+<span class="label invisible" id="xxx">Feld "managingEditor"</span>
+<span class="tag-box invisible">
+    <span class="inline-tag">Feeds!Feld "managingEditor"</span>
+    <span class="inline-tag">Feeds!YYY</span>
+</span><!-- tagbox -->
+<span class="item mbold">Feld "managingEditor"</span><!-- menuitem -->
+<span class="desc-info">
+    <span class="box">
+         Ein (<code>string</code>) input Feld. Voreinstellung: <strong>Leer</strong> (leer heißt: nicht verwenden).
+    </span>
+
+    <span class="box">
+        E-Mail-Adresse des verantwortlichen Editors, falls vorhanden. [RSS 2.0]
+    </span>
+</span>
+</p>
+
+<p class="desc">
+<span class="label invisible" id="xxx">Feld "webMaster"</span>
+<span class="tag-box invisible">
+    <span class="inline-tag">Feeds!Feld "webMaster"</span>
+    <span class="inline-tag">Feeds!YYY</span>
+</span><!-- tagbox -->
+<span class="item mbold">Feld "webMaster"</span><!-- menuitem -->
+<span class="desc-info">
+    <span class="box">
+         Ein (<code>string</code>) input Feld. Voreinstellung: <strong>Leer</strong> (leer heißt: nicht verwenden).
+    </span>
+
+    <span class="box">
+        E-Mail-Adresse des Webmasters, falls vorhanden. [RSS 2.0]
+    </span>
+</span>
+</p>
+
+<p class="desc">
+<span class="label invisible" id="xxx">Feld "ttl" (time-to-live)</span>
+<span class="tag-box invisible">
+    <span class="inline-tag">Feeds!Feld "ttl" (time-to-live)</span>
+    <span class="inline-tag">Feeds!YYY</span>
+</span><!-- tagbox -->
+<span class="item mbold">Feld "ttl" (time-to-live)</span><!-- menuitem -->
+<span class="desc-info">
+    <span class="box">
+         Ein (<code>string</code>) input Feld. Voreinstellung: <strong>Leer</strong> (leer heißt: nicht verwenden).
+    </span>
+
+    <span class="box">
+        Anzahl der Minuten, nachdem das Blog von fremden Seiten nicht mehr gecached werden sollte. [RSS 2.0]
+    </span>
+</span>
+</p>
+
+<p class="desc">
+<span class="label invisible" id="xxx">Feld "pubDate"</span>
+<span class="tag-box invisible">
+    <span class="inline-tag">Feeds!Feld "pubDate"</span>
+    <span class="inline-tag">Feeds!YYY</span>
+</span><!-- tagbox -->
+<span class="item mbold">Feld "pubDate"</span><!-- menuitem -->
+<span class="desc-info">
+    <span class="box">
+        Einfache <code>Ja</code> - <code>Nein</code> Abfrage. Voreinstellung: <strong>Ja</strong>.
+    </span>
+
+    <span class="box">
+        Soll das "pubDate"-Feld für den RSS-Kanal eingebettet werden, um das Datum des letzten Eintrags zu enthalten?
+    </span>
+</span>
+</p>
+
+<p class="desc">
+<span class="label invisible" id="xxx">Individuelle Feed-URL</span>
+<span class="tag-box invisible">
+    <span class="inline-tag">Feeds!Individuelle Feed-URL</span>
+    <span class="inline-tag">Feeds!YYY</span>
+</span><!-- tagbox -->
+<span class="item mbold">Individuelle Feed-URL</span><!-- menuitem -->
+<span class="desc-info">
+    <span class="box">
+        Ein (<code>string</code>) input Feld. Voreinstellung: <strong>Leer</strong>.
+    </span>
+
+    <span class="box">
+        Wenn gesetzt, wird die eingetragene URL verwendet um Feedreader dorthin weiterzuleiten. Dies ist hilfreich für Statistikdienste wie z.B. Feedburner, so dass hier die Feedburner-URL des eigenen Feeds hinterlegt werden kann.
+    </span>
+</span>
+</p>
+
+<p class="desc">
+<span class="label invisible" id="xxx">Erzwingen der individuellen Feed-URL?</span>
+<span class="tag-box invisible">
+    <span class="inline-tag">Feeds!Erzwingen der individuellen Feed-URL</span>
+    <span class="inline-tag">Feeds!YYY</span>
+</span><!-- tagbox -->
+<span class="item mbold">Erzwingen der individuellen Feed-URL</span><!-- menuitem -->
+<span class="desc-info">
+    <span class="box">
+        Einfache <code>Ja</code> - <code>Nein</code> Abfrage. Voreinstellung: <strong>Nein</strong>.
+    </span>
+
+    <span class="box">
+        Wenn aktiviert, werden alle Feedreader automatisch zu der eingetragenen individuellen Feed-URL weitergeleitet.
+    </span>
+</span>
+</p>
+
+</article>
+
+<article id="XU" class="subsub">
+
+<header>
     <h4 class="subarticle" id="bildkonvertierung">Bildkonvertierung</h4>
 </header>
 
