@@ -5739,7 +5739,7 @@ angezeigt. Auch hier können Sie Sonderzeichen einfügen, aber keinen HTML-Code.
 </p>
 
 <p class="desc">
-<span class="label invisible" id="config-subscriptions">config-subscriptions</span>
+<span class="label invisible" id="eintrags-abonnement">Eintrags-Abonnement</span>
 <span class="tag-box invisible">
     <span class="inline-tag">Konfiguration!Abonnieren von Einträgen erlauben</span>
     <span class="inline-tag">E-Mail!Benachrichtigungen</span>
