@@ -6396,6 +6396,17 @@ Referrer-Statistik übernommen.</span>
 <p>Der vorletzte Bereich, <span class="mbold">Feed-Einstellungen</span>, legt einige Optionen
 für die Blog Feeds fest.</p>
 
+<figure id="fig-configuration-feed">
+  <a class="lightbox" rel="lightbox" href="media/configuration_feed_dm_de.avif" lg-uid="lg4816" data-fallback="media/configuration_feed_dm_de.webp">
+    <picture>
+      <source srcset="media/configuration_feed_dm_de.avif" type="image/avif">
+      <source srcset="media/configuration_feed_dm_de.webp" type="image/webp">
+      <img src="media/configuration_feed_dm_de.png" alt="configuration_feed_dm_de.png" loading="lazy" width="1416" height="1163">
+    </picture>
+    <figcaption>Abbildung 4.23f: Einstellungen: Konfiguration - Feed-Einstellungen</figcaption>
+  </a>
+</figure>
+
 <p class="desc">
 <span class="label invisible" id="xxx">Einträge mit erweitertem Text im RSS-Feed einbinden</span>
 <span class="tag-box invisible">
