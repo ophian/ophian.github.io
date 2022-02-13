@@ -5013,7 +5013,7 @@ gespeichert.</span>
 <span class="desc-info">Jede Serendipity-Tabelle in einer Datenbank muss einen vordefinierten
 Präfix besitzen, damit sich die Tabellennamen von möglicherweise gleichnamigen
 Tabellen anderer Anwendungen in derselben Datenbank abheben können.
-Standardmäßig wird hier <code>serendipity_</code> eingetragen. Wenn Sie den
+Standardmäßig wird hier <code>styx_</code> eingetragen. Wenn Sie den
 Tabellenpräfix nachträglich ändern, müssen Sie die bestehenden Tabellen
 manuell in der Datenbank umbenennen, Serendipity führt dies nicht
 selbständig aus.</span>
@@ -5033,8 +5033,8 @@ selbständig aus.</span>
         Um etwas Zeit zu sparen, können PHP-Anwendungen sogenannte
         <em>Persistent Connections</em> (<em>Ständige Verbindungen</em>) nutzen.
         Diese Option wird in der PHP-Dokumentation [*]
-        <span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://php.net/manual/de/features.persistent-connections.php" target="_blank" rel="noopener">http://php.net/manual/de/features.persistent-connections.php</a></span><!-- footnote -->
-        ausführlicher beschrieben und bewirkt - kurz gesagt --, dass mehrere
+        <span class="footnote"><i class="fa fa-info-circle"></i> <a href="https://www.php.net/manual/de/features.persistent-connections.php" target="_blank" rel="noopener">https://www.php.net/manual/de/features.persistent-connections.php</a></span><!-- footnote -->
+        ausführlicher beschrieben und bewirkt - kurz gesagt -, dass mehrere
         PHP-Aufrufe dieselbe Datenbankverbindung nutzen können, ohne diese
         ständig neu auf- und abzubauen.
     </span>
