@@ -3293,7 +3293,7 @@ machen dies zu einem gewagten Spiel.</p>
 ist, dass alle Vorschaugrafiken von Bildern überprüft und ggf. neu erstellt werden.
 Falls Sie also versehentlich eine Vorschaugrafik namens <code>.serendipityThumb</code>
 auf dem Server gelöscht haben, kann diese Datei immer neu erstellt werden. Wenn Sie in
-der Serendipity-Konfiguration (siehe Seite <span class="pageref"><a href="#Thumbnailgroesse">Thumbnailgroesse</a></span>)
+der Serendipity-Konfiguration (siehe Seite <span class="pageref"><a href="#vorschaubildgroesse">Vorschaubildgröße</a></span>)
 die Auflösung der Vorschaugrafiken einmal verändert haben (standardmäßig 400 Pixel),
 könnten sämtliche Vorschaubilder mit der neuen Auflösung neu berechnet werden.</p>
 
@@ -6726,7 +6726,7 @@ bei der Vorschaubild-Erzeugung auftreten.</span>
 </p>
 
 <p class="desc">
-<span class="label invisible" id="Thumbnailgroesse">Thumbnailgroesse</span>
+<span class="label invisible" id="vorschaubildgroesse">Vorschaubildgröße</span>
 <span class="tag-box invisible">
     <span class="inline-tag">Konfiguration!Thumbnailgröße</span>
     <span class="inline-tag">Thumbnails!Größe</span>
