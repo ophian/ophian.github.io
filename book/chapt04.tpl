@@ -5927,6 +5927,17 @@ Diese Option ist immer noch experimentell und bisher nur ungenügend validiert u
 <p>Optionen, die das Aussehen des Blogs betreffen, sind im Bereich
 <span class="mbold">Design und Optionen</span> zusammengefasst.</p>
 
+<figure id="fig-configuration-dao">
+  <a class="lightbox" rel="lightbox" href="media/configuration_dao_dm_de.avif" lg-uid="lg4815" data-fallback="media/configuration_dao_dm_de.webp">
+    <picture>
+      <source srcset="media/configuration_dao_dm_de.avif" type="image/avif">
+      <source srcset="media/configuration_dao_dm_de.webp" type="image/webp">
+      <img src="media/configuration_dao_dm_de.png" alt="configuration_dao_dm_de.png" loading="lazy" width="1416" height="1392">
+    </picture>
+    <figcaption>Abbildung 4.23e: Einstellungen: Konfiguration - Design und Optionen</figcaption>
+  </a>
+</figure>
+
 <p class="desc">
 <span class="tag-box invisible">
     <span class="inline-tag">Konfiguration!Anzahl der Artikel auf der Startseite</span>
