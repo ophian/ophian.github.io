@@ -5880,7 +5880,7 @@ Sprachauswahl die Artikel nicht automatisch übersetzen kann.</span>
 </p>
 
 <p class="desc">
-<span class="label invisible" id="benutzergruppen-pluginrechte">benutzergruppen pluginrechte</span>
+<span class="label invisible" id="benutzergruppen-pluginrechte">Benutzergruppen Pluginrechte</span>
 <span class="tag-box invisible">
     <span class="inline-tag">Konfiguration!Plugin-Rechte für Benutzergruppen</span>
 </span><!-- tagbox -->
