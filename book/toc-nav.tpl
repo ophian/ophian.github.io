@@ -120,6 +120,7 @@
  <li class="sct-sub"><span class="toc-sub">4.9.8</span> <a class="sidebar-nav-item" href="#U498">Zeige Serendipity Logfiles</a></li>
  <li class="sct-sub"><span class="toc-sub">4.9.9</span> <a class="sidebar-nav-item" href="#U499">UTF-8 MB4 Migration prüfen</a></li>
  <li class="sct-sub"><span class="toc-sub">4.9.10</span> <a class="sidebar-nav-item" href="#U4910">Plugin Altlastenmanager</a></li>
+ <li class="sct-sub"><span class="toc-sub">4.9.11</span> <a class="sidebar-nav-item" href="#U4911">Theme Altlastenmanager</a></li>
  <li class="sct"><span class="toc">4.10</span> <a class="sidebar-nav-item" href="#S4100">Bookmarklet</a></li>
 </ul>
 
