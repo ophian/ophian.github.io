@@ -9558,6 +9558,45 @@ wieder löschen.</p>
 
 </section><!-- section.sub end -->
 
+<section id="U4911" class="sub">
+<span class="u-toc">4.9.11 - Theme Altlastenmanager</span>
+
+<h3 class="subsection" id="wartung-theme-altlastenmanager">Wartung: Theme Altlastenmanager</h3>
+
+<p class="tagging invisible">
+<span class="label invisible" id="themealtlastenmanager">Theme Altlastenmanager</span>
+<span class="tag-box invisible">
+    <span class="inline-tag">Backend!Theme Altlastenmanager</span>
+    <span class="inline-tag">Altlastenmanager</span>
+</span>
+</p>
+
+<p class="desc-info">
+    <span class="box">
+        Auch die Themes bieten ein schier endloses Kuddelmuddel, wenn sie nicht den
+        jeweils aktuellen Versionen entsprechen. Zu unterscheiden sind <span class="mbold">Core</span>-Themes und
+        <span class="mbold">Remote</span>-Themes. Letztere werden über Spartacus geholt und bereitgestellt. Ihre
+        Leichen aber liegen oft über Jahre herum und sollten wirklich gelöscht werden.
+        Wenn Sie sie wieder benötigen, laden Sie sie neu herunter, dann aber guten
+        Gewissens, dass diese wirklich dem letzten Stand entsprechen.
+        Die einzigen Themes die sie vielleicht behalten wollen sind jene, an die Sie
+        selbst Hand angelegt haben und sie als eine Art sentimentale Grabbelkiste behalten
+        wollen. Doch wenn Jahre vergehen, ist das Vorgänger-Theme auf Spartacus möglicherweise
+        dem alten Zustrand schon entrückt. Gerade Styx hat alle alten Themes aus dem
+        <span class="mbold">additional_themes</span> Repository auf einen halbwegs akzeptablen
+        Zustand gebracht und tut dies bis Heute, wenn etwas Wichtiges und das wirklich alle
+        Theme betrifft auffällt.
+    </span>
+
+    <span class="box">
+        Der Button <span class="mbold">Suche heruntergeladene Themes</span> zeigt eine
+        multi-select Liste aus der alle darin von Ihnen Themes Plugins wirklich von
+        Ihrem System gelöscht werden können.
+    </span>
+</p>
+
+</section><!-- section.sub end -->
+
 </section><!-- section.index end -->
 
 <section id="S4100" class="index">
