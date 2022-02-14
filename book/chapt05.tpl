@@ -2403,6 +2403,23 @@ lang dasselbe Zufallsbild angezeigt wird.</span>
 </p>
 
 <p class="desc">
+<span class="item mbold">Use with installed Lightbox plugin</span><!-- menuitem -->
+<span class="desc-info">
+    <span class="box">
+        Wenn Sie hier ein HTML-Attribut eintragen, z.B. <code>&lt;rel="lightbox"&gt;</code> für einzelne,
+        oder <code>&lt;rel="lightbox[]"&gt;</code> für gruppierte Lightbox-Ansichten (beide ohne &lt;&gt;)
+        für die Lightbox-Nutzung mit dem Lightbox-Event-Plugin, werden auch die Bilder
+        der Seitenleiste über jene Lightbox gesteuert, bzw bei Klick angezeigt.
+    </span>
+
+    <span class="box">
+        Dieses Attribut wird in den Bildanker aufgenommen. Es funktioniert nur für die
+        "Mediathek" mit der Option <span class="mbold">"Behavior of image link" : "In Page"</span>.
+    </span>
+</span>
+</p>
+
+<p class="desc">
 <span class="item mbold">Enter any text (or html) you would like placed before/after the picture</span><!-- menuitem -->
 <span class="desc-info">Am Ende der Konfigurationsoptionen finden Sie zwei große
 Texteingabebereiche. Hier können Sie einen Text eintragen, der vor und
