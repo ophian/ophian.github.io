@@ -8389,20 +8389,6 @@ systemnaher Einstellungen.</span>
 
 <p class="desc">
 <span class="tag-box invisible">
-    <span class="inline-tag">Rechte!siteConfiguration</span>
-</span><!-- tagbox -->
-<span class="item mbold">siteConfiguration</span><!-- menuitem -->
-<span class="desc-info">
-    <span class="box">
-        Die systemweite Konfiguration (mit Einstellungen der Datenbank und
-        anderer systemnaher Optionen) darf ein Redakteur nur verändern, wenn er
-        über das Recht <span class="mbold">siteConfiguration</span> verfügt.
-    </span>
-</span>
-</p>
-
-<p class="desc">
-<span class="tag-box invisible">
     <span class="inline-tag">Rechte!siteAutoUpgrades</span>
 </span><!-- tagbox -->
 <span class="item mbold">siteAutoUpgrades</span><!-- menuitem -->
@@ -8425,6 +8411,20 @@ systemnaher Einstellungen.</span>
         damit diese Gruppe für andere Benutzer verborgen bleibt.
         Danach verbinden sie unter "Benutzer" den gewünschten Nutzer mit der Eigenschaft "Chefredakteur"
         zusätzlich mit eben dieser neu erstellten Gruppe.
+    </span>
+</span>
+</p>
+
+<p class="desc">
+<span class="tag-box invisible">
+    <span class="inline-tag">Rechte!siteConfiguration</span>
+</span><!-- tagbox -->
+<span class="item mbold">siteConfiguration</span><!-- menuitem -->
+<span class="desc-info">
+    <span class="box">
+        Die systemweite Konfiguration (mit Einstellungen der Datenbank und
+        anderer systemnaher Optionen) darf ein Redakteur nur verändern, wenn er
+        über das Recht <span class="mbold">siteConfiguration</span> verfügt.
     </span>
 </span>
 </p>
