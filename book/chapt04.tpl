@@ -7953,8 +7953,14 @@ entspricht. Andernfalls kann ein Administrator bzw. befugter Benutzer
 Passwort setzen.</p>
 
 <figure id="fig-usermanagement_new">
-    <img src="img/usermanagement_new.png">
+  <a class="lightbox" rel="lightbox" href="media/new_user_form_dm_de.avif" lg-uid="lg4822" data-fallback="media/new_user_form_dm_de.webp">
+    <picture>
+      <source srcset="media/new_user_form_dm_de.avif" type="image/avif">
+      <source srcset="media/new_user_form_dm_de.webp" type="image/webp">
+      <img src="media/new_user_form_dm_de.png" alt="new_user_form_dm_de.png" loading="lazy" width="1412" height="1794">
+    </picture>
     <figcaption>Abbildung 4.25: Einstellungen: Benutzerverwaltung: Neuer Redakteur</figcaption>
+  </a>
 </figure>
 
 <p>&nbsp;</p><!-- separator -->
