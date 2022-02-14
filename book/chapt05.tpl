@@ -1992,12 +1992,12 @@ und nur noch aus historischen Gründen in der Plugin-Datenbank. Ein
 Umstieg auf das einheitliche <em>Unified Sidebar Image Display</em>-Plugin
 ist daher immer zu empfehlen.</p>
 
-<p>Inzwischen hat die Realität dieses Plugin überholt. Die einst hervorragende
-Menalto Galerie zum Beispiel wird schon seit längerem nicht mehr weiterentwickelt
-und bei den anderen genannten Galerien müsste wahrscheinlich auch ein Plugin
-Maintainer erst einmal schauen wie es damit heutzutage steht. Trotzdem lassen wir
-die Pluginbeschreibung erst einmal wie sie ist, damit sie zum Vorbild für weitere
-Additionen werden kann.</p>
+<p><span class="mbold">Inzwischen hat die Realität</span> dieses Plugin in weiten
+Teilen überholt. Die einst hervorragende Menalto Galerie zum Beispiel wird schon seit
+längerem nicht mehr weiterentwickelt und bei den anderen (Coppermine, ...) genannten Galerien
+müsste wahrscheinlich auch ein Plugin Maintainer oder interessierter User erst einmal schauen
+wie es damit wirklich heutzutage steht. Trotzdem lassen wir die Pluginbeschreibung erst einmal
+wie sie ist, damit sie zum Vorbild für weitere Additionen werden kann.</p>
 
 <p>Nachdem das Plugin installiert wurde, müssen Sie in der Konfiguration
 erst festlegen, welche Software als Quelle für Ihre Bilder herangezogen
