@@ -8708,9 +8708,15 @@ von Serendipity finden Sie ab Seite <span class="pageref"><a href="#er-schema">e
 Auf der Folgeseite werden Ihnen abhängig vom gewählten System einige
 Optionen präsentiert.</p>
 
-<figure id="fig-import_wp">
-    <img src="img/import_wp.png">
+<figure id="fig-import-wp">
+  <a class="lightbox" rel="lightbox" href="media/maintenance_import_wp_form_dm_de.avif" lg-uid="lg4941" data-fallback="media/maintenance_import_wp_form_dm_de.webp">
+    <picture>
+      <source srcset="media/maintenance_import_wp_form_dm_de.avif" type="image/avif">
+      <source srcset="media/maintenance_import_wp_form_dm_de.webp" type="image/webp">
+      <img src="media/maintenance_import_wp_form_dm_de.png" alt="maintenance_import_wp_form_dm_de.png" loading="lazy" width="1420" height="828">
+    </picture>
     <figcaption>Abbildung 4.30: Einstellungen: Daten importieren: WordPress</figcaption>
+  </a>
 </figure>
 
 <p>Meist ist es wichtig, dass die Datenbank des Zielsystems sich auf demselben
