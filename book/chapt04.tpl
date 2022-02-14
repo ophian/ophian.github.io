@@ -8139,8 +8139,14 @@ Auswahlbox auswählen, die Sie selber aufgrund Ihrer
 Gruppenmitgliedschaft besitzen.</p>
 
 <figure id="fig-groupmanagement_edit">
-    <img src="img/groupmanagement_edit.png">
+  <a class="lightbox" rel="lightbox" href="media/edit_groups_userlevel_editor_dm_de.avif" lg-uid="lg4832" data-fallback="media/edit_groups_userlevel_editor_dm_de.webp">
+    <picture>
+      <source srcset="media/edit_groups_userlevel_editor_dm_de.avif" type="image/avif">
+      <source srcset="media/edit_groups_userlevel_editor_dm_de.webp" type="image/webp">
+      <img src="media/edit_groups_userlevel_editor_dm_de.png" alt="edit_groups_userlevel_editor_dm_de.png" loading="lazy" width="1412" height="2052">
+    </picture>
     <figcaption>Abbildung 4.27: Einstellungen: Gruppenverwaltung: Gruppe bearbeiten</figcaption>
+  </a>
 </figure>
 
 <p>Wenn Sie als Mitglied der Gruppe <span class="mbold">Chefredakteur</span> eine neue
