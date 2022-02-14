@@ -2259,7 +2259,7 @@ Verlinkungs-Art verändern.</p>
 <article id="XU" class="subsub">
 
 <header>
-    <h4 class="subarticle" id="media-library-serendipity">Media Library (Serendipity)</h4>
+    <h4 class="subarticle" id="mediathek-serendipity">Mediathek (Serendipity)</h4>
 </header>
 
 <p>Natürlich ist es auch möglich, Bilder Ihrer
