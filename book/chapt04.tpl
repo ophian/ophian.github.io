@@ -8149,9 +8149,11 @@ Gruppenmitgliedschaft besitzen.</p>
   </a>
 </figure>
 
-<p>Wenn Sie als Mitglied der Gruppe <span class="mbold">Chefredakteur</span> eine neue
-Gruppe erstellen, können Sie keine Rechte zur Administration des Blogs
-vergeben - das wäre natürlich eine einfache Art, sich die Blog-Herrschaft
+<p>Hier im Beispiel der Bearbeitung für die Gruppe <span class="mbold">Redakteur</span>, also der niedrigsten der vorgesehen Gruppenrechte.</p>
+
+<p>Wenn Sie aber als Mitglied der Gruppe <span class="mbold">Chefredakteur</span>
+beisielsweise eine neue Gruppe erstellen, können Sie keine Rechte zur Administration
+des Blogs vergeben - denn das wäre natürlich eine einfache Art, sich die Blog-Herrschaft
 anzueignen.</p>
 
 <p>Bei solchen nicht vergebbaren Rechten sehen Sie also nur den aktuellen
