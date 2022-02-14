@@ -8697,7 +8697,7 @@ wichtig sein.</p>
 
 <p>Sollte Ihre Blogsoftware in der Liste nicht aufgeführt sein, ist ein
 Import zu Serendipity dennoch nicht unmöglich. Fragen Sie in diesem
-Fall im Serendipity-Forum unter <code>http://board.s9y.org/</code> einfach
+Fall in den Serendipity-Styx-Discussions unter <code>https://github.com/ophian/styx/discussions</code> einfach
 einmal nach, dort wird man sicher helfen können. Grundsätzlich müssen beim
 Import lediglich Daten auf Datenbankbasis eingelesen und in einem neuen Format
 gespeichert werden. Wenn Sie über SQL-Kenntnisse verfügen, könnten Sie Ihren
