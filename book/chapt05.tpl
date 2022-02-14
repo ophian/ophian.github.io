@@ -25,8 +25,9 @@ wir leider nicht auf jedes Plugin eingehen, verzeihen Sie also bitte,
 falls Ihr Lieblings-Plugin nicht beschrieben wird.
 Die meisten Plugins sind trotz kurzer Beschreibung leicht zu benutzen
 und zu konfigurieren. Sollte es darüber hinaus Fragen zu der Benutzung
-eines Plugins geben, wird man Ihnen im Serendipity-Forum [*]
-<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://board.s9y.org/" target="_blank" rel="noopener">http://board.s9y.org/</a></span><!-- footnote --> sicherlich helfen.</p>
+eines Plugins geben, wird man Ihnen in den Serendipity-Styx-Discussions [*]
+<span class="footnote"><i class="fa fa-info-circle"></i> <a href="https://github.com/ophian/styx/discussions" target="_blank" rel="noopener">https://github.com/ophian/styx/discussions</a></span><!-- footnote -->
+sicherlich helfen.</p>
 
 <p>
 <span class="tag-box invisible">
