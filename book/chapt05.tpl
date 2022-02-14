@@ -116,8 +116,8 @@ haben. Achten Sie beim Aktivieren dieser Option darauf, dass diese die
 Geschwindigkeit des Plugins stark verringert. Das Auslesen der Anzahl
 aller Artikel pro Zeitraum ist eine komplexe Datenbankabfrage.</p>
 
-<p>Wenn Sie die Option <span class="mbold">Hide archives link when no entries were made in that
-timespan (requires counting entries)</span> aktivieren, können in der Ausgabe der
+<p>Wenn Sie die Option <span class="mbold">Versteckt den Archiv-Link,
+wenn es keine Einträge für einen Zeitraum gab...</span> aktivieren, können in der Ausgabe der
 Monatsarchive diejenigen Monate übergangen werden, in denen Sie keine
 Blog-Artikel geschrieben haben. Damit dies klappt, müssen Sie die Option
 <span class="mbold">Anzahl der Einträge pro Kategorie anzeigen</span> ebenfalls aktivieren.</p>
