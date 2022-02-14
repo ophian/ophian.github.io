@@ -2493,8 +2493,8 @@ Kommentars), <code>ip</code> (IP des Kommentators) und <code>body</code> (Text).
 </p>
 
 <p>Bereits mittels der Plugins <em>Geschichte</em> (Seite
-<span class="pageref"><a href="#serendipity-plugin-history">serendipity-plugin-history</a></span>) und <em>Aktuelle Einträge</em> (Seite
-<span class="pageref"><a href="#serendipity-plugin-recententries">serendipity-plugin-recententries</a></span>) können Sie in der
+<span class="pageref"><a href="#serendipity_plugin_history">serendipity_plugin_history</a></span>) und <em>Aktuelle Einträge</em> (Seite
+<span class="pageref"><a href="#serendipity_plugin_recententries">serendipity_plugin_recententries</a></span>) können Sie in der
 Seitenleiste auf ältere Artikel verweisen.</p>
 
 <p>Mit beiden Plugins ist es jedoch nicht möglich, individuelle
@@ -2518,7 +2518,7 @@ Ein weiterer Einsatzzweck des Plugins wird in der Plugin-Beschreibung
 erwähnt: <em>Good for Sidebar Moblogging</em>. Moblogging bezeichnet dabei
 die Möglichkeit, einen Blog-Artikel via E-Mail zu verfassen und
 unterwegs an das eigene Blog zu schicken. Das Blog kann dann mittels
-Popfetcher-Plugin (siehe Seite <span class="pageref"><a href="#serendipity-event-popfetcher">serendipity-event-popfetcher</a></span>) die E-Mails von
+Popfetcher-Plugin (siehe Seite <span class="pageref"><a href="#serendipity_event_popfetcher">serendipity_event_popfetcher</a></span>) die E-Mails von
 einem Server abrufen und automatisch importieren und erspart es Ihnen dadurch,
 einen Artikel mittels eines Browsers erstellen zu müssen. Derart erstellte
 Artikel könnten Sie mit dem hier beschriebenen Plugin <span class="mbold">Show Entries in sidebar</span>
