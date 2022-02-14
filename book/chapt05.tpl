@@ -122,6 +122,17 @@ Monatsarchive diejenigen Monate übergangen werden, in denen Sie keine
 Blog-Artikel geschrieben haben. Damit dies klappt, müssen Sie die Option
 <span class="mbold">Anzahl der Einträge pro Kategorie anzeigen</span> ebenfalls aktivieren.</p>
 
+<figure id="fig-plugin-archives-config">
+  <a class="lightbox" rel="lightbox" href="media/plugin_archives_config_as_stack_example_dm_de.avif" lg-uid="lg5111" data-fallback="media/plugin_archives_config_as_stack_example.webp">
+    <picture>
+      <source srcset="media/plugin_archives_config_as_stack_example_dm_de.avif" type="image/avif">
+      <source srcset="media/plugin_archives_config_as_stack_example_dm_de.webp" type="image/webp">
+      <img src="media/plugin_archives_config_as_stack_example_dm_de.png" alt="plugin_archives_config_as_stack_example_dm_de.png" loading="lazy" width="1009" height="541">
+    </picture>
+    <figcaption>Abbildung 5.1: Archives Plugin: Konfiguration - Beispiel für stapelbare Plugins</figcaption>
+  </a>
+</figure>
+
 </section><!-- section.sub end -->
 
 <section id="serendipity_plugin_categories" class="sub">
