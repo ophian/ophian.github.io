@@ -8095,8 +8095,14 @@ entspricht dies nicht der Einstellung, die Sie beabsichtigen.</p>
 <span class="mbold">Gruppenverwaltung</span> alle angelegten Benutzergruppen.</p>
 
 <figure id="fig-groupmanagement">
-    <img src="img/groupmanagement.png">
+  <a class="lightbox" rel="lightbox" href="media/groupmanagement_dm_de.avif" lg-uid="lg4831" data-fallback="media/groupmanagement_dm_de.webp">
+    <picture>
+      <source srcset="media/groupmanagement_dm_de.avif" type="image/avif">
+      <source srcset="media/groupmanagement_dm_de.webp" type="image/webp">
+      <img src="media/groupmanagement_dm_de.png" alt="groupmanagement_dm_de.png" loading="lazy" width="1424" height="800">
+    </picture>
     <figcaption>Abbildung 4.26: Einstellungen: Gruppenverwaltung</figcaption>
+  </a>
 </figure>
 
 <p>Sie können von dort aus entweder eine <span class="mbold">Neue Gruppe anlegen</span>,
