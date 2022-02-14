@@ -7862,8 +7862,14 @@ ihre Zugriffsmöglichkeiten verwalten.</p>
 Sie Zugriff haben.</p>
 
 <figure id="fig-usermanagement">
-    <img src="img/usermanagement.png">
+  <a class="lightbox" rel="lightbox" href="media/usermanagement_dm_de.avif" lg-uid="lg4821" data-fallback="media/usermanagement_dm_de.webp">
+    <picture>
+      <source srcset="media/usermanagement_dm_de.avif" type="image/avif">
+      <source srcset="media/usermanagement_dm_de.webp" type="image/webp">
+      <img src="media/usermanagement_dm_de.png" alt="usermanagement_dm_de.png" loading="lazy" width="1424" height="800">
+    </picture>
     <figcaption>Abbildung 4.24: Einstellungen: Benutzerverwaltung</figcaption>
+  </a>
 </figure>
 
 <p class="tagging invisible">
