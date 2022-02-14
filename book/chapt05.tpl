@@ -1999,6 +1999,8 @@ müsste wahrscheinlich auch ein Plugin Maintainer oder interessierter User erst 
 wie es damit wirklich heutzutage steht. Trotzdem lassen wir die Pluginbeschreibung erst einmal
 wie sie ist, damit sie zum Vorbild für weitere Additionen werden kann.</p>
 
+<p><span class="mbold">So gilt</span>, dass nur noch die Serendipity Mediathek wirklich unterstützt wird.</p>
+
 <p>Nachdem das Plugin installiert wurde, müssen Sie in der Konfiguration
 erst festlegen, welche Software als Quelle für Ihre Bilder herangezogen
 werden soll. Abhängig von der gewählten Option werden dann weitere
