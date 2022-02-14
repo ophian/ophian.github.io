@@ -1303,7 +1303,7 @@ Seite <span class="pageref"><a href="#Suche">Suche</a></span>.</p>
     <span class="inline-tag">Plugins!aktuelle Einträge</span>
     <span class="inline-tag">Plugins!serendipity_plugin_recententries</span>
 </span>
-<span class="label invisible" id="serendipity-plugin-recententries">serendipity-plugin-recententries</span>
+<span class="label invisible" id="recententries">serendipity-plugin-recententries</span>
 </p>
 
 <p>Das Plugin <em>Aktuelle Einträge</em> zeigt in der Seitenleiste eine kurze
