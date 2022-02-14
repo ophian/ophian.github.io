@@ -9523,6 +9523,41 @@ wieder löschen.</p>
 
 </section><!-- section.sub end -->
 
+<section id="U4910" class="sub">
+<span class="u-toc">4.9.10 - Plugin Altlastenmanager</span>
+
+<h3 class="subsection" id="wartung-plugin-altlastenmanager">Wartung: Plugin Altlastenmanager</h3>
+
+<p class="tagging invisible">
+<span class="label invisible" id="pluginaltlastenmanager">Plugin Altlastenmanager</span>
+<span class="tag-box invisible">
+    <span class="inline-tag">Backend!Plugin Altlastenmanager</span>
+    <span class="inline-tag">Altlastenmanager</span>
+</span>
+</p>
+
+<p class="desc-info">
+    <span class="box">
+        Das mächtige Plugin Werkzeug muss ebenso wie die Mediathek mit der Datenbank
+        synchron gehalten werden. Mit der Zeit aber sammeln sich hier ehemals installierte
+        Plugins, werden dann deaktiviert oder nur unvollständig deinstalliert. Jedenfalls
+        existierten über Jahre solche <span class="mbold">Zombies</span> ohne jemals
+        mit ihrer <span class="mbold">remote</span> Version von Spartacus aktualisiert
+        zu werden. Häufig wurden diese dann zur erneuten Installaton vorgeschlagen, wenn
+        Sie die Liste der neue-plugins-installieren aufriefen.
+        Solch alte Versionen konnten dann mitunter das ganze System aus dem Tritt bringen.
+        Löschen Sie die alten Plugins also regelmäßig, wenn sie ihren Dienst getan haben.
+    </span>
+
+    <span class="box">
+        Der Button <span class="mbold">Suche nach Plugin Zombies</span> zeigt eine
+        multi-select Liste, aus der alle darin von Ihnen gewählten Plugins wirklich
+        vom System gelöscht werden können.
+    </span>
+</p>
+
+</section><!-- section.sub end -->
+
 </section><!-- section.index end -->
 
 <section id="S4100" class="index">
