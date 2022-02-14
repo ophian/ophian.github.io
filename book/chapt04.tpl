@@ -8559,9 +8559,15 @@ event Plugin installiert haben, und anderes. Wie auch auf der Startseite,
 können sich Plugins mit weiteren Aufgaben über den <code>backend_maintenance</code>
 Hook hier einhaken.</p>
 
-<figure id="fig-wartung">
-    <img src="img/wartung.png">
+<figure id="fig-maintenance">
+  <a class="lightbox" rel="lightbox" href="media/maintenance_dm_de.avif" lg-uid="lg4901" data-fallback="media/maintenance_dm_de.webp">
+    <picture>
+      <source srcset="media/maintenance_dm_de.avif" type="image/avif">
+      <source srcset="media/maintenance_dm_de.webp" type="image/webp">
+      <img src="media/maintenance_dm_de.png" alt="maintenance_dm_de.png" loading="lazy" width="1424" height="1056">
+    </picture>
     <figcaption>Abbildung 4.28: Einstellungen: Wartung (Beispielseite)</figcaption>
+  </a>
 </figure>
 
 <section id="U491" class="sub">
