@@ -2267,6 +2267,17 @@ Serendipity-Mediathek in der Seitenleiste anzuzeigen. Hierfür dient
 die Option <span class="mbold">Media Library</span> in den Einstellungen des Plugins.
 Folgende Konfigurationsoptionen sind dabei möglich:</p>
 
+<figure id="fig-mediasidebar">
+  <a class="lightbox" rel="lightbox" href="media/mediasidebar_dm_de.avif" lg-uid="lg5351" data-fallback="media/mediasidebar_dm_de.webp">
+    <picture>
+      <source srcset="media/mediasidebar_dm_de.avif" type="image/avif">
+      <source srcset="media/mediasidebar_dm_de.webp" type="image/webp">
+      <img src="media/mediasidebar_dm_de.png" alt="mediasidebar_dm_de.png" loading="lazy" width="1377" height="1778">
+    </picture>
+    <figcaption>Abbildung 5.3: Einstellungen für Mediathek</figcaption>
+  </a>
+</figure>
+
 <p class="desc">
 <span class="item mbold">Limit output to only hotlinked images</span><!-- menuitem -->
 <span class="desc-info">
