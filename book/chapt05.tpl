@@ -133,6 +133,10 @@ Blog-Artikel geschrieben haben. Damit dies klappt, müssen Sie die Option
   </a>
 </figure>
 
+<p>Stapelbare Plugins wie dieses - also Plugins die Mehrfachinstallationen erlauben - werden
+mit einem Icon vor dem Pluginnamen ausgezeichnet. Der Info Button öffnet die zusätzliche
+Plugin Beschreibung bzw räumt dies aus dem Weg.</p>
+
 </section><!-- section.sub end -->
 
 <section id="serendipity_plugin_categories" class="sub">
