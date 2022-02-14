@@ -8704,11 +8704,6 @@ gespeichert werden. Wenn Sie über SQL-Kenntnisse verfügen, könnten Sie Ihren
 eigenen Importer so relativ einfach entwickeln. Details zur Datenbankstruktur
 von Serendipity finden Sie ab Seite <span class="pageref"><a href="#er-schema">er-schema</a></span>.</p>
 
-<figure id="fig-import">
-    <img src="img/import.png">
-    <figcaption>Abbildung 4.29: Einstellungen: Daten importieren</figcaption>
-</figure>
-
 <p>Nachdem Sie das Quell-Blogsystem gewählt haben, klicken Sie auf <span class="mbold">Los!</span>.
 Auf der Folgeseite werden Ihnen abhängig vom gewählten System einige
 Optionen präsentiert.</p>
