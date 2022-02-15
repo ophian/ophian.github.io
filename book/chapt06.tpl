@@ -3482,9 +3482,8 @@ Standardmäßig sind dies 3 Tage (10800 Sekunden).</span>
 <p>&nbsp;</p><!-- separator -->
 
 <p>Sie können diesen RSS-Feed in der Admin-Oberfläche gut dazu benutzen,
-den RSS-Feed vom offiziellen
-Serendipity-Blog [*]
-<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://blog.s9y.org/rss.php" target="_blank" rel="noopener">http://blog.s9y.org/rss.php</a></span><!-- footnote --> zu
+den RSS-Feed vom offiziellen Serendipity-Styx-Blog [*]
+<span class="footnote"><i class="fa fa-info-circle"></i> <a href="https://ophian.github.io/atom.xml" target="_blank" rel="noopener">https://ophian.github.io/atom.xml</a></span><!-- footnote --> zu
 abonnieren. So können Sie direkt beim Login in Ihr Blog erkennen, ob
 es möglicherweise neue Versionen der Software gibt, in der zB.
 Sicherheitslücken behoben worden sind.</p>
