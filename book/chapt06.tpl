@@ -5107,7 +5107,7 @@ verlinken.</p>
 </section><!-- section.sub end -->
 
 <section id="serendipity_event_social" class="sub">
-<span class="u-toc">6.3.13 - Show links to services like<br>Facebook, Twitter,etc.<br>related to your entry: serendipity_event_social</span>
+<span class="u-toc">6.3.13 - Show links to services like<br>Facebook, Twitter, etc.<br>related to your entry: serendipity_event_social</span>
 
 <h3 class="subsection" id="show-links-to-services-like-facebook-twitter-etc-rela">Show links to services like Facebook, Twitter, etc. related to your entry<br>serendipity_event_social</h3>
 
