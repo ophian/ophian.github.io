@@ -1567,7 +1567,7 @@ Lesen Sie die Dokumentation des multilingual Plugins sorgfältig durch.</p>
 
 </section><!-- section.sub end -->
 
-<section id="serendipity-event-staticpage" class="sub">
+<section id="serendipity_event_staticpage" class="sub">
 <span class="u-toc">7.2.6 - Liste der statischen Seiten, Statische Seiten:<br>serendipity_plugin_staticpage, serendipity_event_staticpage</span>
 
 <h3 class="subsection" id="liste-der-statischen-seiten-statische-seitenserendipity_plugin_s">Liste der statischen Seiten, Statische Seiten<br>serendipity_plugin_staticpage, serendipity_event_staticpage</h3>
