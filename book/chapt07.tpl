@@ -424,7 +424,7 @@ Freischaltung via E-Mail.</p>
 
 </section><!-- section.sub end -->
 
-<section id="serendipity-event-creativecommons" class="sub">
+<section id="serendipity_event_creativecommons" class="sub">
 <span class="u-toc">7.2.2 - Creative Commons: serendipity_plugin_creativecommons,<br>Creative Commons-Lizenz: serendipity_event_creativecommons</span>
 
 <h3 class="subsection" id="creative-commonsserendipity_plugin_creativecommons-creative-comm">Creative Commons<br>serendipity_plugin_creativecommons,<br>Creative Commons-Lizenz<br>serendipity_event_creativecommons</h3>
