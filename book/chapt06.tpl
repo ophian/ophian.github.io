@@ -4533,7 +4533,7 @@ Beispielsweise bietet Serendipity Plugins an, die regelmäßig RSS-Feeds
 importieren (Aggregator, siehe Seite
 <span class="pageref"><a href="#aggregator">aggregator</a></span>)
 oder regelmäßig E-Mails als Blog-Artikel abrufen (Popfetcher, siehe Seite
-<span class="pageref"><a href="#serendipity-event-popfetcher">serendipity-event-popfetcher</a></span>).</p>
+<span class="pageref"><a href="#serendipity_event_popfetcher">serendipity_event_popfetcher</a></span>).</p>
 
 <p>Eine solch regelmäßige Aktion kann Ihr PHP-Webserver üblicherweise nicht selbst
 ausführen. Serendipity ist keine Anwendung, die wie ein Betriebssystem
