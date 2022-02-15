@@ -2467,6 +2467,17 @@ keine Grafiken angezeigt werden könnten.</span>
 
 </article>
 
+<figure id="fig-staticpage-entry-frontend-example">
+  <a class="lightbox" rel="lightbox" href="media/staticpage_entry_frontend_dm_de.avif" lg-uid="lg7265" data-fallback="media/staticpage_entry_frontend_dm_de.webp">
+    <picture>
+      <source srcset="media/staticpage_entry_frontend_dm_de.avif" type="image/avif">
+      <source srcset="media/staticpage_entry_frontend_dm_de.webp" type="image/webp">
+      <img src="media/staticpage_entry_frontend_dm_de.png" alt="staticpage_entry_frontend_dm_de.png" loading="lazy" width="794" height="1152">
+    </picture>
+    <figcaption>Abbildung 7.2e: Statische Seiten: Frontend Ausschnitt Beispielseite (siehe Abbildung 7.2c)</figcaption>
+  </a>
+</figure>
+
 <article id="XU" class="subsub">
 
 <header>
