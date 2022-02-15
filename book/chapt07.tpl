@@ -1278,7 +1278,7 @@ performancetechnisch nicht günstig ausgewirkt, und die Tags liegen nun in einer
 
 </section><!-- section.sub end -->
 
-<section id="serendipity-event-geotag" class="sub">
+<section id="serendipity_event_geotag" class="sub">
 <span class="u-toc">7.2.4 - Geotag Google Map, Geotag: serendipity_plugin_geotag, serendipity_event_geotag</span>
 
 <h3 class="subsection" id="geotag-google-map-geotagserendipity_plugin_geotag-serendipity_ev">Geotag Google Map, Geotag<br>serendipity_plugin_geotag, serendipity_event_geotag</h3>
