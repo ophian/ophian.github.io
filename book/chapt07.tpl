@@ -2321,6 +2321,17 @@ Zu diesen Plugins zählen der <em>Downloadmanager</em>, das <em>Gästebuch</em>,
 <p>Links zu derartigen Plugins müssten Sie andernfalls immer manuell über
 HTML-Klötze oder Template-Änderungen einbinden.</p>
 
+<figure id="fig-staticpage-otherplugins>
+  <a class="lightbox" rel="lightbox" href="media/staticpage_otherplugins_dm_de.avif" lg-uid="lg7264" data-fallback="media/staticpage_otherplugins_dm_de.webp">
+    <picture>
+      <source srcset="media/staticpage_otherplugins_dm_de.avif" type="image/avif">
+      <source srcset="media/staticpage_otherplugins_dm_de.webp" type="image/webp">
+      <img src="media/staticpage_otherplugins_dm_de.png" alt="staticpage_otherplugins_dm_de.png" loading="lazy" width="1385" height="920">
+    </picture>
+    <figcaption>Abbildung 7.2d: Statische Seiten: Unterformular Andere Plugins</figcaption>
+  </a>
+</figure>
+
 <p>Über den Menüpunkt <span class="mbold">Einträge <span class="icon arrow-right">→</span> Statische Seiten <span class="icon arrow-right">→</span> Andere
 Plugins</span> können Sie die Liste der unterstützten Plugins einsehen. Alle
 Plugins, die unterstützt und installiert sind, werden als
