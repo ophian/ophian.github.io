@@ -240,14 +240,14 @@
  <li class="sct-sub"><span class="toc-sub">7.1.1</span> <a class="sidebar-nav-item" href="#U711"> - z.Z. leerer toc - </a></li>
 <!-- empty toc -->
  <li class="sct"><span class="toc">7.2</span> <a class="sidebar-nav-item" href="#S720">Auswahl externer Plugins</a>&nbsp;<a data-toggle="collapse" data-target="#collapse_S-7.2" href="#collapse_S-7.2"><i class="fa fa-caret-down"></i></a></li>
- <li class="sct-sub"><span class="toc-sub">7.2.1</span> <a class="sidebar-nav-item" href="#serendipity-event-adduser">Registrierung neuer User serendipity_plugin_adduser, serendipity_event_adduser</a></li>
- <li class="sct-sub"><span class="toc-sub">7.2.2</span> <a class="sidebar-nav-item" href="#serendipity-event-creativecommons">Creative Commons, Creative Commons-Lizenz serendipity_plugin_creativecommons, serendipity_event_creativecommons</a></li>
- <li class="sct-sub"><span class="toc-sub">7.2.3</span> <a class="sidebar-nav-item" href="#serendipity-event-freetag">Getaggte Artikel, Freie Artikel-Tags serendipity_plugin_freetag, serendipity_event_freetag</a></li>
- <li class="sct-sub"><span class="toc-sub">7.2.4</span> <a class="sidebar-nav-item" href="#serendipity-event-geotag">Geotag Google Map, Geotag serendipity_plugin_geotag, serendipity_event_geotag</a></li>
- <li class="sct-sub"><span class="toc-sub">7.2.5</span> <a class="sidebar-nav-item" href="#serendipity-event-multilingual">Sprachauswahl, Multilinguale Einträge serendipity_plugin_multilingual, serendipity_event_multilingual</a></li>
- <li class="sct-sub"><span class="toc-sub">7.2.6</span> <a class="sidebar-nav-item" href="#serendipity-event-staticpage">Liste der statischen Seiten, Statische Seiten serendipity_plugin_staticpage, serendipity_event_staticpage</a></li>
- <li class="sct-sub"><span class="toc-sub">7.2.7</span> <a class="sidebar-nav-item" href="#serendipity-event-statistics">Statistiken serendipity_plugin_statistics, serendipity_event_statistics</a></li>
- <li class="sct-sub"><span class="toc-sub">7.2.8</span> <a class="sidebar-nav-item" href="#serendipity-event-templatechooser">Template dropdown, Template-Auswahl serendipity_plugin_templatedropdown, serendipity_event_templatechooser</a></li>
+ <li class="sct-sub"><span class="toc-sub">7.2.1</span> <a class="sidebar-nav-item" href="#serendipity_event_adduser">Registrierung neuer User serendipity_plugin_adduser, serendipity_event_adduser</a></li>
+ <li class="sct-sub"><span class="toc-sub">7.2.2</span> <a class="sidebar-nav-item" href="#serendipity_event_creativecommons">Creative Commons, Creative Commons-Lizenz serendipity_plugin_creativecommons, serendipity_event_creativecommons</a></li>
+ <li class="sct-sub"><span class="toc-sub">7.2.3</span> <a class="sidebar-nav-item" href="#serendipity_event_freetag">Getaggte Artikel, Freie Artikel-Tags serendipity_plugin_freetag, serendipity_event_freetag</a></li>
+ <li class="sct-sub"><span class="toc-sub">7.2.4</span> <a class="sidebar-nav-item" href="#serendipity_event_geotag">Geotag Google Map, Geotag serendipity_plugin_geotag, serendipity_event_geotag</a></li>
+ <li class="sct-sub"><span class="toc-sub">7.2.5</span> <a class="sidebar-nav-item" href="#serendipity_event_multilingual">Sprachauswahl, Multilinguale Einträge serendipity_plugin_multilingual, serendipity_event_multilingual</a></li>
+ <li class="sct-sub"><span class="toc-sub">7.2.6</span> <a class="sidebar-nav-item" href="#serendipity_event_staticpage">Liste der statischen Seiten, Statische Seiten serendipity_plugin_staticpage, serendipity_event_staticpage</a></li>
+ <li class="sct-sub"><span class="toc-sub">7.2.7</span> <a class="sidebar-nav-item" href="#serendipity_event_statistics">Statistiken serendipity_plugin_statistics, serendipity_event_statistics</a></li>
+ <li class="sct-sub"><span class="toc-sub">7.2.8</span> <a class="sidebar-nav-item" href="#serendipity_event_templatechooser">Template dropdown, Template-Auswahl serendipity_plugin_templatedropdown, serendipity_event_templatechooser</a></li>
 </ul>
 
 <p class="head-sct"><span class="head-toc">8.</span> &nbsp;<i class="fa fa-external-link"></i>&nbsp;<a href="#chapter-VIII">Wartung und Betrieb</a>&nbsp;<a data-toggle="collapse" data-target="#collapse_I8" href="#collapse_I8"><i class="fa fa-caret-down"></i></a></p>
