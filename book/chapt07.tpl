@@ -2102,6 +2102,17 @@ können Sie diese pro statischer Seite gezielt deaktivieren.</span>
 
 </article>
 
+<figure id="fig-staticpage-entry-example-form">
+  <a class="lightbox" rel="lightbox" href="media/staticpage_entry_form_dm_de.avif" lg-uid="lg7263" data-fallback="media/staticpage_entry_form_dm_de.webp">
+    <picture>
+      <source srcset="media/staticpage_entry_form_dm_de.avif" type="image/avif">
+      <source srcset="media/staticpage_entry_form_dm_de.webp" type="image/webp">
+      <img src="media/staticpage_entry_form_dm_de.png" alt="staticpage_entry_form_dm_de.png" loading="lazy" width="1377" height="2190">
+    </picture>
+    <figcaption>Abbildung 7.2c: Statische Seiten: Eintragsformular mit Beispielseite</figcaption>
+  </a>
+</figure>
+
 <article id="XU" class="subsub">
 
 <header>
