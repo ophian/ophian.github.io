@@ -1706,6 +1706,17 @@ Eintrag</span> und klicken auf <em>Los!</em>.</p>
 Klick auf <em>Los!</em> bearbeiten oder über einen Klick auf
 <span class="mbold">Löschen</span> aus der Datenbank (unwiderruflich) entfernen.</p>
 
+<figure id="fig-staticpage-entrylist">
+  <a class="lightbox" rel="lightbox" href="media/staticpage_entrylist_dm_de.avif" lg-uid="lg7262" data-fallback="media/staticpage_entrylist_dm_de.webp">
+    <picture>
+      <source srcset="media/staticpage_entrylist_dm_de.avif" type="image/avif">
+      <source srcset="media/staticpage_entrylist_dm_de.webp" type="image/webp">
+      <img src="media/staticpage_entrylist_dm_de.png" alt="staticpage_entrylist_dm_de.png" loading="lazy" width="1385" height="920">
+    </picture>
+    <figcaption>Abbildung 7.2b: Statische Seiten: Eintragsliste (Beispiel)</figcaption>
+  </a>
+</figure>
+
 <p>In der Liste der statischen Seiten sieht der jeweilige Redakteur nur die
 Seiten, zu denen er als Eigentümer eingetragen ist. Weiterhin sieht auch
 jeder Redakteur alle Seiten von Benutzern, die einen niedrigeren
