@@ -2843,8 +2843,14 @@ Seite <span class="pageref"><a href="#verboteneplugins">verboteneplugins</a></sp
 <p>In der Übersicht werden QuickNotes wie in folgender Abbildung dargestellt:</p>
 
 <figure id="fig-quicknotes">
-    <img src="img/quicknotes.png">
+  <a class="lightbox" rel="lightbox" href="media/quicknotes_dm_de.avif" lg-uid="lg6311" data-fallback="media/quicknotes_dm_de.webp">
+    <picture>
+      <source srcset="media/quicknotes_dm_de.avif" type="image/avif">
+      <source srcset="media/quicknotes_dm_de.webp" type="image/webp">
+      <img src="media/quicknotes_dm_de.png" alt="quicknotes_dm_de.png" loading="lazy" width="1422" height="860">
+    </picture>
     <figcaption>Abbildung 6.1: Beispiel für QuickNotes</figcaption>
+  </a>
 </figure>
 
 <p>Nachrichten, die Sie noch nicht gelesen haben, werden speziell
