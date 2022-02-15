@@ -3843,8 +3843,10 @@ CKEditor über ein etwas erweitertes Spektrum und wird regelmäßig mit
 neuen Versionen aktualisiert.</p>
 
 <p>Bereits eingebaut sind ein einfaches <code>mediaembed</code>
-CKEditor-Plugin für embedded YouTube code, folgende offizielle CKEditor Plugins:
-<code>autogrow</code>, <code>clipboard</code>, <code>codesnippet</code>,
+CKEditor-Plugin für embedded YouTube code und folgende offizielle CKEditor Plugins:
+<code>ajax</code>, <code>autocomplete</code>, <code>autogrow</code>, <code>autolink</code>, <code>button</code>, <code>clipboard</code>, <code>codesnippet</code>,
+<code>dialog</code>, <code>dialogui</code>, <code>emoji</code>, <code>floatpanel</code>, <code>panelbutton</code>, <code>placeholder</code>,
+<code>textmatch</code>, <code>textwatcher</code>, <code>undo</code>, <code>xml</code>,
 <code>embedbase</code>, <code>embed</code>, <code>embedsemantic</code>,
 <code>fakeobjects</code>, <code>lineutils</code>, <code>notification</code>,
 <code>notificationaggregator</code>, <code>widget</code> und <code>widgetselection</code>
