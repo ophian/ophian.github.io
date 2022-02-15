@@ -1613,6 +1613,17 @@ Serendipity-Plugins <em>Statische Seiten</em> recht gut lösen. Sie können
 eigenständige <em>Seiten</em> erstellen, die sich parallel (und unabhängig)
 von Blog-Artikeln einbinden lassen.</p>
 
+<figure id="fig-staticpage-empty-form">
+  <a class="lightbox" rel="lightbox" href="media/staticpage_empty_form_dm_de.avif" lg-uid="lg7261" data-fallback="media/staticpage_empty_form_dm_de.webp">
+    <picture>
+      <source srcset="media/staticpage_empty_form_dm_de.avif" type="image/avif">
+      <source srcset="media/staticpage_empty_form_dm_de.webp" type="image/webp">
+      <img src="media/staticpage_empty_form_dm_de.png" alt="staticpage_empty_form_dm_de.png" loading="lazy" width="1377" height="1890">
+    </picture>
+    <figcaption>Abbildung 7.2a: Statische Seiten: Eintragsformular (leer)</figcaption>
+  </a>
+</figure>
+
 <p>
 <span class="tag-box invisible">
     <span class="inline-tag">Impressum</span>
