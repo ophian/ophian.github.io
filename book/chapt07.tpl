@@ -1372,7 +1372,7 @@ auf Ihre Datenbank zugreifen und spart so den Umweg über einen RSS-Feed.</p>
 
 </section><!-- section.sub end -->
 
-<section id="serendipity-event-multilingual" class="sub">
+<section id="serendipity_event_multilingual" class="sub">
 <span class="u-toc">7.2.5 - Sprachauswahl, Multilinguale Einträge:<br>serendipity_plugin_multilingual, serendipity_event_multilingual</span>
 
 <h3 class="subsection" id="sprachauswahl-multilinguale-einträgeserendipity_plugin_multiling">Sprachauswahl, Multilinguale Einträge<br>serendipity_plugin_multilingual, serendipity_event_multilingual</h3>
