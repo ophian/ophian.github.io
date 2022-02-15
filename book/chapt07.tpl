@@ -3793,7 +3793,7 @@ werden. Warten Sie diese daher regelmäßig.</p>
 
 </section><!-- section.sub end -->
 
-<section id="serendipity-event-templatechooser" class="sub">
+<section id="serendipity_event_templatechooser" class="sub">
 <span class="u-toc">7.2.8 - Template dropdown: serendipity_plugin_templatedropdown,<br>Template-Auswahl: serendipity_event_templatechooser</span>
 
 <h3 class="subsection" id="template-dropdownserendipity_plugin_templatedropdown-template-au">Template dropdown<br>serendipity_plugin_templatedropdown,<br>Template-Auswahl<br>serendipity_event_templatechoose</h3>
