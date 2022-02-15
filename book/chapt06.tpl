@@ -3378,11 +3378,11 @@ sein soll.</p>
 </p>
 
 <p>Bereits seit ein paar Jahren werkelt das Serendipity Autoupdate Plugin still und erfolgreich vor sich.
-Es stellt in Verbindung mit dem (PRE-Serendipity-2.0) Dashboard-Plugin, sowohl als auch mit der neuen eingebauten
-Backend Startseite ("Dashboard") in Serendipity 2.0+ einen Upgrade Button für ein automatisches <em>“EIN</em>-Klick"
-Serendipity Upgrade bereit, solange Sie es installiert haben und die generelle Konfigurationsoption <em>“Update-Hinweis”</em>
-dafür eingestellt haben. Mit <strong>Serendipity Styx</strong> bekam dieses Plugin aufgrund der Loslösung von Serendipity seine eigenen
-Konfigurationsoptionen und ist damit nicht mehr ein Beispiel für ein sogenanntes <em>“stilles”</em> Plugin.
+Es stellt einen Upgrade Button für ein automatisches <em>“EIN”</em>-Klick Serendipity Upgrade bereit,
+solange Sie es installiert haben und die generelle Konfigurationsoption <em>“Update-Hinweis”</em>
+dafür eingestellt haben. Die <em>“EIN”</em>-Klick Aussage bezieht sich auf den automatischen Download eines
+Serendipity Styx Upgrades, dessen Verifikation, der Deflation in den <code>templates_c</code> Ordner und
+Aufspielung auf Ihr bestehenden Blog. Dann folgen weitere manuelle Klicks um das System nun komplett upzugraden.
 </p>
 
 <p class="desc">
