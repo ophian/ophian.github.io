@@ -1727,7 +1727,7 @@ Kontrolle der Zugriffsrechte bietet das Plugin in seiner jetzigen
 Version noch nicht. Für die Zukunft dachte der einstige Entwickler des
 Plugins jedoch daran, eine Rechteverwaltung mit individuellen
 Zugriffsrechten für Benutzergruppen (anstelle von Benutzerrängen) einzubinden.
-Bevor diese nun bedacht und dezídiert ausgearbeitet ist, wurde eine Benutzung
+Bevor diese nun bedacht und dezidiert ausgearbeitet ist, wurde eine Benutzung
 für Benutzergruppen unterhalb von Chefredakteuren, also einfachen Redakteuren
 vorerst abgeriegelt, da es zu viele Möglichkeiten an starken Veränderungen
 des Webseiten-Auftrittes erlaubt, die für die meisten Redakteure eher ein administratives
