@@ -513,7 +513,7 @@ sowie die <code>index.tpl</code> ebenfalls manuell einpflegen.</p>
 
 </section><!-- section.sub end -->
 
-<section id="serendipity-event-freetag" class="sub">
+<section id="serendipity_event_freetag" class="sub">
 <span class="u-toc">7.2.3 - Getaggte Artikel, Freie Artikel-Tags:<br>serendipity_plugin_freetag, serendipity_event_freetag</span>
 
 <h3 class="subsection" id="getaggte-artikel-freie-artikel-tagsserendipity_plugin_freetag-se">Getaggte Artikel, Freie Artikel-Tags<br>serendipity_plugin_freetag, serendipity_event_freetag</h3>
