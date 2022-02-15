@@ -44,7 +44,7 @@ die wichtigen Anmerkungen zu Serendipity Styx und sein darauf abgestimmtes <code
 Repository. Eine Auswahl an wichtigen und häufig gekoppelten Ereignis-Plugins finden Sie auf
 den folgenden Seiten.</p>
 
-<section id="serendipity-event-adduser" class="sub">
+<section id="serendipity_event_adduser" class="sub">
 <span class="u-toc">7.2.1 - Registrierung neuer User: serendipity_plugin_adduser, serendipity_event_adduser</span>
 
 <h3 class="subsection" id="registrierung-neuer-userserendipity_plugin_adduser-serendipity_e">Registrierung neuer User<br>serendipity_plugin_adduser, serendipity_event_adduser</h3>
