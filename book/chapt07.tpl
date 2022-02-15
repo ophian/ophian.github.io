@@ -3561,7 +3561,7 @@ umsetzen, wenn Sie sich mit Templates (siehe Beschreibung ab Seite
 
 </section><!-- section.sub end -->
 
-<section id="serendipity-event-statistics" class="sub">
+<section id="serendipity_event_statistics" class="sub">
 <span class="u-toc">7.2.7 - Statistiken: serendipity_plugin_statistics, serendipity_event_statistics</span>
 
 <h3 class="subsection" id="statistikenserendipity_plugin_statistics-serendipity_event_stati">Statistiken<br>serendipity_plugin_statistics, serendipity_event_statistics</h3>
