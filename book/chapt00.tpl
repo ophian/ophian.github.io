@@ -49,7 +49,7 @@ führen. Der beim Seitenscrollen auf der angezeigten Seite unten rechts eingeble
 <code><i class="fa fa-chevron-up button dark" aria-hidden="true"></i></code>
 große Button, bringt Sie im Schnelldurchlauf wieder ganz nach oben.
 Durch die farblich mitwachsende Anzeige des Seitenfortschritts ("<em>progress-bar</em>")
-in der Sie begleitendes Navigationsleiste im Seitenkopf, können Sie gut einschätzen lernen,
+in der Sie begleitenden Navigationsleiste im Seitenkopf, können Sie gut einschätzen lernen,
 an welcher Stelle des Buches Sie sich gerade befinden. Zu guter Letzt gibt es noch die
 <span class="pageref"><a href="#Example">Example</a></span> Sprung<span class="mbold">tags</span> im Text,
 die zu Ergänzungen, Vertiefungen, Fortsetzungen des Gesagten an anderer Stelle des Textes führen.</p>
