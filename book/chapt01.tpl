@@ -1825,6 +1825,13 @@ stellen solche Plugins die einzige Möglichkeit der Formatierung dar.</p>
 <section id="U1413" class="sub">
 <span class="u-toc">1.4.13 - WYSIWYG</span>
 <span class="label invisible" id="WYSIWYG">WYSIWYG</span>
+<span class="tag-box invisible">
+    <span class="inline-tag">CKEditor</span>
+    <span class="inline-tag">WYSIWYG-Editor</span>
+    <span class="inline-tag">Rich-Text-Editor</span>
+    <span class="inline-tag">Plain-Text-Editor</span>
+    <span class="inline-tag">JS-Editor</span>
+</span>
 
 <h3 class="subsection" id="wysiwyg-1">WYSIWYG</h3>
 
@@ -1838,8 +1845,8 @@ Formatierungsbuttons ähnlich wie bei OpenOffice bzw. Microsoft Word, die es erl
 die Farbe oder den Schriftstil zu ändern, per Drag&amp;Drop Texte und eingebundene
 Bilder zu verschieben oder Tabellen einzufügen.</p>
 
-<p>Im Folgenden wird also zwischen dem PLAIN TEXT Editor, also dem einfachen Textfeld
-mit oder ohne BB-Code artige Formatierungshilfen, und dem Rich Text Format (WYSIWYG-Modus)
+<p>Im Folgenden wird also zwischen dem <strong>PLAIN TEXT</strong> Editor, also dem einfachen Textfeld
+mit oder ohne BB-Code artige Formatierungshilfen, und dem <strong>Rich Text</strong> Format (WYSIWYG-Modus)
 unterschieden.</p>
 
 <p>Artikel die mit dem PLAIN TEXT Editor erstellt und gespeichert wurden, werden zur Laufzeit
