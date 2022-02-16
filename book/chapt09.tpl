@@ -4506,8 +4506,7 @@ nicht direkt freigeschaltet wird.
         Falls ein Eintrag als <em>dauerhaft</em> (siehe Plugin-Beschreibung Seite <span class="pageref"><a href="#stickyentries">stickyentries</a></span>)
         markiert ist, wird er im Array <code class="item smarty">{$entries.sticky}</code> abgelegt; für alle Einträge
         dieser Gruppe ist <code class="item smarty">{$entries.sticky.is_sticky}</code> auf <code>true</code>
-        gesetzt. Die Artikel anderer Datumsgruppen besitzen für diese Variable den Wert
-        <code>false</code>.
+        gesetzt. Die Artikel anderer Datumsgruppen besitzen für diese Variable den Wert <code>false</code>.
     </span>
 </span>
 </p>
