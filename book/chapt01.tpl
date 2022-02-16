@@ -621,8 +621,8 @@ Serendipity:</p>
             vorhanden ist, kann es sein, dass Firewall-Einstellungen am Server die
             Verbindung zu fremden Servern auf HTTP-Port 80 (oder anderen) verbieten.
             Je nach Einsatzzweck müssen Sie Verbindungen zu den Servern, die
-            Serendipity von sich aus anspricht (zB. <code>spartacus.s9y.org</code> und
-            <code>github.com</code> für den Download von Plugins), explizit erlauben.
+            Serendipity von sich aus anspricht (zB. <code>github.com</code> für den
+            Download von Plugins), explizit erlauben.
             Sollte dies nicht möglich sein, können Sie Serendipity zwar nutzen,
             müssen aber auf die entsprechende Funktionalität verzichten.
         </span>
