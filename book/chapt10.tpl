@@ -3485,17 +3485,11 @@ können Entwickler immer wieder Neues entdecken, nutzen, und werden von einem le
 kollaborativen Entwicklungs-Workflow getragen, das als Git Versions-Verteilungssystem vom Mr. Linux himself
 Linus Torvalds vor 11 Jahren im April 2005 <em>mal eben so</em> in zwei Wochen niedergeschrieben wurde.</p>
 
-<p>Die Projektseite des originalen Serendipity befindet sich unter
-<code>https://github.com/s9y</code>. Dort gibt es die Projekte von S9y,
-wie die Serendipity Blog Software, die Dokumentation, Serendipity Plugins und Themes, das Buch und weiteres.
-Und natürlich vor allem den Download der offiziellen Serendipity-Releases unter
-<code>https://github.com/s9y/Serendipity/releases</code>.</p>
-
 <p>Die <strong>Serendipity Styx</strong> Projektseite ist auf <code>https://ophian.github.io/</code> zu finden.
 Das Styx Repository wird auf <code>https://github.com/ophian/</code> gehostet und dort können
 Sie die offiziellen Release-Zips unter <code>https://github.com/ophian/styx/releases</code> herunterladen,
-in der Readme Datei oder dem Wiki mehr über das Projekt nachlesen, oder einen Fehler, Wunsch,
-oder eine Nachricht in der Projekt-Issue-Datenbank hinterlassen.</p>
+aud der eigentlichen Styx Projektseite nachlesen, oder einen Fehler, Wunsch,
+oder eine Nachricht in der Projekt-Issue- oder Projekt-Discussions-Datenbank hinterlassen.</p>
 
 <p><span class="item mbold">Development/Entwicklung</span></p>
 
@@ -3520,29 +3514,16 @@ oder eine Nachricht in der Projekt-Issue-Datenbank hinterlassen.</p>
 
 <ul class="realList star">
   <li>Plugins für <span class="item mbold">Serendipity Styx</span> und den eigentlichen
-      <span class="item mbold">Styx Kern</span> finden Sie auf meiner <a href="https://github.com/ophian/">GitHub Seite</a>.
-      Die Plugins und Themes des originalen S9y Serendipity-Kerns finden Sie <a href="https://github.com/s9y/">hier</a>.</li>
-  <li>Die Original-S9y-Dokumentation <a href="http://docs.s9y.org">docs.s9y.org</a> wird über GitHub
-      <a href="https://github.com/s9y/s9y.github.io">s9y.github.io</a> erstellt und verwaltet.
-      Besser, aktueller und exakter liest sie sich aber hier im Styx <a href="/hc/en">Help Center</a>.</li>
-  <li>Benutzer Hilfe und Diskussionen finden Sie im <a href="http://board.s9y.org">S9y Forum</a>.</li>
+      <span class="item mbold">Styx Kern</span> finden Sie auf meiner <a href="https://github.com/ophian/">GitHub Seite</a>.</li>
+  <li>Die Styx-Dokumentation wird hier im Styx <a href="/hc/en">Help Center</a> bereitgestellt.</li>
+  <li>Benutzer Hilfe und Diskussionen finden Sie in den <a href="https://github.com/ophian/styx/discussions">Styx Discussions</a>.</li>
   <li>Das Serendipity <a href="/blog">Styx Blog</a> beinhaltet Neuigkeiten, Release Ankündungen
       und insbesondere Security Announcements.</li>
   <li>Die zusätzlichen <em>Plugins</em> und <em>Themes</em> sind unter <a href="/themes">Styx
       Spartacus Themes</a> bzw <a href="/plugins">Styx Spartacus Plugins</a> erreichbar;
-      Sie können von dort auch direkt heruntergeladen werden. Das gilt für Styx aber nur für
-      Themes. (Siehe dortige Erklärung.)</li>
-  <li>Die alte <a href="http://sf.net/projects/php-blog">SourceForge Projekt Seite</a> wird nur
-      noch als erweiterter Download-Service für S9y Serendipity Releases geführt und verwaltet
-      eine zentrale <em>read-only Mailingliste</em>, über die die <em>commits</em> und <em>comments</em>
-      des GitHub Repositories laufen.</li>
-  <li>Das (ältere) Serendipity-Handbuch steht als
-      <a href="https://github.com/s9y/Book/blob/master/serendipity.pdf?raw=true">PDF zur Verfügung</a>
-      und kann auch über <a href="https://github.com/s9y/Book">GitHub/s9y/Book</a> von Helfern bearbeitet werden.</li>
-  <li>Das <span class="item mbold">ganz neue</span> Buch für <span class="item mbold">Serendipity
-      Styx 2.4</span> aus <span class="item mbold">2018</span> lesen Sie hier ja bereits selbst.
-      Die <span class="item mbold">alte Revision</span> des neueren HTML-Buches in der Revision 2.1
-      ist als branch <code>gh-pages</code> ebenfalls unter <code>https://github.com/s9y/Book/</code> verfügbar.</li>
+      Sie können von dort auch direkt heruntergeladen werden. (Siehe dortige Erklärung.)</li>
+  <li>Das <span class="item mbold">neue</span> Buch für <span class="item mbold">Serendipity
+      Styx 3.8</span> aus <span class="item mbold">2022</span> lesen Sie hier ja bereits selbst.</li>
 </ul>
 
 <p><span class="item mbold">Diskussion / Feature Requests</span></p>
@@ -3551,7 +3532,7 @@ oder eine Nachricht in der Projekt-Issue-Datenbank hinterlassen.</p>
 <span class="mbold">Endlich</span> einmal Ihr (persönliches) Lieblingsärgernis zu Gehör bringen?
 Einen <span class="mbold">Vorschlag</span> für ein bestimmtes <em>feature</em> machen wollen,
 selbst ohne die Vorkenntnisse wie es eventuell zu gestalten wäre?
-<span class="mbold">Dann</span> ist unser <a href="http://board.s9y.org">Forum</a> genau der
+<span class="mbold">Dann</span> ist dieses <a href="https://github.com/ophian/styx/discussions">Forum</a> genau der
 richtige Platz für Sie! Unsere Entwickler sind dort zu finden und können Ihnen wertvolle
 Innenansichten geben, insbesondere dann, wenn Sie sich die Zeit genommen haben detailliert
 zu beschreiben, was Sie wollen oder mit Serendipity für Probleme haben. Natürlich sollten Sie
