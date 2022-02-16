@@ -893,7 +893,7 @@ URL-Umformung deaktiviert wird.
 </span>
 </p>
 
-<p>Folgende Optionen sind für Serendipity maßgeblich:</p>
+<p>Folgende Optionen sind/waren für Serendipity maßgeblich:</p>
 
 <p>
 <span class="tag-box invisible">
