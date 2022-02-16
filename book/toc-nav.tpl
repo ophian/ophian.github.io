@@ -88,8 +88,8 @@
  <li class="sct-sub"><span class="toc-sub">4.4.3</span> <a class="sidebar-nav-item" href="#U443">Kategorien</a></li>
  <li class="sct"><span class="toc">4.5</span> <a class="sidebar-nav-item" href="#S450">Mediathek</a>&nbsp;<a data-toggle="collapse" data-target="#collapse_S-4.5" href="#collapse_S-4.5"><i class="fa fa-caret-down"></i></a></li>
  <li class="sct-sub"><span class="toc-sub">4.5.1</span> <a class="sidebar-nav-item" href="#U451">Medien hinzufügen</a></li>
- <li class="sct-sub"><span class="toc-sub">4.5.2</span> <a class="sidebar-nav-item" href="#U452">Mediendaten: Probleme beim Upload</a></li>
- <li class="sct-sub"><span class="toc-sub">4.5.3</span> <a class="sidebar-nav-item" href="#U453">Mediendaten: Eigenschaften angeben</a></li>
+ <li class="sct-sub"><span class="toc-sub">4.5.2</span> <a class="sidebar-nav-item" href="#U452">Medien: Probleme beim Upload</a></li>
+ <li class="sct-sub"><span class="toc-sub">4.5.3</span> <a class="sidebar-nav-item" href="#U453">Medien: Eigenschaften angeben</a></li>
  <li class="sct-sub"><span class="toc-sub">4.5.4</span> <a class="sidebar-nav-item" href="#U454">Mediathek: Übersicht</a></li>
  <li class="sct-sub"><span class="toc-sub">4.5.5</span> <a class="sidebar-nav-item" href="#U455">Verzeichnisse verwalten</a></li>
  <li class="sct-sub"><span class="toc-sub">4.5.6</span> <a class="sidebar-nav-item" href="#U456">Vorschauen erneuern</a></li>
