@@ -530,12 +530,11 @@ Installationsoberfläche über einen der beiden Links am Ende der Seite: <span c
 oder <span class="mbold">Fortgeschrittene Installation</span>.</p>
 
 <p>Die <span class="mbold">Einfache Installation</span> verlangt von Ihnen nur die absolut
-notwendigen Angaben. Dagegen bietet die
-<span class="mbold">Fortgeschrittene Installation</span> sämtliche Konfigurationsoptionen an,
-die sich auch später im laufenden Betrieb ändern lassen. Da wir in
-Kapitel <span class="reference">Konfiguration</span> ab Seite <span class="pageref"><a href="#Konfiguration">Konfiguration</a></span>
-detailliert auf alle Optionen eingehen, klicken Sie
-an dieser Stelle am besten auf <span class="mbold">Einfache Installation</span>.</p>
+notwendigen Angaben. Dagegen bietet die <span class="mbold">Fortgeschrittene Installation</span>
+sämtliche Konfigurationsoptionen an, die sich auch später im laufenden Betrieb ändern lassen.
+Da wir in Kapitel <span class="reference">Konfiguration</span> ab Seite <span class="pageref"><a href="#Konfiguration">Konfiguration</a></span>
+detailliert auf alle Optionen eingehen, klicken Sie an dieser Stelle am besten auf
+<span class="mbold">Einfache Installation</span>.</p>
 
 <figure id="fig-install2">
     <img src="img/install2.png">
@@ -570,13 +569,11 @@ keine Rolle und dürfen leer bleiben.</p>
 
 <p>Als Datenbankname tragen Sie den Namen der, entsprechend der Beschreibung auf
 Seite <span class="pageref"><a href="#DBeinrichten">DBeinrichten</a></span>,
-erstellten Datenbank ein. Darin erstellt Serendipity
-Tabellen, deren Namen es das Präfix <code>serendipity_</code> oder <code>styx_</code> voranstellt.
-Diese Vorsilbe ermöglicht die Installation
-in eine Datenbank, in der bereits andere Tabellen liegen.
+erstellten Datenbank ein. Darin erstellt Serendipity Tabellen, deren Namen es das
+Präfix <code>serendipity_</code> oder <code>styx_</code> voranstellt.
+Diese Vorsilbe ermöglicht die Installation in eine Datenbank, in der bereits andere Tabellen liegen.
 Wählen Sie in der <span class="mbold">Fortgeschrittenen Installation</span> ein anderes Präfix,
-können Sie auch mehrere
-Serendipity-Instanzen auf einem Server installieren.</p>
+können Sie auch mehrere Serendipity-Instanzen auf einem Server installieren.</p>
 
 </article>
 
