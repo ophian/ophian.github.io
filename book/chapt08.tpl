@@ -2118,6 +2118,15 @@ Seite <span class="pageref"><a href="#backups">backups</a></span>).</span>
         <span class="footnote"><i class="fa fa-info-circle"></i> Siehe
         <a href="http://de.selfhtml.org/servercgi/server/htaccess.htm" target="_blank" rel="noopener">http://de.selfhtml.org/servercgi/server/htaccess.htm</a></span><!-- footnote --> sperren.
     </span>
+
+    <span class="box">
+        Als <span class="mbold">dritte Methode</span> bietet es sich an den temporären 503 Wartungsmodus
+        (Siehe Seite <a href="#temporaerer-503-wartungsmodusserendipity_event_modemaintain">503 Wartungsmodus</a>)
+        des <span class="mbold">modemaintain Plugins</span> zu nutzen.
+        So können Sie unter gewissen Voraussetzungen (bestimmte openSSL Version und über das "Daten-merken"-Login)
+        Ihr Blog für sich selbst komplett zugänglich halten, für alle andern Besucher aber sperren solange Sie
+        irgendwelche administrativen Aufgaben wie ein Upgrade oder Ähnliches durchführen.
+    </span>
 </span>
 </p>
 
