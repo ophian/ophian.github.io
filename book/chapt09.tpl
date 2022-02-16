@@ -7263,7 +7263,7 @@ wird auf Seite <span class="pageref"><a href="#mediatemplates">mediatemplates</a
                         standardmäßig <code>serendipityThumb</code>. Dieses Suffix wird nach dem Dateinamen,
                         aber vor der Datei-Endung platziert, so dass eine Vorschaudatei dem Schema
                         <code>Bild.serendipityThumb.jpg</code> entspricht. Das Suffix kann vom Administrator
-                        des Blogs frei vergeben werden (siehe Seite <span class="pageref"><a href="#thumbnailendung">thumbnailendung</a></span>).
+                        des Blogs frei vergeben werden (siehe Seite <span class="pageref"><a href="#vorschaubildendung">Vorschaubildendung</a></span>).
                     </span>
                 </span>
 
