@@ -2757,7 +2757,7 @@ mit den jeweiligen Informationen und Optionen dieses Objekts:</p>
     <span class="box">
         Der nächste Button ist nun wieder für jeden Dateityp identisch.
         Das <span class="mbold">Picture-Symbol</span> öffnet die Medien-Eigenschaften einer Datei
-        (siehe Seite <span class="pageref"><a href="#mediendaten-eigenschaften-hinzufuegen">Mediendaten-Eigenschaften hinzufügen</a> und übernächste Abbildung 4.14c</span>).
+        (siehe Seite <span class="pageref"><a href="#medien-eigenschaften-hinzufuegen">Medien-Eigenschaften hinzufügen</a> und übernächste Abbildung 4.14c</span>).
     </span>
 
     <span class="box">
@@ -7084,7 +7084,7 @@ Internet nicht geeignet sind.</span>
 </p>
 
 <p class="desc">
-<span class="label invisible" id="Medien-Schluesselwoerter">Medien-Schluesselwoerter</span>
+<span class="label invisible" id="medien-schluesselwoerter">Medien-Schluesselwörter</span>
 <span class="tag-box invisible">
     <span class="inline-tag">Medienschluesselwoerter@Medien-Schlüsselwörter</span>
     <span class="inline-tag">Konfiguration!Medien-Schlüsselwörter</span>

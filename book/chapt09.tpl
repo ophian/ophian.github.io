@@ -6501,7 +6501,7 @@ wird auf Seite <span class="pageref"><a href="#mediatemplates">mediatemplates</a
             </span>
             <span class="sub-box">
                 Enthält ein Array aller verfügbaren Schlüsselwörter (siehe Seite
-                <span class="pageref"><a href="#Medien-Schluesselwoerter">Medien-Schluesselwoerter</a></span>).
+                <span class="pageref"><a href="#medien-schluesselwoerter">Medien-Schluesselwörter</a></span>).
             </span>
         </span>
 
@@ -7631,7 +7631,7 @@ wird auf Seite <span class="pageref"><a href="#mediatemplates">mediatemplates</a
                             </span>
                             <span class="box">
                                 Enthält die vom Benutzer zugewiesenen Schlüsselwörter zu einem Objekt der
-                                Mediathek (siehe Seite <span class="pageref"><a href="#Medien-Schluesselwoerter">Medien-Schluesselwoerter</a></span>).
+                                Mediathek (siehe Seite <span class="pageref"><a href="#medien-schluesselwoerter">Medien-Schluesselwörter</a></span>).
                                 Der Array-Schlüssel entspricht dem gesetzten Schlüsselwort, als Wert
                                 wird immer <code>1</code> vergeben.
                             </span>
