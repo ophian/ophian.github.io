@@ -1860,12 +1860,21 @@ durch externe Anbieter ergänzt.</p>
     </span>
 
     <span class="box">
-        Zusätzlich übermitteln Suchmaschinen wie Google ein wichtiges Detail in ihrer
+        Zusätzlich übermittel(te)n Suchmaschinen wie Google ein wichtiges Detail in ihrer
         Referrer-URL: den Suchbegriff, mit dem ein Besucher zu Ihnen gefunden hat. Das
         Ereignis-Plugin <em>Hebe Suchwörter hervor</em> kann dafür sorgen, dass die so
         gewonnenen Suchwörter automatisch hervorgehoben werden, wenn sie in Ihren
         Einträgen vorkommen. Dies hilft Ihren Besuchern, sich auf Ihrer Seite zu
         orientieren, da ihr Suchwort direkt ins Auge fällt.
+     </span>
+
+    <span class="box">
+       Leider ist diese Nutzung der Referrer-URL heute hinfällig. Mit der Entscheidung
+        für mehr Datenschutz und Datensicherheit (durch die globale Einführung von HTTPS)
+        hat Google sukzessive die Übertragung der Keywörter bei Google-Suchen entfernt,
+        so dass ihr Anteil nur noch sehr gering ist. Als Werbetreibender oder Nutzer von
+        Google Analytic (<em>“ein Schelm, wer Böses dabei denkt”</em>) profitiert man aber
+        weiterhin davon.
     </span>
 
     <span class="box">
