@@ -2091,9 +2091,12 @@ Seite <span class="pageref"><a href="#backups">backups</a></span>).</span>
         eingeben. Dieses Passwort müssen Sie noch in der Datei <code>.htpasswd</code>
         eintragen. Diese Datei speichert Passwörter in einem speziell verschlüsselten
         Format, daher müssen Sie Ihr gewünschtes Schutz-Passwort vorher mit einem Tool
-        wie auf <code>http://www.advancehost.com/htpasswd.html</code> verschlüsseln. Andere
-        derartige Verschlüsselungshilfen finden Sie, wenn Sie in einer Suchmaschine nach
-        <code>.htpasswd</code> suchen.
+        wie sie auf den verschiedensten Webseiten angeboten werden verschlüsseln. Solche
+        Verschlüsselungshilfen und Anleitungen finden Sie, wenn Sie in einer Suchmaschine
+        nach <code>.htpasswd</code> suchen. Achten Sie darauf, dass dies vertrauenswürdige
+        Anbieter sind, die keine offene oder heimliche Speicherung solcher Daten vornehmen.
+        Sonst ist Ihre Sicherheit gleich für die Katz! Am besten generieren Sie htpasswd
+        Passwörter auf einem Tool ihres eigenen Providers bzw gleich selbst auf Ihrer Konsole!
     </span>
 
     <span class="box">
