@@ -2309,7 +2309,7 @@ Seite <span class="pageref"><a href="#backups">backups</a></span>).</span>
     <span class="inline-tag">Server-Umzug</span>
     <span class="inline-tag">Fehler!Server-Umzug</span>
 </span>
-<span class="label invisible" id="Serendipity umziehen">Serendipity umziehen</span>
+<span class="label invisible" id="serendipity-umziehen">Serendipity umziehen</span>
 </p>
 
 <p>Wenn Sie Ihren Webserver oder Provider wechseln, müssen Sie Ihr Blog
