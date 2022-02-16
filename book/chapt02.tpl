@@ -177,10 +177,10 @@ wie Berechtigungen etc. verfügen.</p>
     <span class="inline-tag">Lite Release</span>
     <span class="inline-tag">Tarball</span>
 </span>
-Auf beiden Seiten finden Sie sowohl die aktuellste Ausgabe als auch Beta- und
+Auf GitHub finden Sie sowohl die aktuellste Ausgabe als auch Beta- und
 ältere Versionen und die täglichen <em>Snapshots</em>. Obwohl es sich bei
 Letzteren um die tagesaktuellen Entwicklerversionen handelt, sind diese bei
-Serendipity gewöhnlich sehr stabil.</p>
+Serendipity für gewöhnlich sehr stabil.</p>
 
 <p>Außerdem können Sie die Pakete in mehreren Archivformaten
 herunterladen: als <code>zip</code>-Datei, sowie als <code>xz</code>
@@ -500,12 +500,9 @@ Stattdessen müssen Sie den Webbrowser einsetzen, damit Ihr Webserver die
 PHP-Anwendung ausführt.</p>
 
 <p>Bei korrekter Einrichtung des Webservers sehen Sie nun eine Kurzübersicht
-wie in Abbildung 2.2, die
-aufführt, welche Voraussetzungen der Server erfüllen muss, ehe Sie
-fortfahren können.
-Sollte sich diese entgegen Ihren Wünschen in englischer Sprache präsentieren,
-konfigurieren Sie Ihren Browser so um, dass Deutsch die
-bevorzugte Sprache darstellt.</p>
+wie in Abbildung 2.2, die aufführt, welche Voraussetzungen der Server erfüllen muss, ehe Sie
+fortfahren können. Sollte sich diese entgegen Ihren Wünschen in englischer Sprache präsentieren,
+konfigurieren Sie Ihren Browser so um, dass Deutsch die bevorzugte Sprache darstellt.</p>
 
 <figure id="fig-install">
     <img src="img/install.png">
