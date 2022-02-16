@@ -66,7 +66,7 @@ sowie Sebastian Bergmann vom phpUnit-Projekt.[*]
 <span class="footnote"><i class="fa fa-info-circle"></i> Die
 PHP-Testsuite ist unter <a href="http://www.phpunit.de/" target="_blank" rel="noopener">http://www.phpunit.de/</a> erhältlich.</span><!-- footnote -->
 Mit den Jahren entwickelten wechselnde Programmierer das System stetig
-und konsequent weiter. Seit 2003 ist der Autor des ursprünglichen Buchtextes, Garvin Hicking, leitender
+und konsequent weiter. Seit 2003 war der Autor des ursprünglichen Buchtextes, Garvin Hicking, leitender
 Entwickler.</p>
 
 <p>Dieses Online-Buch bezieht sich auf die aktuelle
@@ -76,7 +76,7 @@ vermitteln. Neben der Bedienung der Software werden Sie darum auch
 lernen, eigene Plugins zu schreiben, Templates anzupassen und
 Konfigurationsänderungen vorzunehmen.</p>
 
-<p>Wie gesagt, <strong>Serendipity Styx</strong> kann als <b>S</b>erendipi<b>ty</b> Ne<b>x</b>t gelesen werden!</p>
+<p>Wie gesagt, <strong>Serendipity Styx</strong> kann auch als <b>S</b>erendipi<b>ty</b> Ne<b>x</b>t gelesen werden!</p>
 
 <section id="S110" class="index">
 <span class="s-toc">1.1 - Was unterscheidet ein Blog von einem CMS?</span>
@@ -206,7 +206,7 @@ stellte Serendipity frühzeitig Schutzmechanismen bereit.</p>
 <span class="tag-box invisible">
     <span class="inline-tag">Smarty</span>
 </span>
-<em>Smarty</em>, [*] <span class="footnote"><i class="fa fa-info-circle"></i>
+<strong><em>Smarty</em></strong>, [*] <span class="footnote"><i class="fa fa-info-circle"></i>
 <a href="http://www.smarty.net/" target="_blank" rel="noopener">http://www.smarty.net/</a></span><!-- footnote -->
 einem De-facto-Standard unter PHP, entwickelt. Zahlreiche Entwickler
 schwören auf dessen einfache Syntax, die es selbst Anfängern
@@ -231,7 +231,7 @@ Funktionalität, die den Benutzer vor die Qual der Wahl stellen, findet
 man hier nicht, und auch auf Kompatibilität zu allen verfügbaren
 Serendipity-Versionen wird geachtet.</p>
 
-<p>Da die Kernentwickler von Serendipity derzeit aus Deutschland kommen, haben gerade
+<p>Da die Serendipity Kernentwickler derzeit aus Deutschland kommen, haben gerade
 deutsche Anwender den Vorteil einer stets aktuellen deutschen
 Übersetzung der Benutzeroberfläche. Zudem sorgen eine engagierte
 Community und ein großes Supportforum mit bislang über hundertausend
@@ -470,7 +470,7 @@ somit sowohl auf Windows- als auch auf Unix-Derivaten einsetzen.</p>
 <p>Mit der Serendipity 1.7.x Serie stieg die interne Voraussetzung auf PHP 5.2 und mit dem
 Erscheinen von Serendipity 2.1 auf mindestens PHP 5.3, besser min 5.4+. Die letzte aktuelle
 Version der 2er Serie, Serendipity Styx 2.9.5 vom 2. Mai 2020, hat bereits PHP 5.6 als
-minimale Vorraussetzung. Heutzutage ist eher PHP 7.4+ Voraussetzung, um in den erweiterten
+minimale Vorraussetzung. Heutzutage ist eher mindestens PHP 7.4+ Voraussetzung, um in den erweiterten
 Genuss der sprachlichen Modellpflege außerhalb gravierender Sicherheitsfixes zu kommen.
 Vor allen Dingen, weil der Support für alle alten Versionen abgelaufen ist und die Supportzeiten
 immer kürzer wurden. Wie früher, lange Jahre auf alten PHP Versionen zu hocken kann schwerwiegende
