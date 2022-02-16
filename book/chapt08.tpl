@@ -2163,9 +2163,9 @@ Seite <span class="pageref"><a href="#backups">backups</a></span>).</span>
     </span>
 
     <span class="box">
-        Ansonsten laden Sie die neue Serendipity-Version von der Webseite herunter, [*]
+        Ansonsten laden Sie die neue Serendipity-Version über die Webseite herunter, [*]
         <span class="footnote"><i class="fa fa-info-circle"></i>
-        <a href="http://www.s9y.org" target="_blank" rel="noopener">http://www.s9y.org</a></span><!-- footnote -->
+        <a href="https://ophian.github.io/" target="_blank" rel="noopener">https://ophian.github.io/</a></span><!-- footnote -->
         ähnlich wie Sie das für die Installation bereits getan haben.
         Entpacken Sie das Archiv nun und laden Sie <em>alle</em>
         Dateien wie üblich auf Ihren Webserver hoch (via FTP oder SSH).
