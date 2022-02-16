@@ -2119,7 +2119,7 @@ Seite <span class="pageref"><a href="#backups">backups</a></span>).</span>
         Anstelle eines Passwortschutzes können Sie Ihr Blog auch über die
         <code>.htaccess</code>-Regeln wie <code>Deny/Allow</code> [*]
         <span class="footnote"><i class="fa fa-info-circle"></i> Siehe
-        <a href="http://de.selfhtml.org/servercgi/server/htaccess.htm" target="_blank" rel="noopener">http://de.selfhtml.org/servercgi/server/htaccess.htm</a></span><!-- footnote --> sperren.
+        <a href="https://wiki.selfhtml.org/wiki/Webserver/htaccess" target="_blank" rel="noopener">https://wiki.selfhtml.org/wiki/Webserver/htaccess</a></span><!-- footnote --> sperren.
     </span>
 
     <span class="box">
