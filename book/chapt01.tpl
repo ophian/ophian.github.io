@@ -674,7 +674,7 @@ Serendipity:</p>
             Abgesehen von einem
             Datenbanksystem muss auf Ihrem Server auch die Client-Schnittstelle für
             die jeweilige Datenbank (MySQL(i), PostgreSQL, SQLite) als PHP-Modul
-            (<code>mysql</code>, <code>mysqli</code>, <code>pgsql</code>, <code>sqlite</code>)
+            (<code>mysqli</code>, <code>pgsql</code>, <code>sqlite</code>)
             eingebunden sein. Standardmäßig wird PHP mit MySQL-Bibliotheken
             eingerichtet; seit PHP 5 ist auch das Datenbanksystem SQLite
             üblicherweise aktiviert.
