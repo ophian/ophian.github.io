@@ -7,13 +7,8 @@
 
 <p>Sicher wird dieses Buch nicht alle individuellen Fragen klären können.
 Mit diesen Fragen sollen Sie sich nicht alleingelassen fühlen; Sie sind
-herzlich eingeladen, der Serendipity-Community einen Besuch abzustatten. Am
-leichtesten finden Sie uns über das Forum unter <code>http://board.s9y.org/</code>.</p>
-
-<p>Dort gibt es einen englisch- und einen deutschsprachigen Teil. Fachlich
-zielgerichteter geht es meist im englischen Teil zu, während man im deutschen
-Bereich gut generellere Diskussionen führen kann und mit Anfängerfragen leichter
-auf Gehör stößt.</p>
+herzlich eingeladen, der Serendipity-Styx-Community einen Besuch abzustatten. Am
+leichtesten finden Sie uns über das Forum unter <code>https://github.com/ophian/styx/discussions</code>.</p>
 
 <p>Das Grundprinzip einer funktionierenden Community ist, dass Sie nicht nur Fragen
 stellen, sondern sich auch in andere Diskussionsstränge einbinden. Versuchen
