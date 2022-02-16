@@ -8320,10 +8320,9 @@ Plugins oder dem Kernsystem unterstützt wird.</p>
 
 <p>Wenn ein Bild über das Mediathek-Popup in einen Blog-Artikel eingebunden
 wird (siehe Seite <span class="pageref"><a href="#mediathek-popup">Mediathek-Popup</a></span>),
-sorgt ein JavaScript (aus der Datei <code>serendipity_editor.js</code>, bzw- <code>serendipity_styx.js</code>, Funktion
+sorgt ein JavaScript (aus der Datei <code>serendipity_editor.js</code>, bzw. <code>serendipity_styx.js</code>, Funktion
 <code>serendipity_admin_imageselector_done()</code>) dafür, dass die URL dieses
-Bildes gemeinsam mit dem entsprechenden HTML-Code in den Beitrag eingebunden
-wird.</p>
+Bildes gemeinsam mit dem entsprechenden HTML-Code in den Beitrag eingebunden wird.</p>
 
 <p>Dies hat den Vorteil, dass beim Auslesen der Datenbank Bildverweise
 bereits im Artikel enthalten sind, was eine Migration vereinfacht. Plugins
