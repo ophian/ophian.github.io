@@ -2011,8 +2011,8 @@ durch externe Anbieter ergänzt.</p>
 
 <p>Da die Entwicklung rund um Serendipity natürlich nicht stillsteht, werden
 häufiger neue Versionen von Plugins oder des Kernsystems herausgegeben. Über
-neue Versionen können Sie über das offizielle Serendipity-Blog unter
-<code>http://blog.s9y.org/</code> bzw. <code>https://ophian.github.io/</code> für <span class="mbold">Serendipity Styx</span> auf dem Laufenden bleiben.</p>
+neue Versionen können Sie über das offizielle <span class="mbold">Serendipity Styx</span> Blog unter
+<code>https://ophian.github.io/blog</code> auf dem Laufenden bleiben.</p>
 
 <p>Plugins lassen sich sehr leicht aktualisieren, indem Sie einfach die neue
 Plugin-Version herunterladen und die alten Dateien auf dem Server
