@@ -2387,15 +2387,15 @@ gespeichert sind.</p>
 </section><!-- section.sub end -->
 
 <section id="U452" class="sub">
-<span class="u-toc">4.5.2 - Mediendaten: Probleme beim Upload</span>
+<span class="u-toc">4.5.2 - Medien: Probleme beim Upload</span>
 
-<h3 class="subsection" id="mediendaten-probleme-beim-upload">Mediendaten: Probleme beim Upload</h3>
+<h3 class="subsection" id="medien-probleme-beim-upload">Medien: Probleme beim Upload</h3>
 
 <p class="tagging invisible">
-<span class="label invisible" id="Mediendaten-Probleme beim Upload">Mediendaten-Probleme beim Upload</span>
+<span class="label invisible" id="Medien-Probleme beim Upload">Medien-Probleme beim Upload</span>
 <span class="tag-box invisible">
-    <span class="inline-tag">Mediendaten!Probleme beim Upload|see{Backend, Mediendaten: Probleme beim Upload}</span>
-    <span class="inline-tag">Backend!Mediendaten!Probleme beim Upload</span>
+    <span class="inline-tag">Medien!Probleme beim Upload|see{Backend, Medien: Probleme beim Upload}</span>
+    <span class="inline-tag">Backend!Medien!Probleme beim Upload</span>
     <span class="inline-tag">Fehler!Datei-Upload</span>
 </span>
 </p>
@@ -2423,15 +2423,15 @@ lieber mittels FTP-Programm auf den Server laden.</p>
 </section><!-- section.sub end -->
 
 <section id="U453" class="sub">
-<span class="u-toc">4.5.3 - Mediendaten: Eigenschaften angeben</span>
+<span class="u-toc">4.5.3 - Medien: Eigenschaften angeben</span>
 
-<h3 class="subsection" id="mediendaten-eigenschaften-angeben">Mediendaten: Eigenschaften angeben</h3>
+<h3 class="subsection" id="medien-eigenschaften-angeben">Mediendaten: Eigenschaften angeben</h3>
 
 <p class="tagging invisible">
-<span class="label invisible" id="Mediendaten-Eigenschaften hinzufuegen">Mediendaten-Eigenschaften hinzufügen</span>
+<span class="label invisible" id="medien-eigenschaften-hinzufuegen">Medien-Eigenschaften hinzufügen</span>
 <span class="tag-box invisible">
-    <span class="inline-tag">Mediendaten!Eigenschaften hinzufügen|see{Backend, Mediendaten: Eigenschaften hinzufügen}</span>
-    <span class="inline-tag">Backend!Mediendaten!Eigenschaften hinzufügen</span>
+    <span class="inline-tag">Medien!Eigenschaften hinzufügen|see{Backend, Medien: Eigenschaften hinzufügen}</span>
+    <span class="inline-tag">Backend!Medien!Eigenschaften hinzufügen</span>
 </span>
 </p>
 
@@ -2717,7 +2717,7 @@ mit den jeweiligen Informationen und Optionen dieses Objekts:</p>
     </span>
 
     <span class="tag-box invisible">
-        <span class="inline-tag">Mediendaten!umbenennen</span>
+        <span class="inline-tag">Medien!umbenennen</span>
     </span>
     <span class="box">
         Das <span class="mbold">Stift</span>-Icon ermöglicht Ihnen, eine Datei
@@ -2757,7 +2757,7 @@ mit den jeweiligen Informationen und Optionen dieses Objekts:</p>
     <span class="box">
         Der nächste Button ist nun wieder für jeden Dateityp identisch.
         Das <span class="mbold">Picture-Symbol</span> öffnet die Medien-Eigenschaften einer Datei
-        (siehe Seite <span class="pageref"><a href="#Mediendaten-Eigenschaften hinzufuegen">Mediendaten-Eigenschaften hinzufügen</a> und übernächste Abbildung 4.14c</span>).
+        (siehe Seite <span class="pageref"><a href="#mediendaten-eigenschaften-hinzufuegen">Mediendaten-Eigenschaften hinzufügen</a> und übernächste Abbildung 4.14c</span>).
     </span>
 
     <span class="box">
@@ -7112,7 +7112,7 @@ Internet nicht geeignet sind.</span>
 <p class="desc">
 <span class="label invisible" id="Erlaube, Daten über lokale URLs abzurufen">Erlaube, Daten über lokale URLs abzurufen</span>
 <span class="tag-box invisible">
-    <span class="inline-tag">Konfiguration!Mediendaten</span>
+    <span class="inline-tag">Konfiguration!Medien</span>
     <span class="inline-tag">Intranet</span>
 </span><!-- tagbox -->
 <span class="item mbold">Erlaube, Daten über lokale URLs abzurufen</span><!-- menuitem -->
