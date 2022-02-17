@@ -37,8 +37,14 @@ einem gestohlenen Cookie keine Nutzerinformationen extrahieren und
 mit einem veralteten Cookie keinen Login ausführen kann.</p>
 
 <figure id="fig-login">
-    <img src="img/login.png">
-    <figcaption>Abbildung 4.1: Login-Bildschirm</figcaption>
+  <a class="lightbox" rel="lightbox" href="media/login_dm_de.avif" lg-uid="lg4101" data-fallback="media/login_dm_de.webp">
+    <picture>
+      <source srcset="media/login_dm_de.avif" type="image/avif">
+      <source srcset="media/login_dm_de.webp" type="image/webp">
+      <img src="media/login_dm_de.png" alt="login_dm_de.png" loading="lazy" width="1424" height="510">
+    </picture>
+    <figcaption>Abbildung 4.1: Login-Bildschirm im Backend Dark Mode</figcaption>
+  </a>
 </figure>
 
 <p>
