@@ -512,9 +512,15 @@ Kommentarfunktionalität eines Beitrags (auch übergangsweise) sperren
 können. An derselben Stelle erscheint danach auch wieder ein Link zum
 Entsperren.</p>
 
-<figure id="fig-articlepage">
-    <img src="img/articlepage.png">
-    <figcaption>Abbildung 3.4: Artikel-Ansicht mit Kommentardarstellung</figcaption>
+<figure id="fig-pure-articlepage">
+  <a class="lightbox" rel="lightbox" href="media/pure_article_dm_de.avif" lg-uid="lg3411" data-fallback="media/pure_article_dm_de.webp">
+    <picture>
+      <source srcset="media/pure_article_dm_de.avif" type="image/avif">
+      <source srcset="media/pure_article_dm_de.webp" type="image/webp">
+      <img src="media/pure_article_dm_de.png" alt="pure_article_dm_de.png" loading="lazy" width="1416" height="1536">
+    </picture>
+    <figcaption>Abbildung 3.4: Artikel-Ansicht mit Kommentardarstellung im Dark Mode</figcaption>
+  </a>
 </figure>
 
 <p>Zu jedem Kommentar wird der Name des Kommentatoren dargestellt, sowie
