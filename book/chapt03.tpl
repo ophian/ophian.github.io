@@ -38,8 +38,14 @@ meist eine zentrale Seitenüberschrift (Kopf- oder auch Banner-Bereich
 genannt) und eine weitere Überschrift vor der Artikelübersicht.</p>
 
 <figure id="fig-startpage_empty">
-    <img src="img/startpage_empty.png">
-    <figcaption>Abbildung 3.1: Frontend nach der Installation</figcaption>
+  <a class="lightbox" rel="lightbox" href="media/startpage_empty_dm_de.avif" lg-uid="lg3101" data-fallback="media/startpage_empty_dm_de.webp">
+    <picture>
+      <source srcset="media/startpage_empty_dm_de.avif" type="image/avif">
+      <source srcset="media/startpage_empty_dm_de.webp" type="image/webp">
+      <img src="media/startpage_empty_dm_de.png" alt="startpage_empty_dm_de.png" loading="lazy" width="1422" height="955">
+    </picture>
+    <figcaption>Abbildung 3.1: Frontend nach der Installation im Dark Mode</figcaption>
+  </a>
 </figure>
 
 <p>Die Standard-Installation von Serendipity richtet eine rechte
