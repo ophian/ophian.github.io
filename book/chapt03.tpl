@@ -195,9 +195,15 @@ einen Artikel eingeblendet: die Erstellungszeit, die Kategorie, in der
 sich ein Artikel befindet, der Name des Autors und die Anzahl der
 Kommentare zu diesem Artikel.</p>
 
-<figure id="fig-startpage">
-    <img src="img/startpage.png">
-    <figcaption>Abbildung 3.2: Frontend mit einem eingetragenen Artikel</figcaption>
+<figure id="fig-pure-entry">
+  <a class="lightbox" rel="lightbox" href="media/pure_dm_de.avif" lg-uid="lg3201" data-fallback="media/pure_dm_de.webp">
+    <picture>
+      <source srcset="media/pure_dm_de.avif" type="image/avif">
+      <source srcset="media/pure_dm_de.webp" type="image/webp">
+      <img src="media/pure_dm_de.png" alt="pure_dm_de.png" loading="lazy" width="1424" height="971">
+    </picture>
+    <figcaption>Abbildung 3.2: Frontend mit einem eingetragenen Artikel im Dark Mode</figcaption>
+  </a>
 </figure>
 
 <p>
