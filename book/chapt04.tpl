@@ -285,9 +285,15 @@ Seite <span class="pageref"><a href="#referrerXSRF">referrerXSRF</a></span>).</p
 
 <p>Nach dem Login befinden Sie sich auf der Übersichtsseite bzw Startseite des Backends.</p>
 
-<figure id="fig-backend">
-    <img src="img/backend.png">
+<figure id="fig-backend-startpage">
+  <a class="lightbox" rel="lightbox" href="media/backend_startpage_dm_de.avif" lg-uid="lg4201" data-fallback="media/backend_startpage_dm_de.webp">
+    <picture>
+      <source srcset="media/backend_startpage_dm_de.avif" type="image/avif">
+      <source srcset="media/backend_startpage_dm_de.webp" type="image/webp">
+      <img src="media/backend_startpage_dm_de.png" alt="backend_startpage_dm_de.png" loading="lazy" width="1424" height="800">
+    </picture>
     <figcaption>Abbildung 4.2: Verwaltungsoberfläche</figcaption>
+  </a>
 </figure>
 
 <p>Die Top-Leiste dient als Navigationsleiste für die <span class="mbold">Backend Startseite</span>,
