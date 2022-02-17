@@ -3572,7 +3572,7 @@ auf. Jede Kommentarbox enthält folgende Angaben:</p>
             zu ihrer eigenen Sicherheit mittels <code>serendipity_specialchars()</code>
             "unbrauchbar" gemacht, so dass kein ausführbarer Code weitergegeben, dargestellt,
             oder ausgeführt wird. Solche Einträge werden als reiner Textstring angezeigt.
-            Aktive HTML-Kommentaren werden mittels eines roten <code>...&lt;/&gt;</code>
+            Aktive HTML-Kommentaren werden mittels eines roten <code>&hellip;&lt;/&gt;</code>
             Abschlußsymbols kenntlich gemacht.
         </span>
     </span>
