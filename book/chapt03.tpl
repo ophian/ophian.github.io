@@ -406,9 +406,15 @@ Einschränkung nach Autoren können zusätzlich angehängt werden.</span>
 <p>Über <code>http://www.example.com/serendipity/archive/</code> gelangt
 man zu einer Übersichtsseite mit einer speziellen chronologischen Übersicht.</p>
 
-<figure id="fig-startpage_archiv">
-    <img src="img/startpage_archiv.png">
-    <figcaption>Abbildung 3.3: Archiv-Übersicht</figcaption>
+<figure id="fig-pure-startpage-archiv">
+  <a class="lightbox" rel="lightbox" href="media/pure_archive_dm_de.avif" lg-uid="lg3301" data-fallback="media/pure_archive_dm_de.webp">
+    <picture>
+      <source srcset="media/pure_archive_dm_de.avif" type="image/avif">
+      <source srcset="media/pure_archive_dm_de.webp" type="image/webp">
+      <img src="media/pure_archive_dm_de.png" alt="pure_archive_dm_de.png" loading="lazy" width="1422" height="971">
+    </picture>
+    <figcaption>Abbildung 3.3: Archiv-Übersicht im Dark Mode</figcaption>
+  </a>
 </figure>
 
 <p>Dort werden für alle Jahre, in denen Artikel verfasst wurden, die Monate
