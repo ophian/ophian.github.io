@@ -568,9 +568,15 @@ einen Kommentar erst autorisieren, bevor er angezeigt wird (siehe Seite
 eine Übersichtsseite, auf der alle Kommentare unabhängig vom Artikel
 dargestellt werden.</p>
 
-<figure id="fig-startpage_comments">
-    <img src="img/startpage_comments.png">
-    <figcaption>Abbildung 3.5: Kommentarübersicht</figcaption>
+<figure id="fig-pure-startpage-comments">
+  <a class="lightbox" rel="lightbox" href="media/pure_startpage_comments_dm_de.avif" lg-uid="lg3421" data-fallback="media/pure_startpage_comments_dm_de.webp">
+    <picture>
+      <source srcset="media/pure_startpage_comments_dm_de.avif" type="image/avif">
+      <source srcset="media/pure_startpage_comments_dm_de.webp" type="image/webp">
+      <img src="media/pure_startpage_comments_dm_de.png" alt="pure_startpage_comments_dm_de.png" loading="lazy" width="1416" height="1536">
+    </picture>
+    <figcaption>Abbildung 3.5: Kommentarübersicht im Dark Mode</figcaption>
+  </a>
 </figure>
 
 <p>Dies eignet sich besonders, um zu sehen, zu welchen Einträgen bestimmte
