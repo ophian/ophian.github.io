@@ -1052,9 +1052,15 @@ auszuschließen. Auch kann das Zeichen <em>*</em> als Platzhalter für
 beliebige Zeichen verwendet werden. Details zu der MySQL-Volltextsuche
 schlagen Sie bitte in der MySQL-Dokumentation nach.</p>
 
-<figure id="fig-search">
-    <img src="img/search.png">
-    <figcaption>Abbildung 3.6: Volltextsuche</figcaption>
+<figure id="fig-pure-search">
+  <a class="lightbox" rel="lightbox" href="media/pure_search_dm_de.avif" lg-uid="lg3701" data-fallback="media/pure_search_dm_de.webp">
+    <picture>
+      <source srcset="media/pure_search_dm_de.avif" type="image/avif">
+      <source srcset="media/pure_search_dm_de.webp" type="image/webp">
+      <img src="media/pure_search_dm_de.png" alt="pure_search_dm_de.png" loading="lazy" width="1422" height="971">
+    </picture>
+    <figcaption>Abbildung 3.6: Volltextsuche im Dark Mode</figcaption>
+  </a>
 </figure>
 
 <p>
