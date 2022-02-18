@@ -1427,7 +1427,7 @@ der Plugins in den folgenden Kapiteln entnehmen.</span>
     </span>
 
     <span class="box">
-        Die hier gezeigte <span class="mbold">Abbildung 4.7</span> zeigt das Popup-Fenster
+        Die hier gezeigte <span class="mbold">Abbildung 4.6</span> zeigt das Popup-Fenster
         das mit dem Styx Galerie Button geöffnet wird. Wie Sie sehen, sieht das ähnlich zum
         normalen Fenster aus, mit dem Unterschied, dass sie verkleinerte Bild-Vorschauen
         eines Ordners, je nach Einstellung und Auswahl der Anzeige von Dateien aus
