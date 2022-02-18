@@ -421,9 +421,15 @@ da Ihr Browser das Feld <span class="mbold">Altes Passwort</span> nicht eingetra
 </span>
 </p>
 
-<figure id="fig-preferences">
-    <img src="img/preferences.png">
+<figure id="fig-personal-preferences-config">
+  <a class="lightbox" rel="lightbox" href="media/personal_preferences_dm_de.avif" lg-uid="lg4301" data-fallback="media/personal_preferences_dm_de.webp">
+    <picture>
+      <source srcset="media/personal_preferences_dm_de.avif" type="image/avif">
+      <source srcset="media/personal_preferences_dm_de.webp" type="image/webp">
+      <img src="media/personal_preferences_dm_de.png" alt="personal_preferences_dm_de.png" loading="lazy" width="1416" height="1386">
+    </picture>
     <figcaption>Abbildung 4.3: Eigene Einstellungen</figcaption>
+  </a>
 </figure>
 
 <p class="desc">
