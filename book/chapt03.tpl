@@ -573,7 +573,7 @@ dargestellt werden.</p>
     <picture>
       <source srcset="media/pure_startpage_comments_dm_de.avif" type="image/avif">
       <source srcset="media/pure_startpage_comments_dm_de.webp" type="image/webp">
-      <img src="media/pure_startpage_comments_dm_de.png" alt="pure_startpage_comments_dm_de.png" loading="lazy" width="1416" height="1536">
+      <img src="media/pure_startpage_comments_dm_de.png" alt="pure_startpage_comments_dm_de.png" loading="lazy" width="1422" height="971">
     </picture>
     <figcaption>Abbildung 3.5: Kommentarübersicht im Dark Mode</figcaption>
   </a>
