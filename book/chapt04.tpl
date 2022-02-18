@@ -1851,8 +1851,15 @@ sondern für alle Redakteure zur Verfügung steht.</p>
 Erstellungsmaske für eine neue Kategorie.</p>
 
 <figure id="fig-categoryform">
-    <img src="img/categoryform.png">
+<figure id="fig-upload">
+  <a class="lightbox" rel="lightbox" href="media/new_category_dm_de.avif" lg-uid="lg4432" data-fallback="media/new_category_dm_de.webp">
+    <picture>
+      <source srcset="media/new_category_dm_de.avif" type="image/avif">
+      <source srcset="media/new_category_dm_de.webp" type="image/webp">
+      <img src="media/new_category_dm_de.png" alt="new_category_dm_de.png" loading="lazy" width="1424" height="890">
+    </picture>
     <figcaption>Abbildung 4.11: Inhalt: Kategorien: Neue Kategorie</figcaption>
+  </a>
 </figure>
 
 <p>Sowohl der Klick auf <span class="mbold">Neue Kategorie</span> als auch
