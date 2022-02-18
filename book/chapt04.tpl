@@ -1416,8 +1416,14 @@ der Plugins in den folgenden Kapiteln entnehmen.</span>
     </span>
 
     <span class="box" id="fig-ml_galpopup">
-        <img src="img/ml_galpopup.png">
-        <span class="asfigcaption">Abbildung 4.7: Mediathek-Popup zum Einfügen einer Galerie</span>
+      <a class="lightbox" rel="lightbox" href="media/ml_galpopup_dm_de.avif" lg-uid="lg4414" data-fallback="media/ml_galpopup_dm_de.webp">
+        <picture>
+          <source srcset="media/ml_galpopup_dm_de.avif" type="image/avif">
+          <source srcset="media/ml_galpopup_dm_de.webp" type="image/webp">
+          <img src="media/ml_galpopup_dm_de.png" alt="ml_galpopup_dm_de.png" loading="lazy" width="935" height="571">
+        </picture>
+        <span class="asfigcaption">Abbildung 4.6: Mediathek-Popup zum Einfügen einer Galerie im Dark Mode</span>
+      </a>
     </span>
 
     <span class="box">
