@@ -1648,9 +1648,15 @@ Artikel seit seiner Erstellung mindestens einmal überarbeitet wurde. Wenn
 Sie mit der Maus über dieses Icon fahren (oder klicken), zeigt ein
 Info-Popup den Zeitpunkt der letzten Aktualisierung an.</p>
 
-<figure id="fig-edit_entries">
-    <img src="img/edit_entries.png">
-    <figcaption>Abbildung 4.7: Inhalt: Einträge bearbeiten</figcaption>
+<figure id="fig-entries-list">
+  <a class="lightbox" rel="lightbox" href="media/entries_dm_de.avif" lg-uid="lg4421" data-fallback="media/entries_dm_de.webp">
+    <picture>
+      <source srcset="media/entries_dm_de.avif" type="image/avif">
+      <source srcset="media/entries_dm_de.webp" type="image/webp">
+      <img src="media/entries_dm_de.png" alt="entries_dm_de.png" loading="lazy" width="1422" height="830">
+    </picture>
+    <figcaption>Abbildung 4.7: Inhalt: Einträge bearbeiten im Dark Mode</figcaption>
+  </a>
 </figure>
 
 <p>In dieser Zeile unterhalb des Titels wird auch angegeben, wer der Eigentümer
