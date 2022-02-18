@@ -1304,8 +1304,14 @@ der Plugins in den folgenden Kapiteln entnehmen.</span>
     </span>
 
     <span class="box" id="fig-ml_popup">
-        <img src="img/ml_popup.png">
-        <span class="asfigcaption">Abbildung 4.5: Mediathek-Popup zum Einfügen einer Datei</span>
+      <a class="lightbox" rel="lightbox" href="media/ml_popup_dm_de.avif" lg-uid="lg4412" data-fallback="media/ml_popup_dm_de.webp">
+        <picture>
+          <source srcset="media/ml_popup_dm_de.avif" type="image/avif">
+          <source srcset="media/ml_popup_dm_de.webp" type="image/webp">
+          <img src="media/ml_popup_dm_de.png" alt="ml_popup_dm_de.png" loading="lazy" width="943" height="566">
+        </picture>
+        <span class="asfigcaption">Abbildung 4.5a: Mediathek-Popup zum Einfügen einer Datei im Dark Mode</span>
+      </a>
     </span>
 
     <span class="box">
