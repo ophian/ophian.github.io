@@ -1511,8 +1511,14 @@ der Plugins in den folgenden Kapiteln entnehmen.</span>
     </span>
 
     <span class="box" id="fig-ml_popup2-end.png">
-        <img src="img/ml_popup2-end.png">
-        <span class="asfigcaption">Abbildung 4.6e: Mediathek-Popup zum Einfügen von Bildern als &lt;img...&gt; oder über &lt;picture...&gt; container HTML tags</span>
+      <a class="lightbox" rel="lightbox" href="media/ml_popup2_end.avif" lg-uid="lg4612" data-fallback="media/ml_popup2_end.webp">
+        <picture>
+          <source srcset="media/ml_popup2_end.avif" type="image/avif">
+          <source srcset="media/ml_popup2_end.webp" type="image/webp">
+          <img src="media/ml_popup2_end.png" alt="ml_popup2_end.png" loading="lazy" width="896" height="70">
+        </picture>
+        <span class="asfigcaption">Abbildung 4.5c: Mediathek-Popup zum Einfügen von Bildern als &lt;img...&gt; oder über &lt;picture...&gt; container HTML tags</span>
+      </a>
     </span>
 
     <span class="box">
