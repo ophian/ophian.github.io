@@ -1826,6 +1826,17 @@ die über das kleine rechtsweisende Dreiecks-Symbol aktiviert wird,
 weitere Angaben zur Beschreibung einer Kategorie, und abschließend
 den Namen des Eigentümers einer Kategorie.</p>
 
+<figure id="fig-categories">
+  <a class="lightbox" rel="lightbox" href="media/categories_dm_de.avif" lg-uid="lg4431" data-fallback="media/categories_dm_de.webp">
+    <picture>
+      <source srcset="media/categories_dm_de.avif" type="image/avif">
+      <source srcset="media/categories_dm_de.webp" type="image/webp">
+      <img src="media/categories_dm_de.png" alt="categories_dm_de.png" loading="lazy" width="1424" height="800">
+    </picture>
+    <figcaption>Abbildung 4.10: Inhalt: Kategorien</figcaption>
+  </a>
+</figure>
+
 <p>Der Eigentümer einer Kategorie bestimmt im späteren Verlauf, welche
 Redakteure Artikel für diese Kategorie erstellen dürfen. Gewähren gewisse
 Rechtekonstellationen (siehe Kapitel <span class="reference">Gruppenverwaltung</span>
@@ -1835,11 +1846,6 @@ Redakteure nicht angezeigt und ist auch beim Erstellen eines Beitrags nicht
 auswählbar. Wenn an der Stelle des Eigentümers <em>Alle Autoren</em> steht,
 bedeutet dies, dass die Kategorie keinen speziellen Eigentümer besitzt,
 sondern für alle Redakteure zur Verfügung steht.</p>
-
-<figure id="fig-categories">
-    <img src="img/categories.png">
-    <figcaption>Abbildung 4.10: Inhalt: Kategorien</figcaption>
-</figure>
 
 <p>Am Ende der Seite führt der Button <span class="mbold">Neue Kategorie</span> zu der
 Erstellungsmaske für eine neue Kategorie.</p>
