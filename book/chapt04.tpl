@@ -719,9 +719,15 @@ Erstellung und dem Bearbeiten von Blog-Artikeln dienen.</p>
 Dahinter verbirgt sich die Eintrags-Maske, die in einem übersichtlich strukturierten Bereich alle
 Optionen für einen Artikel darstellt.</p>
 
-<figure id="fig-new_entry">
-    <img src="img/new_entry.png">
-    <figcaption>Abbildung 4.4: Inhalt: Neuer Eintrag (default PLAIN-TEXT-Editor und aktivem FreeTag Plugin)</figcaption>
+<figure id="fig-new-entry-form">
+  <a class="lightbox" rel="lightbox" href="media/new_entry_dm_en.avif" lg-uid="lg4411" data-fallback="media/new_entry_dm_en.webp">
+    <picture>
+      <source srcset="media/new_entry_dm_en.avif" type="image/avif">
+      <source srcset="media/new_entry_dm_en.webp" type="image/webp">
+      <img src="media/new_entry_dm_en.png" alt="new_entry_dm_en.png" loading="lazy" width="1416" height="1462">
+    </picture>
+    <figcaption>Abbildung 4.4: Inhalt: Neuer Eintrag</figcaption>
+  </a>
 </figure>
 
 <p>Die jeweiligen Eingabefelder sind:</p>
