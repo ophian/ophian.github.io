@@ -1361,8 +1361,14 @@ der Plugins in den folgenden Kapiteln entnehmen.</span>
         <span class="inline-tag">Formatierung!Bilder</span>
     </span>
     <span class="box" id="fig-ml_popup2">
-        <img src="img/ml_popup2.png">
-        <span class="asfigcaption">Abbildung 4.6: Mediathek-Popup zur Formatierung einer eingefügten Datei</span>
+      <a class="lightbox" rel="lightbox" href="media/ml_popup2_dm_de.avif" lg-uid="lg4413" data-fallback="media/ml_popup2_dm_de.webp">
+        <picture>
+          <source srcset="media/ml_popup2_dm_de.avif" type="image/avif">
+          <source srcset="media/ml_popup2_dm_de.webp" type="image/webp">
+          <img src="media/ml_popup2_dm_de.png" alt="ml_popup2_dm_de.png" loading="lazy" width="938" height="571">
+        </picture>
+        <span class="asfigcaption">Abbildung 4.5b: Mediathek-Popup zur Formatierung einer eingefügten Datei im Dark Mode</span>
+      </a>
     </span>
 
     <span class="box">
