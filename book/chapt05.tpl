@@ -1147,7 +1147,7 @@ werden.</span>
 </p>
 
 <p class="desc">
-<span class="item mbold">Anzahl</span><!-- menuitem -->
+<span class="item mbold">Maximale Anzahl der Einträge</span><!-- menuitem -->
 <span class="desc-info">Beschränkt die Anzahl der Einträge, die in der Seitenleiste angegeben
 werden. Wenn Sie mehr als die hier festgelegte Anzahl an Einträgen im
 definierten Zeitraum erstellt haben, werden also nur die ersten Artikel
