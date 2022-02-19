@@ -4174,7 +4174,7 @@ Sie gerne aktivieren möchten.</p>
     <picture>
       <source srcset="media/theme_config_pure_dm_de.avif" type="image/avif">
       <source srcset="media/theme_config_pure_dm_de.webp" type="image/webp">
-      <img src="media/theme_config_pure_dm_de.png" alt="theme_config_pure_dm_de.png" loading="lazy" width="1411" height="1154">
+      <img src="media/theme_config_pure_dm_de.png" alt="theme_config_pure_dm_de.png" loading="lazy" width="1412" height="1154">
     </picture>
     <figcaption>Abbildung 4.20: Einstellungen: Template-Optionen des Standard Themes pure</figcaption>
   </a>
