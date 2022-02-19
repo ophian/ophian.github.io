@@ -3683,7 +3683,7 @@ auf. Jede Kommentarbox enthält folgende Angaben:</p>
         aber eben auch nicht anzeigen lassen möchte, und Wert darauf legt, dass ein
         solcher nicht die Liste der unbewilligten und zu bearbeitenden Kommentare
         unnötig aufbläht, wurde der "<em>Bewilligen, aber versteckt</em>" Button
-        (siehe Abbildung 9c) über das <span class="mbold">Auge</span>-"Inaktiv/Aktiv setzen"-Symbol
+        (siehe Abbildung 4.9-sx) über das <span class="mbold">Auge</span>-"Inaktiv/Aktiv setzen"-Symbol
         eingeführt.
     </span>
 
