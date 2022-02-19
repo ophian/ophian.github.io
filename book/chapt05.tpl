@@ -1155,6 +1155,11 @@ davon angezeigt.</span>
 </p>
 
 <p class="desc">
+<span class="item mbold">Optionaler Text, für Eintrags Cache von leeren Jahren</span><!-- menuitem -->
+<span class="desc-info">Als Platzhalter für Jahre ohne Einträge mit der "Option Anzahl der durchlaufenden Jahre". Beispiel: "Schade! Heute gibt es nichts. Vielleicht Morgen..."</span>
+</p>
+
+<p class="desc">
 <span class="item mbold">Ganze Einträge</span><!-- menuitem -->
 <span class="desc-info">Standardmäßig zeigt das Plugin nur die Überschriften der Artikel des
 gewählten Zeitraums an. Wenn Sie diese Option auf <span class="mbold">true</span> stellen,
