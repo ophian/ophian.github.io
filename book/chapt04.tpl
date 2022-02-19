@@ -720,11 +720,11 @@ Dahinter verbirgt sich die Eintrags-Maske, die in einem übersichtlich strukturi
 Optionen für einen Artikel darstellt.</p>
 
 <figure id="fig-new-entry-form">
-  <a class="lightbox" rel="lightbox" href="media/new_entry_dm_en.avif" lg-uid="lg4411" data-fallback="media/new_entry_dm_en.webp">
+  <a class="lightbox" rel="lightbox" href="media/new_entry_dm_de.avif" lg-uid="lg4411" data-fallback="media/new_entry_dm_de.webp">
     <picture>
-      <source srcset="media/new_entry_dm_en.avif" type="image/avif">
-      <source srcset="media/new_entry_dm_en.webp" type="image/webp">
-      <img src="media/new_entry_dm_en.png" alt="new_entry_dm_en.png" loading="lazy" width="1416" height="1462">
+      <source srcset="media/new_entry_dm_de.avif" type="image/avif">
+      <source srcset="media/new_entry_dm_de.webp" type="image/webp">
+      <img src="media/new_entry_dm_de.png" alt="new_entry_dm_de.png" loading="lazy" width="1416" height="1462">
     </picture>
     <figcaption>Abbildung 4.4: Inhalt: Neuer Eintrag</figcaption>
   </a>
