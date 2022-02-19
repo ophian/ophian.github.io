@@ -1173,7 +1173,7 @@ Artikels angezeigt.</span>
 </p>
 
 <p class="desc">
-<span class="item mbold">Show author's name</span><!-- menuitem -->
+<span class="item mbold">Zeige den Namen des Authors</span><!-- menuitem -->
 <span class="desc-info">Den Autorennamen eines Artikels können Sie anzeigen, indem Sie die
 Option <span class="mbold">Show author's name</span> auf <span class="mbold">true</span> stellen.</span>
 </p>
