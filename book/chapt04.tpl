@@ -2518,8 +2518,14 @@ Eigenschaften angeben</span> geklickt oder innerhalb der Mediathek-Übersicht au
 auf einer Seite, in der Sie die Eigenschaften einer Datei überarbeiten können.</p>
 
 <figure id="fig-upload2">
-    <img src="img/upload2.png">
+  <a class="lightbox" rel="lightbox" href="media/ml_upload2_dm_de.avif" lg-uid="lg4531" data-fallback="media/ml_upload2_dm_de.webp">
+    <picture>
+      <source srcset="media/ml_upload2_dm_de.avif" type="image/avif">
+      <source srcset="media/ml_upload2_dm_de.webp" type="image/webp">
+      <img src="media/ml_upload2_dm_de.png" alt="ml_upload2_dm_de.png" loading="lazy" width="1377" height="3463">
+    </picture>
     <figcaption>Abbildung 4.13: Mediathek: Eigenschaften angeben</figcaption>
+  </a>
 </figure>
 
 <p>Diese Seite stellt die betreffenden Meta-Informationen einer Datei dar.
