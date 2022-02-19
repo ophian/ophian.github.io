@@ -1369,8 +1369,9 @@ Optionen:</p>
 <span class="item mbold">Datumsformat</span><!-- menuitem -->
 <span class="desc-info">Zu jedem Artikel wird das Erstellungsdatum angezeigt. Wie dieses
 formatiert wird, tragen Sie im Feld <span class="mbold">Datumsformat</span> ein. Die zur
-Verfügung stehenden Variablen finden Sie auf
-<code>http://php.net/manual/de/function.strftime.php</code>.</span>
+Verfügung stehenden <span class="mbold">Variablen</span> finden Sie auf
+<code>https://www.php.net/manual/de/function.strftime.php</code>,
+auch wenn die Funktion an sich inzwischen als <em>Deprecated</em> markiert ist.</span>
 </p>
 
 <p class="desc">
