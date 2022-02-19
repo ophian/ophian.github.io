@@ -1401,6 +1401,13 @@ die Option <span class="mbold">Show Random Articles</span> aktivieren. Bei jedem
 werden dann zufällig andere Artikel in der Seitenleiste angezeigt.</span>
 </p>
 
+<p class="desc">
+<span class="item mbold">Wo soll dieses Plugin angezeigt werden?</span><!-- menuitem -->
+<span class="desc-info">Hier können Sie auswählen, ob die Plugin Ausgabe
+nur in der Artikelübersicht, nur in der Artikel-Detailansicht oder Immer (Überall),
+gezeigt werden soll.</span>
+</p>
+
 </section><!-- section.sub end -->
 
 <section id="serendipity_plugin_remoterss" class="sub">
