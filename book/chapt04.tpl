@@ -2284,11 +2284,11 @@ Ergebnisse oft überraschend, wenn man die Dateigrößen aller Formate miteinand
 Sehen Sie hier ein Beispielergebnis:</p>
 
 <figure>
-    <a class="lightbox" rel="lightbox" href="img/lib-variation-comparison.avif" lg-uid="lg450" data-fallback="img/lib-variation-comparison.webp">
+    <a class="lightbox" rel="lightbox" href="media/lib-variation-comparison.avif" lg-uid="lg450" data-fallback="media/lib-variation-comparison.webp">
       <picture>
-        <source srcset="img/lib-variation-comparison.avif" type="image/avif">
-        <source srcset="img/lib-variation-comparison.webp" type="image/webp">
-        <img src="img/lib-variation-comparison.png" alt="lib-variation-comparison.png" loading="lazy" width="1120" height="760">
+        <source srcset="media/lib-variation-comparison.avif" type="image/avif">
+        <source srcset="media/lib-variation-comparison.webp" type="image/webp">
+        <img src="media/lib-variation-comparison.png" alt="lib-variation-comparison.png" loading="lazy" width="1120" height="760">
       </picture>
     </a>
     <figcaption>Eine Serie von 4 Bildern, die vergleichend mit ImageMagick (IM) und PHP GD
