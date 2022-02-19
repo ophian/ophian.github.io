@@ -1395,7 +1395,7 @@ auch wenn die Funktion an sich inzwischen als <em>Deprecated</em> markiert ist.<
 </p>
 
 <p class="desc">
-<span class="item mbold">Show Random Articles</span><!-- menuitem -->
+<span class="item mbold">Zeige zufälligen Artikel</span><!-- menuitem -->
 <span class="desc-info">Wenn Sie eine zufällige Auswahl von Artikeln darstellen wollen, können Sie
 die Option <span class="mbold">Show Random Articles</span> aktivieren. Bei jedem Seitenaufruf
 werden dann zufällig andere Artikel in der Seitenleiste angezeigt.</span>
