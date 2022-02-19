@@ -2765,7 +2765,7 @@ Tool, um damit schnell einen Überblick zu gewinnen, oder ein gesuchtes Bild zu 
     <picture>
       <source srcset="media/ml_imageinfo_dm_de.avif" type="image/avif">
       <source srcset="media/ml_imageinfo_dm_de.webp" type="image/webp">
-      <img src="media/ml_imageinfo_dm_de.png" alt="ml_imageinfo_dm_de.png" loading="lazy" width="1385" height="820">
+      <img src="media/ml_imageinfo_dm_de.png" alt="ml_imageinfo_dm_de.png" loading="lazy" width="1385" height="920">
     </picture>
     <figcaption>Abbildung 4.14a: Mediathek: Symbolleiste</figcaption>
   </a>
