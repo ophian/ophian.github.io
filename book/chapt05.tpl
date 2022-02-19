@@ -1128,6 +1128,25 @@ werden.</span>
 </p>
 
 <p class="desc">
+<span class="item mbold">Anzahl der durchlaufenden Jahre</span><!-- menuitem -->
+<span class="desc-info">
+    <span class="box">
+        Setzen Sie die Anzahl der Jahre, die insgesamt durchlaufen werden sollen,
+        wenn Sie "Heute vor einem Jahr" als Zeitrahmen ausgewählt haben.
+        Standard ist 1 (das aktuelle Jahr).
+    </span>
+
+    <span class="box">
+        Setzen Sie dafür die voranstehenden "Mindestalter" und "Höchstalter"
+        Einträge auf exakt 365 Tage. Bei Auswahl von mehreren Jahren wird die
+        ausgegebene History Sidebar Box mitsamt möglichen Intro und Outro aus
+        Performancegründen für diesen Tag in der "templates_c/history_daylist.dat"
+        Datei gecached.
+    </span>
+</span>
+</p>
+
+<p class="desc">
 <span class="item mbold">Anzahl</span><!-- menuitem -->
 <span class="desc-info">Beschränkt die Anzahl der Einträge, die in der Seitenleiste angegeben
 werden. Wenn Sie mehr als die hier festgelegte Anzahl an Einträgen im
