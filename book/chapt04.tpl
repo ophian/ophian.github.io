@@ -2498,7 +2498,7 @@ lieber mittels FTP-Programm auf den Server laden.</p>
 <section id="U453" class="sub">
 <span class="u-toc">4.5.3 - Medien: Eigenschaften angeben</span>
 
-<h3 class="subsection" id="medien-eigenschaften-angeben">Mediendaten: Eigenschaften angeben</h3>
+<h3 class="subsection" id="medien-eigenschaften-angeben">Medien: Eigenschaften angeben</h3>
 
 <p class="tagging invisible">
 <span class="label invisible" id="medien-eigenschaften-hinzufuegen">Medien-Eigenschaften hinzufügen</span>
