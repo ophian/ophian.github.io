@@ -2352,8 +2352,14 @@ hochladen zu können, gibt es den Menüpunkt <span class="mbold">Medien hinzufü
 eine Datei eingestellt werden soll.</p>
 
 <figure id="fig-upload">
-    <img src="img/upload.png">
+  <a class="lightbox" rel="lightbox" href="media/ml_imageupload_dm_de.avif" lg-uid="lg4511" data-fallback="media/ml_imageupload_dm_de.webp">
+    <picture>
+      <source srcset="media/ml_imageupload_dm_de.avif" type="image/avif">
+      <source srcset="media/ml_imageupload_dm_de.webp" type="image/webp">
+      <img src="media/ml_imageupload_dm_de.png" alt="ml_imageupload_dm_de.png" loading="lazy" width="1385" height="920">
+    </picture>
     <figcaption>Abbildung 4.12: Mediathek: Medien hinzufügen</figcaption>
+  </a>
 </figure>
 
 <p>Die erste Variante ist der Download einer Datei, die bereits im Internet
