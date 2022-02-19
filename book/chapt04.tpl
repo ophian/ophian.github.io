@@ -2291,7 +2291,7 @@ Sehen Sie hier ein Beispielergebnis:</p>
         <img src="media/lib-variation-comparison.png" alt="lib-variation-comparison.png" loading="lazy" width="1120" height="760">
       </picture>
     </a>
-    <figcaption>Eine Serie von 4 Bildern, die vergleichend mit ImageMagick (IM) und PHP GD
+    <figcaption>Abbildung 4.x: Eine Serie von 4 Bildern, die vergleichend mit ImageMagick (IM) und PHP GD
     kodiert wurden. Im Allgemeinen können Dauer und Resultat der Bildkodierung - abgesehen
     von der Größe - von der Verwendung von hohen Dynamikbereichen (HDR), verlustfreier oder
     verlustbehafteter Kompression, Farbebenen, Profilen, großem Farbumfang,
