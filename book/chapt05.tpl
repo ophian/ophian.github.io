@@ -1181,8 +1181,9 @@ Option <span class="mbold">Show author's name</span> auf <span class="mbold">tru
 <p class="desc">
 <span class="item mbold">Datumsformat</span><!-- menuitem -->
 <span class="desc-info">Sofern Sie die Option <span class="mbold">Datum anzeigen</span> aktiviert haben, können Sie
-hier das Datumsformat einstellen. Die zur Verfügung stehenden Variablen
-finden Sie auf <code>http://php.net/manual/de/function.strftime.php</code>.</span>
+hier das Datumsformat einstellen. Die zur Verfügung stehenden <span class="mbold">Variablen</span>
+finden Sie auf <code>https://www.php.net/manual/de/function.strftime.php</code>,
+auch wenn die Funktion an sich inzwischen als <em>Deprecated</em> markiert ist.</span>
 </p>
 
 </section><!-- section.sub end -->
