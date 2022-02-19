@@ -3491,7 +3491,7 @@ Kommentarauflistung, wenn genügend Listeneinträge vorhanden sind.</p>
     <picture>
       <source srcset="media/comments_fill_dm_de.avif" type="image/avif">
       <source srcset="media/comments_fill_dm_de.webp" type="image/webp">
-      <img src="media/comments_fill_dm_de.png" alt="comments_fill_dm_de.png" loading="lazy" width="1424" height="80">
+      <img src="media/comments_fill_dm_de.png" alt="comments_fill_dm_de.png" loading="lazy" width="1424" height="830">
     </picture>
     <figcaption>Abbildung 4.8: Aktivität: Kommentare (<em>siehe auch übernächste Abbildung 4.9-sx für Serendipity Styx</em>)</figcaption>
   </a>
