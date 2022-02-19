@@ -1064,6 +1064,11 @@ Seitenleisten-Plugin zu <em>emulieren</em>.</p>
 Optionen abhängige) Liste darstellen.</p>
 
 <p class="desc">
+<span class="item mbold">Titel</span><!-- menuitem -->
+<span class="desc-info">Titel des Seitenleisten Blocks.</span>
+</p>
+
+<p class="desc">
 <span class="item mbold">Intro, Outro</span><!-- menuitem -->
 <span class="desc-info">Sie können vor (<em>Intro</em>, Einführung) und nach (<em>Outro</em>,
 Nachwort) der Auflistung der älteren Artikel einen beliebigen Text in die
