@@ -1319,7 +1319,9 @@ Sucheingabe-Box anzeigt. Dort können Besucher Suchwörter eintragen, um
 Artikel zu durchsuchen. Weitere Hinweise zur Volltextsuche finden Sie auf
 Seite <span class="pageref"><a href="#Suche">Suche</a></span>.</p>
 
-<p>Dieses Plugin bietet keine Konfigurationsmöglichkeiten an.</p>
+<p>Dieses Plugin bietet keine Konfigurationsmöglichkeiten an.
+Es unterscheidet sich nicht vom Suchformular das einige themes
+per se schon selbst eingebaut haben.</p>
 
 </section><!-- section.sub end -->
 
