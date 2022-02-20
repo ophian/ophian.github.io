@@ -1317,11 +1317,10 @@ Einsatz kommen.
 </span>
 In Zeiten des <em>Web 2.0</em> (siehe Seite <span class="pageref"><a href="#Webservices">Webservices</a></span>) buhlen
 zahlreiche allgegenwärtige Marketing- und Technologiebegriffe um
-Aufmerksamkeit. Da diese auch im Zusammenhang mit
-Serendipity wichtig sind, gehen wir darauf im Folgenden gezielt und knapp
-ein. Detaillierte Definitionen liefert zB.
-die deutsche Wikipedia.[*]
-<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://de.wikipedia.org/" target="_blank" rel="noopener">http://de.wikipedia.org/</a></span><!-- footnote -->
+Aufmerksamkeit. Da diese auch im Zusammenhang mit Serendipity wichtig sind,
+gehen wir darauf im Folgenden gezielt und knapp ein. Detaillierte Definitionen
+liefert zB. die deutsche Wikipedia.[*]
+<span class="footnote"><i class="fa fa-info-circle"></i> <a href="https://de.wikipedia.org/wiki/Wikipedia:Hauptseite" target="_blank" rel="noopener">https://de.wikipedia.org/wiki/Wikipedia:Hauptseite</a></span><!-- footnote -->
 </p>
 
 <section id="U141" class="sub">
