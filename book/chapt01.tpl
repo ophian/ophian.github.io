@@ -700,11 +700,10 @@ geändert
 <span class="tag-box invisible">
     <span class="inline-tag">phpini@php.ini</span>
 </span>
-und bedürfen je nach
-Serverumgebung eines Neustarts der Webserver-Software. Für Hilfe zur
-Konfiguration von PHP und des jeweiligen Webservers schlagen Sie bitte in der
-Anleitung der jeweiligen Software nach, da dies den Rahmen dieses Buchs
-sprengen würde.</p>
+und bedürfen je nach Serverumgebung eines Neustarts der Webserver-Software.
+Für Hilfe zur Konfiguration von PHP und des jeweiligen Webservers schlagen
+Sie bitte in der Anleitung der jeweiligen Software nach, da dies den Rahmen
+dieses Buchs sprengen würde.</p>
 
 <p>
 <span class="tag-box invisible">
