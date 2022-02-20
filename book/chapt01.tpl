@@ -395,18 +395,6 @@ können Sie auf dem Webserver als Anwendungen ausführen; darauf greifen
 Sie mittels eines Webbrowsers von Ihrem PC aus zu - ganz so, wie Sie es von
 Webseiten wie eBay oder Amazon kennen.</p>
 
-<p>Sollten Sie über keinen eigenen Webspace verfügen, gibt es noch eine
-andere Möglichkeit, Serendipity zu nutzen. Einige kostenlose oder
-kostengünstige Provider haben die Software auf ihren Servern
-vorinstalliert und gewähren externen Nutzern Zugriff darauf. Hier können
-Sie meist nur aus einer Liste vorinstallierter Plugins wählen und auch
-keine Änderungen an Templates vornehmen oder eigene Plugins einspielen.
-Um das System erst einmal nur zu testen oder als einfaches
-Kommunikationsmittel einzusetzen, ist dies sicher eine gute Alternative. Eine Liste
-dieser Provider finden Sie auf der Serendipity-Webseite.[*]
-<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://www.s9y.org/61.html" target="_blank" rel="noopener">http://www.s9y.org/61.html</a></span><!-- footnote -->
-</p>
-
 <p>
 <span class="tag-box invisible">
     <span class="inline-tag">PHP</span>
