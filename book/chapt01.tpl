@@ -1383,8 +1383,8 @@ gelandet.</p>
 </p>
 
 <p>Ein Browser ist eine Software auf Ihrem Computer, mit der Sie Internetadressen
-aufrufen und ansehen können. Bekannte Browser sind der <em>Microsoft Internet
-Explorer</em>, <em>Mozilla Firefox</em>, <em>Google Chrome</em> oder auch <em>Apple Safari</em>. Der Begriff
+aufrufen und ansehen können. Bekannte Browser sind der <em>Mozilla Firefox</em>,
+<em>Google Chrome</em> oder auch <em>Apple Safari</em>. Der Begriff
 "Browser" steht dabei für das "Stöbern" (neudeutsch "Surfen") im Internet,
 denn erst durch diese Software wird aus einem speziell formatierten HTML-Dokument
 etwas, das ein Besucher am Bildschirm wirklich ansehen und benutzen kann.</p>
