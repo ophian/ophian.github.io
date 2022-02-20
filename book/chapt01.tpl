@@ -825,7 +825,7 @@ Webserver wie Microsoft IIS oder lighttpd bieten diese Möglichkeiten leider
 nicht, daher ist dort keine URL-Umformung möglich [*]
 <span class="footnote"><i class="fa fa-info-circle"></i> Mit etwas manuellem
 Aufwand und Kenntnis der Webserver lassen sich die benötigten Umformungsregeln
-jedoch auch nachrüsten, mehr dazu unter <a href="http://s9y.org/119.html" target="_blank" rel="noopener">http://s9y.org/119.html</a></span><!-- footnote -->.</p>
+jedoch auch nachrüsten (siehe Seite <span class="pageref"><a href="#serendipitys-htaccess-datei">htaccess</a></span>)</span><!-- footnote -->.</p>
 
 <p>Bei der Installation wird Serendipity versuchen, automatisch die
 passendste Methode für Sie herauszufinden. Abhängig
