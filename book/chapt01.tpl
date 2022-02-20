@@ -1758,26 +1758,26 @@ besprochen.</p>
 </span>
 </p>
 
-<p>Üblicherweise werden Blog-Artikel in HTML-Syntax formatiert. Da HTML
-jedoch gerade für Anfänger nicht ganz trivial ist, gibt es mehrere
-Standards, die das Ziel einfacher Textformatierung verfolgen. Solche
-Standards, darunter
+<p>Üblicherweise werden Blog-Artikel in HTML-Syntax formatiert. Da HTML jedoch
+gerade für Anfänger nicht ganz trivial ist, gibt es mehrere Standards, die das
+Ziel einfacher Textformatierung verfolgen. Solche Standards, darunter
 <span class="tag-box invisible">
     <span class="inline-tag">BBCode</span>
 </span>
 BBCode [*]
-<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://www.phpbb.com/community/faq.php?mode=bbcode" target="_blank" rel="noopener">http://www.phpbb.com/community/faq.php?mode=bbcode</a></span><!-- footnote -->
+<span class="footnote"><i class="fa fa-info-circle"></i> <a href="https://www.phpbb.com/community/help/bbcode" target="_blank" rel="noopener">https://www.phpbb.com/community/help/bbcode</a></span><!-- footnote -->
 <span class="tag-box invisible">
     <span class="inline-tag">Textile</span>
 </span>
+Markdown [*]
+<span class="footnote"><i class="fa fa-info-circle"></i> <a href="https://michelf.ca/home/" target="_blank" rel="noopener">https://michelf.ca/home/</a></span><!-- footnote -->
 oder Textile [*]
-<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://txstyle.org/" target="_blank" rel="noopener">http://txstyle.org/</a></span><!-- footnote --> bieten
+<span class="footnote"><i class="fa fa-info-circle"></i> <a href="https://textile-lang.com/" target="_blank" rel="noopener">https://textile-lang.com/</a></span><!-- footnote --> bieten
 <span class="tag-box invisible">
     <span class="inline-tag">Tags</span>
 </span>
 eigene <em>Tags</em> (also Formatierungsmarker) an, die ein System wie
-Serendipity später in
-HTML-Format konvertiert.</p>
+Serendipity später in HTML-Format konvertiert.</p>
 
 <p>BBCode basiert auf in Foren üblichen Markierungen:
 <span class="tag-box invisible">
