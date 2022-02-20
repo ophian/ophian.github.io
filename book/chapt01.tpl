@@ -1288,7 +1288,7 @@ zu (Versions-)Konflikten.</p>
     $serendipity['use_PEAR'] = false;
 </code></pre>
 
-<p>darauf beharren, dass die von s9y mitgelieferten Komponenten zum
+<p>darauf beharren, dass die von Serendipity Styx mitgelieferten Komponenten zum
 Einsatz kommen.
 <span class="tag-box invisible">
     <span class="inline-tag">Serendipity!Voraussetzungen|)</span>
