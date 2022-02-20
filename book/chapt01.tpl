@@ -388,16 +388,12 @@ die Dienstleistung, die diese erbringen, nennt man <em>Webhosting</em>.
 </span>
 </p>
 
-<p>Für einen gewissen Monatsbeitrag erhalten
-Sie Zugangsdaten zu einem Rechner, auf den Sie HTML-Dateien und
-Software wie Serendipity mittels eines
+<p>Für einen gewissen Monatsbeitrag erhalten Sie Zugangsdaten zu einem Rechner,
+auf den Sie HTML-Dateien und Software wie Serendipity mittels eines
 <em>FTP-Programms</em> hochladen können. So gespeicherte Software
 können Sie auf dem Webserver als Anwendungen ausführen; darauf greifen
-Sie mittels
-eines Webbrowsers von Ihrem PC aus zu - ganz so, wie Sie es von Webseiten
-wie eBay oder Amazon kennen. Manche Provider (zB.
-<code>http://www.domainfactory.de/</code>) bieten Serendipity für ihre
-Kunden sogar vorinstalliert an.</p>
+Sie mittels eines Webbrowsers von Ihrem PC aus zu - ganz so, wie Sie es von
+Webseiten wie eBay oder Amazon kennen.</p>
 
 <p>Sollten Sie über keinen eigenen Webspace verfügen, gibt es noch eine
 andere Möglichkeit, Serendipity zu nutzen. Einige kostenlose oder
