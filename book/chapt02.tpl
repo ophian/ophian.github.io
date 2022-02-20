@@ -547,8 +547,14 @@ detailliert auf alle Optionen eingehen, klicken Sie an dieser Stelle am besten a
 <span class="mbold">Einfache Installation</span>.</p>
 
 <figure id="fig-install2">
-    <img src="img/install2.png">
+  <a class="lightbox" rel="lightbox" href="media/install2.avif" lg-uid="lg2252" data-fallback="media/install2.webp">
+    <picture>
+      <source srcset="media/install2.avif" type="image/avif">
+      <source srcset="media/install2.webp" type="image/webp">
+      <img src="media/install2.png" alt="install2.png" loading="lazy" width="1452" height="1032">
+    </picture>
     <figcaption>Abbildung 2.3: Initiale Konfiguration</figcaption>
+  </a>
 </figure>
 
 <p>Die Folgeseite (Abbildung 2.3) stellt alle
