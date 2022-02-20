@@ -509,8 +509,14 @@ fortfahren können. Sollte sich diese entgegen Ihren Wünschen in englischer Spr
 konfigurieren Sie Ihren Browser so um, dass Deutsch die bevorzugte Sprache darstellt.</p>
 
 <figure id="fig-install">
-    <img src="img/install.png">
+  <a class="lightbox" rel="lightbox" href="media/install.avif" lg-uid="lg2251" data-fallback="media/install.webp">
+    <picture>
+      <source srcset="media/install.avif" type="image/avif">
+      <source srcset="media/install.webp" type="image/webp">
+      <img src="media/install.png" alt="install.png" loading="lazy" width="1435" height="2408">
+    </picture>
     <figcaption>Abbildung 2.2: Installationsbildschirm</figcaption>
+  </a>
 </figure>
 
 <p>
