@@ -1338,19 +1338,16 @@ liefert zB. die deutsche Wikipedia.[*]
 </p>
 
 <p>HTML [*]
-<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://meiert.com/de/publications/indices/html-elements/" target="_blank" rel="noopener">http://meiert.com/de/publications/indices/html-elements/</a></span><!-- footnote -->
+<span class="footnote"><i class="fa fa-info-circle"></i> <a href="https://meiert.com/de/publications/indices/html-elements/" target="_blank" rel="noopener">https://meiert.com/de/publications/indices/html-elements/</a></span><!-- footnote -->
 stellte ursprünglich eine einfache Syntax zur Formatierung
 von Dokumenten im Web bereit. Während es anfangs nur sehr primitive
 Auszeichnungselemente gab (Überschriften, Fettungen, Tabellen), sorgten
-viele Entwickler-Gremien
-schnell und leider auch unübersichtlich für Erweiterungen.
-Parallel zu HTML wurde XML
-(<em>Extensible Markup Language</em>) als universelles Dateiformat
-entwickelt, um
-beliebige maschinen- und menschenlesbare Inhalte darzustellen. Im
+viele Entwickler-Gremien schnell und leider auch unübersichtlich für Erweiterungen.
+Parallel zu HTML wurde XML (<em>Extensible Markup Language</em>) als universelles Dateiformat
+entwickelt, um beliebige maschinen- und menschenlesbare Inhalte darzustellen. Im
 Gegensatz zu Binärformaten lassen sich für XML plattformübergreifend Schnittstellen
-bereitstellen und standardisiert eigene Unterformate für alle
-erdenklichen Einsatzzwecke erfinden.</p>
+bereitstellen und standardisiert eigene Unterformate für alle erdenklichen Einsatzzwecke
+erfinden.</p>
 
 <p>Auch HTML wurde mittels XHTML-Standard mit der XML-Syntax aufgefrischt und
 konsolidiert. Strenge Regeln sorgen nun dafür, dass sich HTML-Dokumente von
