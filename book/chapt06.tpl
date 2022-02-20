@@ -476,6 +476,12 @@ somit schneller darzustellen.</p>
         diese Caching-Option, falls dessen Ausgaben Ihnen nicht korrekt
         vorkommen.
     </span>
+
+    <span class="box">
+        Bei Benutzung des <span class="mbold">Rich-Text-Editors</span> macht dieser
+        Cache keinen Sinn, da die Ausgabe bereits HTML-fertig in der entries Tabelle
+        vorliegt.
+    </span>
 </span>
 </p>
 
