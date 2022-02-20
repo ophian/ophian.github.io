@@ -370,16 +370,18 @@ ausgeführt, sondern läuft im Internet auf einem Webserver.
     <span class="inline-tag">Provider</span>
 </span>
 Einen solchen mietet man meistens bei Providern wie
+Uberspace [*]
+<span class="footnote"><i class="fa fa-info-circle"></i> <a href="https://uberspace.de/de/" target="_blank" rel="noopener">https://uberspace.de/de/</a></span><!-- footnote -->,
 Manitu [*]
-<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://www.manitu.de/" target="_blank" rel="noopener">http://www.manitu.de/</a></span><!-- footnote -->,
+<span class="footnote"><i class="fa fa-info-circle"></i> <a href="https://www.manitu.de/" target="_blank" rel="noopener">https://www.manitu.de/</a></span><!-- footnote -->,
 1&amp;1 [*]
-<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://www.einsundeins.de/" target="_blank" rel="noopener">http://www.einsundeins.de/</a></span><!-- footnote -->,
+<span class="footnote"><i class="fa fa-info-circle"></i> <a href="https://www.ionos.de/" target="_blank" rel="noopener">https://www.ionos.de/</a></span><!-- footnote -->,
 Strato [*]
-<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://www.strato.de/" target="_blank" rel="noopener">http://www.strato.de/</a></span><!-- footnote -->,
+<span class="footnote"><i class="fa fa-info-circle"></i> <a href="https://www.strato.de/" target="_blank" rel="noopener">https://www.strato.de/</a></span><!-- footnote -->,
 tiggerswelt [*]
-<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://www.tiggerswelt.net/" target="_blank" rel="noopener">http://www.tiggerswelt.net/</a></span><!-- footnote --> oder
+<span class="footnote"><i class="fa fa-info-circle"></i> <a href="https://tiggerswelt.net/" target="_blank" rel="noopener">https://www.tiggerswelt.net/</a></span><!-- footnote --> oder
 anderen [*]
-<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://www.webhostlist.de/" target="_blank" rel="noopener">http://www.webhostlist.de/</a></span><!-- footnote -->;
+<span class="footnote"><i class="fa fa-info-circle"></i> <a href="https://www.webhostlist.de/" target="_blank" rel="noopener">https://www.webhostlist.de/</a></span><!-- footnote -->;
 die Dienstleistung, die diese erbringen, nennt man <em>Webhosting</em>.
 <span class="tag-box invisible">
     <span class="inline-tag">Webhosting</span>
