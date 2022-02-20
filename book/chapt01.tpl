@@ -483,8 +483,7 @@ laden Sie folgende kleine Datei namens <code>info.php</code> in das
     <span class="inline-tag">Document Root</span>
     <span class="inline-tag">Stammverzeichnis</span>
 </span>
-Webdaten-Stammverzeichnis (auch
-<em>Document Root</em> genannt) [*]
+Webdaten-Stammverzeichnis (auch <em>Document Root</em> genannt) [*]
 <span class="footnote"><i class="fa fa-info-circle"></i> Das ist meistens
 <span class="label invisible" id="DocRoot">DocRoot</span> das Stammverzeichnis, in dem Sie bei Benutzung Ihres
 FTP-Zugangs standardmäßig zu Beginn landen. Je nachdem, wie Ihr Provider den
@@ -493,6 +492,11 @@ Verzeichnis wie <code>htdocs</code> oder <code>httpdocs</code> wechseln müssen,
 Stammverzeichnis des Webservers zu gelangen.</span><!-- footnote --> auf den Server (im Buch
 <code>www.example.com</code> genannt) und rufen diese in einem Browser über
 <code>http://www.example.com/info.php</code> auf:</p>
+
+<p>Aus Gründen der Einfachheit nutzen wir für diese Beispiel URLs das
+ungesicherte <code>http://</code> Protokoll-Präfix, empfehlen aber dringend
+im realen Leben immer <code>https://</code> über ein vertrauenswürdiges
+Zertfikat zu verwenden!</p>
 
 <pre><code class="php">
     &lt;?php phpinfo(); ?&gt;
