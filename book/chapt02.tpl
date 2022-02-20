@@ -325,15 +325,19 @@ hochgeladenen Dateien hat.</p>
 <p>Beim Hochladen von Dateien mittels FTP können Sie in diese Rechte
 eingreifen. Dazu bieten viele Programme bei Rechtsklick auf eine Datei
 oder ein Verzeichnis ein Menü namens <span class="mbold">Permission</span> oder <span class="mbold">CHMOD</span>
-an (Abbildung 2.1).</p>
+an (Abbildung 2.1a).</p>
 
 <figure id="fig-chmod">
-    <img src="img/chmod.png">
-    <figcaption>Abbildung 2.1: <span class="mbold">CHMOD</span>-Maske des FTP-Programmes FileZilla</figcaption>
+  <picture>
+    <source srcset="media/chmod.avif" type="image/avif">
+    <source srcset="media/chmod.webp" type="image/webp">
+    <img src="media/chmod.png" alt="chmod.png" loading="lazy" width="309" height="411">
+  </picture>
+  <figcaption>Abbildung 2.1a: <span class="mbold">CHMOD</span>-Maske des FTP-Programmes FileZilla</figcaption>
 </figure>
 
 <figure id="fig-chmod2">
-    <img src="img/chmod2.png">
+    <img src="media/chmod2.png">
     <figcaption>Abbildung 2.1b: <span class="mbold">CHMOD</span>-Über die Linux Konsole</figcaption>
 </figure>
 
