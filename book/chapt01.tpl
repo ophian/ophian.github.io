@@ -828,11 +828,10 @@ Aufwand und Kenntnis der Webserver lassen sich die benötigten Umformungsregeln
 jedoch auch nachrüsten (siehe Seite <span class="pageref"><a href="#serendipitys-htaccess-datei">htaccess</a></span>)</span><!-- footnote -->.</p>
 
 <p>Bei der Installation wird Serendipity versuchen, automatisch die
-passendste Methode für Sie herauszufinden. Abhängig
-davon wird die <code>.htaccess</code>-Datei unterschiedlich erstellt, damit sie die
-jeweils erforderlichen Anweisungen enthält. Die gewünschte Methode zur
-URL-Umformung kann später in der Konfiguration natürlich auch umgestellt
-werden.</p>
+passendste Methode für Sie herauszufinden. Abhängig davon wird die
+<code>.htaccess</code>-Datei unterschiedlich erstellt, damit sie die jeweils
+erforderlichen Anweisungen enthält. Die gewünschte Methode zur URL-Umformung
+kann später in der Konfiguration natürlich auch umgestellt werden.</p>
 
 <p>
 <span class="tag-box invisible">
