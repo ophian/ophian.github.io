@@ -686,8 +686,14 @@ Serendipity auch darüber. Dann heißt es zurück zu Abschnitt
 <span class="pageref"><a href="#DBeinrichten">DBeinrichten</a></span>.</p>
 
 <figure id="fig-install3">
-    <img src="img/install3.png">
+  <a class="lightbox" rel="lightbox" href="media/install3.avif" lg-uid="lg2253" data-fallback="media/install3.webp">
+    <picture>
+      <source srcset="media/install3.avif" type="image/avif">
+      <source srcset="media/install3.webp" type="image/webp">
+      <img src="media/install3.png" alt="install3.png" loading="lazy" width="1451" height="570">
+    </picture>
     <figcaption>Abbildung 2.4: Einrichtung abgeschlossen</figcaption>
+  </a>
 </figure>
 
 <p>Bei fehlerfreier Installation können Sie über die URL <code>http://www.example.com/serendipity/</code> das
