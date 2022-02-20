@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Serendipity Styx AV1 Image File support
-last_modified_at: 2021-12-20T14:53:00+00:00
+last_modified_at: 2022-02-20T12:07:00+00:00
 ---
 
 N° 2021/7 - PHP 8.1 & Serendipity Styx AV1 Image File support <img class="php8" src="/i/b/logo_php8_1.svg" alt="php8" width="160" height="48">
@@ -86,11 +86,11 @@ N° 2021/7 - PHP 8.1 & Serendipity Styx AV1 Image File support <img class="php8"
     results often surprising comparing all formats. See an example result:</p>
 
     <figure>
-        <a class="lightbox" rel="lightbox" href="/i/b/lib-variation-comparison.avif" lg-uid="lg1" data-fallback="/i/b/lib-variation-comparison.webp">
+        <a class="lightbox" rel="lightbox" href="/i/b/lib_variation_comparison.avif" lg-uid="lg1" data-fallback="/i/b/lib_variation_comparison.webp">
           <picture>
-            <source srcset="/i/b/lib-variation-comparison.avif" type="image/avif" />
-            <source srcset="/i/b/lib-variation-comparison.webp" type="image/webp" />
-            <img src="/i/b/lib-variation-comparison.png" alt="lib-variation-comparison.png" loading="lazy" height="760" width="1120" />
+            <source srcset="/i/b/lib_variation_comparison.avif" type="image/avif">
+            <source srcset="/i/b/lib_variation_comparison.webp" type="image/webp">
+            <img src="/i/b/lib_variation_comparison.png" alt="lib_variation_comparison.png" loading="lazy" width="1120" height="760">
           </picture>
         </a>
         <figcaption>A series of 4 images, concurrently encoded with either ImageMagick (IM) vs PHP GD.
