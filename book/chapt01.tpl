@@ -404,13 +404,12 @@ Webseiten wie eBay oder Amazon kennen.</p>
 Die Dateien, die zu Serendipity gehören, enthalten Quellcode, der in der
 <em>Skriptsprache</em> PHP [*]
 <span class="footnote"><i class="fa fa-info-circle"></i> PHP ist die Abkürzung von
-<em>PHP Hypertext Preprocessor</em>, siehe <code>http://www.php.net/</code>.</span><!-- footnote -->
+<em>PHP Hypertext Preprocessor</em>, siehe <code>https://www.php.net/</code>.</span><!-- footnote -->
 geschrieben ist.
-Ein PHP-Interpreter macht diesen bei jedem Aufruf auf
-dem Webserver maschinenlesbar. Das Ergebnis
-dieser Aktion liefert der Webserver an den Browser des Zielsystems.
-Laienhaft gesprochen, ließe sich PHP als Betriebssystem für
-Serendipity ansehen.</p>
+Ein PHP-Interpreter macht diesen bei jedem Aufruf auf dem Webserver
+maschinenlesbar. Das Ergebnis dieser Aktion liefert der Webserver an
+den Browser des Zielsystems. Laienhaft gesprochen, ließe sich PHP als
+Betriebssystem für Serendipity ansehen.</p>
 
 <p>Dies ist wichtig, um die generelle Funktionsweise von
 Serendipity zu verstehen. Im Gegensatz zu Webbrowsern oder einer
