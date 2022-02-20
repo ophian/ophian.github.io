@@ -219,8 +219,6 @@ ermöglicht, die HTML-Ausgabe anzupassen, ohne PHP lernen zu müssen.</p>
     <span class="inline-tag">Template-Archiv|see{Spartacus}</span>
 </span>
 <em>Spartacus</em> [*] <span class="footnote"><i class="fa fa-info-circle"></i>
-<a href="http://spartacus.s9y.org/" target="_blank" rel="noopener">http://spartacus.s9y.org/</a><br>
-<i class="fa fa-info-circle"></i>
 <a href="https://ophian.github.io/plugins/">Spartacus auf Styx</a></span><!-- footnote -->
 bietet derzeit mehr als 160 Plugins und knapp 100 Templates an. Diese können
 Sie direkt aus der Verwaltungsoberfläche Ihrer eigenen Blog-Installation heraus
