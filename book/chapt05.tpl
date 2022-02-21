@@ -2020,7 +2020,7 @@ auswählen. Davon verblieben ist nur noch die integrierte
 
 <p><span class="mbold">Inzwischen hat die Realität</span> dieses Plugin in weiten
 Teilen überholt. Die einst hervorragende Menalto Galerie zum Beispiel wird schon seit
-längerem nicht mehr weiterentwickelt und bei den anderen (Coppermine, ...) genannten Galerien
+längerem nicht mehr weiterentwickelt und bei den anderen (Coppermine, ...) Galerien
 müsste wahrscheinlich auch ein Plugin Maintainer oder interessierter User erst einmal schauen
 wie es damit wirklich heutzutage steht. Trotzdem lassen wir die Pluginbeschreibung erst einmal
 wie sie ist, damit sie zum Vorbild für weitere Additionen werden kann.</p>
