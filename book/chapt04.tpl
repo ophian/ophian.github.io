@@ -971,7 +971,11 @@ Artikel veröffentlichen.</span>
         <span class="label invisible" id="wysiwyg">wysiwyg</span>
         <span class="item mbold">Eintrag mit aktiviertem WYSIWYG-Editor</span><!-- menuitem -->
         <span class="box" id="fig-toolbar-cs">
-            <img src="img/toolbar-standard-ckecore.bl.png">
+           <picture>
+              <source srcset="media/toolbar_standard_ckecore_dm_de.avif" type="image/avif">
+              <source srcset="media/toolbar_standard_ckecore_dm_de.webp" type="image/webp">
+              <img src="media/toolbar_standard_ckecore_dm_de.png" alt="toolbar_standard_ckecore_dm_de.png" loading="lazy" width="932" height="44">
+            </picture>
             <span class="asfigcaption">Abbildung 4.4a: Inhalt: Neuer Eintrag (aktivierter Kern WYSIWYG-Editor - Basic Toolbar im Dark Mode, Spracheinstellung: EN)</span>
         </span>
 
