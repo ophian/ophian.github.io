@@ -2680,9 +2680,15 @@ Optionen einstellen. Diese werden ähnlich wie Konfigurationsoptionen
 eines Plugins dargestellt, pro Zeile stellen Sie eine Option ein.</p>
 
 <figure id="fig-bulletproof2">
-    <img src="img/bulletproof2.png">
+  <a class="lightbox" rel="lightbox" href="media/bulletproof2.avif" lg-uid="lg9501" data-fallback="media/bulletproof2.webp">
+    <picture>
+      <source srcset="media/bulletproof2.avif" type="image/avif">
+      <source srcset="media/bulletproof2.webp" type="image/webp">
+      <img src="media/bulletproof2.png" alt="bulletproof2.png" loading="lazy" width="1425" height="1032">
+    </picture>
     <div class="shape-separator"></div>
     <figcaption>Abbildung 9.1: Ausschnitt der Template-Optionen des Bulletproof-Themes</figcaption>
+  </a>
 </figure>
 
 <p>Wie auf dem Screenshot (Abbildung 9.1) zu erkennen,
