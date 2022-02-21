@@ -476,7 +476,7 @@ da Ihr Browser das Feld <span class="mbold">Altes Passwort</span> nicht eingetra
     <span class="box">
         Einige Plugins für Serendipity bieten zudem externe WYSIWYG-Editoren wie
         TinyMCE [*]
-        <span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://tinymce.moxiecode.com/" target="_blank" rel="noopener">http://tinymce.moxiecode.com/</a></span><!-- footnote -->,
+        <span class="footnote"><i class="fa fa-info-circle"></i> <a href="https://www.tiny.cloud/" target="_blank" rel="noopener">https://www.tiny.cloud/</a></span><!-- footnote -->,
         CKEditor Plus[*]
         <span class="footnote"><i class="fa fa-info-circle"></i> <a href="https://ckeditor.com/" target="_blank" rel="noopener">https://ckeditor.com/</a></span><!-- footnote -->,
         zur Einbindung an, die in ihrem Funktionsumfang durchaus variieren. Auch diese externen
@@ -4073,7 +4073,7 @@ Template-Datei (<code>*.tpl</code>) werden Platzhalter verwendet, die bei der
 Ausführung von Serendipity durch eigentliche Inhalte ersetzt werden. Für
 diese Platzhalter-Logik verwendet Serendipity eine Software-Bibliothek
 namens <em>Smarty</em> [*]
-<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://www.smarty.net/" target="_blank" rel="noopener">http://www.smarty.net/</a></span><!-- footnote -->.
+<span class="footnote"><i class="fa fa-info-circle"></i> <a href="https://www.smarty.net/" target="_blank" rel="noopener">https://www.smarty.net/</a></span><!-- footnote -->.
 Smartys Aufgabe ist es, die Template-Dateien nach Platzhaltern zu durchsuchen, zu
 <em>kompilieren</em> (in PHP-Code umwandeln) und danach auszugeben. Dabei
 kann Smarty weitaus mehr, als nur Variablen zu ersetzen: Smarty bietet
@@ -4721,7 +4721,7 @@ konstruierten Akronyms wird deutlich, dass Spartacus ein System ist, das
 Plugins und Templates zur Verfügung stellt.</p>
 
 <p>Spartacus besteht aus zwei Komponenten: Zum einen der zentrale Server
-<code>http://spartacus.s9y.org</code>, auf dem sämtliche verfügbaren
+<code>https://ophian.github.io/plugins</code>, auf dem sämtliche verfügbaren
 offiziellen Plugins vorhanden sind und auch für Nicht-Serendipity-Benutzer
 übersichtlich dargestellt werden.
 Zum anderen wird bei Serendipity ein gleichnamiges Ereignis-Plugin
@@ -6799,7 +6799,7 @@ für die Mediathek und die Vorschaubild-Erzeugung fest.</p>
     <span class="box">
         Wenn auf Ihrem Webserver die Software ImageMagick [*]
         <span class="footnote"><i class="fa fa-info-circle"></i>
-        <a href="http://www.imagemagick.org" target="_blank" rel="noopener">http://www.imagemagick.org</a></span><!-- footnote -->
+        <a href="https://imagemagick.org/index.php" target="_blank" rel="noopener">https://imagemagick.org/</a></span><!-- footnote -->
         installiert ist, können Sie diese Software zur Erstellung und Konvertierung von
         Vorschaubildern benutzen.
     </span>
