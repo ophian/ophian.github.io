@@ -154,9 +154,8 @@
  <li class="sct-sub"><span class="toc-sub">5.3.5</span> <a class="sidebar-nav-item" href="#serendipity_plugin_imagesidebar">Unified Sidebar Image Display serendipity_plugin_imagesidebar</a></li>
  <li class="sct-sub"><span class="toc-sub">5.3.6</span> <a class="sidebar-nav-item" href="#serendipity_plugin_shoutbox">Shoutbox serendipity_plugin_shoutbox</a></li>
  <li class="sct-sub"><span class="toc-sub">5.3.7</span> <a class="sidebar-nav-item" href="#serendipity_plugin_showentries">Show Entries in sidebar serendipity_plugin_showentries</a></li>
- <li class="sct-sub"><span class="toc-sub">5.3.8</span> <a class="sidebar-nav-item" href="#serendipity_plugin_socialbookmarks">Social Bookmarks-Plugin serendipity_plugin_socialbookmarks</a></li>
- <li class="sct-sub"><span class="toc-sub">5.3.9</span> <a class="sidebar-nav-item" href="#serendipity_plugin_topexits">Top Exits serendipity_plugin_topexits</a></li>
- <li class="sct-sub"><span class="toc-sub">5.3.10</span> <a class="sidebar-nav-item" href="#serendipity_plugin_topreferrers">Top Referrer serendipity_plugin_topreferrers</a></li>
+ <li class="sct-sub"><span class="toc-sub">5.3.8</span> <a class="sidebar-nav-item" href="#serendipity_plugin_topexits">Top Exits serendipity_plugin_topexits</a></li>
+ <li class="sct-sub"><span class="toc-sub">5.3.9</span> <a class="sidebar-nav-item" href="#serendipity_plugin_topreferrers">Top Referrer serendipity_plugin_topreferrers</a></li>
 </ul>
 
 <p class="head-sct"><span class="head-toc">6.</span> &nbsp;<i class="fa fa-external-link"></i>&nbsp;<a href="#chapter-VI">Ereignis-Plugins</a>&nbsp;<a data-toggle="collapse" data-target="#collapse_I6" href="#collapse_I6"><i class="fa fa-caret-down"></i></a></p>
