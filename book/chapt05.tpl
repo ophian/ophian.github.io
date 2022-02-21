@@ -414,7 +414,7 @@ Name dieser Oberkategorie angezeigt (<span class="mbold">Nein</span>) oder verst
 
 <p>Ein ebenfalls recht simples Plugin ist <em>Powered by</em>. Es gibt das
 Logo von Serendipity mit einem Link zur Webseite
-<code>http://www.s9y.org/</code> aus und erlaubt es Ihren Besuchern, zu sehen,
+<code>https://ophian.github.io/</code> aus und erlaubt es Ihren Besuchern, zu sehen,
 welche großartige Software hinter Ihrem Blog steckt.</p>
 
 <p>Die Konfigurationsoptionen des Plugins ermöglichen eine Feineinstellung,
@@ -914,7 +914,7 @@ können Sie mit dem Eingabefeld <span class="mbold">Anzahl an Kommentaren</span>
 <span class="desc-info">Zu jedem Kommentar wird das Erstellungsdatum mit angezeigt. Wie dieses
 formatiert wird, tragen Sie im Feld <span class="mbold">Datumsformat</span> ein. Die zur
 Verfügung stehenden Variablen finden Sie auf
-<code>http://php.net/manual/de/function.strftime.php</code>.</span>
+<code>https://www.php.net/manual/de/function.strftime.php</code>.</span>
 </p>
 
 <p class="desc">
@@ -1494,8 +1494,8 @@ also beispielsweise <code>http://www.example.com/serendipity/rss.php?version=2.0
         Namen des Feldes angeben, das Serendipity in der Seitenleiste darstellen
         soll. Die Liste der verfügbaren Felder können Sie in der Spezifikation
         des jeweiligen RSS-Formats nachlesen [*]
-        <span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://www.rssboard.org/rss-2-0" target="_blank" rel="noopener">http://www.rssboard.org/rss-2-0</a> für RSS 2.0; weitere Links finden
-        Sie auf <code>http://de.wikipedia.org/wiki/RSS</code></span><!-- footnote -->. Sie können beliebig
+        <span class="footnote"><i class="fa fa-info-circle"></i> <a href="https://www.rssboard.org/rss-2-0" target="_blank" rel="noopener">https://www.rssboard.org/rss-2-0</a> für RSS 2.0; weitere Links finden
+        Sie auf <code>https://de.wikipedia.org/wiki/RSS_(Web-Feed)</code></span><!-- footnote -->. Sie können beliebig
         viele Feldinhalte anzeigen lassen, indem Sie mehrere Felder mittels
         <code>,</code> voneinander trennen.
     </span>
@@ -1595,7 +1595,9 @@ Link in der Ausgabe des Plugins dargestellt.</span>
     <span class="box">
         Die Option <span class="mbold">Datumsformat</span> bezieht sich auf die Formatierung des
         Veröffentlichungsdatums. Die Variablen, die Sie hier benutzen können,
-        sind auf <code>http://php.net/manual/de/function.strftime.php</code> zusammengefasst.
+        sind auf <code>https://www.php.net/manual/de/function.strftime.php</code> zusammengefasst.
+        Die Benutzung ist nur noch eine Weile möglich, da strftime mit PHP 8.1 als deprecated
+        markiert wurde und mit PHP 9 dann entfernt wird.
     </span>
 </span>
 </p>
@@ -1735,7 +1737,7 @@ Dateimanagern gewohnt, Kategorien platzsparend ein- und ausklappen.</p>
 Diese müssen Sie entweder als zentrale PEAR-Bibliothek über
 den Server-Provider installieren oder manuell installieren. Dazu
 müssen Sie das PEAR-Paket herunterladen [*]
-<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://pear.php.net/package/HTML_TreeMenu" target="_blank" rel="noopener">http://pear.php.net/package/HTML_TreeMenu</a></span><!-- footnote --> und
+<span class="footnote"><i class="fa fa-info-circle"></i> <a href="https://pear.php.net/package/HTML_TreeMenu" target="_blank" rel="noopener">https://pear.php.net/package/HTML_TreeMenu</a></span><!-- footnote --> und
 entpacken. Laden Sie die Datei <code>HTML_TreeMenu-1.2.0/TreeMenu.php</code>
 anschließend ins Serendipity-Verzeichnis <code>bundled-libs/HTML/</code> hoch.
 Kopieren Sie dann noch die Datei <code>TreeMenu.js</code> und das ganze
@@ -1854,7 +1856,7 @@ Seite <span class="pageref"><a href="#Textformatierungs-Plugins">Textformatierun
 </span>
 </p>
 
-<p>Der Webservice <code>http://www.flickr.com/</code> ermöglicht es seinen
+<p>Der Webservice <code>https://www.flickr.com/</code> ermöglicht es seinen
 Benutzern, eigene Bildergalerien komfortabel zu verwalten. Zudem bietet
 Flickr dabei zahlreiche Einbindungsmöglichkeiten über eine Schnittstelle
 an.</p>
@@ -1870,7 +1872,7 @@ Webserver benötigt und sonst keine weiteren Voraussetzungen besitzt.</p>
 <p>Das <em>FLICKR Sidebar-Plugin</em> ist auch auf PHP4-Webservern benutzbar,
 dafür müssen Sie aber selbständig eine fremde Bibliothek herunterladen.
 Diese Bibliothek nennt sich <code>PEAR::Flickr_API</code> [*]
-<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://code.iamcal.com/php/flickr/readme.htm" target="_blank" rel="noopener">http://code.iamcal.com/php/flickr/readme.htm</a></span><!-- footnote -->. Laden
+<span class="footnote"><i class="fa fa-info-circle"></i> <a href="https://code.iamcal.com/php/flickr/readme.htm" target="_blank" rel="noopener">https://code.iamcal.com/php/flickr/readme.htm</a></span><!-- footnote -->. Laden
 Sie sich das ZIP-Paket der Bibliothek herunter, entpacken Sie die Datei
 <code>API.php</code> aus dem Unterverzeichnis <code>pear/Flickr/</code> und laden Sie sie in
 Ihr Serendipity-Verzeichnis <code>bundled-libs</code> hoch. Danach muss sich
@@ -1887,8 +1889,7 @@ und das Plugin wird nicht funktionieren.</p>
 </span><!-- tagbox -->
 In den Konfigurationsoptionen beider Plugins müssen Sie den
 Flickr-API-Schlüssel eintragen. Wenn Sie bei Flickr eingeloggt sind,
-können Sie diesen unter <code>http://www.flickr.com/services/api/keys/</code>
-einfach beantragen und später in der Konfigurationsoberfläche eintragen.</p>
+können Sie diesen einfach beantragen und später in der Konfigurationsoberfläche eintragen.</p>
 
 <p>Das <em>Flickr badge</em>-Plugin ermöglicht weiterhin, die Anzahl der
 Bilder insgesamt und die Anzahl der dargestellten Bilder pro Zeile
@@ -1915,7 +1916,7 @@ RSS/OPML-Blogroll Feed</em> (Seite <span class="pageref"><a href="#remoterss">re
 oder des HTML-Klotzes (Seite <span class="pageref"><a href="#htmlnugget">htmlnugget</a></span>)
 anzeigen können. Weitere Hinweise zu den Einbindungsmöglichkeiten
 finden Sie auf der Flickr-Seite unter
-<code>http://www.flickr.com/services/feeds/</code>.</p>
+<code>https://www.flickr.com/services/feeds/</code>.</p>
 
 </section><!-- section.sub end -->
 
@@ -1936,7 +1937,7 @@ finden Sie auf der Flickr-Seite unter
 </p>
 
 <p><em>Google AdSense</em> [*]
-<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://www.google.com/adsense" target="_blank" rel="noopener">http://www.google.com/adsense</a></span><!-- footnote --> ist ein
+<span class="footnote"><i class="fa fa-info-circle"></i> <a href="https://www.google.com/adsense" target="_blank" rel="noopener">https://www.google.com/adsense</a></span><!-- footnote --> ist ein
 Angebot von Google, mit dem Sie Werbeanzeigen von Googles Werbepartnern
 auf Ihrer eigenen Seite einbinden können.</p>
 
