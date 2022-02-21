@@ -2720,7 +2720,7 @@ die Datenbasis der Links herangezogen wird.</span>
 </section><!-- section.sub end -->
 
 <section id="serendipity_plugin_topreferrers" class="sub">
-<span class="u-toc">5.3.10 - Top Referrer: serendipity_plugin_topreferrers</span>
+<span class="u-toc">5.3.9 - Top Referrer: serendipity_plugin_topreferrers</span>
 
 <h3 class="subsection" id="top-referrerserendipity_plugin_topreferrers">Top Referrer<br>serendipity_plugin_topreferrers</h3>
 
