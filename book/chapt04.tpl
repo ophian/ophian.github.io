@@ -118,9 +118,8 @@ Passwörter für Logins in der Datenbanktabelle <code>serendipity_authors</code>
 
 <p>Da aber die Mechanismen MD5-Hashes mit Rainbow-Tabellen zu knacken,
 oder sogar "Wörterbuch Hash" -lookups immer mehr zunahmen und immer populärer wurden,
-vollzog Serendipity schon im Jahre 2009 den Schritt [*]
-<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://blog.s9y.org/archives/205-hash.html" target="_blank" rel="noopener">http://blog.s9y.org/archives/205-hash.html</a></span><!-- footnote -->
-, den Serendipity-Hashing-Mechanismus auf einen <em>gesalzenen</em> und sicheren <em>SHA1</em>-Hash zu erhöhen.
+vollzog Serendipity schon im Jahre 2009 den Schritt, den Serendipity-Hashing-Mechanismus
+auf einen <em>gesalzenen</em> und sicheren <em>SHA1</em>-Hash zu erhöhen.
 Damit wurde es aber unmöglich per phpMyAdmin mal eben so ein Passwort in der Datenbanktabelle zu ersetzen.</p>
 
 <p>Später, in 2018/Q1, wurde der Hashing-Mechanismus noch einmal erhöht und benutzt jetzt BCRYPT.</p>
