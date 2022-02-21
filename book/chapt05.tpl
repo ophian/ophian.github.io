@@ -2633,7 +2633,7 @@ Sie eine Einstellung auch direkt in der Smarty-Template-Datei vornehmen.</span>
 </section><!-- section.sub end -->
 
 <section id="serendipity_plugin_topexits" class="sub">
-<span class="u-toc">5.3.9 - Top Exits: serendipity_plugin_topexits</span>
+<span class="u-toc">5.3.8 - Top Exits: serendipity_plugin_topexits</span>
 
 <h3 class="subsection" id="top-exitsserendipity_plugin_topexits">Top Exits<br>serendipity_plugin_topexits</h3>
 
