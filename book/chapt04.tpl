@@ -985,9 +985,15 @@ Artikel veröffentlichen.</span>
             Das CKEditor Plus Plugin bietet 3 Auswahlmöglichkeiten für die Toolbar: Standard, Full oder Basic.
         </span>
 
-        <span class="box" id="fig-toolbar-ps">
-            <img src="img/toolbar-basic-ckeplus.png">
+        <span class="box" id="fig-toolbar-basic-ps">
+          <a class="lightbox" rel="lightbox" href="media/toolbar_basic_ckeplus.avif" lg-uid="lg4413" data-fallback="media/toolbar_basic_ckeplus.webp">
+            <picture>
+              <source srcset="media/toolbar_basic_ckeplus.avif" type="image/avif">
+              <source srcset="media/toolbar_basic_ckeplus.webp" type="image/webp">
+              <img src="media/toolbar_basic_ckeplus.png" alt="toolbar_basic_ckeplus.png" loading="lazy" width="947" height="209">
+            </picture>
             <span class="asfigcaption break">Abbildung 4.4d: Inhalt: Neuer Eintrag (aktivierter CKEditor Plus WYSIWYG-Editor - Basic Toolbar).</span>
+          </a>
         </span>
 
         <span class="box">
