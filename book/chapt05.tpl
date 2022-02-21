@@ -2018,12 +2018,6 @@ können Sie mit diesem Plugin direkt mehrere mögliche Bildquellen
 auswählen. Davon verblieben ist nur noch die integrierte
 <em>Serendipity-Mediathek</em>.</p>
 
-<p>Bitte beachten Sie, dass für die gerade genannten Galerie-Anwendungen
-auch, wie erwähnt, eigenständige Plugins bestehen. Diese sind jedoch älter
-und nur noch aus historischen Gründen in der Plugin-Datenbank. Ein
-Umstieg auf das einheitliche <em>Unified Sidebar Image Display</em>-Plugin
-ist daher immer zu empfehlen.</p>
-
 <p><span class="mbold">Inzwischen hat die Realität</span> dieses Plugin in weiten
 Teilen überholt. Die einst hervorragende Menalto Galerie zum Beispiel wird schon seit
 längerem nicht mehr weiterentwickelt und bei den anderen (Coppermine, ...) genannten Galerien
