@@ -2198,7 +2198,7 @@ Mit Styx 3.6/3.7 kam im Herbst bzw Ende 2021 ein weiteres vielversprechendes
 Format hinzu, das <strong>AVIF</strong> (AV Image Format) genannt wird und von
 einem Konsortium vieler großer Firmen als <strong>DIE</strong> neue und freie
 Videokompressionsoftware <strong>AV1</strong> entwickelt wurde. AVIF ist also
-ein Ableger derselben.</p>
+ein Ableger derselben. Dieses kann erst mit PHP 8.1 eingesetzt werden.</p>
 
 <p><strong>Noch einmal</strong> konnte die Kompression damit um weitere 30%
 ( wiederum im Mittel) gesteigert werden, so dass heute Bilder (Variationen)
@@ -2218,7 +2218,7 @@ annonciert mit Erscheinen von <strong>PHP 8.1</strong> [*]
 <span class="footnote"><i class="fa fa-info-circle"></i> Dies bezieht sich auf
 die darin enthaltene GDlib Bibliothek. Mit ImageMagick benötigen Sie mindestens
 die Version 7.0.25 um überhaupt mit AVIF arbeiten zu können.</span><!-- footnote -->
-im Herbst 2021 voll kompatibel zu sein. fehlt dennoch ein wichtiges Puzzlestück
+im Herbst 2021 voll kompatibel zu sein, fehlt dennoch ein wichtiges Puzzlestück
 um praktisch damit arbeiten zu können, so wie es für WebP möglich ist. Dies
 betrifft die Auslesung von Metadaten, inbesondere von Größenangaben im Meta
 Bereich von AVIF Dateien, das normalerweise über die PHP Funktion
