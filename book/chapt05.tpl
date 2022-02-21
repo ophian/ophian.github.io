@@ -516,9 +516,8 @@ Konfigurationsoptionen:</p>
 <span class="item mbold">FeedBurner Feed</span><!-- menuitem -->
 <span class="desc-info">
     <span class="box">
-        Der Webservice <code>http://www.feedburner.com/</code> ist ein Angebot von
-        Google, das Statistiken über die Auslieferung Ihres
-        RSS-Feeds und einige weitere Möglichkeiten
+        Der Webservice feedburner ist ein auslaufendes Angebot von Google, das Statistiken
+        über die Auslieferung Ihres RSS-Feeds und einige weitere Möglichkeiten
         der Einbettung bietet. Bei einem FeedBurner-Feed kann der Aufruf des
         RSS-Feeds im Browser direkt hübsch formatiert sein, statt
         als für den Besucher merkwürdiger XML-Datensatz zu erscheinen. FeedBurner
