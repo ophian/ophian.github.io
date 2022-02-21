@@ -781,7 +781,11 @@ Artikel veröffentlichen.</span>
         Artikel überarbeiten (oder einen Artikel im Entwurfsmodus
         veröffentlichen wollen) und dabei die Uhrzeit aktualisieren möchten.
         <span class="box figure-small" id="fig-datetime-local-chrome">
-            <img src="img/datetime-local-chrome.png">
+            <picture>
+              <source srcset="media/datetime_local_chrome.avif" type="image/avif">
+              <source srcset="media/datetime_local_chrome.webp" type="image/webp">
+              <img src="media/datetime_local_chrome.png" alt="datetime_local_chrome.png" loading="lazy" width="280" height="224">
+            </picture>
             <span class="asfigcaption">&nbsp;&nbsp;Abbildung 4.4-ts: Einträge: Datumfeld (Beispiel für Chrome Browser)</span>
         </span>
     </span>
