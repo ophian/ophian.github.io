@@ -1009,9 +1009,15 @@ Artikel veröffentlichen.</span>
             diese zusätzlichen Funktionen auf einem Blogsystem auch nicht wirklich gebrauchen können.
         </span>
 
-        <span class="box" id="fig-toolbar-ps">
-            <img src="img/toolbar-standard-ckeplus.png">
+        <span class="box" id="fig-toolbar-standard-ps">
+          <a class="lightbox" rel="lightbox" href="media/toolbar_standard_ckeplus.avif" lg-uid="lg3314" data-fallback="media/toolbar_standard_ckeplus.webp">
+            <picture>
+              <source srcset="media/toolbar_standard_ckeplus.avif" type="image/avif">
+              <source srcset="media/toolbar_standard_ckeplus.webp" type="image/webp">
+              <img src="media/toolbar_standard_ckeplus.png" alt="toolbar_standard_ckeplus.png" loading="lazy" width="950" height="246">
+            </picture>
             <span class="asfigcaption">Abbildung 4.4e: Inhalt: Neuer Eintrag (aktivierter CKEditor Plus WYSIWYG-Editor - Standard Toolbar)</span>
+          </a>
         </span>
 
         <span class="box">
