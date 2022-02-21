@@ -2002,9 +2002,6 @@ mit Werbeblöcken um, da Sie sonst Ihre Besucher vergraulen.</p>
 <p class="tagging invisible">
 <span class="tag-box invisible">
     <span class="inline-tag">Gallery</span>
-    <span class="inline-tag">Menalto Gallery</span>
-    <span class="inline-tag">Coppermine Gallery</span>
-    <span class="inline-tag">Zooomr</span>
     <span class="inline-tag">Mediathek</span>
     <span class="inline-tag">Plugins!Unified Sidebar Image Display</span>
     <span class="inline-tag">Plugins!serendipity_plugin_imagesidebar</span>
