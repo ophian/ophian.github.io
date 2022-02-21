@@ -2015,12 +2015,7 @@ von Bildern in der Seitenleiste.</p>
 verschiedenen Plugins unter einem Dach zu vereinen. Anstatt für jede
 einzelne Galerie-Software ein eigenständiges Plugin zu installieren,
 können Sie mit diesem Plugin direkt mehrere mögliche Bildquellen
-auswählen: <em>Menalto Gallery</em> [*]
-<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://gallery.menalto.com" target="_blank" rel="noopener">http://gallery.menalto.com</a></span><!-- footnote -->,
-<em>Coppermine Gallery</em> [*]
-<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://coppermine-gallery.net" target="_blank" rel="noopener">http://coppermine-gallery.net</a></span><!-- footnote -->,
-<em>Zooomr</em> [*]
-<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://www.zooomr.com" target="_blank" rel="noopener">http://www.zooomr.com</a></span><!-- footnote -->, aber auch die integrierte
+auswählen. Davon verblieben ist nur noch die integrierte
 <em>Serendipity-Mediathek</em>.</p>
 
 <p>Bitte beachten Sie, dass für die gerade genannten Galerie-Anwendungen
