@@ -2756,8 +2756,14 @@ weiteren unabhängigen n:m-Verbindungen.</p>
 </p>
 
 <figure id="fig-dbrel">
-    <img src="img/dbrel.png">
+  <a class="lightbox" rel="lightbox" href="media/dbrel.avif" lg-uid="lg10601" data-fallback="media/dbrel.webp">
+    <picture>
+      <source srcset="media/dbrel.avif" type="image/avif">
+      <source srcset="media/dbrel.webp" type="image/webp">
+      <img src="media/dbrel.png" alt="dbrel.png" loading="lazy" width="635" height="735">
+    </picture>
     <figcaption>Abbildung 10.1: Datenbank ER-Modell</figcaption>
+  </a>
 </figure>
 
 <p>Dabei benutzt Serendipity keine <em>Foreign Key</em>-Assoziierung, die PostgreSQL
