@@ -7806,11 +7806,7 @@ bestehenden Blogs die Verzeichnisse wie <code>include</code>, <code>deployment</
 <code>docs</code>, <code>bundled-libs</code>, <code>lang</code> und <code>sql</code> löschen; diese werden
 in Zukunft aus dem <em>Core-Verzeichnis</em> bezogen. Die Verzeichnisse
 <code>templates</code> und <code>plugins</code> sollten Sie beibehalten, ebenso wie die
-Konfigurationsdateien <code>serendipity_config_local.inc.php</code> und <code>.htaccess</code>.[*]
-<span class="footnote"><i class="fa fa-info-circle"></i> Eine ausführlichere Beschreibung
-dieses Vorgangs anhand einer tatsächlich ausgeführten Umstellung bietet Falk Döring in seinem Blog unter
-<a href="http://www.fadoe.de/archives/136-Einzel-Blogs-auf-Shared-Blogs-umstellen-Projektbeschreibung.html"
-target="_blank">http://www.fadoe.de/archives/136-Einzel-Blogs-auf-Shared-Blogs-umstellen-Projektbeschreibung.html</a> an.</span><!-- footnote -->
+Konfigurationsdateien <code>serendipity_config_local.inc.php</code> und <code>.htaccess</code>.
 </p>
 
 </article>
