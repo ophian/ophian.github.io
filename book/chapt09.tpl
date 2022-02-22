@@ -3265,9 +3265,26 @@ sie innerhalb der <code>index.tpl</code>-Datei leicht
 durchlaufen und ausgegeben werden kann. Der Platzhalter <code>$i</code> wird innerhalb
 der Schleife als fortlaufender Index (beginnend mit der 0) behandelt.</p>
 
-<p>Die Liste aller Bulletproof-Template-Optionen wird innerhalb der
+<p>Am besten nehmen Sie sich an konkreten Themes mit ihrer <code>config.inc.php</code>-Datei ein konkretes Beispiel.
+Denn heutzutage benötigen sie für die allermeisten Fälle nur noch folgenden Codeschnippsel um das Navigationsarray aus der definierten <code>$template_config</code> zu erstellen.</p>
+
+<pre><code class="php">
+    $top = $serendipity['smarty_vars']['template_option'] ?? '';<br>
+    $template_config_groups = NULL;<br>
+    $template_global_config = array('navigation' => true);<br>
+    $template_loaded_config = serendipity_loadThemeOptions($template_config, $top, true);<br>
+    serendipity_loadGlobalThemeOptions($template_config, $template_loaded_config, $template_global_config);
+</code></pre>
+
+
+<p>Die Liste aller weiteren Bulletproof-Template-Optionen wird innerhalb der
 Konfigurationsoberfläche ausführlich beschrieben und ist
 größtenteils bereits selbsterklärend.</p>
+
+<p><span class="mbold">Gundsätzlich</span> gilt aber dennoch: <span class="mbold"><em>Weniger ist mehr!</em></span>
+Und, angesehen vom Spaß den dieses machen könnte, reichen einfache Kenntisse von HTML und CSS meist aus, um ein
+eigenes Theme konkreter und besser an die eigenen Bedürfnisse anzupassen, als eine PHP/Datenbank Konfiguration
+wie jene hier Beschriebene zu erstellen, die bei jedem Zugriff erst abgefragt und zusammengestellt werden muss.</p>
 
 </section><!-- section.sub end -->
 
