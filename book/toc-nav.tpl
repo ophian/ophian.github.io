@@ -298,7 +298,7 @@
  <li class="sct-sub"><span class="toc-sub">9.4.5</span> <a class="sidebar-nav-item" href="#U945">Bilder, Metadaten</a></li>
  <li class="sct-sub"><span class="toc-sub">9.4.6</span> <a class="sidebar-nav-item" href="#U946">Bilder im Backend</a></li>
  <li class="sct-sub"><span class="toc-sub">9.4.7</span> <a class="sidebar-nav-item" href="#U947">JavaScripts</a></li>
- <li class="sct"><span class="toc">9.5</span> <a class="sidebar-nav-item" href="#S950">Template-Optionen und Bulletproof</a>&nbsp;<a data-toggle="collapse" data-target="#collapse_S-9.5" href="#collapse_S-9.5"><i class="fa fa-caret-down"></i></a></li>
+ <li class="sct"><span class="toc">9.5</span> <a class="sidebar-nav-item" href="#S950">Template-Optionen und Standards</a>&nbsp;<a data-toggle="collapse" data-target="#collapse_S-9.5" href="#collapse_S-9.5"><i class="fa fa-caret-down"></i></a></li>
  <li class="sct-sub"><span class="toc-sub">9.5.1</span> <a class="sidebar-nav-item" href="#U951">Farbwahl</a></li>
  <li class="sct-sub"><span class="toc-sub">9.5.2</span> <a class="sidebar-nav-item" href="#U952">Template-Optionen mittels config.inc.php</a></li>
  <li class="sct-sub"><span class="toc-sub">9.5.3</span> <a class="sidebar-nav-item" href="#U953">Aufbau des Arrays $template_config</a></li>
