@@ -9827,46 +9827,36 @@ von RSS-Feeds zu erstellen.</p>
 <span class="tag-box invisible">
     <span class="inline-tag">XML-RPC!API</span>
 </span>
-Wem das noch nicht genug ist, der kann sich einer weiteren beliebten Methode
+Wem das noch nicht genug ist, der kann sich einer weiteren früher beliebten Methode
 bedienen: der XML-RPC API.</p>
 
 <p>Was dank Akronymen erstmal kryptisch klingt, ist recht simpel: Über eine
-technische Spezifikation kann eine beliebige Software auf Ihrem Computer
-(dem Client) mit Serendipity (dem Server) interagieren.</p>
+technische Spezifikation, die älter als Serendipity ist, kann eine beliebige
+Software auf Ihrem Computer (dem Client) mit Serendipity (dem Server) interagieren.</p>
 
-<p>So können Sie einen Artikel mit der Software (dem sogenannten <em>Blog
+<p>So konnten Sie einen Artikel mit der Software (dem sogenannten <em>Blog
 Client</em>) erstellen und dann an das Serendipity-Blog übermitteln. Durch
 derartige Software müssen Sie keinen Internet-Browser mehr benutzen.</p>
 
-<p>Die Vorteile sind: Sie können Artikel auch offline erstellen und
+<p>Die Vorteile waren: Sie konnten Artikel auch offline erstellen und
 formatieren, können diese lokal (wie ein Office-Dokument) speichern und
-oft mit leistungsfähigeren WYSIWYG-Editoren, als es im Browser möglich ist,
-ein komplexeres Layout umsetzen. Blog-Editoren sind häufig optisch sehr
-simpel gehalten und sind somit für manche Zielgruppen zugänglicher als
+oft mit leistungsfähigeren WYSIWYG-Editoren, als es im Browser möglich war,
+ein komplexeres Layout umsetzen. Blog-Editoren waren häufig optisch sehr
+simpel gehalten und somit für manche Zielgruppen zugänglicher als
 die Bedienung der browserbasierten Oberfläche Serendipitys.</p>
+
+<p>Heutzutage existiert dies aber nur noch, um mittels der WordPress Mobile App
+als (mißbrauchter) Blog-Clients auf Serendipity zuzugreifen.</p>
 
 <p>
 <span class="tag-box invisible">
-    <span class="inline-tag">Blogdesk</span>
-    <span class="inline-tag">LiveWrite</span>
-    <span class="inline-tag">BlogJet</span>
-    <span class="inline-tag">Ecto</span>
-    <span class="inline-tag">w.bloggar</span>
+    <span class="inline-tag">WordPress Mobile App</span>
 </span>
-Abhängig von Ihrem Betriebssystem gibt es mehrere Editoren:
-Blogdesk [*]
-<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://www.blogdesk.org/" target="_blank" rel="noopener">http://www.blogdesk.org/</a></span><!-- footnote -->,
-BlogJet [*]
-<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://www.codingrobots.com/blogjet/" target="_blank" rel="noopener">http://www.codingrobots.com/blogjet/</a></span><!-- footnote -->,
-Ecto [*]
-<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://ecto.kung-foo.tv" target="_blank" rel="noopener">http://ecto.kung-foo.tv</a></span><!-- footnote --> oder auch
-w.bloggar [*]
-<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://wbloggar.com" target="_blank" rel="noopener">http://wbloggar.com</a></span><!-- footnote -->.</p>
 
-<p>Als technische Spezifikation (die API) unterstützen viele der erwähnten
+<p>Als technische Spezifikation (die API) unterstützen viele der
 Clients unterschiedliche Methoden. Auch wenn Serendipity nicht in jeder
-Software aufgeführt wird, können Sie es fast immer mit der manuellen
-Konfiguration der jeweiligen Software ans Laufen kriegen.</p>
+Software aufgeführt war, konnten Sie es fast immer mit der manuellen
+Konfiguration der jeweiligen Software zum Laufen kriegen.</p>
 
 <p>Das Serendipity-Plugin unterstützt sowohl die MoveableType-API
 (MT/metaWeblog) als auch die ältere Blogger API. Bei der manuellen
@@ -9913,10 +9903,12 @@ verwalten, die Sie aber über einen Blog-Client nicht eintragen können.
 Sie verlieren also einen Großteil an Flexibilität und müssen so
 möglicherweise nach wie vor das Serendipity-Backend aufsuchen.</p>
 
-<p>Ein weiterer Nachteil ist die große Vielfalt an APIs und der
+<p>Ein weiterer Nachteil war die große Vielfalt an APIs und der
 Interpretationsspielraum der zahlreichen Blog-Clients, die
 unterschiedliche Funktionsaufrufe teilweise ganz unterschiedlich
-ansprechen.</p>
+ansprachen.</p>
+
+<p>Zuletzt ist mit einem solchen Zugang auch immer ein gewissen Sicherheitsrisiko verbunden.</p>
 
 <p>Sie sollten sich daher bereits im Voraus überlegen, ob möglicherweise
 der Blog-Client nur für spezielle Redakteure eingesetzt werden soll.
