@@ -267,7 +267,7 @@ aufrufen.</span>
         Option nicht nur Spam-Kommentare reduziert, sondern auch weniger gültige
         Kommentare zur Folge hat. Blogs mit einem hohen
         <em>Troll-Faktor</em> [*]
-        <span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://de.wikipedia.org/wiki/Troll_%28Netzkultur%29" target="_blank" rel="noopener">http://de.wikipedia.org/wiki/Troll_(Netzkultur)</a></span><!-- footnote -->
+        <span class="footnote"><i class="fa fa-info-circle"></i> <a href="https://de.wikipedia.org/wiki/Troll_%28Netzkultur%29" target="_blank" rel="noopener">wikipedia.org/Troll_(Netzkultur)</a></span><!-- footnote -->
         wissen es jedoch sicher zu schätzen, nur noch wirklich ernsthafte
         Kommentare zu erhalten.
     </span>
@@ -277,7 +277,7 @@ aufrufen.</span>
     </span>
     <span class="box">
         Etwas einfacher wird die Registrierung durch den neuen Webservice
-        <code>OpenID</code> (<code>http://openid.net/</code>). OpenID ist eine technische
+        <code>OpenID</code> (<code>https://openid.net/</code>). OpenID ist eine technische
         Schnittstelle, die zentrale Benutzeraccounts verwaltet, auf die
         andere Webseiten zugreifen können. Ein Benutzer muss nur einmal einen
         Account für die Schnittstelle erzeugen und kann sich dann auf allen
@@ -486,7 +486,7 @@ unterscheiden, gibt es spezielle Lizenzen, die sich auf Texte und eigene
 Bilder spezialisiert haben. Die wohl verbreitetste und bekannteste ist
 die sogenannte <em>Creative
 Commons</em>-Lizenz [*]
-<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://de.creativecommons.org/" target="_blank" rel="noopener">http://de.creativecommons.org/</a></span><!-- footnote -->. Diese
+<span class="footnote"><i class="fa fa-info-circle"></i> <a href="https://de.creativecommons.net/start/" target="_blank" rel="noopener">https://de.creativecommons.net/start/</a></span><!-- footnote -->. Diese
 bietet ein bausatzartiges Modell, bei dem Sie sich Ihre Lizenz aus
 einigen Komponenten zusammenstellen können. Sie können auswählen, ob Ihr
 Text kommerziell eingesetzt werden darf, ob Ihr Urheberrecht jederzeit
@@ -613,7 +613,7 @@ klein am Rande.</p>
 <p>Berühmt gemacht hat diese Tag-Wolke der Bilderdienst Flickr, der mit
 diesem Tagging-Konzept ein wahres Novum in die komplexe Bildersuche im
 Internet gebracht hat. Zu kaum einen Stichwort findet man heutzutage auf
-<code>http://flickr.com</code> nicht bereits mehrere Bilder, die zudem mit
+<code>https://flickr.com</code> nicht bereits mehrere Bilder, die zudem mit
 <em>verwandten Tags</em> kreuz-referenziert sind.</p>
 
 <p>Das Ereignis-Plugin <em>Freie Artikel-Tags</em> kümmert sich um die
@@ -1327,9 +1327,8 @@ redaktionelle Leistung kann Ihnen derzeit noch keine Maschine abnehmen.</p>
 Aber die Eingabe kann Ihnen erleichtert werden, und aus diesem Grund
 wurde das Serendipity-Plugin <code>Geotag</code> erfunden. Wenn Sie dieses
 Plugin installieren, können Sie in den <em>Erweiterten Optionen</em> jeden
-Blog-Artikels mittels einer
-Google-Map [*]
-<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://maps.google.com/" target="_blank" rel="noopener">http://maps.google.com/</a></span><!-- footnote --> einem
+Blog-Artikels mittels einer Google-Map [*]
+<span class="footnote"><i class="fa fa-info-circle"></i> <a href="https://developers.google.com/maps/faq?csw=1#using-google-maps-apis" target="_blank" rel="noopener">maps.google.com/</a></span><!-- footnote --> einem
 Punkt auf der Welt zuordnen. Die geographischen Daten bindet das Plugin daraufhin in
 Ihrem RSS-Feed und auf der Webseite ein, von wo sie von Suchmaschinen
 indiziert werden können.</p>
@@ -1339,7 +1338,7 @@ die aktuellsten Einträge geographisch zugeordnet darstellen.</p>
 
 <p>Für beide Einsatzzwecke (Seitenleisten- und Ereignis-Plugin) benötigen Sie
 einen Google API-Schlüssel. Diesen erhalten Sie bei
-<code>http://www.google.com/apis/maps/signup.html</code>, nachdem Sie den
+<code>https://www.google.com/apis/maps/signup.html</code>, nachdem Sie den
 Lizenzbedingungen zugestimmt und die URL Ihres Blogs mitgeteilt
 haben. Ohne den API-Schlüssel kann das Plugin keine geographische Karte
 darstellen, und Sie müssten die Längen- und Breitengrade zu einem Eintrag
@@ -3598,27 +3597,23 @@ Backend unter <span class="mbold">Aktivität <span class="icon arrow-right">→<
 <p>
 <span class="tag-box invisible">
     <span class="inline-tag">awStats</span>
-    <span class="inline-tag">modlogan</span>
+    <span class="inline-tag">matomo</span>
     <span class="inline-tag">webalizer</span>
     <span class="inline-tag">Google Analytics</span>
-    <span class="inline-tag">Piwik</span>
 </span>
 Abgesehen von diesem internen Plugin macht es durchaus Sinn, weitere
 Möglichkeiten der Statistikerhebung auf dem Webserver zu benutzen, allen
 voran die Analyse von Webserver-Logfiles mittels Programmen wie
 awStats [*]
-<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://awstats.sourceforge.net/" target="_blank" rel="noopener">http://awstats.sourceforge.net/</a></span><!-- footnote -->,
+<span class="footnote"><i class="fa fa-info-circle"></i> <a href="https://awstats.sourceforge.io/" target="_blank" rel="noopener">https://awstats.sourceforge.io/</a></span><!-- footnote -->,
 webalizer [*]
-<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://www.mrunix.net/webalizer/" target="_blank" rel="noopener">http://www.mrunix.net/webalizer/</a></span><!-- footnote --> oder
-Modlogan [*]
-<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://modlogan.org/" target="_blank" rel="noopener">http://modlogan.org/</a></span><!-- footnote -->. Auch das Google
-Analytics [*]
-<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://www.google.com/analytics/" target="_blank" rel="noopener">http://www.google.com/analytics/</a></span><!-- footnote --> Widget hat
-sich als extrem detailreich erwiesen (und es lässt sich einfach via
+<span class="footnote"><i class="fa fa-info-circle"></i> <a href="https://webalizer.net/" target="_blank" rel="noopener">https://webalizer.net/</a></span><!-- footnote -->.
+Auch das Google Analytics [*]
+<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://www.google.com/analytics/" target="_blank" rel="noopener">http://www.google.com/analytics/</a></span><!-- footnote -->
+Widget hat sich als extrem detailreich erwiesen (und es lässt sich einfach via
 JavaScript oder eigenständigem Serendipity-Plugin einbinden).
-Eine mehr private Alternative zu letztgenanntem Werkzeug ist
-Piwik [*]
-<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://piwik.org/" target="_blank" rel="noopener">http://piwik.org/</a></span><!-- footnote -->,
+Eine mehr private Alternative zu letztgenanntem Werkzeug ist Matomo [*]
+<span class="footnote"><i class="fa fa-info-circle"></i> <a href="https://matomo.org/" target="_blank" rel="noopener">https://matomo.org/</a></span><!-- footnote -->,
 dass gerade aus Datenschutzsicht eher zu empfehlen ist.
 </p>
 
