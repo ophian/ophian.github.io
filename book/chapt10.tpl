@@ -7823,8 +7823,7 @@ automatisiert angelegt werden. Der obige Vorgang ist zwar nicht übermäßig
 komplex, aber bereits umfangreich genug, um ein Script für diese Sklavenarbeit
 einzusetzen.</p>
 
-<p>Provider wie <code>http://supersized.s9y.org/</code> setzen auf diese Art der
-Shared Installation, um freie Serendipity-Blogs für Interessierte zu
+<p>Provider setzen auf diese Art der Shared Installation, um freie Serendipity-Blogs für Interessierte zu
 erstellen. So kann Serendipity dann tatsächlich wie ein <code>blogger.com</code>-Ersatz
 verwendet werden.</p>
 
@@ -7834,14 +7833,6 @@ einsetzen lässt. Zugriffsrechte, <code>open_basedir</code>- und
 <code>include_path</code>-Konfigurationen sind zu unterschiedlich und meist so
 individuell, dass ein vollständig automatisiertes Script mehr falsch als richtig
 machen könnte.</p>
-
-<p>Im CVS von Serendipity steht dennoch eine kleine Script-Sammlung zur Verfügung.[*]
-<span class="footnote"><i class="fa fa-info-circle"></i> 
-<a href="http://php-blog.cvs.sourceforge.net/php-blog/additional_plugins/setup/s9y_conf/"
-target="_blank">http://php-blog.cvs.sourceforge.net/php-blog/additional_plugins/setup/s9y_conf/</a> 
-und <code>http://www.s9y.org/41.html</code>.</span><!-- footnote -->
-Diese Sammlung kann Server-Administratoren dazu dienen, ihre eigenen Scripts zur
-Erstellung von Shared Installations zu entwickeln.</p>
 
 <p>Häufig macht es nämlich direkt Sinn, eine Nutzerverwaltung anzubinden. Damit
 könnten aggregierte Blog-Übersichtsseiten erzeugt werden, oder ein zentrales
