@@ -3738,7 +3738,13 @@ erst ein <em>pull</em> zu ziehen.</p>
 <span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://itsfoss.com/best-modern-open-source-code-editors-for-linux/" target="_blank" rel="noopener">http://itsfoss.com/best-modern-open-source-code-editors-for-linux/</a></span><!-- footnote -->
 
 <figure id="fig-real_programmers" style="display: flex; width: 68%; margin-top: -8em; margin-left: 0em;">
-    <img src="img/real_programmers.png" title="Abbildung xkcd: © xkcd.com, Randall Munroe, CC-ANC 2.5 license">
+  <a class="lightbox" rel="lightbox" href="media/real_programmers.avif" lg-uid="lg10721" data-fallback="media/real_programmers.webp">
+    <picture>
+      <source srcset="media/real_programmers.avif" type="image/avif">
+      <source srcset="media/real_programmers.webp" type="image/webp">
+      <img src="media/real_programmers.png" alt="real_programmers.png" title="Abbildung xkcd: © xkcd.com, Randall Munroe, CC-ANC 2.5 license" loading="lazy" width="740" height="406">
+    </picture>
+  </a>
 </figure><br>
 
 lokal commited und mit:</p>
