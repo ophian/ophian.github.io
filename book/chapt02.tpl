@@ -39,7 +39,7 @@ umgehen kann, was den Upload vieler kleiner Dateien beschleunigt. Für Windows s
     <span class="inline-tag">FileZilla</span>
 </span>
 SmartFTP oder FileZilla [*]
-<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://www.smartftp.com/" target="_blank" rel="noopener">https://www.smartftp.com/</a></span><!-- footnote -->
+<span class="footnote"><i class="fa fa-info-circle"></i> <a href="https://www.smartftp.com/en-us/" target="_blank" rel="noopener">https://www.smartftp.com/</a></span><!-- footnote -->
 <span class="footnote"><i class="fa fa-info-circle"></i> <a href="https://filezilla-project.org/" target="_blank" rel="noopener">https://filezilla-project.org/</a></span><!-- footnote -->
 für solche Zwecke empfehlenswert. Weiterhin sollte das FTP-Programm auch ermöglichen,
 Dateirechte mit dem Befehl <code>chmod</code> zu ändern.</p>
@@ -77,7 +77,7 @@ SQL-Anwendungen. Bei der Benutzung von MySQL ist das Web-basierte
     <span class="inline-tag">phpMyAdmin</span>
 </span>
 phpMyAdmin [*]
-<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://www.phpmyadmin.net/" target="_blank" rel="noopener">http://www.phpmyadmin.net/</a></span><!-- footnote --> sehr zu empfehlen,
+<span class="footnote"><i class="fa fa-info-circle"></i> <a href="https://www.phpmyadmin.net/" target="_blank" rel="noopener">https://www.phpmyadmin.net/</a></span><!-- footnote --> sehr zu empfehlen,
 <span class="tag-box invisible">
     <span class="inline-tag">PostgreSQL</span>
 </span>
@@ -86,14 +86,14 @@ für PostgreSQL gibt es analog
     <span class="inline-tag">phpPgAdmin</span>
 </span>
 phpPgAdmin [*]
-<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://phppgadmin.sourceforge.net/" target="_blank" rel="noopener">http://phppgadmin.sourceforge.net/</a></span><!-- footnote --> und für
+<span class="footnote"><i class="fa fa-info-circle"></i> <a href="https://github.com/phppgadmin/phppgadmin" target="_blank" rel="noopener">https://github.com/phppgadmin/phppgadmin</a></span><!-- footnote --> und für
 SQLite
 <span class="tag-box invisible">
     <span class="inline-tag">SQLite</span>
-    <span class="inline-tag">phpSQLiteAdmin</span>
+    <span class="inline-tag">phpLiteAdmin</span>
 </span>
 phpSQLiteAdmin.[*]
-<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://www.phpguru.org/static/phpSQLiteAdmin.html" target="_blank" rel="noopener">http://www.phpguru.org/static/phpSQLiteAdmin.html</a></span><!-- footnote -->
+<span class="footnote"><i class="fa fa-info-circle"></i> <a href="https://www.phpliteadmin.org/" target="_blank" rel="noopener">https://www.phpliteadmin.org/</a></span><!-- footnote -->
 Die Installationsanleitung für diese Web-Anwendungen schlagen Sie bitte auf den
 jeweiligen Projekt-Webseiten nach.
 <span class="tag-box invisible">
