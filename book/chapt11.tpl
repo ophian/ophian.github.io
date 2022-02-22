@@ -48,7 +48,7 @@ Entwickler werden gerne gesehen. Dabei ist es ganz egal, wobei Sie helfen wollen
 -- Hauptsache, Sie haben Spaß daran und sind motiviert. Sie müssen also kein
 PHP-Profi sein und können schon mit einfachen Dingen Serendipity verbessern:
 Sie können anderen über das System erzählen, oder Sie helfen bei der Dokumentation
-und dem Ausbau des Wiki auf <code>http://www.s9y.org/</code>. Auch Template-Entwickler
+und dem Ausbau des Wiki auf <code>https://ophian.github.io/</code>. Auch Template-Entwickler
 und Designer sind jederzeit sehr willkommen.</p>
 
 <p>Folgende Features stehen auf der Wunschliste der Serendipity-Entwickler - wer
@@ -61,7 +61,7 @@ bei deren Verwirklichung helfen möchte, ist herzlich eingeladen:</p>
 </header>
 
 <p>Mittels PHPUnit [*] <span class="footnote"><i class="fa fa-info-circle"></i>
-<a href="http://www.phpunit.de/" target="_blank" rel="noopener">http://www.phpunit.de/</a></span><!-- footnote -->
+<a href="https://www.phpunit.de/" target="_blank" rel="noopener">https://www.phpunit.de/</a></span><!-- footnote -->
 können die einzelnen Methoden der Serendipity-Plugin-API und auch einzelne
 Funktionen des Serendipity-Frameworks durch sogenannte Test-Cases auf
 Funktionstüchtigkeit geprüft werden.</p>
@@ -301,7 +301,7 @@ Tabulatoren) vorgenommen werden.</p>
 <p>Optionale Einrückungen für IF-Abfragen und Schleifen sollten immer genutzt
 werden. Grundsätzlich sollten Sie sich bei der Programmierung an die
 PEAR-Coding-Standards [*] <span class="footnote"><i class="fa fa-info-circle"></i>
-<a href="http://pear.php.net/manual/en/standards.php" target="_blank" rel="noopener">http://pear.php.net/manual/en/standards.php</a></span><!-- footnote -->
+<a href="https://pear.php.net/manual/en/standards.php" target="_blank" rel="noopener">https://pear.php.net/manual/en/standards.php</a></span><!-- footnote -->
 halten.</p>
 
 <p>Versuchen Sie Ihren Code schlank zu halten. Redundante Codeteile sollten Sie
