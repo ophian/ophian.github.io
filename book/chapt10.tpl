@@ -6718,10 +6718,9 @@ auch selbstgeschriebene Plugins zugreifen können:</p>
 <code class="item event">backend_directory_createoptions</code>
 <span class="desc-info">
     <span class="box group-box">
-        wird aufgerufen, wenn ein neues
-        Verzeichnis in der Mediathek erstellt wurde. ???
+        wird aufgerufen, wenn ein neues Verzeichnis in der Mediathek erstellt wird.
         <span class="subdesc">
-            <code>addData</code>: Neu angelegte Verzeichnisse. ???
+            <code>addData</code>: Neu angelegte Verzeichnisse können von Plugins behandelt werden.
         </span>
     </span>
 </span>
