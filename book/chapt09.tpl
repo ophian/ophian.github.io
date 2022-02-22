@@ -406,7 +406,7 @@ Möglichkeiten an, die den Rahmen dieses Buches deutlich sprengen würden.[*]
 <span class="footnote"><i class="fa fa-info-circle"></i> Wenn
 Sie diese Thematik interessiert, sollten Sie sich mit Büchern wie
 <em>Webdesign mit CSS</em> von Vladimir Simovic und Jan Heinicke
-oder Online-Werken wie SelfHTML (<code>http://de.selfhtml.org/css/</code>) vertraut
+oder Online-Werken wie SelfHTML (<code>https://wiki.selfhtml.org/wiki/CSS</code>) vertraut
 machen.</span><!-- footnote -->
 </p>
 
@@ -530,11 +530,9 @@ Serendipity Standard Template "2k11" (vereinfacht) in seiner "index.tpl" Datei:<
 
 <p>
 <span class="tag-box invisible">
-    <span class="inline-tag">Firebug</span>
+    <span class="inline-tag">Developer-Tools</span>
 </span>
-Dabei hilft zB. die Extension <code>firebug</code> [*]
-<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://www.getfirebug.com" target="_blank" rel="noopener">http://www.getfirebug.com</a></span><!-- footnote --> für den Firefox-Browser
-enorm, da Sie per Cursor die HTML-Elemente einer Seite auswählen und
+Dabei helfen die Browser eigenen Developer-Tools enorm, da Sie per Cursor die HTML-Elemente einer Seite auswählen und
 direkt alle CSS-Anweisungen zu diesem Element sehen können.
 Siehe Anmerkungen zu den Developer-Tools der heutigen Browser unter <span class="pageref"><a href="#Developer-Tools">Developer-Tools</a></span>.</p>
 
@@ -901,12 +899,8 @@ ausfindig machen. Als Zweites müssen Sie dann den benötigten Element-Pfad
 bzw. Klassennamen mit einer entsprechenden Formatierungsanweisung in Ihre
 Stylesheet-Datei einfügen.</p>
 
-<p>Dieser Prozess kann ziemlich müßig werden. Daher haben findige Köpfe für den
-Firefox-Browser ein Modul namens <code>Firebug</code> [*]
-<span class="footnote"><i class="fa fa-info-circle"></i>
-<a href="http://www.getfirebug.com/" target="_blank" rel="noopener">http://www.getfirebug.com/</a>,
-ähnliche Tools für andere Browser bzw. JavaScript-basierte Tools sind ebenfalls
-verfügbar.</span><!-- footnote --> erfunden. Dieses Programm ermöglicht es,
+<p>Dieser Prozess kann ziemlich müßig werden. Daher haben findige Köpfe die Browser
+eigenen Developer-Tools entwickelt. Dieses interne "Programm" ermöglicht es,
 mit einem einfachen Mausklick das benötigte Element ausfindig zu machen und
 direkt zu sehen, welche CSS-Anweisungen für dieses Element bereits belegt sind.
 Siehe Anmerkungen zu den Developer-Tools der heutigen Browser unter
@@ -962,7 +956,7 @@ PHP-Programmieranweisungen könnte man eine derartige Darstellungslogik
 ausdrücken, jedoch ist dies für viele Anwender viel zu kompliziert. Daher
 vertraut Serendipity auf eine Software-Bibliothek namens Smarty [*]
 <span class="footnote"><i class="fa fa-info-circle"></i>
-<a href="http://www.smarty.net/" target="_blank" rel="noopener">http://www.smarty.net/</a></span><!-- footnote -->.</p>
+<a href="https://www.smarty.net/" target="_blank" rel="noopener">https://www.smarty.net/</a></span><!-- footnote -->.</p>
 
 <p>Smarty ist das Bindeglied zwischen Serendipity und Ihnen als Template-Developer.
 Eine Smarty-Datei ist eine einfache Ansammlung von HTML-Elementen, Variablen und
@@ -999,7 +993,7 @@ das Ergebnis des Kompilierens landet als temporäre Datei im Verzeichnis <code>t
 </p>
 
 <p>Smarty verfügt über eine große Anzahl an eigenen Funktionen, die in der
-offiziellen Dokumentation auf <code>http://www.smarty.net/</code> ausführlich
+offiziellen Dokumentation auf <code>https://www.smarty.net/</code> ausführlich
 beschrieben sind. Der folgende kurze Einblick in die Smarty-Syntax soll daher
 nur als Einstiegspunkt in die Materie dienen. Tiefergehende Möglichkeiten durch
 Erweiterung von Smarty finden Sie ab Seite <span class="pageref"><a href="#Templates bearbeiten">Templates bearbeiten</a></span>.</p>
@@ -1044,7 +1038,7 @@ kann Parameter entgegennehmen, in diesem Fall die Zahl <code>20</code> zur Angab
 Menge von Zeichen, die ausgegeben werden sollen. Mehrere Parameter können
 mit <code>:</code> voneinander getrennt werden. Die vollständige Dokumentation der
 verfügbaren Parameter einer Funktion können Sie in der Smarty-Dokumentation
-unter <code>http://www.smarty.net/</code> nachschlagen. <code>truncate</code> verfügt
+unter <code>https://www.smarty.net/</code> nachschlagen. <code>truncate</code> verfügt
 zB. über eine zweite Option, mit der man die Kürzung eines Textes
 durch das Anhängen einer Zeichenkette wie <code>...</code> verdeutlichen kann:</p>
 
@@ -1172,9 +1166,9 @@ Schubladen durch, und pro geöffneter Schublade machst Du Folgendes: ...</em></p
 </code></pre>
 
 <p>Mit der seit Serendipity 1.7 verwendeten Smarty 3 Syntax [*]
-<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://www.smarty.net/docs/en/" target="_blank" rel="noopener">http://www.smarty.net/docs/en/</a></span><!-- footnote -->
+<span class="footnote"><i class="fa fa-info-circle"></i> <a href="https://www.smarty.net/docs/en/" target="_blank" rel="noopener">https://www.smarty.net/docs/en/</a></span><!-- footnote -->
 schriebe man solch eine <code>foreach</code>-Schleife [*]
-<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://www.smarty.net/docs/en/language.function.foreach.tpl" target="_blank" rel="noopener">http://www.smarty.net/docs/en/language.function.foreach.tpl</a></span><!-- footnote -->
+<span class="footnote"><i class="fa fa-info-circle"></i> <a href="https://www.smarty.net/docs/en/language.function.foreach.tpl" target="_blank" rel="noopener">https://www.smarty.net/docs/en/language.function.foreach.tpl</a></span><!-- footnote -->
 analog zu der PHP-Syntax folgendermaßen: (Die alte Smarty 2 Syntax wird aber bis auf Weiteres aus Kompatibilitätsgründen unterstützt.)
 Alle Styx Release Templates wurden an die jeweils aktuellste Syntax angepasst.</p>
 
@@ -2772,7 +2766,7 @@ gültigen (<em>validen, syntaxfehlerfreien</em>) PHP-Code enthält. Wenn Sie an
 einer Stelle andere Anführungszeichen verwenden oder ein Komma vergessen, kann
 dies dazu führen, dass Ihr gesamtes Template nicht angezeigt wird.
 Lesen Sie daher, falls nötig, die PHP-Syntax-Anweisungen unter
-<code>http://php.net/manual/de/language.types.array.php</code> und <code>http://php.net/manual/de/language.basic-syntax.php</code>.</p>
+<code>https://www.php.net/manual/de/language.types.array.php</code> und <code>https://www.php.net/manual/de/language.basic-syntax.php</code>.</p>
 
 <p>Das Array <code>$template_config</code> kann beliebig viele Konfigurationsoptionen
 deklarieren. Auf diese können Sie später innerhalb jeder Smarty-Template-Datei
@@ -5404,7 +5398,7 @@ nicht direkt freigeschaltet wird.
 		    </span>
             <span class="sub-box">
                 Enthält das Veröffentlichungsdatum eines Feed-Objekts im RFC-2822-Format [*]
-                <span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://www.faqs.org/rfcs/rfc2822" target="_blank" rel="noopener">http://www.faqs.org/rfcs/rfc2822</a></span><!-- footnote -->.
+                <span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://www.faqs.org/rfcs/rfc2822.html" target="_blank" rel="noopener">http://www.faqs.org/rfcs/rfc2822.html</a></span><!-- footnote -->.
 			</span>
         </span>
 
@@ -7432,7 +7426,7 @@ wird auf Seite <span class="pageref"><a href="#mediatemplates">mediatemplates</a
                     <span class="sub-box">
                         Enthält ein Array mit Metadaten des Vorschaubildes. Das Array wird mittels der
                         PHP-Funktion <code>getimagesize</code> [*]
-                        <span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://www.php.net/getimagesize" target="_blank" rel="noopener">http://www.php.net/getimagesize</a></span><!-- footnote --> erstellt.
+                        <span class="footnote"><i class="fa fa-info-circle"></i> <a href="https://www.php.net/getimagesize" target="_blank" rel="noopener">https://www.php.net/getimagesize</a></span><!-- footnote --> erstellt.
                     </span>
                 </span>
 
@@ -10355,7 +10349,7 @@ machen von diesem Sonderzeichen regen Gebrauch.</p>
 Alte Templates können, aber müssen nicht unbedingt umgestellt werden. Ansonsten hat dieses Zeichen für Smarty keinerlei Bedeutung mehr, außer
 bei den <code>@index</code>, <code>@iteration</code>, <code>@first</code>, <code>@last</code>,
 <code>@show</code>, <code>@total</code> Eigenschaften der schon dargestellten neuen <code>foreach</code>-Schleifen Syntax [*]
-<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://www.smarty.net/docs/en/language.function.foreach.tpl" target="_blank" rel="noopener">http://www.smarty.net/docs/en/language.function.foreach.tpl</a></span><!-- footnote -->
+<span class="footnote"><i class="fa fa-info-circle"></i> <a href="https://www.smarty.net/docs/en/language.function.foreach.tpl" target="_blank" rel="noopener">https://www.smarty.net/docs/en/language.function.foreach.tpl</a></span><!-- footnote -->
 So gesehen sollte also oben aufgeführter Beispiel Modifier als <code>Aktuelles Datum: {$smarty.now|formatTime:'%d.%m.%Y'}</code> geschrieben werden,
 wenn das Template nicht mehr mit Smarty2 Versionen kompiliert wird.
 </p>
@@ -10434,7 +10428,7 @@ wenn das Template nicht mehr mit Smarty2 Versionen kompiliert wird.
     <span class="box">
         Formatiert eine Stammvariable mit Unix-Sekunden-Wert in eine lesbare Zeit. Der
         erste Parameter enthält dabei die Platzhalter für das Ausgabeformat (siehe
-        <code>http://www.php.net/date</code>). Der Platzhalter kann dabei auch PHP-Konstanten
+        <code>https://www.php.net/manual/de/function.date.php</code>). Der Platzhalter kann dabei auch PHP-Konstanten
         enthalten, die ein Datum festlegen (bspw. <code>$CONST.DATE_FORMAT_ENTRY</code>). Der
         zweite Parameter enthält standardmäßig den Wert <code>true</code>, damit Serendipity
         die Zeitzone des Servers berücksichtigt. Die weiteren Parameter werden für
@@ -10887,7 +10881,7 @@ Template.</p>
 <p>Da die Darstellung des Youtube-Videos später einiger HTML-Anweisungen bedarf,
 trägt man in das Eingabefeld möglichst nur die Youtube-Video-ID (wie zB.
 <code>2BpLGASxt0Q</code>) ein. Diese Video-ID kann man immer der URL einer Youtube-Seite
-(<code>http://www.youtube.com/watch?v=2BpLGASxt0Q</code>) entnehmen.</p>
+(<code>https://www.youtube.com/watch?v=2BpLGASxt0Q</code>) entnehmen.</p>
 
 <p>Zusätzlich werden Sie sicher bemerken, dass neben dem Eingabefeld ein Link
 <span class="mbold">Mediathek</span> eingebunden wird. Wenn Sie auf diesen Link klicken,
@@ -10965,13 +10959,13 @@ Youtube-Codeschnipsel ein:</p>
     &lt;object width="425" height="355"&gt;<br>
     &nbsp;&lt;param<br>
     &nbsp;&nbsp; name='movie'<br>
-    &nbsp;&nbsp; value='http://www.youtube.com/v/{$entry.properties.ep_Youtube}'&gt;<br>
+    &nbsp;&nbsp; value='https://www.youtube.com/v/{$entry.properties.ep_Youtube}'&gt;<br>
     &nbsp;&lt;/param&gt;<br>
     &nbsp;&lt;param<br>
     &nbsp;&nbsp; name="wmode"<br>
     &nbsp;&nbsp; value="transparent"&gt;&lt;/param&gt;<br>
     &nbsp;&lt;embed<br>
-    &nbsp;&nbsp; src='http://www.youtube.com/v/{$entry.properties.ep_Youtube}'<br>
+    &nbsp;&nbsp; src='https://www.youtube.com/v/{$entry.properties.ep_Youtube}'<br>
     &nbsp;&nbsp; type='application/x-shockwave-flash'<br>
     &nbsp;&nbsp; wmode='transparent'<br>
     &nbsp;&nbsp; width='425'<br>
@@ -11040,7 +11034,7 @@ gesetzt ist:</p>
 </p>
 
 <p>Smarty ermöglicht es Ihnen nicht nur, auf vorgeschriebene Smarty-Funktionen und
--Modifier zuzugreifen (siehe auch <code>http://www.smarty.net/</code>), sondern auch
+-Modifier zuzugreifen (siehe auch <code>https://www.smarty.net/</code>), sondern auch
 eigene beliebig zu verwenden.</p>
 
 <p>
@@ -11104,7 +11098,7 @@ In diesem Beispiel ist dies jedoch ohne Belang, da auf das Objekt gar nicht zuge
 <p>Eine Smarty-Funktion muss demnach mittels <code>register_function</code> einer
 existierenden PHP-Funktion zugewiesen werden.[*]
 <span class="footnote"><i class="fa fa-info-circle"></i> Siehe auch
-<a href="http://www.smarty.net/docs/en/api.register.plugin.tpl" target="_blank" rel="noopener">http://www.smarty.net/docs/en/api.register.plugin.tpl</a></span><!-- footnote -->
+<a href="https://www.smarty.net/docs/en/api.register.plugin.tpl" target="_blank" rel="noopener">https://www.smarty.net/docs/en/api.register.plugin.tpl</a></span><!-- footnote -->
 Diese PHP-Funktion muss immer zwei Funktionsparameter haben: <code>$params</code>
 und <code>$smarty</code>. (Siehe obige Anmerkung zu Smarty 3.1.28+!) Das Array
 <code>$params</code> enthält alle Funktionsparameter, wie sie in der Template-Datei via
@@ -11183,7 +11177,7 @@ verwenden:</p>
 HTML-Ausgaben erfolgen dürfen. Sollte dies vorkommen, müssen Sie mittels PHP
 Output Buffering [*]
 <span class="footnote"><i class="fa fa-info-circle"></i> Siehe
-<a href="http://www.php.net/ob_start" target="_blank" rel="noopener">http://www.php.net/ob_start</a></span><!-- footnote -->
+<a href="https://www.php.net/ob_start" target="_blank" rel="noopener">https://www.php.net/ob_start</a></span><!-- footnote -->
 die HTML-Ausgaben in einer Variable abfangen, an die Smarty-Template-Dateien
 weiterreichen und von dort aus einbinden.</p>
 
