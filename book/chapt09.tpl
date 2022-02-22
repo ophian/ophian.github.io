@@ -2619,51 +2619,56 @@ siehe <a href="#ereignis-hooks">Ereignis-Hooks</a>, einklinken können.</span>
 </section><!-- section.index end -->
 
 <section id="S950" class="index">
-<span class="s-toc">9.5 - Template-Optionen und Bulletproof</span>
+<span class="s-toc">9.5 - Template-Optionen und Standards</span>
 
-<h3 class="section" id="template-optionen-und-bulletproof">Template-Optionen und Bulletproof</h3>
+<h3 class="section" id="template-optionen-und-standards">Template-Optionen und Standards</h3>
 
 <p class="tagging invisible">
 <span class="tag-box invisible">
     <span class="inline-tag">Bulletproof</span>
-    <span class="inline-tag">Template-S@Templates!Bulletproof</span>
+    <span class="inline-tag">2k11</span>
+    <span class="inline-tag">Pure</span>
+    <span class="inline-tag">Template-Default@Templates!Default</span>
+    <span class="inline-tag">Template-Standard@Templates!Pure</span>
     <span class="inline-tag">Template-Variablen!\$freie Optionen@freie Optionen</span>
-    <span class="inline-tag">Template-Variablen!\$Bulletproof@Bulletproof</span>
+    <span class="inline-tag">Template-Variablen!\$Pure@Pure</span>
 </span>
 <span class="label invisible" id="templateoptionen">templateoptionen</span>
 </p>
 
-<p>Seit Serendipity 1.2 war ein Template namens <em>Bulletproof</em> Bestandteil des
+<p>Schon seit Serendipity 1.2 in 2007 war ein Template namens <em>Bulletproof</em> Bestandteil des
 Serendipity-Pakets. Dieses ist auf Seite <span class="pageref"><a href="#bpdesc">bpdesc</a></span>
 detaillierter beschrieben und zielte darauf ab, nach Art eines Baukasten-Prinzips dem
 Blog-Administrator die Anpassung seines Layouts zu ermöglichen.</p>
 
-<p>Seit Serendipity 1.7 ist ein Template namens <em>2k11</em> Bestandteil des
+<p>Mit Serendipity 1.7 (2013) wurde ein Template namens <em>2k11</em> Bestandteil des
 Serendipity-Pakets und als <span class="mbold">Standard Template</span>
-festgelegt! Dieses neuere Template übernimmt daher die gleichen Aufgaben wie
+festgelegt! Dieses neuere Template übernahm daher die gleichen Aufgaben wie
 das vorherige Standard-Template <em>Bulletproof</em> bezüglich des Templates-Fallback-Scopes,
-ist aber etwas weniger detailliert wie das hier beschriebene <em>Bulletproof</em>-Template.
-Es besitzt dafür aber alle Egenschaften die heutzutage an moderne Templates
-bezüglich <em>HTML5</em> und <em>"responsive Design"</em> gestellt werden.</p>
+ist aber etwas weniger detailliert als das hier exemplarisch beschriebene <em>Bulletproof</em>-Template.
+Dafür besaß es aber schon alle Egenschaften die heutzutage an moderne Templates
+bezüglich <em>HTML5</em> und <em>"responsive Design"</em> gestellt wurden.</p>
 
-<p>Mit Serendipity 2.0+ wurde es möglich ein eigenes Backend Template zu wählen,
+<p>Ab Serendipity 2.0+ (2015) wurde es möglich ein eigenes Backend Template zu wählen,
 dessen Default <span class="mbold">Backend Standard Template</span> sich weiterhin
-an <em>2k11</em> orientiert und mit diesem ausgeliefert wird.</p>
+an <em>2k11</em> orientierte und mit diesem ausgeliefert wurde.</p>
 
-<p>Das oben genannte Fallback-Prinzip von Serendipity baute immer darauf,
-auf das <span class="mbold">Default Theme</span> zurückzufallen.
+<p>Das oben genannte Fallback-Prinzip von Serendipity baute aber immer darauf,
+auf das <span class="mbold">Default Theme</span> (<em>"default"</em>) bzw. Template zurückzufallen.
 Diese Idee ging leider etwas verloren als 2k11 und das neue Backend
-entwickelt wurden und wurde mit dem <span class="mbold">Standard Template</span> vermischt,
+entwickelt wurden und wurde mit dem <span class="mbold">Standard Template</span> - also dem jeweiligen Standard Auslieferungs-Theme - vermischt,
 so dass es folgend zu unnötigen workarounds in der Entwicklung kam.
 <span class="mbold">Serendipity Styx</span> ist diesem
 <span class="mbold">Prinzip</span> wieder treu!</p>
 
-<p>Seit Serendipity Styx 3.0 in 2020 sind das <code>pure</code>-theme als neues Standard Template/Theme
-im Frontend und das <code>styx</code>-theme für das Backend gesetzt; und ständig weiterentwickelt.</p>
+<p>Schließlich, seit <span class="mbold">Serendipity Styx 3.0</span> in <span class="mbold">2020</span>, sind das
+<code>pure</code>-theme als neues Standard Template/Theme im Frontend und das
+<code>styx</code>-Theme für das Backend gesetzt; und werden ständig weiterentwickelt.
+Letzteres ist ein <em>Child</em>-Theme vom <em>"default"</em> backend theme und erweitert dieses für Styx.</p>
 
 <p>Dieses Baukasten-Prinzip wird mittels Template-Optionen umgesetzt.
 Um nicht alle paar Jahre dieses Kapitel komplett neu schreiben zu müssen,
-verbleiben wir mit der Beschreibung beim alten <code>Bulletproof</code>-theme,
+verbleiben wir mit der Beschreibung beim alten <code>Bulletproof</code>-Theme,
 obwohl es ja selbst völlig aus der Zeit gefallen ist. Und doch zeigt es die
 Möglichkeiten, die auch heute noch ihre vollständige Gültigkeit haben.</p>
 
