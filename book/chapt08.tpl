@@ -355,15 +355,13 @@ Sie können Trackbacks zentral deaktivieren, indem Sie die Variable
 
 <p>Zusätzlich zu Trackbacks und Pingbacks gibt es ein Angebot an Webservices, die
 regelmäßig Weblogs indizieren und automatisch miteinander verketten. Der
-bekannteste Dienst ist
+bekannteste Dienst war früher
 <span class="tag-box invisible">
     <span class="inline-tag">Technorati</span>
     <span class="inline-tag">Ranking</span>
 </span>
-Technorati [*]
-<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://www.technorati.com/" target="_blank" rel="noopener">http://www.technorati.com/</a></span><!-- footnote -->,
-das unter anderem auch die <em>Wichtigkeit</em> von Blogs auswerten kann, indem es
-Blogs hochrangig einstuft, die besonders häufig zitiert werden.</p>
+Technorati, das unter anderem auch die <em>Wichtigkeit</em> von Blogs auswertete, indem es
+Blogs hochrangig einstufte, wenn diese besonders häufig zitiert wurden.</p>
 
 <p>Derartige Webservices durchsuchen üblicherweise (wie Google) regelmäßig Ihr Blog.
 Damit ein Service aber sofort bei neuen Einträgen von Ihnen tätig werden kann,
@@ -567,12 +565,12 @@ der maximalen Zugriffe limitieren und etwaige IP-Adressbereiche bei
 <em>DDoS (Distributed Denial of Service)</em>. Während viele Provider lediglich
 mit Abschaltung ihres Servers reagieren, gibt es auch ernsthaft bemühte
 Provider, die hier gemeinsam mit Ihnen an einer Lösung arbeiten.
-Provider wie <em>Manitu</em> [*]
-<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://www.manitu.net/" target="_blank" rel="noopener">http://www.manitu.net/</a></span><!-- footnote -->,
-<em>TiggersWelt</em> [*]
-<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://www.tiggerswelt.net/" target="_blank" rel="noopener">http://www.tiggerswelt.net/</a></span><!-- footnote --> und
-<em>All-Inkl.com</em> [*]
-<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://www.all-inkl.com/" target="_blank" rel="noopener">http://www.all-inkl.com/</a></span><!-- footnote --> sind bekannt
+Provider wie <em>Uberspace</em> [*]
+<span class="footnote"><i class="fa fa-info-circle"></i> <a href="https://uberspace.de/de/" target="_blank" rel="noopener">https://uberspace.de/de/</a></span><!-- footnote -->,
+<em>Manitu</em> [*]
+<span class="footnote"><i class="fa fa-info-circle"></i> <a href="https://www.manitu.de/" target="_blank" rel="noopener">https://www.manitu.de/</a></span><!-- footnote -->,
+<em>tiggerswelt</em> [*]
+<span class="footnote"><i class="fa fa-info-circle"></i> <a href="https://tiggerswelt.net/" target="_blank" rel="noopener">https://www.tiggerswelt.net/</a></span><!-- footnote -->  sind bekannt
 dafür, hier individuelle Lösungsmöglichkeiten anzubieten.</p>
 
 <p>Abhilfe schafft hier auch die Spamschutz Biene (siehe Seite
@@ -640,7 +638,7 @@ zwischen verschiedenen Programmen.</p>
     <span class="inline-tag">phpMyAdmin</span>
 </span>
 <code>phpMyAdmin</code> [*]
-<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://www.phpmyadmin.net" target="_blank" rel="noopener">http://www.phpmyadmin.net</a></span><!-- footnote --> sehr verbreitet.
+<span class="footnote"><i class="fa fa-info-circle"></i> <a href="https://www.phpmyadmin.net" target="_blank" rel="noopener">https://www.phpmyadmin.net</a></span><!-- footnote --> sehr verbreitet.
 Viele Provider bieten eine vorinstallierte Version für Sie an. Die Installation
 von phpMyAdmin ist zwar mit etwas Konfigurationsaufwand verbunden, aber auf der
 Homepage gut dokumentiert.</p>
@@ -650,16 +648,16 @@ Homepage gut dokumentiert.</p>
     <span class="inline-tag">phpPgAdmin</span>
 </span>
 <code>phpPgAdmin</code> [*]
-<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://phppgadmin.sourceforge.net" target="_blank" rel="noopener">http://phppgadmin.sourceforge.net</a></span><!-- footnote -->
+<span class="footnote"><i class="fa fa-info-circle"></i> <a href="https://github.com/phppgadmin/phppgadmin" target="_blank" rel="noopener">https://github.com/phppgadmin/phppgadmin</a></span><!-- footnote -->
 zur Verfügung, das an phpMyAdmin angelehnt ist.</p>
 
 <p>Beim Einsatz von SQLite ist die Wahl etwas schwieriger, da dieser Datenbanktyp
-weniger stark verbreitet ist.
+weniger stark genutzt ist.
 <span class="tag-box invisible">
-    <span class="inline-tag">phpSQLiteAdmin</span>
+    <span class="inline-tag">phpLiteAdmin</span>
 </span>
-<code>phpSQLiteAdmin</code> [*]
-<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://www.phpguru.org/static/phpSQLiteAdmin.html" target="_blank" rel="noopener">http://www.phpguru.org/static/phpSQLiteAdmin.html</a></span><!-- footnote --> kann
+<code>phpLiteAdmin</code> [*]
+<span class="footnote"><i class="fa fa-info-circle"></i> <a href="https://www.phpliteadmin.org/" target="_blank" rel="noopener">https://www.phpliteadmin.org/</a></span><!-- footnote --> kann
 Ihnen möglicherweise gute Dienste leisten.</p>
 
 <p>Abgesehen von den Web-basierten Verwaltungsprogrammen gibt es auch eigenständige
@@ -1284,12 +1282,11 @@ Dateien des Pakets vorhanden sind.</span>
 </span>
 </p>
 
-<p>
-Weitere Fehlermeldungen sind in der Dokumentation Ihres Datenbanksystems [*]
+<p>Weitere Fehlermeldungen sind in der Dokumentation Ihres Datenbanksystems [*]
 <span class="footnote"><i class="fa fa-info-circle"></i> Für MySQL zB.
-<a href="http://dev.mysql.com/doc/refman/5.0/en/error-messages-server.html" target="_blank" rel="noopener">http://dev.mysql.com/doc/refman/5.0/en/error-messages-server.html</a></span><!-- footnote -->
+<a href="https://mariadb.com/kb/en/mariadb-error-codes/" target="_blank" rel="noopener">https://mariadb.com/kb/en/mariadb-error-codes/</a></span><!-- footnote -->
 aufgeführt. Im Zweifelsfall sollten Sie bei hier nicht aufgeführten
-Fehlermeldungen entweder Ihren Provider oder das Serendipity-Forum kontaktieren.</p>
+Fehlermeldungen entweder Ihren Provider oder Serendipity Styx kontaktieren.</p>
 
 <p>&nbsp;</p>
 
@@ -1375,7 +1372,7 @@ die Datenbank. Diese müssen Sie mit einem separaten Programm wie
     <span class="inline-tag">phpMyAdmin</span>
 </span>
 <code>phpMyAdmin</code> [*]
-<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://www.phpmyadmin.net" target="_blank" rel="noopener">http://www.phpmyadmin.net</a></span><!-- footnote -->
+<span class="footnote"><i class="fa fa-info-circle"></i> <a href="https://www.phpmyadmin.net" target="_blank" rel="noopener">https://www.phpmyadmin.net</a></span><!-- footnote -->
 (siehe auch Seite <span class="pageref"><a href="#datenbankwartung">datenbankwartung</a></span>) durchführen.</p>
 
 <p>
@@ -1903,21 +1900,16 @@ durch externe Anbieter ergänzt.</p>
         Auswertungen durchführen können. Diese Programme teilen sich in zwei Sparten:
         Serverseitige Tools wie
         <code>awStats</code> [*]
-        <span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://awstats.sourceforge.net/" target="_blank" rel="noopener">http://awstats.sourceforge.net/</a></span><!-- footnote -->,
-        <code>modlogan</code> [*]
-        <span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://modlogan.org/" target="_blank" rel="noopener">http://modlogan.org/</a></span><!-- footnote --> oder
+        <span class="footnote"><i class="fa fa-info-circle"></i> <a href="https://awstats.sourceforge.io/" target="_blank" rel="noopener">https://awstats.sourceforge.io/</a></span><!-- footnote -->,
         <code>webalizer</code> [*]
-        <span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://www.mrunix.net/webalizer/" target="_blank" rel="noopener">http://www.mrunix.net/webalizer/</a></span><!-- footnote --> sowie
-        Anwendungsprogramme wie
-        <code>WebSuxess</code> [*]
-        <span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://www.exody.net/ger/products/websuxess/websuxess.cfm?kat2=p1" target="_blank" rel="noopener">http://www.exody.net/ger/products/websuxess/websuxess.cfm?kat2=p1</a></span><!-- footnote -->,
-        <code>WebTrends</code> und weitere.
+        <span class="footnote"><i class="fa fa-info-circle"></i> <a href="https://webalizer.net/" target="_blank" rel="noopener">https://webalizer.net/</a></span><!-- footnote -->
+        und andere.
     </span>
 
     <span class="box">
         Selbstinstallierte Tools mit eigenen Logfiles, wie
-        <code>Piwik</code> [*],
-        <span class="footnote"><i class="fa fa-info-circle"></i> <a href="https://piwik.org/" target="_blank" rel="noopener">https://piwik.org/</a></span><!-- footnote --> sind eine echte Alternative zu Google Analytics. Es ist gerade aus Datenschutzsicht besonders zu empfehlen.
+        <code>Matomo</code> [*],
+        <span class="footnote"><i class="fa fa-info-circle"></i> <a href="https://matomo.org/" target="_blank" rel="noopener">https://matomo.org/</a></span><!-- footnote --> sind eine echte Alternative zu Google Analytics. Es ist gerade aus Datenschutzsicht besonders zu empfehlen.
     </span>
 </span>
 </p>
@@ -1932,7 +1924,7 @@ durch externe Anbieter ergänzt.</p>
         Als sehr hilfreich haben sich auch externe Dienstleister zur
         Statistik-Verfolgung erwiesen, allen voran <code>Google
         Analytics</code> [*]
-        <span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://www.google.com/analytics/" target="_blank" rel="noopener">http://www.google.com/analytics/</a></span><!-- footnote --> und freie Dienste wie
+        <span class="footnote"><i class="fa fa-info-circle"></i> <a href="https://marketingplatform.google.com/about/analytics/" target="_blank" rel="noopener">google.com/analytics/</a></span><!-- footnote --> und freie Dienste wie
         <code>blogcounter.de</code>, <code>blogstats.de</code> oder weitere.
     </span>
 
@@ -1951,7 +1943,7 @@ durch externe Anbieter ergänzt.</p>
 
     <span class="box">
         Google Analytics hebt sich in den detaillierten Verknüpfungs- und
-        Analyze-Optionen sehr hervor und bietet alles, was das Statistiker-Herz
+        Analyse-Optionen sehr hervor und bietet alles, was das Statistiker-Herz
         begehrt. Dennoch müssen Sie berücksichtigen, dass eine JavaScript-basierte
         Statistik nicht alle Aufrufe zählen kann: Wenn ein Besucher JavaScript
         deaktiviert hat oder Ihr JavaScript wie Werbung filtert, gelangen seine Daten
@@ -1969,11 +1961,7 @@ durch externe Anbieter ergänzt.</p>
 <span class="desc-info">
     <span class="box">
         Wer Statistiken nicht bei externen Dienstleistern führen will, kann auch
-        spezielle PHP-Tracking-Software auf seinem eigenen Server installieren. Dazu
-        stehen Tools wie <code>Mint</code> [*]
-        <span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://haveamint.com/" target="_blank" rel="noopener">http://haveamint.com/</a></span><!-- footnote --> oder
-        <code>phpOpenTracker</code> [*]
-        <span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://www.phpopentracker.de/" target="_blank" rel="noopener">http://www.phpopentracker.de/</a></span><!-- footnote --> zur Verfügung.
+        spezielle PHP-Tracking-Software auf seinem eigenen Server installieren.
     </span>
 
     <span class="box">
