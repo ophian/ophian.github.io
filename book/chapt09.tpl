@@ -2690,9 +2690,8 @@ eines Plugins dargestellt, pro Zeile stellen Sie eine Option ein.</p>
   </a>
 </figure>
 
-<p>Wie auf dem Screenshot (Abbildung 9.1) zu erkennen,
-ist beinahe jeder Aspekt des Templates
-einstellbar: Wie viele Spalten soll der Inhaltsbereich anbieten, welche
+<p>Wie auf dem Screenshot (Abbildung 9.1) zu erkennen, ist beinahe jeder Aspekt
+des Templates einstellbar: Wie viele Spalten soll der Inhaltsbereich anbieten, welche
 Header-Grafik wird eingebunden, wie werden die Datumsangaben formatiert, wo
 erscheinen Artikelfußzeilen und weitere Angaben.</p>
 
