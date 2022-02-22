@@ -1567,7 +1567,7 @@ die Sie bei der Entwicklung von Plugins und Ähnlichem häufig einsetzen werden.
 <span class="desc-info">
     <span class="box">
         Führt die notwendigen Datenbankoperationen aus, um bei neu hinzugefügten
-        Kategorien die IDs der Nested-Set-Architektur (siehe zB. <code>http://www.klempert.de/nested_sets/</code>)
+        Kategorien die IDs der Nested-Set-Architektur (siehe zB. <code>https://www.klempert.de/nested_sets/</code>)
         korrekt zu setzen.
     </span>
 </span>
@@ -3732,10 +3732,10 @@ erst ein <em>pull</em> zu ziehen.</p>
 
 <p>Mittels einer GUI oder der Konsole können nun die mit einem geeignetem Editor[*] gemachten Änderungen
 <span class="footnote"><i class="fa fa-info-circle"></i> <a href="https://www.nano-editor.org/" target="_blank" rel="noopener">https://www.nano-editor.org/</a></span><!-- footnote -->
-<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://www.vim.org/" target="_blank" rel="noopener">http://www.vim.org/</a></span><!-- footnote -->
-<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://www.scintilla.org/" target="_blank" rel="noopener">http://www.scintilla.org/</a></span><!-- footnote -->
+<span class="footnote"><i class="fa fa-info-circle"></i> <a href="https://www.vim.org/" target="_blank" rel="noopener">https://www.vim.org/</a></span><!-- footnote -->
+<span class="footnote"><i class="fa fa-info-circle"></i> <a href="https://www.scintilla.org/" target="_blank" rel="noopener">https://www.scintilla.org/</a></span><!-- footnote -->
 <span class="footnote"><i class="fa fa-info-circle"></i> <a href="https://notepad-plus-plus.org/" target="_blank" rel="noopener">https://notepad-plus-plus.org/</a></span><!-- footnote -->
-<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://itsfoss.com/best-modern-open-source-code-editors-for-linux/" target="_blank" rel="noopener">http://itsfoss.com/best-modern-open-source-code-editors-for-linux/</a></span><!-- footnote -->
+<span class="footnote"><i class="fa fa-info-circle"></i> <a href="https://itsfoss.com/best-modern-open-source-code-editors-for-linux/" target="_blank" rel="noopener">https://itsfoss.com/best-modern-open-source-code-editors-for-linux/</a></span><!-- footnote -->
 
 <figure id="fig-real_programmers" style="display: flex; width: 68%; margin-top: -8em; margin-left: 0em;">
   <a class="lightbox" rel="lightbox" href="media/real_programmers.avif" lg-uid="lg10721" data-fallback="media/real_programmers.webp">
@@ -3820,13 +3820,13 @@ automatische Script zur Erstellung ist in diesem Repository als Datei
 zahlreiche XML-Dateien erstellt, die alle notwendigen Informationen der Plugins enthalten.</p>
 
 <p>Daraufhin werden anhand dieser XML-Informationen automatisch HTML-Dateien
-erzeugt, die auf <code>http://spartacus.s9y.org</code> dargestellt werden. Jedes Plugin
+erzeugt, die auf <code>https://ophian.github.io/plugins/</code> dargestellt werden. Jedes Plugin
 wird zudem als ZIP-Archiv komprimiert und ebenfalls auf dem Webserver zur
 Verfügung gestellt.</p>
 
 <p><strong>Serendipity Styx</strong> nutzt eine etwas andere Technik, so dass das
-Spartacus-Web auf <code>http://spartacus.s9y.org</code> nur den Abgleich des
-originalen S9y Plugin-Repositories ermöglicht. Das <a href="/plugins">Serendipity
+Spartacus-Web auf <code>https://ophian.github.io/plugins/</code> nur den Abgleich des
+originalen S9y Plugin-Repositories ermöglicht. Das <a href="../plugins">Serendipity
 Styx Plugins</a>-Repository ist seinem originalen Vorhänger weit voraus.
 Erweiterte Themes werden aber weiterhin von dort geholt und können somit auch direkt aus
 diesem Web-Repository per Hand gezogen werden.</p>
@@ -8140,8 +8140,7 @@ PHP-Sessiondaten erstellen.</p>
 <p>Dies alles erfordert natürlich eine gewisse Kenntnis der Systemarchitektur der
 fremden Applikation wie auch der von Serendipity. Daher wird dieser Weg relativ
 selten beschritten und eher nur von Dienstleistungsagenturen mit guten
-Systemkenntnissen angeboten. Eine Liste derartiger Dienstleister finden Sie auf
-der Serendipity-S9y-Projektseite unter <code>https://docs.s9y.org/docs/users/hosting.html</code>.</p>
+Systemkenntnissen angeboten.</p>
 
 </section><!-- section.sub end -->
 
@@ -8160,7 +8159,7 @@ der Serendipity-S9y-Projektseite unter <code>https://docs.s9y.org/docs/users/hos
 sondern bei sehr vielen Web-2.0-Anwendungen. Daher hat sich ein Konsortium
 gegründet, das sich mit der <em>OpenID</em>-Initiative [*]
 <span class="footnote"><i class="fa fa-info-circle"></i>
-<a href="http://www.openid.net" target="_blank" rel="noopener">http://www.openid.net</a></span><!-- footnote -->
+<a href="https://openid.net/" target="_blank" rel="noopener">https://openid.net/</a></span><!-- footnote -->
 das Ziel gesetzt hat, eine einheitliche und
 dezentrale Benutzerauthentifizierung zur Verfügung zu stellen.</p>
 
@@ -8299,7 +8298,9 @@ durch.</p>
 Tatsächlich werden Sie später jedoch sicher komplexere SQL-Statements wie
 <em>String Functions</em> oder <em>Control Flow Functions</em> [*]
 <span class="footnote"><i class="fa fa-info-circle"></i>
-<a href="http://dev.mysql.com/doc/refman/5.1/en/functions.html" target="_blank" rel="noopener">http://dev.mysql.com/doc/refman/5.1/en/functions.html</a></span><!-- footnote -->
+<a href="https://dev.mysql.com/doc/refman/8.0/en/functions.html" target="_blank" rel="noopener">https://dev.mysql.com/doc/refman/8.0/en/functions.html</a></span><!-- footnote -->
+<span class="footnote"><i class="fa fa-info-circle"></i>
+<a href="https://mariadb.com/kb/en/built-in-functions/" target="_blank" rel="noopener">https://mariadb.com/kb/en/built-in-functions/</a></span><!-- footnote -->
 einsetzen. Damit können Sie beispielsweise <em>IF-Weichen</em> in einer Abfrage einführen, um
 verschiedene Datentypen und Tabellenspalten miteinander zu verketten.</p>
 
