@@ -57,17 +57,12 @@ nutzen.</p>
 
 <p>So hob Anfang 2002 ein Kernteam bekannter PHP-Entwickler Serendipity
 aus der Taufe: Jannis Hermanns, Sterling Hughes, George Schlossnagle,
-Wez Furlong, Joyce Park und Joseph Tate (Letzterer ist auch Autor der
-Cracklib [*]
-<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://www.cracklib.net/" target="_blank" rel="noopener">http://www.cracklib.net/</a></span><!-- footnote --> und von
-<code>mod-pubsub</code> [*]
-<span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://sourceforge.net/projects/mod-pubsub" target="_blank" rel="noopener">http://sourceforge.net/projects/mod-pubsub</a></span><!-- footnote -->)
-sowie Sebastian Bergmann vom phpUnit-Projekt.[*]
+Wez Furlong, Joyce Park und Joseph Tate sowie Sebastian Bergmann vom phpUnit-Projekt.[*]
 <span class="footnote"><i class="fa fa-info-circle"></i> Die
-PHP-Testsuite ist unter <a href="http://www.phpunit.de/" target="_blank" rel="noopener">http://www.phpunit.de/</a> erhältlich.</span><!-- footnote -->
+PHP-Testsuite ist unter <a href="https://phpunit.de/" target="_blank" rel="noopener">https://phpunit.de/</a> erhältlich.</span><!-- footnote -->
 Mit den Jahren entwickelten wechselnde Programmierer das System stetig
-und konsequent weiter. Seit 2003 war der Autor des ursprünglichen Buchtextes, Garvin Hicking, leitender
-Entwickler.</p>
+und konsequent weiter. Seit 2003 war der Autor des ursprünglichen Buchtextes,
+Garvin Hicking, leitender Entwickler.</p>
 
 <p>Dieses Online-Buch bezieht sich auf die aktuelle
 <strong>Serendipity Styx</strong> Version 2.4 und möchte einen
@@ -207,7 +202,7 @@ stellte Serendipity frühzeitig Schutzmechanismen bereit.</p>
     <span class="inline-tag">Smarty</span>
 </span>
 <strong><em>Smarty</em></strong>, [*] <span class="footnote"><i class="fa fa-info-circle"></i>
-<a href="http://www.smarty.net/" target="_blank" rel="noopener">http://www.smarty.net/</a></span><!-- footnote -->
+<a href="https://www.smarty.net/" target="_blank" rel="noopener">https://www.smarty.net/</a></span><!-- footnote -->
 einem De-facto-Standard unter PHP, entwickelt. Zahlreiche Entwickler
 schwören auf dessen einfache Syntax, die es selbst Anfängern
 ermöglicht, die HTML-Ausgabe anzupassen, ohne PHP lernen zu müssen.</p>
@@ -2197,7 +2192,7 @@ Namen <em>Internetadresse</em> bereits kennen. Diese beschreibt, auf welche
 Art und Weise (das heißt: über welches Protokoll, siehe Seite
 <span class="pageref"><a href="#Protokolle">Protokolle</a></span>) und von welchem Rechner sich das Dokument beziehen lässt
 (<code>http://www.ebay.de</code>, <code>http://www.example.com</code>). Oft enthält sie
-zudem Pfadangaben/Dateinamen wie in <code>http://www.s9y.org/12.html</code>.</p>
+zudem Pfadangaben/Dateinamen wie in <code>https://ophian.github.io/blog/index.html</code>.</p>
 
 <p>Außer den URLs gibt es noch die URIs (<em>Uniform Resource</em>)
 <span class="tag-box invisible">
