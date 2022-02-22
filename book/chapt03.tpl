@@ -618,7 +618,7 @@ Ohne Angabe eines solchen Wertes werden alle Kommentare angezeigt.</span>
 <code class="item">/comments/from_2007-12-01/</code>
 <span class="desc-info">stellt alle Kommentare seit dem 01.12.2007 dar. Das Datum muss hierbei der
 <em>GNU DATE</em>-Syntax entsprechen, siehe
-<code>http://www.gnu.org/software/tar/manual/html_node/tar_109.html</code>.
+<code>https://www.gnu.org/software/coreutils/manual/html_node/Examples-of-date.html</code>.
 Ohne Angabe dieses Wertes wird keine minimale Zeitbeschränkung gesetzt.</span>
 </p>
 
@@ -756,7 +756,7 @@ zusätzlichen Metadaten aufführen. RSS steht für <em>Really Simple Syndication
     <span class="footnote"><i class="fa fa-info-circle"></i> Das W3C-Gremium entscheidet in einer großen Arbeitsgruppe
     über die Standardisierung von Internet-Formaten wie HTML und andere.</span><!-- footnote --> empfohlen wird.
     Das hat sich aber bis zum laufenden Jahr noch nicht wirklich bewahrheitet [*]
-    <span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://meiert.com/de/publications/translations/intertwingly.net/rss-2.0-and-atom-1.0/" target="_blank" rel="noopener">http://meiert.com/de/publications/translations/intertwingly.net/rss-2.0-and-atom-1.0/</a></span><!-- footnote -->.
+    <span class="footnote"><i class="fa fa-info-circle"></i> <a href="https://meiert.com/de/publications/translations/intertwingly.net/rss-2.0-and-atom-1.0/" target="_blank" rel="noopener">https://meiert.com/de/publications/translations/intertwingly.net/rss-2.0-and-atom-1.0/</a></span><!-- footnote -->.
     </span>
 </p>
 
