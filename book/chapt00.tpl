@@ -5,19 +5,20 @@
 
 <p>&nbsp;</p><!-- separator -->
 
-<p>Dies ist eine <strong>Neubearbeitung</strong> für <strong>Serendipity Styx 2.4</strong>
-meiner "<em>Entwurfs</em>"-Revision für den Entwicklungsstand von Serendipity 2.1
-(Alpha-Builds) aus dem Frühjahr 2016. Sie beruht, und liegt heute auf dem
-Serendipity S9y Repository immer noch so vor, auf dem damals veröffentlichten Buchtext
-und der im März 2012 an den Autor und die Community vom Verlag zurückgegebenen Rechte.</p>
+<p>Dies ist eine <strong>Neubearbeitung</strong> für <strong>Serendipity Styx 3.8</strong> und
+beruht auf meiner damaligen S9y-Origin "<em>Entwurfs</em>"-Revision für den Entwicklungsstand
+von Serendipity 2.1 (Alpha-Builds) aus dem Frühjahr 2016, Seit dem Spätsommer 2018 lag diese hier
+in einer aktuelleren Neubearbeitung für Styx 2.4 vor, welche jetzt erneut für die Styx 3er Series überarbeitet
+wurde. Diese Bearbeitungen beruhen alle auf dem damals veröffentlichten Buchtext und der im März
+2012 an den Autor und die Community vom Verlag zurückgegebenen Rechte.</p>
 
-<p>Die Entwurfs-Revision legte zu ihrem Zeitpunkt keinen absoluten Anspruch auf Vollständigkeit
+<p>Die Entwurfs-Revision legte zu ihrem damaligen Zeitpunkt keinen absoluten Anspruch auf Vollständigkeit
 (insbesondere der kompletten Überarbeitung und Auflistung aller Konfigurationsoptionen
-aller hier genannten Plugins) und besitzt selbst jetzt noch ein paar wenige offene Fragen,
-welche mit <code>???</code> markiert sind. Bis auf ein paar Kleinigkeiten wurde darauf Wert
-gelegt, den ursprünglichen Text so weit wie möglich zu erhalten, doch konsequent zu
-überarbeiten bzw. zu ergänzen, wenn der damalige Text heutzutage keinen Sinn mehr machte,
-oder mit Erscheinen von Serendipity 2.0/2.1 bzw. <strong>Serendipity Styx</strong>
+aller hier genannten Plugins) und besitzt selbst jetzt in den Überarbeitungen noch ein paar
+wenige offene Fragen, welche mit <code>???</code> markiert sind. Bis auf ein paar Kleinigkeiten
+wurde darauf Wert gelegt, den ursprünglichen Text so weit wie möglich zu erhalten, doch immer
+dann konsequent zu überarbeiten bzw. zu ergänzen, wenn der damalige Text heutzutage keinen
+Sinn mehr machte, oder mit Erscheinen von Serendipity 2.0/2.1 bzw. <strong>Serendipity Styx</strong>
 hoffnungslos überholt war.</p>
 
 <p>Des Weiteren wurden außer der Einrückung verschiedene Farben verwendet, um
@@ -79,16 +80,10 @@ sie ist!</p>
 
 <p>&nbsp;</p><!-- separator -->
 
-<p><u>Oktober 2018</u>: Das Wort "Mediendatenbank" für die MediaLibrary wurde für Styx 2.7.0
-in "Mediathek" geändert. Die Endung "datenbank" wurde dort behalten, wo direkt und einzig
-auf die Datenbank der Mediathek Bezug genommen wird. Einzig die Beispielbilder weisen noch den
-alten Namen aus.<br/>
-Ebenso wurde "Mediendaten hinzufügen" in "Medien hinzufügen" geändert. </p>
-
 <p>&nbsp;</p><!-- separator -->
 
 <p>Ian Styx, für die <strong>Serendipity Styx Edition</strong></p>
-<p>Januar 2018.</p>
+<p>Februar 2022.</p>
 
 <p>&nbsp;</p><!-- separator -->
 
