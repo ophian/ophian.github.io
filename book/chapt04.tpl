@@ -1870,7 +1870,6 @@ sondern für alle Redakteure zur Verfügung steht.</p>
 Erstellungsmaske für eine neue Kategorie.</p>
 
 <figure id="fig-categoryform">
-<figure id="fig-upload">
   <a class="lightbox" rel="lightbox" href="media/new_category_dm_de.avif" lg-uid="lg4432" data-fallback="media/new_category_dm_de.webp">
     <picture>
       <source srcset="media/new_category_dm_de.avif" type="image/avif">
