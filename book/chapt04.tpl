@@ -9679,7 +9679,7 @@ wieder löschen.</p>
         Die einzigen Themes die sie vielleicht behalten wollen sind jene, an die Sie
         selbst Hand angelegt haben und sie als eine Art sentimentale Grabbelkiste behalten
         wollen. Doch wenn Jahre vergehen, ist das Vorgänger-Theme auf Spartacus möglicherweise
-        dem alten Zustrand schon entrückt. Gerade Styx hat alle alten Themes aus dem
+        dem alten Zustand schon entrückt. Gerade Styx hat alle alten Themes aus dem
         <span class="mbold">additional_themes</span> Repository auf einen halbwegs akzeptablen
         Zustand gebracht und tut dies bis Heute, wenn etwas Wichtiges und das wirklich alle
         Theme betrifft auffällt.
