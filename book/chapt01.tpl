@@ -58,14 +58,13 @@ nutzen.</p>
 <p>So hob Anfang 2002 ein Kernteam bekannter PHP-Entwickler Serendipity
 aus der Taufe: Jannis Hermanns, Sterling Hughes, George Schlossnagle,
 Wez Furlong, Joyce Park und Joseph Tate sowie Sebastian Bergmann vom phpUnit-Projekt.[*]
-<span class="footnote"><i class="fa fa-info-circle"></i> Die
-PHP-Testsuite ist unter <a href="https://phpunit.de/" target="_blank" rel="noopener">https://phpunit.de/</a> erhältlich.</span><!-- footnote -->
+<span class="footnote"><i class="fa fa-info-circle"></i> Die PHP-Testsuite ist unter <a href="https://phpunit.de/" target="_blank" rel="noopener">https://phpunit.de/</a> erhältlich.</span><!-- footnote -->
 Mit den Jahren entwickelten wechselnde Programmierer das System stetig
 und konsequent weiter. Seit 2003 war der Autor des ursprünglichen Buchtextes,
 Garvin Hicking, leitender Entwickler.</p>
 
 <p>Dieses Online-Buch bezieht sich auf die aktuelle
-<strong>Serendipity Styx</strong> Version 2.4 und möchte einen
+<strong>Serendipity Styx</strong> Version <strong>3.8</strong> und möchte einen
 umfassenden Überblick über das System und seine Anpassbarkeit
 vermitteln. Neben der Bedienung der Software werden Sie darum auch
 lernen, eigene Plugins zu schreiben, Templates anzupassen und
