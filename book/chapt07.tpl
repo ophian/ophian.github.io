@@ -2320,7 +2320,7 @@ Zu diesen Plugins zählen der <em>Downloadmanager</em>, das <em>Gästebuch</em>,
 <p>Links zu derartigen Plugins müssten Sie andernfalls immer manuell über
 HTML-Klötze oder Template-Änderungen einbinden.</p>
 
-<figure id="fig-staticpage-otherplugins>
+<figure id="fig-staticpage-otherplugins">
   <a class="lightbox" rel="lightbox" href="media/staticpage_otherplugins_dm_de.avif" lg-uid="lg7264" data-fallback="media/staticpage_otherplugins_dm_de.webp">
     <picture>
       <source srcset="media/staticpage_otherplugins_dm_de.avif" type="image/avif">
