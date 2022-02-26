@@ -2769,10 +2769,10 @@ innerhalb der Mediathek über den "Bewegen" Knopf und das Verzeichnis Auswahl Fe
 Mediendatei-Sammlungen effizient in Form gebracht werden.</p>
 
 <p>Ebenfalls interessant ist die buttonartige schmale Gitter Funktionsleiste in der
-rechten oberen Ecke, die die Ansicht der Mediatheksdaten in ein 2-Spalten, 3-Spalten
-oder 4-Spalten-Layout wechselt. Durch die Ladeverhalten-Verbesserungen die mit den
-neuen Bildvariationen erreicht wurden, können Sie diese Spalten natürlich auch mit
-mehr als den standardmäßigen 8 Dateien pro Seite betreiben. Dazu wurde die Auswahl
+rechten oberen Ecke (siehe Abbildung 4.x), die die Ansicht der Mediatheksdaten in ein
+2-Spalten, 3-Spalten oder 4-Spalten-Layout wechselt. Durch die Ladeverhalten-Verbesserungen
+die mit den neuen Bildvariationen erreicht wurden, können Sie diese Spalten natürlich auch
+mit mehr als den standardmäßigen 8 Dateien pro Seite betreiben. Dazu wurde die Auswahl
 an zugleich gezeigten Dateien im Sortierungsfilter erheblich erweitert, so dass Sie
 immer eine passende Ansicht und Zahl zu der von Ihnen gewählten Spaltenansicht
 erhalten können, ohne Löcher in der Dateienansicht zu erzeugen. Ein sehr praktisches
