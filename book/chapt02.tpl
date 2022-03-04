@@ -515,7 +515,7 @@ konfigurieren Sie Ihren Browser so um, dass Deutsch die bevorzugte Sprache darst
       <source srcset="media/install.webp" type="image/webp">
       <img src="media/install.png" alt="install.png" loading="lazy" width="1435" height="2408">
     </picture>
-    <figcaption>Abbildung 2.2: Installationsbildschirm</figcaption>
+    <figcaption>Abbildung 2.2: Installationsbildschirm (mit exemplarischen Fehlern wie sie im Alltag fast nie vorkommen)</figcaption>
   </a>
 </figure>
 
