@@ -17,8 +17,7 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 
     <link rel="canonical" href="https://ophian.github.io/book/">
-    <link rel="apple-touch-icon" href="/i/apple-touch-icon.png">
-    <!-- Place favicon.ico in the root directory -->
+    <link rel="apple-touch-icon" href="../i/apple-touch-icon.png">
 
     <!-- CSS -->
     <link rel="stylesheet" href="/book/css/font-awesome/css/font-awesome.min.css">
@@ -27,22 +26,6 @@
     <link rel="stylesheet" href="/css/styx.min.css">
     <link rel="stylesheet" href="/book/css/book.min.css">
 
-    <!-- polyfills -->
-    <script>
-        // PLEASE better use Firefox or Chromium browsers !!
-        if (/MSIE \d|Trident.*rv:/.test(navigator.userAgent)) {
-            document.write('<script src="/book/js/promise.min.js"><\/script>');
-            document.write('<script src="/book/js/fetch.polyfill.js"><\/script>');
-        }
-    </script>
-    <script>
-        if (/MSIE \d|Trident.*rv:/.test(navigator.userAgent)) {
-            //import Promise from 'promise-polyfill'
-            if (!window.Promise) {
-              window.Promise = Promise;
-            }
-        }
-    </script>
 </head>
 <body>
 <div id="loading"><img id="loading-image" src="../i/loader.gif" alt="Loading...">Loading...</div>
@@ -60,7 +43,7 @@
 </div>
 <div class="site-nav site-nav--no-hero menu--tiny">
     <button id="blink" class="navbar-shader btn float" onclick="dark()" title="Theme: Dark (Browser preferences|Session override)">
-        <img id="daynight" src="/i/moon-fill.svg" width="30" height="30" alt="">
+        <img id="daynight" src="../i/moon-fill.svg" width="30" height="30" alt="">
     </button>
     <button class="site-nav__toggler" id="site-nav__toggler" aria-label="Show website navigation" aria-expanded="false" tabindex="1">
         <span class="bar" aria-hidden="true"></span>
