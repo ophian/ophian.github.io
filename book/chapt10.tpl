@@ -1,6 +1,6 @@
-<span class="label invisible" id="workflow">workflow</span>
-
 <h2 id="chapter-X">Kapitel 10: Der Serendipity-Kern</h2>
+
+<span class="label invisible" id="workflow">workflow</span>
 
 <p class="tagging invisible">
 <span class="tag-box invisible">
