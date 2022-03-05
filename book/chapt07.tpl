@@ -1,6 +1,6 @@
-<span class="label invisible" id="Gekoppelte Plugins">Gekoppelte Plugins</span>
-
 <h2 id="chapter-VII">Kapitel 7: Gekoppelte Plugins</h2>
+
+<span class="label invisible" id="Gekoppelte Plugins">Gekoppelte Plugins</span>
 
 <p>Gekoppelte Plugins bestehen sowohl aus einem Seitenleisten-Plugin als
 auch aus einem Ereignis-Plugin. Beide Plugins können dabei auch im selben
