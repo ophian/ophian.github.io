@@ -1,6 +1,6 @@
-<span class="label invisible" id="community">community</span>
-
 <h2 id="chapter-XI">Kapitel 11: Die Community / Helfen / Ausblick</h2>
+
+<span class="label invisible" id="community">community</span>
 
 <p>Wenn Sie an an diesem Punkt des Buches angelangt sind, sollten Sie eine Menge
 über Serendipity gelernt haben.</p>
