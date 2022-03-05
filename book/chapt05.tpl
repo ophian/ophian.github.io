@@ -1,6 +1,6 @@
-<span class="label invisible" id="Plugins">Plugins</span>
-
 <h2 id="chapter-V">Kapitel 5: Seitenleisten-Plugins</h2>
+
+<span class="label invisible" id="Plugins">Plugins</span>
 
 <p>Serendipity bietet eine große Menge von Plugins an. Einige davon werden
 direkt bei Serendipity mitgeliefert, andere sind im externen
