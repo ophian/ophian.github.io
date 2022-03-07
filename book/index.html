@@ -768,7 +768,7 @@ Im Laufe der Serendipity-Entwicklung gab es bislang nur wenige
 <span class="tag-box invisible">
     <span class="inline-tag">Sicherheitslücken!Behebungszeitraum</span>
 </span>
-<span class="label invisible" id="xsrf">xsrf</span>
+<span class="label invisible" id="xsrf">XSRF</span>
 Sicherheitslücken, die bei Bekanntwerden innerhalb weniger Stunden
 offiziell behoben wurden. Auch gegen weniger verbreitete
 Angriffsmöglichkeiten auf eine Webanwendung wie XSRF [*]
@@ -3207,7 +3207,7 @@ jeweiligen Projekt-Webseiten nach.
 <span class="s-toc">2.2 - Installation</span>
 <span class="label invisible" id="installation">Installation</span>
 
-<h3 class="section" id="lb-installation">Installation<a class="anchorjs-link" href="#installation" aria-label="Anchor" data-anchorjs-icon=""></a></h3>
+<h3 class="section" id="lb-installation">Installation<a class="anchorjs-link" href="#lb-installation" aria-label="Anchor" data-anchorjs-icon=""></a></h3>
 
 <p>Im Folgenden gehen wir davon aus, dass Sie entweder
 selbständig einen Webserver mit PHP und Datenbanken eingerichtet haben
@@ -4444,7 +4444,7 @@ Zeit und Datumsangaben nur im englischen Format zur Vefügung stehen.</p>
 <span class="s-toc">2.3 - Schnelle Installation</span>
 <span class="label invisible" id="schnelle-installation">Schnelle Installation</span>
 
-<h3 class="section" id="lb-schnelle-installation">Schnelle Installation<a class="anchorjs-link" href="#schnelle-installation" aria-label="Anchor" data-anchorjs-icon=""></a></h3>
+<h3 class="section" id="lb-schnelle-installation">Schnelle Installation<a class="anchorjs-link" href="#lb-schnelle-installation" aria-label="Anchor" data-anchorjs-icon=""></a></h3>
 
 <ul class="realList star">
     <li>Serendipity-Release-Paket von der Homepage herunterladen und via FTP auf den Webserver hochladen.</li>
@@ -5830,7 +5830,7 @@ Browser die Übermittlung des HTTP-Referrers zulassen, können Sie als
 weitere Sicherheitsoption die globale Variable
 <code class="nobreak">$serendipity['referrerXSRF']</code> aktivieren - in so einem Fall wird
 eine Aktion im Backend abgebrochen, wenn der HTTP-Referrer fehlt (siehe
-Seite <span class="pageref"><a href="#referrerXSRF">referrerXSRF</a></span>).</p>
+Seite <span class="pageref"><a href="#referrerxsrf">referrerXSRF</a></span>).</p>
 
 </section><!-- section.sub end -->
 
@@ -12953,7 +12953,7 @@ steuern, standardmäßig sind dies 200 Zeichen.</span>
 </p>
 
 <p class="desc">
-<span class="label invisible" id="referrerXSRF">referrerXSRF</span>
+<span class="label invisible" id="referrerxsrf">referrerXSRF</span>
 <span class="tag-box invisible">
     <span class="inline-tag">Fehler!Ihr Browser hat keinen gültigen HTTP-Referrer übermittelt</span>
     <span class="inline-tag">XSRF</span>
@@ -43404,7 +43404,7 @@ wird auf Seite <span class="pageref"><a href="#mediatemplates">mediatemplates</a
             <span class="sub-box">
                 Enthält eine zufällige Zeichenkette, die ein Formular vor
                 dem Fernsteuern durch unberechtigte Zugriffe schützt (siehe
-                <code>XSRF</code> auf Seite <span class="pageref"><a href="#xsrf">xsrf</a></span>).
+                <code>XSRF</code> auf Seite <span class="pageref"><a href="#xsrf">XSRF</a></span>).
                 Diese Zeichenkette muss als verstecktes Element des Formulars zum Hochladen der
                 Datei eingebunden werden.
             </span>
@@ -43641,7 +43641,7 @@ wird auf Seite <span class="pageref"><a href="#mediatemplates">mediatemplates</a
             <span class="sub-box">
                 Enthält eine zufällige Zeichenkette, die ein Formular vor
                 dem Fernsteuern durch unberechtigte Zugriffe schützt (siehe
-                <code>XSRF</code> auf Seite <span class="pageref"><a href="#xsrf">xsrf</a></span>).
+                <code>XSRF</code> auf Seite <span class="pageref"><a href="#xsrf">XSRF</a></span>).
                 Diese Zeichenkette muss als Teil einer URL (GET-Variablen) eingebunden werden.
             </span>
         </span>
@@ -49447,7 +49447,7 @@ die Sie bei der Entwicklung von Plugins und Ähnlichem häufig einsetzen werden.
 <span class="desc-info">
     <span class="box">
         Prüft bei einem Seitenaufruf, ob der Redakteur diese Aktion tatsächlich
-        willentlich ausgelöst hat oder ob er Opfer einer XSRF-Attacke (siehe Seite <span class="pageref"><a href="#xsrf">xsrf</a></span>)
+        willentlich ausgelöst hat oder ob er Opfer einer XSRF-Attacke (siehe Seite <span class="pageref"><a href="#xsrf">XSRF</a></span>)
         war.
     </span>
 </span>
