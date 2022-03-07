@@ -901,7 +901,7 @@ kommerziell erhältlicher Systeme vor allem in folgenden Punkten ab:</p>
 
     <li>Dank Plugin-Verwaltung per Drag&amp;Drop können Sie das Aussehen und die
         Inhalte der Seitenleisten des Blogs nach Ihren Wünschen gestalten, ohne
-        Templatedateien manuell ändern zu müssen (Seite <span class="pageref"><a href="#Plugins verwalten">Plugins verwalten</a></span>).</li>
+        Templatedateien manuell ändern zu müssen (Seite <span class="pageref"><a href="#plugins-verwalten">Plugins verwalten</a></span>).</li>
 
     <li>Das dynamische, Smarty-basierte Template-Konzept erlaubt die strukturelle
         Änderung sämtlicher Frontend-Elemente über aufeinander aufbauende
@@ -1571,7 +1571,7 @@ Webserverkonfiguration änderbar;</p>
 <span class="tag-box invisible">
     <span class="inline-tag">Safe Mode (PHP)</span>
 </span>
-<span class="label invisible" id="Safe Mode">Safe Mode</span> PHPs <em>Safe Mode</em> stellt sicher, dass lokale PHP-Anwendungen wie
+<span class="label invisible" id="safe-mode">Safe Mode</span> PHPs <em>Safe Mode</em> stellt sicher, dass lokale PHP-Anwendungen wie
 Serendipity nur auf die Daten im eigenen Stammverzeichnis zugreifen und
 keine fremden Dateien einbinden können. Obwohl Serendipity mit dieser
 Einschränkung generell funktioniert, hat die Aktivierung dieses Modus
@@ -9852,7 +9852,7 @@ nur in Sonderfällen aktivieren sollten. Dies sind:</p>
 <h3 class="subsection" id="plugins-verwalten">Plugins verwalten<a class="anchorjs-link" href="#plugins-verwalten" aria-label="Anchor" data-anchorjs-icon=""></a></h3>
 
 <p class="tagging invisible">
-<span class="label invisible" id="Plugins verwalten">Plugins verwalten</span>
+<span class="label invisible" id="lb-plugins-verwalten">Plugins verwalten</span>
 <span class="tag-box invisible">
     <span class="inline-tag">Plugins!verwalten|see{Backend, Plugins verwalten}</span>
     <span class="inline-tag">Backend!Plugins verwalten</span>
@@ -12045,7 +12045,7 @@ Referrer-Statistik übernommen.</span>
 </p>
 
 <p class="desc">
-<span class="label invisible" id="Zeitgesteuerte Veroeffentlichung">Zeitgesteuerte Veroeffentlichung</span>
+<span class="label invisible" id="zeitgesteuerte-veroeffentlichung">Zeitgesteuerte Veröffentlichung</span>
 <span class="tag-box invisible">
     <span class="inline-tag">Zeitgesteuerte Veröffentlichung</span>
     <span class="inline-tag">Konfiguration!zukünftige Einträge zeigen</span>
@@ -14118,7 +14118,7 @@ systemnaher Einstellungen.</span>
 <span class="item mbold">Verbotene Plugins</span><!-- menuitem -->
 <span class="desc-info">
     <span class="box">
-        <span class="label invisible" id="verboteneplugins">verboteneplugins</span>
+        <span class="label invisible" id="verboteneplugins">Verbotene Plugins</span>
         Ist die globale Option <span class="mbold">Sollen persönliche Plugin-Rechte für
         Benutzergruppen aktiviert werden?</span> in der <span class="mbold">Konfiguration</span> des Blogs
         (Abschnitt <span class="mbold">Generelle Einstellungen</span>) aktiviert, werden Sie an
@@ -15327,7 +15327,7 @@ verfügbar.</p>
 </span>
 Plugins sind bei Serendipity in <em>Seitenleisten-</em> und
 <em>Ereignis-Plugins</em> unterteilt. Wie im Kapitel zur Plugin-Verwaltung
-(siehe Seite <span class="pageref"><a href="#Plugins verwalten">Plugins verwalten</a></span>)
+(siehe Seite <span class="pageref"><a href="#plugins-verwalten">Plugins verwalten</a></span>)
 erwähnt, binden sich Seitenleisten-Plugins zur Ausgabe in den
 Rahmenbereich Ihres Blogs ein. Ereignis-Plugins hingegen dienen der
 funktionellen Erweiterung Ihres Blogs.</p>
@@ -20901,7 +20901,7 @@ dass Mitglieder anderer Gruppen die Nachricht nicht sehen können. Notizen
 können zudem nur an die Gruppen geschrieben werden, in denen man Mitglied
 ist. Daher ist es unter Umständen für dieses Plugin notwendig, dass Sie
 als Administrator auch anderen Benutzergruppen beitreten (siehe
-Seite <span class="pageref"><a href="#verboteneplugins">verboteneplugins</a></span>), um Nachrichten an diese zu verfassen.</p>
+Seite <span class="pageref"><a href="#verboteneplugins">Verbotene Plugins</a></span>), um Nachrichten an diese zu verfassen.</p>
 
 <p>In der Übersicht werden QuickNotes wie in folgender Abbildung dargestellt:</p>
 
@@ -21142,7 +21142,7 @@ Intervall ausgeführt werden und wird gestartet, indem Sie die URL
 <code>http://www.example.com/serendipity/index.php?/plugin/aggregator</code>
 aufrufen. Dies können Sie entweder manuell über Cronjobs Ihres Servers
 lösen oder mittels des Serendipity Cronjob-Plugins (siehe Seite
-<span class="pageref"><a href="#Cronjobsched">Cronjobsched</a></span>). Die URL können Sie auch manuell im Browser
+<span class="pageref"><a href="#cronjobscheduled">Cronjobscheduled</a></span>). Die URL können Sie auch manuell im Browser
 aufrufen, um den Importvorgang einmalig auszuführen. Ohne die Ausführung
 dieses Vorgangs können RSS-Feeds nicht regelmäßig importiert werden!</p>
 
@@ -21592,8 +21592,8 @@ getrennt erscheinende Frontends zu verwalten.</p>
 </span>
 </p>
 
-<p>Falls ein gewünschtes Template den Einsatz von
-Template-Optionen unterstützt (siehe Seite <span class="pageref"><a href="#templateoptionen">templateoptionen</a></span>),
+<p>Falls ein gewünschtes Template den Einsatz von Template-Optionen unterstützt
+(siehe Seite <span class="pageref"><a href="#templateoptionen">templateoptionen</a></span>),
 können diese Optionen für das Template individuell für jede Kategorie gesetzt
 werden, in der das Template zum Einsatz kommt. Sie müssen daher das Template
 nicht in mehrere Unterverzeichnisse kopieren, um ein eigenes Template pro
@@ -21784,7 +21784,7 @@ dort sehen:</p>
         In der globalen Konfiguration von Serendipity können Sie einstellen, ob
         Einträge mit einem zukünftigen Datum im Frontend bereits vor Erreichen
         dieses Datums angezeigt werden sollen (siehe Seite
-        <span class="pageref"><a href="#Zeitgesteuerte Veroeffentlichung">Zeitgesteuerte Veroeffentlichung</a></span>).
+        <span class="pageref"><a href="#zeitgesteuerte-veroeffentlichung">Zeitgesteuerte Veröffentlichung</a></span>).
     </span>
 
     <span class="box">
@@ -22570,7 +22570,7 @@ darauf den entsprechenden Eintrag in der Wikipedia öffnet.</p>
 <h3 class="subsection" id="sub_serendipity_event_cronjob">Cronjob scheduler<br>serendipity_event_cronjob<a class="anchorjs-link" href="#sub_serendipity_event_cronjob" aria-label="Anchor" data-anchorjs-icon=""></a></h3>
 
 <p class="tagging invisible">
-<span class="label invisible" id="Cronjobsched">Cronjobsched</span>
+<span class="label invisible" id="cronjobscheduled">Cronjobscheduled</span>
 <span class="tag-box invisible">
     <span class="inline-tag">Plugins!Cronjob scheduler</span>
     <span class="inline-tag">Plugins!serendipity_event_cronjob</span>
@@ -25042,7 +25042,7 @@ das Blog mit Inhalten füllen.</p>
 Ähnlich wie das Aggregator-Plugin kann der POPfetcher sich systembedingt
 nicht selber aufrufen. Daher müssen Sie den E-Mail-Abruf entweder manuell
 ausführen oder über einen zentralen Cronjob. Auch das Serendipity
-Cronjob-Plugin (siehe Seite <span class="pageref"><a href="#Cronjobsched">Cronjobsched</a></span>) unterstützt den
+Cronjob-Plugin (siehe Seite <span class="pageref"><a href="#cronjobscheduled">Cronjobscheduled</a></span>) unterstützt den
 POPfetcher zum regelmäßigen Abruf von E-Mail-Konten.</p>
 
 <p>Der POPfetcher kann einen gezielten E-Mail-Account abrufen, der dem
@@ -30222,7 +30222,7 @@ Konfigurationsoptionen festlegen. Jedoch können Sie dieses Seitenleisten-Plugin
 später im Layout auch durchaus verstecken (siehe Konfigurationsoption
 <span class="mbold">Seitenleisten-Plugin anzeigen</span> des Seitenleisten-Plugins auf Seite
 <span class="pageref"><a href="#sidebarhider">sidebarhider</a></span> oder über die zentrale Plugin-Verwaltung, siehe Seite
-<span class="pageref"><a href="#Plugins verwalten">Plugins verwalten</a></span>).</p>
+<span class="pageref"><a href="#plugins-verwalten">Plugins verwalten</a></span>).</p>
 
 <p>Die Hauptkonfiguration des Seitenleisten-Plugins bietet die Optionen:</p>
 
@@ -30248,7 +30248,8 @@ eintragen oder auch redaktionelle Richtlinien festlegen.</span>
     <span class="box">
         Sie sollten möglichst eine eigene Benutzergruppe für solche
         <em>freiwilligen Redakteure</em> erstellen, damit Sie dieser Gruppe nur die
-        Rechte geben, die sie benötigt (siehe Seite <span class="pageref"><a href="#Gruppenverwaltung">Gruppenverwaltung</a></span>).
+        Rechte geben, die sie benötigt
+        (siehe Seite <span class="pageref"><a href="#Gruppenverwaltung">Gruppenverwaltung</a></span>).
     </span>
 
     <span class="box">
@@ -31843,7 +31844,7 @@ Rechteupgrade darstellen würden. So sind manche Optionen nur als Hinweis
 auf eine möglicherweise später folgende erweiterte Rechteverwaltung zu verstehen.
 Wenn bestimmte Benutzergruppen keinen Zugriff auf statische Seiten haben
 sollen, so können Sie das Plugin global für diese Gruppe(n) deaktivieren
-(siehe Seite <span class="pageref"><a href="#verboteneplugins">verboteneplugins</a></span>).</p>
+(siehe Seite <span class="pageref"><a href="#verboteneplugins">Verbotene Plugins</a></span>).</p>
 
 <p>Die Maske zum Erstellen oder Bearbeiten eines Artikels ist identisch und
 wird beim Bearbeiten lediglich mit den vorhandenen Daten vorausgefüllt.
@@ -31865,8 +31866,8 @@ Kopfzeilen möglicherweise das Layout sprengen könnten.</span>
 <span class="item mbold">Permalink</span><!-- menuitem -->
 <span class="desc-info">Der Permalink gibt an, unter welcher URL die statische Seite aufgerufen
 werden kann (weitere Details siehe Seite
-<span class="pageref"><a href="#Standardpluginkonfiguration-Permalink">Standardpluginkonfiguration-Permalink</a></span>). Ein Permalink muss für
-jede statische Seite eindeutig sein.</span>
+<span class="pageref"><a href="#Standardpluginkonfiguration-Permalink">Standardpluginkonfiguration-Permalink</a></span>).
+Ein Permalink muss für jede statische Seite eindeutig sein.</span>
 </p>
 
 <p class="desc">
@@ -32171,7 +32172,7 @@ er in einem Formular vorher das korrekte Passwort hinterlegt hat.</span>
         darstellen, mit der statischen Startseite kollidieren. Dazu zählt
         beispielsweise das Kontaktformular oder das Gästebuch. Damit eine
         statische Startseite korrekt angezeigt werden kann, muss sie in der
-        Reihenfolge der Ereignis-Plugins (siehe Seite <span class="pageref"><a href="#Plugins verwalten">Plugins verwalten</a></span>)
+        Reihenfolge der Ereignis-Plugins (siehe Seite <span class="pageref"><a href="#plugins-verwalten">Plugins verwalten</a></span>)
         <em>vor</em> den kollidierenden Ereignis-Plugins erscheinen. Generell ist
         es empfehlenswert, das Plugin <em>Statische Seiten</em> als eines der
         ersten Ereignis-Plugins einzusortieren.
@@ -32344,7 +32345,7 @@ sind erlaubt.</span>
 </p>
 
 <p class="desc">
-<span class="label invisible" id="staticpage-bildpfad">staticpage-bildpfad</span>
+<span class="label invisible" id="staticpage-bildpfad">staticpage-Bildpfad</span>
 <span class="item mbold">Bildpfad</span><!-- menuitem -->
 <span class="desc-info">
     <span class="box">
@@ -33123,10 +33124,9 @@ Verfügung.</span>
             <code class="sub-item smarty">{$staticpage_extchildpages.X.image}</code> (String)
             <span class="sub-box">enthält den Wert, den Sie bei dem zugehörigen Seitentyp der statischen
             Seite unter <span class="mbold">Bildpfad</span> (siehe Seite
-            <span class="pageref"><a href="#staticpage-bildpfad">staticpage-bildpfad</a></span>) eingetragen haben. Dieser Wert
-            kann beispielsweise eine Grafik für die jeweilige Unterseite
-            repräsentieren, die in der Navigation für grafische Zuordnungen
-            dienen kann.</span>
+            <span class="pageref"><a href="#staticpage-bildpfad">staticpage-Bildpfad</a></span>)
+            eingetragen haben. Dieser Wert kann beispielsweise eine Grafik für die jeweilige Unterseite
+            repräsentieren, die in der Navigation für grafische Zuordnungen dienen kann.</span>
         </span>
 
         <span class="box">
@@ -34704,7 +34704,7 @@ für andere Datenbanktabellen ergänzen.</p>
 vom Plugin <em>Karma (Abstimmung über die Einträge</em> - siehe Seite
 <span class="pageref"><a href="#Karma">Karma</a></span>) erzeugt und enthält eine Liste aller abgegebenen Abstimmungen
 pro Eintrag und pro Person. Die Datenbanktabelle <code>serendipity_cronjoblog</code> wird durch das Plugin
-<em>Cronjob</em> (siehe Seite <span class="pageref"><a href="#Cronjobsched">Cronjobsched</a></span>) angelegt und enthält eine
+<em>Cronjob</em> (siehe Seite <span class="pageref"><a href="#cronjobscheduled">Cronjobscheduled</a></span>) angelegt und enthält eine
 Liste der zuletzt automatisch aufgerufenen Plugins.</p>
 
 <p>Alle genannten Tabellen können über die Zeit sehr groß werden. Vergessen Sie
@@ -35190,7 +35190,7 @@ Dateien des Pakets vorhanden sind.</span>
         Wenn Serendipity in einem PHP-Umfeld mit <code>open_basedir</code> und <code>Safe
         Mode</code>-Einschränkungen läuft, kann es nicht frei auf alle Dateien und
         Verzeichnisse zugreifen. Bei einer falschen Konfiguration dieser PHP-Variablen
-        (siehe Seite <span class="pageref"><a href="#Safe Mode">Safe Mode</a></span>)
+        (siehe Seite <span class="pageref"><a href="#safe-mode">Safe Mode</a></span>)
         führt dies dazu, dass Serendipity zentrale Dateien nicht einbinden kann und
         daher der Aufruf fehlschlägt.
     </span>
@@ -37738,7 +37738,7 @@ im Template gesetzte Variablen zugreifen.</p>
 <span class="tag-box invisible">
     <span class="inline-tag">Array</span>
 </span>
-<span class="label invisible" id="Arrays">Arrays</span>
+<span class="label invisible" id="lb-arrays">Arrays</span>
 </p>
 
 <p>Arrays sind eine besondere Form von Variablen, die in beinahe jeder
@@ -39132,8 +39132,8 @@ der Oberfläche zur Konfiguration von Serendipity.</span>
 <code class="item file">img/s9y_banner_small.png</code>
 <span class="desc-info">
     <span class="box">
-        Zeigt ein kleines Werbebanner für Serendipity, das vom Plugin <em>Powered
-        by</em> (siehe Seite <span class="pageref"><a href="#plugplugin">plugplugin</a></span>)
+        Zeigt ein kleines Werbebanner für Serendipity, das vom Plugin <em>Powered by</em>
+        (siehe Seite <span class="pageref"><a href="#plugplugin">plugplugin</a></span>)
         in der Seitenleiste dargestellt werden kann.
     </span>
 
@@ -39407,7 +39407,7 @@ in dem Ausklappfeld <span class="mbold">Farbwahl</span> der Template-Optionen an
 <code>config.inc.php</code> festgelegt. In dieser Datei wird eine PHP-Variable
 <code>$template_config</code> definiert. Diese Variable stellt ein mehrdimensionales,
 verschachteltes Array [*]
-<span class="footnote"><i class="fa fa-info-circle"></i> Siehe Seite <span class="pageref"><a href="#Arrays">Arrays</a></span>.</span><!-- footnote --> dar.
+<span class="footnote"><i class="fa fa-info-circle"></i> Siehe Seite <span class="pageref"><a href="#arrays">Arrays</a></span>.</span><!-- footnote --> dar.
 Für jede Konfigurationsoption wird ein eigenes Unter-Array in der zweiten Ebene
 definiert, das einige fest vorgeschriebene Array-Schlüssel mit Werten füllt.</p>
 
@@ -42127,7 +42127,8 @@ nicht direkt freigeschaltet wird.
     <span class="box">
         Für Kommentar-Feeds ist das Array mit denselben Schlüsseln ausgestattet wie das
         Array für die Darstellung der Kommentare (siehe Seite
-        <span class="pageref"><a href="#commenttemplates">commenttemplates</a></span>). Abweichend sind einzig die beiden Schlüssel
+        <span class="pageref"><a href="#commenttemplates">commenttemplates</a></span>).
+        Abweichend sind einzig die beiden Schlüssel
         <code class="item smarty">{$entries.X.author}</code> (dieser wird automatisch bei der Darstellung eines
         Trackbacks um den Titel des Trackbacks erweitert) und <code class="item smarty">{$entries.X.title}</code>
         (dieser enthält zusätzlich den Autorennamen vorangestellt, um innerhalb des
@@ -45549,8 +45550,9 @@ direkt unveränderbaren HTML-Code aus (der jedoch Performance spart).</p>
 
 <p><span class="label invisible" id="plugin-remoterss.tpl">plugin-remoterss.tpl</span>
 Die Template-Datei <code>plugin_remoterss.tpl</code> wird zur Ausgabe des
-Seitenleisten-Plugins <span class="mbold">Fremder RSS/OPML-Blogroll Feed</span> (siehe Seite
-<span class="pageref"><a href="#remoterss">remoterss</a></span>) verwendet, falls die Option <span class="mbold">Smarty benutzen</span> dort
+Seitenleisten-Plugins <span class="mbold">Fremder RSS/OPML-Blogroll Feed</span>
+(siehe Seite <span class="pageref"><a href="#remoterss">remoterss</a></span>)
+verwendet, falls die Option <span class="mbold">Smarty benutzen</span> dort
 aktiviert ist. Bei deaktivierter Smarty-Option gibt das Plugin direkt
 unveränderbaren HTML-Code aus (der jedoch Performance spart).</p>
 
@@ -49438,7 +49440,7 @@ die Sie bei der Entwicklung von Plugins und Ähnlichem häufig einsetzen werden.
 <span class="desc-info">
     <span class="box">
         Prüft, ob es einem Redakteur erlaubt ist, die Funktionalitäten eines
-        auszuführenden Plugins aufzurufen (siehe Seite <span class="pageref"><a href="#verboteneplugins">verboteneplugins</a></span>).
+        auszuführenden Plugins aufzurufen (siehe Seite <span class="pageref"><a href="#verboteneplugins">Verbotene Plugins</a></span>).
     </span>
 </span>
 </p>
@@ -53871,10 +53873,10 @@ auch selbstgeschriebene Plugins zugreifen können:</p>
 <code class="item event">frontend_display_cache</code>
 <span class="desc-info">
     <span class="box group-box">
-        wird aufgerufen, wenn ein Blog-Artikel in der
-        Datenbank gespeichert wird. Ereignis-Plugins, die Caching (siehe Seite
-        <span class="pageref"><a href="#cachable-events">cachable-events</a></span>) unterstützen, führen ihre Textformatierungen bei
-        diesem Ereignis aus.
+        wird aufgerufen, wenn ein Blog-Artikel in der Datenbank gespeichert wird.
+        Ereignis-Plugins, die Caching (siehe Seite
+        <span class="pageref"><a href="#cachable-events">cachable-events</a></span>)
+        unterstützen, führen ihre Textformatierungen bei diesem Ereignis aus.
         <span class="subdesc">
             <code>eventData</code>: dieselben Daten wie vom Ereignis
             <code>backend_publish/backend_save</code> (Artikeldaten).
