@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Serendipity Styx 3.8.0 release
-last_modified_at: 2022-02-28T10:33:00+00:00
+last_modified_at: 2022-03-07T17:32:00+00:00
 ---
 
 N° 2022/01 - The Serendipity Styx 3.8.0 release <img class="php8" src="/i/b/logo_php8_1.svg" alt="php8" width="160" height="48">
@@ -9,7 +9,7 @@ N° 2022/01 - The Serendipity Styx 3.8.0 release <img class="php8" src="/i/b/log
 ### Maintenance Release
 
 This mainly is a maintenance release fixing bugs and for polishing other inconsistencies.
-It also announces a new Serendipity Styx Book [de] revision for Styx 3.8, fetching up with the latest Serendipity Styx Edition development and with new example images. Parts of the main site "help center" were revisited too.
+It also announces a new Serendipity Styx Book [de] revision for Styx 3.8, fetching up with the latest Serendipity Styx Edition development, including new example images. Parts of the main site "help center" were revisited too.
 
 ## Styx 3.8.0 applies the following
 
