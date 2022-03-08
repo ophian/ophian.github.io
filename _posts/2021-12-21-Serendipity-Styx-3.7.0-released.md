@@ -1,10 +1,10 @@
 ---
 layout: post
 title: Serendipity Styx 3.7.0 release
-last_modified_at: 2021-12-21T18:50:00+00:00
+last_modified_at: 2022-03-08T10:28:00+00:00
 ---
 
-N° 2021/10 - The Serendipity Styx 3.7.0 release <img class="php8" src="/i/b/logo_php8_1.svg" alt="php8" width="160" height="48">
+N° 2021/10 - The Serendipity Styx 3.7.0 release <img class="php8" src="/i/b/logo_php8_1.svg" alt="php8.1" width="160" height="48">
 
 ### Christmas-Edition
 

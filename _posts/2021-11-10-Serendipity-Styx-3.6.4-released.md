@@ -1,10 +1,10 @@
 ---
 layout: post
 title: Serendipity Styx 3.6.4 release
-last_modified_at: 2021-11-26T09:58:30+00:00
+last_modified_at: 2022-03-08T10:28:00+00:00
 ---
 
-N° 2021/6 - The Serendipity Styx 3.6.4 release <img class="php8" src="/i/b/logo_php8_1.svg" alt="php8" width="160" height="48">
+N° 2021/6 - The Serendipity Styx 3.6.4 release <img class="php8" src="/i/b/logo_php8_1.svg" alt="php8.1" width="160" height="48">
 
 Heading to upcoming PHP 8.1
 
