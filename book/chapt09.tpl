@@ -461,7 +461,7 @@ Wenn Sie also eine Anpassung vornehmen wollen, müssen Sie die entsprechenden
 eingesetzten HTML-Klassen im Quelltext des jeweiligen Templates nachschlagen.</p>
 
 <p>Auch wenn hier nicht alle CSS-Klassen aufgeführt werden können, haben sich mit
-der neuen Referenz des <em>2k11</em>-Standard-Themes doch auch einige Elemente geändert.
+der neuen Referenz des ehemaligen <em>2k11</em>-Standard-Themes doch auch einige Elemente geändert.
 (zB. wurde mit Serendipity 2.0 das ehemalige Schema <em>“serendipity_klassenname”</em>
 für solche Klassen nicht immer konsequent durchgehalten, zB mit den neuen
 <code>msg_*</code>-Klassen. Leider muss dies auch für die überaus wichtigen Schemas
@@ -491,7 +491,7 @@ gesagt werden, die zB. in sidebarhider teils direkte Bezugnahmen in Plugins habe
 <p>In der Entwicklung von Serendipity wurde diese Schema Vorgabe aus Gründen der
 Vereinfachung und Modernisierung zum Teil verändert. Damit kann sich aber ein Plugin
 (wie schon erwähnt zb. "sidebarhider") auf dieses Schema nicht mehr verlassen, was die
-durchgängig strukturellen Möglichkeiten etwas beschränkt. Siehe zum Vergleich das
+durchgängig strukturellen Möglichkeiten etwas beschränkt. Siehe zum Vergleich das ehemalige
 Serendipity Standard Template "2k11" (vereinfacht) in seiner "index.tpl" Datei:</p>
 
 <pre><code class="smarty">&lt;div id="page" class="clearfix"&gt;<br>
@@ -592,7 +592,7 @@ bzw. Blog-Übersicht. (Siehe Vergleich)</span>
     <span class="box">
         In der Entwicklung von Serendipity wurde diese Vorgabe aus Gründen der Vereinfachung
         leider nicht eingehalten, so dass ein Plugin diese Vorgabe nicht mehr ohne Weiteres
-        als verlässlich nutzen und setzen kann. (Siehe das Standard Template "2k11" (mit
+        als verlässlich nutzen und setzen kann. (Siehe das ehemalige Standard Template "2k11" (mit
         <code class="item css">#sidebar_left</code> und
         <code class="item css">#sidebar_right</code>) sowie potentielle Nachfolgetemplates.)
     </span>
@@ -809,7 +809,7 @@ Fehlern) werden mit dieser Klasse ausgezeichnet.</span>
         als verlässlich nutzen und setzen kann. Siehe im Frontend zB. mit "Next" (mit
         <code class="item css">.msg-warning</code>, <code class="item css">.msg-success</code>,
         <code class="item css">.msg-notice</code>, <code class="item css">.msg-question</code>
-        und im Backend sogar mit dem Serendipity Admin Standard Template "2k11" mit
+        und im Backend sogar mit dem Serendipity Admin Standard Template mit
         <code class="item css">.msg_error</code>, <code class="item css">.msg_success</code>,
         <code class="item css">.msg_notice</code>, <code class="item css">.msg_hint</code>.
     </span>
@@ -1440,15 +1440,15 @@ Verzeichnis für Ihre Dateien. Nehmen wir an, Sie wollen Ihr Template
 <p>Nachdem diese Datei erstellt wurde, können Sie Ihr Template im Backend über den
 Menüpunkt <code>Themes</code> bereits auswählen. Da ansonsten noch keine
 Dateien vorhanden sind, bezieht Serendipity diese automatisch aus dem
-Standard-Template, <code>/templates/default</code> und <code>/templates/2k11/</code>.</p>
+fallback- oder Standard-Template, <code>/templates/default</code> und <code>/templates/pure/</code>.</p>
 
 <p>Das <code>2k11</code>-Verzeichnis wurde mit Veröffentlichung von Serendipity
-1.7 zum Standardverzeichnis, während <code>default</code> noch
-einige ältere Standarddateien enthält. Somit ergänzen sich beide Verzeichnisse,
+1.7 zum Standardverzeichnis, <code>pure</code> mit Styx 3.0, während <code>default</code> noch
+einige ältere Standarddateien enthält. Somit ergänzen sich beide bzw. die Verzeichnisse,
 was für Template-Anpassungen manchmal verwirrend scheinen mag.</p>
 
 <p>Wenn Serendipity in Ihrem Template-Verzeichnis eine angeforderte Datei wie
-<code>index.tpl</code> nicht findet, sucht es erst im <code>2k11</code>-Verzeichnis
+<code>index.tpl</code> nicht findet, sucht es erst im Standard-Theme <code>pure</code>-Verzeichnis
 und danach im <code>default</code>-Verzeichnis. Wenn Sie eine Datei wie
 <code>index.tpl</code>, <code>style.css</code> oder <code>entries.tpl</code> anpassen wollen, müssen Sie
 diese Datei erst in Ihr eigenes Template-Verzeichnis kopieren und dort anpassen.</p>
@@ -1523,7 +1523,7 @@ Templates.</span>
 </span>
 <code class="item file">admin/style.css</code>
 <span class="desc-info">Enthält die CSS-Regeln für den Backend-Bereich
-"eines Templates". Seit Serendipity 2.0 liegt sie im Standard-Theme <em>2k11</em>,
+"eines Templates". Um Klarheit zu schaffen liegt diese im default Backend-Theme, bzw seinem Styx Child-Theme,
 da hier auch die anderen Smarty-Backend-Dateien liegen. Nichts desto trotz ist es
 natürlich möglich, sich ein ganz eigenes Backend zu schaffen, wenn man sich mit der
 zugegebenermaßen komplizierten Materie auskennt.</span>
@@ -1833,16 +1833,16 @@ Backend-Bereich selten von Benutzern angepasst wurde, war dieser Kompromiss ein 
 
 <p>Mit Serendipity 2.0 wurde nach zweijähriger Entwicklungszeit
 das Serendipity Backend dann doch vollständig auf Smarty umgeschrieben, so dass es nun vollständig per Theme
-bearbeitet werden kann. Dazu wurde das 2k11 (Standard) Theme um einen eigenen Backend Bereich erweitert,
+bearbeitet werden kann. Dazu wurde das damalige 2k11 (Standard) Theme um einen eigenen Backend Bereich erweitert,
 in dem auch einige der alten, hier genannten *.tpl Dateien des Backends zu finden sind.
 Eine genaue Auflistung der neueren Backend Dateien und ihrer Variablen erfolgt innerhalb dieser Unter-Sektionen (9.4.3, 9.4.6, 9.4.7) jeweils am Ende.</p>
 
-<p>Dies stellte sich aber als Sackgasse heraus, denn damit übernahm das <code>2k11</code>-theme vollständig die Kontrolle,
+<p>Dies stellte sich aber als Sackgasse heraus, denn damit übernahm das <code>2k11</code>-Theme vollständig die Kontrolle,
 beraubte Serendipity aber seiner Flexibilität und Modularität für die Fallback Kaskade und für ein einfach austauschbares Standardtheme.
 Styx wechselte deshalb schon 2018 zurück auf die ehemalige Implementation, die das <code>default</code>-theme als Endpunkt
 der Fallback Kaskade und als originären Platz für das Backend ansah. Damit war die Modularität wieder hergestellt
 und das Standard (Auslieferungs) Theme konnte mit den Jahren gewechselt werden, so wie es mit Styx 3.0 und dem <code>pure</code>-theme geschah.
-Mit der Zeit wurde sogar das Backend modular und das neue <code>styx</code> backend theme übernahm mehr und mehr
+Mit der Zeit wurde sogar das Backend modular und das neue <code>styx</code> Backend-Theme übernahm mehr und mehr
 die Ausgestaltung der Ansicht, die sich bis zum heutigen Tag weiter fortentwickelt, zb. durch den vorzüglichen Dark Mode.</p>
 
 <p>Damit Sie jedoch dennoch Teile des Backends zu eigenen Zwecken und für eigene
@@ -2353,7 +2353,7 @@ greift Serendipity zur Darstellung einiger Objekte auf feste Dateinamen zurück.
 <p>Wenn Ihr Template eine Datei gleichen Namens besitzt, wird diese von Serendipity
 anstelle der Standarddatei ausgegeben. Zur Gestaltung dieser Dateien können Sie sich
 nach Vorlagen im Verzeichnis <code>templates/default/</code> bzw. des aktuellen
-Standard-Themes (2k11) richten.</p>
+Standard-Themes richten.</p>
 
 <p class="desc citem-desc">
 <span class="tag-box invisible">
@@ -2546,7 +2546,7 @@ Mime Typen in der Mediathek dar, zB. für PDFs oder Videos.</span>
 <code class="item file">admin/font/fontello.ttf</code>, 
 <code class="item file">admin/font/fontello.woff</code>
 <span class="desc-info">Symbol-Icons für die Backend Ansicht(en) von Serendipity 2.0+
-über CSS. Zu finden sind diese Dateien im Serendipity Standard (backend) Theme 2k11.</span>
+über CSS. Zu finden sind diese Dateien zB. im ehemaligen Serendipity Standard (backend) Theme 2k11.</span>
 </p>
 
 <p class="desc citem-desc revision">
@@ -10787,7 +10787,7 @@ Zeilen 185 bis 199 die Einbindung eines Fußbereichs zum Vor- und Zurückblätte
 etwaiger Archivseiten. Auch hier können sich in Zeile 198 etwaige
 Ereignis-Plugins einbinden.</p>
 
-<p>Die hier genannten Zeilennummern entsprechen nicht mehr unbedingt den Beispielen neuerer Templates, wie zB. beim "2k11" Standard Theme.</p>
+<p>Die hier genannten Zeilennummern entsprechen nicht mehr unbedingt den Beispielen neuerer Templates, wie zB. beim ehemaligen "2k11" Standard Theme.</p>
 
 </section><!-- section.sub end -->
 
