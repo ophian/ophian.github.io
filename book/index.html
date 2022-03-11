@@ -48714,13 +48714,12 @@ Plugin aufzurufen.</p>
         SQL-Dialekt übersetzt werden.
     </span>
     <span class="box">
-        Die Dateien <code>db_update_X_Y_Z.sql</code> enthalten die SQL-Anweisungen, die
-        beim Aktualisieren von Serendipity automatisch ausgeführt werden sollen, um neue
-        Tabellen zu erstellen bzw. bestehende Tabellen anzupassen. Dabei steht <code>X</code>
-        für die vorher installierte Serendipity-Version und <code>Y</code> für die neue
-        Version. Bei einem Update werden alle Versionszwischenstände
-        ebenfalls ausgeführt. <code>Z</code> steht dabei für das verwendete
-        Datenbank-Zielsystem (MySQL, PostgreSQL oder SQLite).
+        Die Dateien <code>db_update_X_Y_Z.sql</code> - soweit noch vorhanden - enthalten die
+        SQL-Anweisungen, die beim Aktualisieren von Serendipity automatisch ausgeführt werden
+        sollen, um neue Tabellen zu erstellen bzw. bestehende Tabellen anzupassen. Dabei steht
+        <code>X</code> für die vorher installierte Serendipity-Version und <code>Y</code> für
+        die neue Version. Bei einem Update werden alle Versionszwischenstände ebenfalls ausgeführt.
+        <code>Z</code> steht dabei für das verwendete Datenbank-Zielsystem (MySQL, PostgreSQL oder SQLite).
     </span>
 </span>
 </p>
@@ -48730,15 +48729,15 @@ Plugin aufzurufen.</p>
 <code class="item dir">templates</code>
 <span class="desc-info">
     <span class="box">
-        Enthält die verfügbaren Templates. Das Verzeichnis <code>2k11</code> enthält
-        seit Serendipity 1.0 alle Standarddateien, die
-        verwendet werden, wenn ein Template-Verzeichnis nicht über eine entsprechende
-        Datei verfügt. Das Verzeichnis <code>default</code> enthält darüber hinaus weitere
-        Standarddateien, falls diese nicht im Verzeichnis <code>2k11</code> liegen.
-        Diese beiden Sonderverzeichnisse sollten daher bei jeder
-        Serendipity-Installation beibehalten und stets aktualisiert werden. Änderungen
-        an diesen Dateien sollten Sie niemals dort vornehmen, sondern stattdessen in
-        einer lokalen Kopie eines eigenen Template-Verzeichnisses.
+        Enthält die verfügbaren Templates. Das Verzeichnis <code>pure</code> enthält
+        seit Serendipity Styx 3.0 alle Standarddateien, die verwendet werden, wenn ein
+        Template-Verzeichnis nicht über eine entsprechende eigene Datei verfügt.
+        Das Verzeichnis <code>default</code> enthält darüber hinaus weitere
+        Standarddateien, falls diese nicht im Verzeichnis <code>pure</code> oder einem
+        definierten "Engine"-Theme ihres Themes liegen. Diese beiden Sonderverzeichnisse
+        sollten daher bei jeder Serendipity-Installation beibehalten und stets aktualisiert
+        werden. Änderungen an diesen Dateien sollten Sie niemals dort vornehmen, sondern
+        stattdessen nur in einer lokalen Kopie eines eigenen Template-Verzeichnisses.
     </span>
 </span>
 </p>
