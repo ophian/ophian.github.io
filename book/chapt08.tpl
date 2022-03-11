@@ -1219,7 +1219,7 @@ Dateien des Pakets vorhanden sind.</span>
         Diese sind nur für Entwickler gedacht. Wenn Sie als Unkundiger diese
         Templates in Ihrem Blog aktivieren, kann dies zu der genannten
         Fehlermeldung führen. Sie sollten daher ein anderes Template
-        (wie das Serendipity 2k11 Standard-Template) auswählen.
+        (wie das Serendipity Styx Pure Standard-Template) auswählen.
     </span>
 
     <span class="box">
