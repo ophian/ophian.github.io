@@ -8,8 +8,8 @@ Man kann Einträge lesen und kommentieren, in älteren
 Archiven stöbern, eine Suche durchführen und auch etliche
 Plugin-Funktionalitäten (Umfrage, Flickr-Fotos ...) ansehen.</p>
 
-<p>Im Folgenden gehen wir von dem lange standardmäßig genutzten Theme (siehe
-Seite <span class="pageref"><a href="#theme">theme</a></span>) <em>2k11</em> aus. Die
+<p>Im Folgenden gehen wir von dem standardmäßig genutzten Theme (siehe
+Seite <span class="pageref"><a href="#theme">theme</a></span>) <em>Pure</em> aus. Die
 meisten anderen Themes richten sich in der Darstellung der Seitenelemente nach
 demselben Schema, können aber in Details davon abweichen. Wie man die
 Darstellung anpassen kann, werden Sie in späteren Kapiteln ab Seite
@@ -418,9 +418,10 @@ man zu einer Übersichtsseite mit einer speziellen chronologischen Übersicht.</
 </figure>
 
 <p>Dort werden für alle Jahre, in denen Artikel verfasst wurden, die Monate
-dargestellt. Die Links im default 2k11 Theme <span class="mbold">Monat</span> (ganz anzeigen) und <span class="mbold">Anzahl der Einträge</span> (Überschriften anzeigen) führen hierbei
-wieder zu den eingangs erwähnten Archiv-Übersichtsseiten. Das frühere default Theme bulletproof, visualisiert hier für die Menge der
-Artikel, die in dem jeweiligen Zeitraum verfasst wurden eine Balkengrafik.</p>
+dargestellt. Die Links im Standard Theme Pure <span class="mbold">Monat</span>
+(<em>ganz anzeigen</em>) und <span class="mbold">Anzahl der Einträge</span>
+(<em>Überschriften anzeigen</em>) führen hierbei wieder zu den eingangs erwähnten
+Archiv-Übersichtsseiten.</p>
 
 <p>Auch die URL für die spezielle chronologische Übersicht kann mit
 speziellen Pfadkomponenten eingeschränkt werden - eine Einschränkung
