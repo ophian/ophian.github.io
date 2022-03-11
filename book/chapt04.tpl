@@ -4142,7 +4142,7 @@ wieder verworfen und vereinfacht. Die mitgelieferten Themes heißen nun einfach
 "Kern Themes"; die per Spartacus hinzugefügten "Verfügbare Themes".</p>
 
 <p>Diese mitgelieferten Kern Themes bestehen zum Teil aus den Standard Themes
-der verschiedenen Jahre und Revisionen, wie das "pure" Theme 2020, das "2k11" aus
+der verschiedenen Jahre und Revisionen, wie das "pure" Theme 2020/22, das "2k11" aus
 2011/13, usw., bis hin zum originären "default" Theme das für die
 Zugriffs-Kaskade in der Datei-/Template-Suche einen besonderen Platz als Endpunkt
 einnimmt. Zum anderen Teil aus möglichen Standard Derivaten (wie "Next"),
@@ -7892,7 +7892,7 @@ der Liste der Variable <code class="nobreak">$serendipity['languages']</code> en
         Wenn eine Template-Datei eines Themes nicht vorhanden ist, wird die Datei
         im Standard-Theme benutzt. Eben jenes Standard-Theme definieren Sie in
         der Variable <code class="nobreak">$serendipity['defaultTemplate']</code> (standardmäßig
-        <code>2k11</code>, <em>2k11</em>).
+        <code>Pure</code>, <em>Pure</em>).
     </span>
 
     <span class="box">
