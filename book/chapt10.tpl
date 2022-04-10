@@ -3808,8 +3808,8 @@ Komponenten: einem Server und einem Client. Der Server (GitHub) bietet die
 Plugins an, der Client (das Spartacus-Plugin Ihres Blogs) lädt ein Plugin herunter.</p>
 
 <p>Im Hintergrund passiert Folgendes: Auf dem GitHub-Server wird das
-GIT-Repository <code>additional_plugins</code> verwaltet. Dort werden regelmäßig einmal
-am Tag durch einen manuellen oder automatisierten Vorgang [*]
+GIT-Repository <code>additional_plugins</code> bzw. <code>additional_themes</code> verwaltet.
+Dort werden bei einem Update durch einen manuellen oder automatisierten Vorgang [*]
 <span class="footnote"><i class="fa fa-info-circle"></i> Für Interessierte: Das
 automatische Script zur Erstellung ist in diesem Repository als Datei
 <code class="item file">emerge_spartacus.php</code> hinterlegt.</span><!-- footnote -->
@@ -3817,30 +3817,32 @@ zahlreiche XML-Dateien erstellt, die alle notwendigen Informationen der Plugins 
 
 <p>Daraufhin werden anhand dieser XML-Informationen automatisch HTML-Dateien
 erzeugt, die auf <code>https://ophian.github.io/plugins/</code> dargestellt werden. Jedes Plugin
-wird zudem als ZIP-Archiv komprimiert und ebenfalls auf dem Webserver zur
-Verfügung gestellt.</p>
+sollte eigentlich zudem als ZIP-Archiv komprimiert und ebenfalls auf dem Webserver zur
+Verfügung gestellt, was aber der gegenwärtigen Struktur auf GitHub nicht entspricht (sihe dortige Erklärung).
+Nichts desto trotz ist dies ja nur die Notfall-Methode einer Plugin Installation, wenn das eingebaute
+Spartacus Plugin auf ihrer Server-Präsenz nicht laufen sollte.</p>
 
 <p><strong>Serendipity Styx</strong> nutzt eine etwas andere Technik, so dass das
 Spartacus-Web auf <code>https://ophian.github.io/plugins/</code> nur den Abgleich des
 originalen S9y Plugin-Repositories ermöglicht. Das <a href="../plugins">Serendipity
-Styx Plugins</a>-Repository ist seinem originalen Vorhänger weit voraus.
-Erweiterte Themes werden aber weiterhin von dort geholt und können somit auch direkt aus
-diesem Web-Repository per Hand gezogen werden.</p>
+Styx Plugins</a> und das <a href="../themes">Serendipity
+Styx Themes</a>-Repository sind aber inhaltlich ihren originalen Vorhängern weit voraus.
+Erweiterte Themes können komprimiert direkt aus diesem Web-Repository per Hand gezogen werden.</p>
 
 <p>
 <span class="tag-box invisible">
     <span class="inline-tag">GitHub.com</span>
 </span>
 Die Sammlung an XML-Dateien sowie der Quellcode der Plugins werden zusätzlich
-automatisch an den Mirror <code>s9y.org</code> ausgeliefert. Sollte einmal ein
+automatisch an eventuell vorhandene Mirror Server ausgeliefert. Sollte einmal ein
 Server nicht erreichbar sein, gibt es somit immer noch einen weiteren Notfallserver.</p>
 
 <p>Das ehemals als Hauptmirror-Server eingestellte <code>Netmirror.org</code> ist seit 2017 nicht mehr
 erreichbar und wurde aus den Voreinstellungen entfernt. <code>SourceForge</code> dient als altes Relikt
 aus vergangenen CVS-Repository Tagen.</p>
 
-<p><strong>Serendipity Styx</strong> hat GitHub voreingestellt und nutzt zusätzlich eine benutzerdefiniert
-URL für das Styx-Kern-Repository sowie das Styx additional_plugins-Repository.</p>
+<p><strong>Serendipity Styx</strong> hat GitHub voreingestellt und nutzt zusätzlich eine benutzerdefinierte
+URL für das Styx-Kern-Repository sowie das Styx additional_plugins- und das additional_themes-Repository.</p>
 
 <p>Seit dem Umzug auf GitHub im Jahre 2011 kann Spartacus die Dateien auch gleich
 von dort abholen. Sie müssen in den Spartacus-Plugin-Konfigurationsoptionen dazu nur
