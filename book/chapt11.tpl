@@ -236,12 +236,12 @@ Dinge beachten:</p>
     <h4 class="subarticle" id="sourcecode-verwaltung-nutzen">Sourcecode-Verwaltung nutzen</h4>
 </header>
 
-<p>Serendipity wird über öffentlich zugängliche Server gewartet. 
-Der gesamte Code liegt seit Herbst 2011 auf Github [*]
+<p>Serendipity Styx wird über öffentlich zugängliche Server gewartet.
+Der gesamte Serendipity Code liegt seit Herbst 2011 auf Github [*]
 <span class="footnote"><i class="fa fa-info-circle"></i>
-<a href="https://github.com/s9y" target="_blank" rel="noopener">https://github.com/s9y</a></span><!-- footnote -->
-und wird zentral dort verwaltet. Sourceforce dient nur noch aus Kompatibilitätsgründen
-als SVN/CSV Verteiler und die Mirrors sind auch nur noch für eventuelle Ausfälle von GitHub relevant.
+<a href="https://github.com/ophian" target="_blank" rel="noopener">https://github.com/ophian</a></span><!-- footnote -->
+und wird zentral dort verwaltet. Eventuelle andere Seiten dienen nur noch aus Kompatibilitätsgründen
+als SVN/CSV Verteiler und auch eventuelle  Mirrors sind nur noch für Ausfälle von GitHub relevant.
 (Siehe <span class="reference">sourcecodeverwaltung</span> auf Seite
 <span class="pageref"><a href="#sourcecodeverwaltung">sourcecodeverwaltung</a></span>).</p>
 
@@ -321,9 +321,9 @@ Sie performance-intensive Dinge über eigenständiges Caching beschleunigen.</p>
 dass diese so wenig wie möglich PHP-Code ausführt. Je größer und komplexer die
 Datei wird, desto länger dauert der Serendipity-Seitenaufruf.</p>
 
-<p>HTML-Code sollte nach XHTML-1.1-Standard entwickelt werden. Zudem sollte ein
-Template in allen gängigen Browsern funktionieren, zumindest in Mozilla Firefox, Google Chrome
-und Microsoft Internet Explorer.</p>
+<p>HTML-Code sollte nach XHTML-1.1-Standard oder HTML5 entwickelt werden. Zudem sollte ein
+Template in allen gängigen Browsern funktionieren, zumindest in Mozilla Firefox, Google Chrome/Chromium Derivaten
+und Apple Safari.</p>
 
 <p>Wenn Ihr Template eigene Sprachkonstanten verwendet, lagern Sie diese bitte in
 <code>lang_XX.inc.php</code>-Dateien aus und liefern auch jeweils die
