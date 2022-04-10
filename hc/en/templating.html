@@ -278,12 +278,12 @@ Engine: [ENGINE]</code></pre>
 <ul>
   <li><strong>[VERSION]</strong> can be replaced with the minimum version of Serendipity that is required to power your theme. Simply set the version number of your current installation where you developed a theme with.</li>
   <li><strong>[BACKEND]</strong> can hold the string “Yes” if your theme also provides a Backend theme. Leave out this line, if no Backend is provided</li>
-  <li><strong>[ENGINE]</strong> can hold the string of any theme directory (i.e. “bulletproof”, “2k11”, “default”) to specify, which fallback to use.</li>
+  <li><strong>[ENGINE]</strong> can hold the string of any theme directory (i.e. “pure”, “2k11”, “default”) to specify, which fallback to use.</li>
 </ul>
 
 <p id="template-fallback-cascade">An <strong> extended note</strong> about the Serendipity template fallback cascade:</p>
 
-<p>If an ENGINE theme is not provided, a <strong>Frontend</strong> theme will first fall back to the <code>$serendipity['defaultTemplate']</code> (so called the <strong>standard</strong> template) “2k11/” files and then grabs files from the “default/” template pool. In the <strong>Backend</strong> (*) this is slightly different, since we do not have engines, but need to grab the Backend theme correctly. So the cascade iterates from “yourTheme/”, to the chosen Backend theme, eg. “styx/”, followed by the standard Backend theme in “default/”. Both path the “plugins/” directory to get necessary template files not found in themes yet.</p>
+<p>If an ENGINE theme is not provided, a <strong>Frontend</strong> theme will first fall back to the <code>$serendipity['defaultTemplate']</code> (so called the <strong>standard</strong> template) “pure/” files and then grabs files from the “default/” template pool. In the <strong>Backend</strong> (*) this is slightly different, since we do not have engines, but need to grab the Backend theme correctly. So the cascade iterates from “yourTheme/”, to the chosen Backend theme, eg. “styx/”, followed by the standard Backend theme in “default/”. Both path the “plugins/” directory to get necessary template files not found in themes yet.</p>
 
 <p>Needless to say, that the cascade iteration is being stopped, when the searched template file is found. <strong>First come, first serve!</strong></p>
 
@@ -690,7 +690,7 @@ serendipity_loadGlobalThemeOptions($template_config, $template_loaded_config, $t
 
 <h4 id="docs-specific-frontend-theme-files-and-their-meaning">Specific FRONTEND theme files and their meaning</h4>
 
-<p>Each of those files is not mandatory in your theme directory. If you want to adapt it, you should copy it over from the “2k11” or “default” directory. Only copy over the files you actually change, so that the fallback-chain can work properly (see above).</p>
+<p>Each of those files is not mandatory in your theme directory. If you want to adapt it, you should copy it over from the “pure” or “default” directory. Only copy over the files you actually change, so that the fallback-chain can work properly (see above).</p>
 
 <h5 id="docs-atomcss">atom.css</h5>
 
