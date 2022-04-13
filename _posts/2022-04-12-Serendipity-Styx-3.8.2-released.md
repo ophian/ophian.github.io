@@ -1,12 +1,12 @@
 ---
 layout: post
 title: Serendipity Styx 3.8.2 release
-last_modified_at: 2022-04-12T20:01:00+00:00
+last_modified_at: 2022-04-13T16:11:00+00:00
 ---
 
 N° 2022/03 - The Serendipity Styx 3.8.2 release <img class="php8" src="/i/b/logo_php8_1.svg" alt="php8.1" width="160" height="48">
 
-### Spring Edition
+### Easteregg Edition
 
 This mainly is a bugfix & maintenance release.
 
