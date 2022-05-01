@@ -55749,8 +55749,8 @@ und aktualisieren damit automatisch alle weiteren Blogs.</p>
 <em>Shared Installation</em> mit einem Beispiel verdeutlichen.</p>
 
 <p>Unser Ziel soll sein, drei Blogs einzurichten. Zwei dieser Blogs sollen auf
-einer Domain laufen und über <code>http://blogs.seniorgamer.de/shooter/</code> und
-<code>http://blogs.seniorgamer.de/mmorpg/</code> aufgerufen werden. Das dritte Blog
+einer Domain laufen und über <code>http://blogs.bikeshare.de/ebike/</code> und
+<code>http://blogs.bikeshare.de/mbike/</code> aufgerufen werden. Das dritte Blog
 befindet sich unter <code>http://www.percanat-blog.de/</code>.</p>
 
 <p>Jede Domain besitzt einen sogenannten <code>Document Root</code>. In diesem
@@ -55758,7 +55758,7 @@ Stammverzeichnis befinden sich die Dateien der jeweiligen Domain. In unserem
 Beispiel haben wir FTP-Zugriff auf folgende Verzeichnisse:</p>
 
 <p class="desc">
-    <code class="item">/home/www/seniorgamer.de/htdocs/</code> für Blog 1 und 2
+    <code class="item">/home/www/bikeshare.de/htdocs/</code> für Blog 1 und 2
     <code class="item">/home/www/percanat-blog.de/htdocs/</code> für Blog 3
 </p>
 
@@ -55788,12 +55788,12 @@ Verzeichnisse mittels <code>open_basedir</code>-PHP-Anweisungen oder Ähnlichem
 beschränkt, ist die Methode der <em>Shared Installation</em> für Sie nicht anwendbar.</p>
 
 <p>In unserem Beispiel wollen wir einen Mittelweg gehen. Wir ernennen das
-Verzeichnis <code>/home/www/seniorgamer.de/htdocs/</code> als Ziel unseres
+Verzeichnis <code>/home/www/bikeshare.de/htdocs/</code> als Ziel unseres
 <em>Core</em>, da wir dort sowieso Unterverzeichnisse für zwei der drei Blogs
 anlegen werden.</p>
 
 <p>Wir entpacken also nun das übliche Serendipity-Installationsverzeichnis unter
-<code>/home/www/seniorgamer.de/htdocs/Serendipity</code>. Sobald Sie die Dateien
+<code>/home/www/bikeshare.de/htdocs/Serendipity</code>. Sobald Sie die Dateien
 hochgeladen haben, müssen Sie keine weitere Installation vornehmen. Nur
 <em>Deployments</em> müssen installiert werden - der <em>Core</em> selbst enthält
 keine Zugangsdaten zu einer Datenbank oder Weiteres.</p>
@@ -55811,33 +55811,27 @@ eine kleine Sammlung an Basisdateien, die wir benötigen.</p>
 
 <p>Dazu erstellen wir vorerst ein leeres Blog-Verzeichnis in jedem der Zielverzeichnisse:</p>
 
-<p>Bitte beachten Sie: “serendipity_editor.js” muss ab Serendipity Styx 3.1 “serendipity_styx.js” heißen.</p>
-
 <pre><code class="txt">
-    /home/www/seniorgamer.de/htdocs/shooter/<br>
-    /home/www/seniorgamer.de/htdocs/mmorpg/<br>
+    /home/www/bikeshare.de/htdocs/ebike/<br>
+    /home/www/bikeshare.de/htdocs/mbike/<br>
     /home/www/percanat-blog/htdocs/
 </code></pre>
 
-<p>In jedes dieser drei leeren Verzeichnisse kopieren wir nun den vollständigen
-Inhalt des Core-Verzeichnisses
-<code>/home/www/seniorgamer.de/htdocs/Serendipity/deployment</code>. Danach sollten Sie
+<p>In jedes dieser drei leeren Verzeichnisse kopieren wir nun den vollständigen Inhalt des Core-Verzeichnisses
+<code>/home/www/bikeshare.de/htdocs/Serendipity/deployment</code>. Danach sollten Sie
 in jedem der drei Verzeichnisse eine Liste wie folgende besitzen:</p>
 
 <pre><code class="txt">
-    /home/www/seniorgamer.de/htdocs/shooter/comment.php<br>
-    /home/www/seniorgamer.de/htdocs/shooter/exit.php<br>
-    /home/www/seniorgamer.de/htdocs/shooter/index.php<br>
-    /home/www/seniorgamer.de/htdocs/shooter/rss.php<br>
-    /home/www/seniorgamer.de/htdocs/shooter/serendipity_admin_image_selector.php<br>
-    /home/www/seniorgamer.de/htdocs/shooter/serendipity_admin.php<br>
-    /home/www/seniorgamer.de/htdocs/shooter/serendipity_config.inc.php<br>
-    /home/www/seniorgamer.de/htdocs/shooter/serendipity.css.php<br>
-    /home/www/seniorgamer.de/htdocs/shooter/serendipity_define.js.php<br>
-    /home/www/seniorgamer.de/htdocs/shooter/serendipity_editor.js<br>
-    /home/www/seniorgamer.de/htdocs/shooter/serendipity_xmlrpc.php<br>
-    /home/www/seniorgamer.de/htdocs/shooter/wfwcomment.php<br>
-    /home/www/seniorgamer.de/htdocs/shooter/comment.php
+    /home/www/bikeshare.de/htdocs/ebike/comment.php<br>
+    /home/www/bikeshare.de/htdocs/ebike/exit.php<br>
+    /home/www/bikeshare.de/htdocs/ebike/index.php<br>
+    /home/www/bikeshare.de/htdocs/ebike/rss.php<br>
+    /home/www/bikeshare.de/htdocs/ebike/serendipity.css.php<br>
+    /home/www/bikeshare.de/htdocs/ebike/serendipity_admin.php<br>
+    /home/www/bikeshare.de/htdocs/ebike/serendipity_admin_image_selector.php<br>
+    /home/www/bikeshare.de/htdocs/ebike/serendipity_config.inc.php<br>
+    /home/www/bikeshare.de/htdocs/ebike/serendipity_xmlrpc.php<br>
+    /home/www/bikeshare.de/htdocs/ebike/wfwcomment.php<br>
 </code></pre>
 
 <p>Die Bedeutung der einzelnen Dateien ist auf Seite <span class="pageref"><a href="#s9yfiles">s9yfiles</a></span> ausführlich
@@ -55881,7 +55875,7 @@ möglich.</p>
 <p>In unserem konstruierten Beispiel fehlt uns der Zugriff auf ein derartiges
 Verzeichnis, daher müssen wir die Dateien der <em>Deployments</em> leicht
 abändern. Da wir Serendipity in den Pfad
-<code>/home/www/seniorgamer.de/htdocs/Serendipity/</code> kopiert haben, müssen wir nun
+<code>/home/www/bikeshare.de/htdocs/Serendipity/</code> kopiert haben, müssen wir nun
 diesen Pfad in allen PHP-Scripts des obigen Verzeichnisses eintragen.</p>
 
 <p>In allen Dateien der <em>Deployments</em> ändern Sie daher die Zeilen wie</p>
@@ -55893,7 +55887,7 @@ diesen Pfad in allen PHP-Scripts des obigen Verzeichnisses eintragen.</p>
 <p>in</p>
 
 <pre><code class="php">
-    require_once '/home/www/seniorgamer.de/htdocs/Serendipity/index.php';
+    require_once '/home/www/bikeshare.de/htdocs/Serendipity/index.php';
 </code></pre>
 
 <p>ab. Wenn Sie die Möglichkeit haben, wäre eine Alternative zu diesem Schritt
@@ -55923,7 +55917,7 @@ Schreibrechte besitzen, da andernfalls die beiden Dateien <code>.htaccess</code>
 <p>Um Plugins zu installieren, kann jedes <em>Deployment</em> standardmäßig auf die Plugins
 des <em>Core</em> zurückgreifen. Wenn ein Blog jedoch nur auf bestimmte Plugins
 zugreifen können soll, ist es empfehlenswert, das Verzeichnis
-<code>/home/www/seniorgamer.de/htdocs/Serendipity/plugins</code> in das Verzeichnis
+<code>/home/www/bikeshare.de/htdocs/Serendipity/plugins</code> in das Verzeichnis
 des jeweiligen <em>Deployments</em> zu übernehmen. Um Redundanz zu vermeiden, wäre
 es am besten, dieses Verzeichnis symbolisch zu verlinken. Wenn Ihr
 Server/Provider dies nicht unterstützt, müssen Sie das komplette
@@ -55946,7 +55940,7 @@ als Letztes auch das Verzeichnis <code>htmlarea</code> übernehmen.</p>
 
 <p>Nun sind alle Deployments entsprechend vorbereitet und können installiert
 werden. Rufen Sie dazu die URL wie
-<code>http://blogs.seniorgamer.de/shooter/serendipity_admin.php</code> auf und folgen
+<code>http://blogs.bikeshare.de/ebike/serendipity_admin.php</code> auf und folgen
 Sie dem Serendipity-Installationsprozess. Dabei wird eine eigenständige
 Konfigurationsdatei im <em>Deployment</em>-Verzeichnis und eine
 eigenständige Datenbank erstellt. Falls Sie alle Deployments in eine einzelne
