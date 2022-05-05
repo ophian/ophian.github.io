@@ -1225,7 +1225,6 @@ RewriteBase&nbsp;/serendipity/<br>
 RewriteRule&nbsp;^((id/([0-9]+))/?)&nbsp;index.php?/$1&nbsp;[NC,L,QSA]<br>
 RewriteRule&nbsp;^(authors/([0-9]+)\-[0-9a-z\.\_!;,\+\-\%]+)&nbsp;index.php?/$1&nbsp;[NC,L,QSA]<br>
 ...<br>
-RewriteRule&nbsp;^htmlarea/(.*)&nbsp;htmlarea/$1&nbsp;[L,QSA]<br>
 RewriteRule&nbsp;(.*.html?)&nbsp;index.php?url=/$1&nbsp;[L,QSA]<br>
 <br>
 &lt;Files&nbsp;*.tpl.php&gt;<br>
