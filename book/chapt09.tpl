@@ -1577,9 +1577,7 @@ jedem Serendipity Upgrade.</span>
     <span class="inline-tag">Template-Dateien!wysiwyg-style.css</span>
 </span>
 <code class="item file">wysiwyg-style.css</code>
-<span class="desc-info">Enthält CSS-Regeln für den integrierten WYSIWYG-Editor von Serendipity.
-Diese liegt normalerweise in dem <code class="item dir">/htmlarea</code> Ordner, kann aber
-in das Template/Theme kopiert werden (siehe Regeln für ein eigenes Ckeditor-Wysiwyg-Widget).</span>
+<span class="desc-info">Enthält CSS-Regeln für den integrierten WYSIWYG-Editor von Serendipity.</span>
 </p>
 
 </section><!-- section.sub end -->
