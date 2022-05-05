@@ -356,18 +356,6 @@ Plugin aufzurufen.</p>
 
 <p class="desc">
 <span class="item">Verzeichnis </span>
-<code class="item dir">htmlarea</code>
-<span class="desc-info">
-    <span class="box">
-        Enthält den Sourcecode des <code>CKEditor</code>-WYSIWYG-Editors zur
-        Darstellung einer Office-ähnlichen Oberfläche beim
-        Bearbeiten von Artikeln (siehe Seite <span class="pageref"><a href="#wysiwyg">WYSIWYG</a></span>).
-    </span>
-</span>
-</p>
-
-<p class="desc">
-<span class="item">Verzeichnis </span>
 <code class="item dir">include</code>
 <span class="desc-info">
     <span class="box">
@@ -554,6 +542,23 @@ Plugin aufzurufen.</p>
         sollten daher bei jeder Serendipity-Installation beibehalten und stets aktualisiert
         werden. Änderungen an diesen Dateien sollten Sie niemals dort vornehmen, sondern
         stattdessen nur in einer lokalen Kopie eines eigenen Template-Verzeichnisses.
+    </span>
+</span>
+</p>
+
+<p class="desc">
+<span class="item">Verzeichnis </span>
+<code class="item dir">templates/_assets</code>
+<span class="desc-info">
+    <span class="box">
+        Enthält unter <code>/ckebasic</code> den Sourcecode des einfachen <code>CKEditor</code>-WYSIWYG-Editors zur
+        Darstellung einer Office-ähnlichen Oberfläche beim
+        Bearbeiten von Artikeln (siehe Seite <span class="pageref"><a href="#wysiwyg">WYSIWYG</a></span>), sowie unter
+        <code>/highlight</code> das Asset für kolorierten Code vom codesnippet Plugin des Rich Text Editors.
+    </span>
+
+    <span class="box">
+        Enthält unter <code>/b4</code> und <code>/b5</code> die CSS und JS includes für verschiedene Versionen des beliebten Bootstrap HTML Framework.
     </span>
 </span>
 </p>
