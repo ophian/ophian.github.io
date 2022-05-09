@@ -55917,7 +55917,7 @@ Dateien des Deployments festgelegt <code>s9y</code>.</p>
 <p>Jedes Verzeichnis mit den <em>Deployments</em> benötigt nun noch einige
 Kleinigkeiten.</p>
 
-<p>Zum einen müssen die drei (leeren) Verzeichnisse <code>upload</code>,
+<p>Zum einen müssen mindestens die drei (leeren) Verzeichnisse <code>upload</code>,
 <code>templates_c</code> und <code>archives</code> existieren und Schreibrechte für PHP (zB.
 0777) besitzen.
 Für eine fehlerfreie Installation muss das jeweilige Stammverzeichnis ebenfalls
@@ -55943,10 +55943,18 @@ können. Die Kern Plugins liegen im Kern <code>styx</code> Verzeichnis, während
 entweder symbolisch vom <em>Core</em>-Verzeichnis in das jeweilige
 <em>Deployment</em> verknüpfen oder kopieren.</p>
 
-<p>Unter Linux sind symbolische Links ja etwas quasi Alltägliches. Windows ist hier wählerisch
-und erlaubt dies nur unter erweiterten Berechtigungen mit der Windowns Eingabeaufforderung
-und dem Windows eigenen "mklink" Tool. Ihr Serendipity Kern bzw. Bezugs Verzeichnis liegt
-beispielsweise in <code>C:\xampp\htdocs\bikeshare\styx</code>, und so muss der symbolische Verzeichnis Link folgendermaßen:
+<p>Unter Linux sind symbolische Links (Symlink) über die "Konsole / Terminal" ja etwas quasi Alltägliches
+und werden häufig genutzt ("Kommando &lt;echte Datei&gt; &lt;Symlink Datei&gt;").
+<pre><code class="bash">
+ln -s /home/www/bikeshare.de/htdocs/Serendipity/templates /home/www/bikeshare.de/htdocs/ebike/templates
+</code></pre>
+<p>
+
+<p>Windows ist hier ebenso wählerisch und erlaubt dies nur unter erweiterten Berechtigungen
+mit der Windows Eingabeaufforderung und dem Windows eigenen "mklink" Tool. Ihr Serendipity
+Kern bzw. Bezugs Verzeichnis liegt also beispielsweise in
+<code>C:\xampp\htdocs\bikeshare\styx</code>, und so muss der symbolische Verzeichnis Link
+folgendermaßen:
 <pre><code class="bash">
 mklink /D "C:\xampp\htdocs\bikeshare\ebike\templates" "C:\xampp\htdocs\bikeshare\styx\templates"
 </code></pre>
