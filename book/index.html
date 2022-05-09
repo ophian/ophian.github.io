@@ -52600,14 +52600,14 @@ sind vielmehr die Objektmethoden der abgeleiteten Klassen
 
     <span class="box">
         Zusätzliche Plugins können über die Datei <code>plugins/preload.txt</code> gesteuert
-        werden. Diese Datei kann ein Plugin pro Zeile (getrennt durch Zeilenumbruch)
+        werden. Diese Datei kann ein (lokales) Plugin pro Zeile (getrennt durch Zeilenumbruch)
         festlegen und getrennt durch einen Doppelpunkt angeben, auf welcher Seite
         (<code>left</code>, <code>right</code>, <code>event</code>) das Plugin installiert werden soll:
     </span>
 
     <span class="box">
         <span id="pre-style"><code class="txt">
-            serendipity_event_nl2br:event<br>
+            serendipity_event_xyz:event<br>
             serendipity_plugin_history:left<br>
             ...
         </code></span>
@@ -55974,19 +55974,23 @@ Datenbank installieren, sollten Sie unbedingt die <em>Fortgeschrittene Installat
 wählen und unterschiedliche Tabellenpräfixe nutzen.</p>
 
 <p>Wenn Sie zusätzliche Demo-Inhalte in ein Deployment einstellen wollen, können
-Sie die Dateien <code>sql/preload.sql</code> mit entsprechenden SQL-Anweisungen füllen.
-Wenn Ihr Deployment über die Standardsettings von Serendipity hinaus bestimmte
-Plugins vorinstallieren soll, können Sie eine Datei <code>plugins/preload.txt</code>
-mit den Namen der Plugin-Klassen (zB. <code>serendipity_event_nl2br</code>) füllen.
+Sie eine Datei <code>sql/preload.sql</code> mit entsprechenden SQL-Anweisungen füllen.
+Wenn Ihr Deployments über die Standardsettings von Serendipity hinaus bestimmte
+Plugins vorinstallieren sollen, können Sie eine Datei <code>plugins/preload.txt</code>
+mit den Namen der Plugin-Klassen (zB. <code>serendipity_event_autoupdate</code>) füllen.
 Trennen Sie mehrere Plugins mit einem Zeilenumbruch voneinander. Nach jedem
 Plugin müssen Sie die Platzierung des Plugins eintragen (<code>left</code>, <code>right</code>
 oder <code>event</code>):</p>
 
 <pre class="artlaset"><code class="txt">
-serendipity_event_nl2br:event<br>
-serendipity_plugin_history:left
+serendipity_event_autoupdate:event<br>
+serendipity_plugin_history:right
 ...
 </code></pre>
+
+<p>Dabei ist zu beachten, dass auf diesem Weg keine (Spartacus remote) Plugins geholt
+werden können, so dass es zwingend erforderlich ist, dass diese Plugins (wie hier für
+das autoupdate Plugin als Beispiel) bereits lokal im Kern Plugin-Verzeichnis vorliegen.</p>
 
 </article>
 
