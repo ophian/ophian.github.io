@@ -7739,6 +7739,12 @@ es am besten, dieses Verzeichnis symbolisch zu verlinken. Wenn Ihr
 Server/Provider dies nicht unterstützt, müssen Sie das komplette
 <code>plugins</code>-Verzeichnis einfach kopieren.</p>
 
+<p>Andererseits geben Sie dem Deployment einfach ein leeres und beschreibbares
+<code>plugins</code> Verzeichnis, analog zu den drei bereits genannten, damit
+dort über Spartacus remote installierte Plugin-Programme hinein installiert werden
+können. Die Kern Plugins liegen im Kern <code>styx</code> Verzeichnis, während die
+"auswärtig" geholten Plugins eines jeden Deployments im eigenen Deployment Ordner liegen.</p>
+
 <p>Dasselbe gilt für das Verzeichnis <code>templates</code>. Dieses müssen Sie auch
 entweder symbolisch vom <em>Core</em>-Verzeichnis in das jeweilige
 <em>Deployment</em> verknüpfen oder kopieren.</p>
@@ -7812,7 +7818,7 @@ Konfigurationsdateien unabhängig voneinander. Über die jeweilige
 
 
 <p>Übrigens können Sie mehrere bestehende <em>normale</em> Serendipity-Blogs auf
-einem Server auch mit geringfügigem Aufwand in <em>Shared Installations</em> umwandeln.</p>
+einem Server mit geringfügigem Aufwand auch in <em>Shared Installations</em> umwandeln.</p>
 
 <p>Dazu müssen Sie wie oben beschrieben ein Zentralverzeichnis einrichten.
 Ersetzen Sie die bestehenden PHP-Dateien der bereits bestehenden
