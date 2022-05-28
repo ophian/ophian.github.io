@@ -137,6 +137,7 @@
       <li><a href="#docs-how-do-i-upgrade-serendipity" id="styx-toc-docs-how-do-i-upgrade-serendipity">How do I upgrade Serendipity?</a></li>
       <li><a href="#docs-locking-the-blog-during-the-upgrade" id="styx-toc-docs-locking-the-blog-during-the-upgrade">Locking the blog during the upgrade</a>
       <li><a href="#docs-my-upgrade-failed-or-i-cannot-change-permissions-of-my-files" id="styx-toc-docs-my-upgrade-failed-or-i-cannot-change-permissions-of-my-files">My upgrade failed! (or: I cannot change permissions of my files)</a></li>
+      <li><a href="#docs-firewalled-upgrade-restrictions" id="styx-toc-docs-firewalled-upgrade-restrictions">Firewalled upgrade restrictions</a></li>
       <li><a href="#docs-how-can-i-move-an-existing-serendipity-installation-to-a-different-place-server-or-path" id="styx-toc-docs-how-can-i-move-an-existing-serendipity-installation-to-a-different-place-server-or-path">How can I move an existing Serendipity installation to a different place (server or path)?</a></li>
       <li><a href="#docs-strange-entry-date-issues-after-moving-to-another-server-with-differing-offset" id="styx-toc-docs-strange-entry-date-issues-after-moving-to-another-server-with-differing-offset">Strange entry date issues after moving to another server with differing offset</a></li>
     </ul>
@@ -423,6 +424,20 @@ chmod('/path/to/your/serendipity/<code>serendipity_config_local.inc.php</code>',
 
       <li>Just set the version to “2.0.0” or whatever version you upgraded from, then save the file and re-enter your Serendipity Config Panel. The upgrader will say hello to you once again and re-execute the steps!</li>
     </ol>
+
+    <span class="faq-up"><a class="navigator" href="#faq-top">top</a></span>
+</div>
+
+<h4 id="docs-firewalled-upgrade-restrictions">Firewalled upgrade restrictions</h4>
+
+<div>
+    <p>If living and operating Serendipity in a country with firewall restrictions you may need some additional info. In example for China, first check https://en.greatfire.org/https/raw.githubusercontent.com if there is any known current restriction in place.</p>
+
+    <p>Note that internal (mirror) generated links i.e. 'https://raw.githubusercontent.com/user-or-repo-name/path/to/file'; are used to load and read files or binaries for upgrades. This effects Spartacus remote fetches to sync with additional plugin or theme updates via the Spartacus plugin configuration, and the autoupdate plugin (configuration) for Serendipity system upgrades. The Update-RELEASE-file URL to read out version updates is defined in your Serendipity Styx main Configuration - General Settings block.</p>
+
+    <p>So you may use custom mirrors that you fully trust (see Spartacus plugin), to avoid using "raw.githubusercontent.com" because of current or long lasting restrictions. Read the related info notes in case.</p>
+
+    <p>Some other links which might be useful for this problem are https://linuxpip.org/github-in-china/ or https://www.tutorialexample.com/fix-raw-githubusercontent-com-is-not-accessed-in-china-and-download-files/ which provide useful information about using proxies, replacements and so on.</p>
 
     <span class="faq-up"><a class="navigator" href="#faq-top">top</a></span>
 </div>
