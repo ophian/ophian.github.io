@@ -213,8 +213,8 @@ sql&gt; INSERT INTO my_managed_s9y_blogs (url) VALUES ('http://tom.s9yblogs.org/
 <p>Open that installation and look at the upgrader. Execute it and see that it completes without errors. If that happened, you should cycle through a list of ALL your s9y-managed blogs like this:</p>
 
 <pre><code>&lt;?php
-$sql = mysql_query('SELECT url FROM my_managed_s9y_blogs');
-while ($row = mysql_fetch_array($sql, MYSQL_ASSOC)) {
+$sql = mysqli_query($mysqli, 'SELECT url FROM my_managed_s9y_blogs');
+while ($row = mysqli_fetch_array($sql, MYSQLI_ASSOC)) {
     $fp = fopen($row['url'] . 'serendipity_admin.php?serendipity[action]=upgrade');
 }
 ?&gt;</code></pre>
