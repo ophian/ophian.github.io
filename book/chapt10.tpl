@@ -7850,7 +7850,7 @@ Konfigurationsdateien <code>serendipity_config_local.inc.php</code> und <code>.h
 
 <p><em>Shared Installations</em> machen besonders dann Sinn, wenn sie
 automatisiert angelegt werden. Der obige Vorgang ist zwar nicht übermäßig
-komplex, aber bereits umfangreich genug, um ein Script für diese Sklavenarbeit
+komplex, aber bereits umfangreich genug, um ein Script für diese Arbeit
 einzusetzen.</p>
 
 <p>Provider setzen auf diese Art der Shared Installation, um freie Serendipity-Blogs für Interessierte zu
