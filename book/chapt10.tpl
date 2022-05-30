@@ -7868,6 +7868,39 @@ machen könnte.</p>
 könnten aggregierte Blog-Übersichtsseiten erzeugt werden, oder ein zentrales
 SQL-Datenbank-Interface, um SQL-Abfragen für alle <em>Shared Blogs</em> auszuführen.</p>
 
+<p>Sollten Sie also selbst für das Upgrade der Hauptinstallation sorgen, müssen Sie (gegebenfalls)
+auch ein Upgrade der Shared Installationen vornehmen.</p>
+
+<p>Der Unterschied zwischen dem Kopieren oder Verknüpfen des Vorlagen- oder Plugin-Ordners
+ist ja eben auch ein Wartungsproblem. Jedes Mal, wenn Sie die Kernbibliotheken von Serendipity
+aktualisieren, kann es vorkommen, dass sich der Code der verteilten Vorlagen oder Plugins
+geändert haben könnte. Wenn Sie diese Verzeichnisse kopiert haben, müssen Sie die neuen
+Dateien in jedes der Benutzerverzeichnisse kopieren. Wenn Sie die Verzeichnisse aber nur verknüpft
+haben, ist es für jeden Benutzer sofort gleich. Es wird empfohlen, die Verzeichnisse zu
+verknüpfen, aber das hängt von Ihrem Betriebssystem und Ihrer Berechtigungsstruktur ab.
+Natürlich kann ein "Shared-Library-Benutzer" auf diese Weise nicht seine eigenen Vorlagen
+in dem verknüpften Verzeichnis speichern, so dass dies einen Verlust an Individualisierung
+bedeutet.</p>
+
+<p>Für den späteren Verwaltungszugriff empfiehlt es sich, eine Liste aller URLs für die von
+Serendipity verwalteten Blogs zu führen. Wir schlagen vor, eine SQL-Tabelle wie 'my_managed_s9y_blogs' zu erstellen.</p>
+
+<pre><code>sql&gt; CREATE TABLE my_managed_s9y_blogs (url varchar(255) default null);<br>
+sql&gt; INSERT INTO my_managed_s9y_blogs (url) VALUES ('http://garvin.s9yblogs.org/');<br>
+sql&gt; INSERT INTO my_managed_s9y_blogs (url) VALUES ('http://j.s9yblogs.org/');<br>
+sql&gt; INSERT INTO my_managed_s9y_blogs (url) VALUES ('http://tom.s9yblogs.org/');</code></pre>
+
+<p>Jetzt sind Sie fast startklar. Wir gehen davon aus, dass jeder Benutzer Zugang zu einer
+separaten SQL-Datenbank hat, in der später seine Blog-Daten gespeichert werden. Sie sehen bereits,
+dass es nicht schwer sein sollte, die oben genannten Schritte in eine angepasste script.sh-Datei
+für Ihre Einrichtung zu übertragen.</p>
+
+<p>Öffnen Sie Ihre <code>http://garvin.s9yblogs.org/</code> Datei. Sie sollten nun den
+Installationsbildschirm von s9y sehen. Geben Sie den Datenbank- und Benutzernamen und das
+entsprechende Passwort ein. Alles andere können Sie dem Benutzer überlassen.</p>
+
+<p>Jetzt kann jeder Benutzer sein Blog so verwalten, als wäre es eine eigenständige Installation.</p>
+
 </section><!-- section.sub end -->
 
 </section><!-- section.index end -->
