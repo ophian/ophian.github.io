@@ -7585,7 +7585,7 @@ Beispiel haben wir FTP-Zugriff auf folgende Verzeichnisse:</p>
 In diese Verzeichnisse kopieren wir später das Grundgerüst von Serendipity,
 die sogenannten <em>Deployments</em>.</p>
 
-<article id="XU" class="subsub">
+<article id="XU10911" class="subsub">
 
 <header>
     <h4 class="subarticle" id="1-einrichtung-des-core">1. Einrichtung des Core</h4>
@@ -7616,7 +7616,7 @@ keine Zugangsdaten zu einer Datenbank oder Weiteres.</p>
 
 </article>
 
-<article id="XU" class="subsub">
+<article id="XU10912" class="subsub">
 
 <header>
     <h4 class="subarticle" id="2-einrichtung-der-deployments">2. Einrichtung der Deployments</h4>
@@ -7669,7 +7669,7 @@ require_once 's9y/index.php';<br>
 
 </article>
 
-<article id="XU" class="subsub">
+<article id="XU10913" class="subsub">
 
 <header>
     <h4 class="subarticle" id="3-für-einbindung-des-core-sorgen">3. Für Einbindung des Core sorgen</h4>
@@ -7714,7 +7714,7 @@ Dateien des Deployments festgelegt <code>s9y</code>.</p>
 
 </article>
 
-<article id="XU" class="subsub">
+<article id="XU10914" class="subsub">
 
 <header>
     <h4 class="subarticle" id="4-weitere-verzeichnisse-anlegen">4. Weitere Verzeichnisse anlegen</h4>
@@ -7778,7 +7778,7 @@ definierten Ordnerpfade für Ihr Deployment liegen.</p>
 
 </article>
 
-<article id="XU" class="subsub">
+<article id="XU10915" class="subsub">
 
 <header>
     <h4 class="subarticle" id="5-installation-der-deployments-ausführen">5. Installation der Deployments ausführen</h4>
@@ -7814,7 +7814,7 @@ das autoupdate Plugin als Beispiel) bereits lokal im Kern Plugin-Verzeichnis vor
 
 </article>
 
-<article id="XU" class="subsub">
+<article id="XU10916" class="subsub">
 
 <header>
     <h4 class="subarticle" id="6-betrieb-der-deployments">6. Betrieb der Deployments</h4>
@@ -7823,7 +7823,6 @@ das autoupdate Plugin als Beispiel) bereits lokal im Kern Plugin-Verzeichnis vor
 <p>Alle Deployments sind nun aufgrund ihrer eigenen Datenbanktabellen und
 Konfigurationsdateien unabhängig voneinander. Über die jeweilige
 <code>serendipity_admin.php</code>-URL können diese Deployments verwaltet werden.</p>
-
 
 <p>Übrigens können Sie mehrere bestehende <em>normale</em> Serendipity-Blogs auf
 einem Server mit geringfügigem Aufwand auch in <em>Shared Installations</em> umwandeln.</p>
@@ -7838,6 +7837,40 @@ in Zukunft aus dem <em>Core-Verzeichnis</em> bezogen. Die Verzeichnisse
 <code>templates</code> und <code>plugins</code> sollten Sie beibehalten, ebenso wie die
 Konfigurationsdateien <code>serendipity_config_local.inc.php</code> und <code>.htaccess</code>.
 </p>
+
+</article>
+
+<article id="XU10917" class="subsub">
+
+<header>
+    <h4 class="subarticle" id="7-update-der-deployments">7. Update der Deployments</h4>
+</header>
+
+<p>Alle Deployments können sich selbst mittels des <code>serendipity_event_autoupdate</code> Plugins
+in vollständig eigenständige Blog Installationen umwandeln. Dazu muss nur der Upgrade Prozeß aus den
+jeweiligen Shared Installationen gestartet werden, und jedes dieser ehemals beschränkten Deployments
+wird eine vollständige Kopie der neuen Serendipity Version erhalten.</p>
+
+<p>Als Anbieter von s9y-Blogs für Ihre Benutzer sollten Sie die Blogs der Benutzer aber selbst migrieren.
+Dazu ist es am besten, wenn Sie immer ein "Ersatz"-Test-Blog genau wie die Blogs Ihrer Benutzer installiert
+haben.</p>
+
+<p>Öffnen Sie diese Installation und sehen Sie sich den Upgrader an. Führen Sie ihn aus und überprüfen
+Sie, ob er ohne Fehler abgeschlossen wurde und ob eventuell spätere Nachfolgearbeiten anstehen.
+Wenn dies der Fall ist, und Sie sich und alle weiteren abhängigen Blogs hinter einen sicheren
+Vorhang begeben haben (<code>.htaccess</code> auth login lock), sollten Sie eine Liste ALLER von s9y verwalteten
+Blogs etwa wie folgt durchlaufen:</p>
+
+<pre><code>&lt;?php<br>
+$sql = mysqli_query($mysqli, 'SELECT url FROM my_managed_s9y_blogs');<br>
+while ($row = mysqli_fetch_array($sql, MYSQLI_ASSOC)) {<br>
+&nbsp;&nbsp;&nbsp;&nbsp;$fp = fopen($row['url'] . 'serendipity_admin.php?serendipity[action]=upgrade');</br>
+}<br>
+?&gt;</code></pre>
+
+<p>Über die jeweilige <code>serendipity_admin.php</code>-URL können diese Deployments verwaltet werden.
+Im Grunde genommen müssen Sie dieses Skript also nur für jeden von s9y betriebenen Blog aufrufen, den
+Sie hosten und den Upgrade Prozeß für diesen abschließen.</p>
 
 </article>
 
