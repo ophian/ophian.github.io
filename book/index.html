@@ -55941,7 +55941,10 @@ können. Die Kern Plugins liegen im Kern <code>styx</code> Verzeichnis, während
 
 <p>Dasselbe gilt für das Verzeichnis <code>templates</code>. Dieses müssen Sie auch
 entweder symbolisch vom <em>Core</em>-Verzeichnis in das jeweilige
-<em>Deployment</em> verknüpfen oder kopieren.</p>
+<em>Deployment</em> verknüpfen oder kopieren. Zu beachten ist die Abwägung zwischen
+Wartung und Nutzung. Die Verknüpfung über einen symbolischen Links spart zwar einiges
+an Redundanz und Folgearbeiten bei einem Gesamtupgrade, dafür nimmt es den Userblogs
+die Möglichkeit eines selbsterstellten bzw. veränderten Themes, also ihre Individualisierung.</p>
 
 <p>Unter Linux sind symbolische Links (Symlink) über die "Konsole / Terminal" ja etwas quasi Alltägliches
 und werden häufig genutzt ("Kommando &lt;echte Datei&gt; &lt;Symlink Datei&gt;").
