@@ -7847,11 +7847,27 @@ Konfigurationsdateien <code>serendipity_config_local.inc.php</code> und <code>.h
 </header>
 
 <p>Alle Deployments können sich selbst mittels des <code>serendipity_event_autoupdate</code> Plugins
-in vollständig eigenständige Blog Installationen umwandeln. Dazu muss nur der Upgrade Prozeß aus den
+in fast vollständig eigenständige Blog Installationen umwandeln. Dazu muss nur der Upgrade Prozeß aus den
 jeweiligen Shared Installationen gestartet werden, und jedes dieser ehemals beschränkten Deployments
-wird eine vollständige Kopie der neuen Serendipity Version erhalten.</p>
+wird eine vollständige Kopie der neuen Serendipity Version erhalten. Als Verweise auf die Kern-Installation
+und ihren Pfad verbleiben aber die zuvor als Symlink estellten symbolischen Verzeichnisse bestehen.
+Das Upgrade der einzelnen Deployment Installation wird dann die potentiell neueren (zB. Template) Vorlagen
+des Upgrades statt in den Deployment Ordner in das Kern-Verzeichnis hinein kopieren - das damit eine
+Art Teil-Update erhält. Wenn sich nun in diesem Teil etwas geändert hat und Bezug auf eine andere
+Kernkomponente (zB. eine neue Sprachkonstante) nimmt, kann eine andere, noch nicht upgedate
+Deployment-Installation zu Fehlern führen, da sie dann unter Umständen die neuen Template Dateien
+bereits nutzt aber selbst (bzw. ihr Kerns-System) noch nicht über das eigentliche Kern Update (bzw. die
+neue Sprachkonstante) verfügt.</p>
 
-<p>Als Anbieter von s9y-Blogs für Ihre Benutzer sollten Sie die Blogs der Benutzer aber selbst migrieren.
+<p>Sie sehen also, es ist verzwickt. Entweder muss ein einzelnes Deployment-Upgrade verhindert werden,
+oder man geht damit das enthaltene Risiko einer potentiellen Fehlermeldung oder gar Unererreichbarkeit
+eines bestimmten Teils für die anderen Deployments ein, bis Sie selbst als Betreiber darauf hingewiesen
+werden bzw. die Möglichkeit haben zu reagieren. Für eine Verhinderung im Vorwege gibt es leider noch kein
+schlüssiges und allgemeines Konzept. Oder es muss kommuniziert werden auf ein Deployment Upgrade für die
+einzelnen Blogs zu verzichten. Allerdings kann dies durchaus geschehen, wenn im Vorwege aus den Symlink
+Ordnern eigenständige Ordner gemacht werden.</p>
+
+<p>Als Anbieter von s9y-Blogs für Ihre Benutzer sollten Sie die Blogs der Benutzer daher selbst migrieren.
 Dazu ist es am besten, wenn Sie immer ein "Ersatz"-Test-Blog genau wie die Blogs Ihrer Benutzer installiert
 haben.</p>
 
