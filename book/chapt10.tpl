@@ -7869,13 +7869,12 @@ Ordnern eigenständige Ordner gemacht werden.</p>
 
 <p>Als Anbieter von s9y-Blogs für Ihre Benutzer sollten Sie die Blogs der Benutzer daher selbst migrieren.
 Dazu ist es am besten, wenn Sie immer ein "Ersatz"-Test-Blog genau wie die Blogs Ihrer Benutzer installiert
-haben.</p>
+und Sie sich und alle weiteren abhängigen Blogs hinter einen sicheren Vorhang begeben haben
+(<code>.htaccess</code> auth login lock).</p>
 
 <p>Öffnen Sie diese Installation und sehen Sie sich den Upgrader an. Führen Sie ihn aus und überprüfen
 Sie, ob er ohne Fehler abgeschlossen wurde und ob eventuell spätere Nachfolgearbeiten anstehen.
-Wenn dies der Fall ist, und Sie sich und alle weiteren abhängigen Blogs hinter einen sicheren
-Vorhang begeben haben (<code>.htaccess</code> auth login lock), sollten Sie eine Liste ALLER von s9y verwalteten
-Blogs etwa wie folgt durchlaufen:</p>
+Wenn dies der Fall ist, sollten Sie eine Liste ALLER von s9y verwalteten Blogs etwa wie folgt durchlaufen:</p>
 
 <pre><code>&lt;?php<br>
 $sql = mysqli_query($mysqli, 'SELECT url FROM my_managed_s9y_blogs');<br>
