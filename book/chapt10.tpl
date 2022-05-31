@@ -7853,7 +7853,7 @@ Konfigurationsdateien <code>serendipity_config_local.inc.php</code> und <code>.h
 in fast vollständig eigenständige Blog Installationen umwandeln. Dazu muss nur der Upgrade Prozeß aus den
 jeweiligen Shared Installationen gestartet werden, und jedes dieser ehemals beschränkten Deployments
 wird eine vollständige Kopie der neuen Serendipity Version erhalten. Als Verweise auf die Kern-Installation
-und ihren Pfad verbleiben aber die zuvor als Symlink estellten symbolischen Verzeichnisse bestehen.
+und ihren Pfad verbleiben aber die zuvor als Symlink erstellten symbolischen Verzeichnisse bestehen.
 Das Upgrade der einzelnen Deployment Installation wird dann die potentiell neueren (zB. Template) Vorlagen
 des Upgrades statt in den Deployment Ordner in das Kern-Verzeichnis hinein kopieren - das damit eine
 Art Teil-Update erhält. Wenn sich nun in diesem Teil etwas geändert hat und Bezug auf eine andere
@@ -7863,7 +7863,7 @@ bereits nutzt, aber selbst (bzw. ihr Shared-Kerns-System) noch nicht über das e
 (bzw. die neue Sprachkonstante) verfügt.</p>
 
 <p>Sie sehen also, es ist verzwickt. Entweder muss ein einzelnes Deployment-Upgrade verhindert werden,
-oder man geht damit das enthaltene Risiko einer potentiellen Fehlermeldung oder gar Unererreichbarkeit
+oder man geht damit das enthaltene Risiko einer potentiellen Fehlermeldung oder gar Unerreichbarkeit
 eines bestimmten Teils für die anderen Deployments ein, bis Sie selbst als Betreiber darauf hingewiesen
 werden bzw. die Möglichkeit haben zu reagieren. Für eine Verhinderung im Vorwege gibt es leider noch kein
 schlüssiges und allgemeines Konzept. Oder es muss kommuniziert werden auf ein Deployment Upgrade für die
@@ -7920,7 +7920,7 @@ machen könnte.</p>
 könnten aggregierte Blog-Übersichtsseiten erzeugt werden, oder ein zentrales
 SQL-Datenbank-Interface, um SQL-Abfragen für alle <em>Shared Blogs</em> auszuführen.</p>
 
-<p>Sollten Sie also selbst für das Upgrade der Hauptinstallation sorgen, müssen Sie (gegebenfalls)
+<p>Sollten Sie also selbst für das Upgrade der Hauptinstallation sorgen, müssen Sie (gegebenenfalls)
 auch ein Upgrade der Shared Installationen vornehmen.</p>
 
 <p>Der Unterschied zwischen dem Kopieren oder Verknüpfen des Vorlagen- oder Plugin-Ordners
