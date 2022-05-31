@@ -7934,6 +7934,9 @@ entsprechende Passwort ein. Alles andere können Sie dem Benutzer überlassen.</
 
 <p>Jetzt kann jeder Benutzer sein Blog so verwalten, als wäre es eine eigenständige Installation.</p>
 
+<p>Natürlich sollten Sie aus Sicherheitsgründen die open_basedir-Direktive auf das Dokumentenstammverzeichnis
+des Benutzers setzen, damit dieser nicht auf andere Installationen auf Ihrem Host zugreifen kann.</p>
+
 </section><!-- section.sub end -->
 
 </section><!-- section.index end -->
