@@ -108,7 +108,7 @@
 
 <p>You can install ONE s9y distribution and manage multiple users on it by sharing the core files and then deploying specially crafted files in each user’s directory.</p>
 
-<p>Let’s do this using an example. You own the domain ‘s9yblogs.org’. You want to have multiple virtual hosts for as many users as you like. They are going to be called ‘username.s9yblogs.org’. We choose the users ‘garvin’, ‘j’ and ‘tom’ for example hosts. We assume that your webserver runs as user ‘www’, group ‘www’. We also assume that all your users are called like the subdomains, and they are also in group ‘www’. We further assume that PHP’s safe_mod is turned off.</p>
+<p>Let’s do this using an example. You own the domain ‘s9yblogs.org’. You want to have multiple virtual hosts for as many users as you like. They are going to be called ‘username.s9yblogs.org’. We choose the users ‘garvin’, ‘j’ and ‘tom’ for example hosts. We assume that your webserver runs as user ‘www’, group ‘www’. We also assume that all your users are called like the subdomains, and they are also in group ‘www’. We further assume that PHP’s safe_mod is turned off. Give secured sFTP access to your blog users for the tokenized deployment installs.</p>
 
 <p>Of course, for security reasons, you should set the open_basedir directive to the user’s document root, so he can’t access other installations on your host.</p>
 
