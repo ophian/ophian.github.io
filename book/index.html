@@ -55934,18 +55934,18 @@ es am besten, dieses Verzeichnis symbolisch zu verlinken. Wenn Ihr
 Server/Provider dies nicht unterstützt, müssen Sie das komplette
 <code>plugins</code>-Verzeichnis einfach kopieren.</p>
 
-<p>Andererseits geben Sie dem Deployment einfach ein leeres und beschreibbares
-<code>plugins</code> Verzeichnis, analog zu den drei bereits genannten, damit
-dort über Spartacus remote installierte Plugin-Programme hinein installiert werden
-können. Die Kern Plugins liegen im Kern <code>styx</code> Verzeichnis, während die
+<p>Andererseits - und das ist die empfohlene Methode - geben Sie dem Deployment einfach
+ein leeres und beschreibbares <code>plugins</code> Verzeichnis, analog zu den drei bereits
+genannten, damit dort über Spartacus remote installierte Plugin-Programme hinein installiert
+werden können. Die Kern Plugins liegen im Kern <code>styx</code> Verzeichnis, während die
 "auswärtig" geholten Plugins eines jeden Deployments im eigenen Deployment Ordner liegen.</p>
 
-<p>Dasselbe gilt für das Verzeichnis <code>templates</code>. Dieses müssen Sie auch
-entweder symbolisch vom <em>Core</em>-Verzeichnis in das jeweilige
-<em>Deployment</em> verknüpfen oder kopieren. Zu beachten ist die Abwägung zwischen
-Wartung und Nutzung. Die Verknüpfung über einen symbolischen Links spart zwar einiges
-an Redundanz und Folgearbeiten bei einem Gesamtupgrade, dafür nimmt es den Userblogs
-die Möglichkeit eines selbsterstellten bzw. veränderten Themes, also ihre Individualisierung.</p>
+<p>Ähnliches gilt für das Verzeichnis <code>templates</code>. Dieses müssen Sie auch
+entweder symbolisch vom <em>Core</em>-Verzeichnis in das jeweilige <em>Deployment</em>
+verknüpfen oder mit Inhalt kopieren. Zu beachten ist die Abwägung zwischen Wartung und
+Nutzung. Die Verknüpfung über einen symbolischen Links spart zwar einiges an Redundanz
+und Folgearbeiten bei einem Gesamtupgrade, dafür nimmt es den Userblogs aber die
+Möglichkeit eines selbsterstellten bzw. veränderten Themes, also ihre Individualisierung.</p>
 
 <p>Unter Linux sind symbolische Links (Symlink) über die "Konsole / Terminal" ja etwas quasi Alltägliches
 und werden häufig genutzt ("Kommando &lt;echte Datei&gt; &lt;Symlink Datei&gt;").
