@@ -152,6 +152,7 @@
 
 <ul>
   <li>“/usr/local/lib/php/s9y/deployment/” [core redirection files]</li>
+  <li>“/usr/local/lib/php/s9y/docs/” [for maintenance section access]</li>
   <li>“/usr/local/lib/php/s9y/templates/” [templates so that users can change them - depends on your plugin usage!]</li>
   <li>“/usr/local/lib/php/s9y/plugins/” [certain plugins refer to HTTP-images]</li>
 </ul>
@@ -161,10 +162,12 @@
 <pre><code>$ cp -r /usr/local/lib/php/s9y/deployment/* /home/www/garvin.s9yblogs.org/htdocs/
 
 /* Either COPY: */
+$ cp -r /usr/local/lib/php/s9y/docs /home/www/garvin.s9yblogs.org/htdocs/
 $ cp -r /usr/local/lib/php/s9y/templates /home/www/garvin.s9yblogs.org/htdocs/
 $ cp -r /usr/local/lib/php/s9y/plugins /home/www/garvin.s9yblogs.org/htdocs/
 
 /* Or LINK: */
+$ ln -s -d /usr/local/lib/php/s9y/docs /home/www/garvin.s9yblogs.org/htdocs/docs
 $ ln -s -d /usr/local/lib/php/s9y/templates /home/www/garvin.s9yblogs.org/htdocs/templates
 $ ln -s -d /usr/local/lib/php/s9y/plugins /home/www/garvin.s9yblogs.org/htdocs/plugins
 
@@ -175,6 +178,7 @@ $ chmod ug+rwx /home/www/garvin.s9yblogs.org/htdocs/uploads/
 
 /* See above if you only want to link the subdirectories */
 $ cp -r /usr/local/lib/php/s9y/deployment/* /home/www/j.s9yblogs.org/htdocs/
+$ cp -r /usr/local/lib/php/s9y/docs /home/www/j.s9yblogs.org/htdocs/
 $ cp -r /usr/local/lib/php/s9y/templates /home/www/j.s9yblogs.org/htdocs/
 $ chown -R j.www /home/www/j.s9yblogs.org/htdocs/*
 $ chmod ug+rwx /home/www/j.s9yblogs.org/htdocs
@@ -182,12 +186,13 @@ $ chmod ug+rwx /home/www/j.s9yblogs.org/htdocs/uploads/
 
 /* See above if you only want to link the subdirectories */
 $ cp -r /usr/local/lib/php/s9y/deployment/* /home/www/tom.s9yblogs.org/htdocs/
+$ cp -r /usr/local/lib/php/s9y/docs /home/www/tom.s9yblogs.org/htdocs/
 $ cp -r /usr/local/lib/php/s9y/templates /home/www/tom.s9yblogs.org/htdocs/
 $ chown -R tom.www /home/www/tom.s9yblogs.org/htdocs/*
 $ chmod ug+rwx /home/www/tom.s9yblogs.org/htdocs
 $ chmod ug+rwx /home/www/tom.s9yblogs.org/htdocs/uploads/</code></pre>
 
-<p>The difference between copying or linking the <strong>templates</strong> or <strong>plugins</strong> folder is a maintenance issue. Whenever you upgrade the core s9y libraries, it could happen that the distributed templates or plugins code could have changed. Now you only copied those directories, you need to copy the new files inside each of the user’s directories. If you only linked them, it will be instantly all the same for every user. It is recommended to link the directories, but that depends on your OS and permission structure. Of course this way a “shared library user” cannot store his own templates inside the linked directory, so this is at a loss of individualization.</p>
+<p>The difference between copying or linking the <strong>templates</strong> or <strong>plugins</strong> folder is a maintenance issue. Whenever you upgrade the core s9y libraries, it could happen that the distributed templates or plugins code could have changed. Now you only copied those directories, you need to copy the new files inside each of the user’s directories. If you only linked them, it will be instantly all the same for every user. It is recommended to link the directories, but that depends on your OS and permission structure. Of course this way a “shared library user” cannot store his own templates or plugins inside the linked directory, so this is a definite loss of individualization.</p>
 
 <p>For later management access, it is advised you keep a list of all URLs for your s9y-managed blogs. We suggest to create a SQL table like ‘my_managed_s9y_blogs’:</p>
 
