@@ -7871,7 +7871,15 @@ Upgrade durch die einzelnen Blogs zu verzichten. Allerdings kann dies aber durch
 im Vorwege aus den Symlink Ordnern eigenständige Ordner gemacht wurden. (Achten Sie dabei aber darauf,
 dass nicht ausversehen der Ziel Ordner der Shared Installation gelöscht wird, wenn Sie den Symlink entfernen!)</p>
 
-<p>Als Anbieter von s9y-Blogs für Ihre Benutzer sollten Sie die Blogs der Benutzer daher selbst migrieren.
+<p>Ab <span class="mbold">Serendipity Styx 3.9.0</span> - welches generell die <span class="mbold">Shared Installation</span> wieder
+zugänglich macht und auf den neuesten Stand gebracht hat - und dem <code>serendipity_event_autoupdate</code>
+Plugin v.1.9.0 ist das oben genannte Problem aber hoffentlich gelöst, denn das autoupdate Plugin ab Version 1.9.0
+kann nun die beiden Symlink Verzeichnisse (<code>docs</code> und <code>templates</code>) als solche erkennen,
+löschen und als normales Verzeichnis für das System Update neu erstellen. Damit ist das einzelne Deployment-Upgrade
+über das autoupdate Plugin nun komplett eigenständig und kann von Ihnen, als Betreiber einer <em>Shared Installation</em>,
+aus der Liste der zu pflegenden Blogs wieder herausgenommen werden. Checken Sie also regelmäßig auf solche <em>Singularitäten</em>.</p>
+
+<p>Als Anbieter von s9y-Blogs für Ihre Benutzer sollten Sie die Blogs der Benutzer <em>- je nachdem -</em> daher selbst migrieren.
 Dazu ist es am besten, wenn Sie immer ein "Ersatz"-Test-Blog genau wie die Blogs Ihrer Benutzer installiert
 und Sie sich und alle weiteren abhängigen Blogs hinter einen sicheren Vorhang begeben haben
 (<code>.htaccess</code> auth login lock).</p>
