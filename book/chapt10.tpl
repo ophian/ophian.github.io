@@ -3586,7 +3586,7 @@ Wir bitten Sie darum, Ihre <span class="mbold">security reports</span> via
 E-mail an den Maintainer zu schicken, damit dieser das Issue zuweisen und die
 Koordination eines verantwortlichen <em>Disclosures</em> zusammen mit Ihnen
 abstimmen kann. Das Team gibt immer den Dank an die Person zurück, die uns
-olch einen Bug oder ein solches Sicherheitsloch meldet.
+solch einen Bug oder ein solches Sicherheitsloch meldet.
 Wir reagieren meist innerhalb von 24 Stunden nachdem Sie mit uns in Kontakt
 getreten sind und sprechen mit Ihnen detailliert den weiteren Vorgang ab.</p>
 
