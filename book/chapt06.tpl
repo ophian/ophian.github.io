@@ -6827,7 +6827,7 @@ rechts, zentriert, ohne Ausrichtung</span>).</span>
 </p>
 
 <p class="desc">
-<span class="item mbold">Nur die erste Mediendatei an den Feed Eintrag hängen</span><!-- menuitem -->
+<span class="item mbold">Erste Mediendatei an den Feed Eintrag hängen</span><!-- menuitem -->
 <span class="desc-info">Laut Spezifikation unterstützt ein RSS-Feed nur eine einzelne Mediendatei pro
 Artikel. Daher können Sie diese Option aktivieren, um auch beim Anhängen mehrerer
 Mediendateien nur die erste davon in den Feed einzubinden.</span>
@@ -6842,7 +6842,7 @@ unten).</span>
 </p>
 
 <p class="desc">
-<span class="item mbold">Einbettung der Medien aus erweiterten Artikel Attributen</span><!-- menuitem -->
+<span class="item mbold">Medien aus erweiterten Artikel Attributen einbetten</span><!-- menuitem -->
 <span class="desc-info">
     <span class="box">
         In dem Ausklappfeld <span class="mbold">Einbettung der Medien aus erweiterten Artikel
