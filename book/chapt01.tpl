@@ -623,7 +623,7 @@ Serendipity:</p>
 
         <span class="box">
             Ebenso wichtig ist, dass Ihr Serversystem mindestens <code>openSSL</code> ab
-            Version 1.1.1d (Debian Buster) einsetzt, damit keine Kompromisse bei der
+            Version 1.1.1d (zB. in Debian Buster) einsetzt, damit keine Kompromisse bei der
             Verschlüsselungsstärke für "langlebig" gespeicherte Auto-Logins (siehe Wartung)
             gemacht werden müssen.
         </span>
