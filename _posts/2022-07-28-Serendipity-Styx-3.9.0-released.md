@@ -1,8 +1,13 @@
 ---
 layout: post
 title: Serendipity Styx 3.9.0 release
-last_modified_at: 2022-07-28T12:09:00+00:00
+last_modified_at: 2022-07-28T12:13:00+00:00
 ---
+
+### Summer Edition
+
+This mainly is a bugfix & maintenance release with extraordinary readiness for upcoming PHP 8.2.
+With PHP 8.2, the Styx AVIF image support is now complete, since not relaying to workarounds or having to disable certain image actions.
 
 ## Styx 3.9.0 contains
 
