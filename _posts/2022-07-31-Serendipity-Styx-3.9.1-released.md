@@ -1,10 +1,10 @@
 ---
 layout: post
 title: Serendipity Styx 3.9.1 release
-last_modified_at: 2022-08-01T11:23:00+00:00
+last_modified_at: 2022-07-31T13:00:00+00:00
 ---
 
-N° 2022/05 - The Serendipity Styx 3.9.1 release <img class="php8" src="/i/b/logo_php8_1.svg" alt="php8.1" width="160" height="48">+1
+N° 2022/05 - The Serendipity Styx 3.9.1 release <img class="php8" src="/i/b/logo_php8_1.svg" alt="php8.1" width="160" height="48">
 
 ### 3.9 Bugfix Edition
 
