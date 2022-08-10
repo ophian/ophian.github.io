@@ -756,6 +756,7 @@ die Option <code>AllowOverride</code> in der Webserver-Konfigurationsdatei zuzul
 <pre><code class="conf">
     &lt;Directory /pfad/zum/serendipity-verzeichnis&gt;<br>
     &nbsp; AllowOverride All<br>
+    &nbsp; Require all granted<br>
     &lt;/Directory&gt;
 </code></pre>
 
