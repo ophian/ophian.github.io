@@ -107,21 +107,24 @@
                     <ul id="markdown-toc">
                       <li><a href="#user-content-the-important-upgraders-howto---step-by-step-guide" id="toc-docs-user-content-the-important-upgraders-howto---step-by-step-guide">Guide to Upgrade</a></li>
                       <li><a href="#user-content-the-hitchhikers-guide-to-styx-backend-tuning" id="toc-docs-user-content-the-hitchhikers-guide-to-styx-backend-tuning">Styx Backend tuning</a></li>
+                      <li><a href="#normal-edition-upgrades" id="toc-docs-normal-edition-upgrades">Normal Edition upgrades</a></li>
                       <li><a href="#docs-install-the-easy-way" id="toc-docs-install-the-easy-way">Installation: The “easy way”</a>
-                      </li>
                         <ul id="install-toc">
-                          <li><a href="#docs-before-the-installation" id="toc-docs-before-the-installation">Before the installation</a>    <ul>
+                          <li><a href="#docs-before-the-installation" id="toc-docs-before-the-installation">Before the installation</a>
+                            <ul>
                               <li><a href="#docs-requirements" id="toc-docs-requirements">Requirements</a></li>
                               <li><a href="#docs-uploading-serendipity" id="toc-docs-uploading-serendipity">Uploading Serendipity</a></li>
                               <li><a href="#docs-permissions-on-filesdirectories" id="toc-docs-permissions-on-filesdirectories">Permissions on files/directories</a></li>
                             </ul>
                           </li>
-                          <li><a href="#docs-installing" id="toc-docs-installing">Installing</a>    <ul>
+                          <li><a href="#docs-installing" id="toc-docs-installing">Installing</a>
+                            <ul>
                               <li><a href="#docs-database-settings" id="toc-docs-database-settings">Database Settings</a></li>
                               <li><a href="#docs-general-settings" id="toc-docs-general-settings">General Settings</a></li>
                               <li><a href="#docs-complete-installation" id="toc-docs-complete-installation">Complete installation</a></li>
                               <li><a href="#docs-accessing-your-blog-frontend" id="toc-docs-accessing-your-blog-frontend">Accessing your Blog Frontend</a></li>
-                              <li><a href="#docs-accessing-the-admin-panel" id="toc-docs-accessing-the-admin-panel">Accessing the Admin panel</a>        <ul>
+                              <li><a href="#docs-accessing-the-admin-panel" id="toc-docs-accessing-the-admin-panel">Accessing the Admin panel</a>
+                                <ul>
                                   <li><a href="#docs-frontpage" id="toc-docs-frontpage">Frontpage</a></li>
                                   <li><a href="#docs-personal-settings" id="toc-docs-personal-settings">Personal Settings</a></li>
                                   <li><a href="#docs-content" id="toc-docs-content">Content</a></li>
@@ -135,15 +138,19 @@
                             </ul>
                           </li>
                         </ul>
+                      </li>
                     </ul>
 
-<h3 id="user-content-the-important-upgraders-howto---step-by-step-guide">The important Upgraders HowTo - Step by Step Guide:</h3>
+<h3 id="user-content-the-important-upgraders-howto---step-by-step-guide">The important migration Upgrade HowTo - Step by Step Guide:</h3>
 <p><strong>Preamble:</strong> (<em>If not using Styx already, and having done that before...</em>)</p>
-<p><strong>Please note</strong>: The more Serendipity Styx develops and time passes by, the more it differs from the origin, since the ongoing develpment has already more than doubled the commit changes against S9y Origin! The normal version upgrade manager includes all tasks which are necessary to successful proceed between versions until Serendipity S9y Origin 2.1.</p>
-<p>The following Guide here was originally meant to help migrating this "Origin-to-Styx" process to first Styx release 2.1.0, over to 2.2, 2.3 and 2.4.0. In a second step this was reworked for Serendipity Styx 2.6 better pointing you back to 2.4 for the autoupdater. By time Serendipity Styx stable hit version 2.9.5, it was checked again. The 2.9(.5) branch is the recommended version for upgraders! Do not do this Origin-to-Styx migrations with Styx 3.x releases, since a lot of helper tasks were removed! <strong>That said</strong>, if you are on Styx already, jumping to Styx 3.x will be as easy as ever.</p>
-<p><strong>Styx</strong> has come a long way with lots of changes. It would require to inspect and update this guide in deep to jump to latest release <strong>without any</strong> possible flaws for these migrational upgrades. Needless to say: Best of all is a complete <strong>new</strong> installation.</p>
+<h4>Migration of very old Serendipity S9y-Origin installations</h4>
+<p><strong>Please note</strong>: The more Serendipity Styx develops and time passes by, the more it differs from the origin, since the ongoing development has already more than doubled the commit changes against S9y Origin! The normal version upgrade manager until Styx 2.9.5 includes all tasks which are necessary to successful proceed between the two editions. With Serendipity S9y-Origin 2.1 + releases there were no migration routine(s) checked. This does not say they could not work too. It is just a matter of having upgrade tasks matching and taking the responsibility, so you don't destroy certain parts of your system.</p>
+<p>The following Guide was originally meant to help migrating this "Origin-to-Styx" process to the first Styx release 2.1.0, over to 2.2, 2.3 and then 2.4.0. In a second step this was reworked for Serendipity Styx 2.6, better pointing you back to 2.4 for the autoupdater plugin. By time, Serendipity Styx stable hit version 2.9.5, it was checked again. The 2.9(.5) revision branch is the recommended last version for simple drop-over migration upgraders! Do not do this Origin-to-Styx migrations with Styx 3.x releases, since a lot of helper tasks were removed! <strong>That said</strong>, if you are on Styx already, jumping to Styx 3.x will be as easy as ever.</p>
+<p><strong>Styx</strong> has come a long way with lots of changes. It would require to inspect and update this guide in deep to jump to latest release <strong>without any</strong> possible flaws for these migration upgrades. Needless to say: Best of all is a complete <strong>new</strong> installation.</p>
+<p>Starting from scratch enables "<em>hand-cared migrations</em> " too, since you may install the latest Styx release independently, make it run and include everything you have in your old Blog, like plugins, MediaLibrary uploads/ items and possible more, export you old database, edit the SQL file and then carefully fill up the <strong>new</strong> database tables one by one to include all necessary parts of your old install. It has successfully been done by users before! But you need a little knowledge which database items have dependencies in other database tables and which database parts and values can get ignored. This enables to have a clean system with clean structure and including your blogs history.</p>
+<p>But now, back to the guide:</p>
 
-<h4>Normal upgrade migration by named package (FTP or WGET like tools)</h4>
+<h4>Upgrade migration by named package (FTP or WGET like tools)</h4>
 <p>Did I already say: <strong><em>Back it up</em></strong>? No? Then fully backup your blog and your database!</p>
 <p>Get Styx 2.9.5 (‘serendipity-2.9.5.zip’) and deflate it. It will unzip to a "<code>serendipity/</code>" directory (<em>Note, that GitHub source zips are DEV versions and have another parent directory</em>).</p>
 <ul>
@@ -208,7 +215,7 @@
 
 <hr>
 
-<h3 id="user-content-the-hitchhikers-guide-to-styx-backend-tuning">The hitchhikers guide to Upgraders Styx Backend tuning:</h3>
+<h3 id="user-content-the-hitchhikers-guide-to-styx-backend-tuning">The hitchhikers guide to migration Upgraders Styx Backend tuning:</h3>
 
 <ol>
     <li>Open up your “<code>Personal Settings</code>”. See the force popup options is pre-filled with <code>links</code>. This means, the info button on the dashboard now opens some links embedded to the dashboard and another quick info hello box. If you like it, keep it. My preferred and recommended method here is: <code>links,categories,tags</code>. You'll notice the difference in the entry form.<br>Another recommended option to use, is setting "simplified filters" to <strong>NO</strong>. This enables extended filter possibilities, like the <em>un-mentioned</em> subdirectory exclude item filter in the MediaLibrary, which is a huge performance helper when having multi-directories and lots of images.</li>
@@ -240,6 +247,10 @@
 <p>Styx new <strong>modemaintain</strong> and <strong>changelog</strong> event plugins are available, plugged as <strong>maintenance widgets</strong>. <strong>Upgraders</strong> have to install them via Spartacus themselves. And at last, you should read the Styx ChangeLog. This can (then) be done easily via the Backends Maintenance page. :) Definitely!</p>
 
 <p>Fresh installs already supplied and activated the entryproperties, changelog and modemaintain plugins for you ... among others!</p>
+
+<h3 id="normal-edition-upgrades">Normal in-Styx Edition Upgrades</h3>
+
+<p>Deflate a new Styx release zip items to your current installation, open up your Blog and then follow the presented update routine or use the autoupdate plugin, which does that easy and automatically for you.</p>
 
 <h3 id="docs-install-the-easy-way">Fresh Installation</h3>
 
