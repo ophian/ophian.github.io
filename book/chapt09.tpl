@@ -3511,73 +3511,73 @@ die Variable <code class="smarty">{$ENTRIES}</code> mittels der Datei <code>entr
 
         <span class="box"><code class="sub-item smarty">{$admin_vars.no_create}</code>
             <span class="sub-box">
-				<span class="smarty-type"><em>Variablentyp:</em> <code class="type">Boolean</code></span>
-		    </span>
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Boolean</code></span>
+            </span>
             <span class="sub-box">
                 Bei eingeloggten Benutzern, die keine Rechte haben, Einträge zu erstellen (siehe
                 Seite <span class="pageref"><a href="#no-create">no-create</a></span>), enthält diese Variable den Wert <code>true</code>.
                 In diesem Fall werden viele der Menüpunkte des Backends ausgeblendet.
-			</span>
+            </span>
         </span>
 
         <span class="box"><code class="sub-item smarty">{$admin_vars.version_info}</code>
             <span class="sub-box">
-				<span class="smarty-type"><em>Variablentyp:</em> <code class="type">Zeichenkette</code></span>
-		    </span>
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Zeichenkette</code></span>
+            </span>
             <span class="sub-box">
                 Enthält die HTML-Ausgabe der aktuellen Serendipity- und PHP-Version für den Footer des Backends.
-			</span>
+            </span>
         </span>
 
         <span class="box"><code class="sub-item smarty">{$admin_vars.css_file}</code>
             <span class="sub-box">
-				<span class="smarty-type"><em>Variablentyp:</em> <code class="type">Zeichenkette</code></span>
-		    </span>
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Zeichenkette</code></span>
+            </span>
             <span class="sub-box">
                 Enthält die URL zu der CSS-Datei (<code>style.css</code>), die das Stylesheet für das Backend einbindet.
-			</span>
+            </span>
         </span>
 
         <span class="box"><code class="sub-item smarty">{$admin_vars.admin_css_file}</code>
             <span class="sub-box">
-				<span class="smarty-type"><em>Variablentyp:</em> <code class="type">Zeichenkette</code></span>
-		    </span>
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Zeichenkette</code></span>
+            </span>
             <span class="sub-box">
                 Enthält die URL zu der CSS-Datei (<code>pluginmanager.css</code>), die ein
                 Stylesheet für die Plugin-Verwaltung des Backends einbindet.
-			</span>
+            </span>
         </span>
 
         <span class="box"><code class="sub-item smarty">{$admin_vars.main_content}</code>
             <span class="sub-box">
-				<span class="smarty-type"><em>Variablentyp:</em> <code class="type">Zeichenkette</code></span>
-		    </span>
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Zeichenkette</code></span>
+            </span>
             <span class="sub-box">
                 Enthält den HTML-Code für den Inhaltsbereich des Backends. Der Inhalt aller
                 Funktionen bis auf die Erstellung/Bearbeitung eines Artikels erfolgt nicht
                 mittels Smarty-Templates, sondern mit fest eingebautem PHP-Code, und kann daher nur
                 als zentrale Variable in das Grundgerüst der <code>admin/index.tpl</code>-Datei
                 eingebunden werden.
-			</span>
+            </span>
         </span>
 
         <span class="box"><code class="sub-item smarty">{$admin_vars.no_banner}</code>
             <span class="sub-box">
-				<span class="smarty-type"><em>Variablentyp:</em> <code class="type">Boolean</code></span>
-		    </span>
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Boolean</code></span>
+            </span>
             <span class="sub-box">
                 Gibt an, ob das Kopfbild im Backend-Bereich eingebunden werden soll. Mittels der
                 URL-Variable <code>serendipity_admin.php?serendipity[noBanner]=true</code> können
                 Plugins oder andere Teile des Backends bestimmen, ob dieser Bereich
                 aktiviert oder deaktiviert werden soll. Wenn <code class="item smarty">{$admin_vars.no_banner}</code>
                 den Wert <code>true</code> enthält, wird das Kopfbild nicht eingebunden.
-			</span>
+            </span>
         </span>
 
         <span class="box"><code class="sub-item smarty">{$admin_vars.no_sidebar}</code>
             <span class="sub-box">
-				<span class="smarty-type"><em>Variablentyp:</em> <code class="type">Boolean</code></span>
-		    </span>
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Boolean</code></span>
+            </span>
             <span class="sub-box">
                 Gibt an, ob das Menü der Seitenleiste im Backend-Bereich eingebunden werden
                 soll. Mittels der URL-Variable
@@ -3585,47 +3585,47 @@ die Variable <code class="smarty">{$ENTRIES}</code> mittels der Datei <code>entr
                 Plugins oder andere Bestandteile des Backends bestimmen, ob dieses Menü
                 aktiviert oder deaktiviert werden soll. Enthält <code class="item smarty">{$admin_vars.no_sidebar}</code>
                 den Wert <code>true</code>, werden alle Menüpunkte versteckt.
-			</span>
+            </span>
         </span>
 
         <span class="box"><code class="sub-item smarty">{$admin_vars.post_action}</code>
             <span class="sub-box">
-				<span class="smarty-type"><em>Variablentyp:</em> <code class="type">Zeichenkette</code></span>
-		    </span>
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Zeichenkette</code></span>
+            </span>
             <span class="sub-box">
                 Enthält die URL-Variable <code class="nobreak">$serendipity['POST']['action']</code>, um dessen Inhalt
                 innerhalb des Templates prüfen zu können. Diese Variable enthält Anweisungen,
                 welche Aktion im Backend gerade ausgeführt wird.
-			</span>
+            </span>
         </span>
 
         <span class="box"><code class="sub-item smarty">{$admin_vars.is_logged_in}</code>
             <span class="sub-box">
-				<span class="smarty-type"><em>Variablentyp:</em> <code class="type">Boolean</code></span>
-		    </span>
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Boolean</code></span>
+            </span>
             <span class="sub-box">
                 Enthält den Wert <code>true</code>, wenn der aktuelle Benutzer bereits eingeloggt ist.
-			</span>
+            </span>
         </span>
 
         <span class="box"><code class="sub-item smarty">{$admin_vars.admin_installed}, {$admin_vars.use_installer}</code>
             <span class="sub-box">
-				<span class="smarty-type"><em>Variablentyp:</em> <code class="type">Boolean</code></span>
-		    </span>
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Boolean</code></span>
+            </span>
             <span class="sub-box">
                 Enthält den Wert <code>true</code>, wenn Serendipity bereits installiert wurde. Ist
                 dieser Wert nicht gesetzt, wird die Installationsroutine von Serendipity aufgerufen.
-			</span>
+            </span>
         </span>
 
         <span class="box"><code class="sub-item smarty">{$admin_vars.self_info}</code>
             <span class="sub-box">
-				<span class="smarty-type"><em>Variablentyp:</em> <code class="type">Zeichenkette</code></span>
-		    </span>
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Zeichenkette</code></span>
+            </span>
             <span class="sub-box">
                 Enthält eine HTML-Ausgabe, die angibt, welchen Benutzerrang und Namen der
                 aktuell eingeloggte Benutzer hat.
-			</span>
+            </span>
         </span>
 
    </span>
@@ -5193,98 +5193,98 @@ nicht direkt freigeschaltet wird.
 
         <span class="box"><code class="sub-item smarty">{$metadata.title}</code>
             <span class="sub-box">
-				<span class="smarty-type"><em>Variablentyp:</em> <code class="type">Zeichenkette</code></span>
-		    </span>
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Zeichenkette</code></span>
+            </span>
             <span class="sub-box">
                 Enthält den Titel des RSS-Feeds (setzt sich aus gewählter Kategorie, Autoren und
                 Name des Blogs zusammen).
-			</span>
+            </span>
         </span>
 
         <span class="box"><code class="sub-item smarty">{$metadata.description}</code>
             <span class="sub-box">
-				<span class="smarty-type"><em>Variablentyp:</em> <code class="type">Zeichenkette</code></span>
-		    </span>
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Zeichenkette</code></span>
+            </span>
             <span class="sub-box">
                 Enthält eine Beschreibung des RSS-Feeds (abhängig von gewählter Kategorie,
                 Autoren und Beschreibung des Blogs).
-			</span>
+            </span>
         </span>
 
         <span class="box"><code class="sub-item smarty">{$metadata.language}</code>
             <span class="sub-box">
-				<span class="smarty-type"><em>Variablentyp:</em> <code class="type">Zeichenkette</code></span>
-		    </span>
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Zeichenkette</code></span>
+            </span>
             <span class="sub-box">
                 Enthält die Sprache des Blogs, zB. <code>de</code> für ein
                 deutschsprachiges Blog.
-			</span>
+            </span>
         </span>
 
         <span class="box"><code class="sub-item smarty">{$metadata.link}</code>
             <span class="sub-box">
-				<span class="smarty-type"><em>Variablentyp:</em> <code class="type">Zeichenkette</code></span>
-		    </span>
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Zeichenkette</code></span>
+            </span>
             <span class="sub-box">
                 Enthält die URL zum Blog.
-			</span>
+            </span>
         </span>
 
         <span class="box"><code class="sub-item smarty">{$metadata.email}</code>
             <span class="sub-box">
-				<span class="smarty-type"><em>Variablentyp:</em> <code class="type">Zeichenkette</code></span>
-		    </span>
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Zeichenkette</code></span>
+            </span>
             <span class="sub-box">
                 Enthält die konfigurierte E-Mail-Adresse des Blogs.
-			</span>
+            </span>
         </span>
 
         <span class="box"><code class="sub-item smarty">{$metadata.fullFeed}</code>
             <span class="sub-box">
-				<span class="smarty-type"><em>Variablentyp:</em> <code class="type">Boolean</code></span>
-		    </span>
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Boolean</code></span>
+            </span>
             <span class="sub-box">
                 Ist auf <code>true</code> gesetzt, wenn der RSS-Feed Artikel vollständig einbinden
                 soll. Wird beeinflusst durch das Plugin <em>Blog abonnieren</em> (siehe Seite <span class="pageref"><a href="#syndication">syndication</a></span>).
-			</span>
+            </span>
         </span>
 
         <span class="box"><code class="sub-item smarty">{$metadata.showMail}</code>
             <span class="sub-box">
-				<span class="smarty-type"><em>Variablentyp:</em> <code class="type">Boolean</code></span>
-		    </span>
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Boolean</code></span>
+            </span>
             <span class="sub-box">
                 Ist auf <code>true</code> gesetzt, wenn E-Mail-Adressen gültig eingebunden werden
                 sollen. Steht der Wert auf <code>false</code>, werden E-Mail-Adressen verschleiert.
                 Diese Variable wird beeinflusst durch die Konfiguration des
                 Anti-Spam-Plugins (siehe Seite <span class="pageref"><a href="#spamblock">spamblock</a></span>).
-			</span>
+            </span>
         </span>
 
         <span class="box"><code class="sub-item smarty">{$metadata.version}</code>
             <span class="sub-box">
-				<span class="smarty-type"><em>Variablentyp:</em> <code class="type">Zeichenkette</code></span>
-		    </span>
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Zeichenkette</code></span>
+            </span>
             <span class="sub-box">
                 Enthält die Versionsnummer des angeforderten Typs (zB. <code>2.0</code> für RSS 2.0,
                 oder <code>atom1.0</code> für Atom 1.0).
-			</span>
+            </span>
         </span>
 
         <span class="box"><code class="sub-item smarty">{$metadata.template_file}</code>
             <span class="sub-box">
-				<span class="smarty-type"><em>Variablentyp:</em> <code class="type">Zeichenkette</code></span>
-		    </span>
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Zeichenkette</code></span>
+            </span>
             <span class="sub-box">
                 Enthält den Namen der Smarty-Template-Datei, die für den jeweiligen Feed
                 verwendet wurde.
-			</span>
+            </span>
         </span>
 
         <span class="box"><code class="sub-item smarty">{$metadata.additional_fields}</code>
             <span class="sub-box">
-				<span class="smarty-type"><em>Variablentyp:</em> <code class="type">Eindimensionales Array</code></span>
-		    </span>
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Eindimensionales Array</code></span>
+            </span>
             <span class="sub-box">
                 Enthält etwaige Zusatzfelder, die durch Plugins hinzugefügt werden. Das
                 Plugin <em>Blog abonnieren</em> bindet Werte für folgende Array-Schlüssel ein:
@@ -5295,7 +5295,7 @@ nicht direkt freigeschaltet wird.
                 für die unterschiedlichen Versionen der Feed-Typen) und
                 <code class="item smarty">{$metadata.additional_fields.channel}</code> (Liste zusätzlicher XML-Elemente
                 wie <code>webMaster</code>, <code>ttl</code>, <code>pubDate</code>).
-			</span>
+            </span>
         </span>
 
     </span>
@@ -5324,132 +5324,132 @@ nicht direkt freigeschaltet wird.
 
         <span class="box"><code class="sub-item smarty">{$entries.X.feed_id}</code>
             <span class="sub-box">
-				<span class="smarty-type"><em>Variablentyp:</em> <code class="type">Zahl</code></span>
-		    </span>
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Zahl</code></span>
+            </span>
             <span class="sub-box">
                 Enthält die ID des Blog-Artikels, auf die sich ein Feed-Objekt (Kommentar oder
                 Blog-Eintrag) bezieht.
-			</span>
+            </span>
         </span>
 
         <span class="box"><code class="sub-item smarty">{$entries.X.feed_guid}</code>
             <span class="sub-box">
-				<span class="smarty-type"><em>Variablentyp:</em> <code class="type">Zeichenkette</code></span>
-		    </span>
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Zeichenkette</code></span>
+            </span>
             <span class="sub-box">
                 Enthält eine eindeutige ID für ein Feed-Objekt. Diese ID entspricht einer URL
                 (verkürzter Permalink), unter der sich das Feed-Objekt jederzeit aufrufen lässt.
-			</span>
+            </span>
         </span>
 
         <span class="box"><code class="sub-item smarty">{$entries.X.feed_entryLink}</code>
             <span class="sub-box">
-				<span class="smarty-type"><em>Variablentyp:</em> <code class="type">Zeichenkette</code></span>
-		    </span>
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Zeichenkette</code></span>
+            </span>
             <span class="sub-box">
                 Enthält den Permalink des Blog-Eintrags, auf den sich ein Feed-Objekt bezieht.
-			</span>
+            </span>
         </span>
 
         <span class="box"><code class="sub-item smarty">{$entries.X.feed_title}</code>
             <span class="sub-box">
-				<span class="smarty-type"><em>Variablentyp:</em> <code class="type">Zeichenkette</code></span>
-		    </span>
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Zeichenkette</code></span>
+            </span>
             <span class="sub-box">
                 Enthält den Titel eines Feed-Objekts. Sonderzeichen werden in
                 UTF-8 umgewandelt, etwaiger HTML-Code wird maskiert.
-			</span>
+            </span>
         </span>
 
         <span class="box"><code class="sub-item smarty">{$entries.X.feed_blogTitle}</code>
             <span class="sub-box">
-				<span class="smarty-type"><em>Variablentyp:</em> <code class="type">Zeichenkette</code></span>
-		    </span>
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Zeichenkette</code></span>
+            </span>
             <span class="sub-box">
                 Enthält den Titel des Blogs. Sonderzeichen werden in
                 UTF-8 umgewandelt, etwaiger HTML-Code wird maskiert.
-			</span>
+            </span>
         </span>
 
         <span class="box"><code class="sub-item smarty">{$entries.X.feed_author}</code>
             <span class="sub-box">
-				<span class="smarty-type"><em>Variablentyp:</em> <code class="type">Zeichenkette</code></span>
-		    </span>
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Zeichenkette</code></span>
+            </span>
             <span class="sub-box">
                 Enthält den Autorennamen eines Feed-Objekts. Sonderzeichen werden
                 in UTF-8 umgewandelt, etwaiger HTML-Code wird maskiert.
-			</span>
+            </span>
         </span>
 
         <span class="box"><code class="sub-item smarty">{$entries.X.feed_email}</code>
             <span class="sub-box">
-				<span class="smarty-type"><em>Variablentyp:</em> <code class="type">Zeichenkette</code></span>
-		    </span>
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Zeichenkette</code></span>
+            </span>
             <span class="sub-box">
                 Enthält die E-Mail-Adresse des Autors eines Feed-Objekts. Sonderzeichen
                 werden in UTF-8 umgewandelt, HTML-Code wird ggf. maskiert.
-			</span>
+            </span>
         </span>
 
         <span class="box"><code class="sub-item smarty">{$entries.X.feed_timestamp}</code>
             <span class="sub-box">
-				<span class="smarty-type"><em>Variablentyp:</em> <code class="type">Zeichenkette</code></span>
-		    </span>
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Zeichenkette</code></span>
+            </span>
             <span class="sub-box">
                 Enthält das Veröffentlichungsdatum eines Feed-Objekts im Format
                 <em>Jahr-Monat-Tag Stunde:Minute:Sekunde Zeitzone</em>.
-			</span>
+            </span>
         </span>
 
         <span class="box"><code class="sub-item smarty">{$entries.X.feed_last_modified}</code>
             <span class="sub-box">
-				<span class="smarty-type"><em>Variablentyp:</em> <code class="type">Zeichenkette</code></span>
-		    </span>
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Zeichenkette</code></span>
+            </span>
             <span class="sub-box">
                 Enthält das Datum der letzten Aktualisierung eines Feed-Objekts im Format
                 <em>Jahr-Monat-Tag Stunde:Minute:Sekunde Zeitzone</em>.
-			</span>
+            </span>
         </span>
 
         <span class="box"><code class="sub-item smarty">{$entries.X.feed_timestamp_r}</code>
             <span class="sub-box">
-				<span class="smarty-type"><em>Variablentyp:</em> <code class="type">Zeichenkette</code></span>
-		    </span>
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Zeichenkette</code></span>
+            </span>
             <span class="sub-box">
                 Enthält das Veröffentlichungsdatum eines Feed-Objekts im RFC-2822-Format [*]
                 <span class="footnote"><i class="fa fa-info-circle"></i> <a href="http://www.faqs.org/rfcs/rfc2822.html" target="_blank" rel="noopener">http://www.faqs.org/rfcs/rfc2822.html</a></span><!-- footnote -->.
-			</span>
+            </span>
         </span>
 
         <span class="box"><code class="sub-item smarty">{$entries.X.feed_body}</code>
             <span class="sub-box">
-				<span class="smarty-type"><em>Variablentyp:</em> <code class="type">Zeichenkette</code></span>
-		    </span>
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Zeichenkette</code></span>
+            </span>
             <span class="sub-box">
                 Enthält den Inhalt des Feed-Objekts. Sonderzeichen
                 werden in den UTF-8-Zeichensatz umgewandelt, HTML-Code wird ggf. maskiert.
-			</span>
+            </span>
         </span>
 
         <span class="box"><code class="sub-item smarty">{$entries.X.feed_ext}</code>
             <span class="sub-box">
-				<span class="smarty-type"><em>Variablentyp:</em> <code class="type">Zeichenkette</code></span>
-		    </span>
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Zeichenkette</code></span>
+            </span>
             <span class="sub-box">
                 Falls ein Blog-Artikel nur ausschnittweise im Feed enthalten ist, wird in
                 der Variable <code class="item smarty">{$entries.X.feed_ext}</code> ein HTML-Code für
                 einen Link zur detaillierten Ansicht des Artikels gespeichert. Sonderzeichen
                 werden in den UTF-8-Zeichensatz umgewandelt, etwaiger HTML-Code wird maskiert.
-			</span>
+            </span>
         </span>
 
         <span class="box"><code class="sub-item smarty">{$entries.X.per_entry_display_dat}</code>
             <span class="sub-box">
-				<span class="smarty-type"><em>Variablentyp:</em> <code class="type"></code></span>
-		    </span>
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type"></code></span>
+            </span>
             <span class="sub-box">
                 Enthält etwaige zusätzliche HTML/XML-Ausgaben von Ereignis-Plugins.
-			</span>
+            </span>
         </span>
 
     </span>
@@ -5588,13 +5588,13 @@ der Oberfläche zum Erstellen eines Blog-Artikels.</p>
         </span>
         <span class="box"><code class="sub-item smarty">{$entry_vars.draft_mode}</code>
             <span class="sub-box">
-				<span class="smarty-type"><em>Variablentyp:</em> <code class="type">Zeichenkette</code></span>
-		    </span>
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Zeichenkette</code></span>
+            </span>
             <span class="sub-box">
                 Gibt an, ob anhand der Voreinstellung des Redakteurs ein neuer Blog-Artikel als
                 <em>Veröffentlichung</em> (Wert <code>publish</code>) oder <em>Entwurf</em> (Wert
                 <code>draft</code>) erstellt werden soll.
-			</span>
+            </span>
         </span>
 
         <span class="tag-box invisible">
@@ -5602,13 +5602,13 @@ der Oberfläche zum Erstellen eines Blog-Artikels.</p>
         </span>
         <span class="box"><code class="sub-item smarty">{$entry_vars.moderate_comments}</code>
             <span class="sub-box">
-				<span class="smarty-type"><em>Variablentyp:</em> <code class="type">Boolean</code></span>
-		    </span>
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Boolean</code></span>
+            </span>
             <span class="sub-box">
                 Gibt an, ob anhand der Voreinstellung des Redakteurs neue Kommentare zu dem
                 erstellenden Blog-Artikel moderiert werden sollen (Wert <code>true</code>) oder nicht
                 (Wert <code>false</code>).
-			</span>
+            </span>
         </span>
 
         <span class="tag-box invisible">
@@ -5616,13 +5616,13 @@ der Oberfläche zum Erstellen eines Blog-Artikels.</p>
         </span>
         <span class="box"><code class="sub-item smarty">{$entry_vars.allow_comments}</code>
             <span class="sub-box">
-				<span class="smarty-type"><em>Variablentyp:</em> <code class="type">Boolean</code></span>
-		    </span>
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Boolean</code></span>
+            </span>
             <span class="sub-box">
                 Gibt an, ob anhand der Voreinstellung des Redakteurs Kommentare zu dem
                 erstellenden Blog-Artikel erstellt werden dürfen (Wert
                 <code>true</code>) oder nicht (Wert <code>false</code>).
-			</span>
+            </span>
         </span>
 
         <span class="tag-box invisible">
@@ -5630,13 +5630,13 @@ der Oberfläche zum Erstellen eines Blog-Artikels.</p>
         </span>
         <span class="box"><code class="sub-item smarty">{$entry_vars.category_options}</code>
             <span class="sub-box">
-				<span class="smarty-type"><em>Variablentyp:</em> <code class="type">Mehrdimensionales Array</code></span>
-		    </span>
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Mehrdimensionales Array</code></span>
+            </span>
             <span class="sub-box">
                 Enthält eine Liste aller dem Blog-Artikel zuweisbaren Kategorien. Jedes
                 Unter-Array enthält alle Eigenschaften der Kategorie-Datenbanktabelle sowie
                 einige zusätzliche Werte:
-			</span>
+            </span>
             <span class="sub-box mda-box">
 
                 <span class="label invisible" id="db-categories">db-categories</span>
@@ -5745,7 +5745,7 @@ der Oberfläche zum Erstellen eines Blog-Artikels.</p>
                     </span>
                 </span>
 
-		    </span><!-- sub-box mda-box end -->
+            </span><!-- sub-box mda-box end -->
 
         </span><!-- box $entry_vars.category_options end -->
 
@@ -5754,13 +5754,13 @@ der Oberfläche zum Erstellen eines Blog-Artikels.</p>
         </span>
         <span class="box"><code class="sub-item smarty">{$entry_vars.allowDateManipulation}</code>
             <span class="sub-box">
-				<span class="smarty-type"><em>Variablentyp:</em> <code class="type">Boolean</code></span>
-		    </span>
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Boolean</code></span>
+            </span>
             <span class="sub-box">
                 Ist auf <code>true</code> gesetzt, wenn in der Blog-Konfiguration die
                 Vor-/Rückdatierung von Einträgen erlaubt wird
                 (<code class="nobreak">$serendipity['allowDateManipulation']</code>, siehe Seite <span class="pageref"><a href="#allowdatemanipulation">allowdatemanipulation</a></span>).
-			</span>
+            </span>
         </span>
 
         <span class="tag-box invisible">
@@ -5768,12 +5768,12 @@ der Oberfläche zum Erstellen eines Blog-Artikels.</p>
         </span>
         <span class="box"><code class="sub-item smarty">{$entry_vars.timestamp}</code>
             <span class="sub-box">
-				<span class="smarty-type"><em>Variablentyp:</em> <code class="type">Zahl</code></span>
-		    </span>
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Zahl</code></span>
+            </span>
             <span class="sub-box">
                 Enthält das aktuelle Datum oder, falls ein Blog-Artikel bearbeitet wird, das
                 Datum des Artikels (in Unix-Sekunden).
-			</span>
+            </span>
         </span>
 
         <span class="tag-box invisible">
@@ -5781,11 +5781,11 @@ der Oberfläche zum Erstellen eines Blog-Artikels.</p>
         </span>
         <span class="box"><code class="sub-item smarty">{$entry_vars.reset_timestamp}</code>
             <span class="sub-box">
-				<span class="smarty-type"><em>Variablentyp:</em> <code class="type">Zahl</code></span>
-		    </span>
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Zahl</code></span>
+            </span>
             <span class="sub-box">
                 Enthält immer das aktuelle Datum (in Unix-Sekunden).
-			</span>
+            </span>
         </span>
 
         <span class="tag-box invisible">
@@ -5793,12 +5793,12 @@ der Oberfläche zum Erstellen eines Blog-Artikels.</p>
         </span>
         <span class="box"><code class="sub-item smarty">{$entry_vars.hidden}</code>
             <span class="sub-box">
-				<span class="smarty-type"><em>Variablentyp:</em> <code class="type">Zeichenkette</code></span>
-		    </span>
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Zeichenkette</code></span>
+            </span>
             <span class="sub-box">
                 Enthält HTML-Code mit versteckten HTML-Formularfeldern, die einige interne
                 Variablen zuweisen.
-			</span>
+            </span>
         </span>
 
         <span class="tag-box invisible">
@@ -5806,12 +5806,12 @@ der Oberfläche zum Erstellen eines Blog-Artikels.</p>
         </span>
         <span class="box"><code class="sub-item smarty">{$entry_vars.errMsg}</code>
             <span class="sub-box">
-				<span class="smarty-type"><em>Variablentyp:</em> <code class="type">Zeichenkette</code></span>
-		    </span>
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Zeichenkette</code></span>
+            </span>
             <span class="sub-box">
                 Falls beim Speichern oder Bearbeiten eines Artikels Fehlermeldungen auftreten,
                 werden sie in dieser Variable gespeichert.
-			</span>
+            </span>
         </span>
 
         <span class="tag-box invisible">
@@ -5819,14 +5819,14 @@ der Oberfläche zum Erstellen eines Blog-Artikels.</p>
         </span>
         <span class="box"><code class="sub-item smarty">{$entry_vars.targetURL}</code>
             <span class="sub-box">
-				<span class="smarty-type"><em>Variablentyp:</em> <code class="type">Zeichenkette</code></span>
-		    </span>
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Zeichenkette</code></span>
+            </span>
             <span class="sub-box">
                 Enthält das Verweisziel (URL) des HTML-Formulars. Da das Formular zum
                 Bearbeiten von Artikeln von unterschiedlichen Stellen des Serendipity-Kerns auch
                 zB. durch Plugins aufgerufen werden kann, kann die Ziel-URL
                 unterschiedlich lauten und wird daher über eine Variable abstrahiert.
-			</span>
+            </span>
         </span>
 
         <span class="tag-box invisible">
@@ -5834,11 +5834,11 @@ der Oberfläche zum Erstellen eines Blog-Artikels.</p>
         </span>
         <span class="box"><code class="sub-item smarty">{$entry_vars.cat_count}</code>
             <span class="sub-box">
-				<span class="smarty-type"><em>Variablentyp:</em> <code class="type">Zahl</code></span>
-		    </span>
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Zahl</code></span>
+            </span>
             <span class="sub-box">
                 Enthält die Anzahl der zuweisbaren Blog-Kategorien.
-			</span>
+            </span>
         </span>
 
         <span class="tag-box invisible">
@@ -5846,8 +5846,8 @@ der Oberfläche zum Erstellen eines Blog-Artikels.</p>
         </span>
         <span class="box"><code class="sub-item smarty">{$entry_vars.cat_state}</code>
             <span class="sub-box">
-				<span class="smarty-type"><em>Variablentyp:</em> <code class="type">Zeichenkette</code></span>
-		    </span>
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Zeichenkette</code></span>
+            </span>
             <span class="sub-box">
                 Wenn einem Blog-Artikel mehr als eine Kategorie zugewiesen werden soll, kann ein
                 Mehrfach-Auswahlfeld für die Kategorie-Auswahl aktiviert werden
@@ -5858,7 +5858,7 @@ der Oberfläche zum Erstellen eines Blog-Artikels.</p>
                 Die Variable <code>entry_vars.cat_state</code> bestimmt, wie die Kategorie-Auswahl
                 dargestellt wird. Der Wert <code>on</code> steht für <em>Mehrfach-Auswahlfeld</em>,
                 <code>off</code> für <em>einfaches Ausklappfeld</em>.
-			</span>
+            </span>
         </span>
 
         <span class="tag-box invisible">
@@ -5866,12 +5866,12 @@ der Oberfläche zum Erstellen eines Blog-Artikels.</p>
         </span>
         <span class="box"><code class="sub-item smarty">{$entry_vars.serendipityRightPublish}</code>
             <span class="sub-box">
-				<span class="smarty-type"><em>Variablentyp:</em> <code class="type">Boolean</code></span>
-		    </span>
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Boolean</code></span>
+            </span>
             <span class="sub-box">
                 Enthält den Wert <code>true</code>, wenn ein Redakteur die Erlaubnis hat, Artikel zu
                 veröffentlichen (siehe Seite <span class="pageref"><a href="#rightpublish">rightpublish</a></span>).
-			</span>
+            </span>
         </span>
 
         <span class="tag-box invisible">
@@ -5879,12 +5879,12 @@ der Oberfläche zum Erstellen eines Blog-Artikels.</p>
         </span>
         <span class="box"><code class="sub-item smarty">{$entry_vars.wysiwyg_blocks}</code>
             <span class="sub-box">
-				<span class="smarty-type"><em>Variablentyp:</em> <code class="type">Eindimensionales Array</code></span>
-		    </span>
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Eindimensionales Array</code></span>
+            </span>
             <span class="sub-box">
                 Enthält eine Liste von Blöcken, die durch den WYSIWYG-Editor gefüllt werden
                 können (<code>body</code>, <code>extended</code>).
-			</span>
+            </span>
         </span>
 
         <span class="tag-box invisible">
@@ -5892,13 +5892,13 @@ der Oberfläche zum Erstellen eines Blog-Artikels.</p>
         </span>
         <span class="box"><code class="sub-item smarty">{$entry_vars.entry_template}</code>
             <span class="sub-box">
-				<span class="smarty-type"><em>Variablentyp:</em> <code class="type">Zeichenkette</code></span>
-		    </span>
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Zeichenkette</code></span>
+            </span>
             <span class="sub-box">
                 Enthält den Pfad zur darzustellenden Template-Datei <code>admin/entries.tpl</code>.
                 Plugins können ein Backend-Template frei modifizieren, um
                 unterschiedliche Artikel-Editor-Oberflächen darzustellen.
-			</span>
+            </span>
         </span>
 
         <span class="tag-box invisible">
@@ -5906,12 +5906,12 @@ der Oberfläche zum Erstellen eines Blog-Artikels.</p>
         </span>
         <span class="box"><code class="sub-item smarty">{$entry_vars.entry}</code>
             <span class="sub-box">
-				<span class="smarty-type"><em>Variablentyp:</em> <code class="type">Eindimensionales Array</code></span>
-		    </span>
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Eindimensionales Array</code></span>
+            </span>
             <span class="sub-box">
                 Enthält die Meta-Daten des Blog-Artikels, sofern dieser gespeichert wurde oder
                 sich in der Vorschau befindet. Folgende Array-Schlüssel sind verfügbar:
-			</span>
+            </span>
         </span>
 
         <span class="box">
@@ -6083,63 +6083,63 @@ der <code>index.tpl</code> aufgerufen.</p>
 
         <span class="box"><code class="sub-item smarty">{$plugindata.X.side}</code>
             <span class="sub-box">
-				<span class="smarty-type"><em>Variablentyp:</em> <code class="type">Zeichenkette</code></span>
-		    </span>
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Zeichenkette</code></span>
+            </span>
             <span class="sub-box">
                 Enthält den Namen der zugehörigen Seite des jeweiligen Seitenleisten-Plugins,
                 zB. <code>left</code> für ein Element der linken Seitenleiste.
-			</span>
+            </span>
         </span>
 
         <span class="box"><code class="sub-item smarty">{$plugindata.X.class}</code>
             <span class="sub-box">
-				<span class="smarty-type"><em>Variablentyp:</em> <code class="type">Zeichenkette</code></span>
-		    </span>
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Zeichenkette</code></span>
+            </span>
             <span class="sub-box">
                 Enthält den PHP-Klassennamen des Seitenleisten-Plugins, zB.
                 <code>serendipity_plugin_comments</code>. Der PHP-Klassenname entspricht dabei auch
                 üblicherweise dem Datei- und Verzeichnisnamen des Plugins, somit wäre der
                 genannte Plugin-Code in der Datei
                 <code>plugins/serendipity_plugin_comments/serendipity_plugin_comments.php</code> enthalten.
-			</span>
+            </span>
         </span>
 
         <span class="box"><code class="sub-item smarty">{$plugindata.X.title}</code>
             <span class="sub-box">
-				<span class="smarty-type"><em>Variablentyp:</em> <code class="type">Zeichenkette</code></span>
-		    </span>
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Zeichenkette</code></span>
+            </span>
             <span class="sub-box">
                 Enthält den Titel eines Seitenleisten-Plugins, wie er in der Seitenleiste
                 angezeigt werden soll. Dieser Titel ist bei vielen Plugins vom Benutzer frei
                 wählbar.
-			</span>
+            </span>
         </span>
 
         <span class="box"><code class="sub-item smarty">{$plugindata.X.content}</code>
             <span class="sub-box">
-				<span class="smarty-type"><em>Variablentyp:</em> <code class="type">Zeichenkette</code></span>
-		    </span>
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Zeichenkette</code></span>
+            </span>
             <span class="sub-box">
                 Enthält die Ausgabe eines Seitenleisten-Plugins als HTML-Code.
-			</span>
+            </span>
         </span>
 
         <span class="box"><code class="sub-item smarty">{$plugindata.X.id}</code>
             <span class="sub-box">
-				<span class="smarty-type"><em>Variablentyp:</em> <code class="type">Zeichenkette</code></span>
-		    </span>
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Zeichenkette</code></span>
+            </span>
             <span class="sub-box">
                 Enthält eine eindeutige Identifikationsnummer des jeweiligen
                 Seitenleisten-Plugins. Die ID wird bei Installation des Plugins vergeben, ist
                 also auch bei mehrfach installierten gleichartigen Seitenleisten-Plugins für
                 jede einzelne Instanz unterschiedlich.
-			</span>
+            </span>
             <span class="sub-box">
                 Interne Plugins (die im Serendipity-Kern enthalten sind) enthalten in der
                 Identifikationsnummer ein vorangestelltes <code>@</code>-Symbol, darauf folgt der
                 Klassenname des Plugins und abschließend ein Doppelpunkt mit einer zufälligen,
                 32 Zeichen langen Kombination aus Zahlen und Buchstaben.
-			</span>
+            </span>
         </span>
 
     </span><!-- box mda-box $plugindata end -->
