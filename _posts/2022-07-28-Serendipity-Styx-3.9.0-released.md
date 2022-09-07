@@ -1,14 +1,14 @@
 ---
 layout: post
 title: Serendipity Styx 3.9.0 release
-last_modified_at: 2022-07-29T10:21:00+00:00
+last_modified_at: 2022-09-07T09:30:00+00:00
 ---
 
-N° 2022/04 - The Serendipity Styx 3.9.0 release <img class="php8" src="/i/b/logo_php8_1.svg" alt="php8.1" width="160" height="48">
+N° 2022/04 - The Serendipity Styx 3.9.0 release <img class="php8" src="/i/b/logo_php8_2.svg" alt="php8.2" width="160" height="48">
 
 ### Summer Edition
 
-This mainly is another bugfix & maintenance release with some extraordinary readiness for upcoming PHP 8.2. (The new PHP 8.2 logo will be added to this blog post when officially available.)
+This mainly is another bugfix & maintenance release with some extraordinary readiness for upcoming PHP 8.2.
 With PHP 8.2, the Styx AVIF image support is now complete, since not relaying to workarounds or having to disable certain image actions.
 The new AVIF image format - as to announce again - is something you should expect with excitement for your images, since its encoding compression rate can be quite astonishing without any real visual loss. See an extreme example output for an ESA astronomic image of type image/jpeg with ~1.350 KB, compressed to WebP with ~480 KB and with AVIF to ~16 KB. Imagine what this means watching galleries or pages with lots of images when using the picture-container format.
 
