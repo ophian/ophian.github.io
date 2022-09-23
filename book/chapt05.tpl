@@ -1738,7 +1738,7 @@ Diese müssen Sie entweder als zentrale PEAR-Bibliothek über
 den Server-Provider installieren oder manuell installieren. Dazu
 müssen Sie das PEAR-Paket herunterladen [*]
 <span class="footnote"><i class="fa fa-info-circle"></i> <a href="https://pear.php.net/package/HTML_TreeMenu" target="_blank" rel="noopener">https://pear.php.net/package/HTML_TreeMenu</a></span><!-- footnote --> und
-entpacken. Laden Sie die Datei <code>HTML_TreeMenu-1.2.0/TreeMenu.php</code>
+entpacken. Laden Sie die Datei <code>HTML_TreeMenu-1.2.2/TreeMenu.php</code>
 anschließend ins Serendipity-Verzeichnis <code>bundled-libs/HTML/</code> hoch.
 Kopieren Sie dann noch die Datei <code>TreeMenu.js</code> und das ganze
 Verzeichnis <code>images</code> in Ihr Plugin-Verzeichnis
