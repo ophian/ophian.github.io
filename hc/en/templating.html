@@ -918,7 +918,7 @@ It is not advised to create your own  style_fallback.css file.</p>
           <li><span class="var">noSticky</span>: If set to TRUE, all sticky entries will NOT be fetched.</li>
           <li><span class="var">select_key</span>: Can contain a SQL statement on which keys to select. Plugins can also set this, pay attention!</li>
           <li><span class="var">group_by</span>: Can contain a SQL statement on how to group the query. Plugins can also set this, pay attention!</li>
-          <li><span class="var">returncode</span>: If set to “array”, the array of entries will be returned. “flat-array” will only return the articles without their entryproperties. “single” will only return a 1-dimensional array. “query” will only return the used SQL.</li>
+          <li><span class="var">returncode</span>: If set to “array”, the array of entries will be returned. “flat-array” will only return the articles without their entryproperties. “single” will only return a 1-dimensional array. “assign” will assign this particular entry data to your Smarty template (needs the id parameter). “query” will only return the used SQL.</li>
           <li><span class="var">joinauthors</span>: Should an SQL-join be made to the AUTHORS DB table?</li>
           <li><span class="var">joincategories</span>: Should an SQL-join be made to the CATEGORIES DB table?</li>
           <li><span class="var">joinown</span>: SQL-Parts to add to the “JOIN” query</li>
