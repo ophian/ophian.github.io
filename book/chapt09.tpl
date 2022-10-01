@@ -9881,13 +9881,20 @@ im Funktionsaufruf wie <code>serendipity_funktion parameter1=wert1 parameter2=we
         beliebige Template-Datei (standardmäßig <code>entries.tpl</code>) geparst und zurückgeliefert.
     </span>
 
+    <span class="box">
+        Dabei handelt es sich primär um zwei Parameter Gruppen, von welcher die eine
+        die Auslesung aus der Datenbank selektiert, während die andere die Ausgabeanzeige bestimmt.
+    </span>
+
     <span class="box">Parameter:</span>
 
     <span class="box mda-box">
 
+        <span class="box">[FETCHING] Gruppe</span>
+
         <span class="box"><code class="sub-item smarty">category</code> (optional)
             <span class="sub-box">
-                <span class="smarty-type"><em>Variablentyp:</em> <code class="type"></code></span>
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">(int)</code></span>
             </span>
             <span class="sub-box">
                 Legt die Kategorie-ID fest, aus der die Blog-Artikel gelesen werden sollen. Ohne
@@ -9898,7 +9905,7 @@ im Funktionsaufruf wie <code>serendipity_funktion parameter1=wert1 parameter2=we
 
         <span class="box"><code class="sub-item smarty">viewAuthor</code> (optional)
             <span class="sub-box">
-                <span class="smarty-type"><em>Variablentyp:</em> <code class="type"></code></span>
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">(int)</code></span>
             </span>
             <span class="sub-box">
                 Legt die Redakteurs-ID fest, vom der die Blog-Artikel gelesen werden sollen. Ohne
@@ -9909,7 +9916,7 @@ im Funktionsaufruf wie <code>serendipity_funktion parameter1=wert1 parameter2=we
 
         <span class="box"><code class="sub-item smarty">page</code> (optional)
             <span class="sub-box">
-                <span class="smarty-type"><em>Variablentyp:</em> <code class="type"></code></span>
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">(int)</code></span>
             </span>
             <span class="sub-box">
                 Wenn die Liste der Blog-Artikel mehr als eine Seite ausfüllt [*]
@@ -9924,7 +9931,7 @@ im Funktionsaufruf wie <code>serendipity_funktion parameter1=wert1 parameter2=we
 
         <span class="box"><code class="sub-item smarty">id</code> (optional)
             <span class="sub-box">
-                <span class="smarty-type"><em>Variablentyp:</em> <code class="type"></code></span>
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">(int)</code></span>
             </span>
             <span class="sub-box">
                 Falls ein einzelner Artikel angezeigt werden soll, enthält dieser Parameter die
@@ -9934,7 +9941,7 @@ im Funktionsaufruf wie <code>serendipity_funktion parameter1=wert1 parameter2=we
 
         <span class="box"><code class="sub-item smarty">range</code> (optional)
             <span class="sub-box">
-                <span class="smarty-type"><em>Variablentyp:</em> <code class="type"></code></span>
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">mixed (string/array/null)</code></span>
             </span>
             <span class="sub-box">
                 Kann die Liste der Artikel auf einen gewissen Zeitraum einschränken. Der
@@ -9954,7 +9961,7 @@ im Funktionsaufruf wie <code>serendipity_funktion parameter1=wert1 parameter2=we
 
         <span class="box"><code class="sub-item smarty">modified_since</code> (optional)
             <span class="sub-box">
-                <span class="smarty-type"><em>Variablentyp:</em> <code class="type"></code></span>
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">(int)</code></span>
             </span>
             <span class="sub-box">
                 Falls der Parameter <code>range</code> leer gelassen wird oder auf <code>null</code> gesetzt
@@ -9965,7 +9972,7 @@ im Funktionsaufruf wie <code>serendipity_funktion parameter1=wert1 parameter2=we
 
         <span class="box"><code class="sub-item smarty">full</code> (optional)
             <span class="sub-box">
-                <span class="smarty-type"><em>Variablentyp:</em> <code class="type"></code></span>
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">(boolean)</code></span>
             </span>
             <span class="sub-box">
                 Wenn dieser Parameter auf <code>true</code> gesetzt wird, kann auch der erweiterte
@@ -9976,7 +9983,7 @@ im Funktionsaufruf wie <code>serendipity_funktion parameter1=wert1 parameter2=we
 
         <span class="box"><code class="sub-item smarty">limit</code> (optional)
             <span class="sub-box">
-                <span class="smarty-type"><em>Variablentyp:</em> <code class="type"></code></span>
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">mixed (integer/string)</code></span>
             </span>
             <span class="sub-box">
                 Enthält eine Zeichenkette, die angibt, wie viele Blog-Artikel ausgelesen werden
@@ -9993,7 +10000,7 @@ im Funktionsaufruf wie <code>serendipity_funktion parameter1=wert1 parameter2=we
 
         <span class="box"><code class="sub-item smarty">fetchDrafts</code> (optional)
             <span class="sub-box">
-                <span class="smarty-type"><em>Variablentyp:</em> <code class="type"></code></span>
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">(boolean)</code></span>
             </span>
             <span class="sub-box">
                 Wenn dieser Parameter auf <code>true</code> gesetzt wird, können auch Blog-Entwürfe
@@ -10004,7 +10011,7 @@ im Funktionsaufruf wie <code>serendipity_funktion parameter1=wert1 parameter2=we
 
         <span class="box"><code class="sub-item smarty">short_archives</code> (optional)
             <span class="sub-box">
-                <span class="smarty-type"><em>Variablentyp:</em> <code class="type"></code></span>
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">(boolean)</code></span>
             </span>
             <span class="sub-box">
                 Wenn auf <code>true</code> gesetzt, erfolgt die Ausgabe der Blog-Artikel nicht wie auf
@@ -10015,7 +10022,7 @@ im Funktionsaufruf wie <code>serendipity_funktion parameter1=wert1 parameter2=we
 
         <span class="box"><code class="sub-item smarty">orderby</code> (optional)
             <span class="sub-box">
-                <span class="smarty-type"><em>Variablentyp:</em> <code class="type"></code></span>
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">(string)</code></span>
             </span>
             <span class="sub-box">
                 Legt die Sortierung der Artikel fest. Dieser Parameter legt den Namen des
@@ -10027,7 +10034,7 @@ im Funktionsaufruf wie <code>serendipity_funktion parameter1=wert1 parameter2=we
 
         <span class="box"><code class="sub-item smarty">filter_sql</code> (optional)
             <span class="sub-box">
-                <span class="smarty-type"><em>Variablentyp:</em> <code class="type"></code></span>
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">(string)</code></span>
             </span>
             <span class="sub-box">
                 Um die Eingrenzung der gewünschten Blog-Artikel feinzusteuern, kann beliebiger
@@ -10038,7 +10045,7 @@ im Funktionsaufruf wie <code>serendipity_funktion parameter1=wert1 parameter2=we
 
         <span class="box"><code class="sub-item smarty">noCache</code> (optional)
             <span class="sub-box">
-                <span class="smarty-type"><em>Variablentyp:</em> <code class="type"></code></span>
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">(boolean)</code></span>
             </span>
             <span class="sub-box">
                 Wenn auf <code>true</code> gesetzt, werden etwaige Caching-Plugins für das Auslesen der
@@ -10049,7 +10056,7 @@ im Funktionsaufruf wie <code>serendipity_funktion parameter1=wert1 parameter2=we
 
         <span class="box"><code class="sub-item smarty">noSticky</code> (optional)
             <span class="sub-box">
-                <span class="smarty-type"><em>Variablentyp:</em> <code class="type"></code></span>
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">(boolean)</code></span>
             </span>
             <span class="sub-box">
                 Wenn auf <code>true</code> gesetzt, werden sogenannte <em>Dauerhafte Einträge</em> (siehe
@@ -10059,110 +10066,9 @@ im Funktionsaufruf wie <code>serendipity_funktion parameter1=wert1 parameter2=we
             </span>
         </span>
 
-        <span class="box"><code class="sub-item smarty">template</code> (optional)
-            <span class="sub-box">
-                <span class="smarty-type"><em>Variablentyp:</em> <code class="type"></code></span>
-            </span>
-            <span class="sub-box">
-                Legt den Namen der Smarty-Template-Datei fest, der für die Darstellung der
-                Einträge verwendet werden soll. Standardmäßig ist dies <code>entries.tpl</code>.
-            </span>
-        </span>
-
-        <span class="box"><code class="sub-item smarty">block</code> (optional)
-            <span class="sub-box">
-                <span class="smarty-type"><em>Variablentyp:</em> <code class="type"></code></span>
-            </span>
-            <span class="sub-box">
-                Legt den Namen der Smarty-Variable fest, die den HTML-Code des geparsten
-                Templates enthält. Standardmäßig ist dies <code>ENTRIES</code>, gemäß der zentralen
-                Smarty-Variable <code class="smarty">{$ENTRIES}</code>, die über die
-                <code>content.tpl</code>-Template-Datei eingebunden wird. Diese Variable sollte
-                unbedingt eindeutig sein und wird daher standardmäßig auf
-                <code class="item smarty">{$smarty_entries_X}</code> gesetzt, wobei <code>X</code> einer fortlaufenden Zahl
-                entspricht, die pro neuem <code>serendipity_fetchPrintEntries</code>-Funktionsaufruf
-                erhöht wird.
-            </span>
-        </span>
-
-        <span class="box"><code class="sub-item smarty">preview</code> (optional)
-            <span class="sub-box">
-                <span class="smarty-type"><em>Variablentyp:</em> <code class="type"></code></span>
-            </span>
-            <span class="sub-box">
-                Wenn auf <code>true</code> gesetzt, wird der Artikel so behandelt, als würde er im
-                Backend als Vorschau angezeigt. Dabei werden einige Plugins deaktiviert,
-                die sich andernfalls an den Anfang und das Ende der Artikelübersicht einklinken
-                würden.
-            </span>
-        </span>
-
-        <span class="box"><code class="sub-item smarty">groupmode</code> (optional)
-            <span class="sub-box">
-                <span class="smarty-type"><em>Variablentyp:</em> <code class="type"></code></span>
-            </span>
-            <span class="sub-box">
-                Diese Variable legt fest, ob die Liste der Artikel nach dem Tag der
-                Veröffentlichung gruppiert wird (Wert <code>date</code>, Standard) oder ob die Artikel
-                nach Kategorie sortiert dargestellt werden sollen (Wert <code>category</code>).
-            </span>
-        </span>
-
-        <span class="box"><code class="sub-item smarty">use_hooks</code> (optional)
-            <span class="sub-box">
-                <span class="smarty-type"><em>Variablentyp:</em> <code class="type"></code></span>
-            </span>
-            <span class="sub-box">
-                Wenn auf <code>true</code> gesetzt, werden Ereignis-Plugins für die Darstellung der
-                Einträge wie gewohnt ausgeführt. Enthält der Parameter den Wert
-                <code>false</code>, werden diese Plugins temporär übergangen. Dies gilt nur für den
-                Aufruf von Textformatierungs-Ereignis-Plugins. Alle weiteren Ereignis-Plugins
-                werden weiterhin aufgerufen und können durch den Parameter
-                <code>skip_smarty_hooks</code> beeinflusst werden.
-            </span>
-        </span>
-
-        <span class="box"><code class="sub-item smarty">use_footer</code> (optional)
-            <span class="sub-box">
-                <span class="smarty-type"><em>Variablentyp:</em> <code class="type"></code></span>
-            </span>
-            <span class="sub-box">
-                Wenn auf <code>true</code> gesetzt, wird der Footer unterhalb der Einträge mit
-                Informationen zur Menge der gefundenen Artikel und mit Blättermöglichkeit
-                eingebunden.
-            </span>
-        </span>
-
-        <span class="box"><code class="sub-item smarty">skip_smarty_hooks</code> (optional)
-            <span class="sub-box">
-                <span class="smarty-type"><em>Variablentyp:</em> <code class="type"></code></span>
-            </span>
-            <span class="sub-box">
-                Um den Aufruf weiterer Ereignis-Plugins bei der Darstellung der Artikel zu
-                unterbinden, kann dieser Parameter auf <code>true</code> gesetzt werden. Dieser
-                Parameter beeinflusst die globale Variable
-                <code class="nobreak">$serendipity['skip_smarty_hooks']</code> (siehe Seite <span class="pageref"><a href="#smartyhooks">smartyhooks</a></span>)
-                temporär und wird nach dem Aufruf der Smarty-Funktion
-                <code>serendipity_fetchPrintEntries</code> wieder auf den
-                ursprünglichen Wert zurückgesetzt.
-            </span>
-        </span>
-
-        <span class="box"><code class="sub-item smarty">skip_smarty_hook</code> (optional)
-            <span class="sub-box">
-                <span class="smarty-type"><em>Variablentyp:</em> <code class="type"></code></span>
-            </span>
-            <span class="sub-box">
-                Im Gegensatz zur pauschalen Blockierung aller Ereignis-Plugins kann diese
-                Variable ein Array enthalten, das eine Liste aller zu blockierenden Ereignisse
-                (<em>Hooks</em>) festlegt. So können gezielt bestimmte Ereignis-Plugins unterdrückt
-                werden.
-            </span>
-        </span>
-
         <span class="box"><code class="sub-item smarty">select_key</code> (optional)
             <span class="sub-box">
-                <span class="smarty-type"><em>Variablentyp:</em> <code class="type"></code></span>
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">(string)</code></span>
             </span>
             <span class="sub-box">
                 Kann eine kommaseparierte Liste von SQL-Tabellenfeldnamen enthalten, die in der
@@ -10173,7 +10079,7 @@ im Funktionsaufruf wie <code>serendipity_funktion parameter1=wert1 parameter2=we
 
         <span class="box"><code class="sub-item smarty">group_by</code> (optional)
             <span class="sub-box">
-                <span class="smarty-type"><em>Variablentyp:</em> <code class="type"></code></span>
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">(string)</code></span>
             </span>
             <span class="sub-box">
                 Enthält den Tabellenfeldnamen, nach dem die Artikelliste via SQL gruppiert
@@ -10184,7 +10090,7 @@ im Funktionsaufruf wie <code>serendipity_funktion parameter1=wert1 parameter2=we
 
         <span class="box"><code class="sub-item smarty">returncode</code> (optional)
             <span class="sub-box">
-                <span class="smarty-type"><em>Variablentyp:</em> <code class="type"></code></span>
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">(string)</code></span>
             </span>
             <span class="sub-box">
                 Legt fest, ob die Artikelausgabe als ein Datensatz (<code>single</code>) oder
@@ -10195,7 +10101,7 @@ im Funktionsaufruf wie <code>serendipity_funktion parameter1=wert1 parameter2=we
 
         <span class="box"><code class="sub-item smarty">joinauthors</code> (optional)
             <span class="sub-box">
-                <span class="smarty-type"><em>Variablentyp:</em> <code class="type"></code></span>
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">(boolean)</code></span>
             </span>
             <span class="sub-box">
                 Enthält den Wert <code>true</code>, wenn die Metadaten für den Redakteur eines Artikels
@@ -10205,7 +10111,7 @@ im Funktionsaufruf wie <code>serendipity_funktion parameter1=wert1 parameter2=we
 
         <span class="box"><code class="sub-item smarty">joincategories</code> (optional)
             <span class="sub-box">
-                <span class="smarty-type"><em>Variablentyp:</em> <code class="type"></code></span>
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">(boolean)</code></span>
             </span>
             <span class="sub-box">
                 Enthält den Wert <code>true</code>, wenn die Metadaten für die zugewiesenen Kategorien eines
@@ -10215,7 +10121,7 @@ im Funktionsaufruf wie <code>serendipity_funktion parameter1=wert1 parameter2=we
 
         <span class="box"><code class="sub-item smarty">joinown</code> (optional)
             <span class="sub-box">
-                <span class="smarty-type"><em>Variablentyp:</em> <code class="type"></code></span>
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">(string)</code></span>
             </span>
             <span class="sub-box">
                 Kann SQL-Anweisungen enthalten, die den <code>JOIN</code>-Teil der Abfrage nach
@@ -10227,7 +10133,7 @@ im Funktionsaufruf wie <code>serendipity_funktion parameter1=wert1 parameter2=we
             <span class="label invisible" id="entryproperties-customprop-fetch">entryproperties-customprop-fetch</span>
             <code class="sub-item smarty">entryprops</code> (optional)
             <span class="sub-box">
-                <span class="smarty-type"><em>Variablentyp:</em> <code class="type"></code></span>
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">(string)</code></span>
             </span>
             <span class="sub-box">
                 Mit diesem Parameter können Sie eine Liste von zusätzlichen <code>freien
@@ -10265,9 +10171,112 @@ im Funktionsaufruf wie <code>serendipity_funktion parameter1=wert1 parameter2=we
             </span>
         </span>
 
+        <span class="box">[PRINTING] Gruppe</span>
+
+        <span class="box"><code class="sub-item smarty">template</code> (optional)
+            <span class="sub-box">
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">(string)</code></span>
+            </span>
+            <span class="sub-box">
+                Legt den Namen der Smarty-Template-Datei fest, der für die Darstellung der
+                Einträge verwendet werden soll. Standardmäßig ist dies <code>entries.tpl</code>.
+            </span>
+        </span>
+
+        <span class="box"><code class="sub-item smarty">block</code> (optional)
+            <span class="sub-box">
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">(string)</code></span>
+            </span>
+            <span class="sub-box">
+                Legt den Namen der Smarty-Variable fest, die den HTML-Code des geparsten
+                Templates enthält. Standardmäßig ist dies <code>ENTRIES</code>, gemäß der zentralen
+                Smarty-Variable <code class="smarty">{$ENTRIES}</code>, die über die
+                <code>content.tpl</code>-Template-Datei eingebunden wird. Diese Variable sollte
+                unbedingt eindeutig sein und wird daher standardmäßig auf
+                <code class="item smarty">{$smarty_entries_X}</code> gesetzt, wobei <code>X</code> einer fortlaufenden Zahl
+                entspricht, die pro neuem <code>serendipity_fetchPrintEntries</code>-Funktionsaufruf
+                erhöht wird.
+            </span>
+        </span>
+
+        <span class="box"><code class="sub-item smarty">preview</code> (optional)
+            <span class="sub-box">
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">(boolean)</code></span>
+            </span>
+            <span class="sub-box">
+                Wenn auf <code>true</code> gesetzt, wird der Artikel so behandelt, als würde er im
+                Backend als Vorschau angezeigt. Dabei werden einige Plugins deaktiviert,
+                die sich andernfalls an den Anfang und das Ende der Artikelübersicht einklinken
+                würden.
+            </span>
+        </span>
+
+        <span class="box"><code class="sub-item smarty">groupmode</code> (optional)
+            <span class="sub-box">
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">(string)</code></span>
+            </span>
+            <span class="sub-box">
+                Diese Variable legt fest, ob die Liste der Artikel nach dem Tag der
+                Veröffentlichung gruppiert wird (Wert <code>date</code>, Standard) oder ob die Artikel
+                nach Kategorie sortiert dargestellt werden sollen (Wert <code>category</code>).
+            </span>
+        </span>
+
+        <span class="box"><code class="sub-item smarty">use_hooks</code> (optional)
+            <span class="sub-box">
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">(boolean)</code></span>
+            </span>
+            <span class="sub-box">
+                Wenn auf <code>true</code> gesetzt, werden Ereignis-Plugins für die Darstellung der
+                Einträge wie gewohnt ausgeführt. Enthält der Parameter den Wert
+                <code>false</code>, werden diese Plugins temporär übergangen. Dies gilt nur für den
+                Aufruf von Textformatierungs-Ereignis-Plugins. Alle weiteren Ereignis-Plugins
+                werden weiterhin aufgerufen und können durch den Parameter
+                <code>skip_smarty_hooks</code> beeinflusst werden.
+            </span>
+        </span>
+
+        <span class="box"><code class="sub-item smarty">use_footer</code> (optional)
+            <span class="sub-box">
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">(boolean)</code></span>
+            </span>
+            <span class="sub-box">
+                Wenn auf <code>true</code> gesetzt, wird der Footer unterhalb der Einträge mit
+                Informationen zur Menge der gefundenen Artikel und mit Blättermöglichkeit
+                eingebunden.
+            </span>
+        </span>
+
+        <span class="box"><code class="sub-item smarty">skip_smarty_hooks</code> (optional)
+            <span class="sub-box">
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">(boolean)</code></span>
+            </span>
+            <span class="sub-box">
+                Um den Aufruf weiterer Ereignis-Plugins bei der Darstellung der Artikel zu
+                unterbinden, kann dieser Parameter auf <code>true</code> gesetzt werden. Dieser
+                Parameter beeinflusst die globale Variable
+                <code class="nobreak">$serendipity['skip_smarty_hooks']</code> (siehe Seite <span class="pageref"><a href="#smartyhooks">smartyhooks</a></span>)
+                temporär und wird nach dem Aufruf der Smarty-Funktion
+                <code>serendipity_fetchPrintEntries</code> wieder auf den
+                ursprünglichen Wert zurückgesetzt.
+            </span>
+        </span>
+
+        <span class="box"><code class="sub-item smarty">skip_smarty_hook</code> (optional)
+            <span class="sub-box">
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">mixed (boolean/array)</code></span>
+            </span>
+            <span class="sub-box">
+                Im Gegensatz zur pauschalen Blockierung aller Ereignis-Plugins kann diese
+                Variable ein Array enthalten, das eine Liste aller zu blockierenden Ereignisse
+                (<em>Hooks</em>) festlegt. So können gezielt bestimmte Ereignis-Plugins unterdrückt
+                werden.
+            </span>
+        </span>
+
         <span class="box"><code class="sub-item smarty">prevent_reset</code> (optional)
             <span class="sub-box">
-                <span class="smarty-type"><em>Variablentyp:</em> <code class="type"></code></span>
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">(boolean)</code></span>
             </span>
             <span class="sub-box">
                 Standardmäßig enthält die Variable den Wert <code>false</code> und sorgt dafür,
@@ -10281,7 +10290,7 @@ im Funktionsaufruf wie <code>serendipity_funktion parameter1=wert1 parameter2=we
 
         <span class="box"><span class="mbold">Rückgabewert:</span>
             <span class="sub-box">
-                <span class="smarty-type"><em>Variablentyp:</em> <code class="type"></code></span>
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">mixed (string/null)</code></span>
             </span>
             <span class="sub-box">
                 HTML-Zeichenkette (<code>entries.tpl</code>)
