@@ -9253,7 +9253,7 @@ im Funktionsaufruf wie <code>serendipity_funktion parameter1=wert1 parameter2=we
 
         <span class="box"><code class="sub-item smarty">side</code> (Pflicht)
             <span class="sub-box">
-                <span class="smarty-type"><em>Variablentyp:</em> <code class="type"></code></span>
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Zeichenkette</code></span>
             </span>
             <span class="sub-box">
                 Enthält den Namen der auszugebenden Seitenleiste (<code>left</code>, <code>right</code>, <code>hidden</code> ...).
@@ -9262,7 +9262,7 @@ im Funktionsaufruf wie <code>serendipity_funktion parameter1=wert1 parameter2=we
 
         <span class="box"><span class="mbold">Rückgabewert:</span>
             <span class="sub-box">
-                <span class="smarty-type"><em>Variablentyp:</em> <code class="type"></code></span>
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Zeichenkette</code></span>
             </span>
             <span class="sub-box">
                 HTML-Zeichenkette (<code>sidebars.tpl</code>)
@@ -9307,7 +9307,7 @@ im Funktionsaufruf wie <code>serendipity_funktion parameter1=wert1 parameter2=we
 
         <span class="box"><code class="sub-item smarty">hook</code> (Pflicht)
             <span class="sub-box">
-                <span class="smarty-type"><em>Variablentyp:</em> <code class="type"></code></span>
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Zeichenkette</code></span>
             </span>
             <span class="sub-box">
                 Enthält den Namen des auszuführenden Ereignisses (<code>Hook</code>). Standardmäßig
@@ -9319,7 +9319,7 @@ im Funktionsaufruf wie <code>serendipity_funktion parameter1=wert1 parameter2=we
 
         <span class="box"><code class="sub-item smarty">hookAll</code> (optional)
             <span class="sub-box">
-                <span class="smarty-type"><em>Variablentyp:</em> <code class="type"></code></span>
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Bool</code></span>
             </span>
             <span class="sub-box">
                 Wenn dieser Parameter auf den Wert <code>true</code> gesetzt wird, können auch
@@ -9331,7 +9331,7 @@ im Funktionsaufruf wie <code>serendipity_funktion parameter1=wert1 parameter2=we
 
         <span class="box"><code class="sub-item smarty">data</code> (optional)
             <span class="sub-box">
-                <span class="smarty-type"><em>Variablentyp:</em> <code class="type"></code></span>
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Array</code></span>
             </span>
             <span class="sub-box">
                 Enthält ein beliebiges Array mit Daten, die an das Ereignis-Plugin
@@ -9347,7 +9347,7 @@ im Funktionsaufruf wie <code>serendipity_funktion parameter1=wert1 parameter2=we
 
         <span class="box"><code class="sub-item smarty">addData</code> (optional)
             <span class="sub-box">
-                <span class="smarty-type"><em>Variablentyp:</em> <code class="type"></code></span>
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Array</code></span>
             </span>
             <span class="sub-box">
                 Enthält ein beliebiges Array mit Daten, die zusätzlich an das Ereignis-Plugin
@@ -9358,7 +9358,7 @@ im Funktionsaufruf wie <code>serendipity_funktion parameter1=wert1 parameter2=we
 
         <span class="box"><span class="mbold">Rückgabewert:</span>
             <span class="sub-box">
-                <span class="smarty-type"><em>Variablentyp:</em> <code class="type"></code></span>
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">(Zeichenkette/NULL)</code></span>
             </span>
             <span class="sub-box">
                 HTML-Zeichenkette (falls vorhanden)
@@ -9397,7 +9397,7 @@ im Funktionsaufruf wie <code>serendipity_funktion parameter1=wert1 parameter2=we
 
         <span class="box"><code class="sub-item smarty">class</code> (Pflicht)
             <span class="sub-box">
-                <span class="smarty-type"><em>Variablentyp:</em> <code class="type"></code></span>
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Zeichenkette</code></span>
             </span>
             <span class="sub-box">
                 Enthält den PHP-Klassennamen des auszugebenden Plugins, zB.
@@ -9408,7 +9408,7 @@ im Funktionsaufruf wie <code>serendipity_funktion parameter1=wert1 parameter2=we
 
         <span class="box"><code class="sub-item smarty">id</code> (Pflicht)
             <span class="sub-box">
-                <span class="smarty-type"><em>Variablentyp:</em> <code class="type"></code></span>
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Zeichenkette</code></span>
             </span>
             <span class="sub-box">
                 Wenn der PHP-Klassenname nicht über <code>class</code> angegeben wird, muss die ID des
@@ -9421,7 +9421,7 @@ im Funktionsaufruf wie <code>serendipity_funktion parameter1=wert1 parameter2=we
 
         <span class="box"><code class="sub-item smarty">side</code> (optional)
             <span class="sub-box">
-                <span class="smarty-type"><em>Variablentyp:</em> <code class="type"></code></span>
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Zeichenkette</code></span>
             </span>
             <span class="sub-box">
                 Seitenleisten-Plugins sind üblicherweise einer direkten Seitenleiste (links,
@@ -9439,7 +9439,7 @@ im Funktionsaufruf wie <code>serendipity_funktion parameter1=wert1 parameter2=we
 
         <span class="box"><code class="sub-item smarty">negate</code> (optional)
             <span class="sub-box">
-                <span class="smarty-type"><em>Variablentyp:</em> <code class="type"></code></span>
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">(Bool/Zeichenkette)</code></span>
             </span>
             <span class="sub-box">
                 Wenn dieser Wert auf <code>true</code> gesetzt wird, kehrt dies die Auswahl der
@@ -9451,7 +9451,7 @@ im Funktionsaufruf wie <code>serendipity_funktion parameter1=wert1 parameter2=we
 
         <span class="box"><span class="mbold">Rückgabewert:</span>
             <span class="sub-box">
-                <span class="smarty-type"><em>Variablentyp:</em> <code class="type"></code></span>
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Zeichenkette</code></span>
             </span>
             <span class="sub-box">
                 HTML-Zeichenkette (<code>sidebars.tpl</code>)
@@ -9490,7 +9490,7 @@ im Funktionsaufruf wie <code>serendipity_funktion parameter1=wert1 parameter2=we
 
         <span class="box"><code class="sub-item smarty">file</code> (Pflicht)
             <span class="sub-box">
-                <span class="smarty-type"><em>Variablentyp:</em> <code class="type"></code></span>
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Zeichenkette</code></span>
             </span>
             <span class="sub-box">
                 Hiermit geben Sie an, welchen Dateinamen (und etwaige Unterverzeichnisse ab dem Stammverzeichnis des Templates) Sie im Template einbinden wollen.
@@ -9499,10 +9499,10 @@ im Funktionsaufruf wie <code>serendipity_funktion parameter1=wert1 parameter2=we
 
         <span class="box"><span class="mbold">Rückgabewert:</span>
             <span class="sub-box">
-                <span class="smarty-type"><em>Variablentyp:</em> <code class="type"></code></span>
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Zeichenkette</code></span>
             </span>
             <span class="sub-box">
-                Zeichenkette (vollständiger Pfad zum gewünschten Bild)
+                Zeichenkette (vollständiger Pfad zur gewünschten Datei)
             </span>
         </span>
 
@@ -9526,7 +9526,7 @@ im Funktionsaufruf wie <code>serendipity_funktion parameter1=wert1 parameter2=we
 
         <span class="box"><code class="sub-item smarty">entry</code> (Pflicht)
             <span class="sub-box">
-                <span class="smarty-type"><em>Variablentyp:</em> <code class="type"></code></span>
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Zahl</code></span>
             </span>
             <span class="sub-box">
                 Enthält die ID des Blog-Artikels, für den die Kommentare dargestellt werden sollen.
@@ -9535,7 +9535,7 @@ im Funktionsaufruf wie <code>serendipity_funktion parameter1=wert1 parameter2=we
 
         <span class="box"><code class="sub-item smarty">mode</code> (optional)
             <span class="sub-box">
-                <span class="smarty-type"><em>Variablentyp:</em> <code class="type"></code></span>
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Zeichenkette</code></span>
             </span>
             <span class="sub-box">
                 Legt fest, ob die Artikel hierarchisch (<code>$CONST.VIEWMODE_THREADED</code> also "threaded") oder
@@ -9549,7 +9549,7 @@ im Funktionsaufruf wie <code>serendipity_funktion parameter1=wert1 parameter2=we
 
         <span class="box"><code class="sub-item smarty">order</code> (optional)
             <span class="sub-box">
-                <span class="smarty-type"><em>Variablentyp:</em> <code class="type"></code></span>
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Zeichenkette</code></span>
             </span>
             <span class="sub-box">
                 Legt die Reihenfolge fest, mit der die Kommentare ausgegeben werden (<code>ASC</code>
@@ -9561,7 +9561,7 @@ im Funktionsaufruf wie <code>serendipity_funktion parameter1=wert1 parameter2=we
 
         <span class="box"><code class="sub-item smarty">limit</code> (optional)
             <span class="sub-box">
-                <span class="smarty-type"><em>Variablentyp:</em> <code class="type"></code></span>
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">(Zahl/Zeichenkette)</code></span>
             </span>
             <span class="sub-box">
                 Begrenzt die Anzahl der dargestellten Kommentare auf den gewünschten Wert
@@ -9569,9 +9569,49 @@ im Funktionsaufruf wie <code>serendipity_funktion parameter1=wert1 parameter2=we
             </span>
         </span>
 
+        <span class="box"><code class="sub-item smarty">depth</code> (optional)
+            <span class="sub-box">
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">(Zahl/Zeichenkette)</code></span>
+            </span>
+            <span class="sub-box">
+                Eine Zeichenkette, die die aktuelle Verschachtelungstiefe eines Kommentars angibt
+                (standardmäßig leer).
+            </span>
+        </span>
+
+        <span class="box"><code class="sub-item smarty">trace</code> (optional)
+            <span class="sub-box">
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Zeichenkette</code></span>
+            </span>
+            <span class="sub-box">
+                Eine Zeichenkette, die den aktuellen Kommentar in seiner Abfolge/Bezug darstellt
+                (standardmäßig leer, oder beispielsweise als "1.1.2.1").
+            </span>
+        </span>
+
+        <span class="box"><code class="sub-item smarty">block</code> (optional)
+            <span class="sub-box">
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">(Zeichenkette/NULL)</code></span>
+            </span>
+            <span class="sub-box">
+                Eine Zeichenkette, die den aktuellen Smarty BLOCK angibt bzw. dessen Ausgabe beeinflusst.
+                (standardmäßig COMMENTS für Kommentare | leer für trackbacks | NULL für ein "assign" der Variablen, statt einer template Datei).
+            </span>
+        </span>
+
+        <span class="box"><code class="sub-item smarty">template</code> (optional)
+            <span class="sub-box">
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Zeichenkette</code></span>
+            </span>
+            <span class="sub-box">
+                Legt den Namen der Smarty-Template-Datei fest, der für die Darstellung der
+                Kommentare verwendet werden soll. Standardmäßig ist dies <code>comments.tpl</code>.
+            </span>
+        </span>
+
         <span class="box"><span class="mbold">Rückgabewert:</span>
             <span class="sub-box">
-                <span class="smarty-type"><em>Variablentyp:</em> <code class="type"></code></span>
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Zeichenkette</code></span>
             </span>
             <span class="sub-box">
                 HTML-Zeichenkette (<code>comments.tpl</code>)
@@ -9592,16 +9632,42 @@ im Funktionsaufruf wie <code>serendipity_funktion parameter1=wert1 parameter2=we
         Stellt die Liste aller Trackbacks für einen Eintrag dar.
     </span>
 
+    <span class="box">
+        Da Trackbacks per default nur im LINEAR Modus, also ohne Verschachtelungen und Tiefe/Bezug
+        wie bei den Kommentaren dargestellt werden, sind die optionalen Parameter (mode, depth,
+        trace) daher gar nicht, oder nur bedingt/vereinzelt (block und template) beeinflussbar.
+    </span>
+
     <span class="box">Parameter:</span>
 
     <span class="box mda-box">
 
         <span class="box"><code class="sub-item smarty">entry</code> (Pflicht)
             <span class="sub-box">
-                <span class="smarty-type"><em>Variablentyp:</em> <code class="type"></code></span>
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Zahl</code></span>
             </span>
             <span class="sub-box">
                 Enthält die ID des Blog-Artikels, für den die Trackbacks dargestellt werden sollen.
+            </span>
+        </span>
+
+        <span class="box"><code class="sub-item smarty">block</code> (optional)
+            <span class="sub-box">
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">(Zeichenkette/NULL)</code></span>
+            </span>
+            <span class="sub-box">
+                Eine Zeichenkette, die den aktuellen Smarty BLOCK angibt bzw. dessen Ausgabe beeinflusst.
+                (standardmäßig TRACKBACKS für trackbacks).
+            </span>
+        </span>
+
+        <span class="box"><code class="sub-item smarty">template</code> (optional)
+            <span class="sub-box">
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Zeichenkette</code></span>
+            </span>
+            <span class="sub-box">
+                Legt den Namen der Smarty-Template-Datei fest, der für die Darstellung der
+                Trackacks verwendet werden soll. Standardmäßig ist dies <code>trackbacks.tpl</code>.
             </span>
         </span>
 
@@ -9635,7 +9701,7 @@ im Funktionsaufruf wie <code>serendipity_funktion parameter1=wert1 parameter2=we
 
         <span class="box"><code class="sub-item smarty">entry</code> (Pflicht)
             <span class="sub-box">
-                <span class="smarty-type"><em>Variablentyp:</em> <code class="type"></code></span>
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Zahl</code></span>
             </span>
             <span class="sub-box">
                 Enthält die ID des Blog-Artikels, zu dem der Permalink zurückgegeben werden soll.
@@ -9644,7 +9710,7 @@ im Funktionsaufruf wie <code>serendipity_funktion parameter1=wert1 parameter2=we
 
         <span class="box"><code class="sub-item smarty">is_comments</code> (Pflicht)
             <span class="sub-box">
-                <span class="smarty-type"><em>Variablentyp:</em> <code class="type"></code></span>
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Bool</code></span>
             </span>
             <span class="sub-box">
                 Bei der Darstellung von Kommentar-Feeds muss dieser Parameter auf <code>true</code>
@@ -9655,7 +9721,7 @@ im Funktionsaufruf wie <code>serendipity_funktion parameter1=wert1 parameter2=we
 
         <span class="box"><span class="mbold">Rückgabewert:</span>
             <span class="sub-box">
-                <span class="smarty-type"><em>Variablentyp:</em> <code class="type"></code></span>
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Zeichenkette</code></span>
             </span>
             <span class="sub-box">
                 Zeichenkette (Link zum Blog-Artikel)
@@ -9683,7 +9749,7 @@ im Funktionsaufruf wie <code>serendipity_funktion parameter1=wert1 parameter2=we
 
         <span class="box"><code class="sub-item smarty">what</code> (Pflicht)
             <span class="sub-box">
-                <span class="smarty-type"><em>Variablentyp:</em> <code class="type"></code></span>
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Zeichenkette</code></span>
             </span>
             <span class="sub-box">
                 Kann entweder <code>entries</code> (Blog-Artikel) , <code>trackbacks</code> oder
@@ -9694,7 +9760,7 @@ im Funktionsaufruf wie <code>serendipity_funktion parameter1=wert1 parameter2=we
 
         <span class="box"><span class="mbold">Rückgabewert:</span>
             <span class="sub-box">
-                <span class="smarty-type"><em>Variablentyp:</em> <code class="type"></code></span>
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Zahl</code></span>
             </span>
             <span class="sub-box">
                 Zahl
@@ -9738,7 +9804,7 @@ im Funktionsaufruf wie <code>serendipity_funktion parameter1=wert1 parameter2=we
 
         <span class="box"><code class="sub-item smarty">array</code> (Pflicht)
             <span class="sub-box">
-                <span class="smarty-type"><em>Variablentyp:</em> <code class="type"></code></span>
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Array</code></span>
             </span>
             <span class="sub-box">
                 Enthält das Array, aus dem ein Wert zurückgeliefert werden soll.
@@ -9747,7 +9813,7 @@ im Funktionsaufruf wie <code>serendipity_funktion parameter1=wert1 parameter2=we
 
         <span class="box"><code class="sub-item smarty">key</code> (Pflicht)
             <span class="sub-box">
-                <span class="smarty-type"><em>Variablentyp:</em> <code class="type"></code></span>
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Zeichenkette</code></span>
             </span>
             <span class="sub-box">
                 Enthält den Namen des Array-Schlüssels, zu dem der Wert zurückgeliefert werden soll.
@@ -9756,7 +9822,7 @@ im Funktionsaufruf wie <code>serendipity_funktion parameter1=wert1 parameter2=we
 
         <span class="box"><code class="sub-item smarty">default</code> (optional)
             <span class="sub-box">
-                <span class="smarty-type"><em>Variablentyp:</em> <code class="type"></code></span>
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Zeichenkette</code></span>
             </span>
             <span class="sub-box">
                 Falls kein Array-Schlüssel gefunden wird, kann anstelle eines leeren Wertes ein
@@ -9766,7 +9832,7 @@ im Funktionsaufruf wie <code>serendipity_funktion parameter1=wert1 parameter2=we
 
         <span class="box"><span class="mbold">Rückgabewert:</span>
             <span class="sub-box">
-                <span class="smarty-type"><em>Variablentyp:</em> <code class="type"></code></span>
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Array</code></span>
             </span>
             <span class="sub-box">
                 Array-Wert
@@ -9792,7 +9858,7 @@ im Funktionsaufruf wie <code>serendipity_funktion parameter1=wert1 parameter2=we
 
         <span class="box"><code class="sub-item smarty">id</code> oder <code>entry</code> (Pflicht)
             <span class="sub-box">
-                <span class="smarty-type"><em>Variablentyp:</em> <code class="type"></code></span>
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Zahl</code></span>
             </span>
             <span class="sub-box">
                 Enthält die ID des Blog-Artikels, für den das Kommentarformular dargestellt werden soll.
@@ -9801,7 +9867,7 @@ im Funktionsaufruf wie <code>serendipity_funktion parameter1=wert1 parameter2=we
 
         <span class="box"><code class="sub-item smarty">url</code> (optional)
             <span class="sub-box">
-                <span class="smarty-type"><em>Variablentyp:</em> <code class="type"></code></span>
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Zeichenkette</code></span>
             </span>
             <span class="sub-box">
                 Enthält die URL, an die die Inhalte des Kommentarformulars übermittelt werden
@@ -9811,7 +9877,7 @@ im Funktionsaufruf wie <code>serendipity_funktion parameter1=wert1 parameter2=we
 
         <span class="box"><code class="sub-item smarty">comments</code> (optional)
             <span class="sub-box">
-                <span class="smarty-type"><em>Variablentyp:</em> <code class="type"></code></span>
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Array</code></span>
             </span>
             <span class="sub-box">
                 Kann ein Array mit bereits vorhandenen Kommentaren zum Blog-Artikel enthalten.
@@ -9821,7 +9887,7 @@ im Funktionsaufruf wie <code>serendipity_funktion parameter1=wert1 parameter2=we
 
         <span class="box"><code class="sub-item smarty">data</code> (optional)
             <span class="sub-box">
-                <span class="smarty-type"><em>Variablentyp:</em> <code class="type"></code></span>
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Array</code></span>
             </span>
             <span class="sub-box">
                 Enthält die Eingaben des Benutzers im Kommentarformular (<code>POST</code>-Daten).
@@ -9830,7 +9896,7 @@ im Funktionsaufruf wie <code>serendipity_funktion parameter1=wert1 parameter2=we
 
         <span class="box"><code class="sub-item smarty">showToolbar</code> (optional)
             <span class="sub-box">
-                <span class="smarty-type"><em>Variablentyp:</em> <code class="type"></code></span>
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Bool</code></span>
             </span>
             <span class="sub-box">
                 Wenn auf <code>true</code> gesetzt, werden zusätzliche Felder im Kommentarformular
@@ -9842,7 +9908,7 @@ im Funktionsaufruf wie <code>serendipity_funktion parameter1=wert1 parameter2=we
 
         <span class="box"><code class="sub-item smarty">moderate_comments</code> (optional)
             <span class="sub-box">
-                <span class="smarty-type"><em>Variablentyp:</em> <code class="type"></code></span>
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Bool</code></span>
             </span>
             <span class="sub-box">
                 Gibt an, ob Kommentare zu einem Blog-Artikel moderiert werden. Standardmäßig
@@ -9852,7 +9918,7 @@ im Funktionsaufruf wie <code>serendipity_funktion parameter1=wert1 parameter2=we
 
         <span class="box"><span class="mbold">Rückgabewert:</span>
             <span class="sub-box">
-                <span class="smarty-type"><em>Variablentyp:</em> <code class="type"></code></span>
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">(void)</code></span>
             </span>
             <span class="sub-box">
                 HTML-Zeichenkette (<code>commentform.tpl</code>)
@@ -9894,7 +9960,7 @@ im Funktionsaufruf wie <code>serendipity_funktion parameter1=wert1 parameter2=we
 
         <span class="box"><code class="sub-item smarty">category</code> (optional)
             <span class="sub-box">
-                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">(int)</code></span>
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Zahl</code></span>
             </span>
             <span class="sub-box">
                 Legt die Kategorie-ID fest, aus der die Blog-Artikel gelesen werden sollen. Ohne
@@ -9905,7 +9971,7 @@ im Funktionsaufruf wie <code>serendipity_funktion parameter1=wert1 parameter2=we
 
         <span class="box"><code class="sub-item smarty">viewAuthor</code> (optional)
             <span class="sub-box">
-                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">(int)</code></span>
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Zahl</code></span>
             </span>
             <span class="sub-box">
                 Legt die Redakteurs-ID fest, vom der die Blog-Artikel gelesen werden sollen. Ohne
@@ -9916,7 +9982,7 @@ im Funktionsaufruf wie <code>serendipity_funktion parameter1=wert1 parameter2=we
 
         <span class="box"><code class="sub-item smarty">page</code> (optional)
             <span class="sub-box">
-                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">(int)</code></span>
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Zahl</code></span>
             </span>
             <span class="sub-box">
                 Wenn die Liste der Blog-Artikel mehr als eine Seite ausfüllt [*]
@@ -9931,7 +9997,7 @@ im Funktionsaufruf wie <code>serendipity_funktion parameter1=wert1 parameter2=we
 
         <span class="box"><code class="sub-item smarty">id</code> (optional)
             <span class="sub-box">
-                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">(int)</code></span>
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Zahl</code></span>
             </span>
             <span class="sub-box">
                 Falls ein einzelner Artikel angezeigt werden soll, enthält dieser Parameter die
@@ -9961,7 +10027,7 @@ im Funktionsaufruf wie <code>serendipity_funktion parameter1=wert1 parameter2=we
 
         <span class="box"><code class="sub-item smarty">modified_since</code> (optional)
             <span class="sub-box">
-                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">(int)</code></span>
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Zahl</code></span>
             </span>
             <span class="sub-box">
                 Falls der Parameter <code>range</code> leer gelassen wird oder auf <code>null</code> gesetzt
@@ -9972,7 +10038,7 @@ im Funktionsaufruf wie <code>serendipity_funktion parameter1=wert1 parameter2=we
 
         <span class="box"><code class="sub-item smarty">full</code> (optional)
             <span class="sub-box">
-                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">(boolean)</code></span>
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Bool</code></span>
             </span>
             <span class="sub-box">
                 Wenn dieser Parameter auf <code>true</code> gesetzt wird, kann auch der erweiterte
@@ -10000,7 +10066,7 @@ im Funktionsaufruf wie <code>serendipity_funktion parameter1=wert1 parameter2=we
 
         <span class="box"><code class="sub-item smarty">fetchDrafts</code> (optional)
             <span class="sub-box">
-                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">(boolean)</code></span>
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Bool</code></span>
             </span>
             <span class="sub-box">
                 Wenn dieser Parameter auf <code>true</code> gesetzt wird, können auch Blog-Entwürfe
@@ -10011,7 +10077,7 @@ im Funktionsaufruf wie <code>serendipity_funktion parameter1=wert1 parameter2=we
 
         <span class="box"><code class="sub-item smarty">short_archives</code> (optional)
             <span class="sub-box">
-                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">(boolean)</code></span>
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Bool</code></span>
             </span>
             <span class="sub-box">
                 Wenn auf <code>true</code> gesetzt, erfolgt die Ausgabe der Blog-Artikel nicht wie auf
@@ -10022,7 +10088,7 @@ im Funktionsaufruf wie <code>serendipity_funktion parameter1=wert1 parameter2=we
 
         <span class="box"><code class="sub-item smarty">orderby</code> (optional)
             <span class="sub-box">
-                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">(string)</code></span>
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Zeichenkette</code></span>
             </span>
             <span class="sub-box">
                 Legt die Sortierung der Artikel fest. Dieser Parameter legt den Namen des
@@ -10034,7 +10100,7 @@ im Funktionsaufruf wie <code>serendipity_funktion parameter1=wert1 parameter2=we
 
         <span class="box"><code class="sub-item smarty">filter_sql</code> (optional)
             <span class="sub-box">
-                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">(string)</code></span>
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Zeichenkette</code></span>
             </span>
             <span class="sub-box">
                 Um die Eingrenzung der gewünschten Blog-Artikel feinzusteuern, kann beliebiger
@@ -10045,7 +10111,7 @@ im Funktionsaufruf wie <code>serendipity_funktion parameter1=wert1 parameter2=we
 
         <span class="box"><code class="sub-item smarty">noCache</code> (optional)
             <span class="sub-box">
-                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">(boolean)</code></span>
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Bool</code></span>
             </span>
             <span class="sub-box">
                 Wenn auf <code>true</code> gesetzt, werden etwaige Caching-Plugins für das Auslesen der
@@ -10056,7 +10122,7 @@ im Funktionsaufruf wie <code>serendipity_funktion parameter1=wert1 parameter2=we
 
         <span class="box"><code class="sub-item smarty">noSticky</code> (optional)
             <span class="sub-box">
-                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">(boolean)</code></span>
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Bool</code></span>
             </span>
             <span class="sub-box">
                 Wenn auf <code>true</code> gesetzt, werden sogenannte <em>Dauerhafte Einträge</em> (siehe
@@ -10068,7 +10134,7 @@ im Funktionsaufruf wie <code>serendipity_funktion parameter1=wert1 parameter2=we
 
         <span class="box"><code class="sub-item smarty">select_key</code> (optional)
             <span class="sub-box">
-                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">(string)</code></span>
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Zeichenkette</code></span>
             </span>
             <span class="sub-box">
                 Kann eine kommaseparierte Liste von SQL-Tabellenfeldnamen enthalten, die in der
@@ -10079,7 +10145,7 @@ im Funktionsaufruf wie <code>serendipity_funktion parameter1=wert1 parameter2=we
 
         <span class="box"><code class="sub-item smarty">group_by</code> (optional)
             <span class="sub-box">
-                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">(string)</code></span>
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Zeichenkette</code></span>
             </span>
             <span class="sub-box">
                 Enthält den Tabellenfeldnamen, nach dem die Artikelliste via SQL gruppiert
@@ -10090,7 +10156,7 @@ im Funktionsaufruf wie <code>serendipity_funktion parameter1=wert1 parameter2=we
 
         <span class="box"><code class="sub-item smarty">returncode</code> (optional)
             <span class="sub-box">
-                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">(string)</code></span>
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Zeichenkette</code></span>
             </span>
             <span class="sub-box">
                 Legt fest, ob die Artikelausgabe als ein Datensatz (<code>single</code>) oder
@@ -10101,7 +10167,7 @@ im Funktionsaufruf wie <code>serendipity_funktion parameter1=wert1 parameter2=we
 
         <span class="box"><code class="sub-item smarty">joinauthors</code> (optional)
             <span class="sub-box">
-                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">(boolean)</code></span>
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Bool</code></span>
             </span>
             <span class="sub-box">
                 Enthält den Wert <code>true</code>, wenn die Metadaten für den Redakteur eines Artikels
@@ -10111,7 +10177,7 @@ im Funktionsaufruf wie <code>serendipity_funktion parameter1=wert1 parameter2=we
 
         <span class="box"><code class="sub-item smarty">joincategories</code> (optional)
             <span class="sub-box">
-                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">(boolean)</code></span>
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Bool</code></span>
             </span>
             <span class="sub-box">
                 Enthält den Wert <code>true</code>, wenn die Metadaten für die zugewiesenen Kategorien eines
@@ -10121,7 +10187,7 @@ im Funktionsaufruf wie <code>serendipity_funktion parameter1=wert1 parameter2=we
 
         <span class="box"><code class="sub-item smarty">joinown</code> (optional)
             <span class="sub-box">
-                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">(string)</code></span>
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Zeichenkette</code></span>
             </span>
             <span class="sub-box">
                 Kann SQL-Anweisungen enthalten, die den <code>JOIN</code>-Teil der Abfrage nach
@@ -10133,7 +10199,7 @@ im Funktionsaufruf wie <code>serendipity_funktion parameter1=wert1 parameter2=we
             <span class="label invisible" id="entryproperties-customprop-fetch">entryproperties-customprop-fetch</span>
             <code class="sub-item smarty">entryprops</code> (optional)
             <span class="sub-box">
-                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">(string)</code></span>
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Zeichenkette</code></span>
             </span>
             <span class="sub-box">
                 Mit diesem Parameter können Sie eine Liste von zusätzlichen <code>freien
@@ -10175,7 +10241,7 @@ im Funktionsaufruf wie <code>serendipity_funktion parameter1=wert1 parameter2=we
 
         <span class="box"><code class="sub-item smarty">template</code> (optional)
             <span class="sub-box">
-                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">(string)</code></span>
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Zeichenkette</code></span>
             </span>
             <span class="sub-box">
                 Legt den Namen der Smarty-Template-Datei fest, der für die Darstellung der
@@ -10185,7 +10251,7 @@ im Funktionsaufruf wie <code>serendipity_funktion parameter1=wert1 parameter2=we
 
         <span class="box"><code class="sub-item smarty">block</code> (optional)
             <span class="sub-box">
-                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">(string)</code></span>
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Zeichenkette</code></span>
             </span>
             <span class="sub-box">
                 Legt den Namen der Smarty-Variable fest, die den HTML-Code des geparsten
@@ -10201,7 +10267,7 @@ im Funktionsaufruf wie <code>serendipity_funktion parameter1=wert1 parameter2=we
 
         <span class="box"><code class="sub-item smarty">preview</code> (optional)
             <span class="sub-box">
-                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">(boolean)</code></span>
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Bool</code></span>
             </span>
             <span class="sub-box">
                 Wenn auf <code>true</code> gesetzt, wird der Artikel so behandelt, als würde er im
@@ -10213,7 +10279,7 @@ im Funktionsaufruf wie <code>serendipity_funktion parameter1=wert1 parameter2=we
 
         <span class="box"><code class="sub-item smarty">groupmode</code> (optional)
             <span class="sub-box">
-                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">(string)</code></span>
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Zeichenkette</code></span>
             </span>
             <span class="sub-box">
                 Diese Variable legt fest, ob die Liste der Artikel nach dem Tag der
@@ -10224,7 +10290,7 @@ im Funktionsaufruf wie <code>serendipity_funktion parameter1=wert1 parameter2=we
 
         <span class="box"><code class="sub-item smarty">use_hooks</code> (optional)
             <span class="sub-box">
-                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">(boolean)</code></span>
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Bool</code></span>
             </span>
             <span class="sub-box">
                 Wenn auf <code>true</code> gesetzt, werden Ereignis-Plugins für die Darstellung der
@@ -10238,7 +10304,7 @@ im Funktionsaufruf wie <code>serendipity_funktion parameter1=wert1 parameter2=we
 
         <span class="box"><code class="sub-item smarty">use_footer</code> (optional)
             <span class="sub-box">
-                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">(boolean)</code></span>
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Bool</code></span>
             </span>
             <span class="sub-box">
                 Wenn auf <code>true</code> gesetzt, wird der Footer unterhalb der Einträge mit
@@ -10249,7 +10315,7 @@ im Funktionsaufruf wie <code>serendipity_funktion parameter1=wert1 parameter2=we
 
         <span class="box"><code class="sub-item smarty">skip_smarty_hooks</code> (optional)
             <span class="sub-box">
-                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">(boolean)</code></span>
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Bool</code></span>
             </span>
             <span class="sub-box">
                 Um den Aufruf weiterer Ereignis-Plugins bei der Darstellung der Artikel zu
@@ -10276,7 +10342,7 @@ im Funktionsaufruf wie <code>serendipity_funktion parameter1=wert1 parameter2=we
 
         <span class="box"><code class="sub-item smarty">prevent_reset</code> (optional)
             <span class="sub-box">
-                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">(boolean)</code></span>
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Bool</code></span>
             </span>
             <span class="sub-box">
                 Standardmäßig enthält die Variable den Wert <code>false</code> und sorgt dafür,
