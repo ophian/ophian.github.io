@@ -9763,7 +9763,7 @@ im Funktionsaufruf wie <code>serendipity_funktion parameter1=wert1 parameter2=we
                 <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Zahl</code></span>
             </span>
             <span class="sub-box">
-                Zahl
+                Gesamt Anzahl des Wertes.
             </span>
         </span>
 
@@ -10007,7 +10007,7 @@ im Funktionsaufruf wie <code>serendipity_funktion parameter1=wert1 parameter2=we
 
         <span class="box"><code class="sub-item smarty">range</code> (optional)
             <span class="sub-box">
-                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">mixed (string/array/null)</code></span>
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">mixed (Zeichenkette/Array/NULL)</code></span>
             </span>
             <span class="sub-box">
                 Kann die Liste der Artikel auf einen gewissen Zeitraum einschränken. Der
@@ -10049,7 +10049,7 @@ im Funktionsaufruf wie <code>serendipity_funktion parameter1=wert1 parameter2=we
 
         <span class="box"><code class="sub-item smarty">limit</code> (optional)
             <span class="sub-box">
-                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">mixed (integer/string)</code></span>
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">mixed (Zahl/Zeichenkette)</code></span>
             </span>
             <span class="sub-box">
                 Enthält eine Zeichenkette, die angibt, wie viele Blog-Artikel ausgelesen werden
@@ -10330,7 +10330,7 @@ im Funktionsaufruf wie <code>serendipity_funktion parameter1=wert1 parameter2=we
 
         <span class="box"><code class="sub-item smarty">skip_smarty_hook</code> (optional)
             <span class="sub-box">
-                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">mixed (boolean/array)</code></span>
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">mixed (Bool/Array)</code></span>
             </span>
             <span class="sub-box">
                 Im Gegensatz zur pauschalen Blockierung aller Ereignis-Plugins kann diese
@@ -10356,7 +10356,7 @@ im Funktionsaufruf wie <code>serendipity_funktion parameter1=wert1 parameter2=we
 
         <span class="box"><span class="mbold">Rückgabewert:</span>
             <span class="sub-box">
-                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">mixed (string/null)</code></span>
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">mixed (Zeichenkette/NULL)</code></span>
             </span>
             <span class="sub-box">
                 HTML-Zeichenkette (<code>entries.tpl</code>)
