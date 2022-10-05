@@ -876,17 +876,19 @@ die korrekten HTML-Absätze (entweder mittels <code>&lt;p&gt;...&lt;/p&gt;</code
 tut dies der Editor auch bereits selbständig.</p>
 
 <p>NL2BR und seine Optionen sind also gewissermaßen "abhängig" vom "verwendeten"
-Markup Editor. Dies sind grundsätzlich die folgenden Arten:
-PLAIN TEXT Editor (d.h. gar kein Markup Editor, aber mit BB-Code, also kleinen Formatierungsbuttons),
-MARKDOWN Editoren wie vom markdown oder textile Plugin bereitgestellt, und
-RICH-TEXT Editoren wie der eingebaute (WYSIWYG) CKEditor.</p>
+Markup Editor. Dies sind grundsätzlich die folgenden Arten:</p>
+<ul class="simpleList">
+    <li><span class="mbold">PLAIN TEXT</span> Editor (d.h. gar kein Markup Editor, aber mit BB-Code, also kleinen Formatierungsbuttons)
+    <li><span class="mbold">MARKDOWN</span> Editoren, wie vom markdown oder textile Plugin bereitgestellt</li>
+    <li><span class="mbold">RICH-TEXT</span> Editoren, wie der eingebaute (WYSIWYG) CKEditor (<em>Empfohlen!</em>).</li>
+</ul>
 
 <p>Mit den langjährigen Erfahrungen von sehr unterschiedlichen Handhabungen
 wuchs auch deren (Nach-) Behandlung von diesen Konfigurationen per Option.</p>
 
 <p>Je nach Verwendung finden sich also verschiedene Optionen bzw Optionsgruppen
 für Sonderfälle, getrennt durch einen Absatz:</p>
-<ul>
+<ul class="simpleList">
     <li>Allgemeine Optionen des Plugins, inklusive Mark Editoren Überprüfung</li>
     <li>Ausnahmen für bestimmte Tags (für die beiden folgenden Gruppen)</li>
     <li>Isolierungs ISOBR für den PLAIN TEXT Editor</li>
