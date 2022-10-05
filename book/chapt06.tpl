@@ -814,10 +814,13 @@ Siehe: <span class="pageref"><a href="#U497">Wartung: Service Wartungs Modus</a>
         <span class="mbold">Aktiviere den 503 Modus</span> dazu,
         den Modus zu aktivieren. Dieser <span class="mbold">muss</span>
         danach <span class="mbold">rot</span> werden und
-        <span class="mbold">Deaktiviere den 503 Modus</span> heißen.
-        Sollte dies nicht geschehen klicken Sie zu einer anderen Stelle
-        des Backend und kehren Sie zurück. Als zweite Möglichkeit sollte
-        eine weiterer Versuch den Button zu aktivieren 1-2 Sekunden später gehen.
+        <span class="mbold">Deaktiviere den 503 Modus</span> heißen.<br>
+        Sollte dies nicht unmittelbar geschehen, klicken Sie zu einer anderen Stelle
+        des Backend und rufen die Wartung erneut auf um den Zustand zu prüfen. Als
+        zweite Möglichkeit sollte ein weiterer Versuch den Button zu aktivieren
+        1-2 Sekunden später ebenfalls gehen. Selbst derselbe Browser kann auf
+        verschiedenen Systemen/Servern <span class="mbold">unterschiedliches</span> Verhalten zeigen
+        und hat mit dem Cache Verhalten bei bestimmten Seitenreloads zu tun.
         Ebenso muss dies von <span class="mbold">rot</span> nach
         <span class="mbold">grün</span> werden, wenn Sie das Blog wieder freigeben!
     </span>
