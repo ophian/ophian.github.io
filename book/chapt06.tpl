@@ -781,15 +781,15 @@ Siehe: <span class="pageref"><a href="#U497">Wartung: Service Wartungs Modus</a>
 
 <p>
     <span class="box">
-        Dieser Wartungsmodus kann nur vom Administrator des Blogs
+        Dieser Wartungsmodus kann nur vom Administrator oder Berechtigten des Blogs
         in der Wartung des Backend über <span class="mbold">Service Wartungs Modus</span>
         in Betrieb gesetzt werden.
     </span>
 
     <span class="box">
         Er dient vor allem dazu, das Blog während Serendipity Updates,
-        oder sonstige Wartungsaufgaben die den Frontendbetrieb stören
-        können, für Besucher kurzerhand außer Berieb zu setzen.
+        oder sonstiger Wartungsaufgaben die den Frontendbetrieb stören
+        können, für Besucher kurzerhand außer Betrieb zu setzen.
     </span>
 
     <span class="box">
@@ -836,7 +836,7 @@ Siehe: <span class="pageref"><a href="#U497">Wartung: Service Wartungs Modus</a>
     <span class="box">
         Sollte Letzteres aus Gründen der allzu restriktiv gesetzten Dateiberechtigungen
         ihres Hosters nicht möglich sein, können Sie nur noch temporär den Ordner des
-        modemaintain Plugins mit einem Unterstrich <code>_</code> kurzeitig außer
+        modemaintain Plugins mit einem Unterstrich <code>_</code> kurzzeitig außer
         Betrieb setzen, bis sie wieder angemeldet sind.
     </span>
 </p>
