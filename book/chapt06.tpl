@@ -860,12 +860,12 @@ Siehe: <span class="pageref"><a href="#U497">Wartung: Service Wartungs Modus</a>
 </span>
 </p>
 
-<p>Das Plugin <em>NL2BR</em> ist ein ebenfalls recht simples
-Textformatierungs-Plugin. Es sorgt einfach dafür, dass von Ihnen
-eingegebene Zeilenumbrüche in einem Beitrag später in einen korrekten
+<p>Das Plugin <em>NL2BR</em> ist ein ebenfalls (ehemals) recht simples
+Textformatierungs-Plugin. Es sorgt einfach dafür, dass die von Ihnen
+eingegebene Zeilenumbrüche per ENTER Taste in einem Beitrag später in einen korrekten
 HTML-Zeilenumbruch (<code>&lt;br /&gt;</code>) umgewandelt werden.</p>
 
-<p>Das ist notwendig, weil der HTML-Standard normale Zeilenumbrüche nicht
+<p>Dies ist notwendig, weil der HTML-Standard normale Zeilenumbrüche nicht
 als solche erkennt. Auch mehrere hintereinander eingetragene
 Leerzeichen werden von HTML als ein einziges Leerzeichen
 zusammengefasst.</p>
@@ -874,6 +874,24 @@ zusammengefasst.</p>
 die korrekten HTML-Absätze (entweder mittels <code>&lt;p&gt;...&lt;/p&gt;</code> oder
 <code>&lt;br /&gt;</code>) einfügen. Je nachdem, ob Sie einen WYSIWYG-Editor einsetzen,
 tut dies der Editor auch bereits selbständig.</p>
+
+<p>NL2BR und seine Optionen sind also gewissermaßen "abhängig" vom "verwendeten"
+Markup Editor. Dies sind grundsätzlich die folgenden Arten:
+PLAIN TEXT Editor (d.h. gar kein Markup Editor, aber mit BB-Code, also kleinen Formatierungsbuttons),
+MARKDOWN Editoren wie vom markdown oder textile Plugin bereitgestellt, und
+RICH-TEXT Editoren wie der eingebaute (WYSIWYG) CKEditor.</p>
+
+<p>Mit den langjährigen Erfahrungen von sehr unterschiedlichen Handhabungen
+wuchs auch deren (Nach-) Behandlung von diesen Konfigurationen per Option.</p>
+
+<p>Je nach Verwendung finden sich also verschiedene Optionen bzw Optionsgruppen
+für Sonderfälle, getrennt durch einen Absatz:</p>
+<ul>
+    <li>Allgemeine Optionen des Plugins, inklusive Mark Editoren Überprüfung</li>
+    <li>Ausnahmen für bestimmte Tags (für die beiden folgenden Gruppen)</li>
+    <li>Isolierungs ISOBR für den PLAIN TEXT Editor</li>
+    <li>Aufwendige P-Tags Text Umwandlung für den PLAIN TEXT Editor.</li>
+</ul>
 
 <p>Wenn Sie also bei selbständiger Eingabe überflüssige Zeilenumbrüche in
 Ihren Artikeln haben, sollten Sie das <em>NL2BR</em>-Plugin anpassen (s.u.).</p>
