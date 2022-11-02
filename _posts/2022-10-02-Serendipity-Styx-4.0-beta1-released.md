@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Serendipity Styx 4.0-beta1 release
-last_modified_at: 2022-10-02T15:30:00+00:00
+last_modified_at: 2022-10-02T15:31:00+00:00
 ---
 
 N° 2022/06 - The Serendipity Styx 4.0-beta1 release <img class="php8" src="/i/b/logo_php8_2.svg" alt="php8.2" width="160" height="48">
@@ -18,7 +18,7 @@ I am happy when you help getting this to be a smooth release.
   - Generate strong random & secure password suggestions for user forms
   - Fixed some bugs and made improvements in the workflow behaviour
   - Update some assets and bundled libs, eg Smarty
-  - Improved the import class and specific importers to match changed user passwort hashing since S9y 1.5 and on
+  - Improved the import class and specific importers to match changed user password hashing since S9y 1.5 and on
   - Removed and upgraded importers
   - Improved Plain Text comments for now used HTML comments on elder blogs
   - Update some lang description constants
