@@ -40439,22 +40439,6 @@ die Variable <code class="smarty">{$ENTRIES}</code> mittels der Datei <code>entr
 </p>
 
 <p class="desc citem-desc">
-<code class="item smarty">{$head_version}</code> <em>(deprecated)</em>,
-<code class="item smarty">{$serendipityVersion}</code>
-<span class="desc-info">
-    <span class="box">
-        <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Zeichenkette</code></span>
-        <span class="smarty-scope"><em>Verfügbar in:</em> <code class="file">*.tpl</code></span>
-        <span class="smarty-doc"><em>Zugewiesen in:</em> <code class="file">include/functions_smarty.inc.php</code></span>
-    </span>
-
-    <span class="box">
-        Enthält die Serendipity-Versionsnummer.
-    </span>
-</span>
-</p>
-
-<p class="desc citem-desc">
 <code class="item smarty">{$head_title}</code>
 <span class="desc-info">
     <span class="box">
@@ -40530,23 +40514,6 @@ die Variable <code class="smarty">{$ENTRIES}</code> mittels der Datei <code>entr
 
     <span class="box">
         Enthält die Beschreibung des Blogs, wie sie in der Konfiguration angegeben wurde.
-    </span>
-</span>
-</p>
-
-<p class="desc citem-desc">
-<code class="item smarty">{$is_xhtml}</code>
-<span class="desc-info">
-    <span class="box">
-        <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Boolean</code></span>
-        <span class="smarty-scope"><em>Verfügbar in:</em> <code class="file">*.tpl</code></span>
-        <span class="smarty-doc"><em>Zugewiesen in:</em> <code class="file">include/functions_smarty.inc.php</code></span>
-    </span>
-
-    <span class="box">
-        Ist auf <code>true</code> gesetzt, wenn Serendipity XHTML-Ausgaben produzieren soll. In
-        älteren Serendipity-Versionen war diese Variable konfigurierbar, mittlerweile
-        ist sie immer fest auf <code>true</code> gesetzt.
     </span>
 </span>
 </p>
@@ -47329,10 +47296,6 @@ Zeile, ob die Serendipity-Konfigurationsoption zur eingebetteten Nutzung
 aktiviert wurde (siehe Seite <span class="pageref"><a href="#embedding">embedding</a></span>).
 Ist dies der Fall, werden alle HTML-Kopfbereiche unterdrückt, und das Template
 schreitet erst ab Zeile 33 fort.</p>
-
-<p>Bei standardmäßig deaktivierter eingebetteter Nutzung wurde früher - vor HTML5 - im Folgenden die
-Variable <code class="item smarty">{$is_xhtml}</code> geprüft und abhängig davon der entsprechende
-HTML <code>&lt;!DOCTYPE&gt;</code>-Tag ausgegeben.</p>
 
 <p>Nach dem doctype header beginnt der <code>&lt;html&gt;</code>- und <code>&lt;head&gt;</code>-Bereich der Seite,
 der einige Metadaten wie Seitentitel, Sprache und Links zu den Stylesheets
