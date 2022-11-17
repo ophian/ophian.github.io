@@ -6,7 +6,7 @@ last_modified_at: 2022-11-17T15:20:00+00:00
 
 N° 2022/06 - The Serendipity Styx 4.0-beta1 release <img class="php8" src="/i/b/logo_php8_2.svg" alt="php8.2" width="160" height="48">
 
-### 4.0-beta1 - Public Beta 2 Edition
+### 4.0-beta1 - Public Beta 1
 
 Due to the new major version jump, this version requires a short beta release cycle.
 I am happy when you help getting this to be a smooth release.
