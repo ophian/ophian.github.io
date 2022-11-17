@@ -4,7 +4,7 @@ title: Serendipity Styx 4.0-beta2 release
 last_modified_at: 2022-11-17T15:52:00+00:00
 ---
 
-N° 2022/07 - The Serendipity Styx 4.0-beta2 release <img class="php8" src="/i/b/logo_php8_2.svg" alt="php8.2" width="160" height="48">
+NÂ° 2022/07 - The Serendipity Styx 4.0-beta2 release <img class="php8" src="/i/b/logo_php8_2.svg" alt="php8.2" width="160" height="48">
 
 ### 4.0-beta2 - Public Beta 2
 
