@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Serendipity Styx 4.0.0 release
-last_modified_at: 2022-12-08T16:57:00+00:00
+last_modified_at: 2022-12-08T17:06:00+00:00
 ---
 
 N° 2022/09 - The Serendipity Styx 4.0.0 release <img class="php8" src="/i/b/logo_php8_2.svg" alt="php8.2" width="160" height="48">
