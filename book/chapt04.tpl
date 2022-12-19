@@ -6987,6 +6987,36 @@ Internet nicht geeignet sind.</span>
 </p>
 
 <p class="desc">
+<span class="label invisible" id="Nutzung von AVIF Variationen (PHP 8.1+) aktiviere">Nutzung von AVIF Variationen (PHP 8.1+) aktivieren</span>
+<span class="tag-box invisible">
+    <span class="inline-tag">Konfiguration!Variationen</span>
+    <span class="inline-tag">Thumbnails!Extension</span>
+    <span class="inline-tag">Thumbnails!Upload</span>
+    <span class="inline-tag">Thumbnails!Automatik</span>
+</span><!-- tagbox -->
+<span class="item mbold">Nutzung von AVIF Variationen (PHP 8.1+) aktivieren</span><!-- menuitem -->
+<span class="desc-info">
+    <span class="box">
+        Image AVIF Variationen können sehr ressourcenintensiv sein, da viel Ram
+        und CPU/GPU Kerne benötigt werden um Bilder in das AV1 Format zu kodieren.
+        Massenuploads und Massenkonvertierungen (siehe "Wartung") sind daher nicht
+        zu empfehlen. Erlernen Sie den Umgang erst an ein paar Beispielen, bevor Sie
+        die Nutzung verbleibend erlauben.
+    </span>
+
+    <span class="box">
+        <span class="mbold">ACHTUNG:</span> PHP 8.1 fehlt noch eine entscheidende Funktion,
+        um Größenangaben mit den üblichen Methoden aus AVIF Dateien auszulesen.
+        Dies bedingt vorläufig auch, dass die Bild-Funktionen der Mediathek
+        "Dateiausmaße ändern" und "Bild um 90° drehen" für alle Formate nicht
+        verwendet werden können, wenn Sie AVIF verwenden, da ja jede dieser
+        Aktionen das Originalbild, sowie dessen Variationen betrifft. Das
+        Problem ist mit PHP 8.2 gelöst, welches die fehlende Funktion nachliefert.
+    </span>
+</span>
+</p>
+
+<p class="desc">
 <span class="label invisible" id="MDB-Synchronisation">MDB-Synchronisation</span>
 <span class="tag-box invisible">
     <span class="inline-tag">Automagische Synchronisation</span>
