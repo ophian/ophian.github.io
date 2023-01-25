@@ -130,6 +130,7 @@
       <li><a href="#docs-blog-is-blank" id="styx-toc-docs-blog-is-blank">Blog Is Blank / White page</a></li>
       <li><a href="#docs-when-i-savepreview-an-entry-it-shows-my-admin-panel-in-the-preview-section-or-i-need-to-login-after-each-page-request-and-cant-perform-any-action" id="styx-toc-docs-when-i-savepreview-an-entry-it-shows-my-admin-panel-in-the-preview-section-or-i-need-to-login-after-each-page-request-and-cant-perform-any-action">When I save/preview an entry, it shows my admin panel in the preview section! Or: I need to login after each page request, and can’t perform any action!</a></li>
       <li><a href="#docs-the-dates--weeknames-are-not-displayed-according-to-my-language-but-all-other-things-display-correctly" id="styx-toc-docs-the-dates--weeknames-are-not-displayed-according-to-my-language-but-all-other-things-display-correctly">The dates / weeknames are not displayed according to my language, but all other things display correctly!</a></li>
+      <li><a href="#docs-timestamp-date-offset-issues" id="styx-toc-docs-timestamp-date-offset-issues">Timestamp / Date offset issues</a></li>
     </ul>
   </li>
   <li class="sub-toc"><a href="#docs-upgrading" id="styx-toc-docs-upgrading">Upgrading</a>
@@ -336,6 +337,22 @@
     <p>To display date and time formats specific to national conventions, Serendipity uses a system called “Locales”. This system is both available on Linux and Windows and adjusts the native language of the system. A system can contain multiple locales to choose from, and Serendipity employs them via the “LOCALES” constant found in your lang/serendipity_lang_XX.inc.php.</p>
 
     <p>This means, one of the Locales specified there need to be existing on your server. You will need to ask your System administrator to install the locale you want to use or install it yourself with tools like “locale-gen”.</p>
+
+    <span class="faq-up"><a class="navigator" href="#faq-top">top</a></span>
+</div>
+
+<h4 id="docs-timestamp-date-offset-issues">Timestamp / Date offset issues</h4>
+
+<div>
+    <p>You have an issue where entries or comments are not in sync with your current expected time? Then check:</p>
+
+    <ul>
+        <li>Ask you provider that the server itself is running the correct timezone.</li>
+        <li>Then check that the PHP running on this server is set to the correct timezone too, corresponding with the servers timezone, in its php.ini file. If not, check if you are able to set a client php.ini into your web account with your local correct timezone, e.g. <code>date.timezone=Europe/Berlin</code>.</li>
+        <li>Serendipity has a configuration option to influence the users timezone offset against the Server/PHP timezone settings, like (+/-) hours.</li>
+    </ul>
+
+    <p>In this mentioned Serendipity configuration options, which is located in the "Design & Options" tab, the toggle info description holds the <strong>displayed time</strong> Serendipity would currently use. Check, if this is the time <strong>you expect</strong> to have. Else you have to set the hours offset (-/+) in the option and save the configuration. On next request the displayed time is set against your changed offset setting.</p>
 
     <span class="faq-up"><a class="navigator" href="#faq-top">top</a></span>
 </div>
