@@ -103,7 +103,9 @@ inzwischen auch solch komplexe Anwendungen meistern. Für Serendipity
 gibt es beispielsweise das Plugin <em>Statische Seiten</em>, mit dem man
 Inhalte losgelöst von den chronologisch sortierten Artikeln erstellen
 und auch Hierarchien mit Unterseiten abbilden kann (siehe Seite
-<span class="pageref"><a href="#staticpage">staticpage</a></span>).</p>
+<span class="pageref"><a href="#staticpage">staticpage</a></span>).
+Oder das <span class="pageref"><a href="#freetag">Freetag</a></span>
+Plugin für die Indizierung durch Schlagworte.</p>
 
 <p>Ein weiterer fundamentaler Unterschied ist die Ausrichtung eines CMS
 auf Mehrbenutzerfähigkeit und Workflows, so dass ein Artikel vor
