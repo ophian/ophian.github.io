@@ -2024,7 +2024,7 @@ desto engmaschiger lassen sich alle Informationen des Internets
 miteinander verknüpfen - und das nun auch nicht mehr nur einseitig.</p>
 
 <p>Zum heutigen Zeitpunkt ist die Erfassung von Metadaten eine recht
-aufwändige Sache und obliegt dem Redakteur eines Textes. Daher sind
+aufwendige Sache und obliegt dem Redakteur eines Textes. Daher sind
 brauchbare RDF-Metadaten noch recht wenig verbreitet und
 <span class="tag-box invisible">
     <span class="inline-tag">Mikroformate</span>
@@ -2056,11 +2056,10 @@ vornherein Gedanken über eine hierarchische Struktur seiner zukünftigen
 Texte machen zu müssen.</p>
 
 <p>Aus dieser Not heraus wurde das <em>Tagging</em> erfunden: Einem Artikel
-lässt sich so dynamisch eine beliebige Menge an Stichwörtern zuordnen.
+lässt sich so dynamisch eine beliebige Menge an Schlagwörtern zuordnen.
 Mit deren Hilfe kann sich ein Benutzer zu Artikeln
 weiterführen lassen, die dasselbe Stichwort tragen. Das geht zB. über
-<em>Tagwolken</em>, also
-Übersichten der meistgebrauchten Tags,
+<em>Tagwolken</em>, also Übersichten der meistgebrauchten Tags,
 die häufig durch unterschiedliche Schriftgrößen gewichtet werden.</p>
 
 <p>Gerade im Kontext von Foto-Providern wie Flickr ist Tagging sehr
