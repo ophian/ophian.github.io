@@ -1,15 +1,15 @@
 ---
 layout: post
 title: Happy Birthday Miss S
-last_modified_at: 2023-03-29T19:56:00+00:00
+last_modified_at: 2023-03-29T20:10:00+00:00
 ---
 
-N� 2023/1 - **20 years** of Serendipity
+N° 2023/1 - **20 years** of Serendipity
 
 <div markdown="1">
  <div>
 
-<h2>You've come a very long way, and still living... <em>better than ever</em> ! What a fortunate stroke of <em>serendipity</em> !</h2><br>
+<h2>You’ve come a very long way, and still living… <em>better than ever</em> ! What a fortunate stroke of <em>serendipity</em> !</h2>
 
 <p>Its time to give an update of development and the future plans for <strong>Serendipity</strong>. Upcoming Serendipity Styx 4.1 revision will be the last update supporting the PHP 7.4 Series while next 4.2 will require PHP 8. Recommended to use is the latest PHP 8.2 version which allows all features Serendipity Styx already supports.</p>
 
@@ -17,12 +17,12 @@ N� 2023/1 - **20 years** of Serendipity
 
 <p>Further plans for <strong>Serendipity Styx</strong> will need a refactoring of the current language system to <strong>UTF-8</strong> only and maybe even move away from current constant only usage. <em>Time will tell.</em></p>
 
-<p>Now, lets have a deep look in the miraculous mirror of futures... </p>
+<p>Now, lets have a deep look in the miraculous mirror of futures… </p>
 
-<p><em>'Twas brillig, and the slithy toves<br>
+<p><em>’Twas brillig, and the slithy toves<br>
 Did gyre and gimble in the wabe:<br>
 All mimsy were the borogoves,<br>
-And the mome raths outgrabe ...<br><br>Jabberwocky by Lewis Carroll.</em></p>
+And the mome raths outgrabe …<br><br>Jabberwocky by Lewis Carroll.</em></p>
 
  </div>
 </div>
