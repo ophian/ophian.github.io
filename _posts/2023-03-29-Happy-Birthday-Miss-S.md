@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Happy Birthday Miss S
-last_modified_at: 2023-03-30T08:25:00+00:00
+last_modified_at: 2023-03-30T08:30:00+00:00
 ---
 
 N° 2023/1 - **20 years** of Serendipity
@@ -9,7 +9,7 @@ N° 2023/1 - **20 years** of Serendipity
 <div markdown="1">
  <div>
 
-<h2>🎂 Still living… and <em>better than ever</em> ❗</h2>
+<h2>🎂 Still living… and <em>better than ever</em> ❗</h2><br>
 
 <p>Its time to give an update of development and the future plans for <strong>Serendipity</strong>.</p>
 
