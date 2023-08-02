@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Serendipity Styx Edition - Help Center [en] | The Stockholm RichText-Editor Lessons | ophian.github.io</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Serendipity Styx is a PHP-powered weblog engine giving users an easy way to maintain a blog and developers a framework with the power for professional applications.">
+    <meta name="keywords" content="Serendipity, Serendipity Blog, Serendipity Weblog, Serendipity Styx, Serendipity Next, Serendipity Styx blog, Serendipity Styx Help Center, Serendipity Styx Edition, Styx is what Serendipity should be">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:title" content="Serendipity Styx Edition - Help Center [en] | The Stockholm RichText-Editor Lessons | Styx is what Serendipity should be | ophian.github.io">
+    <meta property="og:site_name" content="Serendipity Styx Blog System">
+    <meta property="og:description" content="Serendipity Styx is a PHP-powered weblog engine giving users an easy way to maintain a blog and developers a framework with the power for professional applications.">
+    <meta property="og:image" content="https://ophian.github.io/i/styx-opengraph.jpg">
+    <meta property="og:url" content="https://ophian.github.io/hc/en/posting-blog-entry.html">
+    <link rel="apple-touch-icon" href="/i/apple-touch-icon.png">
+    <link rel="stylesheet" href="/css/libs.min.css">
+    <link rel="stylesheet" href="/css/styx.min.css">
+</head>
+<body>
+<ul class="skip-link__list">
+    <li class="skip-link skip-link--main-nav">
+        <a href="#main-navigation" tabindex="1">Main navigation</a>
+    </li>
+    <li class="skip-link skip-link--main-repo"><a href="#main-repository" tabindex="1">Styx Repository</a></li>
+    <li class="skip-link skip-link--main-content"><a href="#main-content" tabindex="1">Styx Main content</a></li>
+</ul>
+<div class="menu menu--no-hero menu--tiny ">
+    <div class="menu__page-title">
+        <h1><a href="https://ophian.github.io/hc/en">Serendipity Styx Edition - Documentation [en]</a></h1>
+    </div>
+    <div class="progress-bar" aria-hidden="true"><span class="progress-bar__fill"></span></div>
+</div>
+<div class="site-nav site-nav--no-hero menu--tiny">
+    <button id="blink" class="navbar-shader btn float" onclick="dark()" title="Theme: Dark (Browser preferences|Session override)">
+        <i id="dark-mode-icon" class="bi bi-moon-fill"></i>
+       <img id="daynight" src="/i/sun-fill.svg" width="30" height="30" alt="">
+    </button>
+    <button class="site-nav__toggler" id="site-nav__toggler" aria-label="Show website navigation" aria-expanded="false" tabindex="1">
+        <span class="bar" aria-hidden="true"></span>
+        <span class="bar" aria-hidden="true"></span>
+        <span class="bar" aria-hidden="true"></span>
+    </button>
+</div>
+<div class="site-nav__panel" aria-hidden="true" aria-controls="site-nav__toggler">
+    <nav id="main-navigation" role="navigation" aria-label="main navigation">
+        <ul class="site-nav__menu">
+            <li class="site-nav__menu-item site-nav__menu-item--current"><a href="https://ophian.github.io/hc/en" tabindex="-1" title="Serendipity Styx Help Center [en]">Documentation [en]</a></li>
+        </ul>
+        <p class="site-nav__menu-category">Main</p>
+        <ul class="site-nav__menu" aria-label="links to styx site main pages">
+            <li class="site-nav__menu-item"><a href="https://ophian.github.io" tabindex="-1" title="Serendipity Styx Home">Styx Home</a></li>
+            <li class="site-nav__menu-item"><a href="https://ophian.github.io/blog" tabindex="-1" title="Serendipity Styx Blog">Styx Blog</a></li>
+            <li class="site-nav__menu-item"><a href="https://ophian.github.io/blog/archives" tabindex="-1" title="Serendipity Styx Blog Archives">Styx Blog Archives</a></li>
+            <li class="site-nav__menu-item"><a href="https://ophian.github.io/atom.xml" tabindex="-1" title="Serendipity Styx Blog Feed">Styx Blog Feed</a></li>
+            <li class="site-nav__menu-item"><a href="https://ophian.github.io/about" tabindex="-1" title="About Serendipity Styx">About Styx</a></li>
+        </ul>
+        <p class="site-nav__menu-category">Spartacus</p>
+        <ul class="site-nav__menu" aria-label="links to styx spartacus pages">
+            <li class="site-nav__menu-item"><a href="https://ophian.github.io/plugins" tabindex="-1" title="Serendipity Styx Spartacus Plugins">Styx Spartacus Plugins</a></li>
+            <li class="site-nav__menu-item"><a href="https://ophian.github.io/themes" tabindex="-1" title="Serendipity Styx Spartacus Themes">Styx Spartacus Themes</a></li>
+        </ul>
+        <p class="site-nav__menu-category">Repository</p>
+        <ul class="site-nav__menu" aria-label="links to styx repository pages">
+            <li class="site-nav__menu-item"><a class="icon icon--small" href="https://github.com/ophian/styx" target="_blank" rel="noopener" tabindex="-1" title="GitHub Serendipity Styx Code"><svg class="icon__body"><use xlink:href="#github"></use></svg> Styx Code</a></li>
+            <li class="site-nav__menu-item"><a class="icon icon--small" href="https://github.com/ophian/styx/releases" target="_blank" rel="noopener" tabindex="-1" title="GitHub Serendipity Styx Releases"><svg class="icon__body"><use xlink:href="#github"></use></svg> Styx Downloads</a></li>
+            <li class="site-nav__menu-item"><a class="icon icon--small" href="https://github.com/ophian/additional_plugins" target="_blank" rel="noopener" tabindex="-1" title="GitHub Serendipity Styx Plugins"><svg class="icon__body"><use xlink:href="#github"></use></svg> Styx Plugins</a></li>
+            <li class="site-nav__menu-item"><a class="icon icon--small" href="https://github.com/ophian/styx/issues" target="_blank" rel="noopener" tabindex="-1" title="GitHub Serendipity Styx Issues"><svg class="icon__body"><use xlink:href="#github"></use></svg> Styx Issues</a></li>
+            <li class="site-nav__menu-item"><a class="icon icon--small" href="https://github.com/ophian/styx/discussions" target="_blank" rel="noopener"><svg class="icon__body"><use xlink:href="#github"></use></svg> Styx Discussions</a></li>
+        </ul>
+        <p class="site-nav__menu-category">Book</p>
+        <ul class="site-nav__menu" aria-label="link book page">
+            <li class="site-nav__menu-item"><a href="https://ophian.github.io/book" tabindex="-1" title="Documentation Serendipity Styx Book [de] page">Styx Book [de]</a></li>
+        </ul>
+        <p class="site-nav__menu-category">Connect & Help</p>
+        <ul class="site-nav__menu" aria-label="links connect and help pages">
+            <li class="site-nav__menu-item"><a href="https://ophian.github.io/hc" tabindex="-1" title="Serendipity Styx Help Center">Help center</a></li>
+            <li class="site-nav__menu-item"><a href="https://ophian.github.io/hc/de" tabindex="-1" title="Serendipity Styx Hilfeseiten">Hilfeseiten</a></li>
+            <li class="site-nav__menu-item"><a href="https://ophian.github.io/hc/en/faq" tabindex="-1" title="Serendipity Styx FAQ">Styx FAQ</a></li>
+            <li class="site-nav__menu-item"><a href="https://ophian.github.io/contact" tabindex="-1" title="Serendipity Styx Contact">Contact Styx</a></li>
+        </ul>
+    </nav>
+</div>
+<div class="site-cover"></div>
+<main class="site-content site-content--col site-content--no-hero site-content--simple" id="main-content" role="main">
+    <section class="section site-col" data-reading-progress="true">
+        <div class="col">
+            <div class="col-menu__wrapper">
+                <nav class="col-menu" role="navigation" aria-label="Help Center [en] documents navigation">
+                    <ul>
+                        <li><a href="https://ophian.github.io/hc/"><img class="icon-info-square" src="/i/info-square.svg" width="32" height="32"> Styx Help Center</a></li>
+                        <li><a href="https://ophian.github.io/hc/en/">Documentation [en]</a></li>
+                        <li><a href="https://ophian.github.io/hc/de/">Dokumentation [de]</a></li>
+                        <li><a href="https://ophian.github.io/hc/en/faq/">Styx Help Center FAQ</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="col-document__wrapper col-document__wrapper-documents">
+                <div class="col-document">
+                    <h1><span class="hc-home"><a href="index.html" title="Styx Help Center [en] - Documentation">⌘</a></span> The Stockholm RichText-Editor Lessons</h1>
+                    <ul class="document-nav">
+                        <li class="document-prev"><a href="markup-plugins.html"><span class="icon arrow-left">←</span>&nbsp;Markup plugins</a></li>
+                        <li class="document-current">«&nbsp;The Stockholm RichText-Editor Lecture Lessons&nbsp;»</li>
+                        <li class="document-next"><a href="categories.html">Categories&nbsp;<span class="icon arrow-right">→</span></a></li>
+                    </ul>
+                    <h2>Stockholm Lecture Lessons I.</h2>
+
+                    <p>The first of this lesson is to do something very simple. Start a new entry post as you always do. Work like advised but don't save that or these posts at the end.</p>
+
+                    <p>So this is just a simple lesson lecture:</p>
+
+                    <p>Write some text so the view breaks the line itself. For this just copy the example "<em>lorem ipsum</em>" text which is long enough to play with.</p>
+
+                    <p>You know how to mark and copy text. But do you know how to paste it?<br>
+                    It is "[Apple command key] + [v]" (<a class="moz-txt-link-freetext" href="https://support.apple.com/en-us/HT209651">https://support.apple.com/en-us/HT209651</a>), or [Ctrl] + [v] everywhere else.</p>
+
+                    <p><u>Example Text for copy:</u></p>
+
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas luctus nisi sit amet turpis placerat lacinia sit amet at lacus. Cras nec porta nisi. Aliquam lobortis nisi eget turpis blandit rhoncus. Cras placerat accumsan lacus, tristique pellentesque tortor condimentum ut. In hac habitasse platea dictumst. Integer fermentum, velit a vehicula porttitor, leo nunc imperdiet est, vitae imperdiet ipsum velit a sapien. Nulla quis justo in magna porttitor sodales eu non sapien. Sed consequat lectus diam, vehicula dictum nulla. Sed rutrum mollis enim, in posuere tortor congue sed. Duis ante arcu, bibendum sit amet eleifend ac, molestie eget elit. Integer risus lacus, dapibus ut commodo eu, laoreet at odio. Curabitur varius, urna ac tincidunt gravida, eros dui consectetur nunc, euismod consequat turpis urna non libero.</p>
+
+                    <p>Paste the copied text to your new entry.<br>
+                    Click on the blog editors "Source" button and view the result.<br>
+                    It should look like this:</p>
+
+                    <div><picture><source srcset="/i/x/Lorem_Ipsum_before_learning.avif" type="image/avif"><source srcset="/i/x/Lorem_Ipsum_before_learning.webp" type="image/webp"><img alt="" class="serendipity_image_center" loading="lazy" src="/i/x/Lorem_Ipsum_before_learning.png" width="800" height="222"></picture></div>
+
+                    <p>Dismiss this entry and start a new one.</p>
+
+                    <p>Before you now add the text. Place your cursor where text would start at the beginning and hit the ENTER return key of your keyboard. You see that your editors line jumps down to a next position. Now, just use the BACKSPACE (delete) button of your keyboard, so the cursor jumps back to the first (starting position) line. As simple as that. This announces to the editor that you want to start with a paragraph.</p>
+
+                    <p>Paste in the Text and hit the editors "Source" button again. You can now see that your text is surrounded by <strong>p</strong> tags.</p>
+
+                    <div><picture><source srcset="/i/x/Lorem_Ipsum_-_learn_p.avif" type="image/avif"><source srcset="/i/x/Lorem_Ipsum_-_learn_p.webp" type="image/webp"><img alt="" class="serendipity_image_center" loading="lazy" src="/i/x/Lorem_Ipsum_-_learn_p.png" width="800" height="225"></picture></div>
+
+                    <p>This is the recommended way how you should start your entries with text.</p>
+
+                    <p>- <strong>End of lesson lecture one</strong>. -</p>
+
+                    <p>Our next lessons will be more advanced. "Writing an entry with more textblocks" and "Writing an entry with more textblocks and some images."</p>
+
+                    <p>But first try this first lecture. Do it some more times to get used to it.</p>
+
+                    <p>After you have learned about these behaviour(s), have a view on some of your last or future added entries, how they look alike when you hit the Source-view button.<br>
+                    Notice how clean this should look. Just don't do nothing else than looking around and get a feeling about what I mean, when I say: "<em>keep text and images blocks clean and separated</em>".</p>
+
+                    <div><picture><source srcset="/i/x/blog_entry_source_example.avif" type="image/avif"><source srcset="/i/x/blog_entry_source_example.webp" type="image/webp"><img alt="" class="serendipity_image_center" loading="lazy" src="/i/x/blog_entry_source_example.png" width="800" height="360"></picture></div>
+
+                    <p>&nbsp;</p>
+
+                    <h2>Stockholm Lecture Lessons II.</h2>
+
+                    <p>Here to show an example entry of this lecture II.</p>
+
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas luctus nisi sit amet turpis placerat lacinia sit amet at lacus. Cras nec porta nisi. Aliquam lobortis nisi eget turpis blandit rhoncus. Cras placerat accumsan lacus, tristique pellentesque tortor condimentum ut. In hac habitasse platea dictumst. Integer fermentum, velit a vehicula porttitor, leo nunc imperdiet est, vitae imperdiet ipsum velit a sapien. Nulla quis justo in magna porttitor sodales eu non sapien. Sed consequat lectus diam, vehicula dictum nulla. Sed rutrum mollis enim, in posuere tortor congue sed. Duis ante arcu, bibendum sit amet eleifend ac, molestie eget elit. Integer risus lacus, dapibus ut commodo eu, laoreet at odio. Curabitur varius, urna ac tincidunt gravida, eros dui consectetur nunc, euismod consequat turpis urna non libero.</p>
+
+                    <div><picture><source srcset="/i/x/Sei_Pippi_nicht_Annika_1024.avif" type="image/avif" /><source srcset="/i/x/Sei_Pippi_nicht_Annika_1024.webp" type="image/webp" /><img alt="" class="serendipity_image_center" height="800" loading="lazy" src="/i/x/Sei_Pippi_nicht_Annika_1024.jpg" width="600" /></picture></div>
+
+                    <div><picture><source srcset="/i/x/Duerer-sein-blick-geht-gen-himmel.avif" type="image/avif" /><source srcset="/i/x/Duerer-sein-blick-geht-gen-himmel.webp" type="image/webp" /><img alt="" class="serendipity_image_center" height="800" loading="lazy" src="/i/x/Duerer-sein-blick-geht-gen-himmel.jpg" width="463" /></picture></div>
+
+                    <div><picture><source srcset="/i/x/Claude_Monet.avif" type="image/avif" /><source srcset="/i/x/Claude_Monet.webp" type="image/webp" /><img alt="" class="serendipity_image_center" height="603" loading="lazy" src="/i/x/Claude_Monet.jpg" width="800" /></picture></div>
+
+                    <div><picture><source srcset="/i/x/Duerer-Mutter-Barbara.avif" type="image/avif" /><source srcset="/i/x/Duerer-Mutter-Barbara.webp" type="image/webp" /><img alt="" class="serendipity_image_center" height="800" loading="lazy" src="/i/x/Duerer-Mutter-Barbara.jpg" width="585" /></picture></div>
+
+                    <div><picture><source srcset="/i/x/avicenna.avif" type="image/avif" /><source srcset="/i/x/avicenna.webp" type="image/webp" /><img alt="" class="serendipity_image_center" height="470" loading="lazy" src="/i/x/avicenna.jpg" width="800" /></picture></div>
+
+                    <div><picture><source srcset="/i/x/Caspar_David_Friedrich_Zwei_Maenner_am_Meer_1817.avif" type="image/avif" /><source srcset="/i/x/Caspar_David_Friedrich_Zwei_Maenner_am_Meer_1817.webp" type="image/webp" /><img alt="" class="serendipity_image_center" height="596" loading="lazy" src="/i/x/Caspar_David_Friedrich_Zwei_Maenner_am_Meer_1817.jpeg" width="800" /></picture></div>
+
+                    <p>("<em>Images, courtesy of CC licensing https://creativecommons.org/licenses/<em>")</p>
+
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas luctus nisi sit amet turpis placerat lacinia sit amet at lacus. Cras nec porta nisi. Aliquam lobortis nisi eget turpis blandit rhoncus. Cras placerat accumsan lacus, tristique pellentesque tortor condimentum ut. In hac habitasse platea dictumst. Integer fermentum, velit a vehicula porttitor, leo nunc imperdiet est, vitae imperdiet ipsum velit a sapien. Nulla quis justo in magna porttitor sodales eu non sapien. Sed consequat lectus diam, vehicula dictum nulla. Sed rutrum mollis enim, in posuere tortor congue sed. Duis ante arcu, bibendum sit amet eleifend ac, molestie eget elit. Integer risus lacus, dapibus ut commodo eu, laoreet at odio. Curabitur varius, urna ac tincidunt gravida, eros dui consectetur nunc, euismod consequat turpis urna non libero.</p>
+
+                    <p><u><strong>HOWTO guide for some testing learning entries:</strong></u></p>
+
+                    <p>There are several VALID ways to start a new blog entry.</p>
+
+                    <ul>
+                        <li>Place cursor in your body field and start writing your first text block,</li>
+                        <li>Place cursor in the body field with keyboard actions first before actually writing,</li>
+                        <li>Place cursor in the body field with keyboard actions first before adding an image.</li>
+                    </ul>
+
+                    <p>Assuming you want to start with a paragraph’ed textblock, then add 5 images and want to end the entry with another paragraph’ed textblock.</p>
+
+                    <ol>
+                        <li>Write or add text block for first paragraph by [CTRL] + [v] ( or the Apple MAC equivalent [command] + [v] )</li>
+                        <li>Place cursor at text start and hit RETURN-key ("ENTER") (<em>line jumps down</em>).<br>
+                        Then hit BACKSPACE-key (<em>line jumps up again</em>).<br>
+                        Do not view by SOURCE at this moment and wait doing this.... It now is paragraph’ed.</li>
+                        <li>This was starting a text block without keyboard-actions first. The other was already described in Stockholm Lecture Lessons I. Now we resume.</li>
+                        <li>Place cursor at text end.<br>
+                        Hit the keyboard RETURN-key ("ENTER").<br>
+                        Then select an image to the entry.</li>
+                        <li>Scroll down, or hover the mouse over the end of the image or place the cursor at end of your first added image - a red line appears. Click on it. (<em>The line jumps down.</em>)<br>
+                        Select a next image.</li>
+                        <li>Scroll down as much as you can. It now is different to the first, since there will be a next added (empty) line under the last image and you will not see a red line, hovering over !!!<br>
+                        Place your cursor at the far most ending space.<br>
+                        Hit BACKSPACE-key. (<em>The line jumps one up and the red line will appear. If not, there was an additional space added, which now was deleted by the this first BACKSPACE-key action. In this case just hit BACKSPACE-key </em>again.)<br>
+                        Hit the red line (<em>and the line jumps down</em>).<br>
+                        Select another image.</li>
+                        <li>Run N° 6 again for the fourth image to add</li>
+                        <li>Run N° 6 again for the fifth image to add</li>
+                        <li>Scrolling down again, place your cursor into the last available line.<br>
+                        Hit RETURN-key ("ENTER"). (<em>Line jumps down.</em>)<br>
+                        Hit BACKSPACE-key. (<em>Line jumps up again.</em>)<br>
+                        Insert text for paragraph. (<em>no additional space or line after that</em>)</li>
+                    </ol>
+
+                    <p>Now you can either view the HTML source code by the [ <em><strong>Source</strong></em> ] button or view the entries lookalike by the Serendipity "preview" button, next to the "Save" button.</p>
+
+                    <p>All good? Save the entry! Or try again to learn this behaviour more and better.</p>
+
+                    <p>The <strong>magical red line</strong> is something very good to have when you work with this RichText-Editor.<br>
+                    It always appears (<em>or is available</em>), when you are inside a somehow nested element block of the (<em>inner</em>) HTML source and you need to get out of this element block to start a new (<em>nested or not</em>) item block. Each item, like an image or a text block, is a (<em>nested or not</em>) HTML-block. It does not matter how long or short the value is. So this appears valid for a short image comment too, as long you are inside the RichText Editor. (<em>This being said because you can give text comments to images too while ordering the image itself. You might have noticed before. But we come back to this in later lessons.</em>)</p>
+
+                    <h3>Another variant:</h3>
+
+                    <p>Assuming you want to start with an image.</p>
+
+                    <ol>
+                        <li>Place cursor to the (<em>empty</em>) body field and hit the RETURN-("ENTER")-keyboard key (<em>Editor line jumps down</em>).</li>
+                        <li>Order and select the image. It appears.</li>
+                        <li>Now watch the red magic line appearance right below image end. To close this first image block and run another image block, hit the red line (<em>your editors line jumps down again</em>).</li>
+                        <li>Order and select another image.</li>
+                        <li>Now, the same as already described in the first variant happens. The second image does not end with a red magical line and has already a new real line added at the very end. Place your cursor at the far most ending of that new line. (<em>To check you really are at the real very end you can always use your keyboards arrow keys (down arrow and right-arrow), since they move your cursor and are more strict and exact than your mouse actions for placing can be.</em>) Then hit your BACKSPACE-key once. You will see the cursor moves left a little bit. This action has deleted the additional space (<em>which is a, or better say the same space like in-between words added by the (long) SPACEBAR-keyboard key</em>). Another hit of your BACKSPACE-keyboard key would now make this new line move up and the red magic line would be available again.</li>
+                        <li>At this point, if you now want to write some text for example, just use that new space line, after you hit BACKSPACE-key once to remove the additional added space.</li>
+                        <li>Text blocks don't have that behaviour with the appearance of the red magic line at the end. You can just always hit the RETURN-key ("ENTER") to end the current and start a new paragraphed text block or add an image, right way without any further (keyboard) actions.</li>
+                    </ol>
+
+                    <p>So this <strong>red magic line</strong> (on hover) is the magic line of happiness. It is your friend to write good and clean and unbroken HTML code !</p>
+
+                    <p>Checking the written or added content by the RichText-Editors "Source" button will always quickly show you that you have worked the right way or not.</p>
+
+                    <h3>Good to know:</h3>
+
+                    <p>There are cases where this EDITOR and YOU can get into conflicts. Assume you write text with images and then you notice that an image was not the one you really wanted to have - OR - it would better look when placed somewhere else - and so on.</p>
+
+                    <p>First to say. It is good to have some knowledge how good HTML structure items look alike working together. For this and the case of repair you have the RichText-Editors "Source"-button. It is <strong>always</strong> much more easy and exact and the recommended way to <strong>cut</strong> and <strong>paste</strong> a (<em>nested</em>) image block from one place to another when you are inside the <strong>Source-View-mode</strong>. Doing this or even deleting image blocks within the RichText-Editor (preview) mode is very much Error-prone and HTML element leftovers will probably survive your action(s), which then might even destroy or leaving artifacts when continue working or saving your entry like this.</p>
+
+                    <p>At this state is is good to know that this RichText-Editor has a "butler" (which is called "ACF"). This "butler" checks for (un-)valid code and then tries to repair it. These repairs don't always look like clean and straight HTML, but are at least valid, since unbroken. These automatic ACF (<em>cleanup</em>) actions always happen when you switch between the <em><strong>RichText-view-mode</strong></em> and the <em><strong>Source-view-mode</strong></em> and vice versa <strong>and</strong> when you <strong>save</strong> your entry.</p>
+
+                    <p>&nbsp;</p>
+                </div>
+            </div>
+        </div>
+        <div class="blog-post__footer">
+            <div class="blog-post__footer-author site-col__footer-author-container">
+                <div class="blog-post__author-avatar-container">
+                    <div class="blog-post__author-avatar blog-post__author-avatar--ophian"></div>
+                </div>
+                <div class="blog-post__author-description">
+                    <h3>Ian Styx (ophian)<span>Maintainer</span></h3>
+                    <p class="follow"><a href="https://github.com/ophian/styx/issues" title="Styx issues" target="_blank" rel="noopener">@ophian</a></p>
+                    <p>John Ian Styx has more than 20 years of experience in the IT market as a developer and from 2003 as a Serendipity lover.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+<div class="addthis_float_share_toolbox"></div>
+<footer class="footer footer--blog" role="contentinfo">
+    <div class="section-container footer-site-map">
+        <div class="row footer-menu__row">
+            <div class="col-xs-12 col-sm-4 footer-menu__container">
+                <div class="footer-menu__wrapper" role="navigation" aria-labelledby="menu-category-1-0">
+                    <h2 id="menu-category-1-0">Repository</h2>
+                    <ul class="footer-menu">
+                        <li><a class="icon icon--small" href="https://github.com/ophian/styx/releases" target="_blank" rel="noopener"><svg class="icon__body"><use xlink:href="#github"></use></svg> Serendipity Styx Downloads</a></li>
+                        <li><a class="icon icon--small" href="https://github.com/ophian/styx" target="_blank" rel="noopener"><svg class="icon__body"><use xlink:href="#github"></use></svg> Serendipity Styx Code</a></li>
+                        <li><a class="icon icon--small" href="https://github.com/ophian/additional_plugins" target="_blank" rel="noopener"><svg class="icon__body"><use xlink:href="#github"></use></svg> Serendipity Styx Plugins</a></li>
+                        <li><a class="icon icon--small" href="https://github.com/ophian/styx/issues" target="_blank" rel="noopener"><svg class="icon__body"><use xlink:href="#github"></use></svg> Serendipity Styx Issues</a></li>
+                        <li><a class="icon icon--small" href="https://github.com/ophian/styx/discussions" target="_blank" rel="noopener"><svg class="icon__body"><use xlink:href="#github"></use></svg> Serendipity Styx Discussions</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-4 footer-menu__container">
+                <div class="footer-menu__wrapper" role="navigation" aria-labelledby="menu-category-1-1">
+                    <h2 id="menu-category-1-1">Site & Documentation</h2>
+                    <ul class="footer-menu">
+                        <li class="icon-site"><a href="https://ophian.github.io">Serendipity Styx Home</a></li>
+                        <li class="icon-site"><a href="https://ophian.github.io/blog">Serendipity Styx Blog</a></li>
+                        <li class="icon-site"><a href="https://ophian.github.io/book">Serendipity Styx Book [de]</a></li>
+                        <li class="icon-site"><a href="https://ophian.github.io/plugins">Serendipity Styx Plugins</a></li>
+                        <li class="icon-site"><a href="https://ophian.github.io/themes">Serendipity Styx Themes</a></li>
+                        <li class="icon-site"><a href="https://ophian.github.io/hc/en/faq">Serendipity Styx FAQ</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-4 footer-menu__container">
+                <div class="footer-menu__wrapper" role="navigation" aria-labelledby="menu-category-1-2">
+                    <h2 id="menu-category-1-2">Connect with Styx</h2>
+                    <ul class="footer-menu">
+                        <li class="icon-site"><a href="https://ophian.github.io/contact">Contact us</a></li>
+                        <li class="icon-site"><a href="https://ophian.github.io/hc">Help center</a></li>
+                        <li class="icon-site"><a href="https://ophian.github.io/about">About Styx</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-mobile" role="navigation" aria-hidden="true" data-mobile="true">
+        <div class="section-container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 footer-mobile__column">
+                    <h2>Repository</h2>
+                    <ul class="footer-mobile__menu">
+                        <li><a class="icon icon--small" href="https://github.com/ophian/styx/releases" target="_blank" rel="noopener"><svg class="icon__body"><use xlink:href="#github"></use></svg> Serendipity Styx Downloads</a></li>
+                        <li><a class="icon icon--small" href="https://github.com/ophian/styx" target="_blank" rel="noopener"><svg class="icon__body"><use xlink:href="#github"></use></svg> Serendipity Styx Code</a></li>
+                        <li><a class="icon icon--small" href="https://github.com/ophian/additional_plugins" target="_blank" rel="noopener"><svg class="icon__body"><use xlink:href="#github"></use></svg> Serendipity Styx Plugins</a></li>
+                        <li><a class="icon icon--small" href="https://github.com/ophian/styx/issues" target="_blank" rel="noopener"><svg class="icon__body"><use xlink:href="#github"></use></svg> Serendipity Styx Issues</a></li>
+                        <li><a class="icon icon--small" href="https://github.com/ophian/styx/discussions" target="_blank" rel="noopener"><svg class="icon__body"><use xlink:href="#github"></use></svg> Serendipity Styx Discussions</a></li>
+                    </ul>
+                </div>
+                <div class="col-xs-12 col-sm-6 footer-mobile__column">
+                    <h2>Connect with Styx</h2>
+                    <ul class="footer-mobile__menu">
+                        <li class="icon-site"><a href="https://ophian.github.io/contact">Contact us</a></li>
+                        <li class="icon-site"><a href="https://ophian.github.io/about">About Styx</a></li>
+                        <li class="icon-site"><a href="https://ophian.github.io/hc">Help center</a></li>
+                        <li class="icon-site"><a href="https://ophian.github.io">Serendipity Styx Home</a></li>
+                        <li class="icon-site"><a href="https://ophian.github.io/blog">Serendipity Styx Blog</a></li>
+                        <li class="icon-site"><a href="https://ophian.github.io/book">Serendipity Styx Book [de]</a></li>
+                        <li class="icon-site"><a href="https://ophian.github.io/plugins">Serendipity Styx Plugins</a></li>
+                        <li class="icon-site"><a href="https://ophian.github.io/themes">Serendipity Styx Themes</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section-container footer-policy">
+        <div class="row">
+            <div class="col-xs-12 col-md-6">
+                <p class="footer-policy__rights">© 2016 - 2023 Serendipity Styx Edition.</p>
+            </div>
+            <div class="col-xs-12 col-md-6">
+                <ul class="footer-policy__menu">
+                    <li class="footer-policy__menu-item"><a href="https://ophian.github.io/legal">Legal</a></li>
+                    <li class="footer-policy__menu-item"><a href="https://ophian.github.io/legal/privacy">Privacy policy</a></li>
+                    <li class="footer-policy__menu-item"><a href="https://opensource.org/docs/definition.php" target="_blank" rel="noopener">Open Source</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+	<svg id="github" viewBox="0 0 24 24">
+		<title id="simpleicons-github-icon">GitHub</title><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"></path>
+	</svg>
+</svg>
+
+<script src="https://ophian.github.io/js/jquery-3.7.0.min.js"></script>
+
+<script src="https://ophian.github.io/js/jquery.ui.totop.js" type="text/javascript"></script>
+<script> 
+    $(function(){
+        $(document).ready(function() {
+            $().UItoTop();
+        });
+    });
+</script>
+<a href="#" id="toTop" style="display: inline;"><span id="toTopHover"></span>To Top</a>
+<script src="https://ophian.github.io/js/styx.min.js"></script>
+</body></html>
