@@ -101,6 +101,33 @@
                         <li class="document-current">«&nbsp;The Stockholm RichText-Editor Lecture Lessons&nbsp;»</li>
                         <li class="document-next"><a href="categories.html">Categories&nbsp;<span class="icon arrow-right">→</span></a></li>
                     </ul>
+                    <h2>A preface about HTML and RichText Editors</h2>
+
+                    <p>HTML RichText editors are self-contained Javascript programs. They are as good as their creators and programmers intended and developed them to be at the current state.<br />
+                    Since they are "external" parts of programs, their structures are naturally generic and not always necessarily compatible with the needs of the framework they use.<br />
+                    It is therefore generally advisable to acquire certain techniques and structures for the use of such RichText editors.<br />
+                    These editors translate their actions and formatting into HTML. HTML is a structured language. Therefore, it is imperative that over time you understand HTML at least in some basic way so that you can evaluate it.</p>
+
+                    <p>Practice with some examples how the editor behaves under certain circumstances. So better start rather simple and then expand your exercises on time to more enriched examples like images etc.</p>
+
+                    <p>Investigate what effects your actions have in "Source" mode. Therefore it is good to know that there are HTML tags that must always be closed and others that can stand alone.<br />
+                    Example of the former is "bold text" (<code>strong</code>-tag). Example for the latter are simple "images" (<code>img</code>-tag).</p>
+
+                    <p>It is also important to know that certain tags have a semantic meaning, i.e. predefined properties, and others do not. The <code>p</code>-tag that encloses a paragraph is an example of the former, the classic and frequently used <code>div</code>-tag an example of the latter.<br />
+                    What does semantic mean in this case? It means that semantic tags have visible consequences for structuring and display, while non-semantic ones have meaning (only) for internal use and structure, so to speak.</p>
+
+                    <p>Finally, it is important to know that tags are always in a way containers in which structured further containers can be found, like a box with further storage boxes inside. If you accidentally remove a wall of one of these inner boxes, its contents will leak out and possibly damage the whole package.<br />
+                    HTML RichText editors have internal guards that try to minimize such consequences. However, these only repair and may not always do what the application and the user actually want to achieve.</p>
+
+                    <p>So Serendipity Styx has certain conditions, e.g. for the input of structured image containers, and which must be kept, but of which such an "externally" developed program like a RichText Editor can know nothing or little.</p>
+
+                    <p>So the techniques to be learned refer to two conditions. The first one is the conditions and specifications of the framework and the other one is the behavior of the RichText editors.</p>
+
+                    <p>The <code>div</code>-tag element already mentioned is a generic block element in HTML without a fixed meaning and is therefore used in principle whenever one wants to achieve a structured container that gets the desired properties from its inner elements, and/or is additionally "styled" with the page description language CSS.<br />
+                    The repair measures of a RichText editor are naturally fond of such DIV-tags and nest the damaged or not valid structures rather more than less.</p>
+
+                    <p>&nbsp;</p>
+
                     <h2>Stockholm Lecture Lessons I.</h2>
 
                     <p>The first of this lesson is to do something very simple. Start a new entry post as you always do. Work like advised but don't save that or these posts at the end.</p>
@@ -149,7 +176,29 @@
 
                     <h2>Stockholm Lecture Lessons II.</h2>
 
-                    <p>Here to show an example entry of this lecture II.</p>
+                    <p>This example lecture II. assumes that you want to enter a blog text that is enriched with additional images. The images to use you have already uploaded to Serendipity Styx and you now know that now always to the actually uploaded image a smaller preview version of the image exists.</p>
+
+                    <p>With these two occurrences alone, various image container nests are possible, be it via hyperlinks and only as a pure image display, as an additional image comment, further placements on the page, further image properties, and/or as a (recommended) "media container" with further image variations of the same.</p>
+
+                    <p>The following example that gave rise to this documentation is based on a very simple case.<br />
+                    This case is, that you want to display the image always in the center and therefore separated from the text as a full-size image, so that your blog entry consists only of text blocks (paragraphs) and images.<br />
+                    Simplified as a scheme:</p>
+
+                    <p>- - - - - - - - - - - - - - - - - - - - -<br />
+                    |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Text container block&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |<br />
+                    - - - - - - - - - - - - - - - - - - - - -</p>
+
+                    <p>- - - - - - - - - - - - - - - - - - - - -<br />
+                    |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Image container block&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |<br />
+                    - - - - - - - - - - - - - - - - - - - - -</p>
+
+                    <p>- - - - - - - - - - - - - - - - - - - - -<br />
+                    |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Text container block&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |<br />
+                    - - - - - - - - - - - - - - - - - - - - -</p>
+
+                    <p>&nbsp;</p>
+
+                    <p><strong>Here to show an example preview entry of this lecture II.</strong></p>
 
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas luctus nisi sit amet turpis placerat lacinia sit amet at lacus. Cras nec porta nisi. Aliquam lobortis nisi eget turpis blandit rhoncus. Cras placerat accumsan lacus, tristique pellentesque tortor condimentum ut. In hac habitasse platea dictumst. Integer fermentum, velit a vehicula porttitor, leo nunc imperdiet est, vitae imperdiet ipsum velit a sapien. Nulla quis justo in magna porttitor sodales eu non sapien. Sed consequat lectus diam, vehicula dictum nulla. Sed rutrum mollis enim, in posuere tortor congue sed. Duis ante arcu, bibendum sit amet eleifend ac, molestie eget elit. Integer risus lacus, dapibus ut commodo eu, laoreet at odio. Curabitur varius, urna ac tincidunt gravida, eros dui consectetur nunc, euismod consequat turpis urna non libero.</p>
 
