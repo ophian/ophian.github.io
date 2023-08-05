@@ -294,11 +294,38 @@
 
                     <h3>Good to know conclusions</h3>
 
-                    <p>There are cases where this EDITOR and YOU can get into conflicts. Assume you write text with images and then you notice that an image was not the one you really wanted to have - OR - it would better look when placed somewhere else - and so on.</p>
+                    <p>There are cases where this EDITOR and YOU can get into <strong>conflicts</strong>. Assume you write text with images and then you notice that an image was not the one you really wanted to have - OR - it would better look when placed somewhere else - and so on.</p>
 
-                    <p>First to say: As mentioned, it is good to have some knowledge how good HTML structure items look alike working together. For this and the case of repair you have the RichText-Editors "Source"-button. It is <strong>always</strong> much more easy and exact and the recommended way to <strong>cut</strong> and <strong>paste</strong> a (<em>nested</em>) image block from one place to another when you are inside the <strong>Source-View-mode</strong>. Doing this or even deleting image blocks within the RichText-Editor (preview) mode is very much Error-prone and HTML element leftovers will probably survive your action(s), which then might even destroy or leaving artifacts when you continue working or save the entry at this point.</p>
+                    <p>First to say: As mentioned, it is good to have some knowledge how good HTML structure items look alike working together. For this and the case of repair you have the RichText-Editors "Source"-button. It <strong>always</strong> is much more easy and exact and the recommended way to <strong>cut</strong> and <strong>paste</strong> a (<em>nested</em>) image block from one place to another when you are inside the <strong>Source-View-mode</strong>. Doing this or even deleting image blocks within the RichText-Editor (preview) mode is very much Error-prone and HTML element leftovers will probably survive your action(s), which then might even destroy or leaving artifacts when you continue working or save the entry at this point.</p>
+
+                    <p>Example entry source:</p>
+
+<pre>
+<code class="language-html">&lt;div&gt;&lt;!-- s9ymdb:1242 --&gt;&lt;picture&gt;&lt;source srcset="/uploads/.v/rum.avif" type="image/avif" /&gt;&lt;source srcset="/uploads/.v/rum.webp" type="image/webp" /&gt;&lt;img alt="" class="serendipity_image_center" loading="lazy" src="/uploads/rum.jpg" style="width:1200px" /&gt;&lt;/picture&gt;&lt;/div&gt;
+
+&lt;div&gt;&lt;!-- s9ymdb:1241 --&gt;&lt;picture&gt;&lt;source srcset="/uploads/.v/durchblick.avif" type="image/avif" /&gt;&lt;source srcset="/uploads/.v/durchblick.webp" type="image/webp" /&gt;&lt;img alt="" class="serendipity_image_center" loading="lazy" src="/uploads/durchblick.jpg" style="width:1200px" /&gt;&lt;/picture&gt;&lt;/div&gt;
+
+&lt;p&gt;Its me. Your last added paragraph text block.&lt;/p&gt;
+</code></pre>
+
+                    <p>As you can see it is much simpler to just mark and delete a complete image block<br><code><strike>&lt;div&gt;&lt;!-- s9ymdb:1242 --&gt;&lt;picture&gt;&lt;source srcset="/uploads/.v/rum.avif" type="image/avif" /&gt;&lt;source srcset="/uploads/.v/rum.webp" type="image/webp" /&gt;&lt;img alt="" class="serendipity_image_center" loading="lazy" src="/uploads/rum.jpg" style="width:1200px" /&gt;&lt;/picture&gt;&lt;/div&gt;</strike></code><br>than to do this in the Editors (<em>WYSIWYG</em>) RichText mode.</p>
+
+                    <p>Doing the latter (<em>if you get this managed</em>) can easily give something like the following strange "Source"-view result</p>
+
+<pre>
+<code class="language-html">&lt;div&gt;&lt;picture&gt;&lt;img alt="" class="serendipity_image_center" loading="lazy" src="/uploads/durchblick.jpg" style="width:1200px" /&gt;&lt;/picture&gt;&lt;!-- s9ymdb:1241 --&gt;&lt;/div&gt;
+
+&lt;p&gt;Its me. Your last added paragraph text block.&lt;/p&gt;</code></pre>
+
+                    <p>As you can see all the benefits of using the recommended "Media Container" assumption including the image variations for <strong>avif</strong> (optional) and <strong>webp</strong> are gone. And the hidden <em>s9ymdb:ID</em> tag has moved. This is not the HTML source Serendipity Styx wants to save and give out since it breaks certain functions and behaviours !</p>
+
+                    <p>It is <strong>not</strong> actually the fault of the RichText Editor, which is just doing what it was designed for, it is a matter of not knowing the needs and circumstances of the using framework (in this case Styx). Now, imagine you do this kind of actions certain times in one entry without checking the source code. This can very easy give even more strange code parts, multiple indents with <code>div</code>-tags and other blurrings.</p>
+
+                    <p><u>Making it short:</u> Delete block containers like this <strong>only</strong> via the "Source" view mode! <strong>Easy</strong> - <strong>Clean</strong> - and <strong>Straight</strong> forward !</p>
 
                     <p>At this state is is good to know that this RichText-Editor has a "butler" (which is called "ACF"). This "butler" checks for (un-)valid code and then tries to repair it. These repairs don't always look like clean and straight HTML, but are at least valid, since unbroken. These automatic ACF (<em>cleanup</em>) actions always happen when you switch between the <em><strong>RichText-view-mode</strong></em> and the <em><strong>Source-view-mode</strong></em> and vice versa <strong>and</strong> when you <strong>save</strong> your entry.</p>
+
+                    <p>Leaving the possible crumble by these (inter)-actions between you and the ACF as is, is no option ! Repairing it in the source, needs HTML structure knowledge ! This is why certain and here described techniques are mandatory to learn !! 😁 <em>And, let me say it this way: Every human being is using techniques to achieve it goals...</em> 🐒</p>
 
                     <p><em>To be continued...</em></p>
 
