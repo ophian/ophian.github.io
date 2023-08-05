@@ -118,12 +118,12 @@
                     <p>It is also important to know that certain tags have a semantic meaning, i.e. predefined properties, and others do not. The <code>p</code>-tag that encloses a paragraph is an example of the former, the classic and frequently used <code>div</code>-tag an example of the latter.<br />
                     What does semantic mean in this case? It means that semantic tags have visible consequences for structuring and display, while non-semantic ones have meaning (only) for internal use and structure, so to speak.</p>
 
-                    <p>Finally, it is important to know that tags are always in a way containers in which structured further containers can be found, like a box with further storage boxes inside. If you accidentally remove a wall of one of these inner boxes, its contents will leak out and possibly damage the whole package.<br />
+                    <p>Finally, it is important to know that tags are always in a way containers in which structured further containers can be found, like a box with further storage boxes inside. If you accidentally remove a wall of one of these inner boxes, its contents will leak out and possibly damage the whole package container.<br />
                     HTML RichText editors have internal guards that try to minimize such consequences. However, these only repair and may not always do what the application and the user actually want to achieve.</p>
 
                     <p>So Serendipity Styx has certain conditions, e.g. for the input of structured image containers, and which must be kept, but of which such an "externally" developed program like a RichText Editor can know nothing or little.</p>
 
-                    <p>So the techniques to be learned refer to two conditions. The first one is the conditions and specifications of the framework and the other one is the behavior of the RichText editors.</p>
+                    <p>So the <strong>techniques</strong> to be learned refer to two conditions. The first one is the conditions and specifications of the framework and the other one is the behavior of the RichText editors.</p>
 
                     <p>The <code>div</code>-tag element already mentioned is a generic block element in HTML without a fixed meaning and is therefore used in principle whenever one wants to achieve a structured container that gets the desired properties from its inner elements, and/or is additionally "styled" with the page description language CSS.<br />
                     The repair measures of a RichText editor are naturally fond of such DIV-tags and nest the damaged or not valid structures rather more than less.</p>
@@ -153,7 +153,7 @@
 
                     <div><picture><source srcset="/i/x/Lorem_Ipsum_before_learning.avif" type="image/avif"><source srcset="/i/x/Lorem_Ipsum_before_learning.webp" type="image/webp"><img alt="" class="serendipity_image_center" loading="lazy" src="/i/x/Lorem_Ipsum_before_learning.png" width="800" height="222"></picture></div>
 
-                    <p>Dismiss this entry and start a new one.</p>
+                    <p><strong>Dismiss</strong> this entry and start a new one.</p>
 
                     <p>Before you now add the text. Place your cursor where text would start at the beginning and hit the ENTER return key of your keyboard. You see that your editors line jumps down to a next position. Now, just use the BACKSPACE (delete) button of your keyboard, so the cursor jumps back to the first (starting position) line. As simple as that. This announces to the editor that you want to start with a paragraph.</p>
 
@@ -163,7 +163,7 @@
 
                     <p>This is the recommended way how you should start your entries with text.</p>
 
-                    <p>- <strong>End of lesson lecture one</strong>. -</p>
+                    <p>- <strong><em>End of lesson lecture one</em></strong> -</p>
 
                     <p>Our next lessons will be more advanced. "Writing an entry with more textblocks" and "Writing an entry with more textblocks and some images."</p>
 
@@ -183,8 +183,7 @@
                     <p>With these two occurrences alone, various image container nests are possible, be it via hyperlinks and only as a pure image display, as an additional image comment, further placements on the page, further image properties, and/or as a (recommended) "media container" with further image variations of the same.</p>
 
                     <p>The following example that gave rise to this documentation is based on a very simple case.<br />
-                    This case is, that you want to display the image always in the center and therefore separated from the text as a full-size image, so that your blog entry consists only of text blocks (paragraphs) and images.<br />
-                    Simplified as a scheme:</p>
+                    This case is, that you want to display the image always in the center and therefore separated from the text as a full-size image, so that your blog entry consists only of text blocks (paragraphs) and images. Simplified as a scheme:</p>
 
                     <p>- - - - - - - - - - - - - - - - - - - - -<br />
                     |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Text container block&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |<br />
@@ -222,7 +221,7 @@
 
                     <p>&nbsp;</p>
 
-                    <p><u><strong>HOWTO guide for some lecture learning test entries:</strong></u></p>
+                    <p><u><strong>HOWTO guide for some lecture learning techniques:</strong></u></p>
 
                     <ul>
                         <li>Place cursor in your body field and start writing your first text block,</li>
@@ -297,7 +296,7 @@
 
                     <p>There are cases where this EDITOR and YOU can get into conflicts. Assume you write text with images and then you notice that an image was not the one you really wanted to have - OR - it would better look when placed somewhere else - and so on.</p>
 
-                    <p>First to say: As mentioned it is good to have some knowledge how good HTML structure items look alike working together. For this and the case of repair you have the RichText-Editors "Source"-button. It is <strong>always</strong> much more easy and exact and the recommended way to <strong>cut</strong> and <strong>paste</strong> a (<em>nested</em>) image block from one place to another when you are inside the <strong>Source-View-mode</strong>. Doing this or even deleting image blocks within the RichText-Editor (preview) mode is very much Error-prone and HTML element leftovers will probably survive your action(s), which then might even destroy or leaving artifacts when you continue working or save the entry at this point.</p>
+                    <p>First to say: As mentioned, it is good to have some knowledge how good HTML structure items look alike working together. For this and the case of repair you have the RichText-Editors "Source"-button. It is <strong>always</strong> much more easy and exact and the recommended way to <strong>cut</strong> and <strong>paste</strong> a (<em>nested</em>) image block from one place to another when you are inside the <strong>Source-View-mode</strong>. Doing this or even deleting image blocks within the RichText-Editor (preview) mode is very much Error-prone and HTML element leftovers will probably survive your action(s), which then might even destroy or leaving artifacts when you continue working or save the entry at this point.</p>
 
                     <p>At this state is is good to know that this RichText-Editor has a "butler" (which is called "ACF"). This "butler" checks for (un-)valid code and then tries to repair it. These repairs don't always look like clean and straight HTML, but are at least valid, since unbroken. These automatic ACF (<em>cleanup</em>) actions always happen when you switch between the <em><strong>RichText-view-mode</strong></em> and the <em><strong>Source-view-mode</strong></em> and vice versa <strong>and</strong> when you <strong>save</strong> your entry.</p>
 
