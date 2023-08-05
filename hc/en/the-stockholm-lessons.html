@@ -141,11 +141,11 @@
                     <p>You know how to mark and copy text. But do you know how to paste it?<br>
                     It is "[Apple command key] + [v]" (<a class="moz-txt-link-freetext" href="https://support.apple.com/en-us/HT209651">https://support.apple.com/en-us/HT209651</a>), or [Ctrl] + [v] everywhere else.</p>
 
-                    <p><u>Example Text for copy:</u> <sup>(*)</sup></p>
+                    <p><u>Example Text for copy:</u> <sup>¹</sup></p>
 
                     <p><pre><code>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas luctus nisi sit amet turpis placerat lacinia sit amet at lacus. Cras nec porta nisi. Aliquam lobortis nisi eget turpis blandit rhoncus. Cras placerat accumsan lacus, tristique pellentesque tortor condimentum ut. In hac habitasse platea dictumst. Integer fermentum, velit a vehicula porttitor, leo nunc imperdiet est, vitae imperdiet ipsum velit a sapien. Nulla quis justo in magna porttitor sodales eu non sapien. Sed consequat lectus diam, vehicula dictum nulla. Sed rutrum mollis enim, in posuere tortor congue sed. Duis ante arcu, bibendum sit amet eleifend ac, molestie eget elit. Integer risus lacus, dapibus ut commodo eu, laoreet at odio. Curabitur varius, urna ac tincidunt gravida, eros dui consectetur nunc, euismod consequat turpis urna non libero.</code></pre></p>
 
-                    <p><sup>(*)</sup> PLEASE NOTE: When you copy text from HTML pages like this page, it has the downside that you also copy the inner belonging HTML tags. When you have a plain text editor and you there paste the selected text, no tags are shown. But In this case, pasting to a RichText Editor, the HTML-tags are ported. For this special lecture case we do not want this behaviour. For luck there is another keyboard command available to paste text without belonging HTML-tags. This is the keyboard shortcut [Shift] - [Command-Option] - [v]. With this command you can paste the text that you want with the original formatting stripped out.</p>
+                    <p><sup>(¹)</sup> PLEASE NOTE: When you copy text from HTML pages like this page, it has the downside that you also copy the inner belonging HTML tags. When you have a plain text editor and you there paste the selected text, no tags are shown. But In this case, pasting to a RichText Editor, the HTML-tags are ported. For this special lecture case we do not want this behaviour. For luck there is another keyboard command available to paste text without belonging HTML-tags. This is the keyboard shortcut [Shift] - [Command-Option] - [v]. With this command you can paste the text that you want with the original formatting stripped out.</p>
 
                     <p>Paste the copied text to your new entry.<br>
                     Click on the blog editors "Source" button and view the result.<br>
@@ -310,12 +310,13 @@
 
                     <p>As you can see it is much simpler to just mark and delete a complete image block<br><code><strike>&lt;div&gt;&lt;!-- s9ymdb:1242 --&gt;&lt;picture&gt;&lt;source srcset="/uploads/.v/rum.avif" type="image/avif" /&gt;&lt;source srcset="/uploads/.v/rum.webp" type="image/webp" /&gt;&lt;img alt="" class="serendipity_image_center" loading="lazy" src="/uploads/rum.jpg" style="width:1200px" /&gt;&lt;/picture&gt;&lt;/div&gt;</strike></code><br>than to do this in the Editors (<em>WYSIWYG</em>) RichText mode.</p>
 
-                    <p>Doing the latter (<em>if you get this managed</em>) can easily give something like the following strange "Source"-view result</p>
+                    <p>Doing the latter (<em>if you get this managed <sup>²</sup></em> ) can easily give something like the following strange "Source"-view result</p>
 
 <pre>
 <code class="language-html">&lt;div&gt;&lt;picture&gt;&lt;img alt="" class="serendipity_image_center" loading="lazy" src="/uploads/durchblick.jpg" style="width:1200px" /&gt;&lt;/picture&gt;&lt;!-- s9ymdb:1241 --&gt;&lt;/div&gt;
 
-&lt;p&gt;Its me. Your last added paragraph text block.&lt;/p&gt;</code></pre>
+&lt;p&gt;Its me. Your last added paragraph text block.&lt;/p&gt;
+</code></pre>
 
                     <p>As you can see all the benefits of using the recommended "Media Container" assumption including the image variations for <strong>avif</strong> (optional) and <strong>webp</strong> are gone. And the hidden <em>s9ymdb:ID</em> tag has moved. This is not the HTML source Serendipity Styx wants to save and give out since it breaks certain functions and behaviours !</p>
 
@@ -330,6 +331,8 @@
                     <p><em>To be continued...</em></p>
 
                     <p>&nbsp;</p>
+
+                    <p><em><sup>(²)</sup> Yeah, it is not that easy to remove the first example image in RT-mode. Even simpler would it be to mark and cut it, which would return a slight different "source" result. But also nothing we want to acquire. So, don't do it !</em></p>
 
                 </div>
             </div>
