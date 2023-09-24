@@ -1060,7 +1060,7 @@ einsetzen YES und Bee Methode JSON und Bee versteckte CAPTCHAS auf Kommentare
 abweisen. Und im Spamblock Captchas auf aus stellen. Doch würde es hier
 zu weit führen dies ausführlicher zu erklären. Die Biene ist aber ein sehr
 ressourcenschonendes Plugin, da es die dummen Bots bereits an der äußersten Front beseitigt
-und das Spamblock Plugin mit seinen vielfätigen Einstellungen den Rest erledigen kann.
+und das Spamblock Plugin mit seinen vielfältigen Einstellungen den Rest erledigen kann.
 Als letztes - soweit dann noch notwendig - kann dann noch als letzte Defensivlinie das lernende Bayes Plugin
 mit seiner Datenbank für die Wortanalyse und -gewichtung als schweres Geschütz eingesetzt werden.
 </p>
@@ -1082,7 +1082,7 @@ Filterregel als Spam klassifiziert worden sind. Daher ist es wichtig,
 die Filter von vornherein nicht zu "scharf" einzustellen und
 ab und zu die Logdateien nach falsch eingestuftem Spam durchzugehen.</p>
 
-<p>Wenn ein Kommentar als Spam identizifiert ist, können zwei Dinge
+<p>Wenn ein Kommentar als Spam identifiziert ist, können zwei Dinge
 geschehen: Entweder er wird komplett verworfen, oder er wird moderiert.
 Moderierte Kommentare müssen erst von einem Redakteur freigeschaltet
 werden. Komplett verworfene Kommentare werden erst gar nicht in der
@@ -3988,7 +3988,7 @@ erreichbare Toolbar-Button Popup-Dokumentation für die CKEditor Tastatursteueru
         CKEditor verfügt wie alle WYSIWYG-Editoren über einen Image-Button,
         der die Eigenschaften enthält ein Bild aus dem Dateisytem oder Internet zu wählen
         und in den Textbereich per HTML-Markup einzubinden. Dies aber ist ein sensibler Bereich,
-        der Serendipity-Funktionen und Serendipity-Eigenschften berührt. Also wurde das CKEdior
+        der Serendipity-Funktionen und Serendipity-Eigenschaften berührt. Also wurde das CKEdior
         eigene <em>Form</em>-"blatt" zugunsten des Serendipity eigenen Mediathek Popups/layers
         deaktiviert. Eine Forum-User-Anfrage brachte aber zutage, dass es wohl (rar gesähte) Nutzer gibt,
         die genau das nicht wollen und auf eigene Risiko das CKE-Image-Form verwenden wollen.
@@ -4020,7 +4020,7 @@ erreichbare Toolbar-Button Popup-Dokumentation für die CKEditor Tastatursteueru
         in die eigene Plugin Konfiguration weiterzuleiten, damit
         dort die notwendigen Tasks, wie das entpacken der Zip Datei, geschehen können.
         Dies ist insbesondere dann wichtig, wenn mehrere Plugin Updates bereit stehen.
-        In der Anfangsphase der Enwicklung des Plugins kam es hier ab und an zu Fehlern, so dass
+        In der Anfangsphase der Entwicklung des Plugins kam es hier ab und an zu Fehlern, so dass
         diese Option eingeführt wurde, damit der Benutzer das Entpacken und daraus folgende Eigenschaften
         selber anstoßen konnte. Da auch in der Zukunft solche Probleme möglichweise denkbar sind,
         blieb diese Option als Notfall-Option erhalten.
@@ -7591,7 +7591,7 @@ durch eine entsprechende Einstellung über die Layout-Verwaltung des
 <em>Seitenleisten-verstecken</em>-Plugins kann dies korrigiert werden.</p>
 
 <p>Die Funktionalität des Ein- und Ausklappens eines Seitenleisten-Plugins
-kann über die globale Konfiguration des Plugins beinflusst werden. Wenn
+kann über die globale Konfiguration des Plugins beeinflusst werden. Wenn
 Sie diese JavaScript-Funktionalität nicht benötigen, sondern nur das
 Anzeigen/Verstecken von Seitenleisten-Plugins nutzen möchten, können Sie
 dies gezielt über die Option <span class="mbold">Seitenleisten ein-/ausklappbar machen</span>
@@ -8094,7 +8094,7 @@ zur ständigen Kommentarbeobachtung und -pflege deutlich zu reduzieren.</p>
     </span>
 
     <span class="box">
-        Ein "Honeypot" ist ein verstecktes Kommentar Feld, das leer gelasen werden soll.
+        Ein "Honeypot" ist ein verstecktes Kommentar Feld, das leer gelassen werden soll.
         Da Bots aber dazu tendieren, alle vorgefundenen Felder auszufüllen, ist dies ein
         einfacher und unkritischer Weg, viele der Bots auszusperren. Um den Honeypot besonders
         effektiv zu machen, setzen Sie die Spamschutz Biene als erstes AntiSpam Plugin in Ihrer Plugin-Liste ein.
@@ -8652,7 +8652,7 @@ Eintrag erkannte Links aufgeführt, und zusätzlich können Sie hier weitere
 URLs eintragen, zu denen Serendipity ein Trackback schicken soll. Mehrere
 Links werden durch ein Leerzeichen oder einen Zeilenumbruch getrennt.</p>
 
-<p>Mitttels dreier Optionsfelder können Sie bestimmen, wie Trackbacks für den
+<p>Mittels dreier Optionsfelder können Sie bestimmen, wie Trackbacks für den
 jeweiligen Eintrag gesendet werden sollen:</p>
 
 <p class="desc">
@@ -8931,7 +8931,7 @@ Beispielen dargestellt.</span>
 </p>
 
 <p class="desc">
-<span class="item mbold">Einfache Anführungszeichen-Botton aktivieren</span><!-- menuitem -->
+<span class="item mbold">Einfache Anführungszeichen-Button aktivieren</span><!-- menuitem -->
 <span class="desc-info">Analog zu doppelten Anführungszeichen können Sie ein Wort auch in
 einfachen Anführungszeichen einschließen.</span>
 </p>
@@ -9148,7 +9148,7 @@ eigenständigen Menüpunkt <span class="mbold">Administration
 
 <p>In dem Ausklappfeld der Benutzerprofile können Sie auch die Daten anderer
 Redakteure bequem einsehen. Als höherrangiger Chefredakteur oder
-Administrator können Sie außerdem alle Profildaten der niederrangigeren
+Administrator können Sie außerdem alle Profildaten der niederrangigen
 Redakteure bearbeiten. Profildaten von Redakteuren des gleichen
 Benutzerranges können Sie nur ansehen, aber nicht bearbeiten.</p>
 
@@ -9867,7 +9867,7 @@ simpel gehalten und somit für manche Zielgruppen zugänglicher als
 die Bedienung der browserbasierten Oberfläche Serendipitys.</p>
 
 <p>Heutzutage existiert dies aber nur noch, um mittels der WordPress Mobile App
-als (mißbrauchter) Blog-Clients auf Serendipity zuzugreifen.</p>
+als (missbrauchter) Blog-Clients auf Serendipity zuzugreifen.</p>
 
 <p>
 <span class="tag-box invisible">
@@ -11319,7 +11319,7 @@ haben, können Sie einen Blog-Artikel erstellen. Im Abschnitt
 Produktanbieter ein Eingabefeld <span class="mbold">ID</span> und ein Eingabefeld
 <span class="mbold">Rating</span>. In das ID-Eingabefeld tragen Sie die eindeutige ID
 ein, die das bewertete Produkt bei dem Anbieter identifiziert. Im Feld
-<span class="mbold">Rating</span> bestimmern Sie ein Bewertungskriterium (Schulnoten von 1
+<span class="mbold">Rating</span> bestimmen Sie ein Bewertungskriterium (Schulnoten von 1
 bis 6, Punkte von 1 bis 10 oder sogar Sternchen von * bis ***). Sinnvoll ist die Vergabe von Zahlen, da diese
 mathematisch verarbeitet werden können.</p>
 
