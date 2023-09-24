@@ -93,7 +93,7 @@ dass das <em>default</em> Theme (Template) maßgeblich für die interne <em>“F
 Kaskade ist. Ein Standard Theme kann alle relevanten Daten natürlich vorhalten,
 ganz ersetzen kann es das <em>default</em> Theme aber nicht. Dies ist eine der wichtigen
 Unterscheidungen, die die Styx Edition und aktuelle Original S9y Installationen
-voneinander unterscheiden. Denn durch die unsaubere, inwischen schleichende Ersetzung des
+voneinander unterscheiden. Denn durch die unsaubere, inzwischen schleichende Ersetzung des
 Default-Themes durch das Standard-Theme fällt dem originalen Serendipity dies bis Heute
 immer wieder vor die Füße, war es doch ehemals brilliant vom Kern bis hin zu den einzelnen
 Themes und Plugins durchdesignt, so dass man sich auf diese Grundwerte wie bestimmte
@@ -1152,7 +1152,7 @@ eigentlichen Inhalt der Schleife dar und bestimmt, was mit jedem Element eines
 Arrays passiert.</p>
 
 <p>Greifen wir dazu erneut auf obiges Beispiel des Artikel-Schranks zurück. Um die
-Inhalte dynamisch auzulesen, müssten wir dies einem Roboter wie folgt erklären:</p>
+Inhalte dynamisch auszulesen, müssten wir dies einem Roboter wie folgt erklären:</p>
 
 <p><em>Öffne den Schrank mit dem Titel</em> <code>entries</code>. <em>Gehe nacheinander alle
 Schubladen durch, und pro geöffneter Schublade machst Du Folgendes: ...</em></p>
@@ -2650,7 +2650,7 @@ Serendipity-Pakets und als <span class="mbold">Standard Template</span>
 festgelegt! Dieses neuere Template übernahm daher die gleichen Aufgaben wie
 das vorherige Standard-Template <em>Bulletproof</em> bezüglich des Templates-Fallback-Scopes,
 ist aber etwas weniger detailliert als das hier exemplarisch beschriebene <em>Bulletproof</em>-Template.
-Dafür besaß es aber schon alle Egenschaften die heutzutage an moderne Templates
+Dafür besaß es aber schon alle Eigenschaften die heutzutage an moderne Templates
 bezüglich <em>HTML5</em> und <em>"responsive Design"</em> gestellt wurden.</p>
 
 <p>Ab Serendipity 2.0+ (2015) wurde es möglich ein eigenes Backend Template zu wählen,
@@ -3274,7 +3274,7 @@ durchlaufen und ausgegeben werden kann. Der Platzhalter <code>$i</code> wird inn
 der Schleife als fortlaufender Index (beginnend mit der 0) behandelt.</p>
 
 <p>Am besten nehmen Sie sich an konkreten Themes mit ihrer <code>config.inc.php</code>-Datei ein konkretes Beispiel.
-Denn heutzutage benötigen sie für die allermeisten Fälle nur noch folgenden Codeschnippsel um das Navigationsarray aus der definierten <code>$template_config</code> zu erstellen.</p>
+Denn heutzutage benötigen sie für die allermeisten Fälle nur noch folgenden Codeschnipsel um das Navigationsarray aus der definierten <code>$template_config</code> zu erstellen.</p>
 
 <pre><code class="php">
     $top = $serendipity['smarty_vars']['template_option'] ?? '';<br>
@@ -6231,7 +6231,7 @@ wird auf Seite <span class="pageref"><a href="#mediatemplates">mediatemplates</a
                 <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Zahl</code></span>
             </span>
             <span class="sub-box">
-                Enthält die Seitennummer der aktuell dargestellen Übersichtsseite der Mediathek.
+                Enthält die Seitennummer der aktuell dargestellten Übersichtsseite der Mediathek.
             </span>
         </span>
 
@@ -8318,7 +8318,7 @@ sowohl innerhalb der Template-Datei <code>entries.tpl</code> als auch in
     </span>
 
     <span class="box">
-        Enhält den Wert <code>true</code>, wenn die beiden Sonderoptionen <span class="mbold">Daten
+        Enthält den Wert <code>true</code>, wenn die beiden Sonderoptionen <span class="mbold">Daten
         merken</span> und <span class="mbold">Bei Aktualisierung dieser Kommentare benachrichtigen</span>
         angezeigt werden sollen.
     </span>
@@ -8335,7 +8335,7 @@ sowohl innerhalb der Template-Datei <code>entries.tpl</code> als auch in
     </span>
 
     <span class="box">
-        Enhält den Wert <code>true</code>, wenn <span class="mbold">Bei Aktualisierung dieser Kommentare benachrichtigen</span>
+        Enthält den Wert <code>true</code>, wenn <span class="mbold">Bei Aktualisierung dieser Kommentare benachrichtigen</span>
         angezeigt werden soll. Diese Einstellung kann über die globale
         Serendipity-Konfiguration (siehe Seite <span class="pageref"><a href="#eintrags-abonnement">Eintrags-Abonnement</a></span>)
         vorgenommen werden.
@@ -10710,7 +10710,7 @@ dafür gesorgt, dass etwaige Ereignis-Plugins ihre Ausgaben vor der Artikeldarst
 <code class="smarty">{$entries}</code>-Array ausgegeben. Die erste Dimension enthält die Einträge
 gruppiert nach deren Veröffentlichungsdatum. So können Einträge, die zum selben
 Tag gehören, auch gemeinsam ausgegeben werden, und pro Datumsgruppe wird nur eine
-Datumsüberschrifft dargestellt. Dies muss nicht zwangsläufig so sein, Templates
+Datumsüberschrift dargestellt. Dies muss nicht zwangsläufig so sein, Templates
 können die Schleifen auch so anordnen, dass jeder Eintrag eine eigene
 Überschrift enthält. Für jeden Schleifen-Durchlauf wird die aktuelle
 Datumsgruppe der Variablen <code class="item smarty">{$dategroup}</code> zugewiesen.</p>
@@ -10725,7 +10725,7 @@ Format überführt werden.</p>
 
 <p>Ab Zeile 12 beginnt nun die innere Schleife, <code>{foreach $dategroup.entries AS $entry}</code>,
 die die einzelnen Artikel des <code class="smarty">{$entries}</code>-Array ausliest. Die Artikel
-enstammen dabei der Variable <code class="item smarty">{$dategroup.entries}</code>. Pro Durchlauf
+entstammen dabei der Variable <code class="item smarty">{$dategroup.entries}</code>. Pro Durchlauf
 der <code>foreach</code>-Schleife wird der aktuell durchlaufene Artikel der Variable
 <code class="item smarty">{$entry}</code> zugewiesen, so dass auf dessen Daten mit einfacher,
 kurzer Notation zugegriffen werden kann.</p>
@@ -11030,7 +11030,7 @@ nur rohen Text auszugeben.</p>
 
 <p>Sie können beispielsweise auch ein freies Feld wie <code>ArtikelAnzahl</code> anlegen und
 dann mittels Smarty-Syntax eine Liste von aktuellen Artikeln des gleichen
-Redakteurs holen und darstellen. Dadurch wird ein freies Feld soszusagen als
+Redakteurs holen und darstellen. Dadurch wird ein freies Feld sozusagen als
 flexibler Parameter für beliebige Smarty-Funktionsaufrufe verwendet:</p>
 
 <pre><code class="smarty">
