@@ -309,7 +309,7 @@ mit zwei fest- und vorkonfigurierten Dashboard-Containern, welche da sind:
 <span class="mbold">letzte Artikel-Kommentare</span> und
 <span class="mbold">letzte Artikel-Entwürfe</span>, im Serendipity Kern eingebaut.</p>
 
-<p><strong>Serendipity Styx</strong> sieht vor, diesen oft unnützen Balast
+<p><strong>Serendipity Styx</strong> sieht vor, diesen oft unnützen Ballast
 auf ein reduziertes und vernüftiges Maß an Information über die
 User-Einstellungen der "Eigenen Einstellungen" wieder zu reduzieren.
 Die eigentliche Administration von Kommentaren bzw. Entwurfs-Einträgen
@@ -328,7 +328,7 @@ erfolgt sowieso immer besser über deren vorgesehene Hauptseiten!</p>
      beinhalten. Darunter fallen auch zusätzliche Benutzerprofile durch erweiternde Plugins. (¹)</li>
 </ul>
 
-<p>¹) Dies ist ein Beispiel einer Veränderung über die Zeit, da die Benutzerverwaltung als eigenständiger Block aus der Einstellungen Block ab Styx 3.6 aus Gründen der Übersichtlichkeit wieder ausgeliedert wurde.</p>
+<p>¹) Dies ist ein Beispiel einer Veränderung über die Zeit, da die Benutzerverwaltung als eigenständiger Block aus der Einstellungen Block ab Styx 3.6 aus Gründen der Übersichtlichkeit wieder ausgegliedert wurde.</p>
 
 <p>Einige Plugins geben an einigen Stellen des Seitenleisten-Menüs ihre eigenen
 Menüpunkte aus. Diese zusätzlichen Menüpunkte führen dann zur jeweiligen
@@ -610,7 +610,7 @@ Für <span class="mbold">Serendipity Styx</span> lautet die Standard Empfehlung:
 <span class="item mbold">Symbolleiste für das Mediathek-Popup anzeigen?</span><!-- menuitem -->
 <span class="desc-info">Vielen Benutzer benötigen die erweiterten Funktionen der "Bildbearbeitung"
 die Serendipity bereitstellt nicht, wenn sie aus einem Artikel das Mediathek-Popup öffnen
-um ein Bild eizufügen, und sind sogar eventuell überfordert, wenn
+um ein Bild einzufügen, und sind sogar eventuell überfordert, wenn
 zu viele Möglichkeiten ihre Konzentration und ihren Schreibfluss behindern. Sollten
 Sie jedoch diese Funktionen jedoch auch gerne innerhalb des Popup-Fensters
 ausführen wollen, müssen Sie diese Option: <span class="mbold">Symbolleiste für das
@@ -1731,7 +1731,7 @@ gelöscht zu werden, wie in einem CMS-System</p>
 
 <p>Am Anfang der Seite neben dem gerade beschriebenen Button-Knopf,
 sehen Sie mehrere Filtermöglichkeiten, die die Anzeige der Artikel
-beinflussen. Standardmäßig werden Ihnen die chronologisch aktuellsten
+beeinflussen. Standardmäßig werden Ihnen die chronologisch aktuellsten
 Artikel angezeigt. Die Liste ist über die Buttons <span class="mbold">Weiter</span>
 und <span class="mbold">Zurück</span> und <span class="mbold">Anfang</span>
 und <span class="mbold">Ende</span> ober- und unterhalb der Artikel
@@ -2661,7 +2661,7 @@ wird, falls das Bild aus irgendwelchen Gründen nicht im Frontend angezeigt werd
         Bild referenziert haben. Prüfen Sie also bitte sicherheitshalber, ob alle Ihnen bekannten
         Verweise auf die Datei nach dem Verschieben bzw der Konvertierung noch stimmen. Generell
         empfiehlt es sich, nachdem Sie eine Datei bereits eingebunden haben, den Speicherort der
-        Datei als auch ihre Extension, alöso das Bildformat nicht mehr zu verändern.
+        Datei als auch ihre Extension, also das Bildformat nicht mehr zu verändern.
         Folgerichtig ist eine gut durchdachte Planung ihrer Mediathek, des Dateiverzeichnisses und
         des Bilduploads durchaus etwas Wert!
     </span>
@@ -2874,7 +2874,7 @@ mit den jeweiligen Informationen und Optionen dieses Objekts:</p>
         gezeigte Vorschau Bild selbst auch, doch ist es dort mit seinem Originalnamen ausgezeichnet.
         Da aber, wie bereits erwähnt, das Styx Backend vollends auf die Ansichts Möglichkeiten
         von &lt;picture&gt; Containern setzt, wird auch hier schon das kleinstmögliche der
-        möglichen Variationen geladen und angezeigt. Der Name allerdings orientert sich am
+        möglichen Variationen geladen und angezeigt. Der Name allerdings orientiert sich am
         Originalbild, so dass Sie in etwa das sehen: "Vollbild: Blumenkohl.jpeg (AVIF)".
         Nur die Auszeichnung in der Klammer deutet auf die Variation hin. Drücken Sie aber
         den Variations Button, so sehen Sie: "Bild Variation: Blumenkohl.avif, 2500x1666px".
@@ -3457,7 +3457,7 @@ Variationen gelöscht. Das ist also hier <strong>nicht</strong> gemeint!</p>
 verschiedenster Aktivitäten für die Backend Administration, welche nicht eindeutig
 nur aus dem Backend erstellte Formate für Texte bzw, Medien beinhalten.
 Viele Plugins können ihre Backendaufgaben daher hier einfügen.
-Die Kommentare wurden ehedem im Eintracks/Inhaltsbereich eingeordnet, doch sind
+Die Kommentare wurden ehedem im Eintrags/Inhaltsbereich eingeordnet, doch sind
 sie eine Art Zwitterwesen, da sie zwar relativ eindeutig zu den Eintragsinhalten
 gehören, doch andererseits von Außen erstellt werden und hier nur die Aufgabe
 vorliegt sie effektiv zu administrieren. Außerdem wäre dieser Bereich sonst recht
@@ -3593,7 +3593,7 @@ auf. Jede Kommentarbox enthält folgende Angaben:</p>
             einem Kommentar auffinden, kann eine Strafverfolgungsbehörde mit Hilfe dieser
             IP möglicherweise den wahren Täter aufspüren. Meist werden für derartige
             Straftaten aber offene <em>Proxies</em> eingesetzt, die die eigene IP-Adresse des
-            Täters verschleiern, so dass er sozusagen nur über einen Deckmann auf Ihren Server
+            Täters verschleiern, so dass er sozusagen nur über einen Decknamen auf Ihren Server
             zugreift.
         </span>
     </span>
@@ -3660,7 +3660,7 @@ auf. Jede Kommentarbox enthält folgende Angaben:</p>
             Kommentar Symbolleiste am rechten Rand der untersten Zeile hinzugefügt
             (<em>siehe übernächste Abbildung 4.9-sx für Serendipity Styx</em>).
             Solche Kürzungen werden für die Einhaltung des Darstellungsdesigns
-            an mehreren Stellen vorgenommen und konnen auch schon nach ~25 Zeichen erfolgen.
+            an mehreren Stellen vorgenommen und können auch schon nach ~25 Zeichen erfolgen.
         </span>
 
         <span class="box">
@@ -4563,7 +4563,7 @@ müssen Sie also Ereignis-Plugins löschen oder Ihren Provider bitten, den
 Arbeitsspeicher (siehe Kapitel <span class="reference">memory-limit</span> auf Seite
 <span class="pageref"><a href="#memory-limit">memory-limit</a></span>) zu vergrößern.</p>
 
-<p>Im Zuge der heutzutage üblichen und flexiblen Kontigent-Containerisierung ist
+<p>Im Zuge der heutzutage üblichen und flexiblen Kontingent-Containerisierung ist
 dies dieser Zustand wohl nur noch dann zu erreichen, wenn man es praktisch übertreibt.
 Deshalb: Nutzen Sie nur so viel Plugins wie unbedingt nötig!</p>
 
@@ -5769,7 +5769,7 @@ Einstellungen</span>.</p>
       <source srcset="media/configuration_gs_dm_de.webp" type="image/webp">
       <img src="media/configuration_gs_dm_de.png" alt="configuration_gs_dm_de.png" loading="lazy" width="1416" height="1424">
     </picture>
-    <figcaption>Abbildung 4.23d: Einstellungen: Konfiguration - Generelle Enstellungen</figcaption>
+    <figcaption>Abbildung 4.23d: Einstellungen: Konfiguration - Generelle Einstellungen</figcaption>
   </a>
 </figure>
 
@@ -6520,7 +6520,7 @@ Referrer-Statistik übernommen.</span>
         notwendig, da alle Artikel von allen Besuchern gelesen werden sollen.
         Ist dies der Fall, können Sie die Option <span class="mbold">Leserechte auf
         Kategorien anwenden</span> gerne auf <span class="mbold">Nein</span> setzen. Dies wird die
-        Geschwindigkeit der Darstellung im Frontend positiv beinflussen, da
+        Geschwindigkeit der Darstellung im Frontend positiv beeinflussen, da
         weitaus weniger Datenbankabfragen ausgeführt werden müssen, um die
         Artikelübersicht zu erzeugen.
     </span>
@@ -6813,7 +6813,7 @@ für die Mediathek und die Vorschaubild-Erzeugung fest.</p>
     </span>
 
     <span class="box">
-        Die GD-Bibliothek ist durch die direkte Einbingung in PHP weit verbreitet,
+        Die GD-Bibliothek ist durch die direkte Einbindung in PHP weit verbreitet,
         so dass sie wahrscheinlich überall -out-of-the-box- funktionieren wird.
     </span>
 
@@ -8278,7 +8278,7 @@ Gruppenmitgliedschaft besitzen.</p>
 <p>Hier im Beispiel der Bearbeitung für die Gruppe <span class="mbold">Redakteur</span>, also der niedrigsten der vorgesehen Gruppenrechte.</p>
 
 <p>Wenn Sie aber als Mitglied der Gruppe <span class="mbold">Chefredakteur</span>
-beisielsweise eine neue Gruppe erstellen, können Sie keine Rechte zur Administration
+beispielsweise eine neue Gruppe erstellen, können Sie keine Rechte zur Administration
 des Blogs vergeben - denn das wäre natürlich eine einfache Art, sich die Blog-Herrschaft
 anzueignen.</p>
 
