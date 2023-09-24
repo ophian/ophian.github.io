@@ -2911,7 +2911,7 @@ Seiten bzw. Seitentypen zur Verfügung:</p>
             <span class="sub-box">enthält eine Zahl, die
             für die Sortierungsreihenfolge einer statischen Seite benutzt
             wird. Je höher die Zahl, desto weiter am Ende einer Liste
-            (beispielsweie in der Seitenleiste oder Navigation) wird die
+            (beispielsweise in der Seitenleiste oder Navigation) wird die
             Seite ausgegeben.</span>
         </span>
 
@@ -3712,7 +3712,7 @@ mitzählen</span> zu setzen.</span>
     <li>Anzahl der Dateien in der Mediathek, Aufteilung nach Dateityp</li>
     <li>Anzahl der Kommentare, Verteilung der Kommentare zu den
         populärsten Artikeln, Namen der häufigsten Kommentatoren</li>
-    <li>Anzahl der Abonennten von Blog-Artikeln, Verteilung der
+    <li>Anzahl der Abonnenten von Blog-Artikeln, Verteilung der
         Abonnenten auf populäre Artikel. Als 
         <span class="tag-box invisible">
             <span class="inline-tag">Abonnement</span>
