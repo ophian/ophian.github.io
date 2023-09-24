@@ -2789,7 +2789,7 @@ Tool, um damit schnell einen Überblick zu gewinnen, oder ein gesuchtes Bild zu 
   </a>
 </figure>
 
-<p>In dem mehrpaltigen Bereich wird pro Box ein Objekt aus der Mediathek dargestellt,
+<p>In dem mehrspaltigen Bereich wird pro Box ein Objekt aus der Mediathek dargestellt,
 mit den jeweiligen Informationen und Optionen dieses Objekts:</p>
 
 <p class="desc">
@@ -2830,7 +2830,7 @@ mit den jeweiligen Informationen und Optionen dieses Objekts:</p>
         Bei Bilddateien sehen Sie nun drei weitere Buttons: Das <span class="mbold">Diagonale Pfeile</span> Symbol
         ermöglicht es, ein Bild zu vergrößern oder zu verkleinern. Bei einem Klick darauf
         öffnet sich eine Seite, die das Originalbild und dessen Originalauflösung darstellt,
-        sie aber skaldiert (d.h. Seitengerecht verkleinert) anzeigt,
+        sie aber skaliert (d.h. Seitengerecht verkleinert) anzeigt,
         und Sie können in einer Texteingabebox die neue Auflösung eintragen.
     </span>
 
@@ -2912,7 +2912,7 @@ Bei anderen Dateien kann hier ein Symbol für das jeweilige Dateiformat stehen.<
 
 <p class="desc">
 <span class="item mbold">Datei-Informationen</span><!-- menuitem -->
-<span class="desc-info">Relevante und vorhandene Dateinformationen,
+<span class="desc-info">Relevante und vorhandene Dateiinformationen,
 werden direkt darunter angezeigt.
 Auf einen Eigentümer Informationsausgabe wurde verzichtet,
 da seit vielen Serendipity Versionen keine Eigentümer Struktur für
@@ -3113,8 +3113,7 @@ der Option <span class="mbold">Medien-Eigenschaften</span> in der Serendipity-Ko
 einstellen. Alle dort festgelegten Felder können als Filterkriterium
 dienen.</p>
 
-<p>Unterhalb des Filter-Bereichs können Sie die Sortierung der Anzeige
-beeinflussen:</p>
+<p>Unterhalb des Filter-Bereichs können Sie die Sortierung der Anzeige beeinflussen:</p>
 
 <p class="desc">
 <span class="item mbold">Sortieren nach</span><!-- menuitem -->
