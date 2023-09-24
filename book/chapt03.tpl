@@ -699,7 +699,7 @@ einen Überblick zu verschaffen, anstatt nur eine leere, nichtssagende
 Fehlermeldung zu sehen.</p>
 
 <p>Neuere Versionen zeigen zusätzlich aber wieder eine Fehlermeldung,
-da das fehlerlose Fallback sich als zu verwirend für manche User herausstellte.
+da das fehlerlose Fallback sich als zu verwirrend für manche User herausstellte.
 Damit die Meldung in bestimmten Situationen unterdrückt wird,
 muss in den Template Dateien auf die {if $view == '404'} Variable zurückgegriffen werden,
 um eine bestimmte Reaktion auszulösen.</p>
