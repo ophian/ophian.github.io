@@ -3527,7 +3527,7 @@ oder eine Nachricht in der Projekt-Issue- oder Projekt-Discussions-Datenbank hin
       <span class="item mbold">Styx Kern</span> finden Sie auf meiner <a href="https://github.com/ophian/">GitHub Seite</a>.</li>
   <li>Die Styx-Dokumentation wird hier im Styx <a href="/hc/en">Help Center</a> bereitgestellt.</li>
   <li>Benutzer Hilfe und Diskussionen finden Sie in den <a href="https://github.com/ophian/styx/discussions">Styx Discussions</a>.</li>
-  <li>Das Serendipity <a href="/blog">Styx Blog</a> beinhaltet Neuigkeiten, Release Ankündungen
+  <li>Das Serendipity <a href="/blog">Styx Blog</a> beinhaltet Neuigkeiten, Release Ankündigungen
       und insbesondere Security Announcements.</li>
   <li>Die zusätzlichen <em>Plugins</em> und <em>Themes</em> sind unter <a href="/themes">Styx
       Spartacus Themes</a> bzw <a href="/plugins">Styx Spartacus Plugins</a> erreichbar;
@@ -8246,7 +8246,7 @@ miteinander ab und löscht beispielsweise Benutzeraccounts, die im
 LDAP-Verzeichnis nicht mehr aufgeführt werden.</p>
 
 <p>Nach einem ähnlichen Schema müssten Sie das Plugin erweitern, um dieselbe Aktion
-für eine fremde Beutzerdatenbank durchzuführen. Sie brauchen also einen
+für eine fremde Benutzerdatenbank durchzuführen. Sie brauchen also einen
 regelmäßigen Synchronisierungsvorgang, der die dedizierte <em>Master</em>-Tabelle
 mit der <em>Serendipity-Datenbank</em> abgleicht.</p>
 
