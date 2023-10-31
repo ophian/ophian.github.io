@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Watch your PHP version
-last_modified_at: 2023-10-31T19:49:00+00:00
+last_modified_at: 2023-10-31T19:54:00+00:00
 ---
 
 N° 2023/07 - Watch your PHP version <img class="php8" src="/i/b/logo_php8_2.svg" alt="php8.2" width="160" height="48">
@@ -165,6 +165,9 @@ Please notice: PHP current Version series are not that long supported any more l
 			Today: 31 Oct 2023		</text>
 	</g>
 
+    </div>
+</div>
+
 <table class="standard">
 	<tbody><tr class="stable">
 		<td>Active support</td>
@@ -190,8 +193,6 @@ Please notice: PHP current Version series are not that long supported any more l
 	</tr>
 </tbody></table>
 
-    </div>
-</div>
 
 So hurry up. The new upcoming Styx 4.3 is your last chance! 😉
 
