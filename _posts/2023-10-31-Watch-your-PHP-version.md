@@ -1,14 +1,14 @@
 ---
 layout: post
 title: Watch your PHP version
-last_modified_at: 2023-11-01T09:24:00+00:00
+last_modified_at: 2023-11-01T09:31:00+00:00
 ---
 
 N° 2023/07 - Watch your PHP version <img class="php8" src="/i/b/logo_php8_2.svg" alt="php8.2" width="160" height="48">
 
 ### End of Life for PHP 8.0
 
-Please notice: PHP current Version series are not that long supported any more like they were with elder PHP series, i.e. PHP 5. See this official [Support Until](https://www.php.net/supported-versions.php) announcement page. Even for PHP 8.0 EOL time will end in 3 weeks:
+<p>Please notice: PHP current Version series are not that long supported any more like they were with elder PHP series, i.e. PHP 5. See this official <a href="https://www.php.net/supported-versions.php" rel="external noopener" target="_blank">Support Until</a> announcement page. Even for PHP 8.0 EOL time will end in 3 weeks:</p>
 
 <div>
     <div>
