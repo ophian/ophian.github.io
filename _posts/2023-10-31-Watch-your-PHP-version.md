@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Watch your PHP version
-last_modified_at: 2023-11-01T08:48:00+00:00
+last_modified_at: 2023-11-01T09:24:00+00:00
 ---
 
 N° 2023/07 - Watch your PHP version <img class="php8" src="/i/b/logo_php8_2.svg" alt="php8.2" width="160" height="48">
@@ -193,7 +193,6 @@ Please notice: PHP current Version series are not that long supported any more l
 	</tr>
 </tbody></table>
 
+<p>So better hurry up. The new upcoming Styx 4.3 is your last chance series to work and live with your current PHP versions, but we do recommend to use the latest 8.2 revision! 😉 After Styx 4.3 the work on the new Styx 5 (major) series starts, which will require a minimum of PHP 8.2.</p>
 
-So better hurry up. The new upcoming Styx 4.3 is your last chance series to work and live with your current PHP versions, but we do recommend to use the latest 8.2 revision! 😉 After Styx 4.3 the work on the new Styx 5 (major) series starts, which will require a minimum of PHP 8.2.
-
-See you soon on this channel!
+<p>See you soon on this channel!</p>
