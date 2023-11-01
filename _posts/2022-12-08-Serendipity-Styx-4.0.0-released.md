@@ -6,9 +6,9 @@ last_modified_at: 2022-12-08T17:06:00+00:00
 
 N° 2022/09 - The Serendipity Styx 4.0.0 release <img class="php8" src="/i/b/logo_php8_2.svg" alt="php8.2" width="160" height="48">
 
-### 4.0.0 - New Mayor Version
+### 4.0.0 - New Major Version
 
-Finally the new mayor 4.0.0 release has rounded. Thanks for any help with our last public pre releases.
+Finally the new major 4.0.0 release has rounded. Thanks for any help with our last public pre releases.
 Some more and really 😎 improvements were made again!
 So today - with the new public release of shiny new PHP 8.2 - we shift this fully compatible Serendipity version.
 
