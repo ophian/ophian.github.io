@@ -1,14 +1,14 @@
 ---
 layout: post
 title: Serendipity Styx 4.3.0 release
-last_modified_at: 2023-11-26T18:21:00+00:00
+last_modified_at: 2023-11-26T18:32:00+00:00
 ---
 
 N° 2023/08 - The Serendipity Styx 4.3.0 release <img class="php8" src="/i/b/logo_php8_3.svg" alt="php8.3" width="160" height="48">
 
 ### 4.3.0 - The Autumn Update Edition
 
-This maintenance update is the last regular Serendipity Styx 4 series revision supporting the PHP 7.4+ Series. If nothing in the following development of next major Serendipity Styx version 5.0 is discovered, which needs an important backport refactoring, further only urgent bugfix or security point releases will be given.The previously announced change to PHP 8 minimum requirement was stashed and we now start developing Serendipity Styx 5.0 up from PHP 8.2 as the minimum.
+This maintenance update is the last regular Serendipity Styx 4 series revision supporting the PHP 7.4+ Series. If nothing in the following development of next major Serendipity Styx version 5.0 is discovered, which needs an important backport refactoring, further only urgent bugfix or security point releases will be given. The previously announced change to PHP 8 minimum requirement was stashed and we now start developing Serendipity **Styx 5.0** up from **PHP 8.2** as the minimum.
 
 As already pointed out: With the release of PHP 8.3 the EOL for PHP 8.0 has arrived. Please update to latest available PHP version for your system, to be able to work with all features Serendipity Styx supports.
 
