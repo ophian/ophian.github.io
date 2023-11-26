@@ -1699,8 +1699,8 @@ Der Button mit <em>Mülleimer</em>-Symbol löscht einen Artikel
 unwiderruflich. Zur Sicherheit werden Sie beim Löschen gefragt, ob Sie
 die Aktion wirklich ausführen wollen.</p>
 
-<p>Als Letztes wird eine Auswahlbox neben dem <span class="mbold">Löschen</span>-Button
-angezeigt. Hier können Sie mehrere Artikel auswählen, um anschließend am
+<p>Die Auswahl-Checkbox neben dem <span class="mbold">Titel</span> des Eintrags
+ermöglicht mehrere Artikel auszuwählen, um anschließend am
 Seitenende durch den Klick auf <span class="mbold">Markierte Einträge löschen</span> diese
 Artikel gesammelt zu löschen.</p>
 
@@ -1709,7 +1709,7 @@ Artikel gesammelt zu löschen.</p>
     <span class="inline-tag">Auswahl umkehren</span>
 </span>
 Der Button <span class="mbold">Auswahl umkehren</span> wird jeden gewählten Artikel
-deselektieren und jeden deselektierten Artikel wieder auswählen. Wenn
+de-selektieren und jeden de-selektierten Artikel wieder auswählen. Wenn
 Sie also einmal alle Artikel bis auf einen löschen wollen, markieren Sie
 nur diesen einen Artikel, klicken auf <span class="mbold">Auswahl umkehren</span>, wodurch
 automatisch die anderen Artikel ausgewählt werden, und können danach löschen.</p>
