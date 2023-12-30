@@ -6904,16 +6904,16 @@ bei der Vorschaubild-Erzeugung auftreten.</span>
 </p>
 
 <p class="desc">
-<span class="label invisible" id="Bestimmung der maximalen Vorschaubildgröße">Bestimmung der maximalen Vorschaubildgröße</span>
+<span class="label invisible" id="bestimmung-der-maximal-erlaubten-bildgroesse">Bestimmung der maximal erlaubten Bildgröße</span>
 <span class="tag-box invisible">
     <span class="inline-tag">Konfiguration!Vorschaubildgröße</span>
     <span class="inline-tag">Thumbnails!Größe</span>
     <span class="inline-tag">Thumbnails!Bestimmung</span>
 </span><!-- tagbox -->
-<span class="item mbold">Bestimmung der maximalen Vorschaubildgröße</span><!-- menuitem -->
+<span class="item mbold">Bestimmung der maximal erlaubten Bildgröße</span><!-- menuitem -->
 <span class="desc-info">
     <span class="box">
-        Legt fest, wie die Größe der Thumbnails angepasst werden soll.
+        Legt fest, <b><u>wie</u></b> die Größe des Bildes beim Upload angepasst werden soll.
         Der Standard "Längste Seite" nutzt die größte Seite als Beschränkung,
         so dass weder Breite noch Höhe die festgelegte Zahl überschreiten dürfen.
         "Breite" und "Höhe" legen lediglich die Höhe bzw. Breite als größte Seite fest,
@@ -6925,16 +6925,16 @@ bei der Vorschaubild-Erzeugung auftreten.</span>
 <p class="desc">
 <span class="label invisible" id="uploadlimit">uploadlimit</span>
 <span class="tag-box invisible">
-    <span class="inline-tag">Konfiguration!maximale Dateigröße für den Upload</span>
+    <span class="inline-tag">Konfiguration!Maximal erlaubte Dateigröße für den Upload</span>
     <span class="inline-tag">Upload-Limit</span>
     <span class="inline-tag">Dateigröße!für den Upload beschränken</span>
 </span><!-- tagbox -->
-<span class="item mbold">Maximale Dateigröße für den Upload</span><!-- menuitem -->
+<span class="item mbold">Maximal erlaubte Dateigröße für den Upload</span><!-- menuitem -->
 <span class="desc-info">
     <span class="box">
         Wenn Sie den Upload von Dateien künstlich einschränken wollen, können
         Sie die maximale Dateigröße einer in die Mediathek hochgeladenen
-        Datei über das Feld <span class="mbold">Maximale Dateigröße für den Upload</span>
+        Datei über das Feld <span class="mbold">Maximal erlaubte Dateigröße für den Upload</span>
         einstellen.
     </span>
 
@@ -6963,18 +6963,18 @@ Internet nicht geeignet sind.</span>
 </p>
 
 <p class="desc">
-<span class="label invisible" id="Vor dem Upload Größe anpassen">Vor dem Upload Größe anpassen</span>
+<span class="label invisible" id="groesse-fuer-upload-automatisch-anpassen">Größe für Upload automatisch anpassen</span>
 <span class="tag-box invisible">
     <span class="inline-tag">Konfiguration!Vorschaubildgröße</span>
     <span class="inline-tag">Thumbnails!Größe</span>
     <span class="inline-tag">Thumbnails!Upload</span>
     <span class="inline-tag">Thumbnails!Automatik</span>
 </span><!-- tagbox -->
-<span class="item mbold">Vor dem Upload Größe anpassen</span><!-- menuitem -->
+<span class="item mbold">Größe für Upload automatisch anpassen</span><!-- menuitem -->
 <span class="desc-info">
     <span class="box">
-        Mittels Javascript werden Bilder vor dem Upload an die gewählte
-        Maximalgröße angepasst. Wenn aktiv, wird Ajax für den Bildupload
+        Mittels Javascript werden Bilder beim Upload an die gewählte(n)
+        Maximal-Größe(n) angepasst. Wenn aktiv, wird Ajax für den Bildupload
         verwendet, was auch zur Entfernung des "Eigenschaften angeben"-
         Buttons führt. Dieses muss dann separat geschehen.
     </span>
