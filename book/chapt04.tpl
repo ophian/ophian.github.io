@@ -2174,7 +2174,7 @@ zu viel Speicherplatz benötigen.</p>
 
 <p>Dem trägt eine Einstellung in der
 <strong>Konfiguration <span class="icon arrow-right">→</span> Bildkonvertierung <span class="icon arrow-right">→</span> Maximale (Breite/Höhe)
-eines hochgeladenen Bildes</strong> bereits Rechnung, mittels derer man ein festes Maß als Maximalmaß
+eines hochzuladenen Bildes</strong> bereits Rechnung, mittels derer man ein festes Maß als Maximalmaß
 für den Upload festsetzen kann und das intern beim Upload größere Bilder bereits herunterrechnet.
 Hier ist ImageMagick als Toolkit für die graphische Voraussetzung sehr zu empfehlen.</p> 
 
@@ -6951,12 +6951,12 @@ bei der Vorschaubild-Erzeugung auftreten.</span>
 <p class="desc">
 <span class="label invisible" id="uploadlimit2">uploadlimit2</span>
 <span class="tag-box invisible">
-    <span class="inline-tag">Konfiguration!maximale Breite/Höhe eines hochgeladenen Bildes</span>
+    <span class="inline-tag">Konfiguration!maximale Breite/Höhe eines hochzuladenen Bildes</span>
 </span><!-- tagbox -->
-<span class="item mbold">Maximale Breite eines hochgeladenen Bildes</span><!-- menuitem -->
-<span class="item mbold">Maximale Höhe eines hochgeladenen Bildes</span><!-- menuitem -->
-<span class="desc-info">Abgesehen von der Dateigröße können Sie ein hochgeladenes Bild auch auf
-eine maximale Auflösung festlegen. Wenn das Bild eine dieser
+<span class="item mbold">Maximale Breite eines hochzuladenen Bildes</span><!-- menuitem -->
+<span class="item mbold">Maximale Höhe eines hochzuladenen Bildes</span><!-- menuitem -->
+<span class="desc-info">Abgesehen von der Dateigröße können Sie ein hochzuladenes Bild auch auf
+eine maximale Auflösung hin festlegen. Wenn das Bild eine dieser
 Dimensionen überschreitet, wird es nicht akzeptiert. So können Sie
 verhindern, dass Redakteure Bilder hochladen, die für den Einsatz im
 Internet nicht geeignet sind.</span>
