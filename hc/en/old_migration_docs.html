@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Serendipity Styx Edition - Help Center [en] | Migration | ophian.github.io</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Serendipity Styx is a PHP-powered weblog engine giving users an easy way to maintain a blog and developers a framework with the power for professional applications.">
+    <meta name="keywords" content="Serendipity, Serendipity Blog, Serendipity Weblog, Serendipity Styx, Serendipity Next, Serendipity Styx blog, Serendipity Styx Help Center, Serendipity Styx Edition, Styx is what Serendipity should be">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:title" content="Serendipity Styx Edition - Help Center [en] | Migration | Styx is what Serendipity should be | ophian.github.io">
+    <meta property="og:site_name" content="Serendipity Styx Blog System">
+    <meta property="og:description" content="Serendipity Styx is a PHP-powered weblog engine giving users an easy way to maintain a blog and developers a framework with the power for professional applications.">
+    <meta property="og:image" content="https://ophian.github.io/i/styx-opengraph.jpg">
+    <meta property="og:url" content="https://ophian.github.io/hc/en/old_migration_docs.html">
+    <link rel="canonical" href="https://ophian.github.io/hc/en/old_migration_docs.html">
+    <link rel="apple-touch-icon" href="/i/apple-touch-icon.png">
+    <link rel="stylesheet" href="/css/libs.min.css">
+    <link rel="stylesheet" href="/css/styx.min.css">
+</head>
+<body>
+<ul class="skip-link__list">
+    <li class="skip-link skip-link--main-nav">
+        <a href="#main-navigation" tabindex="1">Main navigation</a>
+    </li>
+    <li class="skip-link skip-link--main-repo"><a href="#main-repository" tabindex="1">Styx Repository</a></li>
+    <li class="skip-link skip-link--main-content"><a href="#main-content" tabindex="1">Styx Main content</a></li>
+</ul>
+<div class="menu menu--no-hero menu--tiny ">
+    <div class="menu__page-title">
+        <h1><a href="/hc/en">Serendipity Styx Edition - Documentation [en]</a></h1>
+    </div>
+    <div class="progress-bar" aria-hidden="true"><span class="progress-bar__fill"></span></div>
+</div>
+<div class="site-nav site-nav--no-hero menu--tiny">
+    <button id="blink" class="navbar-shader btn float" onclick="dark()" title="Theme: Dark (Browser preferences|Session override)">
+        <img id="daynight" src="/i/moon-fill.svg" width="30" height="30" alt="">
+    </button>
+    <button class="site-nav__toggler" id="site-nav__toggler" aria-label="Show website navigation" aria-expanded="false" tabindex="1">
+        <span class="bar" aria-hidden="true"></span>
+        <span class="bar" aria-hidden="true"></span>
+        <span class="bar" aria-hidden="true"></span>
+    </button>
+</div>
+<div class="site-nav__panel" aria-hidden="true" aria-controls="site-nav__toggler">
+    <nav id="main-navigation" role="navigation" aria-label="main navigation">
+        <ul class="site-nav__menu">
+            <li class="site-nav__menu-item site-nav__menu-item--current"><a href="/hc/en" tabindex="-1" title="Serendipity Styx Help Center [en]">Documentation [en]</a></li>
+        </ul>
+        <p class="site-nav__menu-category">Main</p>
+        <ul class="site-nav__menu" aria-label="links to styx site main pages">
+            <li class="site-nav__menu-item"><a href="/" tabindex="-1" title="Serendipity Styx Home">Styx Home</a></li>
+            <li class="site-nav__menu-item"><a href="/blog/" tabindex="-1" title="Serendipity Styx Blog">Styx Blog</a></li>
+            <li class="site-nav__menu-item"><a href="/blog/archives/" tabindex="-1" title="Serendipity Styx Blog Archives">Styx Blog Archives</a></li>
+            <li class="site-nav__menu-item"><a href="/atom.xml" tabindex="-1" title="Serendipity Styx Blog Feed">Styx Blog Feed</a></li>
+            <li class="site-nav__menu-item"><a href="/about/" tabindex="-1" title="About Serendipity Styx">About Styx</a></li>
+        </ul>
+        <p class="site-nav__menu-category">Spartacus</p>
+        <ul class="site-nav__menu" aria-label="links to styx spartacus pages">
+            <li class="site-nav__menu-item"><a href="/plugins/" tabindex="-1" title="Serendipity Styx Spartacus Plugins">Styx Spartacus Plugins</a></li>
+            <li class="site-nav__menu-item"><a href="/themes/" tabindex="-1" title="Serendipity Styx Spartacus Themes">Styx Spartacus Themes</a></li>
+        </ul>
+        <p class="site-nav__menu-category">Repository</p>
+        <ul class="site-nav__menu" aria-label="links to styx repository pages">
+            <li class="site-nav__menu-item"><a class="icon icon--small" href="https://github.com/ophian/styx" target="_blank" rel="noopener" tabindex="-1" title="GitHub Serendipity Styx Code"><svg class="icon__body"><use xlink:href="#github"></use></svg> Styx Code</a></li>
+            <li class="site-nav__menu-item"><a class="icon icon--small" href="https://github.com/ophian/styx/releases" target="_blank" rel="noopener" tabindex="-1" title="GitHub Serendipity Styx Releases"><svg class="icon__body"><use xlink:href="#github"></use></svg> Styx Downloads</a></li>
+            <li class="site-nav__menu-item"><a class="icon icon--small" href="https://github.com/ophian/additional_plugins" target="_blank" rel="noopener" tabindex="-1" title="GitHub Serendipity Styx Plugins"><svg class="icon__body"><use xlink:href="#github"></use></svg> Styx Plugins</a></li>
+            <li class="site-nav__menu-item"><a class="icon icon--small" href="https://github.com/ophian/styx/issues" target="_blank" rel="noopener" tabindex="-1" title="GitHub Serendipity Styx Issues"><svg class="icon__body"><use xlink:href="#github"></use></svg> Styx Issues</a></li>
+            <li class="site-nav__menu-item"><a class="icon icon--small" href="https://github.com/ophian/styx/discussions" target="_blank" rel="noopener"><svg class="icon__body"><use xlink:href="#github"></use></svg> Styx Discussions</a></li>
+        </ul>
+        <p class="site-nav__menu-category">Book</p>
+        <ul class="site-nav__menu" aria-label="link book page">
+            <li class="site-nav__menu-item"><a href="/book/" tabindex="-1" title="Documentation Serendipity Styx Book [de] page">Styx Book [de]</a></li>
+        </ul>
+        <p class="site-nav__menu-category">Connect & Help</p>
+        <ul class="site-nav__menu" aria-label="links connect and help pages">
+            <li class="site-nav__menu-item"><a href="/hc/" tabindex="-1" title="Serendipity Styx Help Center">Help center</a></li>
+            <li class="site-nav__menu-item"><a href="/hc/de/" tabindex="-1" title="Serendipity Styx Hilfeseiten">Hilfeseiten</a></li>
+            <li class="site-nav__menu-item"><a href="/hc/en/faq/" tabindex="-1" title="Serendipity Styx FAQ">Styx FAQ</a></li>
+            <li class="site-nav__menu-item"><a href="/contact/" tabindex="-1" title="Serendipity Styx Contact">Contact Styx</a></li>
+        </ul>
+    </nav>
+</div>
+<div class="site-cover"></div>
+<main class="site-content site-content--col site-content--no-hero site-content--simple" id="main-content" role="main">
+    <section class="section site-col" data-reading-progress="true">
+        <div class="col">
+            <div class="col-menu__wrapper">
+                <nav class="col-menu" role="navigation" aria-label="Help Center [en] documents navigation">
+                    <ul>
+                        <li><a href="/hc/"><img class="icon-info-square" src="/i/info-square.svg" width="32" height="32"> Styx Help Center</a></li>
+                        <li><a href="/hc/en/">Documentation [en]</a></li>
+                        <li><a href="/hc/de/">Dokumentation [de]</a></li>
+                        <li><a href="/hc/en/faq/">Styx Help Center FAQ</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="col-document__wrapper col-document__wrapper-documents">
+                <div class="col-document">
+                    <h1><span class="hc-home"><a href="index.html" title="Styx Help Center [en] - Documentation">⌘</a></span> Styx - Migration</h1>
+                    <ul class="document-nav">
+                        <li class="document-pref"><a href="installation.html"><span class="icon arrow-left">←</span>&nbsp;Back to Installation</a></li>
+                        <li class="document-current">«&nbsp;Migration&nbsp;»</li>
+                        <li class="document-next"><a href="installation.html">Fore to Installation&nbsp;<span class="icon arrow-right">→</span></a></li>
+                    </ul>
+                    <h2><strong>Get Styx</strong> - ‘Migrate’</h2>
+
+                    <ul id="markdown-toc">
+                      <li><a href="#user-content-the-important-upgraders-howto---step-by-step-guide" id="toc-docs-user-content-the-important-upgraders-howto---step-by-step-guide">Guide to Upgrade</a></li>
+                      <li><a href="#user-content-the-hitchhikers-guide-to-styx-backend-tuning" id="toc-docs-user-content-the-hitchhikers-guide-to-styx-backend-tuning">Styx Backend tuning</a></li>
+                    </ul>
+
+<h3 id="user-content-the-important-upgraders-howto---step-by-step-guide">The important migration Upgrade HowTo - Step by Step Guide:</h3>
+<p><strong>Preamble:</strong> (<em>If not using Styx already, and having done that before...</em>)</p>
+<h4>Migration of very old Serendipity S9y-Origin installations</h4>
+<p><strong>Please note</strong>: The more Serendipity Styx develops and time passes by, the more it differs from the origin, since the ongoing development has already more than doubled the commit changes against S9y Origin! The normal version upgrade manager until Styx 2.9.5 includes all tasks which are necessary to successful proceed between the two editions. With Serendipity S9y-Origin 2.1 + releases there were no migration routine(s) checked. This does not say they could not work too. It is just a matter of having upgrade tasks matching and taking the responsibility, so you don't destroy certain parts of your system.</p>
+<p>The following Guide was originally meant to help migrating this "Origin-to-Styx" process to the first Styx release 2.1.0, over to 2.2, 2.3 and then 2.4.0. In a second step this was reworked for Serendipity Styx 2.6, better pointing you back to 2.4 for the autoupdater plugin. By time, Serendipity Styx stable hit version 2.9.5, it was checked again. The 2.9(.5) revision branch is the recommended last version for simple drop-over migration upgraders! Do not do this Origin-to-Styx migrations with Styx 3.x releases, since a lot of helper tasks were removed! <strong>That said</strong>, if you are on Styx already, jumping to Styx 3.x will be as easy as ever.</p>
+<p><strong>Styx</strong> has come a long way with lots of changes. It would require to inspect and update this guide in deep to jump to latest release <strong>without any</strong> possible flaws for these migration upgrades. Needless to say: Best of all is a complete <strong>new</strong> installation.</p>
+<p>Starting from scratch enables "<em>hand-cared migrations</em> " too, since you always install the latest Styx release independently, make it run and afterwards carefully include everything you (also) had in your old Blog, like plugins (by their new edition), your MediaLibrary uploads/ items and probably more you had a need to store in other places. Then export your old database (probably as UTF-8), edit the SQL file with an UTF-8 ready Editor like Notepad++ and then carefully fill up the <strong>new</strong> database tables one by one to include all necessary parts of your old install. It has successfully been done by users before! But you need a little knowledge which database items have dependencies in other database tables and which database parts and values can get ignored. This enables to have a clean system with clean structure and including your blogs history.</p>
+<p>But now, back to the migration guide:</p>
+
+<h4>Upgrade migration by named package (FTP or WGET like tools)</h4>
+<p>Did I already say: <strong><em>Back it up</em></strong>? No? Then fully backup your blog and your database!</p>
+<p>Get Styx 2.9.5 (‘serendipity-2.9.5.zip’) and deflate it. It will unzip to a "<code>serendipity/</code>" directory (<em>Note, that GitHub source zips are DEV versions and have another parent directory</em>).</p>
+<ul>
+    <li><strong><u>PREPARATIONS:</u></strong></li>
+    <li><strong>First</strong> of all, <strong>hide</strong> your normal blog site from the public by using a simple .htaccess restriction! (<a href="https://ophian.github.io/hc/en/faq/#docs-locking-the-blog-during-the-upgrade" target="_new">see about locking here</a>.)</li>
+    <li><strong>Second</strong>, log-in to your old blog and remove all Plugins that you don't <u>essentially</u> need! You most probably have very old versions lying around, which are prone to error (in example, the "<em>browser compatibility event plugin</em>").<br>If you are not able to access your old blog because of too new PHP versions and regarding fatal errors, you have to do this step by hand.</li>
+    <li><strong>Third</strong>, update the Plugins of essential need by deleting their directories and replacing them with a fresh version from <a href="https://github.com/ophian/additional_plugins" target="_new">Styx additional_plugins</a>. Do not just drop it over the old!</li>
+    <li><strong>Fourth</strong>, check into templates and make sure you have a default theme installed. There is no <em>best of</em> use case, since that depends on the version you have. Beside of this "<em>Bulletproof</em>", or better "<em>default</em>", or the newer "<em>2k11</em>" is recommended at this point. Why is this necessary? Themes have changed a lot. Some even may carry old smarty API calls (<em>same as in plugins</em>), which then would fully halt your system on the upgrade. We want to avoid this as much we can.</li>
+    <li><strong><u>THE UPGRADE:</u></strong></li>
+    <li>Perform the fetch of the new Styx package as said on start. Copy all inner unzipped content to your current installation. Point yourself to the blogs http page. The upgrade manager should start and give you some upgrade task informations of what is going to happen and what you might have to do later on (like, update your <em>copy</em> or <em>child</em> themes, etc.). If you don't get any errors while processing this upgrade step, you are happy, but it does not mean there are no possible hidden flaws that can hit you later. Follow the upgrade until finished.</li>
+    <li>If you do get any fatal errors which halt your system, you have to search for their reason and fix them up. Most common errors are old left over <strong>plugins</strong>, yelling a Smarty Exception error in the Smarty package (files). This is not helpful, since you probably don't get to know which is the one. Now you have to try your best and guess! Disable or remove one by one and check your upgrade page on each if the error is gone. If you have errors that specifically point to a plugin, replace it with a fresh version like done before for the essentials.</li>
+    <li><strong><u>POST UPGRADE CHECKS:</u></strong></li>
+    <li>Log-in. Check your Browser to load a fresh copy of internal assets by [Ctrl-F5] or whatever command your Browser needs to reload its cache. Immediately check into Plugins and perform a Plugin update run. After that you might need to reload your Browsers Cache again.</li>
+    <li>Check into Maintenance section. Check for "Plugin Cleanup Manager" and perform a local plugin zombie check. Remove any shown plugins in which you are not personally involved as a developer. Now do the same with "Theme Cleanup Manager".</li>
+    <li>All is neat and looks ok? Great! Now, open up PhpMyAdmin or your Terminal and do pull another full database backup.</li>
+    <li>Perform a database UTF8MB4 migration in the Maintenance "<em>Database: UTF-8-MB4 migration</em>" section. If this is possible on your system, you have a <em>examine</em> and probably a <em>perform</em> button showing up. Read the info notes about what is going to happen. Follow the migration and migration guide as long as it is necessary. At the end you get a green OK message telling you a success "UTF-8-MB4 charset".</li>
+    <li>Now you are ready to chill back and have a fresh look around. But there is more to do for you. You still have to care about personal themes (<em>remember what the upgrade tasks were talking about</em>). And you need some backend <strong>finetuning</strong> by option changes/tweaks:</li>
+    <li><strong>Read on</strong> in the following: <a href="https://ophian.github.io/hc/en/old_migration_docs.html#user-content-the-hitchhikers-guide-to-styx-backend-tuning">"<em>The hitchhikers guide to Upgraders Styx Backend tuning</em>"</a>.</li>
+</ul>
+
+<h4>Steps for using an autoupgrade with the autoupdate Plugin.</h4>
+<ul>
+    <li><em>If you are still with Serendipity <strong>1.6</strong> or <strong>1.7</strong> Series, please follow this guides points “a” to “c”.</em></li>
+    <li><em>Then manually append this line to your backend startpage URL:
+    <pre><code>?serendipity[adminModule]=event_display&amp;serendipity[adminAction]=update&amp;serendipity[newVersion]=2.4.0</code></pre>
+    (as a 1-liner) and hit ENTER - This will start the autoupdate upgrade routine. You are now at the 2cd half of upgrade guide point “f”. The new version string, ie. ‘2.4.0’, has to match the zip files version string, ie. ‘serendipity-2.4.0.zip’, which also has to match the searched docs/RELEASE file version string!</em></li>
+    <li><em>Afterwards resume with point “g” to “h”! Enable “d” at last.</em></li>
+    <li>On the other hand, if you upgrade an <strong>existing</strong> Serendipity <strong>2.1.x</strong> installation, it makes sense to <strong>downgrade</strong> your version first to <strong>‘2.0.0’</strong> in the <code>serendipity_config.inc.php</code> and in the <code>serendipity_config_local.inc.php</code> files, to get all the recommended and necessary <strong>upgrade tasks</strong> in need for Styx on upgrade (see a-h steps).</li>
+</ul>
+
+<p><strong>Read and follow carefully (inclusive the advising “Update” section):</strong></p>
+
+<ol class="boxed" type="a">
+    <li> Manually update the Serendipity Spartacus plugin file with the temporary ‘styx-spartacus-up’ file (4) to solve some bugs and set the custom plugin load location option to this URL (5).</li>
+    <li> Update the “Autoupdater” by Spartacus from the new location, currently this is version 1.5.3 or up.</li>
+    <li> Click somewhere else and then return to the plugin list page. Select events and search for the installed/updated autoupdater plugin. It now is configurable! The two new options are pre-filled with the origin Serendipity GitHub path. Change both to the new URLs (6) and (7). Version 1.4.0 has this already preset. This is important!</li>
+    <li> Next, go to your BACKEND global “Configuration” <span class="icon">→</span> “General Settings” and enable the “autoupdate” option to search for “beta” releases. This as well gives you RC and full release versions.</li>
+    <li> Now click the HOME top navigation button or the Blog name to open your BACKEND dashboard.</li>
+    <li> It will now (or later *) show you that an upgrade is available. (*) If that has run before, it might show you an old update version for another ~6 hours. Upgrade to Serendipity Styx Edition. Follow the routine. Don't forget, if it gets stuck, just try to reload the upgrade page. Very easy!</li>
+    <li> Open up the Spartacus plugin configuration and set this URL [5] to the custom mirror field. This enables to fetch the Styx additional plugin repository, highly recommended. When all is done, upgrade all other plugin updates via Spartacus, since some of them rely on Styx changes. Styx 2.1.0 and up have this already preset.</li>
+    <li> Now, open up the global configuration again and see a new config option field inside “General Settings” to read the RELEASE file. Change it to the correct Styx path (8). Styx 2.1.0 and up have this already preset.</li>
+    <li> From now on you are on the right track! The next short how-to section is about some important and recommended BACKEND changes.</li>
+</ol>
+
+<ul>
+    <li>[4] <a href="https://raw.githubusercontent.com/ophian/styx-spartacus-up/master/serendipity_event_spartacus.php" rel="nofollow">https://raw.githubusercontent.com/ophian/styx-spartacus-up/master/serendipity_event_spartacus.php</a></li>
+    <li>[5] <code>https://raw.githubusercontent.com/ophian/additional_plugins/master/</code></li>
+    <li>[6] <code>https://github.com/ophian/styx/releases/download/</code></li>
+    <li>[7] <code>https://github.com/ophian/styx/releases/tag/</code></li>
+    <li>[8] <code>https://raw.githubusercontent.com/ophian/styx/master/docs/RELEASE</code></li>
+</ul>
+
+<p><em><strong>Please attend:</strong></em></p>
+
+<ol class="boxed" type="I">
+    <li> Fresh Styx installs will have to set the URLs too; In this mentioned order! (<em>Except step a. for [4].</em>).</li>
+    <li> [ <strong>Update</strong> ]:<br>With Styx 2.1++ releases, the Spartacus custom mirror g.[5] and the general setting h.[8] are already preset for <strong>new</strong> installations.</li>
+    <li> [ <strong>Update</strong> ]:<br>Newer versions of the Serendipity Autoupdater from this repository already also have [6] and [7] preset for <strong>new</strong> installations.</li>
+    <li> [ <strong>Update</strong> ]:<br>Since the Serendipity Styx 2.6-beta1 release (read the <a href="https://ophian.github.io/blog/"><em>BLOG NOTES</em></a> and scroll down to to the 2.6-beta1), you <strong>don't</strong> need to self-care about these URLs any more, neither for Spartacus, the Configuration, nor the Autoupdater!</li>
+    <li> [ <strong>Update</strong> ]:<br>Since the Serendipity Styx 2.9.5 release (read the <a href="https://ophian.github.io/blog/"><em>BLOG NOTES</em></a>) the <u>recommended</u> way of doing a <strong><em>migration</em> upgrade</strong> is the normal upgrade method (<em>read about it above in the upgrade guide</em>) and <strong>not</strong> the Autoupdater!</li>
+</ol>
+
+<hr>
+
+<h3 id="user-content-the-hitchhikers-guide-to-styx-backend-tuning">The hitchhikers guide to migration Upgraders Styx Backend tuning:</h3>
+
+<ol>
+    <li>Open up your “<code>Personal Settings</code>”. See the force popup options is pre-filled with <code>links</code>. This means, the info button on the dashboard now opens some links embedded to the dashboard and another quick info hello box. If you like it, keep it. My preferred and recommended method here is: <code>links,categories,tags</code>. You'll notice the difference in the entry form.<br>Another recommended option to use, is setting "simplified filters" to <strong>NO</strong>. This enables extended filter possibilities, like the <em>un-mentioned</em> subdirectory exclude item filter in the MediaLibrary, which is a huge performance helper when having multi-directories and lots of images.</li>
+    <li>Option <code>WYSIWYG Editor enabled?</code> Why not! It definitely is a good one! And it is even better with the additional CKEditor Plus plugin installed.</li>
+    <li>Option <code>Default Dashboard Widgets?</code> My recommendation is: Set it to <strong>NO</strong>. It spares some enormous place on the dashboard and the comment administrations is even better done via sidebar comment link. And it gives you some additional support, with from Styx 2.1+.</li>
+    <li>If you want to get informed about plugin updates in the Dashboard (backends startpage) in future, install the event “plugup” plugin and check the depending option in the “spartacus” event plugin. (<em>There is no actual recommendation to install this, since the normal plugin update is doing a better job.</em>)</li>
+    <li>In your Backend <code>Themes</code>, change to use the recommended <strong>Styx</strong> Backend. This also helps to remember that you have Styx on board!</li>
+    <li>
+    <em>Upgraders</em>, check if  <code>Configuration</code> - <code>Image Conversion Settings</code> - <code>Thumbnail max size</code> option is set to <code>400</code>. This is the default since Serendipity 2.0. In addition you might want to change exiting thumb images in <code>Maintenance</code>.</li>
+    <li>Open up the configuration of the <code>entryproperties</code> event plugin. Change the movable item boxes to this <strong>new pair</strong> order:
+      <ul>
+        <li>Active Mark this entry as a Sticky Post</li>
+        <li>Active Empty movable grouping grid-(space-)box</li>
+        <li>Active Author</li>
+        <li>Active Password</li>
+        <li>Active Hide from article overview / frontpage</li>
+        <li>Active Hide content in RSS</li>
+        <li>Active Entries can be read by</li>
+        <li>Active Disable Markup plugins for this entry:</li>
+        <li>Active / Inactive Read permission: Author</li>
+        <li>Active / Inactive Read permission: Group</li>
+        <li>Active / Inactive Custom Fields</li>
+      </ul>
+    </li>
+</ol>
+
+<p>You will notice the last three may be activated or not by your needs only. <em>Why this at all?</em> Since this is one of the best pair-order options for the entry form, making it appear nice and smooth, without taking too much of the available place. You will notice, when opening up the entry form.  If you don't have it installed, go and install it via Spartacus.</p>
+
+<p>Styx new <strong>modemaintain</strong> and <strong>changelog</strong> event plugins are available, plugged as <strong>maintenance widgets</strong>. <strong>Upgraders</strong> have to install them via Spartacus themselves. And at last, you should read the Styx ChangeLog. This can (then) be done easily via the Backends Maintenance page. :) Definitely!</p>
+
+<p>Fresh installs already supplied and activated the entryproperties, changelog and modemaintain plugins for you ... among others!</p>
+
+                </div>
+            </div>
+        </div>
+        <div class="blog-post__footer">
+            <div class="blog-post__footer-author site-col__footer-author-container">
+                <div class="blog-post__author-avatar-container">
+                    <div class="blog-post__author-avatar blog-post__author-avatar--ophian"></div>
+                </div>
+                <div class="blog-post__author-description">
+                    <h3>Ian Styx (ophian)<span>Maintainer</span></h3>
+                    <p class="follow"><a href="https://github.com/ophian/styx/issues" title="Styx issues" target="_blank" rel="noopener">@ophian</a></p>
+                    <p>John Ian Styx has more than 20 years of experience in the IT market as a developer and from 2003 as a Serendipity lover.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+<div class="addthis_float_share_toolbox"></div>
+<footer class="footer footer--blog" role="contentinfo">
+    <div class="section-container footer-site-map">
+        <div class="row footer-menu__row">
+            <div class="col-xs-12 col-sm-4 footer-menu__container">
+                <div class="footer-menu__wrapper" role="navigation" aria-labelledby="menu-category-1-0">
+                    <h2 id="menu-category-1-0">Repository</h2>
+                    <ul class="footer-menu">
+                        <li><a class="icon icon--small" href="https://github.com/ophian/styx/releases" target="_blank" rel="noopener"><svg class="icon__body"><use xlink:href="#github"></use></svg> Serendipity Styx Downloads</a></li>
+                        <li><a class="icon icon--small" href="https://github.com/ophian/styx" target="_blank" rel="noopener"><svg class="icon__body"><use xlink:href="#github"></use></svg> Serendipity Styx Code</a></li>
+                        <li><a class="icon icon--small" href="https://github.com/ophian/additional_plugins" target="_blank" rel="noopener"><svg class="icon__body"><use xlink:href="#github"></use></svg> Serendipity Styx Plugins</a></li>
+                        <li><a class="icon icon--small" href="https://github.com/ophian/styx/issues" target="_blank" rel="noopener"><svg class="icon__body"><use xlink:href="#github"></use></svg> Serendipity Styx Issues</a></li>
+                        <li><a class="icon icon--small" href="https://github.com/ophian/styx/discussions" target="_blank" rel="noopener"><svg class="icon__body"><use xlink:href="#github"></use></svg> Serendipity Styx Discussions</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-4 footer-menu__container">
+                <div class="footer-menu__wrapper" role="navigation" aria-labelledby="menu-category-1-1">
+                    <h2 id="menu-category-1-1">Site & Documentation</h2>
+                    <ul class="footer-menu">
+                        <li class="icon-site"><a href="/">Serendipity Styx Home</a></li>
+                        <li class="icon-site"><a href="/blog/">Serendipity Styx Blog</a></li>
+                        <li class="icon-site"><a href="/book/">Serendipity Styx Book [de]</a></li>
+                        <li class="icon-site"><a href="/plugins/">Serendipity Styx Plugins</a></li>
+                        <li class="icon-site"><a href="/themes/">Serendipity Styx Themes</a></li>
+                        <li class="icon-site"><a href="/hc/en/faq/">Serendipity Styx FAQ</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-4 footer-menu__container">
+                <div class="footer-menu__wrapper" role="navigation" aria-labelledby="menu-category-1-2">
+                    <h2 id="menu-category-1-2">Connect with Styx</h2>
+                    <ul class="footer-menu">
+                        <li class="icon-site"><a href="/contact/">Contact us</a></li>
+                        <li class="icon-site"><a href="/hc/">Help center</a></li>
+                        <li class="icon-site"><a href="/about/">About Styx</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-mobile" role="navigation" aria-hidden="true" data-mobile="true">
+        <div class="section-container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 footer-mobile__column">
+                    <h2>Repository</h2>
+                    <ul class="footer-mobile__menu">
+                        <li><a class="icon icon--small" href="https://github.com/ophian/styx/releases" target="_blank" rel="noopener"><svg class="icon__body"><use xlink:href="#github"></use></svg> Serendipity Styx Downloads</a></li>
+                        <li><a class="icon icon--small" href="https://github.com/ophian/styx" target="_blank" rel="noopener"><svg class="icon__body"><use xlink:href="#github"></use></svg> Serendipity Styx Code</a></li>
+                        <li><a class="icon icon--small" href="https://github.com/ophian/additional_plugins" target="_blank" rel="noopener"><svg class="icon__body"><use xlink:href="#github"></use></svg> Serendipity Styx Plugins</a></li>
+                        <li><a class="icon icon--small" href="https://github.com/ophian/styx/issues" target="_blank" rel="noopener"><svg class="icon__body"><use xlink:href="#github"></use></svg> Serendipity Styx Issues</a></li>
+                        <li><a class="icon icon--small" href="https://github.com/ophian/styx/discussions" target="_blank" rel="noopener"><svg class="icon__body"><use xlink:href="#github"></use></svg> Serendipity Styx Discussions</a></li>
+                    </ul>
+                </div>
+                <div class="col-xs-12 col-sm-6 footer-mobile__column">
+                    <h2>Connect with Styx</h2>
+                    <ul class="footer-mobile__menu">
+                        <li class="icon-site"><a href="/contact/">Contact us</a></li>
+                        <li class="icon-site"><a href="/about/">About Styx</a></li>
+                        <li class="icon-site"><a href="/hc/">Help center</a></li>
+                        <li class="icon-site"><a href="/">Serendipity Styx Home</a></li>
+                        <li class="icon-site"><a href="/blog/">Serendipity Styx Blog</a></li>
+                        <li class="icon-site"><a href="/book/">Serendipity Styx Book [de]</a></li>
+                        <li class="icon-site"><a href="/plugins/">Serendipity Styx Plugins</a></li>
+                        <li class="icon-site"><a href="/themes/">Serendipity Styx Themes</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section-container footer-policy">
+        <div class="row">
+            <div class="col-xs-12 col-md-6">
+                <p class="footer-policy__rights">© 2016 - 2024 Serendipity Styx Edition.</p>
+            </div>
+            <div class="col-xs-12 col-md-6">
+                <ul class="footer-policy__menu">
+                    <li class="footer-policy__menu-item"><a href="/legal/">Legal</a></li>
+                    <li class="footer-policy__menu-item"><a href="/legal/privacy/">Privacy policy</a></li>
+                    <li class="footer-policy__menu-item"><a href="https://opensource.org/docs/definition.php" target="_blank" rel="noopener">Open Source</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+	<svg id="github" viewBox="0 0 24 24">
+		<title id="simpleicons-github-icon">GitHub</title><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"></path>
+	</svg>
+</svg>
+
+<script src="/js/jquery-3.7.0.min.js"></script>
+<script src="/js/jquery.ui.totop.js" type="text/javascript"></script>
+<script>
+    $(function(){
+        $(document).ready(function() {
+            $().UItoTop();
+        });
+    });
+</script>
+<a href="#" id="toTop" style="display: inline;"><span id="toTopHover"></span>To Top</a>
+<script src="/js/styx.min.js"></script>
+</body></html>
