@@ -2173,7 +2173,7 @@ Seite <span class="pageref"><a href="#backups">backups</a></span>).</span>
     <span class="box">
         Achten Sie auch darauf, dass Sie die Standard-Templates von Serendipity einer
         neuen Version vollständig hochladen. Auch wenn Sie ein eigenes Template
-        benutzen, heißt das nicht, dass Serendipity auf die Dateien im Verzeichnis
+        benutzen, heißt das nicht, dass Serendipity beispielsweise auf die Dateien im Verzeichnis
         <code>/templates/default</code> verzichten kann.
     </span>
 
@@ -2206,7 +2206,7 @@ Seite <span class="pageref"><a href="#backups">backups</a></span>).</span>
         Wenn auf der Folgeseite Fehlermeldungen aufgeführt werden, liegt dies
         üblicherweise daran, dass Ihr Datenbank-Account nicht über die notwendigen
         Rechte verfügt. Sprechen Sie in diesem Fall mit Ihrem Provider oder wenden Sie sich
-        an das Serendipity-Forum.
+        an das Serendipity-Forum, bzw. an das Diskussions Forum von Serendipity Styx <code>https://github.com/ophian/styx/discussions</code>.
     </span>
 
     <span class="box">
@@ -2233,7 +2233,7 @@ Seite <span class="pageref"><a href="#backups">backups</a></span>).</span>
         Serendipity diese problemlos neu erstellen kann. In einigen Fällen ist
         andernfalls der Login ins Backend nicht möglich, da Cookies älterer
         Serendipity-Versionen (besonders beim Umstieg von Version 1.1 auf Version 1.2)
-        sich in ihrem Format geändert haben.
+        sich in ihrem Format geändert haben. Heutzutage ist dies allerdings kaum noch nötig.
     </span>
 
     <span class="box">
