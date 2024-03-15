@@ -1,14 +1,14 @@
 ---
 layout: post
 title: Serendipity Styx 4.4.2 release
-last_modified_at: 2024-03-15T19:15:00+00:00
+last_modified_at: 2024-03-15T19:19:00+00:00
 ---
 
 N° 2024/03 - The Serendipity Styx 4.4.2 release <img class="php8" src="/i/b/logo_php8_3.svg" alt="php8.3" width="160" height="48">
 
 ### 4.4.2 - A Point Update Edition
 
-Another bugfix release, caused by several issues and PHP 8 versions.
+Another bugfix release, caused by several issues and with PHP 8 versions.
 
 ## Styx 4.4.2 fixes
 
