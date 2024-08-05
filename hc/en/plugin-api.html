@@ -652,7 +652,7 @@ class serendipity_event_backpage extends serendipity_event
     {
         global $serendipity;
         // Get existing data
-        $property = serendipity_fetchEntryProperties($eventData['id']);
+        $property = serendipity_fetchEntryProperties((int) $eventData['id']);
         $supported_properties = array('attach_block');
 
         foreach($supported_properties AS $prop_key) {
