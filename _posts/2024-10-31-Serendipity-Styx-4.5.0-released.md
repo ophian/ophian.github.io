@@ -1,18 +1,18 @@
 ---
 layout: post
 title: Serendipity Styx 4.5.0 release
-last_modified_at: 2024-10-31T13:45:00+00:00
+last_modified_at: 2024-11-21T12:19:00+00:00
 ---
 
-N° 2024/04 - The Serendipity Styx 4.5.0 release <img class="php8" src="/i/b/logo_php8_3.svg" alt="php8.3" width="160" height="48">
+N° 2024/04 - The Serendipity Styx 4.5.0 release <img class="php8" src="/i/b/logo_php8_4.svg" alt="php8.4" width="160" height="48">
 
 ### 4.5.0 - Pre Winter Edition and maintenance release
 
 Since Styx 4.4.2 release the development of Styx 5 started and on its way some relevant issues and improvements were found to now file a new Styx 4 revision.
 
-In some weeks we will also see the release of the new PHP 8.4 version. Styx 4.5 is ready for it and you better update your system to current Styx 4.5 before getting on this train. The new PHP 8.4 ready logo will find its way to this blog post when it is officially announced at php.net. Please update to the latest available PHP version for your system, to be able to work with all features Serendipity Styx supports.
+In some weeks we will also see the release of the new PHP 8.4 version. Styx 4.5 is ready for it and you better update your system to current Styx 4.5 before getting on this train. Please update to the latest available PHP version for your system, to be able to work with all features Serendipity Styx supports.
 
-It is supposed to be the latest **must have** revision to positively checkout into the future of Serendipity Styx ! Read the changelog, please.
+It is supposed to be the latest **must have** revision to positively checkout into the future of Serendipity Styx ! Read the ChangeLog, please.
 
 ## Styx 4.5.0 worked on
 
@@ -30,7 +30,7 @@ It is supposed to be the latest **must have** revision to positively checkout in
   - Multi-fixes for type cared precision
   - Improved some description and explanation constants in language files
   - Backported some Smarty security changes from upcoming Styx 5
-  - Allow RichText Editor comments only as an extension of general usage
+  - [Authenticated Users] Allow RichText Editor comments only as an extension of general usage
   - Improved searchTerm filter preparations and the Serendipity sendMail standard compliance
   - Fixed some media IPTC meta field data values and better catch networking connect return errors
   - Improved installer messaging when using the tar installer file for owner:group mismatch
