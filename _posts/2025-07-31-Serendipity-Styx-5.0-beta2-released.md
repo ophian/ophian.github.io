@@ -1,12 +1,14 @@
 ---
 layout: post
 title: Serendipity Styx 5.0-beta2 release
-last_modified_at: 2025-07-31T16:55:00+00:00
+last_modified_at: 2025-08-01T14:28:00+00:00
 ---
 
 N° 2025/02 - The new Serendipity Styx 5.0-beta2 of new major release <img class="php8" src="/i/b/logo_php8_4.svg" alt="php8.4" width="160" height="48">
 
-Requirements: At least PHP 8.2 !! Better PHP 8.4 !!
+Requirements: At least PHP 8.2 !!
+
+Better PHP 8.4 !! And it looks like we are already prepared for upcoming PHP 8.5 😀 !!
 
 ### 5.0-beta2 - A Beta-Test release of new Serendipity Styx 5.0
 
