@@ -1171,9 +1171,9 @@ oder der Kontext eindeutig ist.</p>
 
 <p class="desc">
 <span class="tag-box invisible">
-    <span class="inline-tag">Plugins!Spamschutz!Generelle-Einstellungen!Keine doppelten Kommentare erlauben</span>
+    <span class="inline-tag">Plugins!Spamschutz!Generelle-Einstellungen!Doppelte Kommentare nicht zulassen<</span>
 </span><!-- tagbox -->
-<span class="item mbold">Keine doppelten Kommentare erlauben</span><!-- menuitem -->
+<span class="item mbold">Doppelte Kommentare nicht zulassen<</span><!-- menuitem -->
 <span class="desc-info">
     <span class="box">
         Üblicherweise sollte es in einem Blog nie dazu kommen, dass identische
@@ -7913,6 +7913,9 @@ die für valide Kommentare gebräuchlich sind.</p>
 <span class="desc-info">
     <span class="box">
         Die Protokollierung von fehlgeschlagenen Kommentaren und deren Gründen kann auf mehrere Arten durchgeführt werden.
+        Protokollierungen sollten von Zeit zu Zeit "händisch" gepflegt werden um Überlastungen des Systems aufgrund
+        zunehmender Größe zu vermeiden bzw um fehlgeleitete Abweisungen herauszufinden. Die Datenbank-Protokollierung
+        kann per Wartungsaufgabe in der Wartung bereinigt werden.
     </span>
 
     <span class="box">
