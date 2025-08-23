@@ -961,26 +961,6 @@ die Sie bei der Entwicklung von Plugins und Ähnlichem häufig einsetzen werden.
 </span>
 </p>
 
-<p class="desc">
-<code class="item function">serendipity_specialchars()</code>, 
-(<code class="item file">include/compat.inc.php</code>)
-<span class="desc-info">
-    <span class="box">
-        Seit PHP 5.4 reagiert die wichtige <code>PHP</code>-Funktion <code>htmlspecialchars()</code>
-        auf das <em>default-encoding</em> und kann unter Umständen einen leeren String zurückgeben,
-        wenn ein nativ-kodierter String <code>Umlaute</code> enthält. Verwenden Sie deshalb sicherheitshalber
-        immer diese zentrale Serendipity Funktion:
-        <span id="pre-style"><code class="php">
-            serendipity_specialchars($string);
-        </code></span>
-        bzw. in Plugins/Themes die möglicherweise auf ältere Serendipity Versionen stoßen dürfen, diesen <em>Ternary</em>-Operator:
-        <span id="pre-style"><code class="php">
-            (function_exists('serendipity_specialchars') ? serendipity_specialchars($string) : htmlspecialchars($string, ENT_COMPAT, LANG_CHARSET))
-        </code></span>
-    </span>
-</span><br>
-</p>
-
 </section><!-- section.sub end -->
 
 <section id="U1052" class="sub">
@@ -2232,7 +2212,7 @@ die Sie bei der Entwicklung von Plugins und Ähnlichem häufig einsetzen werden.
 </p>
 
 <p class="desc">
-<code class="item function">serendipity_killPath()</code>, 
+<code class="item function">serendipity_nukePath()</code>, 
 <code class="item function">serendipity_deletePath()</code>, 
 (<code class="item file">include/functions_images.inc.php</code>)
 <span class="desc-info">
@@ -5774,7 +5754,7 @@ auch selbstgeschriebene Plugins zugreifen können:</p>
     <span class="box group-box">
         wird bei der Darstellung eines Blog-Artikels in einem Feed ausgeführt.
         <span class="subdesc">
-            <code>eventData</code>: Array mit (String) Lizenz Quellen. ???
+            <code>eventData</code>: Array mit (String) CC Lizenz Quellen.
         </span>
     </span>
 </span>
