@@ -5786,10 +5786,12 @@ daran, dass der gültige <em>Token</em> fehlt.</p>
 
 <pre><code class="msg">
     Ihr Browser hat keinen gültigen HTTP-Referrer übermittelt. Dies kann
-    entweder daher kommen, dass Ihr Browser/Proxy nicht korrekt konfiguriert
-    ist, oder dass Sie Opfer einer <em>Cross Site Request Forgery</em> (XSRF)
-    waren, mit der man Sie zu ungewollten Änderungen zwingen wollte. Die
-    angeforderte Aktion konnte daher nicht durchgeführt werden.
+    für den Referrer entweder daher kommen, dass Ihr Browser/Proxy
+    nicht korrekt konfiguriert ist, oder dass Sie Opfer einer
+    "Cross Site Request Forgery (XSRF)" waren, mit der man Sie zu ungewollten
+    Änderungen zwingen wollte. Ansonsten kann dies auch nur darauf hindeuten,
+    dass ihr Tab zu lange offen war und ihr augenblickliches Bearbeitungstoken
+    abgelaufen ist. Die angeforderte Aktion konnte daher nicht durchgeführt werden.
 </code></pre>
 
 <p>Wenn Sie diese Meldung erhalten, obwohl Sie eine Aktion veranlasst haben,
@@ -9246,7 +9248,7 @@ auf. Jede Kommentarbox enthält folgende Angaben:</p>
 
         <span class="box">
             Da dies unverifizierte Eingaben aus dem Internet sind, werden all diese Angaben
-            zu ihrer eigenen Sicherheit mittels <code>serendipity_specialchars()</code>
+            zu ihrer eigenen Sicherheit mittels <code>htmlspecialchars()</code>
             "unbrauchbar" gemacht, so dass kein ausführbarer Code weitergegeben, dargestellt,
             oder ausgeführt wird. Solche Einträge werden als reiner Textstring angezeigt.
             Aktive HTML-Kommentaren werden mittels eines roten <code>…&lt;/&gt;</code>
@@ -11427,11 +11429,12 @@ angezeigt. Auch hier können Sie Sonderzeichen einfügen, aber keinen HTML-Code.
 <span class="desc-info">
     <span class="box">
         Mit dieser Einstellung erlauben Sie den Rich-Text-Editor für Kommentarfelder,
-        sowohl im Frontend als auch im Backend.
+        sowohl im Frontend als auch im Backend. Im Backend allerdings nur zusätzlich
+        zur allgemeinen Nutzung des RichText Editors in den Persönlichen Präferenzen.
     </span>
 
     <span class="box">
-        Es wirde das Möglichste getan um dieses Feature so sicher wie möglich zu machen.
+        Es wurde das Möglichste getan um dieses Feature so sicher wie möglich zu machen.
         Wenn die Rich-Text-Editor (WYSIWYG)-Option in den "Eigenen Einstellungen" erlaubt
         ist, können Sie hier also zusätzlich "tag"-beschränkte HTML-Kommentare und "pre/code"
         HTML-Auszeichnungs-Bestandteile zulassen, die in Backend- und Frontend-Seiten als
@@ -11633,14 +11636,24 @@ und alte Logdateien in der Wartung gelöscht werden können, da sie eventuell re
 </p>
 
 <p class="desc">
+<span class="label invisible" id="artikel-caching">Artikel caching</span>
 <span class="tag-box invisible">
-    <span class="inline-tag">Konfiguration!Caching!Erlaube caching (EXPERIMENTAL)</span>
+    <span class="inline-tag">Konfiguration!Caching!Erlaube caching</span>
 </span><!-- tagbox -->
-<span class="item mbold">Erlaube caching (EXPERIMENTAL)</span><!-- menuitem -->
+<span class="item mbold">Erlaube caching</span><!-- menuitem -->
 <span class="desc-info">Wenn diese Option aktiviert ist, erlaubt Serendipity
-einen internen Puffer (cache) einzuschalten, um spezifische SQL queries zwischenzuspeichern.
+einen internen Puffer (cache) einzuschalten, um Blog-Einträge bzw einzelne Blöcke im Frontend zwischenzuspeichern,
+solange sich an den dargestellten Inhalten nichts ändert.
 Dadurch verringert sich die Last auf Servern mit mittlerem bis hohem Verkehr und verbessert die Ladezeit.
-Diese Option ist immer noch experimentell und bisher nur ungenügend validiert und getestet.</span>
+Sie können mittels aktivierten <a href="https://www.php.net/manual/en/intro.apcu.php" target="_blank" rel="noopener">APCu</a> diesen Cache komplett
+im RAM des Servers halten oder mit PHPs bundled <a href="https://www.php.net/manual/en/book.opcache.php" target="_blank" rel="noopener">OpCache</a>
+dies im Serendipity Filesystem unter <code>templates_c/simple_cache/</code> geschehen lassen. Die Standardzeit
+bis zur Erneuerung beträgt eine Stunde. Unabhängig von dieser Option nutzen einzelne Plugins diesen Cache bereits für ihre Seitenleisten (Block-)
+Caches, wobei der Zeitraum der Vorhaltung variieren kann (zB. 1 Tag).</span>
+
+<span class="desc-info">Im Unterschied zum "Entryproperties" Cache haben wir es also hier mit einem Ausgabe Cache zu tun,
+während jener nur die Markup Umwandlung in HTML zwischenspeichert, was nur mit aktivierten Markup-Plugins oder auf einem
+älteren System mit gewechselten Eingabestandards Sinn ergibt.</span>
 </p>
 
 </article>
@@ -16355,8 +16368,7 @@ entweder die neuesten oder die populärsten Links am Anfang.</span>
 </p>
 
 <p>Das Plugin <span class="mbold">Event-Ausgabe Wrapper</span> ist ein recht spezielles Plugin,
-da es die Grenze zwischen Seitenleisten-Plugin und Ereignis-Plugin etwas
-aufweicht.</p>
+da es die Grenze zwischen Seitenleisten-Plugin und Ereignis-Plugin etwas aufweicht.</p>
 
 <p>Eigentlich ist es ausschließlich Seitenleisten-Plugins möglich, eine
 Ausgabe in der Seitenleiste vorzunehmen. Ereignis-Plugins können nur auf
@@ -19273,9 +19285,9 @@ oder der Kontext eindeutig ist.</p>
 
 <p class="desc">
 <span class="tag-box invisible">
-    <span class="inline-tag">Plugins!Spamschutz!Generelle-Einstellungen!Keine doppelten Kommentare erlauben</span>
+    <span class="inline-tag">Plugins!Spamschutz!Generelle-Einstellungen!Doppelte Kommentare nicht zulassen<</span>
 </span><!-- tagbox -->
-<span class="item mbold">Keine doppelten Kommentare erlauben</span><!-- menuitem -->
+<span class="item mbold">Doppelte Kommentare nicht zulassen<</span><!-- menuitem -->
 <span class="desc-info">
     <span class="box">
         Üblicherweise sollte es in einem Blog nie dazu kommen, dass identische
@@ -26013,6 +26025,9 @@ die für valide Kommentare gebräuchlich sind.</p>
 <span class="desc-info">
     <span class="box">
         Die Protokollierung von fehlgeschlagenen Kommentaren und deren Gründen kann auf mehrere Arten durchgeführt werden.
+        Protokollierungen sollten von Zeit zu Zeit "händisch" gepflegt werden um Überlastungen des Systems aufgrund
+        zunehmender Größe zu vermeiden bzw um fehlgeleitete Abweisungen herauszufinden. Die Datenbank-Protokollierung
+        kann per Wartungsaufgabe in der Wartung bereinigt werden.
     </span>
 
     <span class="box">
@@ -30519,9 +30534,9 @@ aufrufen.</span>
     <span class="box">
         Das Layout des Login-Fensters können Sie über die Smarty-Template-Datei
         <span class="tag-box invisible">
-            <span class="inline-tag">Template-Dateien!loginbox.tpl</span>
+            <span class="inline-tag">Template-Dateien!plugin_loginbox.tpl</span>
         </span>
-        <code>plugins/serendipity_plugin_adduser/loginbox.tpl</code>
+        <code>plugins/serendipity_plugin_adduser/plugin_loginbox.tpl</code>
         anpassen. Die verfügbaren Template-Variablen in dieser Datei sind:
     </span>
 </span>
@@ -36482,6 +36497,11 @@ Ausführungsgeschwindigkeit zu beschleunigen:</p>
     </span>
 
     <span class="box">
+        Seit PHP 7+ ist die Ausführungsgeschwindigkeit meist keine Frage mehr und muss
+        nur in Ausnahmefällen weiter unterstützt werden.
+    </span>
+
+    <span class="box">
         Wenn Sie jedoch Zugriff auf den Server haben, können Sie einige Dinge
         durchführen, die die Geschwindigkeit aller PHP-Anwendungen optimieren:
     </span>
@@ -36490,9 +36510,7 @@ Ausführungsgeschwindigkeit zu beschleunigen:</p>
         <span class="inline-tag">Cache</span>
     </span>
     <span class="list">
-        <span class="li-item">Op-Code-Cache (APC, Zend, ionCube) installieren.</span>
-        <span class="li-item"><code>register_globals</code> in der <code>php.ini</code> deaktivieren.</span>
-        <span class="li-item"><code>magic_quotes_gpc</code> in der <code>php.ini</code> deaktivieren.</span>
+        <span class="li-item">Op-Code-Cache (APCu, Zend, ionCube) installieren/aktivieren.</span>
         <span class="li-item">PHP als FastCGI kompilieren und einsetzen, oder möglicherweise die schlanken
         NGINX oder Lighttpd als Webserver einsetzen.</span>
         <span class="li-item">In gute Server-Hardware investieren, vor allem schnelle Festplatten und
@@ -36631,8 +36649,10 @@ Ausführungsgeschwindigkeit zu beschleunigen:</p>
     <span class="box">
         Auch die Ereignis-Plugins können starken Einfluss auf die
         Verarbeitungsgeschwindigkeit von Einträgen haben. Versuchen Sie überflüssige
-        Textformatierungs-Plugins zu vermeiden. Das Plugin <span class="mbold">Erweiterte Eigenschaften
-        von Artikeln</span> verfügt zudem über eine Möglichkeit, Artikelinhalte zu cachen
+        Textformatierungs-Plugins zu vermeiden. Abseits des Versuchs Einträge zu cachen
+        (siehe Seite <span class="pageref"><a href="#artikel-caching">Artikel caching</a></span>)
+        bietet das Plugin <span class="mbold">Erweiterte Eigenschaften von Artikeln</span> eine
+        andere Möglichkeit, Artikelinhalte nach beendeten Textformatierungen (Markup) zu cachen
         (siehe Seite <span class="pageref"><a href="#entryproperties">entryproperties</a></span>).
     </span>
 </span>
@@ -49214,26 +49234,6 @@ die Sie bei der Entwicklung von Plugins und Ähnlichem häufig einsetzen werden.
 </span>
 </p>
 
-<p class="desc">
-<code class="item function">serendipity_specialchars()</code>,
-(<code class="item file">include/compat.inc.php</code>)
-<span class="desc-info">
-    <span class="box">
-        Seit PHP 5.4 reagiert die wichtige <code>PHP</code>-Funktion <code>htmlspecialchars()</code>
-        auf das <em>default-encoding</em> und kann unter Umständen einen leeren String zurückgeben,
-        wenn ein nativ-kodierter String <code>Umlaute</code> enthält. Verwenden Sie deshalb sicherheitshalber
-        immer diese zentrale Serendipity Funktion:
-        <span id="pre-style"><code class="php">
-            serendipity_specialchars($string);
-        </code></span>
-        bzw. in Plugins/Themes die möglicherweise auf ältere Serendipity Versionen stoßen dürfen, diesen <em>Ternary</em>-Operator:
-        <span id="pre-style"><code class="php">
-            (function_exists('serendipity_specialchars') ? serendipity_specialchars($string) : htmlspecialchars($string, ENT_COMPAT, LANG_CHARSET))
-        </code></span>
-    </span>
-</span><br>
-</p>
-
 </section><!-- section.sub end -->
 
 <section id="U1052" class="sub">
@@ -50485,7 +50485,7 @@ die Sie bei der Entwicklung von Plugins und Ähnlichem häufig einsetzen werden.
 </p>
 
 <p class="desc">
-<code class="item function">serendipity_killPath()</code>,
+<code class="item function">serendipity_nukePath()</code>,
 <code class="item function">serendipity_deletePath()</code>,
 (<code class="item file">include/functions_images.inc.php</code>)
 <span class="desc-info">
@@ -54027,7 +54027,7 @@ auch selbstgeschriebene Plugins zugreifen können:</p>
     <span class="box group-box">
         wird bei der Darstellung eines Blog-Artikels in einem Feed ausgeführt.
         <span class="subdesc">
-            <code>eventData</code>: Array mit (String) Lizenz Quellen. ???
+            <code>eventData</code>: Array mit (String) CC Lizenz Quellen.
         </span>
     </span>
 </span>
@@ -57463,7 +57463,7 @@ möglichst für einen konfigurierbaren Zeitraum gecached werden. Behalten Sie st
 Netzwerkprobleme im Hinterkopf, die nicht dazu führen sollten, dass ein Plugin
 inoperabel wird.</p>
 
-<p>Setzen Sie referenzierte Variablen ein, wo möglich und mit PHP5.3+ heute noch notwendig..</p>
+<p>Setzen Sie referenzierte Variablen ein, wo notwendig.</p>
 
 <p>Wenn Sie ein bestehendes Plugin überarbeiten, fügen Sie bitte in dessen Datei
 <code>ChangeLog</code> eine Information über die vorgenommene
@@ -57472,7 +57472,7 @@ HTML-Syntax) in einer Datei namens <code>documentation_XX.html</code>, wobei das
 <code>XX</code> mit dem jeweiligen Sprachkürzel wie <code>de</code> zu ersetzen ist.</p>
 
 <p>Falls Ihr Plugin HTML-Code für Buttons und Links im Backend ausgibt, benutzen
-Sie bitte die <code>serendipityPrettyButton</code>-CSS-Klasse. Bei Eingabeboxen nutzen
+Sie bitte die <code>input_button</code>- und nicht mehr die veraltete <code>serendipityPrettyButton</code>-CSS-Klasse. Bei Eingabeboxen nutzen
 Sie Klassen wie <code>input_radio, input_checkbox</code> oder <code>input_button</code>.</p>
 
 <p>Falls Ihr Plugin eigene Menüpunkte im Backend ausgibt, geben Sie dies im
@@ -57518,8 +57518,7 @@ benötigt, sollte diese vom Plugin automatisch mithilfe der Funktion
 oder XSS-Injections zulassen oder gar beliebigen PHP-Code von fremden Servern
 ausführen. Achten Sie darauf, Werte aus GET/POST-Variablen vor dem
 Einfügen in die Datenbank mit <code>serendipity_db_escape_string()</code> zu
-behandeln und bei der Ausgabe mit <code>htmlspecialchars()</code> bzw. besser
-<code>serendipity_specialchars()</code> zu umgeben.</p>
+behandeln und bei der Ausgabe mit <code>htmlspecialchars()</code> zu behandeln.</p>
 
 <p>Wenn ein Plugin administrative Aktionen im Backend ausführt, sollten die
 HTML-Formulare zum Ausführen der Funktion mittels <code>serendipityFormToken()</code>
@@ -57645,7 +57644,7 @@ ist: Fragen Sie ruhig. Niemand beißt die Hand, die uns füttern soll!</p>
     <div class="section-container footer-policy">
         <div class="row">
             <div class="col-xs-12 col-md-6">
-                <p class="footer-policy__rights">© 2016 - 2024 Serendipity Styx Edition.</p>
+                <p class="footer-policy__rights">© 2016 - 2025 Serendipity Styx Edition.</p>
             </div>
             <div class="col-xs-12 col-md-6">
                 <ul class="footer-policy__menu">
