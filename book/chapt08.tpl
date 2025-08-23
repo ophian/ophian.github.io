@@ -2462,6 +2462,11 @@ Ausführungsgeschwindigkeit zu beschleunigen:</p>
     </span>
 
     <span class="box">
+        Seit PHP 7+ ist die Ausführungsgeschwindigkeit meist keine Frage mehr und muss
+        nur in Ausnahmefällen weiter unterstützt werden.
+    </span>
+
+    <span class="box">
         Wenn Sie jedoch Zugriff auf den Server haben, können Sie einige Dinge
         durchführen, die die Geschwindigkeit aller PHP-Anwendungen optimieren:
     </span>
@@ -2470,9 +2475,7 @@ Ausführungsgeschwindigkeit zu beschleunigen:</p>
         <span class="inline-tag">Cache</span>
     </span>
     <span class="list">
-        <span class="li-item">Op-Code-Cache (APC, Zend, ionCube) installieren.</span>
-        <span class="li-item"><code>register_globals</code> in der <code>php.ini</code> deaktivieren.</span>
-        <span class="li-item"><code>magic_quotes_gpc</code> in der <code>php.ini</code> deaktivieren.</span>
+        <span class="li-item">Op-Code-Cache (APCu, Zend, ionCube) installieren/aktivieren.</span>
         <span class="li-item">PHP als FastCGI kompilieren und einsetzen, oder möglicherweise die schlanken
         NGINX oder Lighttpd als Webserver einsetzen.</span>
         <span class="li-item">In gute Server-Hardware investieren, vor allem schnelle Festplatten und
@@ -2611,8 +2614,10 @@ Ausführungsgeschwindigkeit zu beschleunigen:</p>
     <span class="box">
         Auch die Ereignis-Plugins können starken Einfluss auf die
         Verarbeitungsgeschwindigkeit von Einträgen haben. Versuchen Sie überflüssige
-        Textformatierungs-Plugins zu vermeiden. Das Plugin <span class="mbold">Erweiterte Eigenschaften
-        von Artikeln</span> verfügt zudem über eine Möglichkeit, Artikelinhalte zu cachen
+        Textformatierungs-Plugins zu vermeiden. Abseits des Versuchs Einträge zu cachen
+        (siehe Seite <span class="pageref"><a href="#artikel-caching">Artikel caching</a></span>)
+        bietet das Plugin <span class="mbold">Erweiterte Eigenschaften von Artikeln</span> eine
+        andere Möglichkeit, Artikelinhalte nach beendeten Textformatierungen (Markup) zu cachen
         (siehe Seite <span class="pageref"><a href="#entryproperties">entryproperties</a></span>).
     </span>
 </span>
