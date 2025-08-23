@@ -196,7 +196,7 @@ print_r($entries);
   <li><code>$serendipity['dashboardEntriesLimit']</code>: How many future entries and drafts to show in the dashboard overview (default 5)</li>
   <li><code>$serendipity['languages']</code>: Holds an array of available languages</li>
   <li><code>$serendipity['calendars']</code>: Holds an array of available calendar types (gregorian and persian by default)</li>
-  <li><code>$serendipity['charsets']</code>: Holds an array of supported charsets (native and UTF-8 by default)</li>
+  <li><code>$serendipity['charsets']</code>: Holds an array of supported charsets (UTF-8 by default)</li>
   <li><code>$serendipity['use_autosave']</code>: Whether to use local-browser autosaving feature (default true)</li>
   <li><code>$serendipity['imagemagick_nobang']</code>: When enabled, ImageMagick image resizing operates with comma values, which can change the given image w/h setting by 1px by rounding differences (default false)</li>
   <li><code>$serendipity['imagemagick_thumb_parameters']</code>: Optional parameters passed to ImageMagick when creating thumbnails (default empty)</li>
@@ -713,7 +713,7 @@ function serendipity_function($var1, $var2, $var3) {
   <li>Add phpDoc style inline code documentation for function parameters etc.</li>
   <li>Prefix framework function names with serendipity_ and after that, use camelCase naming</li>
   <li>Try to use camelCase naming for new variables (currently, there is a mixture of function/variable names with underscore characters and camelCasing)</li>
-  <li>Always escape HTML output of unsafe user input with serendipity_specialchars()</li>
+  <li>Always escape HTML output of unsafe user input with htmlspecialchars()</li>
   <li>If your code/plugin uses administrative tasks in the Backend, make sure you use the serendipityFormToken() functions to protect against XSRF.</li>
   <li>Always escape database input of unsafe user input with either implicit typecasting (int)$_REQUEST['var'] or serendipity_db_escape_string()</li>
   <li>Write database-agnostic standard SQL wherever possible; If you require database-specific SQL, add codeforks with a switch($serendipity['dbType']) statement.</li>
