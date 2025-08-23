@@ -350,7 +350,7 @@ möglichst für einen konfigurierbaren Zeitraum gecached werden. Behalten Sie st
 Netzwerkprobleme im Hinterkopf, die nicht dazu führen sollten, dass ein Plugin
 inoperabel wird.</p>
 
-<p>Setzen Sie referenzierte Variablen ein, wo möglich und mit PHP5.3+ heute noch notwendig..</p>
+<p>Setzen Sie referenzierte Variablen ein, wo notwendig.</p>
 
 <p>Wenn Sie ein bestehendes Plugin überarbeiten, fügen Sie bitte in dessen Datei
 <code>ChangeLog</code> eine Information über die vorgenommene
@@ -359,7 +359,7 @@ HTML-Syntax) in einer Datei namens <code>documentation_XX.html</code>, wobei das
 <code>XX</code> mit dem jeweiligen Sprachkürzel wie <code>de</code> zu ersetzen ist.</p>
 
 <p>Falls Ihr Plugin HTML-Code für Buttons und Links im Backend ausgibt, benutzen
-Sie bitte die <code>serendipityPrettyButton</code>-CSS-Klasse. Bei Eingabeboxen nutzen
+Sie bitte die <code>input_button</code>- und nicht mehr die veraltete <code>serendipityPrettyButton</code>-CSS-Klasse. Bei Eingabeboxen nutzen
 Sie Klassen wie <code>input_radio, input_checkbox</code> oder <code>input_button</code>.</p>
 
 <p>Falls Ihr Plugin eigene Menüpunkte im Backend ausgibt, geben Sie dies im
@@ -405,8 +405,7 @@ benötigt, sollte diese vom Plugin automatisch mithilfe der Funktion
 oder XSS-Injections zulassen oder gar beliebigen PHP-Code von fremden Servern
 ausführen. Achten Sie darauf, Werte aus GET/POST-Variablen vor dem
 Einfügen in die Datenbank mit <code>serendipity_db_escape_string()</code> zu
-behandeln und bei der Ausgabe mit <code>htmlspecialchars()</code> bzw. besser
-<code>serendipity_specialchars()</code> zu umgeben.</p>
+behandeln und bei der Ausgabe mit <code>htmlspecialchars()</code> zu behandeln.</p>
 
 <p>Wenn ein Plugin administrative Aktionen im Backend ausführt, sollten die
 HTML-Formulare zum Ausführen der Funktion mittels <code>serendipityFormToken()</code>
