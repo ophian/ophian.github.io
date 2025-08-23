@@ -342,9 +342,9 @@ aufrufen.</span>
     <span class="box">
         Das Layout des Login-Fensters können Sie über die Smarty-Template-Datei
         <span class="tag-box invisible">
-            <span class="inline-tag">Template-Dateien!loginbox.tpl</span>
+            <span class="inline-tag">Template-Dateien!plugin_loginbox.tpl</span>
         </span>
-        <code>plugins/serendipity_plugin_adduser/loginbox.tpl</code>
+        <code>plugins/serendipity_plugin_adduser/plugin_loginbox.tpl</code>
         anpassen. Die verfügbaren Template-Variablen in dieser Datei sind:
     </span>
 </span>
