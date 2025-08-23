@@ -206,10 +206,12 @@ daran, dass der gültige <em>Token</em> fehlt.</p>
 
 <pre><code class="msg">
     Ihr Browser hat keinen gültigen HTTP-Referrer übermittelt. Dies kann
-    entweder daher kommen, dass Ihr Browser/Proxy nicht korrekt konfiguriert
-    ist, oder dass Sie Opfer einer <em>Cross Site Request Forgery</em> (XSRF)
-    waren, mit der man Sie zu ungewollten Änderungen zwingen wollte. Die
-    angeforderte Aktion konnte daher nicht durchgeführt werden.
+    für den Referrer entweder daher kommen, dass Ihr Browser/Proxy
+    nicht korrekt konfiguriert ist, oder dass Sie Opfer einer
+    "Cross Site Request Forgery (XSRF)" waren, mit der man Sie zu ungewollten
+    Änderungen zwingen wollte. Ansonsten kann dies auch nur darauf hindeuten,
+    dass ihr Tab zu lange offen war und ihr augenblickliches Bearbeitungstoken
+    abgelaufen ist. Die angeforderte Aktion konnte daher nicht durchgeführt werden.
 </code></pre>
 
 <p>Wenn Sie diese Meldung erhalten, obwohl Sie eine Aktion veranlasst haben,
@@ -3667,7 +3669,7 @@ auf. Jede Kommentarbox enthält folgende Angaben:</p>
 
         <span class="box">
             Da dies unverifizierte Eingaben aus dem Internet sind, werden all diese Angaben
-            zu ihrer eigenen Sicherheit mittels <code>serendipity_specialchars()</code>
+            zu ihrer eigenen Sicherheit mittels <code>htmlspecialchars()</code>
             "unbrauchbar" gemacht, so dass kein ausführbarer Code weitergegeben, dargestellt,
             oder ausgeführt wird. Solche Einträge werden als reiner Textstring angezeigt.
             Aktive HTML-Kommentaren werden mittels eines roten <code>&hellip;&lt;/&gt;</code>
@@ -5844,11 +5846,12 @@ angezeigt. Auch hier können Sie Sonderzeichen einfügen, aber keinen HTML-Code.
 <span class="desc-info">
     <span class="box">
         Mit dieser Einstellung erlauben Sie den Rich-Text-Editor für Kommentarfelder,
-        sowohl im Frontend als auch im Backend.
+        sowohl im Frontend als auch im Backend. Im Backend allerdings nur zusätzlich
+        zur allgemeinen Nutzung des RichText Editors in den Persönlichen Präferenzen.
     </span>
 
     <span class="box">
-        Es wirde das Möglichste getan um dieses Feature so sicher wie möglich zu machen.
+        Es wurde das Möglichste getan um dieses Feature so sicher wie möglich zu machen.
         Wenn die Rich-Text-Editor (WYSIWYG)-Option in den "Eigenen Einstellungen" erlaubt
         ist, können Sie hier also zusätzlich "tag"-beschränkte HTML-Kommentare und "pre/code"
         HTML-Auszeichnungs-Bestandteile zulassen, die in Backend- und Frontend-Seiten als
@@ -6050,14 +6053,24 @@ und alte Logdateien in der Wartung gelöscht werden können, da sie eventuell re
 </p>
 
 <p class="desc">
+<span class="label invisible" id="artikel-caching">Artikel caching</span>
 <span class="tag-box invisible">
-    <span class="inline-tag">Konfiguration!Caching!Erlaube caching (EXPERIMENTAL)</span>
+    <span class="inline-tag">Konfiguration!Caching!Erlaube caching</span>
 </span><!-- tagbox -->
-<span class="item mbold">Erlaube caching (EXPERIMENTAL)</span><!-- menuitem -->
+<span class="item mbold">Erlaube caching</span><!-- menuitem -->
 <span class="desc-info">Wenn diese Option aktiviert ist, erlaubt Serendipity
-einen internen Puffer (cache) einzuschalten, um spezifische SQL queries zwischenzuspeichern.
+einen internen Puffer (cache) einzuschalten, um Blog-Einträge bzw einzelne Blöcke im Frontend zwischenzuspeichern,
+solange sich an den dargestellten Inhalten nichts ändert.
 Dadurch verringert sich die Last auf Servern mit mittlerem bis hohem Verkehr und verbessert die Ladezeit.
-Diese Option ist immer noch experimentell und bisher nur ungenügend validiert und getestet.</span>
+Sie können mittels aktivierten <a href="https://www.php.net/manual/en/intro.apcu.php" target="_blank" rel="noopener">APCu</a> diesen Cache komplett
+im RAM des Servers halten oder mit PHPs bundled <a href="https://www.php.net/manual/en/book.opcache.php" target="_blank" rel="noopener">OpCache</a>
+dies im Serendipity Filesystem unter <code>templates_c/simple_cache/</code> geschehen lassen. Die Standardzeit
+bis zur Erneuerung beträgt eine Stunde. Unabhängig von dieser Option nutzen einzelne Plugins diesen Cache bereits für ihre Seitenleisten (Block-)
+Caches, wobei der Zeitraum der Vorhaltung variieren kann (zB. 1 Tag).</span>
+
+<span class="desc-info">Im Unterschied zum "Entryproperties" Cache haben wir es also hier mit einem Ausgabe Cache zu tun,
+während jener nur die Markup Umwandlung in HTML zwischenspeichert, was nur mit aktivierten Markup-Plugins oder auf einem
+älteren System mit gewechselten Eingabestandards Sinn ergibt.</span>
 </p>
 
 </article>
