@@ -997,8 +997,7 @@ entweder die neuesten oder die populärsten Links am Anfang.</span>
 </p>
 
 <p>Das Plugin <span class="mbold">Event-Ausgabe Wrapper</span> ist ein recht spezielles Plugin,
-da es die Grenze zwischen Seitenleisten-Plugin und Ereignis-Plugin etwas
-aufweicht.</p>
+da es die Grenze zwischen Seitenleisten-Plugin und Ereignis-Plugin etwas aufweicht.</p>
 
 <p>Eigentlich ist es ausschließlich Seitenleisten-Plugins möglich, eine
 Ausgabe in der Seitenleiste vorzunehmen. Ereignis-Plugins können nur auf
