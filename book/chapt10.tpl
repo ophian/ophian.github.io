@@ -645,18 +645,6 @@ die Sie bei der Entwicklung von Plugins und Ähnlichem häufig einsetzen werden.
 </p>
 
 <p class="desc">
-<code class="item function">serendipity_mb()</code>, 
-(<code class="item file">include/lang.inc.php</code>)
-<span class="desc-info">
-    <span class="box">
-        Dient als Wrapper-Funktion, um Multi-Byte-Zeichensatzoperationen durchzuführen.
-        PHP bietet für derartige Multi-Byte-Sprachen (asiatische) spezielle Funktionen
-        an, was Serendipity für den Programmierer einfacher ansprechbar werden lässt.
-    </span>
-</span>
-</p>
-
-<p class="desc">
 <code class="item function">serendipity_serverOffsetHour()</code>, 
 (<code class="item file">include/functions.inc.php</code>)
 <span class="desc-info">
