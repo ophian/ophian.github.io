@@ -1,10 +1,10 @@
 ---
 layout: post
 title: Serendipity Styx 5.0-rc1 release
-last_modified_at: 2025-08-31T10:26:00+00:00
+last_modified_at: 2025-08-31T17:00:00+00:00
 ---
 
-N° 2025/02 - The new Serendipity Styx 5.0-rc1 of new major release <img class="php8" src="/i/b/logo_php8_4.svg" alt="php8.4" width="160" height="48">
+N° 2025/03 - The new Serendipity Styx 5.0-rc1 of new major release <img class="php8" src="/i/b/logo_php8_4.svg" alt="php8.4" width="160" height="48">
 
 Requirements: At least PHP 8.2 !!
 
