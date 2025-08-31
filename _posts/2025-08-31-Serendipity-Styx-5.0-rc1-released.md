@@ -18,9 +18,9 @@ THANK YOU for helping us to finish and finalize this new Serendipity Styx 5.0 ma
 
   - Finally all additional_plugins have raised up for Serendipity Styx 5.0. Styx 5.0 now checks all plugins root directory for UTF-8 encoded lang files only.
   - Fix some lasting comment handling type issues
-  - Fix libraries for type issues or PHP deprecations
+  - Fix libraries for type issues and PHP 8.4/8.5 deprecations
   - Fix some API parameter and return type issues for PDO::PostgreSQL.
-  - Update to jQuery v4.0.0-rc.1 which brings in a bunch of removed methods we need to check for - and which looks promising
+  - Update to jQuery v4.0.0-rc.1 which removed a bunch of methods we need to check for - and which looks promising
   - Finally removed the plug plugin old s9y image logo
   - Improved styles
   - and more ...
