@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Serendipity Styx 5.0-rc1 release
-last_modified_at: 2025-08-31T10:22:00+00:00
+last_modified_at: 2025-08-31T10:26:00+00:00
 ---
 
 N° 2025/02 - The new Serendipity Styx 5.0-rc1 of new major release <img class="php8" src="/i/b/logo_php8_4.svg" alt="php8.4" width="160" height="48">
@@ -16,7 +16,7 @@ THANK YOU for helping us to finish and finalize this new Serendipity Styx 5.0 ma
 
 ## Styx 5.0-rc1
 
-  - Finally all additional_plugins have raised up for Serendipity Styx 5.0. Styx 5.0 now checks the plugins roots directory for UTF-8 encoded lang files only.
+  - Finally all additional_plugins have raised up for Serendipity Styx 5.0. Styx 5.0 now checks all plugins root directory for UTF-8 encoded lang files only.
   - Fix some lasting comment handling type issues
   - Fix libraries for type issues or PHP deprecations
   - Fix some API parameter and return type issues for PDO::PostgreSQL.
