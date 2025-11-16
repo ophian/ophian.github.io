@@ -293,7 +293,7 @@ gewünscht, in ihren Kommentaren auf die Smiley-Grafiken zurückgreifen.</p>
 hässlich aussähen. Zum einen ist das natürlich Geschmackssache, aber zum
 Teil kann man das auch nicht ganz von der Hand weisen. Da Serendipity
 so freizügig wie möglich lizensiert wurde, können nur Smiley-Grafiken mit
-Serendipity ausgeliefert werden, die derselben Lizens unterliegen. Die
+Serendipity ausgeliefert werden, die derselben Lizenz unterliegen. Die
 meisten Smileys, die im Internet zu haben sind, sind jedoch entweder nur
 kommerziell oder inkompatibel lizensiert oder von den Seiten ohne
 Befugnis eingebaut. Da die Smiley-Grafiken auch mit einem
