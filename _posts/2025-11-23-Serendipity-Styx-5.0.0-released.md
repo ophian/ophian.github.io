@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Serendipity Styx 5.0.0 release
-last_modified_at: 2025-11-23T18:05:00+00:00
+title: Serendipity Styx 5.0.0 ++ release
+last_modified_at: 2025-11-23T18:09:00+00:00
 ---
 
 N° 2025/05 - The new Serendipity Styx 5.0.0 final revision of new major release <img class="php8" src="/i/b/logo_php8_5.svg" alt="php8.5" width="160" height="48">
@@ -10,7 +10,7 @@ Requirements: At least PHP 8.2 !!
 
 Better use a stable PHP 8.4 !!
 
-### 5.0.0 - The final release of new Serendipity Styx 5.0.0
+### 5.0.0 - The final release of new Serendipity Styx 5.0.0 ++
 
 THANK YOU for support and help ! Read the ChangeLog, please.
 
@@ -36,5 +36,5 @@ Thanks again; See you soon on next 😎 Serendipity Styx 5.x revisions !😃
 
 *One last word:* If there isn't a necessary .3 bugfix release required, the next version will be Styx 5.1.0, which will finally clean up old UTF-8 language file directories. Please update your local or development plugins and themes until then! This is announced in the upgrade tasks to 5.0.0.
 
-Check out the [ChangeLog](https://github.com/ophian/styx/blob/5.0.0/docs/NEWS) for details, or even read the commit [history](https://github.com/ophian/styx/commits/5.0.0) for more. See [download](https://github.com/ophian/styx/releases/tag/5.0.0).
+Check out the [ChangeLog](https://github.com/ophian/styx/blob/5.0.2/docs/NEWS) for details, or even read the commit [history](https://github.com/ophian/styx/commits/5.0.2) for more. See [download](https://github.com/ophian/styx/releases/tag/5.0.2).
 
