@@ -3569,7 +3569,7 @@ die Variable <code class="smarty">{$ENTRIES}</code> mittels der Datei <code>entr
             <span class="sub-box">
                 Gibt an, ob das Menü der Seitenleiste im Backend-Bereich eingebunden werden
                 soll. Mittels der URL-Variable
-                <code>serendipity_admin.php?serendipity[noBanner]=true</code> können
+                <code>serendipity_admin.php?serendipity[noSidebar]=true</code> können
                 Plugins oder andere Bestandteile des Backends bestimmen, ob dieses Menü
                 aktiviert oder deaktiviert werden soll. Enthält <code class="item smarty">{$admin_vars.no_sidebar}</code>
                 den Wert <code>true</code>, werden alle Menüpunkte versteckt.
