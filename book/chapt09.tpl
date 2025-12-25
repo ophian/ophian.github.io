@@ -3596,7 +3596,7 @@ die Variable <code class="smarty">{$ENTRIES}</code> mittels der Datei <code>entr
             </span>
             <span class="sub-box">
                 Gibt an, dass weder der Kopf-, noch die Seiten- und Fußleiste im Backend-Bereich
-                eingebunden werden sollen.
+                eingebunden werden sollen. Dies verkürzt den GET URI string.
                 Mittels der URL-Variable
                 <code>serendipity_admin.php?serendipity[popupContent]=true</code> können
                 Plugins oder andere Bestandteile des Backends bestimmen, das alle drei Bereiche
