@@ -40330,6 +40330,20 @@ die Variable <code class="smarty">{$ENTRIES}</code> mittels der Datei <code>entr
             </span>
         </span>
 
+        <span class="box"><code class="sub-item smarty">{$admin_vars.no_footer}</code>
+            <span class="sub-box">
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Boolean</code></span>
+            </span>
+            <span class="sub-box">
+                Gibt an, ob die Fußleiste im Backend-Bereich eingebunden werden soll.
+                Mittels der URL-Variable
+                <code>serendipity_admin.php?serendipity[noFooter]=true</code> können
+                Plugins oder andere Bestandteile des Backends bestimmen, ob dieses Menü
+                aktiviert oder deaktiviert werden soll. Enthält <code class="item smarty">{$admin_vars.no_fgooter}</code>
+                den Wert <code>true</code>, wird die Fußleisted des Backends versteckt.
+            </span>
+        </span>
+
         <span class="box"><code class="sub-item smarty">{$admin_vars.post_action}</code>
             <span class="sub-box">
                 <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Zeichenkette</code></span>
