@@ -3585,8 +3585,23 @@ die Variable <code class="smarty">{$ENTRIES}</code> mittels der Datei <code>entr
                 Mittels der URL-Variable
                 <code>serendipity_admin.php?serendipity[noFooter]=true</code> können
                 Plugins oder andere Bestandteile des Backends bestimmen, ob dieses Menü
-                aktiviert oder deaktiviert werden soll. Enthält <code class="item smarty">{$admin_vars.no_fgooter}</code>
-                den Wert <code>true</code>, wird die Fußleisted des Backends versteckt.
+                aktiviert oder deaktiviert werden soll. Enthält <code class="item smarty">{$admin_vars.no_footer}</code>
+                den Wert <code>true</code>, wird die Fußleiste des Backends versteckt.
+            </span>
+        </span>
+
+        <span class="box"><code class="sub-item smarty">{$admin_vars.popup_content}</code>
+            <span class="sub-box">
+                <span class="smarty-type"><em>Variablentyp:</em> <code class="type">Boolean</code></span>
+            </span>
+            <span class="sub-box">
+                Gibt an, dass weder der Kopf-, noch die Seiten- und Fußleiste im Backend-Bereich
+                eingebunden werden sollen.
+                Mittels der URL-Variable
+                <code>serendipity_admin.php?serendipity[popupContent]=true</code> können
+                Plugins oder andere Bestandteile des Backends bestimmen, das alle drei Bereiche
+                zugleich deaktiviert werden sollen. Enthält <code class="item smarty">{$admin_vars.popup_content}</code>
+                den Wert <code>true</code>, wird nur der eigentliche content im Popup angezeigt.
             </span>
         </span>
 
