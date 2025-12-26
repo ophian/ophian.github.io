@@ -407,6 +407,7 @@ print_r($entries);
   <li><code>$serendipity['GET']['noBanner']</code>: Boolean to indicate if the Backend should show the banner</li>
   <li><code>$serendipity['GET']['noSidebar']</code>: Boolean to indicate if the Backend should show the menu sidebar</li>
   <li><code>$serendipity['GET']['noFooter']</code>: Boolean to indicate if the Backend should show the footer</li>
+  <li><code>$serendipity['GET']['popupContent']</code>: Boolean. A shortcut for the last three to not apply all-in-one. [Styx 5.1+]</li>
 </ul>
 
 <p>Note that a parameter like “index.php?serendipity[subpage]=XXX” gets converted to “$serendipity['GET']['subpage']=XXX”. But “index.php?subpage=YYY” will not exist in “$serendipity['GET']” due to it’s missing prefix.</p>
