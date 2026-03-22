@@ -6453,8 +6453,8 @@ Referrer-Statistik übernommen.</span>
     <span class="box">
         Wenn Ihr Webserver in einer anderen Zeitzone als Ihr eigener Computer
         steht, kann es zu einem Zeitversatz kommen. Mir dieser Auswahl werden
-        Eintragszeiten nach Server-Zeitzone eintragen oder nicht. YES wählt
-        die Server-Zeitzone als Basis, NO wählt GMT.
+        Eintragszeiten nach Server-Zeitzone eintragen oder nicht. "Ja" wählt
+        die Server-Zeitzone als Basis, "Nein" wählt GMT.
     </span>
 </span>
 </p>
@@ -6676,7 +6676,7 @@ für die Blog Feeds fest.</p>
     </span>
 
     <span class="box">
-        E-Mail-Adresse des verantwortlichen Editors, falls vorhanden. [RSS 2.0]
+        E-Mail-Adresse des verantwortlichen Redakteurs, falls vorhanden. [RSS 2.0]
     </span>
 </span>
 </p>
@@ -6812,13 +6812,13 @@ für die Mediathek und die Vorschaubild-Erzeugung fest.</p>
         Wenn auf Ihrem Webserver die Software ImageMagick [*]
         <span class="footnote"><i class="fa fa-info-circle"></i>
         <a href="https://imagemagick.org/index.php" target="_blank" rel="noopener">https://imagemagick.org/</a></span><!-- footnote -->
-        installiert ist, können Sie diese Software zur Erstellung und Konvertierung von
-        Vorschaubildern benutzen.
+        als Binary oder als Imagick Modul installiert ist, können Sie diese Software
+        zur Erstellung und Konvertierung von Vorschaubildern benutzen.
     </span>
 
     <span class="box">
         Ist ImageMagick nicht aktiviert, kann Serendipity auch die PHP-Bibliothek
-        <code>gdlib</code> (für JPG, PNG, GIF, WBMP, WebP, XBM und XPM Dateien) einsetzen.
+        <code>gdlib</code> (für JPG, PNG, GIF, WBMP, AVIF, WebP, XBM und XPM Dateien) einsetzen.
         Jede dieser Bildverarbeitungsbibliotheken hat ihre Vor- und Nachteile.
         Sowohl GD als auch ImageMagick bieten einige grundlegende Funktionen wie:
         - Größenanpassung und Zuschneiden von Bildern, - Erstellen von Bildern,
@@ -6988,7 +6988,7 @@ Internet nicht geeignet sind.</span>
         Mittels Javascript werden Bilder beim Upload an die gewählte(n)
         Maximal-Größe(n) angepasst. Wenn aktiv, wird Ajax für den Bildupload
         verwendet, was auch zur Entfernung des "Eigenschaften angeben"-
-        Buttons führt. Dieses muss dann separat geschehen.
+        Buttons führt. Diese können dann nur separat angepasst werden.
     </span>
 
     <span class="box">
