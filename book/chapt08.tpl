@@ -340,41 +340,6 @@ Sie können Trackbacks zentral deaktivieren, indem Sie die Variable
 
 </section><!-- section.sub end -->
 
-<section id="U813" class="sub">
-<span class="u-toc">8.1.3 - Plugin: Einträge ankündigen (XML-RPC Pings)</span>
-
-<h3 class="subsection" id="plugin-einträge-ankündigen-xml-rpc-pings">Plugin: Einträge ankündigen (XML-RPC Pings)</h3>
-
-<p class="tagging invisible">
-<span class="tag-box invisible">
-    <span class="inline-tag">Eintrag!ankündigen</span>
-    <span class="inline-tag">XML-RPC!Pings</span>
-    <span class="inline-tag">Webservices</span>
-</span>
-</p>
-
-<p>Zusätzlich zu Trackbacks und Pingbacks gibt es ein Angebot an Webservices, die
-regelmäßig Weblogs indizieren und automatisch miteinander verketten. Der
-bekannteste Dienst war früher
-<span class="tag-box invisible">
-    <span class="inline-tag">Technorati</span>
-    <span class="inline-tag">Ranking</span>
-</span>
-Technorati, das unter anderem auch die <em>Wichtigkeit</em> von Blogs auswertete, indem es
-Blogs hochrangig einstufte, wenn diese besonders häufig zitiert wurden.</p>
-
-<p>Derartige Webservices durchsuchen üblicherweise (wie Google) regelmäßig Ihr Blog.
-Damit ein Service aber sofort bei neuen Einträgen von Ihnen tätig werden kann,
-müssen Sie dafür sorgen, dass der Webservice kontaktiert wird, sobald Sie einen
-Eintrag speichern.</p>
-
-<p>Das Plugin <em>Einträge ankündigen</em> (siehe Seite <span class="pageref"><a href="#weblogping">weblogping</a></span>)
-kann dies für Sie erledigen. Mittels einer XML-RPC-Schnittstelle kann es einen
-sogenannten Ping senden, der dem Webservice mitteilt: <em>“Guck mal, hier
-gibt's was Neues”</em>.</p>
-
-</section><!-- section.sub end -->
-
 <section id="U814" class="sub">
 <span class="u-toc">8.1.4 - Trackbacks und Pingbacks empfangen</span>
 

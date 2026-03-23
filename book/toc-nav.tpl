@@ -214,7 +214,6 @@
  <li class="sct-sub"><span class="toc-sub">6.3.32</span> <a class="sidebar-nav-item" href="#serendipity_event_typesetbuttons">Sonderzeichen/Erweiterte Buttons für Non-WYSIWYG serendipity_event_typesetbuttons</a></li>
  <li class="sct-sub"><span class="toc-sub">6.3.33</span> <a class="sidebar-nav-item" href="#serendipity_event_userprofiles">Benutzerprofile serendipity_event_userprofiles</a></li>
  <li class="sct-sub"><span class="toc-sub">6.3.34</span> <a class="sidebar-nav-item" href="#serendipity_event_versioning">Versioning of entries serendipity_event_versioning</a></li>
- <li class="sct-sub"><span class="toc-sub">6.3.35</span> <a class="sidebar-nav-item" href="#serendipity_event_weblogping">Einträge ankündigen serendipity_event_weblogping</a></li>
  <li class="sct-sub"><span class="toc-sub">6.3.36</span> <a class="sidebar-nav-item" href="#serendipity_event_wrapurl">WrapURL serendipity_event_wrapurl</a></li>
  <li class="sct-sub"><span class="toc-sub">6.3.37</span> <a class="sidebar-nav-item" href="#serendipity_event_xmlrpc">Einträge via XML-RPC erstellen serendipity_event_xmlrpc</a></li>
 
@@ -255,7 +254,6 @@
  <li class="sct"><span class="toc">8.1</span> <a class="sidebar-nav-item" href="#S810">Einträge und Trackbacks</a>&nbsp;<a data-toggle="collapse" data-target="#collapse_S-8.1" href="#collapse_S-8.1"><i class="fa fa-caret-down"></i></a></li>
  <li class="sct-sub"><span class="toc-sub">8.1.1</span> <a class="sidebar-nav-item" href="#U811">Trackbacks und Pingbacks senden</a></li>
  <li class="sct-sub"><span class="toc-sub">8.1.2</span> <a class="sidebar-nav-item" href="#U812">Plugin: Trackbacks kontrollieren</a></li>
- <li class="sct-sub"><span class="toc-sub">8.1.3</span> <a class="sidebar-nav-item" href="#U813">Plugin: Einträge ankündigen (XML-RPC Pings)</a></li>
  <li class="sct-sub"><span class="toc-sub">8.1.4</span> <a class="sidebar-nav-item" href="#U814">Trackbacks und Pingbacks empfangen</a></li>
  <li class="sct-sub"><span class="toc-sub">8.1.5</span> <a class="sidebar-nav-item" href="#U815">Trackback- und Kommentar-Spam</a></li>
  <li class="sct"><span class="toc">8.2</span> <a class="sidebar-nav-item" href="#S820">Wartung der Datenbank und der Dateien</a>&nbsp;<a data-toggle="collapse" data-target="#collapse_S-8.2" href="#collapse_S-8.2"><i class="fa fa-caret-down"></i></a></li>
