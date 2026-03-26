@@ -199,9 +199,7 @@
   </li>
   <li class="sub-toc"><a href="#docs-blog-editorsinterfaces" id="styx-toc-docs-blog-editorsinterfaces">Blog editors/interfaces</a>
     <ul>
-      <li><a href="#docs-support-for-xmlrpc-requests" id="styx-toc-docs-support-for-xmlrpc-requests">Support for XML-RPC requests</a></li>
       <li><a href="#docs-popfetcher-posting-new-entries-by-email" id="styx-toc-docs-popfetcher-posting-new-entries-by-email">POPfetcher: Posting new entries by email</a></li>
-      <li><a href="#docs-windows-live-writer-setup" id="styx-toc-docs-windows-live-writer-setup">Windows Live Writer setup</a></li>
     </ul>
   </li>
 </ul>
@@ -913,26 +911,6 @@ function smarty_function_mydir($params, Smarty_Internal_Template $template) {
 
 <h3 id="docs-blog-editorsinterfaces">Blog editors/interfaces</h3>
 
-<h4 id="docs-support-for-xmlrpc-requests">Support for XML-RPC requests</h4>
-
-<div>
-    <p>Serendipity supports XML-RPC through the <code>serendipity_event_xmlrpc</code> XML-RPC plugin.</p>
-
-    <p>Start the application and make the following settings in the “account wizard”:</p>
-
-    <ul>
-      <li>Blogging Service = Custom Blog</li>
-      <li>Blog System = Movable Type</li>
-      <li>Server API URL = <code>http://{yourblog}/serendipity_xmlrpc.php</code></li>
-      <li>User Name = {your Serendipity user name}</li>
-      <li>Password = {your Serendipity password}</li>
-      <li>click on “next”</li>
-      <li>follow the further description</li>
-    </ul>
-
-    <span class="faq-up"><a class="navigator" href="#faq-top">top</a></span>
-</div>
-
 <h4 id="docs-popfetcher-posting-new-entries-by-email">POPfetcher: Posting new entries by email</h4>
 
 <div>
@@ -951,22 +929,6 @@ function smarty_function_mydir($params, Smarty_Internal_Template $template) {
     <p>You could hire an army of monkeys to visit that special URL regularly. Or you could use the “cron” utility. Cron acts like an army of monkeys that perform tasks as often as you tell them to. Any cron facility will do; some webservers offer them, and every Linux installation has cron.</p>
 
     <p>Just configure cron (or the crontab, if that’s how your cron utility works) to visit the <code>popfetcher_poll</code> URL every hour with a lightweight browser, such as lynx or wget.</p>
-
-    <span class="faq-up"><a class="navigator" href="#faq-top">top</a></span>
-</div>
-
-<h4 id="docs-windows-live-writer-setup">Windows Live Writer setup</h4>
-
-<div>
-    <p>Serendipity supports Windows Live Writer through the <code>serendipity_event_xmlrpc</code> XML-RPC plugin. There is now a Serendipity preset in Windows Live Writer! Unfortunately, it does not configure Live Writer properly to interact with Serendipity.</p>
-
-    <p>Thanks to Xeno Phage from the <a href="https://board.s9y.org" target="_new">Serendipity forums</a> for the following information:</p>
-
-    <ul>
-      <li>Install Windows Live Writer and set your blog up as “Custom (Moveable Type API)”. Make sure you have the xmlrpc plugin installed in Serendipity.</li>
-      <li>When it asks for the URL to post, it will be something like this: <code>http://{full path to Serendipity}/serendipity_xmlrpc.php</code></li>
-      <li>Give it your login info and you’re good to go. Categories, keywords (tags), and trackbacks all seem to work fine.</li>
-    </ul>
 
     <span class="faq-up"><a class="navigator" href="#faq-top">top</a></span>
 </div>
