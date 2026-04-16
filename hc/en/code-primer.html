@@ -384,7 +384,7 @@ print_r($entries);
   <li><code>$serendipity['logger']</code>: The central logger object (only exists if logging is enabled)</li>
   <li><code>$serendipity['uriArguments']</code>: Contains the currently parsed URI arguments to a page call</li>
   <li><code>$serendipity['lang']</code>: Which language is currently loaded</li>
-  <li><code>$serendipity['charset']</code>: Which charset is currently loaded</li>
+  <li><code>$serendipity['charset']</code>: Which charset is currently loaded. A legacy handler for the old UTF-8/ directory</li>
 </ul>
 
 <p>Some important URL variables (note that if those specific variables are submitted via POST they get automatically merged into the GET array and acts like a $_REQUEST superglobal):</p>
