@@ -52236,6 +52236,13 @@ Sprachdatei dann mit folgendem Code am Anfang der PHP-Datei:</p>
     @serendipity_plugin_api::load_language(dirname(__FILE__));
 </code></pre>
 
+<p>Seit Styx 5.0 wird auf die Unterscheidung von ASCII und UTF-8 Sprachdateien
+ganz verzichtet. Alles ist UTF-8 und lebt nur noch im root Verzeichnis des Plugins
+oder Themes. Insofern ist die Variable eigentlich obsolet, und hat nur noch in
+Migrationshintergründen eine Funktion. In themes und Plugins kümmert sich die
+<code>@serendipity_plugin_api::load_language(dirname(__FILE__));</code> Zeile</p>
+um den richtigen Ort und Zeichensatz.
+
 <p>Es wird bei Plugins und Themes folgende Methodik angewendet:
 Zuerst wird die <code>lang</code>-Datei der gesuchten Sprache, mit der in der
 <code>LANG_CHARSET</code> definierten Sprache, vorzugsweise <code>UTF-8 kodiert</code>
