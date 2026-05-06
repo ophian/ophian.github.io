@@ -24,7 +24,7 @@ Read the ChangeLog, please.
   - Update to jQuery v4.0.0 final
   - Finally finishes the language UTF-8 only migration which now removes all remaining and existing directories/files as announced several times
   - Improved [ pure ] theme styles
-  - and many more 😎 fixes and feature...
+  - and many more 😎 fixes and features...
 
 Happy Upgrade ! 😃
 
