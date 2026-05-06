@@ -1,3 +1,5 @@
+---
+layout: post
 layout: post
 title: Serendipity Styx 5.1.0 release
 last_modified_at: 2026-05-06T17:40:00+00:00
