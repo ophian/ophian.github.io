@@ -71,7 +71,7 @@ This unexpected convergence opens up a fascinating path for future development. 
 
 ### 🛠 Deprecation and Removal of the Legacy default-php and default-xml Theme Architectures
 
-As part of the Styx 5.2 backend modernization and cleanup initiative, support for the legacy default-php and default-xml theme system—along with its underlying core hooks and global variable emulations—has been officially deprecated and removed.
+As part of the Styx 5.2 backend modernization and cleanup initiative, support for the legacy default-php and default-xml theme system - along with its underlying core hooks and global variable emulations - has been officially deprecated and removed.
 
 Originally introduced decades ago as an alternative template engine approach, this mechanism has long been superseded by robust Smarty templates and modern theme structures. Removing it purges significant dead weight from the core, making the backend codebase cleaner, faster, and much easier to maintain.
 
