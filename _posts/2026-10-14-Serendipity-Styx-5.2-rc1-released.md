@@ -36,7 +36,7 @@ With Styx 5.2.0, we are taking a major evolutionary step forward. This release m
 
   - Smart Context Separation: Media rendering now cleanly distinguishes between Library / Manage view modes and Insert / Selection dialogs.
 
-  - Clean Smarty Templates: Removed redundant |default modifier chains in templates due to standardized, fallback-guaranteed PHP variable preparation.
+  - Clean Smarty Templates: Removed redundant default modifier chains in templates due to standardized, fallback-guaranteed PHP variable preparation.
 
   - Complete Format Support: Native multi-format fallback chains (AVIF, WebP, legacy formats, non-image media, and hotlinked files) are handled transparently.
 
@@ -75,7 +75,7 @@ As part of the Styx 5.2 backend modernization and cleanup initiative, support fo
 
 Originally introduced decades ago as an alternative template engine approach, this mechanism has long been superseded by robust Smarty templates and modern theme structures. Removing it purges significant dead weight from the core, making the backend codebase cleaner, faster, and much easier to maintain.
 
-### Other Changes, Maintenance and Developments
+### 🌟 Other Changes, Maintenance Stuff and further Developments
 Serendipity Styx will bring along lots of other improvements, which will be exemplarily listed when ready in the full release Announcement. For now please just read the changelog!
 
 If you run into issues please file a [core issue](https://github.com/ophian/styx/issues) or [plugin issue](https://github.com/ophian/additional_plugins/issues) over at GitHub or mention them in the [discussions](https://github.com/ophian/styx/discussions). Just paste the error exception with the stack trace and explain what you did to get there, so it is easy to reproduce. Normally you can just resume with your work afterwards by going back in your browsers history or by returning to the start page of your Backend or Frontend.
