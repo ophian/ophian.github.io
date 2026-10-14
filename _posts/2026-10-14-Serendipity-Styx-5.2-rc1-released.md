@@ -52,14 +52,14 @@ With Styx 5.2.0, we are taking a major evolutionary step forward. This release m
   - Clicking the image (or using middle-click) directly opens the original file in a new browser tab, bypassing manual context menu interactions.
 
 ### 🛠 Breaking Changes & Migration Notes
-Browser Requirements: Styx 5.2 requires a modern browser supporting CSS :has() and native HTML <dialog> elements (all current versions of Chrome, Firefox, Safari, and Edge).
+  - Browser Requirements: Styx 5.2 requires a modern browser supporting CSS :has() and native HTML <dialog> elements (all current versions of Chrome, Firefox, Safari, and Edge).
 
-Deprecations: Standalone legacy backend themes and Modernizr dependencies have been removed. Any custom backend overrides should align with the updated default theme structure.
+  - Deprecations: Standalone legacy backend themes and Modernizr dependencies have been removed. Any custom backend overrides should align with the updated default theme structure.
 
 ### ⚡ Performance Improvements
-Lighter Payload: Dropped multiple third-party JavaScript files from the administration pipeline.
+  - Lighter Payload: Dropped multiple third-party JavaScript files from the administration pipeline.
 
-Faster Rendering: Direct PHP-side media preparation reduces Smarty parsing overhead on image-heavy media library pages.
+  - Faster Rendering: Direct PHP-side media preparation reduces Smarty parsing overhead on image-heavy media library pages.
 
 ### Closing the Backend Refactoring Cycle: A Surprising Twist for the Default Theme
 As the comprehensive backend refactoring of the standard Styx backend theme drew to a close, it initially looked as though the "old" default backend theme would become completely obsolete. However, quite the opposite turned out to be true.
