@@ -8,7 +8,7 @@ N° 2026/03 - The new Serendipity Styx 5.2-rc1 Release Candidate of new release 
 
 Requirements: At least PHP 8.2 !!
 
-Better PHP 8.5 !! Preparations for upcoming PHP 8.6 will follow next.
+Better use PHP 8.5 oin latest revisions !! Preparations for upcoming PHP 8.6 will follow next.
 
 ### 5.2-rc1 - A Release-Test-Candidate of new Serendipity Styx 5.2 heading to final release
 
@@ -21,35 +21,35 @@ With Styx 5.2.0, we are taking a major evolutionary step forward. This release m
 
 ### 🌟 Highlights & Major Changes
 #### 💎 Clean Slate: Modernized Default Backend Theme
-We have officially retired legacy polyfills and outdated front-end dependencies (such as Modernizr and legacy JavaScript plugins).
+  - We have officially retired legacy polyfills and outdated front-end dependencies (such as Modernizr and legacy JavaScript plugins).
 
-Native Web Standards: Styx 5.2 completely relies on modern browser capabilities, including CSS Grid, Flexbox, native <dialog> elements, CSS :has() relational selectors, and container queries.
+  - Native Web Standards: Styx 5.2 completely relies on modern browser capabilities, including CSS Grid, Flexbox, native <dialog> elements, CSS :has() relational selectors, and container queries.
 
-Unified Maintenance: The legacy backend footprint has been consolidated into a clean, single-source default administration theme. No more maintaining parallel legacy stylesheets or duplicate templates.
+  - Unified Maintenance: The legacy backend footprint has been consolidated into a clean, single-source default administration theme. No more maintaining parallel legacy stylesheets or duplicate templates.
 
-Drastic Asset Reduction: Unnecessary JavaScript libraries and polyfills have been removed, resulting in significantly faster backend load times and a lightweight memory footprint.
+  - Drastic Asset Reduction: Unnecessary JavaScript libraries and polyfills have been removed, resulting in significantly faster backend load times and a lightweight memory footprint.
 
 ### 🎨 Isolated & Robust Media Backend Architecture
-Media rendering logic has been completely decoupled from front-end Smarty templates to eliminate variable scope bleed and edge-case rendering bugs:
+  - Media rendering logic has been completely decoupled from front-end Smarty templates to eliminate variable scope bleed and edge-case rendering bugs:
 
-Centralized PHP Helper: All media processing logic now resides in serendipity_prepare_media_file(), ensuring clean, predictable data structures across all view contexts.
+  - Centralized PHP Helper: All media processing logic now resides in serendipity_prepare_media_file(), ensuring clean, predictable data structures across all view contexts.
 
-Smart Context Separation: Media rendering now cleanly distinguishes between Library / Manage view modes and Insert / Selection dialogs.
+  - Smart Context Separation: Media rendering now cleanly distinguishes between Library / Manage view modes and Insert / Selection dialogs.
 
-Clean Smarty Templates: Removed redundant |default modifier chains in templates due to standardized, fallback-guaranteed PHP variable preparation.
+  - Clean Smarty Templates: Removed redundant |default modifier chains in templates due to standardized, fallback-guaranteed PHP variable preparation.
 
-Complete Format Support: Native multi-format fallback chains (AVIF, WebP, legacy formats, non-image media, and hotlinked files) are handled transparently.
+  - Complete Format Support: Native multi-format fallback chains (AVIF, WebP, legacy formats, non-image media, and hotlinked files) are handled transparently.
 
 ### 🔍 Responsive Modal Previews & Smart Zoom
-Media previews and lightbox overlays now offer a seamless, desktop-class preview experience without interrupting your workflow:
+  - Media previews and lightbox overlays now offer a seamless, desktop-class preview experience without interrupting your workflow:
 
-Dynamic Modal Scaling: Utilizing native CSS :has() selectors, modal containers automatically adjust their viewport bounds (90dvw / 80dvh) when containing large media figures.
+  - Dynamic Modal Scaling: Utilizing native CSS :has() selectors, modal containers automatically adjust their viewport bounds (90dvw / 80dvh) when containing large media figures.
 
-Smart Zoom & Direct Tab Opening: For images whose original dimensions exceed the rendered modal preview by more than 15%:
+  - Smart Zoom & Direct Tab Opening: For images whose original dimensions exceed the rendered modal preview by more than 15%:
 
-An intuitive zoom-in cursor visually cues that a higher resolution is available.
+  - An intuitive zoom-in cursor visually cues that a higher resolution is available.
 
-Clicking the image (or using middle-click) directly opens the original file in a new browser tab, bypassing manual context menu interactions.
+  - Clicking the image (or using middle-click) directly opens the original file in a new browser tab, bypassing manual context menu interactions.
 
 ### 🛠 Breaking Changes & Migration Notes
 Browser Requirements: Styx 5.2 requires a modern browser supporting CSS :has() and native HTML <dialog> elements (all current versions of Chrome, Firefox, Safari, and Edge).
