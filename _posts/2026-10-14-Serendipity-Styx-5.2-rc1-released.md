@@ -1,14 +1,14 @@
 ---
 layout: post
 title: Serendipity Styx 5.2-rc1 release
-last_modified_at: 2026-10-14T12:10:00+00:00
+last_modified_at: 2026-10-14T12:58:00+00:00
 ---
 
 N° 2026/03 - The new Serendipity Styx 5.2-rc1 Release Candidate of new release <img class="php8" src="/i/b/logo_php8_5.svg" alt="php8.5" width="160" height="48">
 
 Requirements: At least PHP 8.2 !!
 
-Better use PHP 8.5 oin latest revisions !! Preparations for upcoming PHP 8.6 will follow next.
+Better use PHP 8.5 in latest revisions !! Preparations for upcoming PHP 8.6 will follow next.
 
 ### 5.2-rc1 - A Release-Test-Candidate of new Serendipity Styx 5.2 heading to final release
 
@@ -62,21 +62,20 @@ With Styx 5.2.0, we are taking a major evolutionary step forward. This release m
   - Faster Rendering: Direct PHP-side media preparation reduces Smarty parsing overhead on image-heavy media library pages.
 
 ### 📕Closing the Backend Refactoring Cycle: A Surprising Twist for the Default Theme
-As the comprehensive backend refactoring of the standard Styx backend theme drew to a close, it initially looked as though the "old" default backend theme would become completely obsolete. However, quite the opposite turned out to be true.
+  - As the comprehensive backend refactoring of the standard Styx backend theme drew to a close, it initially looked as though the "old" default backend theme would become completely obsolete. However, quite the opposite turned out to be true.
 
-By upgrading and refining the fallback template files in default/admin, the default theme was effectively compelled to adopt years of Styx evolution, mirroring the entire refactoring process. This revitalization has brought the default theme up to par, meaning the primary difference between the two themes today boils down almost exclusively to Styx’s native dark mode.
+  - By upgrading and refining the fallback template files in default/admin, the default theme was effectively compelled to adopt years of Styx evolution, mirroring the entire refactoring process. This revitalization has brought the default theme up to par, meaning the primary difference between the two themes today boils down almost exclusively to Styx’s native dark mode.
 
 ### 📡Looking Ahead: A Streamlined Future
-This unexpected convergence opens up a fascinating path for future development. In a subsequent development cycle, we could leverage the default theme to handle the entire light-mode base, allowing the Styx theme to be simplified and streamlined into a dedicated, dark-mode-only extension.
+  - This unexpected convergence opens up a fascinating path for future development. In a subsequent development cycle, we could leverage the default theme to handle the entire light-mode base, allowing the Styx theme to be simplified and streamlined into a dedicated, dark-mode-only extension.
 
 ### 🛠 Deprecation and Removal of the Legacy default-php and default-xml Theme Architectures
+  - As part of the Styx 5.2 backend modernization and cleanup initiative, support for the legacy default-php and default-xml theme system - along with its underlying core hooks and global variable emulations - has been officially deprecated and removed.
 
-As part of the Styx 5.2 backend modernization and cleanup initiative, support for the legacy default-php and default-xml theme system - along with its underlying core hooks and global variable emulations - has been officially deprecated and removed.
-
-Originally introduced decades ago as an alternative template engine approach, this mechanism has long been superseded by robust Smarty templates and modern theme structures. Removing it purges significant dead weight from the core, making the backend codebase cleaner, faster, and much easier to maintain.
+  - Originally introduced decades ago as an alternative template engine approach, this mechanism has long been superseded by robust Smarty templates and modern theme structures. Removing it purges significant dead weight from the core, making the backend codebase cleaner, faster, and much easier to maintain.
 
 ### 🌟 Other Changes, Maintenance Stuff and further Developments
-Serendipity Styx will bring along lots of other improvements, which will be exemplarily listed when ready in the full release Announcement. For now please just read the changelog!
+  - Serendipity Styx will bring along lots of other improvements, which will be exemplarily listed when ready in the full release Announcement. For now please just read the changelog!
 
 If you run into issues please file a [core issue](https://github.com/ophian/styx/issues) or [plugin issue](https://github.com/ophian/additional_plugins/issues) over at GitHub or mention them in the [discussions](https://github.com/ophian/styx/discussions). Just paste the error exception with the stack trace and explain what you did to get there, so it is easy to reproduce. Normally you can just resume with your work afterwards by going back in your browsers history or by returning to the start page of your Backend or Frontend.
 
