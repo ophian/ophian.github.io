@@ -61,15 +61,15 @@ With Styx 5.2.0, we are taking a major evolutionary step forward. This release m
 
   - Faster Rendering: Direct PHP-side media preparation reduces Smarty parsing overhead on image-heavy media library pages.
 
-### Closing the Backend Refactoring Cycle: A Surprising Twist for the Default Theme
+### 📕Closing the Backend Refactoring Cycle: A Surprising Twist for the Default Theme
 As the comprehensive backend refactoring of the standard Styx backend theme drew to a close, it initially looked as though the "old" default backend theme would become completely obsolete. However, quite the opposite turned out to be true.
 
 By upgrading and refining the fallback template files in default/admin, the default theme was effectively compelled to adopt years of Styx evolution, mirroring the entire refactoring process. This revitalization has brought the default theme up to par, meaning the primary difference between the two themes today boils down almost exclusively to Styx’s native dark mode.
 
-### Looking Ahead: A Streamlined Future
+### 📡Looking Ahead: A Streamlined Future
 This unexpected convergence opens up a fascinating path for future development. In a subsequent development cycle, we could leverage the default theme to handle the entire light-mode base, allowing the Styx theme to be simplified and streamlined into a dedicated, dark-mode-only extension.
 
-### Deprecation and Removal of the Legacy default-php and default-xml Theme Architectures
+### 🛠 Deprecation and Removal of the Legacy default-php and default-xml Theme Architectures
 
 As part of the Styx 5.2 backend modernization and cleanup initiative, support for the legacy default-php and default-xml theme system—along with its underlying core hooks and global variable emulations—has been officially deprecated and removed.
 
